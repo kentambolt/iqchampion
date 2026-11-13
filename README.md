@@ -17,6 +17,12 @@ Open `index.html` in a browser; no build, server, account, or database is requir
 - Review and finish shows the unanswered count and asks for confirmation. Even when
   all questions are answered, the test stays open for review until explicitly finished
   or timed out. Unanswered questions count as incorrect.
+- After completion or timeout, Review answers shows a read-only overview of all 36
+  questions as correct, incorrect or unanswered. Select a question or use Previous/Next
+  to compare the submitted answer with the correct image and the original pattern.
+  No answer is shown for skipped questions; their correct answer is still available.
+  Reviewing never updates saved answers, timestamps or scores. Reload returns to the
+  saved result, from which the review can be reopened, including older saved attempts.
 - The original start timestamp, answers and current question are saved after starting,
   answering and navigating in `localStorage` (`iqchampion.attempt.v1`, payload version 2).
   Reloading resumes the same question with the original deadline; time spent with the
@@ -57,7 +63,7 @@ The historical duration field does not establish that identical timing rules wer
 enforced. The sample has not been established as representative. Results therefore
 show raw score and participant percentile, without claiming a validated IQ estimate.
 The old percentile conversion files are retained as historical data and are not loaded.
-Practice and the ability to return to questions may change performance relative to
+Practice, seeing the correct answers and the ability to return to questions may change performance relative to
 historical attempts; that limitation is disclosed in the result text.
 
 ## Verification
@@ -71,7 +77,8 @@ node --test checks/app.test.cjs
 Checks cover the reference filter, low/partial/perfect scores, ties, late answers,
 timeout, restart, practice isolation, reload before/after expiry, completed results,
 invalid saves, storage failures, skipped questions, answer replacement, overview status,
-manual completion, version 1 migration and stale submissions across tabs. They use a simulated clock and
+manual completion, version 1 migration, read-only post-test review, exact answer-image
+mapping, review after timeout/reload and stale submissions across tabs. They use a simulated clock and
 DOM, so they do not replace visual browser testing. Check the intro, questions and
 results at 320, 375, 760 and 1280 CSS pixels, including keyboard navigation.
 

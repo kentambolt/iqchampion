@@ -10,7 +10,7 @@ function load(options = {}) {
     hidden: false, textContent: '', children: [], events: {},
     attributes: {}, classList: { toggle() {} }, focus() {},
     setAttribute(name, value) { this.attributes[name] = value; },
-    replaceChildren() { this.children = []; },
+    replaceChildren() { this.children = []; this.textContent = ''; this.innerHTML = ''; },
     append(child) { this.children.push(child); },
     addEventListener(event, handler) { this.events[event] = handler; }
   });
@@ -325,4 +325,98 @@ test('new save validation rejects invalid positions and answer arrays', () => {
     assert.match(app.element('storage-notice').textContent, /could not be restored/);
     assert.equal(app.intervals.size, 0);
   }
+});
+
+test('answer review is unavailable before starting and while an attempt is active', () => {
+  const app = load();
+  app.run('show_answer_review(1)');
+  assert.equal(app.element('review-correct').children.length, 0);
+  assert.equal(app.store.size, 0);
+  app.run('start_test(); show_answer_review(1)');
+  assert.equal(app.element('answer-review').hidden, true);
+  assert.equal(app.element('review-correct').children.length, 0);
+  assert.equal(app.run('finished'), false);
+});
+
+test('review classifies every question and shows the exact saved answer and correct image', () => {
+  const app = load();
+  app.run('start_test(); submit_answer(1, get_hash(1, 1, true)); submit_answer(2, get_hash(2, 5, true)); go_to_question(36); submit_answer(36, get_hash(36, 1, true)); request_finish(); finish_test(); show_answer_review(2);');
+  assert.equal(app.element('review-summary').textContent, '2 correct; 1 incorrect; 33 unanswered.');
+  assert.equal(app.element('score').textContent, '2 / 36 correct');
+  assert.match(app.element('review-outcome').textContent, /^Incorrect/);
+  assert.equal(app.element('review-selected').children[0].src, app.run('get_picture_path(2, 5, true)'));
+  assert.equal(app.element('review-correct').children[0].src, app.run('get_picture_path(2, 1, true)'));
+  assert.equal(app.element('review-pattern').innerHTML, app.run('question_markup(2)'));
+  const overview = app.element('review-overview').children;
+  assert.equal(overview.length, 36);
+  assert.equal(overview[0].attributes['aria-label'], 'Review question 1, correct');
+  assert.equal(overview[1].attributes['aria-label'], 'Review question 2, incorrect');
+  assert.equal(overview[1].attributes['aria-current'], 'step');
+  assert.equal(overview[2].attributes['aria-label'], 'Review question 3, unanswered');
+  overview[2].events.click();
+  assert.match(app.element('review-outcome').textContent, /^Unanswered/);
+  assert.equal(app.element('review-selected').textContent, 'No answer submitted');
+  assert.equal(app.element('review-selected').children.length, 0);
+  assert.equal(app.element('review-correct').children.length, 1);
+  app.run('show_answer_review(1)');
+  assert.match(app.element('review-outcome').textContent, /^Correct/);
+  assert.equal(app.element('review-selected').children[0].src, app.element('review-correct').children[0].src);
+  assert.equal(app.element('review-previous').disabled, true);
+  app.run('show_answer_review(36)');
+  assert.equal(app.element('review-next').disabled, true);
+});
+
+test('review navigation and attempted edits cannot change a completed score or saved attempt', () => {
+  const app = load();
+  app.run('start_test(); submit_answer(1, get_hash(1, 1, true)); request_finish(); finish_test();');
+  const before = app.store.get('iqchampion.attempt.v1');
+  const score = app.element('score').textContent;
+  app.element('answer-review-link').events.click();
+  app.element('review-next').events.click();
+  assert.equal(app.element('answer-review-title').textContent, 'Review question 2 / 36');
+  app.element('review-previous').events.click();
+  app.run('show_answer_review(0); show_answer_review(37); submit_answer(1, get_hash(1, 2, true)); go_to_question(3);');
+  assert.equal(app.element('answer-review-title').textContent, 'Review question 1 / 36');
+  app.element('review-back').events.click();
+  assert.equal(app.element('answer-review').hidden, true);
+  assert.equal(app.element('result').hidden, false);
+  assert.equal(app.element('score').textContent, score);
+  assert.equal(app.store.get('iqchampion.attempt.v1'), before);
+  assert.equal(app.intervals.size, 0);
+});
+
+test('expired attempts can be reviewed after reopening, with unanswered questions kept separate', () => {
+  const first = load();
+  first.run('start_test(); go_to_question(12); submit_answer(12, get_hash(12, 2, true));');
+  const reloaded = load({ store: first.store, now: 1000 + 40 * 60 * 1000 });
+  reloaded.run('show_answer_review(12)');
+  assert.equal(reloaded.element('answer-review').hidden, false);
+  assert.equal(reloaded.element('review-summary').textContent, '0 correct; 1 incorrect; 35 unanswered.');
+  assert.equal(reloaded.element('review-selected').children[0].src, reloaded.run('get_picture_path(12, 2, true)'));
+  const again = load({ store: first.store, now: 1000 + 41 * 60 * 1000 });
+  again.run('show_answer_review(12)');
+  assert.equal(again.element('review-summary').textContent, reloaded.element('review-summary').textContent);
+});
+
+test('previously completed version 1 results support review without a new attempt', () => {
+  const helper = load();
+  const saved = { version: 1, startedAt: 1000, answers: [helper.run('get_hash(1, 1, true)')], completed: true, timedOut: true };
+  const app = load({ store: new Map([['iqchampion.attempt.v1', JSON.stringify(saved)]]), now: 2500000 });
+  app.run('show_answer_review(1)');
+  assert.equal(app.element('review-summary').textContent, '1 correct; 0 incorrect; 35 unanswered.');
+  assert.equal(app.run('started_at'), 1000);
+  assert.equal(app.intervals.size, 0);
+});
+
+test('starting again or reconciling another tab hides the previous answer review', () => {
+  const first = load();
+  first.run('start_test(); request_finish(); finish_test(); show_answer_review(1)');
+  first.element('restart-link').events.click();
+  assert.equal(first.element('answer-review').hidden, true);
+  first.run('show_answer_review(1)');
+  const second = load({ store: first.store });
+  second.run('start_test()');
+  first.run('show_answer_review(1)');
+  assert.equal(first.element('answer-review').hidden, true);
+  assert.equal(first.run('finished'), false);
 });

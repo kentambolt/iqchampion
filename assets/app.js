@@ -7,6 +7,7 @@ const storage_key = 'iqchampion.attempt.v1';
 const reference_scores = time_and_scores.filter(row => row[0] > 60 && row[0] <= 2400);
 let answers = [];
 let current_question = 1;
+let review_question = 1;
 let started_at = null;
 let deadline = null;
 let timer_id = null;
@@ -76,6 +77,7 @@ function restore_attempt() {
   document.getElementById('front').hidden = true;
   document.getElementById('practice').hidden = true;
   document.getElementById('result').hidden = true;
+  document.getElementById('answer-review').hidden = true;
   document.getElementById('test').hidden = false;
   document.getElementById('finish-review').hidden = true;
   const legacy_complete = saved.version === 1 && saved.answers.length === total_questions;
@@ -94,6 +96,7 @@ function show_practice() {
   if (!finished) return;
   document.getElementById('front').hidden = true;
   document.getElementById('result').hidden = true;
+  document.getElementById('answer-review').hidden = true;
   document.getElementById('practice').hidden = false;
   document.getElementById('practice-feedback').textContent = 'This puzzle is unscored. You can try as many times as you like.';
   document.getElementById('practice-title').focus();
@@ -132,8 +135,7 @@ function preload_question(test_id) {
   }
 }
 
-function show_question(test_id) {
-  current_question = test_id;
+function question_markup(test_id) {
   let html = '';
   for (let row = 0; row < 4; row++) {
     html += '<div class="pattern-row">';
@@ -145,9 +147,14 @@ function show_question(test_id) {
     }
     html += '</div>';
   }
+  return html;
+}
+
+function show_question(test_id) {
+  current_question = test_id;
   const heading = document.getElementById('question-number');
   heading.textContent = `Question ${test_id} / ${total_questions}`;
-  document.getElementById('test-left').innerHTML = html;
+  document.getElementById('test-left').innerHTML = question_markup(test_id);
   const container = document.getElementById('test-right');
   container.replaceChildren();
   get_random_indexes(1, 9).forEach((pic_id, position) => {
@@ -173,6 +180,81 @@ function show_question(test_id) {
 
 function answered_count() {
   return answers.filter(answer => answer !== null).length;
+}
+
+function answer_status(test_id) {
+  const answer = answers[test_id - 1];
+  if (answer == null) return 'unanswered';
+  return answer === get_hash(test_id, 1, true) ? 'correct' : 'incorrect';
+}
+
+function show_answer_review(id = 1) {
+  restore_attempt();
+  // Finished is also true on the intro screen; require an actual completed attempt.
+  if (!finished || started_at === null || !Number.isInteger(id) || id < 1 || id > total_questions) return;
+  review_question = id;
+  document.getElementById('result').hidden = true;
+  document.getElementById('practice').hidden = true;
+  document.getElementById('answer-review').hidden = false;
+  const heading = document.getElementById('answer-review-title');
+  heading.textContent = `Review question ${id} / ${total_questions}`;
+  const counts = { correct: 0, incorrect: 0, unanswered: 0 };
+  for (let q = 1; q <= total_questions; q++) counts[answer_status(q)]++;
+  document.getElementById('review-summary').textContent =
+    `${counts.correct} correct; ${counts.incorrect} incorrect; ${counts.unanswered} unanswered.`;
+  const status = answer_status(id);
+  document.getElementById('review-outcome').textContent = {
+    correct: 'Correct — your answer matches the correct answer.',
+    incorrect: 'Incorrect — your answer differs from the correct answer.',
+    unanswered: 'Unanswered — no answer was submitted for this question.'
+  }[status];
+  document.getElementById('review-pattern').innerHTML = question_markup(id);
+  const selected = document.getElementById('review-selected');
+  selected.replaceChildren();
+  if (status === 'unanswered') {
+    selected.textContent = 'No answer submitted';
+  } else {
+    // Match the saved answer identity, never its shuffled position on screen.
+    const pic_id = Array.from({ length: 9 }, (_, i) => i + 1)
+      .find(pic => get_hash(id, pic, true) === answers[id - 1]);
+    const image = new Image();
+    image.src = get_picture_path(id, pic_id, true);
+    image.alt = 'Your submitted answer';
+    image.className = 'icon';
+    selected.append(image);
+  }
+  const correct = document.getElementById('review-correct');
+  correct.replaceChildren();
+  const correct_image = new Image();
+  correct_image.src = get_picture_path(id, 1, true);
+  correct_image.alt = 'Correct answer';
+  correct_image.className = 'icon';
+  correct.append(correct_image);
+  document.getElementById('review-previous').disabled = id === 1;
+  document.getElementById('review-next').disabled = id === total_questions;
+  const overview = document.getElementById('review-overview');
+  overview.replaceChildren();
+  const symbols = { correct: '✓', incorrect: '×', unanswered: '○' };
+  for (let q = 1; q <= total_questions; q++) {
+    const outcome = answer_status(q);
+    const button = document.createElement('button');
+    button.type = 'button';
+    button.className = 'question-link review-' + outcome;
+    button.textContent = `${q} ${symbols[outcome]}`;
+    button.setAttribute('aria-label', `Review question ${q}, ${outcome}`);
+    button.setAttribute('aria-current', q === id ? 'step' : 'false');
+    button.addEventListener('click', () => show_answer_review(q));
+    overview.append(button);
+  }
+  heading.focus();
+}
+
+function return_to_result() {
+  restore_attempt();
+  if (!finished || started_at === null) return;
+  document.getElementById('answer-review').hidden = true;
+  document.getElementById('result').hidden = false;
+  document.getElementById('result-title').focus();
 }
 
 function render_overview() {
@@ -296,6 +378,7 @@ function show_result(expired) {
   save_attempt();
   const result = calculate_score(answers, reference_scores);
   document.getElementById('test').hidden = true;
+  document.getElementById('answer-review').hidden = true;
   document.getElementById('result').hidden = false;
   document.getElementById('result-reason').textContent = expired ? 'Time is up. Your answers have been scored.' : 'Test completed.';
   document.getElementById('score').textContent = `${result.correct} / ${total_questions} correct`;
@@ -305,7 +388,7 @@ function show_result(expired) {
   document.getElementById('comparison').textContent = result.percentile === null ? ''
     : `Participants scoring lower: ${format_percent(result.below_percent)}%. Participants with the same score: ${format_percent(result.equal_percent)}%.`;
   document.getElementById('result-context').textContent =
-    `Reference group: ${reference_scores.length.toLocaleString('en-US')} historical attempts with recorded durations over one minute and up to 40 minutes. Participants were recruited through paid Facebook ads and chose to take the test. This self-selected group may differ from the general population; the direction and size of any difference are unknown. No population adjustment has been applied. The percentile places tied scores at the middle of their group. Historical timing conditions and data exclusions have not been independently verified. Practice, returning to questions and repeated attempts may affect comparability with historical results.`;
+    `Reference group: ${reference_scores.length.toLocaleString('en-US')} historical attempts with recorded durations over one minute and up to 40 minutes. Participants were recruited through paid Facebook ads and chose to take the test. This self-selected group may differ from the general population; the direction and size of any difference are unknown. No population adjustment has been applied. The percentile places tied scores at the middle of their group. Historical timing conditions and data exclusions have not been independently verified. Practice, returning to questions, seeing correct answers and repeated attempts may affect comparability with historical results.`;
   document.getElementById('result-title').focus();
 }
 
@@ -321,6 +404,7 @@ function start_test() {
   timed_out = false;
   document.getElementById('front').hidden = true;
   document.getElementById('result').hidden = true;
+  document.getElementById('answer-review').hidden = true;
   document.getElementById('practice').hidden = true;
   document.getElementById('test').hidden = false;
   document.getElementById('finish-review').hidden = true;
@@ -333,6 +417,10 @@ function start_test() {
 document.getElementById('reference-count').textContent = reference_scores.length.toLocaleString('en-US');
 document.getElementById('start-link').addEventListener('click', show_practice);
 document.getElementById('restart-link').addEventListener('click', show_practice);
+document.getElementById('answer-review-link').addEventListener('click', () => show_answer_review(1));
+document.getElementById('review-back').addEventListener('click', return_to_result);
+document.getElementById('review-previous').addEventListener('click', () => show_answer_review(review_question - 1));
+document.getElementById('review-next').addEventListener('click', () => show_answer_review(review_question + 1));
 document.getElementById('practice-start-link').addEventListener('click', start_test);
 document.getElementById('previous-link').addEventListener('click', () => go_to_question(current_question - 1));
 document.getElementById('skip-link').addEventListener('click', () => go_to_question(current_question % total_questions + 1));

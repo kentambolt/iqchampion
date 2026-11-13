@@ -6,10 +6,10 @@
 <title>IQ Champion</title>
 <meta name="description" content="Try 36 visual reasoning puzzles in 40 minutes and compare your score with previous participants.">
 <link href="https://fonts.googleapis.com/css?family=Varela+Round&display=swap" rel="stylesheet">
-<link href="assets/styles.css?v=20261113-3" rel="stylesheet">
+<link href="assets/styles.css?v=20261113-4" rel="stylesheet">
 <script src="assets/time_and_scores.js?v=20261113-1" defer></script>
 <script src="assets/md5.js?v=20261113-1" defer></script>
-<script src="assets/app.js?v=20261113-3" defer></script>
+<script src="assets/app.js?v=20261113-4" defer></script>
 </head>
 <body>
 <main>
@@ -95,7 +95,39 @@
     <p id="result-context" class="small"></p>
     <p class="small">This result describes your performance on these visual reasoning puzzles.
       It is not a validated IQ score or a comparison with the general population.</p>
-    <button id="restart-link" class="primary" type="button">Try again</button>
+    <div class="question-actions">
+      <button id="answer-review-link" class="primary" type="button">Review answers</button>
+      <button id="restart-link" class="secondary" type="button">Try again</button>
+    </div>
+  </section>
+  <section id="answer-review" class="screen" hidden aria-labelledby="answer-review-title">
+    <h1 id="answer-review-title" tabindex="-1">Review your answers</h1>
+    <button id="review-back" class="secondary" type="button">Back to result</button>
+    <p id="review-summary"></p>
+    <p class="small">Your test is finished. This review shows your submitted answers and the correct answers; your score is final.</p>
+    <p id="review-outcome" role="status"></p>
+    <div class="left-right">
+      <div id="review-pattern" class="test-left" role="group" aria-label="Question pattern"></div>
+      <div class="review-comparison">
+        <figure>
+          <figcaption>Your answer</figcaption>
+          <div id="review-selected" class="review-answer"></div>
+        </figure>
+        <figure>
+          <figcaption>Correct answer</figcaption>
+          <div id="review-correct" class="review-answer"></div>
+        </figure>
+      </div>
+    </div>
+    <div class="question-actions">
+      <button id="review-previous" class="secondary" type="button">Previous review question</button>
+      <button id="review-next" class="secondary" type="button">Next review question</button>
+    </div>
+    <section class="overview" aria-labelledby="review-overview-title">
+      <h2 id="review-overview-title">Results by question</h2>
+      <p class="small">✓ Correct · × Incorrect · ○ Unanswered. Select a question to see your answer and the correct answer.</p>
+      <nav id="review-overview" class="question-grid" aria-label="Review a question"></nav>
+    </section>
   </section>
 </main>
 </body>
