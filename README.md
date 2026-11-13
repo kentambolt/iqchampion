@@ -9,10 +9,18 @@ Open `index.html` in a browser; no build, server, account, or database is requir
   It uses a separate shape sequence and never contributes to the 36-question score.
 - The deadline starts when Start 40-minute test is pressed. A visible countdown and a five-minute
   warning accompany automatic scoring at timeout. Switching tabs does not pause it.
-- Answers are final. Unanswered questions count as incorrect. The original start
-  timestamp and answers are saved after starting and after every accepted answer in
-  `localStorage` (`iqchampion.attempt.v1`). Reloading resumes the next unanswered
-  question with the original deadline; time spent with the page closed still counts.
+- Questions can be skipped, revisited through Previous or the numbered overview,
+  and answered again before finishing. Selecting an answer moves to the next
+  unanswered question, wrapping around skipped questions. Previously selected answers
+  are marked when revisiting. The overview shows answered/unanswered counts and status
+  for all 36 questions, with the current question marked separately.
+- Review and finish shows the unanswered count and asks for confirmation. Even when
+  all questions are answered, the test stays open for review until explicitly finished
+  or timed out. Unanswered questions count as incorrect.
+- The original start timestamp, answers and current question are saved after starting,
+  answering and navigating in `localStorage` (`iqchampion.attempt.v1`, payload version 2).
+  Reloading resumes the same question with the original deadline; time spent with the
+  page closed still counts. Version 1 saves migrate while preserving answers and time.
 - Reopening an expired attempt immediately scores its stored answers. Completed
   results also survive reload. Try again opens untimed practice; only starting the
   next timed test replaces the previous saved attempt. Answer positions may shuffle
@@ -49,8 +57,8 @@ The historical duration field does not establish that identical timing rules wer
 enforced. The sample has not been established as representative. Results therefore
 show raw score and participant percentile, without claiming a validated IQ estimate.
 The old percentile conversion files are retained as historical data and are not loaded.
-The new practice example may also change familiarity relative to historical attempts;
-that limitation is disclosed in the result text.
+Practice and the ability to return to questions may change performance relative to
+historical attempts; that limitation is disclosed in the result text.
 
 ## Verification
 
@@ -62,7 +70,8 @@ node --test checks/app.test.cjs
 
 Checks cover the reference filter, low/partial/perfect scores, ties, late answers,
 timeout, restart, practice isolation, reload before/after expiry, completed results,
-invalid saves, storage failures and stale submissions across tabs. They use a simulated clock and
+invalid saves, storage failures, skipped questions, answer replacement, overview status,
+manual completion, version 1 migration and stale submissions across tabs. They use a simulated clock and
 DOM, so they do not replace visual browser testing. Check the intro, questions and
 results at 320, 375, 760 and 1280 CSS pixels, including keyboard navigation.
 

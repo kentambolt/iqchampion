@@ -35,6 +35,18 @@ button:focus-visible, a:focus-visible { outline: 3px solid #ffd166; outline-offs
 .answers { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 10px; }
 .answer { min-width: 0; min-height: 44px; padding: 0; background: transparent; border: 2px solid transparent; border-radius: 12px; }
 .answer img { display: block; width: 100%; height: auto; }
+.answer.selected { border-color: #ffd166; box-shadow: 0 0 0 2px #ffd166; }
+.answer.selected::after { content: '✓ Selected'; display: block; color: #ffd166; font-size: 13px; }
+.question-actions { display: flex; flex-wrap: wrap; gap: 12px; justify-content: center; margin: 24px 0; }
+.secondary { min-height: 48px; padding: 10px 18px; border: 1px solid #b9deff; border-radius: 10px; color: #eef4fa; background: #092e48; }
+button:disabled { opacity: .5; cursor: default; }
+.overview { margin: 32px auto 0; padding-top: 24px; border-top: 1px solid #ffffff40; max-width: 640px; }
+.question-grid { display: grid; grid-template-columns: repeat(6, minmax(0, 1fr)); gap: 8px; }
+.question-link { min-width: 0; min-height: 44px; border: 1px solid #b9deff; border-radius: 8px; background: #092e48; color: #eef4fa; font-size: 16px; }
+.question-link.answered { background: #d7edff; color: #073553; }
+.question-link[aria-current="step"] { outline: 3px solid #ffd166; outline-offset: 1px; }
+.finish-review { max-width: 640px; padding: 24px 16px; margin: 0 auto; border: 2px solid #ffd166; border-radius: 12px; }
+.finish-review .primary { margin: 0; }
 .score { font-size: clamp(26px, 5vw, 40px); font-weight: bold; }
 .storage-notice { max-width: 800px; margin: 16px auto; padding: 12px 16px; border: 1px solid #ffd166; }
 .practice-pattern { display: grid; grid-template-columns: repeat(6, minmax(0, 1fr)); gap: 6px; margin: 32px 0; }
@@ -53,6 +65,7 @@ button:focus-visible, a:focus-visible { outline: 3px solid #ffd166; outline-offs
   .timer { font-size: 16px; padding: 6px 8px; }
 }
 @media (max-width: 360px) {
+  .question-grid { grid-template-columns: repeat(5, minmax(0, 1fr)); }
   .test-header { flex-wrap: wrap; }
   .pattern-row { gap: 3px; }
 }

@@ -6,10 +6,10 @@
 <title>IQ Champion</title>
 <meta name="description" content="Try 36 visual reasoning puzzles in 40 minutes and compare your score with previous participants.">
 <link href="https://fonts.googleapis.com/css?family=Varela+Round&display=swap" rel="stylesheet">
-<link href="assets/styles.css?v=20261113-2" rel="stylesheet">
+<link href="assets/styles.css?v=20261113-3" rel="stylesheet">
 <script src="assets/time_and_scores.js?v=20261113-1" defer></script>
 <script src="assets/md5.js?v=20261113-1" defer></script>
-<script src="assets/app.js?v=20261113-2" defer></script>
+<script src="assets/app.js?v=20261113-3" defer></script>
 </head>
 <body>
 <main>
@@ -18,10 +18,11 @@
     <img class="logo" src="images/logo.png" alt="IQ Champion">
     <h1>Put your visual reasoning to the test</h1>
     <p>36 puzzles. 40 minutes. Find the icon that completes each pattern.</p>
-    <p class="small">Choose one answer to move to the next puzzle. You cannot go back.
+    <p class="small">Choose an answer to continue to the next unanswered puzzle. You can skip questions,
+      return using the overview and change your answers until you finish the test.
       The timer keeps running if you switch tabs. When time runs out, your submitted answers are scored;
       unanswered puzzles count as incorrect. Answers and start time are saved in this browser,
-      so reloading resumes your attempt without resetting the timer. Clearing browser data removes the saved attempt.</p>
+      so reloading resumes the same question without resetting the timer. Clearing browser data removes the saved attempt.</p>
     <button id="start-link" class="primary" type="button">Try the practice puzzle</button>
     <p class="small">Your score is compared with <span id="reference-count"></span> historical attempts
       with recorded durations over one minute and no more than 40 minutes.
@@ -55,7 +56,7 @@
       <div class="timer" role="timer" aria-label="Time remaining"><span id="time-left">40:00</span> left</div>
     </header>
     <p id="time-warning" class="small" role="status"></p>
-    <p class="small">Your attempt resumes here after reloading. The timer keeps running while this page is closed.</p>
+    <p class="small">You can skip, return and change answers. Your attempt resumes here after reloading. The timer keeps running while this page is closed.</p>
     <div class="left-right">
       <div id="test-left" class="test-left" role="group" aria-label="Four rows of visual patterns; complete the last row"></div>
       <div class="test-right">
@@ -63,6 +64,26 @@
         <div id="test-right" class="answers" role="group" aria-labelledby="answer-instructions"></div>
       </div>
     </div>
+    <div class="question-actions" aria-label="Question navigation">
+      <button id="previous-link" class="secondary" type="button">Previous question</button>
+      <button id="skip-link" class="secondary" type="button">Skip for now</button>
+    </div>
+    <section class="overview" aria-labelledby="overview-title">
+      <h2 id="overview-title">Question overview</h2>
+      <p id="progress-summary" role="status"></p>
+      <p class="small">Select a number to return. ✓ Answered · ○ Unanswered. The current question has a yellow outline.</p>
+      <nav id="question-overview" class="question-grid" aria-label="Jump to a question"></nav>
+      <p id="completion-hint" role="status"></p>
+      <button id="finish-link" class="primary" type="button">Review and finish</button>
+    </section>
+    <section id="finish-review" class="finish-review" hidden aria-labelledby="finish-title">
+      <h2 id="finish-title" tabindex="-1">Finish this test?</h2>
+      <p id="finish-count"></p>
+      <div class="question-actions">
+        <button id="finish-cancel" class="secondary" type="button">Keep working</button>
+        <button id="finish-confirm" class="primary" type="button">Finish and see result</button>
+      </div>
+    </section>
   </section>
   <section id="result" class="screen result" hidden aria-labelledby="result-title">
     <h1 id="result-title" tabindex="-1">Your result</h1>

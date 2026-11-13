@@ -8,7 +8,8 @@ function load(options = {}) {
   const elements = new Map();
   const makeElement = () => ({
     hidden: false, textContent: '', children: [], events: {},
-    classList: { toggle() {} }, focus() {}, setAttribute() {},
+    attributes: {}, classList: { toggle() {} }, focus() {},
+    setAttribute(name, value) { this.attributes[name] = value; },
     replaceChildren() { this.children = []; },
     append(child) { this.children.push(child); },
     addEventListener(event, handler) { this.events[event] = handler; }
@@ -56,7 +57,7 @@ test('zero, partial and perfect scores; ties use the midpoint with no artificial
   assert.equal(tied.percentile, 50);
   assert.equal(app.run('calculate_score([], []).percentile'), null);
   assert.equal(app.run("format_percent(99.999)"), '>99.9');
-  app.run('start_test(); for (let id = 1; id <= 36; id++) submit_answer(id, get_hash(id, 1, true));');
+  app.run('start_test(); for (let id = 1; id <= 36; id++) submit_answer(id, get_hash(id, 1, true)); request_finish(); finish_test();');
   assert.equal(app.element('score').textContent, '36 / 36 correct');
   assert.equal(app.element('test').hidden, true);
   assert.equal(app.intervals.size, 0);
@@ -79,7 +80,7 @@ test('timer uses elapsed wall time and rejects an answer at the deadline', () =>
   assert.match(app.element('result-reason').textContent, /Time is up/);
   assert.equal(app.intervals.size, 0);
   app.run('submit_answer(2, get_hash(2, 1, true))');
-  assert.equal(app.run('answers.length'), 1);
+  assert.equal(app.run('answered_count()'), 1);
 });
 
 test('automatic timeout scores zero answers and restarting resets the attempt', () => {
@@ -91,16 +92,16 @@ test('automatic timeout scores zero answers and restarting resets the attempt', 
   app.run('start_test()');
   assert.equal(app.element('time-left').textContent, '40:00');
   assert.equal(app.element('result').hidden, true);
-  assert.equal(app.run('answers.length'), 0);
+  assert.equal(app.run('answered_count()'), 0);
   assert.equal(app.intervals.size, 1);
 });
 
 test('stale and invalid answers do not advance the question', () => {
   const app = load();
   app.run("start_test(); submit_answer(1, 'invalid'); submit_answer(2, get_hash(2, 1, true));");
-  assert.equal(app.run('answers.length'), 0);
+  assert.equal(app.run('answered_count()'), 0);
   app.run('submit_answer(1, get_hash(1, 1, true)); submit_answer(1, get_hash(1, 1, true));');
-  assert.equal(app.run('answers.length'), 1);
+  assert.equal(app.run('answered_count()'), 1);
   assert.equal(app.element('test-right').children.length, 9);
 });
 
@@ -113,20 +114,20 @@ test('practice gives feedback without starting the timer or contributing answers
   assert.match(app.element('practice-feedback').textContent, /Try again/);
   app.element('practice-square').events.click();
   assert.match(app.element('practice-feedback').textContent, /Correct!/);
-  assert.equal(app.run('answers.length'), 0);
+  assert.equal(app.run('answered_count()'), 0);
   assert.equal(app.store.size, 0);
   app.advance(15 * 60 * 1000);
   app.element('practice-start-link').events.click();
   assert.equal(app.element('time-left').textContent, '40:00');
   assert.equal(app.element('practice').hidden, true);
-  assert.equal(app.run('answers.length'), 0);
+  assert.equal(app.run('answered_count()'), 0);
 });
 
 test('reload restores answers, original start time and remaining deadline', () => {
   const first = load();
   first.run('start_test(); submit_answer(1, get_hash(1, 1, true)); submit_answer(2, get_hash(2, 2, true));');
   const reloaded = load({ store: first.store, now: 1000 + 7 * 60 * 1000 });
-  assert.equal(reloaded.run('answers.length'), 2);
+  assert.equal(reloaded.run('answered_count()'), 2);
   assert.equal(reloaded.run('started_at'), 1000);
   assert.equal(reloaded.element('question-number').textContent, 'Question 3 / 36');
   assert.equal(reloaded.element('time-left').textContent, '33:00');
@@ -152,7 +153,7 @@ test('reopening after the deadline scores stored answers instead of resetting', 
 
 test('a completed result survives reload and Try again waits in untimed practice', () => {
   const first = load();
-  first.run('start_test(); for (let q = 1; q <= 36; q++) submit_answer(q, get_hash(q, 1, true));');
+  first.run('start_test(); for (let q = 1; q <= 36; q++) submit_answer(q, get_hash(q, 1, true)); request_finish(); finish_test();');
   const reloaded = load({ store: first.store, now: 1000 + 41 * 60 * 1000 });
   assert.equal(reloaded.element('score').textContent, '36 / 36 correct');
   assert.equal(reloaded.element('result-reason').textContent, 'Test completed.');
@@ -161,7 +162,7 @@ test('a completed result survives reload and Try again waits in untimed practice
   assert.equal(reloaded.element('practice').hidden, false);
   reloaded.element('practice-start-link').events.click();
   assert.equal(reloaded.element('time-left').textContent, '40:00');
-  assert.equal(reloaded.run('answers.length'), 0);
+  assert.equal(reloaded.run('answered_count()'), 0);
   assert.equal(reloaded.run('started_at'), 1000 + 41 * 60 * 1000);
 });
 
@@ -197,7 +198,7 @@ test('a second tab picks up stored progress before accepting a stale answer', ()
   const second = load({ store: first.store });
   first.run('submit_answer(1, get_hash(1, 1, true))');
   second.run('submit_answer(1, get_hash(1, 2, true))');
-  assert.equal(second.run('answers.length'), 1);
+  assert.equal(second.run('answered_count()'), 1);
   assert.equal(second.run('answers[0] === get_hash(1, 1, true)'), true);
   first.run('submit_answer(2, get_hash(2, 1, true))');
   second.windowEvents.storage({ key: 'iqchampion.attempt.v1' });
@@ -214,4 +215,114 @@ test('timeout in a suspended tab reconciles newer stored answers before scoring'
   assert.equal(second.element('score').textContent, '1 / 36 correct');
   assert.equal(second.element('answered-count').textContent, '1 answered; 35 unanswered.');
   assert.equal(second.intervals.size, 0);
+});
+
+test('skipping preserves question positions and returning can replace an answer', () => {
+  const app = load();
+  app.run('start_test()');
+  app.element('skip-link').events.click();
+  assert.equal(app.element('question-number').textContent, 'Question 2 / 36');
+  assert.equal(app.run('answers[0]'), null);
+  app.run('submit_answer(2, get_hash(2, 1, true)); go_to_question(1); submit_answer(1, get_hash(1, 2, true));');
+  assert.equal(app.run('answered_count()'), 2);
+  assert.equal(app.run('calculate_score(answers, reference_scores).correct'), 1);
+  app.run('go_to_question(1)');
+  assert.equal(app.element('test-right').children.filter(button => button.attributes['aria-pressed'] === 'true').length, 1);
+  app.run('submit_answer(1, get_hash(1, 1, true))');
+  assert.equal(app.run('answered_count()'), 2);
+  assert.equal(app.run('calculate_score(answers, reference_scores).correct'), 2);
+  assert.equal(app.element('question-number').textContent, 'Question 3 / 36');
+});
+
+test('overview distinguishes answered, unanswered and current questions', () => {
+  const app = load();
+  app.run('start_test(); go_to_question(36); submit_answer(36, get_hash(36, 1, true));');
+  const buttons = app.element('question-overview').children;
+  assert.equal(buttons.length, 36);
+  assert.equal(buttons[0].attributes['aria-label'], 'Question 1, unanswered');
+  assert.equal(buttons[35].attributes['aria-label'], 'Question 36, answered');
+  assert.equal(buttons[0].attributes['aria-current'], 'step');
+  assert.equal(app.element('progress-summary').textContent, '1 answered; 35 unanswered.');
+  buttons[35].events.click();
+  assert.equal(app.element('question-number').textContent, 'Question 36 / 36');
+  app.element('skip-link').events.click();
+  assert.equal(app.element('question-number').textContent, 'Question 1 / 36');
+  assert.equal(app.element('previous-link').disabled, true);
+});
+
+test('navigation and sparse answers survive reload with the original deadline', () => {
+  const first = load();
+  first.run('start_test(); go_to_question(12); submit_answer(12, get_hash(12, 1, true)); go_to_question(7)');
+  const reloaded = load({ store: first.store, now: 1000 + 10 * 60 * 1000 });
+  assert.equal(reloaded.element('question-number').textContent, 'Question 7 / 36');
+  assert.equal(reloaded.element('time-left').textContent, '30:00');
+  assert.equal(reloaded.run('answers[0]'), null);
+  assert.equal(reloaded.run('answers[11] === get_hash(12, 1, true)'), true);
+  assert.equal(reloaded.run('calculate_score(answers, reference_scores).correct'), 1);
+});
+
+test('all answered still allows review and changes before explicit finish', () => {
+  const app = load();
+  app.run('start_test(); for (let q = 1; q <= 36; q++) submit_answer(q, get_hash(q, 1, true));');
+  assert.equal(app.run('finished'), false);
+  assert.equal(app.element('progress-summary').textContent, '36 answered; 0 unanswered.');
+  assert.match(app.element('completion-hint').textContent, /still review/);
+  const reloaded = load({ store: app.store, now: 2000 });
+  assert.equal(reloaded.run('finished'), false);
+  reloaded.run('go_to_question(1); submit_answer(1, get_hash(1, 2, true)); request_finish(); finish_test();');
+  assert.equal(reloaded.element('score').textContent, '35 / 36 correct');
+});
+
+test('finishing with skipped questions requires confirmation and survives reload', () => {
+  const app = load();
+  app.run('start_test(); go_to_question(20); submit_answer(20, get_hash(20, 1, true)); finish_test();');
+  assert.equal(app.run('finished'), false);
+  app.element('finish-link').events.click();
+  assert.match(app.element('finish-count').textContent, /1 answered; 35 unanswered/);
+  app.element('finish-cancel').events.click();
+  assert.equal(app.element('finish-review').hidden, true);
+  assert.equal(app.run('finished'), false);
+  app.element('finish-link').events.click();
+  app.element('finish-confirm').events.click();
+  assert.equal(app.element('score').textContent, '1 / 36 correct');
+  const reloaded = load({ store: app.store, now: 2000 });
+  assert.equal(reloaded.element('answered-count').textContent, '1 answered; 35 unanswered.');
+  assert.equal(reloaded.element('result-reason').textContent, 'Test completed.');
+});
+
+test('time expiry during review blocks navigation and answer changes, retaining sparse score', () => {
+  const app = load();
+  app.run('start_test(); go_to_question(36); submit_answer(36, get_hash(36, 1, true)); request_finish()');
+  app.advance(40 * 60 * 1000);
+  app.run('go_to_question(36); submit_answer(36, get_hash(36, 2, true)); finish_test();');
+  assert.match(app.element('result-reason').textContent, /Time is up/);
+  assert.equal(app.element('score').textContent, '1 / 36 correct');
+  assert.equal(app.element('answered-count').textContent, '1 answered; 35 unanswered.');
+  assert.equal(app.intervals.size, 0);
+});
+
+test('version 1 attempts migrate without losing answers, deadline or completed results', () => {
+  const helper = load();
+  const saved = { version: 1, startedAt: 1000, answers: [helper.run('get_hash(1, 1, true)')], completed: false, timedOut: false };
+  const store = new Map([['iqchampion.attempt.v1', JSON.stringify(saved)]]);
+  const migrated = load({ store, now: 61000 });
+  assert.equal(migrated.element('question-number').textContent, 'Question 2 / 36');
+  assert.equal(migrated.element('time-left').textContent, '39:00');
+  assert.equal(migrated.run('answered_count()'), 1);
+  assert.equal(JSON.parse(store.get('iqchampion.attempt.v1')).version, 2);
+  saved.completed = true;
+  saved.timedOut = true;
+  const result = load({ store: new Map([['iqchampion.attempt.v1', JSON.stringify(saved)]]), now: 2500000 });
+  assert.equal(result.element('score').textContent, '1 / 36 correct');
+  assert.match(result.element('result-reason').textContent, /Time is up/);
+});
+
+test('new save validation rejects invalid positions and answer arrays', () => {
+  const valid = { version: 2, startedAt: 1000, answers: Array(36).fill(null), currentQuestion: 1, completed: false, timedOut: false };
+  for (const saved of [{ ...valid, currentQuestion: 0 }, { ...valid, currentQuestion: 37 },
+    { ...valid, answers: [] }, { ...valid, answers: [null, 'invalid', ...Array(34).fill(null)] }]) {
+    const app = load({ store: new Map([['iqchampion.attempt.v1', JSON.stringify(saved)]]) });
+    assert.match(app.element('storage-notice').textContent, /could not be restored/);
+    assert.equal(app.intervals.size, 0);
+  }
 });
