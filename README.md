@@ -53,3 +53,20 @@ The first iteration adds timing, corrected scoring, participant-based result tex
 responsive grids and keyboard-accessible answer buttons. Pushes to `main` trigger
 publication through the existing GitHub Pages configuration; no DNS change is needed. Next: visual checks on phones and
 verification of the historical timing data before stronger score interpretations.
+
+## Follow-up audit (13 November 2026)
+
+Run `node checks/audit-reference.cjs` to regenerate `reports/reference-audit.json`.
+The CSV contains 14,216 attempts; the JavaScript table used by the site contains
+14,187. The 29 additional CSV rows all have perfect scores (36). There are no rows
+exclusive to JavaScript. Neither the reason for that exclusion nor the original
+collection/filtering process is documented in the available Git history. Keep the
+datasets unchanged until their provenance is established.
+
+Of the 3,840 JavaScript attempts exceeding 40 minutes, 2,573 are within the next
+minute. This concentration could reflect recording/submission delays, but the data
+cannot establish that explanation. The active 10,216-attempt comparison remains a
+provisional duration-filtered group, especially at the highest scores.
+
+Asset references include a release version to prevent an old stylesheet overriding
+the new layout after publication. Update that version when changing shipped assets.

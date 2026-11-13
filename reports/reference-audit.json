@@ -1,0 +1,182 @@
+{
+  "source": "assets/time_and_scores.js; iq_test_result.csv",
+  "csvRows": 14216,
+  "javaScriptRows": 14187,
+  "csvMatchesJavaScript": false,
+  "csvOnlyRows": [
+    [
+      1433,
+      36
+    ],
+    [
+      494,
+      36
+    ],
+    [
+      1920,
+      36
+    ],
+    [
+      844,
+      36
+    ],
+    [
+      583,
+      36
+    ],
+    [
+      543,
+      36
+    ],
+    [
+      466,
+      36
+    ],
+    [
+      364,
+      36
+    ],
+    [
+      822,
+      36
+    ],
+    [
+      1380,
+      36
+    ],
+    [
+      639,
+      36
+    ],
+    [
+      1257,
+      36
+    ],
+    [
+      816,
+      36
+    ],
+    [
+      1307,
+      36
+    ],
+    [
+      674,
+      36
+    ],
+    [
+      1321,
+      36
+    ],
+    [
+      571,
+      36
+    ],
+    [
+      615,
+      36
+    ],
+    [
+      783,
+      36
+    ],
+    [
+      789,
+      36
+    ],
+    [
+      930,
+      36
+    ],
+    [
+      1128,
+      36
+    ],
+    [
+      787,
+      36
+    ],
+    [
+      1307,
+      36
+    ],
+    [
+      917,
+      36
+    ],
+    [
+      709,
+      36
+    ],
+    [
+      364,
+      36
+    ],
+    [
+      306,
+      36
+    ],
+    [
+      1065,
+      36
+    ]
+  ],
+  "javaScriptOnlyRows": [],
+  "groups": [
+    {
+      "label": "all",
+      "count": 14187,
+      "meanScore": 22.116938041869318,
+      "minSeconds": 0,
+      "medianSeconds": 2061,
+      "maxSeconds": 57126
+    },
+    {
+      "label": "at_most_60s",
+      "count": 131,
+      "meanScore": 5.076335877862595,
+      "minSeconds": 0,
+      "medianSeconds": 23,
+      "maxSeconds": 60
+    },
+    {
+      "label": "61_to_2400s",
+      "count": 10216,
+      "meanScore": 21.60708692247455,
+      "minSeconds": 61,
+      "medianSeconds": 1616,
+      "maxSeconds": 2400
+    },
+    {
+      "label": "over_2400s",
+      "count": 3840,
+      "meanScore": 24.0546875,
+      "minSeconds": 2401,
+      "medianSeconds": 2424,
+      "maxSeconds": 57126
+    },
+    {
+      "label": "2401_to_2460s",
+      "count": 2573,
+      "meanScore": 24.752429071123203,
+      "minSeconds": 2401,
+      "medianSeconds": 2412,
+      "maxSeconds": 2460
+    },
+    {
+      "label": "over_1h",
+      "count": 113,
+      "meanScore": 12.91150442477876,
+      "minSeconds": 3631,
+      "medianSeconds": 5492,
+      "maxSeconds": 57126
+    }
+  ],
+  "limitations": [
+    "No participant demographics, item-level responses or timestamps available.",
+    "Recorded durations do not establish enforcement of a historical deadline.",
+    "No historical collection or filtering pipeline is present in this repository.",
+    "Differences between CSV and JavaScript cannot be explained from the available history.",
+    "Excluding attempts above 2400 seconds changes the comparison population; no validated IQ conversion follows."
+  ]
+}
