@@ -1,210 +1,59 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<title>IQ Champion</title>
 <meta charset="UTF-8">
-<meta name="description" content="Take a free IQ test based on pattern recognition and logical reasoning.">
-<meta name="keywords" content="iq, test, your, free, logic, patterns">
-<link href='https://fonts.googleapis.com/css?family=Varela+Round' rel='stylesheet' type='text/css'>
-<link href="assets/styles.css" type="text/css" rel="stylesheet">
-<script src="assets/time_and_scores.js"></script>
-<script src="assets/percentiles.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>IQ Champion</title>
+<meta name="description" content="Try 36 visual reasoning puzzles in 40 minutes and compare your score with previous participants.">
+<link href="https://fonts.googleapis.com/css?family=Varela+Round&display=swap" rel="stylesheet">
+<link href="assets/styles.css" rel="stylesheet">
+<script src="assets/time_and_scores.js" defer></script>
+<script src="assets/md5.js" defer></script>
+<script src="assets/app.js" defer></script>
 </head>
 <body>
-<div id="front">
-	<div class="content">
-		<div class="mid_small_box">
-			<img class="logo" src="images/logo.png">
-			<div class="header">This IQ test requires no skills in reading or mathematics - only logic reasoning!</div>
-			<div class='header'>
-				<button id='start-link'>Start test</button>
-			</div>
-			<div class="small">
-				This test has been calibrated from the results of 14056 random visitors with a time limit of 40 minutes.
-				Bot-like behaviour has been filtered out and only the first attempt from the same IP address has been counted.
-				An IQ of 100 is an average performance. If you have an IQ of 120 or 135,
-				you are in the top 90% and 99%, respectively.
-				</p>
-			</div>
-			<div style="margin-top:20px">
-				<a href="https://www.linkedin.com/in/kent-caspersen-49531394/" style="font-size:20px">Contact</a>
-			</div>
-		</div>
-	</div>
-</div>
-<div class="test" id="test" style="display: none">
-	<div class="test-inner">
-		<h1 id="question-number"></h1>
-		<div class="left-right">
-			<div id="test-left" class='test_left'></div>
-			<div id="test-right" class='test_right'></div>
-		</div>
-	</div>
-</div>
-<div id="result" style="display: none">
-	<div class="iq" id="iq">
-		Your IQ is ...
-	</div>
-	<div class="iq" id="top-percent">
-		You are among the top ... %
-	</div>
-</div>
-<script>
-var total_questions = 36;
-var answers = [];
-
-function md5(d) {
-	var r = M(V(Y(X(d),8*d.length)));return r.toLowerCase()};function M(d){for(var _,m="0123456789ABCDEF",f="",r=0;r<d.length;r++)_=d.charCodeAt(r),f+=m.charAt(_>>>4&15)+m.charAt(15&_);return f}function X(d){for(var _=Array(d.length>>2),m=0;m<_.length;m++)_[m]=0;for(m=0;m<8*d.length;m+=8)_[m>>5]|=(255&d.charCodeAt(m/8))<<m%32;return _}function V(d){for(var _="",m=0;m<32*d.length;m+=8)_+=String.fromCharCode(d[m>>5]>>>m%32&255);return _}function Y(d,_){d[_>>5]|=128<<_%32,d[14+(_+64>>>9<<4)]=_;for(var m=1732584193,f=-271733879,r=-1732584194,i=271733878,n=0;n<d.length;n+=16){var h=m,t=f,g=r,e=i;f=md5_ii(f=md5_ii(f=md5_ii(f=md5_ii(f=md5_hh(f=md5_hh(f=md5_hh(f=md5_hh(f=md5_gg(f=md5_gg(f=md5_gg(f=md5_gg(f=md5_ff(f=md5_ff(f=md5_ff(f=md5_ff(f,r=md5_ff(r,i=md5_ff(i,m=md5_ff(m,f,r,i,d[n+0],7,-680876936),f,r,d[n+1],12,-389564586),m,f,d[n+2],17,606105819),i,m,d[n+3],22,-1044525330),r=md5_ff(r,i=md5_ff(i,m=md5_ff(m,f,r,i,d[n+4],7,-176418897),f,r,d[n+5],12,1200080426),m,f,d[n+6],17,-1473231341),i,m,d[n+7],22,-45705983),r=md5_ff(r,i=md5_ff(i,m=md5_ff(m,f,r,i,d[n+8],7,1770035416),f,r,d[n+9],12,-1958414417),m,f,d[n+10],17,-42063),i,m,d[n+11],22,-1990404162),r=md5_ff(r,i=md5_ff(i,m=md5_ff(m,f,r,i,d[n+12],7,1804603682),f,r,d[n+13],12,-40341101),m,f,d[n+14],17,-1502002290),i,m,d[n+15],22,1236535329),r=md5_gg(r,i=md5_gg(i,m=md5_gg(m,f,r,i,d[n+1],5,-165796510),f,r,d[n+6],9,-1069501632),m,f,d[n+11],14,643717713),i,m,d[n+0],20,-373897302),r=md5_gg(r,i=md5_gg(i,m=md5_gg(m,f,r,i,d[n+5],5,-701558691),f,r,d[n+10],9,38016083),m,f,d[n+15],14,-660478335),i,m,d[n+4],20,-405537848),r=md5_gg(r,i=md5_gg(i,m=md5_gg(m,f,r,i,d[n+9],5,568446438),f,r,d[n+14],9,-1019803690),m,f,d[n+3],14,-187363961),i,m,d[n+8],20,1163531501),r=md5_gg(r,i=md5_gg(i,m=md5_gg(m,f,r,i,d[n+13],5,-1444681467),f,r,d[n+2],9,-51403784),m,f,d[n+7],14,1735328473),i,m,d[n+12],20,-1926607734),r=md5_hh(r,i=md5_hh(i,m=md5_hh(m,f,r,i,d[n+5],4,-378558),f,r,d[n+8],11,-2022574463),m,f,d[n+11],16,1839030562),i,m,d[n+14],23,-35309556),r=md5_hh(r,i=md5_hh(i,m=md5_hh(m,f,r,i,d[n+1],4,-1530992060),f,r,d[n+4],11,1272893353),m,f,d[n+7],16,-155497632),i,m,d[n+10],23,-1094730640),r=md5_hh(r,i=md5_hh(i,m=md5_hh(m,f,r,i,d[n+13],4,681279174),f,r,d[n+0],11,-358537222),m,f,d[n+3],16,-722521979),i,m,d[n+6],23,76029189),r=md5_hh(r,i=md5_hh(i,m=md5_hh(m,f,r,i,d[n+9],4,-640364487),f,r,d[n+12],11,-421815835),m,f,d[n+15],16,530742520),i,m,d[n+2],23,-995338651),r=md5_ii(r,i=md5_ii(i,m=md5_ii(m,f,r,i,d[n+0],6,-198630844),f,r,d[n+7],10,1126891415),m,f,d[n+14],15,-1416354905),i,m,d[n+5],21,-57434055),r=md5_ii(r,i=md5_ii(i,m=md5_ii(m,f,r,i,d[n+12],6,1700485571),f,r,d[n+3],10,-1894986606),m,f,d[n+10],15,-1051523),i,m,d[n+1],21,-2054922799),r=md5_ii(r,i=md5_ii(i,m=md5_ii(m,f,r,i,d[n+8],6,1873313359),f,r,d[n+15],10,-30611744),m,f,d[n+6],15,-1560198380),i,m,d[n+13],21,1309151649),r=md5_ii(r,i=md5_ii(i,m=md5_ii(m,f,r,i,d[n+4],6,-145523070),f,r,d[n+11],10,-1120210379),m,f,d[n+2],15,718787259),i,m,d[n+9],21,-343485551),m=safe_add(m,h),f=safe_add(f,t),r=safe_add(r,g),i=safe_add(i,e)}return Array(m,f,r,i)}function md5_cmn(d,_,m,f,r,i){return safe_add(bit_rol(safe_add(safe_add(_,d),safe_add(f,i)),r),m)}function md5_ff(d,_,m,f,r,i,n){return md5_cmn(_&m|~_&f,d,_,r,i,n)}function md5_gg(d,_,m,f,r,i,n){return md5_cmn(_&f|m&~f,d,_,r,i,n)}function md5_hh(d,_,m,f,r,i,n){return md5_cmn(_^m^f,d,_,r,i,n)}function md5_ii(d,_,m,f,r,i,n){return md5_cmn(m^(_|~f),d,_,r,i,n)}function safe_add(d,_){var m=(65535&d)+(65535&_);return(d>>16)+(_>>16)+(m>>16)<<16|65535&m}function bit_rol(d,_){return d<<_|d>>>32-_
-}
-
-function get_random_indexes(start, end){
-	const indexes = [];
-	for (let i = 1; i <= end-start+1; i++) {
-		indexes.push(i);
-	}
-	for (let i = indexes.length - 1; i > 0; i--) {
-		let j = Math.floor(Math.random() * (i + 1));
-		let temp = indexes[i];
-		indexes[i] = indexes[j];
-		indexes[j] = temp;
-	}
-	return indexes;
-}
-
-function get_hash(test_id, pic_id, is_answer) {
-	// pictures are stored with hashed names. pic_id is defined like this:
-	// puzzle examples: 
-	// 01 -> 02 -> 03
-	// 04 -> 05 -> 06
-	// 07 -> 08 -> 09
-	// 10 -> 11 -> ?
-	//
-	// puzzle answers: 
-	// 12, 13, 14
-	// 15, 16, 17
-	// 18, 19, 20
-	if (is_answer) {
-		pic_id += 11; // answers are hashed with pic_id from 12 to 20
-	}
-	let pic_id_with_leading_zero = (pic_id < 10 ? "0" : "") + pic_id;
-	return md5("" + test_id + pic_id_with_leading_zero);
-}
-
-function get_picture_path(test_id, pic_id, is_answer) {
-	if (!is_answer && pic_id === 12) {
-		return "images/questionmark.png";
-	}
-	let hash = get_hash(test_id, pic_id, is_answer);
-	return "tests/test" + test_id + "/" + hash + ".png";
-}
-
-
-function preload_question(test_id) {
-	let images = [];
-	for (let pic_id = 1; pic_id <= 12; pic_id++) {
-		let picture_path = get_picture_path(test_id, pic_id, false);
-		let image = new Image();
-		image.src = picture_path;
-	}
-}
-function preload_answers(test_id) {
-	let images = [];
-	for (let pic_id = 1; pic_id <= 9; pic_id++) {
-		let picture_path = get_picture_path(test_id, pic_id, true);
-		let image = new Image();
-		image.src = picture_path;
-	}
-}
-
-function show_question(test_id) {
-	let html = "";
-	let pic_id = 1;
-	for (let i = 0; i < 4; i++){
-		html += "<div>";
-		for (let p = 0; p < 3; p++){
-			let clazz = "class='icon' ";
-			if (pic_id == 12){
-				clazz = "";
-			}
-			let picture_path = get_picture_path(test_id, pic_id, false);
-			html +=  "<img " + clazz + "src=\"" + picture_path + "\">";
-			if (p != 2)
-				html +=  "<img class='arrow' src=\"images/arrow.png\">";
-			pic_id++;
-		}
-		html +=  "</div>";
-	}
-	document.getElementById('question-number').innerHTML = "Question " + test_id + " / " + total_questions;
-	document.getElementById('test').style.display = 'flex';
-	document.getElementById('test-left').innerHTML = html;
-}
-
-function show_answers(test_id){
-	let html = "";
-	html += "<div>";
-	html += "Select the best fitting icon";
-	const random_indexes = get_random_indexes(1, 9);
-	for (let i = 0; i < 3; i++){
-		html += "<div>";	
-		for (let p = 0; p < 3; p++){
-			pic_id = random_indexes.shift();
-			const hash = get_hash(test_id, pic_id, true);
-			const picture_path = get_picture_path(test_id, pic_id, true);
-			html += "<img class='icon' onclick=\"submit_answer(" + test_id + ", '" + hash + "')\" src=\"" + picture_path + "\">";
-		}
-		html += "</div>";
-	}
-	html += "</div>";
-	document.getElementById('test-right').innerHTML = html;
-}
-
-function submit_answer(test_id, answer){
-	answers.push(answer);
-	if (test_id >= total_questions) {
-		show_result();
-	} else {
-		show_question(test_id + 1);
-		show_answers(test_id + 1);
-		if (test_id < total_questions - 1) {
-			preload_question(test_id + 2);
-			preload_answers(test_id + 2);
-		}
-	}
-}
-
-function show_result() {
-	let correct = 0;
-	for (let i = 0; i < answers.length; i++) {
-		const test_id = i+1;
-		const answer = answers[i];
-		const correct_answer = md5("" + test_id + 12);
-		if (answer == correct_answer) {
-			correct += 1;
-		}
-	}
-	const counting_time_and_scores = time_and_scores.filter( p => 
-		p[0] > 60
-	);
-	let better_than = counting_time_and_scores.filter(a => correct > a[1]).length;
-	if (better_than < 4) { // random guessing would yield approximately 4 correct answers, so use that as a minimum
-		better_than = 4;
-	}
-	const better_than_percent = 100 * better_than / counting_time_and_scores.length;
-	const iq = percentiles.filter(p => better_than_percent  >= p[1]).findLast(a => true)[0];
-	document.getElementById('test').style.display = "none";
-	document.getElementById('result').style.display = "flex";
-	document.getElementById('iq').innerHTML = "Your IQ is " + iq;
-	document.getElementById('top-percent').innerHTML = "You are better than " + Math.round(better_than_percent) + " % of other participants";
-}
-
-document.getElementById('start-link').onclick = function() {
-	document.getElementById('front').style.display = 'none';
-	document.getElementById('test').style.display = 'flex';
-	show_question(1);
-	show_answers(1);
-};
-preload_question(1);
-preload_answers(1);
-</script>
+<main>
+  <section id="front" class="screen intro" aria-label="About the test">
+    <img class="logo" src="images/logo.png" alt="IQ Champion">
+    <h1>Put your visual reasoning to the test</h1>
+    <p>36 puzzles. 40 minutes. Find the icon that completes each pattern.</p>
+    <p class="small">Choose one answer to move to the next puzzle. You cannot go back.
+      The timer keeps running if you switch tabs. When time runs out, your submitted answers are scored;
+      unanswered puzzles count as incorrect. Reloading the page starts a new attempt.</p>
+    <button id="start-link" class="primary" type="button">Start 40-minute test</button>
+    <p class="small">Your score is compared with <span id="reference-count"></span> historical attempts
+      with recorded durations over one minute and no more than 40 minutes.
+      These visitors are not a representative sample of the population. This is a reasoning challenge,
+      not a validated measurement of IQ.</p>
+    <a href="https://www.linkedin.com/in/kent-caspersen-49531394/">Contact</a>
+    <noscript><p>Enable JavaScript to take the test.</p></noscript>
+  </section>
+  <section id="test" class="screen" hidden aria-label="Reasoning test">
+    <header class="test-header">
+      <h1 id="question-number" tabindex="-1"></h1>
+      <div class="timer" role="timer" aria-label="Time remaining"><span id="time-left">40:00</span> left</div>
+    </header>
+    <p id="time-warning" class="small" role="status"></p>
+    <div class="left-right">
+      <div id="test-left" class="test-left" role="group" aria-label="Four rows of visual patterns; complete the last row"></div>
+      <div class="test-right">
+        <h2 id="answer-instructions">Select the best fitting icon</h2>
+        <div id="test-right" class="answers" role="group" aria-labelledby="answer-instructions"></div>
+      </div>
+    </div>
+  </section>
+  <section id="result" class="screen result" hidden aria-labelledby="result-title">
+    <h1 id="result-title" tabindex="-1">Your result</h1>
+    <p id="result-reason"></p>
+    <p id="score" class="score"></p>
+    <p id="answered-count"></p>
+    <p id="percentile"></p>
+    <p id="comparison"></p>
+    <p id="result-context" class="small"></p>
+    <p class="small">This result describes your performance on these visual reasoning puzzles.
+      It is not a validated IQ score or a comparison with the general population.</p>
+    <button id="restart-link" class="primary" type="button">Try again</button>
+  </section>
+</main>
 </body>
 </html>
