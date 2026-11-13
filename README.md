@@ -5,10 +5,23 @@ Open `index.html` in a browser; no build, server, account, or database is requir
 
 ## Test behavior
 
-- The deadline starts when Start is pressed. A visible countdown and a five-minute
+- An untimed, unscored practice puzzle explains the interaction before the real test.
+  It uses a separate shape sequence and never contributes to the 36-question score.
+- The deadline starts when Start 40-minute test is pressed. A visible countdown and a five-minute
   warning accompany automatic scoring at timeout. Switching tabs does not pause it.
-- Answers are final. Unanswered questions count as incorrect. Reloading clears the
-  current attempt; Try again starts a fresh attempt with newly shuffled answer positions.
+- Answers are final. Unanswered questions count as incorrect. The original start
+  timestamp and answers are saved after starting and after every accepted answer in
+  `localStorage` (`iqchampion.attempt.v1`). Reloading resumes the next unanswered
+  question with the original deadline; time spent with the page closed still counts.
+- Reopening an expired attempt immediately scores its stored answers. Completed
+  results also survive reload. Try again opens untimed practice; only starting the
+  next timed test replaces the previous saved attempt. Answer positions may shuffle
+  again on reload. Use one tab; other tabs reconcile stored progress before accepting
+  an answer or scoring a timeout, but localStorage is not a transactional multi-user store.
+- Saving is local to this browser and origin, not an account or server backup.
+  Clearing site data or using another browser removes access to the saved attempt.
+  If saving is blocked or full, a visible message explains that progress may be lost;
+  the test can still run in memory. Malformed or incompatible saved data is discarded.
 - This is a client-side challenge. The timer and answers are not protected against
   deliberate manipulation, and results are not suitable for verified rankings.
 
@@ -24,10 +37,20 @@ The result also reports the percentages scoring lower and scoring the same.
 Nonzero percentages below 0.1 and percentages above 99.9 but below 100 are shown
 as inequalities so rounding cannot imply zero or 100 percent.
 
+Kent reports that participants were recruited through paid Facebook advertisements
+and chose to take the test. This is a self-selected advertising sample. The historical
+data do not quantify whether, or by how much, its cognitive performance differs from
+the target population. No numerical selection-bias adjustment is applied. Establishing
+one would require an independent reference sample and/or comparison against validated
+measurements, with a defined target population and recruitment/nonresponse analysis.
+Demographic identity alone is not a basis for adjusting an individual's result.
+
 The historical duration field does not establish that identical timing rules were
-enforced. The visitors are not a representative population sample. Results therefore
+enforced. The sample has not been established as representative. Results therefore
 show raw score and participant percentile, without claiming a validated IQ estimate.
 The old percentile conversion files are retained as historical data and are not loaded.
+The new practice example may also change familiarity relative to historical attempts;
+that limitation is disclosed in the result text.
 
 ## Verification
 
@@ -38,7 +61,8 @@ node --test checks/app.test.cjs
 ```
 
 Checks cover the reference filter, low/partial/perfect scores, ties, late answers,
-timeout, restart, and stale or invalid submissions. They use a simulated clock and
+timeout, restart, practice isolation, reload before/after expiry, completed results,
+invalid saves, storage failures and stale submissions across tabs. They use a simulated clock and
 DOM, so they do not replace visual browser testing. Check the intro, questions and
 results at 320, 375, 760 and 1280 CSS pixels, including keyboard navigation.
 

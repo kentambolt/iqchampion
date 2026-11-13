@@ -34,6 +34,11 @@ const definitions = [
 ];
 const report = {
   source: 'assets/time_and_scores.js; iq_test_result.csv',
+  recruitment: {
+    method: 'Paid Facebook advertisements; participants chose to take the test.',
+    evidence: 'Project owner Kent, conversation on 13 November 2026.',
+    selectionBias: 'Direction and magnitude unknown; no numerical population adjustment applied.'
+  },
   csvRows: csv.length,
   javaScriptRows: rows.length,
   csvMatchesJavaScript: JSON.stringify(csv) === JSON.stringify(rows),

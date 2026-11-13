@@ -6,27 +6,48 @@
 <title>IQ Champion</title>
 <meta name="description" content="Try 36 visual reasoning puzzles in 40 minutes and compare your score with previous participants.">
 <link href="https://fonts.googleapis.com/css?family=Varela+Round&display=swap" rel="stylesheet">
-<link href="assets/styles.css?v=20261113-1" rel="stylesheet">
+<link href="assets/styles.css?v=20261113-2" rel="stylesheet">
 <script src="assets/time_and_scores.js?v=20261113-1" defer></script>
 <script src="assets/md5.js?v=20261113-1" defer></script>
-<script src="assets/app.js?v=20261113-1" defer></script>
+<script src="assets/app.js?v=20261113-2" defer></script>
 </head>
 <body>
 <main>
+  <p id="storage-notice" class="storage-notice small" role="status" hidden></p>
   <section id="front" class="screen intro" aria-label="About the test">
     <img class="logo" src="images/logo.png" alt="IQ Champion">
     <h1>Put your visual reasoning to the test</h1>
     <p>36 puzzles. 40 minutes. Find the icon that completes each pattern.</p>
     <p class="small">Choose one answer to move to the next puzzle. You cannot go back.
       The timer keeps running if you switch tabs. When time runs out, your submitted answers are scored;
-      unanswered puzzles count as incorrect. Reloading the page starts a new attempt.</p>
-    <button id="start-link" class="primary" type="button">Start 40-minute test</button>
+      unanswered puzzles count as incorrect. Answers and start time are saved in this browser,
+      so reloading resumes your attempt without resetting the timer. Clearing browser data removes the saved attempt.</p>
+    <button id="start-link" class="primary" type="button">Try the practice puzzle</button>
     <p class="small">Your score is compared with <span id="reference-count"></span> historical attempts
       with recorded durations over one minute and no more than 40 minutes.
-      These visitors are not a representative sample of the population. This is a reasoning challenge,
+      Participants were recruited through paid Facebook ads and chose to take the test.
+      This self-selected sample is not established as representative of the population. This is a reasoning challenge,
       not a validated measurement of IQ.</p>
     <a href="https://www.linkedin.com/in/kent-caspersen-49531394/">Contact</a>
     <noscript><p>Enable JavaScript to take the test.</p></noscript>
+  </section>
+  <section id="practice" class="screen intro" hidden aria-labelledby="practice-title">
+    <h1 id="practice-title" tabindex="-1">Practice puzzle</h1>
+    <p>Which shape comes next? Select an answer to see the explanation.</p>
+    <div class="practice-pattern" role="img" aria-label="Circle, square, circle, square, circle, missing shape">
+      <span aria-hidden="true">●</span><span aria-hidden="true">■</span>
+      <span aria-hidden="true">●</span><span aria-hidden="true">■</span>
+      <span aria-hidden="true">●</span><span aria-hidden="true">?</span>
+    </div>
+    <div class="practice-answers" role="group" aria-label="Practice answers">
+      <button id="practice-circle" type="button"><span aria-hidden="true">●</span> Circle</button>
+      <button id="practice-square" type="button"><span aria-hidden="true">■</span> Square</button>
+      <button id="practice-triangle" type="button"><span aria-hidden="true">▲</span> Triangle</button>
+    </div>
+    <p id="practice-feedback" role="status">This puzzle is unscored. You can try as many times as you like.</p>
+    <p class="small">Practice does not use any of your 40 minutes. The timer starts only when you press the button below.
+      This example is separate from the 36 test questions.</p>
+    <button id="practice-start-link" class="primary" type="button">Start 40-minute test</button>
   </section>
   <section id="test" class="screen" hidden aria-label="Reasoning test">
     <header class="test-header">
@@ -34,6 +55,7 @@
       <div class="timer" role="timer" aria-label="Time remaining"><span id="time-left">40:00</span> left</div>
     </header>
     <p id="time-warning" class="small" role="status"></p>
+    <p class="small">Your attempt resumes here after reloading. The timer keeps running while this page is closed.</p>
     <div class="left-right">
       <div id="test-left" class="test-left" role="group" aria-label="Four rows of visual patterns; complete the last row"></div>
       <div class="test-right">
