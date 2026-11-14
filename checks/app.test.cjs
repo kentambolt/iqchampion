@@ -30,7 +30,7 @@ function load(options = {}) {
   const context = vm.createContext({
     Date: { now: () => now }, Image: class {}, localStorage: storage,
     document: { getElementById: element, querySelector: element, createElement: makeElement, addEventListener() {} },
-    window: { addEventListener(event, handler) { windowEvents[event] = handler; } },
+    window: { MuntheSystems: options.tracker, addEventListener(event, handler) { windowEvents[event] = handler; } },
     setInterval(callback) { intervals.add(callback); return callback; },
     clearInterval(id) { intervals.delete(id); }
   });
@@ -419,4 +419,47 @@ test('starting again or reconciling another tab hides the previous answer review
   first.run('show_answer_review(1)');
   assert.equal(first.element('answer-review').hidden, true);
   assert.equal(first.run('finished'), false);
+});
+
+
+test('usage events follow new starts and finishes, without reporting a restored result', () => {
+  const events = [];
+  const tracker = { event: (...args) => events.push(args) };
+  const first = load({ tracker });
+  first.run('show_practice(); answer_practice("square");');
+  assert.deepEqual(events, []);
+  first.run('start_test(); start_test(); request_finish(); finish_test(); finish_test();');
+  assert.deepEqual(events, [['used'], ['test_completed']]);
+  const restored = load({ tracker, store: first.store, now: 2000 });
+  restored.run('return_to_result(); show_answer_review(1);');
+  assert.deepEqual(events, [['used'], ['test_completed']]);
+});
+
+test('reloading a running test preserves time without counting another start', () => {
+  const events = [];
+  const tracker = { event: name => events.push(name) };
+  const first = load({ tracker });
+  first.run('start_test()');
+  const resumed = load({ tracker, store: first.store, now: 2000 });
+  assert.deepEqual(events, ['used']);
+  resumed.advance(40 * 60 * 1000);
+  resumed.run('update_timer(); update_timer();');
+  load({ tracker, store: resumed.store, now: 2500000 });
+  assert.deepEqual(events, ['used', 'test_completed']);
+});
+
+test('an attempt first found expired on reload reports completion once', () => {
+  const events = [];
+  const tracker = { event: name => events.push(name) };
+  const first = load({ tracker });
+  first.run('start_test()');
+  load({ tracker, store: first.store, now: 2500000 });
+  load({ tracker, store: first.store, now: 2501000 });
+  assert.deepEqual(events, ['used', 'test_completed']);
+});
+
+test('a blocked or failing tracker cannot prevent starting and completing a test', () => {
+  const app = load({ tracker: { event() { throw Error('Blocked'); } } });
+  app.run('start_test(); request_finish(); finish_test();');
+  assert.equal(app.element('score').textContent, '0 / 36 correct');
 });

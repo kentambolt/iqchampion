@@ -82,7 +82,7 @@ function restore_attempt() {
   document.getElementById('finish-review').hidden = true;
   const legacy_complete = saved.version === 1 && saved.answers.length === total_questions;
   if (saved.completed || legacy_complete || Date.now() >= deadline) {
-    show_result(saved.completed ? saved.timedOut : !legacy_complete);
+    show_result(saved.completed ? saved.timedOut : !legacy_complete, !saved.completed && !legacy_complete);
   } else {
     show_question(current_question);
     if (saved.version === 1) save_attempt();
@@ -368,7 +368,12 @@ function format_percent(value) {
   return value.toFixed(1);
 }
 
-function show_result(expired) {
+// Statistics must never interrupt the test (for example when blocked by a browser).
+function report_usage(event) {
+  try { window.MuntheSystems?.event(event); } catch { /* Keep the test usable. */ }
+}
+
+function show_result(expired, report_completion = true) {
   if (finished) return;
   finished = true;
   // Store completion too, so reloading a result never creates a fresh timer.
@@ -390,6 +395,7 @@ function show_result(expired) {
   document.getElementById('result-context').textContent =
     `Reference group: ${reference_scores.length.toLocaleString('en-US')} historical attempts with recorded durations over one minute and up to 40 minutes. Participants were recruited through paid Facebook ads and chose to take the test. This self-selected group may differ from the general population; the direction and size of any difference are unknown. No population adjustment has been applied. The percentile places tied scores at the middle of their group. Historical timing conditions and data exclusions have not been independently verified. Practice, returning to questions, seeing correct answers and repeated attempts may affect comparability with historical results.`;
   document.getElementById('result-title').focus();
+  if (report_completion) report_usage('test_completed');
 }
 
 function start_test() {
@@ -412,6 +418,7 @@ function start_test() {
   update_timer();
   show_question(1);
   timer_id = setInterval(update_timer, 250);
+  report_usage('used');
 }
 
 document.getElementById('reference-count').textContent = reference_scores.length.toLocaleString('en-US');
