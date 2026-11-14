@@ -26,3 +26,5 @@ Offentligt tilgængelige sider skal være SEO-optimerede efter SEO-afsnittet i C
 ## Visuel kvalitet
 
 Følg designafsnittet i C:/projekter/munthe-systems/munthe-systems/docs/FAELLES-KONTEKST.md: undgå dekorative nulpolstrede trinnumre, border-left alene på afrundede beholdere, overdrevne tankestreger og Unicode-emojis som UI-dekoration. Brug egne SVG-/tegnede ikoner, optisk lodret centrering af ikon/tekst og tydelige links/fokus uden overdreven understregning. Bevar opgavernes figurer/data; ingen blind global udskiftning.
+
+Sprogsidernes kilde er index.html og assets/i18n.js. Efter ændringer: kør node tools/Build-Language-Pages.cjs, verificér --check og kør app-/SEO-checks. Redigér ikke kun de genererede da/en-sider. Bevar rigtige sprog-URLer, gensidige hreflang og canonical samt noindex på private testtilstande/404; sitemap omfatter kun offentlige kanoniske sider. Mail/SMS/admin er ikke relevante i dette statiske produkt, så opret ikke kanaler alene for at opfylde en liste.

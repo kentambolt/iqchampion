@@ -26,9 +26,11 @@ function load(options = {}) {
     setItem(key, value) { if (options.failWrite) throw new Error('Quota exceeded'); store.set(key, value); },
     removeItem(key) { store.delete(key); }
   };
+  const pageLocation = { pathname:options.path || '/', search:options.search || '', hash:options.hash || '' };
+  const pageHistory = { replaceState(_state,_title,value) { const url = new URL(value,'https://iqchampion.com'); pageLocation.pathname=url.pathname; pageLocation.search=url.search; pageLocation.hash=url.hash; } };
   const intervals = new Set();
   const context = vm.createContext({
-    Date: { now: () => now }, Image: class {}, localStorage: storage, navigator: { language: options.language || 'en' },
+    location:pageLocation, history:pageHistory, Date: { now: () => now }, Image: class {}, localStorage: storage, navigator: { language: options.language || 'en' },
     document: { documentElement: makeElement(), getElementById: element, querySelector: element, createElement: makeElement, addEventListener() {} },
     window: { MuntheSystems: options.tracker, addEventListener(event, handler) { windowEvents[event] = handler; } },
     setInterval(callback) { intervals.add(callback); return callback; },
@@ -37,7 +39,7 @@ function load(options = {}) {
   for (const file of ['time_and_scores.js', 'md5.js', 'i18n.js', 'app.js']) {
     vm.runInContext(fs.readFileSync(path.join(__dirname, '..', 'assets', file), 'utf8'), context);
   }
-  return { run: code => vm.runInContext(code, context), element, intervals, store, windowEvents, advance: ms => { now += ms; } };
+  return { run: code => vm.runInContext(code, context), element, intervals, store, windowEvents, pageLocation, advance: ms => { now += ms; } };
 }
 
 test('historical reference excludes durations outside the stated range', () => {
@@ -549,10 +551,11 @@ test('unsupported locales fall back to English; an explicit valid choice wins ov
 
 test('all static product copy and accessibility labels have Danish translations', () => {
   const app = load({language:'da'});
-  const html = fs.readFileSync(path.join(__dirname,'../index.html'),'utf8').replace(/<noscript>[\s\S]*?<\/noscript>/g,'');
+  const html = fs.readFileSync(path.join(__dirname,'../index.html'),'utf8').replace(/<(noscript|script)[^>]*>[\s\S]*?<\/\1>/g,'');
   const decode = s => s.replace(/&amp;/g,'&').trim();
   const texts = [...html.matchAll(/>([^<>]+)</g)].map(m=>decode(m[1])).filter(Boolean);
-  const attributes = [...html.matchAll(/(?:aria-label|alt|content)="([^"]*)"/g)].map(m=>decode(m[1])).filter(t=>!t.startsWith('width='));
+  const attributes = [...html.matchAll(/(?:aria-label|alt)="([^"]*)"/g)].map(m=>decode(m[1]));
+  for(const m of html.matchAll(/<meta[^>]*(?:name="description"|property="og:(?:title|description)")[^>]*content="([^"]*)"/g)) attributes.push(decode(m[1]));
   for(const value of [...texts,...attributes]) app.run('i18n.translate('+JSON.stringify(value)+')');
   assert.deepEqual(Array.from(app.run('i18n.missing')), []);
 });
@@ -566,4 +569,32 @@ test('switching language after an unanswered review cannot replace a submitted a
   assert.equal(app.element('review-selected').children[0],image);
   assert.equal(image.alt,'Dit indsendte svar');
   assert.equal(app.element('review-selected').textContent,'');
+});
+
+
+test('explicit real language routes override saved and browser preferences without redirecting on load', () => {
+  const app = load({path:'/da/',language:'en',store:new Map([['iqchampion.language','en']])});
+  assert.equal(app.run('i18n.language'),'da');
+  assert.equal(app.pageLocation.pathname,'/da/');
+  assert.match(app.run('document.title'),/^Gratis logiktest/);
+  const english = load({path:'/en/index.html',language:'da',store:new Map([['iqchampion.language','da']])});
+  assert.equal(english.run('i18n.language'),'en');
+  assert.equal(english.pageLocation.pathname,'/en/index.html');
+});
+
+test('language route switches preserve active answers/deadline and update canonical metadata', () => {
+  const app = load({path:'/en/',search:'?campaign=sample',hash:'#intro'});
+  app.run('start_test(); submit_answer(1,get_hash(1,1,true));');
+  const before = app.store.get('iqchampion.attempt.v1');
+  app.run('i18n.setLanguage("da")');
+  assert.equal(app.pageLocation.pathname,'/da/');
+  assert.equal(app.pageLocation.search,'?campaign=sample');
+  assert.equal(app.store.get('iqchampion.attempt.v1'),before);
+  assert.equal(app.run('deadline'),2401000);
+  assert.equal(app.element('link[rel="canonical"]').attributes.href,'https://iqchampion.com/da/');
+  assert.equal(JSON.parse(app.element('site-schema').textContent).url,'https://iqchampion.com/da/');
+  assert.equal(app.element('language-da').attributes['aria-current'],'page');
+  app.run('i18n.setLanguage("en")');
+  assert.equal(app.pageLocation.pathname,'/en/');
+  assert.equal(app.store.get('iqchampion.attempt.v1'),before);
 });

@@ -124,9 +124,9 @@ body copy keep paragraphs readable. The existing scoring and timer are unchanged
 
 The language switch is available on every screen. Both languages cover practice,
 active and restored attempts, navigation, finish confirmation, results, methodology,
-answer review, accessibility labels and recoverable storage errors. The saved
-choice takes precedence over browser language; Danish browser locales default to
-Danish and other browsers default to English. Language changes keep answers,
+answer review, accessibility labels and recoverable storage errors. An explicit /da/ or /en/ route takes precedence over the saved choice and browser
+language. The root page retains the saved/browser fallback without automatically
+redirecting visitors. Language changes keep answers,
 answer order and the original deadline unchanged. Locale preference uses a separate
 localStorage key and remains usable if saving is blocked.
 
@@ -167,3 +167,40 @@ The follow-up visual pass removes decorative 01/02 steps, uses complete borders
 on rounded notes and replaces UI glyph decoration with drawn SVG icons. Actual
 puzzle symbols and images remain unchanged. Desktop1024x600 and mobile375x812
 were visually checked again after this pass, without console errors.
+
+## Crawlable language pages and SEO release candidate
+
+index.html is the English source template. Generate the real da/index.html and
+en/index.html pages after changing the template or assets/i18n.js:
+
+    node tools/Build-Language-Pages.cjs
+    node tools/Build-Language-Pages.cjs --check
+    node --test checks/app.test.cjs checks/seo.test.cjs
+
+Both generated pages contain localized HTML before JavaScript, a localized title
+and description, a self-referencing canonical, reciprocal da/en hreflang, and
+x-default pointing to the root. Language choices are real links. A normal click
+updates the real URL without reloading or changing the attempt; modified clicks
+use ordinary browser navigation. A root base URL keeps all original assets valid.
+Metadata and feedback language follow the selected route.
+
+The sitemap contains only /da/ and /en/. The duplicate English root canonicalizes
+to /en/. No artificial lastmod is generated. The custom 404 is noindex and does
+not load test state. Active practice/tests/results are noindex in the browser;
+returning to the public introduction restores index,follow. The WebPage JSON-LD
+describes the actual free page and has no invented ratings, offers or IQ claims.
+No Search Console indexing or ranking result is claimed.
+
+Local verification: 43 checks pass; actual HTTP200 for both language pages, robots
+and sitemap, HTTP301 for /da to /da/, and HTTP404/noindex for an unknown route.
+Real browser tests verified Danish HTML hydration, switching to /en/ during an
+active attempt, reload with retained time and answer count, explicit route priority,
+private result noindex and return to the indexable introduction. Desktop1280x720
+and mobile375x812 were checked; no horizontal overflow or console errors. Preview
+analytics were disabled. See reports/seo-review-20261114.json. These SEO changes
+are not live until the reviewed PR is merged and Pages deployment is verified.
+
+The product has no authenticated administration, mail/SMS templates, outbox or
+communication workers. Recipient-language freezing/retry is therefore not
+applicable here; no providers or senders were added. The existing shared feedback
+form is maintained by the company project and receives the explicit lang value.

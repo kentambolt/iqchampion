@@ -78,3 +78,10 @@ new MutationObserver(() => {
 new MutationObserver(() => { if (document.getElementById('test').hidden && infoSheet.open && sheetNodes.includes(finishReview)) infoSheet.close(); }).observe(document.getElementById('test'), {attributes:true,attributeFilter:['hidden']});
 
 sheetContent.addEventListener('click', event => { if (event.target.closest('.question-link')) infoSheet.close(); });
+
+// Only the public introduction is indexable. Test state/results stay browser-local.
+function updateIndexingState() {
+  document.querySelector('meta[name="robots"]')?.setAttribute('content',document.getElementById('front').hidden?'noindex,follow':'index,follow');
+}
+new MutationObserver(updateIndexingState).observe(document.getElementById('front'),{attributes:true,attributeFilter:['hidden']});
+updateIndexingState();
