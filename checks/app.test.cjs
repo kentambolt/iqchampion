@@ -36,7 +36,7 @@ function load(options = {}) {
     setInterval(callback) { intervals.add(callback); return callback; },
     clearInterval(id) { intervals.delete(id); }
   });
-  for (const file of ['time_and_scores.js', 'percentiles.js', 'iq-score.js', 'md5.js', 'i18n.js', 'app.js']) {
+  for (const file of ['time_and_scores.js', 'percentiles.js', 'iq-score.js', 'md5.js', 'explanations.js', 'i18n.js', 'app.js']) {
     vm.runInContext(fs.readFileSync(path.join(__dirname, '..', 'assets', file), 'utf8'), context);
   }
   return { run: code => vm.runInContext(code, context), element, intervals, store, windowEvents, pageLocation, advance: ms => { now += ms; } };
@@ -707,4 +707,26 @@ test('version2 attempts retain previous examples while new version3 attempts use
  assert.match(old.run('get_picture_path(34,4,false)'),/test34\/[^/]+\.png$/);
  assert.match(old.run('get_picture_path(36,8,false)'),/test36\/v2\/.*\.svg$/);
  assert.equal(old.run('get_hash(19,1,true)'),app.run('get_hash(19,1,true)'));
+});
+
+
+test('all 36 post-test explanations remain bilingual and follow the saved puzzle version',()=>{
+ const app=load({language:'da'});app.run('start_test();request_finish();finish_test();');
+ for(let id=1;id<=36;id++){
+  app.run('show_answer_review('+id+')');
+  assert.equal(app.element('explanation-title').textContent,app.run('question_explanations['+id+'].da.title'));
+  assert.equal(app.element('explanation-rule').textContent,app.run('question_explanations['+id+'].da.rule'));
+  assert.equal(app.element('explanation-legacy').hidden,true);
+ }
+ assert.deepEqual(Array.from(app.run('i18n.missing')),[]);
+ app.run('i18n.setLanguage("en")');
+ assert.equal(app.element('explanation-rule').textContent,app.run('question_explanations[36].rule'));
+ const saved=JSON.parse(app.store.get('iqchampion.attempt.v3'));saved.puzzleVersion=1;
+ app.store.set('iqchampion.attempt.v3',JSON.stringify(saved));
+ const legacy=load({store:app.store});legacy.run('show_answer_review(36)');
+ assert.match(legacy.element('explanation-application').textContent,/original version/);
+ assert.equal(legacy.element('explanation-legacy').hidden,false);
+ legacy.run('show_answer_review(19);i18n.setLanguage("da")');
+ assert.match(legacy.element('explanation-legacy').textContent,/tidligere opgaveversion/);
+ assert.deepEqual(Array.from(legacy.run('i18n.missing')),[]);
 });

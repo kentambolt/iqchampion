@@ -345,3 +345,11 @@ main { padding: 12px 24px; }
 
 .about-action { display:flex; align-items:center; justify-content:center; flex-wrap:wrap; gap:4px 20px; }
 .about-action a { text-decoration:underline; }
+
+.explanation-panel { border:0; }
+.explanation-copy h3 { font-size:14px; color:var(--accent); margin-top:20px; margin-bottom:8px; }
+.explanation-copy p { max-width:65ch; line-height:1.7; }
+@media (min-width:600px) { .review-toolbar { grid-template-columns:minmax(0,1fr) minmax(110px,160px) minmax(95px,140px); gap:12px; } }
+
+.review-toolbar .explanation-panel summary { padding-top:8px; padding-bottom:8px; }
+.review-toolbar .explanation-panel summary::after { top:7px; }
