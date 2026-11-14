@@ -5,6 +5,7 @@ const vm = require('node:vm');
 const root = path.resolve(__dirname, '..');
 const source = fs.readFileSync(path.join(root, 'index.html'), 'utf8');
 const check = process.argv.includes('--check');
+const normalize = text => text.replace(/\r\n/g,'\n');
 const origin = 'https://iqchampion.com';
 const stylesheet='/' + source.match(/<link href="(assets\/styles\.css[^"]*)" rel="stylesheet">/)[1];
 const reference={};
@@ -54,7 +55,7 @@ const files={
 let stale=[];
 for(const [name,content] of Object.entries(files)) {
  const target=path.join(root,name);
- if(check) { if(!fs.existsSync(target)||fs.readFileSync(target,'utf8')!==content)stale.push(name); }
+ if(check) { if(!fs.existsSync(target)||normalize(fs.readFileSync(target,'utf8'))!==normalize(content))stale.push(name); }
  else { fs.mkdirSync(path.dirname(target),{recursive:true});fs.writeFileSync(target,content); }
 }
 if(stale.length){console.error('Generated pages need updating: '+stale.join(', '));process.exitCode=1;}
