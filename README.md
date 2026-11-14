@@ -87,7 +87,7 @@ results at 320, 375, 760 and 1280 CSS pixels, including keyboard navigation.
 Part of Munthe Systems. Repository: https://github.com/kentambolt/iqchampion.
 GitHub Pages publishes the root of `main` at https://iqchampion.com/ with HTTPS
 enforced (configuration verified 13 November 2026). The project remains static, with no database,
-mail/SMS service, login or payment infrastructure. Google Fonts is an external asset.
+mail/SMS service, login or payment infrastructure. Typography uses system fonts, with no external font request.
 
 The first iteration adds timing, corrected scoring, participant-based result text,
 responsive grids and keyboard-accessible answer buttons. Pushes to `main` trigger
@@ -110,3 +110,12 @@ provisional duration-filtered group, especially at the highest scores.
 
 Asset references include a release version to prevent an old stylesheet overriding
 the new layout after publication. Update that version when changing shipped assets.
+
+## Mobile readability iteration (14 November 2026)
+
+The home screen now prioritises the challenge, three short facts and the practice
+button. Instructions and reference details use separate expandable sections.
+The test uses compact pattern/answer panels, a mobile timer header and an
+expandable question overview. Results show the score and next actions first,
+with methodology available on demand. Side gutters, text widths and left-aligned
+body copy keep paragraphs readable. The existing scoring and timer are unchanged.
