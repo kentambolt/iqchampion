@@ -18,3 +18,13 @@ Offentlige produkttekster må ikke annoncere tilknytning til Munthe Systems. Fee
 ## Minimumssprog
 
 Produktets offentlige brugerflader og centrale flows skal understøtte både dansk og engelsk, inklusive navigation, vejledning, validering/fejl, feedback og relevante mails. Bevar øvrige sprog. Sprogvalg skal kunne skiftes konsekvent uden at miste testtilstand; brugerdata må ikke sendes til automatisk tredjepartsoversættelse. Den fælles feedbackformular vedligeholdes af selskabsforløbet.
+
+## Offentlig SEO
+
+Offentligt tilgængelige sider skal være SEO-optimerede efter SEO-afsnittet i C:/projekter/munthe-systems/munthe-systems/docs/FAELLES-KONTEKST.md: læsbart indhold, relevante metadata/canonical, semantik, billeder, mobil/performance, sitemap/statuskoder og kun ægte sprogruter/hreflang samt relevante strukturerede data. Bevar adgang/noindex for private og personlige flows, staging, prototyper og kontaktformularer; disse hører ikke i sitemap. Ingen betalte SEO-tjenester som standard.
+
+## Visuel kvalitet
+
+Følg designafsnittet i C:/projekter/munthe-systems/munthe-systems/docs/FAELLES-KONTEKST.md: undgå dekorative nulpolstrede trinnumre, border-left alene på afrundede beholdere, overdrevne tankestreger og Unicode-emojis som UI-dekoration. Brug egne SVG-/tegnede ikoner, optisk lodret centrering af ikon/tekst og tydelige links/fokus uden overdreven understregning. Bevar opgavernes figurer/data; ingen blind global udskiftning.
+
+Sprogsidernes kilde er index.html og assets/i18n.js. Efter ændringer: kør node tools/Build-Language-Pages.cjs, verificér --check og kør app-/SEO-checks. Redigér ikke kun de genererede da/en-sider. Bevar rigtige sprog-URLer, gensidige hreflang og canonical samt noindex på private testtilstande/404; sitemap omfatter kun offentlige kanoniske sider. Mail/SMS/admin er ikke relevante i dette statiske produkt, så opret ikke kanaler alene for at opfylde en liste.

@@ -3,8 +3,9 @@
 // Product-owned copy only. No user data is sent to a translation service.
 const i18n = (() => {
   const da = {
+    'Free visual reasoning test | IQ Champion': 'Gratis logiktest med figurer | IQ Champion',
     '36 visual reasoning puzzles. Take a free 40-minute challenge and explore your results.': '36 visuelle logikopgaver. Prøv en gratis test på 40 minutter, og se dit resultat.',
-    '40 min': '40 min', 'Language': 'Sprog', 'About the test': 'Om testen',
+    'Answered':'Besvaret', 'Unanswered':'Ubesvaret', 'Correct':'Rigtigt', 'Incorrect':'Forkert', 'Close': 'Luk', 'Help': 'Hjælp', '40 min': '40 min', 'Language': 'Sprog', 'About the test': 'Om testen',
     'A challenge in visual reasoning': 'En udfordring i visuel logik',
     'Spot the pattern.': 'Find mønstret.', 'Find the missing piece.': 'Find den manglende brik.',
     '36 visual puzzles, one question at a time.': '36 visuelle opgaver, ét spørgsmål ad gangen.',
@@ -52,9 +53,9 @@ const i18n = (() => {
     '✓ Correct': '✓ Rigtigt', '× Incorrect': '× Forkert', 'Review a question': 'Gennemgå en opgave',
     'Your submitted answers and final score stay unchanged.': 'Dine indsendte svar og dit endelige resultat ændres ikke.',
     'Contact': 'Kontakt', 'Feedback & contact': 'Feedback og kontakt', 'Send feedback or contact us': 'Send feedback eller kontakt os',
-    'Correct — your answer matches the correct answer.': 'Rigtigt — dit svar stemmer med facit.',
-    'Incorrect — your answer differs from the correct answer.': 'Forkert — dit svar er forskelligt fra facit.',
-    'Unanswered — no answer was submitted for this question.': 'Ubesvaret — du har ikke svaret på denne opgave.',
+    'Correct. Your answer matches the correct answer.': 'Rigtigt. Dit svar stemmer med facit.',
+    'Incorrect. Your answer differs from the correct answer.': 'Forkert. Dit svar er forskelligt fra facit.',
+    'Unanswered. No answer was submitted for this question.': 'Ubesvaret. Du har ikke svaret på denne opgave.',
     'No answer submitted': 'Intet svar afgivet', 'Your submitted answer': 'Dit indsendte svar', 'Missing icon': 'Manglende figur',
     'All questions are answered. You can still review and change answers, then finish the test.': 'Alle opgaver er besvaret. Du kan stadig gennemgå og rette dine svar, før du afslutter testen.',
     'Five minutes or less remaining.': 'Der er højst fem minutter tilbage.',
@@ -82,8 +83,11 @@ const i18n = (() => {
     [/^Reference group: ([\d,]+) historical attempts with recorded durations over one minute and up to 40 minutes\..*$/, (_,count) => `Sammenligningsgruppe: ${count.replace(/,/g,'.')} historiske forsøg med registreret varighed på over ét minut og op til 40 minutter. Deltagerne kom via betalte Facebook-annoncer og valgte selv at tage testen. Denne selvvalgte gruppe kan afvige fra befolkningen som helhed; retningen og størrelsen på forskellen er ukendt. Der er ikke korrigeret til befolkningsniveau. Ved samme antal rigtige bruges midten af gruppens percentilinterval. Historiske tidsmålinger og udeladelser i data er ikke uafhængigt verificeret. Øvelse, muligheden for at vende tilbage til opgaver, visning af facit og gentagne forsøg kan påvirke sammenligneligheden med historiske resultater.`],
     [/^\d{1,3}(,\d{3})+$/, text => text.replace(/,/g,'.')]
   ];
-  let language = 'en';
-  try { const saved = localStorage.getItem('iqchampion.language'); if (saved === 'da' || saved === 'en') language = saved; else if (navigator.language?.toLowerCase().startsWith('da')) language = 'da'; } catch { if (typeof navigator !== 'undefined' && navigator.language?.toLowerCase().startsWith('da')) language = 'da'; }
+  const route = typeof location !== 'undefined' ? location.pathname.match(/^\/(da|en)(?:\/|\/index\.html)?$/)?.[1] : null;
+  let language = route || 'en';
+  if (!route) try { const saved=localStorage.getItem('iqchampion.language'); if (saved==='da'||saved==='en') language=saved; else if (navigator.language?.toLowerCase().startsWith('da')) language='da'; } catch { if (typeof navigator!=='undefined'&&navigator.language?.toLowerCase().startsWith('da')) language='da'; }
+  const englishByDanish = new Map(Object.entries(da).map(([english,danish])=>[danish,english]));
+  const englishSource = value => englishByDanish.get(value) || value;
   const bindings = new Map();
   const missing = new Set();
   function translate(value) {
@@ -118,10 +122,23 @@ const i18n = (() => {
       if (element.isConnected === false) { bindings.delete(element); continue; }
       for (const [property, source] of entries) apply(element, property, source);
     }
-    for (const code of ['da','en']) document.getElementById('language-'+code)?.setAttribute('aria-pressed', String(language === code));
+    for (const code of ['da','en']) document.getElementById('language-'+code)?.setAttribute('aria-current', language === code ? 'page' : 'false');
     const link = document.getElementById('feedback-link');
     if (link) link.setAttribute('href', 'https://munthesystems.dk/systems/feedback/iqchampion?lang='+language);
-    if (persist) try { localStorage.setItem('iqchampion.language', language); } catch { /* Language still works for this page. */ }
+    const canonical = 'https://iqchampion.com/'+language+'/';
+    document.title = translate('Free visual reasoning test | IQ Champion');
+    document.querySelector?.('link[rel="canonical"]')?.setAttribute('href',canonical);
+    document.querySelector?.('meta[property="og:url"]')?.setAttribute('content',canonical);
+    document.querySelector?.('meta[property="og:title"]')?.setAttribute('content',document.title);
+    document.querySelector?.('meta[property="og:locale"]')?.setAttribute('content',language==='da'?'da_DK':'en_GB');
+    const description=translate('36 visual reasoning puzzles. Take a free 40-minute challenge and explore your results.');
+    document.querySelector?.('meta[property="og:description"]')?.setAttribute('content',description);
+    const schema=document.getElementById('site-schema');
+    if(schema) schema.textContent=JSON.stringify({'@context':'https://schema.org','@type':'WebPage',name:document.title,description,url:canonical,inLanguage:language,isAccessibleForFree:true,isPartOf:{'@type':'WebSite',name:'IQ Champion',url:'https://iqchampion.com/'}});
+    if (persist) {
+      try { localStorage.setItem('iqchampion.language', language); } catch { /* The current page still switches. */ }
+      if (typeof history!=='undefined'&&typeof location!=='undefined') try { history.replaceState(null,'','/'+language+'/'+location.search+location.hash); } catch { /* Keep the language usable in restricted previews. */ }
+    }
   }
   // Capture only the initial product-owned HTML. Dynamic content uses the same bindings below.
   if (document.createTreeWalker) {
@@ -129,13 +146,18 @@ const i18n = (() => {
     let node;
     while ((node = walker.nextNode())) {
       if (['SCRIPT','STYLE','NOSCRIPT'].includes(node.parentElement?.tagName) || !node.nodeValue.trim()) continue;
-      bind(node,'node',node.nodeValue);
+      const original=node.nodeValue;
+      bind(node,'node',original.match(/^\s*/)[0]+englishSource(original.trim())+original.match(/\s*$/)[0]);
     }
     for (const el of document.querySelectorAll('[aria-label], [alt], meta[name="description"]')) {
-      for (const attr of ['aria-label','alt','content']) if (el.hasAttribute(attr)) bind(el,attr,el.getAttribute(attr));
+      for (const attr of ['aria-label','alt','content']) if (el.hasAttribute(attr)) bind(el,attr,englishSource(el.getAttribute(attr)));
     }
   }
-  for (const code of ['da','en']) document.getElementById('language-'+code)?.addEventListener('click', () => setLanguage(code));
+  for (const code of ['da','en']) document.getElementById('language-'+code)?.addEventListener('click', event => {
+    if (event && (event.button>0||event.ctrlKey||event.metaKey||event.shiftKey||event.altKey)) return;
+    event?.preventDefault();
+    setLanguage(code);
+  });
   setLanguage(language, false);
   return { clear:el=>bindings.delete(el), text:(el,value)=>bind(el,'text',value), html:(el,value)=>bind(el,'html',value), attribute:(el,name,value)=>bind(el,name,value), setLanguage, translate, get language(){return language;}, missing };
 })();

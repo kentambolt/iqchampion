@@ -1,0 +1,73 @@
+{
+  "environment": "local",
+  "tests": {
+    "passed": 43,
+    "failed": 0
+  },
+  "routes": [
+    {
+      "path": "/da/",
+      "status": 200,
+      "location": null,
+      "htmlLanguage": "da",
+      "noindex": false
+    },
+    {
+      "path": "/en/",
+      "status": 200,
+      "location": null,
+      "htmlLanguage": "en",
+      "noindex": false
+    },
+    {
+      "path": "/da",
+      "status": 301,
+      "location": "/da/",
+      "noindex": false
+    },
+    {
+      "path": "/robots.txt",
+      "status": 200,
+      "location": null,
+      "noindex": false
+    },
+    {
+      "path": "/sitemap.xml",
+      "status": 200,
+      "location": null,
+      "noindex": false
+    },
+    {
+      "path": "/missing-page",
+      "status": 404,
+      "location": null,
+      "htmlLanguage": "en",
+      "noindex": true
+    }
+  ],
+  "browser": {
+    "actualWidths": [
+      1280,
+      375
+    ],
+    "languageSwitchPreservesAnswersAndDeadline": true,
+    "reloadRestoredRemainingTime": "39:45",
+    "explicitEnglishRouteOverridesSavedDanish": true,
+    "personalResultNoindex": true,
+    "introductionIndexable": true,
+    "horizontalOverflow": false,
+    "consoleErrors": 0
+  },
+  "channels": {
+    "publicUI": [
+      "da",
+      "en"
+    ],
+    "admin": "not applicable; no product admin or login",
+    "mail": "not applicable; no product mail templates or outbox",
+    "sms": "not applicable; no SMS templates or sender",
+    "feedback": "existing shared da/en form with explicit lang parameter"
+  },
+  "previewAnalytics": false,
+  "productionVerification": "pending merge/deploy; no SEO indexing claim"
+}

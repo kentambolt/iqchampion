@@ -120,13 +120,13 @@ expandable question overview. Results show the score and next actions first,
 with methodology available on demand. Side gutters, text widths and left-aligned
 body copy keep paragraphs readable. The existing scoring and timer are unchanged.
 
-## Danish and English (local release candidate)
+## Danish and English
 
 The language switch is available on every screen. Both languages cover practice,
 active and restored attempts, navigation, finish confirmation, results, methodology,
-answer review, accessibility labels and recoverable storage errors. The saved
-choice takes precedence over browser language; Danish browser locales default to
-Danish and other browsers default to English. Language changes keep answers,
+answer review, accessibility labels and recoverable storage errors. An explicit /da/ or /en/ route takes precedence over the saved choice and browser
+language. The root page retains the saved/browser fallback without automatically
+redirecting visitors. Language changes keep answers,
 answer order and the original deadline unchanged. Locale preference uses a separate
 localStorage key and remains usable if saving is blocked.
 
@@ -140,7 +140,67 @@ is maintained by the company project. There are no product transaction emails.
 Validation: 38/38 app checks passed, including translation coverage, language
 changes, reload, timeout, errors and review. Local real-browser flows passed at
 actual 375px and 1280px widths with no horizontal overflow or console errors.
-Preview analytics were disabled. The shared public form still displayed Danish
-for ?lang=en during the check and awaits its owner's language release. This
-product change requires its own merge approval and post-release live verification.
+Preview analytics were disabled. The shared form now serves da/en HTML for
+?lang=da/en, independently verified after the central release. Danish/English
+shipped in PR3 (8ba5aeba); later releases retain the normal product checks.
 The unfinished question-explanation iteration is excluded.
+
+## Viewport layout iteration
+
+Test artwork is capped at its original resolution and scales with viewport height
+and width. Navigation shares one compact toolbar. Instructions, methodology, the
+36-question overview and finish confirmation use a native dialog with keyboard
+focus handling, Escape/close and preserved live DOM controls. Results, introduction,
+practice and answer review are also compact on desktop/tablet. No body overflow is
+hidden to manufacture a fit; scrolling remains available for small mobile screens,
+zoom and longer dialog content. No question images, answers or scoring are changed.
+
+38 existing app checks pass. Real browser measurements found no page or horizontal
+overflow at 1366x768, 1280x720, 1024x600, 768x1024, 1024x768, 600x800 and 800x600 for the active test.
+At 1024x600, introduction, practice, results and review also fit. At 375x812 the
+active test retains vertical scrolling but has no horizontal overflow. Question
+overview selection, continued work, finish, review and bilingual dialogs were
+checked with actual controls. Preview analytics were disabled. Two SVG before/after
+art studies are separate proposals, excluded from the deployed product.
+
+The follow-up visual pass removes decorative 01/02 steps, uses complete borders
+on rounded notes and replaces UI glyph decoration with drawn SVG icons. Actual
+puzzle symbols and images remain unchanged. Desktop1024x600 and mobile375x812
+were visually checked again after this pass, without console errors.
+
+## Crawlable language pages and SEO release candidate
+
+index.html is the English source template. Generate the real da/index.html and
+en/index.html pages after changing the template or assets/i18n.js:
+
+    node tools/Build-Language-Pages.cjs
+    node tools/Build-Language-Pages.cjs --check
+    node --test checks/app.test.cjs checks/seo.test.cjs
+
+Both generated pages contain localized HTML before JavaScript, a localized title
+and description, a self-referencing canonical, reciprocal da/en hreflang, and
+x-default pointing to the root. Language choices are real links. A normal click
+updates the real URL without reloading or changing the attempt; modified clicks
+use ordinary browser navigation. A root base URL keeps all original assets valid.
+Metadata and feedback language follow the selected route.
+
+The sitemap contains only /da/ and /en/. The duplicate English root canonicalizes
+to /en/. No artificial lastmod is generated. The custom 404 is noindex and does
+not load test state. Active practice/tests/results are noindex in the browser;
+returning to the public introduction restores index,follow. The WebPage JSON-LD
+describes the actual free page and has no invented ratings, offers or IQ claims.
+No Search Console indexing or ranking result is claimed.
+
+Local verification: 43 checks pass; actual HTTP200 for both language pages, robots
+and sitemap, HTTP301 for /da to /da/, and HTTP404/noindex for an unknown route.
+Real browser tests verified Danish HTML hydration, switching to /en/ during an
+active attempt, reload with retained time and answer count, explicit route priority,
+private result noindex and return to the indexable introduction. Desktop1280x720
+and mobile375x812 were checked; no horizontal overflow or console errors. Preview
+analytics were disabled. See reports/seo-review-20261114.json. These SEO changes
+are not live until the reviewed PR is merged and Pages deployment is verified.
+
+The product has no authenticated administration, mail/SMS templates, outbox or
+communication workers. Recipient-language freezing/retry is therefore not
+applicable here; no providers or senders were added. The existing shared feedback
+form is maintained by the company project and receives the explicit lang value.
