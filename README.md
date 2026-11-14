@@ -119,3 +119,28 @@ The test uses compact pattern/answer panels, a mobile timer header and an
 expandable question overview. Results show the score and next actions first,
 with methodology available on demand. Side gutters, text widths and left-aligned
 body copy keep paragraphs readable. The existing scoring and timer are unchanged.
+
+## Danish and English (local release candidate)
+
+The language switch is available on every screen. Both languages cover practice,
+active and restored attempts, navigation, finish confirmation, results, methodology,
+answer review, accessibility labels and recoverable storage errors. The saved
+choice takes precedence over browser language; Danish browser locales default to
+Danish and other browsers default to English. Language changes keep answers,
+answer order and the original deadline unchanged. Locale preference uses a separate
+localStorage key and remains usable if saving is blocked.
+
+All translations are reviewed product copy in assets/i18n.js; no user data is sent
+to a translation service. Numbers use the selected language's separators. The
+product-owned feedback link follows ?lang=da/en and works even when the pinned
+tracker is blocked. Automatic tracker feedback UI is disabled to avoid duplicate
+links; telemetry and privacy opt-outs are otherwise preserved. The shared form
+is maintained by the company project. There are no product transaction emails.
+
+Validation: 38/38 app checks passed, including translation coverage, language
+changes, reload, timeout, errors and review. Local real-browser flows passed at
+actual 375px and 1280px widths with no horizontal overflow or console errors.
+Preview analytics were disabled. The shared public form still displayed Danish
+for ?lang=en during the check and awaits its owner's language release. This
+product change requires its own merge approval and post-release live verification.
+The unfinished question-explanation iteration is excluded.

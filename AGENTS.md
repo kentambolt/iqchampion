@@ -14,3 +14,7 @@ Ved væsentlige ændringer: afstem kort produktstatus, hosting/DNS, server, data
 ## Neutral offentlig feedback
 
 Offentlige produkttekster må ikke annoncere tilknytning til Munthe Systems. Feedbacktekster, inklusive skærmlæsertekster, må ikke nævne Kent eller Munthe Systems; brug fx "Vi har modtaget din feedback". Bevar interne integrationer og korrekte nødvendige privatlivsoplysninger.
+
+## Minimumssprog
+
+Produktets offentlige brugerflader og centrale flows skal understøtte både dansk og engelsk, inklusive navigation, vejledning, validering/fejl, feedback og relevante mails. Bevar øvrige sprog. Sprogvalg skal kunne skiftes konsekvent uden at miste testtilstand; brugerdata må ikke sendes til automatisk tredjepartsoversættelse. Den fælles feedbackformular vedligeholdes af selskabsforløbet.

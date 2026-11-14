@@ -28,13 +28,13 @@ function load(options = {}) {
   };
   const intervals = new Set();
   const context = vm.createContext({
-    Date: { now: () => now }, Image: class {}, localStorage: storage,
-    document: { getElementById: element, querySelector: element, createElement: makeElement, addEventListener() {} },
+    Date: { now: () => now }, Image: class {}, localStorage: storage, navigator: { language: options.language || 'en' },
+    document: { documentElement: makeElement(), getElementById: element, querySelector: element, createElement: makeElement, addEventListener() {} },
     window: { MuntheSystems: options.tracker, addEventListener(event, handler) { windowEvents[event] = handler; } },
     setInterval(callback) { intervals.add(callback); return callback; },
     clearInterval(id) { intervals.delete(id); }
   });
-  for (const file of ['time_and_scores.js', 'md5.js', 'app.js']) {
+  for (const file of ['time_and_scores.js', 'md5.js', 'i18n.js', 'app.js']) {
     vm.runInContext(fs.readFileSync(path.join(__dirname, '..', 'assets', file), 'utf8'), context);
   }
   return { run: code => vm.runInContext(code, context), element, intervals, store, windowEvents, advance: ms => { now += ms; } };
@@ -462,4 +462,108 @@ test('a blocked or failing tracker cannot prevent starting and completing a test
   const app = load({ tracker: { event() { throw Error('Blocked'); } } });
   app.run('start_test(); request_finish(); finish_test();');
   assert.equal(app.element('score').textContent, '0 / 36 correct');
+});
+
+
+test('Danish practice, active test and accessible answers are translated', () => {
+  const app = load({language:'da-DK'});
+  app.run('show_practice(); answer_practice("circle");');
+  assert.match(app.element('practice-feedback').textContent, /^Prøv igen/);
+  app.run('answer_practice("square")');
+  assert.match(app.element('practice-feedback').textContent, /^Rigtigt!/);
+  assert.equal(app.intervals.size, 0);
+  app.run('start_test(); request_finish()');
+  assert.equal(app.element('question-number').textContent, 'Opgave 1 / 36');
+  assert.equal(app.element('test-right').children[0].attributes['aria-label'], 'Svar 1');
+  assert.match(app.element('test-left').innerHTML, /Række 1, figur 1/);
+  assert.match(app.element('finish-count').textContent, /Når du har afsluttet, kan du ikke rette dine svar/);
+  assert.match(app.element('feedback-link').attributes.href, /lang=da$/);
+  assert.deepEqual(Array.from(app.run('i18n.missing')), []);
+});
+
+test('switching language preserves answers, deadline, question, answer order and events', () => {
+  const events = [];
+  const app = load({tracker:{event:name=>events.push(name)}});
+  app.run('start_test(); submit_answer(1,get_hash(1,1,true)); go_to_question(4)');
+  const stored = app.store.get('iqchampion.attempt.v1');
+  const buttons = [...app.element('test-right').children];
+  app.run('i18n.setLanguage("da")');
+  assert.equal(app.element('question-number').textContent, 'Opgave 4 / 36');
+  assert.equal(app.element('progress-summary').textContent, '1 besvaret; 35 ubesvarede.');
+  assert.deepEqual(app.element('test-right').children, buttons);
+  assert.equal(app.store.get('iqchampion.attempt.v1'), stored);
+  assert.equal(app.run('deadline'), 2401000);
+  assert.deepEqual(events, ['used']);
+  const resumed = load({store:app.store, now:61000, language:'en-US'});
+  assert.equal(resumed.run('i18n.language'), 'da');
+  assert.equal(resumed.element('time-left').textContent, '39:00');
+  assert.equal(resumed.element('question-number').textContent, 'Opgave 4 / 36');
+  resumed.run('i18n.setLanguage("en")');
+  assert.equal(resumed.element('question-number').textContent, 'Question 4 / 36');
+  assert.match(resumed.element('feedback-link').attributes.href, /lang=en$/);
+});
+
+test('Danish timeout, method, decimals and read-only answer review remain bilingual', () => {
+  const app = load({language:'da'});
+  app.run('start_test(); submit_answer(1,get_hash(1,1,true)); submit_answer(2,get_hash(2,2,true));');
+  app.advance(35 * 60 * 1000); app.run('update_timer()');
+  assert.equal(app.element('time-warning').textContent, 'Der er højst fem minutter tilbage.');
+  app.advance(5 * 60 * 1000); app.run('update_timer()');
+  assert.match(app.element('result-reason').textContent, /^Tiden er gået/);
+  assert.equal(app.element('score').textContent, '1 / 36 rigtige');
+  assert.match(app.element('result-context').textContent, /^Sammenligningsgruppe: 10.216/);
+  assert.match(app.element('percentile').textContent, /Percentil.*,/);
+  app.run('show_answer_review(1)');
+  assert.match(app.element('review-summary').textContent, /1 rigtig; 1 forkert; 34 ubesvarede/);
+  assert.match(app.element('review-outcome').textContent, /^Rigtigt/);
+  app.run('show_answer_review(2)'); assert.match(app.element('review-outcome').textContent, /^Forkert/);
+  app.run('show_answer_review(3)'); assert.equal(app.element('review-selected').textContent, 'Intet svar afgivet');
+  assert.equal(app.element('review-correct').children[0].alt, 'Rigtigt svar');
+  assert.deepEqual(Array.from(app.run('i18n.missing')), []);
+  app.run('i18n.setLanguage("en")');
+  assert.match(app.element('result-reason').textContent, /^Time is up/);
+  assert.equal(app.element('score').textContent, '1 / 36 correct');
+  assert.equal(app.element('review-selected').textContent, 'No answer submitted');
+  assert.equal(app.element('review-correct').children[0].alt, 'Correct answer');
+  assert.equal(app.intervals.size, 0);
+});
+
+test('Danish storage failures and corrupt attempts have localized recoverable messages', () => {
+  const app = load({language:'da', failWrite:true});
+  app.run('start_test(); i18n.setLanguage("da")');
+  assert.match(app.element('storage-notice').textContent, /^Browseren kunne ikke gemme/);
+  assert.equal(app.run('finished'), false);
+  const blocked = load({language:'da', failRead:true});
+  assert.match(blocked.element('storage-notice').textContent, /^Lokal lagring/);
+  const corrupt = load({language:'da', store:new Map([['iqchampion.attempt.v1','invalid']])});
+  assert.match(corrupt.element('storage-notice').textContent, /^Det gemte forsøg kunne ikke gendannes/);
+});
+
+test('unsupported locales fall back to English; an explicit valid choice wins over browser language', () => {
+  const fallback = load({language:'fr-FR'});
+  assert.equal(fallback.run('i18n.language'), 'en');
+  fallback.run('i18n.setLanguage("de")'); assert.equal(fallback.run('i18n.language'), 'en');
+  const saved = load({language:'da-DK', store:new Map([['iqchampion.language','en']])});
+  assert.equal(saved.run('i18n.language'), 'en');
+});
+
+test('all static product copy and accessibility labels have Danish translations', () => {
+  const app = load({language:'da'});
+  const html = fs.readFileSync(path.join(__dirname,'../index.html'),'utf8').replace(/<noscript>[\s\S]*?<\/noscript>/g,'');
+  const decode = s => s.replace(/&amp;/g,'&').trim();
+  const texts = [...html.matchAll(/>([^<>]+)</g)].map(m=>decode(m[1])).filter(Boolean);
+  const attributes = [...html.matchAll(/(?:aria-label|alt|content)="([^"]*)"/g)].map(m=>decode(m[1])).filter(t=>!t.startsWith('width='));
+  for(const value of [...texts,...attributes]) app.run('i18n.translate('+JSON.stringify(value)+')');
+  assert.deepEqual(Array.from(app.run('i18n.missing')), []);
+});
+
+
+test('switching language after an unanswered review cannot replace a submitted answer image', () => {
+  const app = load();
+  app.run('start_test(); submit_answer(1,get_hash(1,1,true)); request_finish(); finish_test(); show_answer_review(3); show_answer_review(1);');
+  const image = app.element('review-selected').children[0];
+  app.run('i18n.setLanguage("da")');
+  assert.equal(app.element('review-selected').children[0],image);
+  assert.equal(image.alt,'Dit indsendte svar');
+  assert.equal(app.element('review-selected').textContent,'');
 });
