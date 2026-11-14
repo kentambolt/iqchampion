@@ -162,3 +162,8 @@ active test retains vertical scrolling but has no horizontal overflow. Question
 overview selection, continued work, finish, review and bilingual dialogs were
 checked with actual controls. Preview analytics were disabled. Two SVG before/after
 art studies are separate proposals, excluded from the deployed product.
+
+The follow-up visual pass removes decorative 01/02 steps, uses complete borders
+on rounded notes and replaces UI glyph decoration with drawn SVG icons. Actual
+puzzle symbols and images remain unchanged. Desktop1024x600 and mobile375x812
+were visually checked again after this pass, without console errors.

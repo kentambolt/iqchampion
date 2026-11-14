@@ -203,9 +203,9 @@ function show_answer_review(id = 1) {
   i18n.text(document.getElementById('review-summary'), `${counts.correct} correct; ${counts.incorrect} incorrect; ${counts.unanswered} unanswered.`);
   const status = answer_status(id);
   i18n.text(document.getElementById('review-outcome'), {
-    correct: 'Correct — your answer matches the correct answer.',
-    incorrect: 'Incorrect — your answer differs from the correct answer.',
-    unanswered: 'Unanswered — no answer was submitted for this question.'
+    correct: 'Correct. Your answer matches the correct answer.',
+    incorrect: 'Incorrect. Your answer differs from the correct answer.',
+    unanswered: 'Unanswered. No answer was submitted for this question.'
   }[status]);
   i18n.html(document.getElementById('review-pattern'), question_markup(id));
   const selected = document.getElementById('review-selected');
@@ -234,13 +234,13 @@ function show_answer_review(id = 1) {
   document.getElementById('review-next').disabled = id === total_questions;
   const overview = document.getElementById('review-overview');
   overview.replaceChildren();
-  const symbols = { correct: '✓', incorrect: '×', unanswered: '○' };
   for (let q = 1; q <= total_questions; q++) {
     const outcome = answer_status(q);
     const button = document.createElement('button');
     button.type = 'button';
     button.className = 'question-link review-' + outcome;
-    i18n.text(button, `${q} ${symbols[outcome]}`);
+    i18n.text(button, String(q));
+    append_status_icon(button, outcome);
     i18n.attribute(button, 'aria-label', `Review question ${q}, ${outcome}`);
     button.setAttribute('aria-current', q === id ? 'step' : 'false');
     button.addEventListener('click', () => show_answer_review(q));
@@ -257,6 +257,17 @@ function return_to_result() {
   document.getElementById('result-title').focus();
 }
 
+function append_status_icon(button, status) {
+  const mark = document.createElement('span');
+  mark.className = 'state-mark';
+  mark.setAttribute('aria-hidden', 'true');
+  const path = status === 'correct' || status === 'answered'
+    ? '<path d="m3 8 3 3 7-7"/>' : status === 'incorrect'
+      ? '<path d="m4 4 8 8M12 4l-8 8"/>' : '<circle cx="8" cy="8" r="5"/>';
+  mark.innerHTML = '<svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">'+path+'</svg>';
+  button.append(mark);
+}
+
 function render_overview() {
   const count = answered_count();
   i18n.text(document.getElementById('progress-summary'), `${count} answered; ${total_questions - count} unanswered.`);
@@ -271,7 +282,8 @@ function render_overview() {
     const button = document.createElement('button');
     button.type = 'button';
     button.className = 'question-link';
-    i18n.text(button, `${id} ${answer === null ? '○' : '✓'}`);
+    i18n.text(button, String(id));
+    append_status_icon(button, answer === null ? 'unanswered' : 'answered');
     i18n.attribute(button, 'aria-label', `Question ${id}, ${answer === null ? 'unanswered' : 'answered'}`);
     button.setAttribute('aria-current', id === current_question ? 'step' : 'false');
     button.classList.toggle('answered', answer !== null);

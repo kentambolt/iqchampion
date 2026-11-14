@@ -4,7 +4,7 @@
 const i18n = (() => {
   const da = {
     '36 visual reasoning puzzles. Take a free 40-minute challenge and explore your results.': '36 visuelle logikopgaver. Prøv en gratis test på 40 minutter, og se dit resultat.',
-    'Close': 'Luk', 'Help': 'Hjælp', '40 min': '40 min', 'Language': 'Sprog', 'About the test': 'Om testen',
+    'Answered':'Besvaret', 'Unanswered':'Ubesvaret', 'Correct':'Rigtigt', 'Incorrect':'Forkert', 'Close': 'Luk', 'Help': 'Hjælp', '40 min': '40 min', 'Language': 'Sprog', 'About the test': 'Om testen',
     'A challenge in visual reasoning': 'En udfordring i visuel logik',
     'Spot the pattern.': 'Find mønstret.', 'Find the missing piece.': 'Find den manglende brik.',
     '36 visual puzzles, one question at a time.': '36 visuelle opgaver, ét spørgsmål ad gangen.',
@@ -52,9 +52,9 @@ const i18n = (() => {
     '✓ Correct': '✓ Rigtigt', '× Incorrect': '× Forkert', 'Review a question': 'Gennemgå en opgave',
     'Your submitted answers and final score stay unchanged.': 'Dine indsendte svar og dit endelige resultat ændres ikke.',
     'Contact': 'Kontakt', 'Feedback & contact': 'Feedback og kontakt', 'Send feedback or contact us': 'Send feedback eller kontakt os',
-    'Correct — your answer matches the correct answer.': 'Rigtigt — dit svar stemmer med facit.',
-    'Incorrect — your answer differs from the correct answer.': 'Forkert — dit svar er forskelligt fra facit.',
-    'Unanswered — no answer was submitted for this question.': 'Ubesvaret — du har ikke svaret på denne opgave.',
+    'Correct. Your answer matches the correct answer.': 'Rigtigt. Dit svar stemmer med facit.',
+    'Incorrect. Your answer differs from the correct answer.': 'Forkert. Dit svar er forskelligt fra facit.',
+    'Unanswered. No answer was submitted for this question.': 'Ubesvaret. Du har ikke svaret på denne opgave.',
     'No answer submitted': 'Intet svar afgivet', 'Your submitted answer': 'Dit indsendte svar', 'Missing icon': 'Manglende figur',
     'All questions are answered. You can still review and change answers, then finish the test.': 'Alle opgaver er besvaret. Du kan stadig gennemgå og rette dine svar, før du afslutter testen.',
     'Five minutes or less remaining.': 'Der er højst fem minutter tilbage.',

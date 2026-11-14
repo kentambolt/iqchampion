@@ -22,3 +22,7 @@ Produktets offentlige brugerflader og centrale flows skal understøtte både dan
 ## Offentlig SEO
 
 Offentligt tilgængelige sider skal være SEO-optimerede efter SEO-afsnittet i C:/projekter/munthe-systems/munthe-systems/docs/FAELLES-KONTEKST.md: læsbart indhold, relevante metadata/canonical, semantik, billeder, mobil/performance, sitemap/statuskoder og kun ægte sprogruter/hreflang samt relevante strukturerede data. Bevar adgang/noindex for private og personlige flows, staging, prototyper og kontaktformularer; disse hører ikke i sitemap. Ingen betalte SEO-tjenester som standard.
+
+## Visuel kvalitet
+
+Følg designafsnittet i C:/projekter/munthe-systems/munthe-systems/docs/FAELLES-KONTEKST.md: undgå dekorative nulpolstrede trinnumre, border-left alene på afrundede beholdere, overdrevne tankestreger og Unicode-emojis som UI-dekoration. Brug egne SVG-/tegnede ikoner, optisk lodret centrering af ikon/tekst og tydelige links/fokus uden overdreven understregning. Bevar opgavernes figurer/data; ingen blind global udskiftning.
