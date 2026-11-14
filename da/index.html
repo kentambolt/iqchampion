@@ -17,11 +17,13 @@
 <meta property="og:locale" content="da_DK">
 <script id="site-schema" type="application/ld+json">{"@context":"https://schema.org","@type":"WebPage","name":"Gratis logiktest med figurer | IQ Champion","description":"36 visuelle logikopgaver. Prøv en gratis test på 40 minutter, og se dit resultat.","url":"https://iqchampion.com/da/","inLanguage":"da","isAccessibleForFree":true,"isPartOf":{"@type":"WebSite","name":"IQ Champion","url":"https://iqchampion.com/"}}</script>
 <meta name="description" content="36 visuelle logikopgaver. Prøv en gratis test på 40 minutter, og se dit resultat.">
-<link href="assets/styles.css?v=20261114-5" rel="stylesheet">
+<link href="assets/styles.css?v=20261114-7" rel="stylesheet">
 <script src="assets/time_and_scores.js?v=20261113-1" defer></script>
+<script src="assets/percentiles.js?v=20261114-1" defer></script>
 <script src="assets/md5.js?v=20261113-1" defer></script>
-<script src="assets/i18n.js?v=20261114-3" defer></script>
-<script src="assets/app.js?v=20261114-6" defer></script>
+<script src="assets/i18n.js?v=20261114-5" defer></script>
+<script src="assets/iq-score.js?v=20261114-1" defer></script>
+<script src="assets/app.js?v=20261114-8" defer></script>
 <script src="https://munthesystems.dk/systems/tracker.894a456da1305558.js" integrity="sha384-oGiw7CoaEVI+Ck8QDz70VAKJIosxw7zK9HTPC2p1LL6VwZ0wXtDArQS3qZxiHey8" crossorigin="anonymous" data-project="iqchampion" data-page="test" data-feedback="false" async></script>
 <script src="assets/layout.js?v=20261114-5" defer></script>
 </head>
@@ -34,7 +36,7 @@
     <div class="hero">
       <p class="eyebrow">En udfordring i visuel logik</p>
       <h1 tabindex="-1">Find mønstret.<br>Find den manglende brik.</h1>
-      <p class="lead">36 visuelle opgaver, ét spørgsmål ad gangen.</p>
+      <p class="lead">36 visuelle opgaver og en estimeret IQ-score. Kun for sjov.</p>
       <dl class="test-facts">
         <div><dt>Opgaver</dt><dd>36</dd></div>
         <div><dt>Tidsgrænse</dt><dd>40 min</dd></div>
@@ -54,9 +56,9 @@
         <p>De 40 minutter løber videre, mens siden er lukket. Ubesvarede opgaver tæller som forkerte.</p>
       </details>
       <details class="disclosure" data-sheet-title="About your result"><summary>Om dit resultat</summary>
-        <p>Dit resultat sammenlignes med <span id="reference-count">10.216</span> historiske forsøg med en varighed på over ét minut og op til 40 minutter.</p>
-        <p>Deltagerne kom via betalte Facebook-annoncer og valgte selv at tage testen. Det er ikke dokumenteret, at denne gruppe er repræsentativ for befolkningen.</p>
-        <p>Dette er en logiktest, ikke en valideret måling af IQ.</p>
+        <p>Din estimerede IQ bygger på din placering blandt <span id="reference-count">10.216</span> historiske forsøg.</p>
+        <p>Sammenligningen bruger forsøg på over ét minut og op til 40 minutter. Den er ikke valideret mod en officiel IQ-test eller et repræsentativt udsnit af befolkningen.</p>
+        <p>En test for sjov. Din estimerede IQ er en tilnærmelse, ikke en fagligt valideret IQ-score.</p>
       </details>
     </div>
     <noscript><p>Aktivér JavaScript for at tage testen. / Enable JavaScript to take the test.</p></noscript>
@@ -130,17 +132,20 @@
 
   <section id="result" class="screen result" hidden aria-labelledby="result-title">
     <div class="panel result-card">
-      <p class="eyebrow">Testen er afsluttet</p>
       <h1 id="result-title" tabindex="-1">Dit resultat</h1>
       <p id="result-reason" class="action-note"></p>
-      <p id="score" class="score"></p>
+      <p class="iq-label">Estimeret IQ</p>
+      <p id="iq-estimate" class="iq-score"></p>
+      <p class="small iq-disclaimer">Kun for sjov. Et omtrentligt tal, ikke en fagligt valideret måling af IQ.</p>
+      <p id="iq-incomplete" class="small" hidden>Din test er ufuldstændig. Du kan se dine rigtige svar, men et IQ-estimat kræver svar på alle 36 opgaver.</p>
+      <p id="score" class="raw-score"></p>
       <p id="answered-count" class="result-progress"></p>
-      <div class="result-comparison"><p id="percentile"></p><p id="comparison" class="small"></p></div>
       <div class="result-actions"><button id="answer-review-link" class="primary" type="button">Gennemgå svar <svg class="ui-icon" viewBox="0 0 16 16" aria-hidden="true" focusable="false" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M2 8h11m-4-4 4 4-4 4"/></svg></button><button id="restart-link" class="secondary" type="button">Prøv igen</button></div>
     </div>
-    <div class="about-action"><button id="about-test-link" class="text-button" type="button">Om denne test</button></div>
+    <div class="about-action"><button id="about-test-link" class="text-button" type="button">Om denne test</button><a id="share-result-link" class="text-button" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fiqchampion.com%2Fen%2F" target="_blank" rel="noopener noreferrer" hidden>Del resultat på Facebook</a></div>
     <details class="disclosure result-method" data-sheet-title="How to read this result"><summary>Sådan læser du resultatet</summary>
-      <p>Resultatet beskriver, hvordan du klarede disse visuelle logikopgaver. Det er ikke et valideret IQ-tal eller en sammenligning med befolkningen som helhed.</p>
+      <p>Din percentil blandt historiske forsøg omregnes til den velkendte IQ-skala med midtpunkt 100 og standardafvigelse 15. Det forudsætter, at sammenligningsgruppen afspejler befolkningen, hvilket ikke er dokumenteret.</p>
+      <div class="result-comparison"><p id="percentile"></p><p id="comparison" class="small"></p></div>
       <div id="result-context"></div>
     </details>
   </section>
@@ -164,7 +169,7 @@
     </div>
     <p class="action-note review-final-note">Dine indsendte svar og dit endelige resultat ændres ikke.</p>
   </section>
-  <footer class="site-footer"><span>IQ Champion</span><a id="feedback-link" href="https://munthesystems.dk/systems/feedback/iqchampion?lang=da" target="_blank" rel="noopener noreferrer" aria-label="Send feedback eller kontakt os">Feedback og kontakt</a><a href="https://www.linkedin.com/in/kent-caspersen-49531394/">Kontakt</a></footer>
+  <footer class="site-footer"><span>IQ Champion</span><a id="share-test-link" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fiqchampion.com%2Fda%2F" target="_blank" rel="noopener noreferrer">Del testen på Facebook</a><a id="feedback-link" href="https://munthesystems.dk/systems/feedback/iqchampion?lang=da" target="_blank" rel="noopener noreferrer" aria-label="Send feedback eller kontakt os">Feedback og kontakt</a><a href="https://www.linkedin.com/in/kent-caspersen-49531394/">Kontakt</a></footer>
 <dialog id="info-sheet" aria-labelledby="sheet-title"><header class="sheet-header"><h2 id="sheet-title"></h2><button id="sheet-close" class="secondary" type="button" aria-label="Luk"><svg class="ui-icon" viewBox="0 0 16 16" aria-hidden="true" focusable="false" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="m4 4 8 8M12 4l-8 8"/></svg></button></header><div id="sheet-content"></div></dialog>
 </main>
 </body>

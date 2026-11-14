@@ -328,3 +328,20 @@ main { padding: 12px 24px; }
 #sheet-close { display:inline-flex; align-items:center; justify-content:center; }
 
 .language-switch a { display:inline-flex; align-items:center; justify-content:center; font-weight:600; text-decoration:none; }
+
+/* The estimate leads; raw performance and the qualification stay adjacent. */
+.iq-label { margin-top: 12px; color: var(--muted); font-size: 15px; }
+.iq-score { font-size: clamp(48px, 9vw, 72px); font-weight: 650; line-height: 1.1; letter-spacing: -.045em; margin-top: 2px; }
+.iq-disclaimer { max-width: 52ch; margin: 8px auto 0; color: var(--muted); }
+.raw-score { margin-top: 14px; font-size: 20px; font-weight: 600; }
+#iq-incomplete { margin-top: 6px; color: var(--muted); }
+@media (min-width:600px) and (max-height:700px) {
+ .iq-label { margin-top:6px; }
+ .iq-score { font-size:48px; }
+ .raw-score { margin-top:8px; }
+ .result-progress { margin-top:4px; }
+ .result-comparison { margin-top:8px; }
+}
+
+.about-action { display:flex; align-items:center; justify-content:center; flex-wrap:wrap; gap:4px 20px; }
+.about-action a { text-decoration:underline; }

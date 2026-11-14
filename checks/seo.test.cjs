@@ -49,3 +49,16 @@ test('sitemap contains only the two real canonical public pages; 404 is noindex 
  assert.match(notFound,/href="\/da\/"/);
  assert.match(notFound,/href="\/en\/"/);
 });
+
+
+test('anonymous share pages have localized score metadata, noindex and no attempt storage or tracker',()=>{
+ for(const lang of ['da','en']) for(let n=0;n<=36;n++){
+  const html=fs.readFileSync(path.join(__dirname,'../share',lang,String(n),'index.html'),'utf8');
+  assert.match(html,/name="robots" content="noindex,follow"/);
+  assert.ok(html.includes('https://iqchampion.com/share/'+lang+'/'+n+'/'));
+  assert.ok(html.includes(n+' / 36 '+(lang==='da'?'rigtige':'correct')));
+  assert.match(html,/property="og:title"/);
+  assert.match(html,/property="og:image"/);
+  assert.doesNotMatch(html,/<script|localStorage|startedAt|tracker\./);
+ }
+});

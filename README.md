@@ -204,3 +204,13 @@ The product has no authenticated administration, mail/SMS templates, outbox or
 communication workers. Recipient-language freezing/retry is therefore not
 applicable here; no providers or senders were added. The existing shared feedback
 form is maintained by the company project and receives the explicit lang value.
+
+## Estimated IQ and corrected puzzle 36
+
+The result converts the unchanged historical midrank to an IQ-style scale (100/15), rounded and bounded at 55/145. It is explicitly a for-fun, unvalidated estimate, available only when all 36 questions have an answer. Historical attempts are not a representative population norm and community comments have not been used to add an unsupported numerical offset.
+
+New attempts save puzzleVersion 2. Four versioned native SVG assets correct puzzle 36, including propagated results and the correct answer. Saved attempts without this property keep version 1 and the original PNGs, answer meanings and deadlines. Original calibration data and original assets stay unchanged.
+
+Facebook links share the public test or an anonymous static score page. Share pages have localized Open Graph metadata, noindex, and no scripts or attempt history. Links never publish a post automatically. Generate all pages with node tools/Build-Language-Pages.cjs and check with --check.
+
+Validation: node --test checks/app.test.cjs checks/seo.test.cjs checks/question36.test.cjs.

@@ -36,7 +36,7 @@ function load(options = {}) {
     setInterval(callback) { intervals.add(callback); return callback; },
     clearInterval(id) { intervals.delete(id); }
   });
-  for (const file of ['time_and_scores.js', 'md5.js', 'i18n.js', 'app.js']) {
+  for (const file of ['time_and_scores.js', 'percentiles.js', 'iq-score.js', 'md5.js', 'i18n.js', 'app.js']) {
     vm.runInContext(fs.readFileSync(path.join(__dirname, '..', 'assets', file), 'utf8'), context);
   }
   return { run: code => vm.runInContext(code, context), element, intervals, store, windowEvents, pageLocation, advance: ms => { now += ms; } };
@@ -597,4 +597,73 @@ test('language route switches preserve active answers/deadline and update canoni
   app.run('i18n.setLanguage("en")');
   assert.equal(app.pageLocation.pathname,'/en/');
   assert.equal(app.store.get('iqchampion.attempt.v1'),before);
+});
+
+
+test('IQ-style conversion matches normal-scale anchors and bounds unsupported tails', () => {
+  const app = load();
+  for (const [p, expected] of [[50,'100'],[15.865525,'85'],[84.134474,'115'],[2.275006,'70'],[97.724994,'130'],[0,'≤55'],[100,'≥145']])
+    assert.equal(app.run('estimate_iq('+p+')'), expected);
+  for (const bad of ['null','NaN','Infinity','-1','101']) assert.equal(app.run('estimate_iq('+bad+')'), null);
+  const values = Array.from(app.run('Array.from({length:37},(_,n)=>{const p=calculate_score(Array.from({length:36},(_,i)=>get_hash(i+1,i<n?1:2,true)),reference_scores).percentile;return Number(estimate_iq(p).replace(/[≤≥]/g,""));})'));
+  assert.equal(values.every((v,i)=>Number.isFinite(v)&&(!i||v>=values[i-1])),true);
+});
+
+test('IQ estimate survives reload and language changes, with partial-attempt qualification', () => {
+  const app=load({language:'da'});
+  app.run('start_test(); for(let i=1;i<=36;i++) submit_answer(i,get_hash(i,i<=25?1:2,true)); request_finish(); finish_test();');
+  const estimate=app.element('iq-estimate').textContent;
+  assert.match(estimate,/^(?:[≤≥])?\d+$/);
+  assert.equal(app.element('iq-incomplete').hidden,true);
+  assert.equal(app.element('score').textContent,'25 / 36 rigtige');
+  app.run('i18n.setLanguage("en")');
+  assert.equal(app.element('iq-estimate').textContent,estimate);
+  const restored=load({store:app.store,now:120000,language:'en'});
+  assert.equal(restored.element('iq-estimate').textContent,estimate);
+  assert.equal(restored.element('score').textContent,'25 / 36 correct');
+  assert.deepEqual(Array.from(app.run('i18n.missing')),[]);
+  const partial=load();partial.run('start_test();submit_answer(1,get_hash(1,1,true));request_finish();finish_test();');
+  assert.equal(partial.element('iq-incomplete').hidden,false);
+  const empty=load();empty.run('start_test();request_finish();finish_test();');
+  assert.equal(empty.element('iq-estimate').textContent,'—');
+});
+
+
+test('question 36 corrections are versioned without changing saved answers or deadlines', () => {
+ const app=load();app.run('start_test();submit_answer(1,get_hash(1,1,true));');
+ assert.equal(app.run('puzzle_version'),2);
+ assert.match(app.run('get_picture_path(36,8,false)'),/v2\/.*\.svg$/);
+ assert.match(app.run('get_picture_path(36,1,true)'),/v2\/.*\.svg$/);
+ const saved=JSON.parse(app.store.get('iqchampion.attempt.v1'));
+ assert.equal(saved.puzzleVersion,2);
+ const resumed=load({store:app.store,now:61000});
+ assert.equal(resumed.run('puzzle_version'),2);
+ assert.equal(resumed.element('time-left').textContent,'39:00');
+ delete saved.puzzleVersion;app.store.set('iqchampion.attempt.v1',JSON.stringify(saved));
+ const old=load({store:app.store,now:61000});
+ assert.equal(old.run('puzzle_version'),1);
+ assert.match(old.run('get_picture_path(36,8,false)'),/test36\/[^/]+\.png$/);
+ assert.match(old.run('get_picture_path(36,1,true)'),/test36\/[^/]+\.png$/);
+ old.run('submit_answer(2,get_hash(2,1,true))');
+ assert.equal(JSON.parse(old.store.get('iqchampion.attempt.v1')).puzzleVersion,1);
+ old.run('request_finish();finish_test();show_practice();start_test();');
+ assert.equal(old.run('puzzle_version'),2);
+});
+
+
+test('only complete results expose a share link; share URLs contain no answers or browser parameters',()=>{
+ const app=load({path:'/da/',search:'?private=value',hash:'#hidden'});
+ app.run('start_test();submit_answer(1,get_hash(1,1,true));request_finish();finish_test();');
+ assert.equal(app.element('iq-estimate').textContent,'—');
+ assert.equal(app.element('share-result-link').hidden,true);
+ app.run('show_practice();start_test();for(let i=1;i<=36;i++)submit_answer(i,get_hash(i,i<=25?1:2,true));request_finish();finish_test();');
+ assert.equal(app.element('share-result-link').hidden,false);
+ let url=new URL(app.element('share-result-link').attributes.href);
+ assert.equal(url.hostname,'www.facebook.com');
+ assert.equal(url.searchParams.get('u'),'https://iqchampion.com/share/da/25/');
+ assert.equal([...url.searchParams].length,1);
+ app.run('i18n.setLanguage("en")');
+ url=new URL(app.element('share-result-link').attributes.href);
+ assert.equal(url.searchParams.get('u'),'https://iqchampion.com/share/en/25/');
+ assert.equal(new URL(app.element('share-test-link').attributes.href).searchParams.get('u'),'https://iqchampion.com/en/');
 });
