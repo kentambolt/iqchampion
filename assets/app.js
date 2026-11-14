@@ -9,7 +9,7 @@ const legacy_storage_key = 'iqchampion.attempt.v1';
 // These are recorded durations, not independently verified testing conditions.
 const reference_scores = time_and_scores.filter(row => row[0] > 60 && row[0] <= 2400);
 // Version 1 preserves the original puzzle for attempts saved before the correction.
-let puzzle_version = 2;
+let puzzle_version = 3;
 let answers = [];
 let current_question = 1;
 let review_question = 1;
@@ -39,7 +39,7 @@ function save_attempt() {
 
 function valid_attempt(saved) {
   return saved && [1, 2].includes(saved.version)
-    && (saved.puzzleVersion === undefined || [1, 2].includes(saved.puzzleVersion))
+    && (saved.puzzleVersion === undefined || [1, 2, 3].includes(saved.puzzleVersion))
     && Number.isSafeInteger(saved.startedAt) && saved.startedAt > 0 && saved.startedAt <= Date.now()
     && typeof saved.completed === 'boolean' && typeof saved.timedOut === 'boolean'
     && (!saved.timedOut || saved.completed)
@@ -134,7 +134,9 @@ function get_hash(test_id, pic_id, is_answer) {
 function get_picture_path(test_id, pic_id, is_answer) {
   if (!is_answer && pic_id === 12) return 'images/questionmark.png';
   const tile = is_answer ? pic_id + 11 : pic_id;
-  if (test_id === 36 && puzzle_version === 2 && [8, 9, 11, 12].includes(tile))
+  if (puzzle_version >= 3 && !is_answer && ((test_id === 19 && [1, 2].includes(tile)) || (test_id === 34 && [4, 6].includes(tile))))
+    return 'tests/test' + test_id + '/v3/' + get_hash(test_id, pic_id, false) + '.svg';
+  if (test_id === 36 && puzzle_version >= 2 && [8, 9, 11, 12].includes(tile))
     return 'tests/test36/v2/' + get_hash(test_id, pic_id, is_answer) + '.svg';
   return 'tests/test' + test_id + '/' + get_hash(test_id, pic_id, is_answer) + '.png';
 }
@@ -429,7 +431,7 @@ function show_result(expired, report_completion = true) {
     ? 'Comparison unavailable.' : `Percentile among historical participants: ${format_percent(result.percentile)}`);
   i18n.text(document.getElementById('comparison'), result.percentile === null ? ''
     : `Participants scoring lower: ${format_percent(result.below_percent)}%. Participants with the same score: ${format_percent(result.equal_percent)}%.`);
-  i18n.text(document.getElementById('result-context'), `Reference group: ${reference_scores.length.toLocaleString('en-US')} historical attempts. Attempts with recorded durations over one minute and up to 40 minutes are included. Tied scores share the midpoint of their percentile group. Estimates are rounded to whole numbers and displayed only within 55–145, with a limit indicator outside that range. This is a scale conversion, not an independently validated population IQ measurement. Practice and repeated attempts can affect your result. One puzzle has been corrected since the historical attempts were collected, which limits comparability.`);
+  i18n.text(document.getElementById('result-context'), `Reference group: ${reference_scores.length.toLocaleString('en-US')} historical attempts. Attempts with recorded durations over one minute and up to 40 minutes are included. Tied scores share the midpoint of their percentile group. Estimates are rounded to whole numbers and displayed only within 55–145, with a limit indicator outside that range. This is a scale conversion, not an independently validated population IQ measurement. Practice and repeated attempts can affect your result. Some example images have been corrected since the historical attempts were collected, which limits comparability.`);
   document.getElementById('result-title').focus();
   if (report_completion) report_usage('test_completed');
 }
@@ -438,7 +440,7 @@ function start_test() {
   restore_attempt();
   if (!finished) return;
   clearInterval(timer_id);
-  puzzle_version = 2;
+  puzzle_version = 3;
   answers = Array(total_questions).fill(null);
   current_question = 1;
   started_at = Date.now();

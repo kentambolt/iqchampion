@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="110" height="110" viewBox="0 0 110 110">
+<circle data-x="0" data-y="0" data-red="false" cx="18.5" cy="18.5" r="1.5" fill="#000"/>
+<circle data-x="1" data-y="0" data-red="false" cx="37" cy="18.5" r="1.5" fill="#000"/>
+<circle data-x="2" data-y="0" data-red="true" cx="55.5" cy="18.5" r="5" fill="#c2000b"/>
+<circle data-x="3" data-y="0" data-red="false" cx="74" cy="18.5" r="1.5" fill="#000"/>
+<circle data-x="4" data-y="0" data-red="false" cx="92.5" cy="18.5" r="1.5" fill="#000"/>
+<circle data-x="0" data-y="1" data-red="false" cx="18.5" cy="37" r="1.5" fill="#000"/>
+<circle data-x="1" data-y="1" data-red="false" cx="37" cy="37" r="1.5" fill="#000"/>
+<circle data-x="2" data-y="1" data-red="false" cx="55.5" cy="37" r="1.5" fill="#000"/>
+<circle data-x="3" data-y="1" data-red="true" cx="74" cy="37" r="5" fill="#c2000b"/>
+<circle data-x="4" data-y="1" data-red="true" cx="92.5" cy="37" r="5" fill="#c2000b"/>
+<circle data-x="0" data-y="2" data-red="true" cx="18.5" cy="55.5" r="5" fill="#c2000b"/>
+<circle data-x="1" data-y="2" data-red="true" cx="37" cy="55.5" r="5" fill="#c2000b"/>
+<circle data-x="2" data-y="2" data-red="true" cx="55.5" cy="55.5" r="5" fill="#c2000b"/>
+<circle data-x="3" data-y="2" data-red="false" cx="74" cy="55.5" r="1.5" fill="#000"/>
+<circle data-x="4" data-y="2" data-red="false" cx="92.5" cy="55.5" r="1.5" fill="#000"/>
+<circle data-x="0" data-y="3" data-red="false" cx="18.5" cy="74" r="1.5" fill="#000"/>
+<circle data-x="1" data-y="3" data-red="false" cx="37" cy="74" r="1.5" fill="#000"/>
+<circle data-x="2" data-y="3" data-red="false" cx="55.5" cy="74" r="1.5" fill="#000"/>
+<circle data-x="3" data-y="3" data-red="true" cx="74" cy="74" r="5" fill="#c2000b"/>
+<circle data-x="4" data-y="3" data-red="false" cx="92.5" cy="74" r="1.5" fill="#000"/>
+<circle data-x="0" data-y="4" data-red="false" cx="18.5" cy="92.5" r="1.5" fill="#000"/>
+<circle data-x="1" data-y="4" data-red="true" cx="37" cy="92.5" r="5" fill="#c2000b"/>
+<circle data-x="2" data-y="4" data-red="false" cx="55.5" cy="92.5" r="1.5" fill="#000"/>
+<circle data-x="3" data-y="4" data-red="false" cx="74" cy="92.5" r="1.5" fill="#000"/>
+<circle data-x="4" data-y="4" data-red="false" cx="92.5" cy="92.5" r="1.5" fill="#000"/>
+</svg>
