@@ -108,6 +108,7 @@ button:disabled { opacity: .35; cursor: default; }
 .result-comparison .small { margin-top: 10px; }
 .result-actions { display: grid; grid-template-columns: minmax(0, 1.6fr) minmax(0, 1fr); gap: 12px; margin-top: 24px; }
 .result-method { margin-top: 20px; }
+.result-method #result-context { max-width: 62ch; margin-bottom: 20px; }
 .about-action { text-align: center; margin-top: 10px; }
 .review-header { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 18px; margin: 12px 0 20px; }
 .review-header h1 { font-size: 30px; }
