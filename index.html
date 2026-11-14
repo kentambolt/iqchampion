@@ -4,131 +4,151 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>IQ Champion</title>
-<meta name="description" content="Try 36 visual reasoning puzzles in 40 minutes and compare your score with previous participants.">
-<link href="https://fonts.googleapis.com/css?family=Varela+Round&display=swap" rel="stylesheet">
-<link href="assets/styles.css?v=20261113-4" rel="stylesheet">
+<meta name="description" content="36 visual reasoning puzzles. Take a free 40-minute challenge and explore your results.">
+<link href="assets/styles.css?v=20261114-1" rel="stylesheet">
 <script src="assets/time_and_scores.js?v=20261113-1" defer></script>
 <script src="assets/md5.js?v=20261113-1" defer></script>
 <script src="assets/app.js?v=20261113-4" defer></script>
 </head>
 <body>
 <main>
-  <p id="storage-notice" class="storage-notice small" role="status" hidden></p>
+  <p id="storage-notice" class="storage-notice" role="status" hidden></p>
   <section id="front" class="screen intro" aria-label="About the test">
-    <img class="logo" src="images/logo.png" alt="IQ Champion">
-    <h1>Put your visual reasoning to the test</h1>
-    <p>36 puzzles. 40 minutes. Find the icon that completes each pattern.</p>
-    <p class="small">Choose an answer to continue to the next unanswered puzzle. You can skip questions,
-      return using the overview and change your answers until you finish the test.
-      The timer keeps running if you switch tabs. When time runs out, your submitted answers are scored;
-      unanswered puzzles count as incorrect. Answers and start time are saved in this browser,
-      so reloading resumes the same question without resetting the timer. Clearing browser data removes the saved attempt.</p>
-    <button id="start-link" class="primary" type="button">Try the practice puzzle</button>
-    <p class="small">Your score is compared with <span id="reference-count"></span> historical attempts
-      with recorded durations over one minute and no more than 40 minutes.
-      Participants were recruited through paid Facebook ads and chose to take the test.
-      This self-selected sample is not established as representative of the population. This is a reasoning challenge,
-      not a validated measurement of IQ.</p>
-    <a href="https://www.linkedin.com/in/kent-caspersen-49531394/">Contact</a>
+    <img class="logo" src="images/logo.png" alt="IQ Champion" width="250">
+    <div class="hero">
+      <p class="eyebrow">A challenge in visual reasoning</p>
+      <h1>Spot the pattern.<br>Find the missing piece.</h1>
+      <p class="lead">36 visual puzzles, one question at a time.</p>
+      <dl class="test-facts">
+        <div><dt>Puzzles</dt><dd>36</dd></div>
+        <div><dt>Time limit</dt><dd>40 min</dd></div>
+        <div><dt>Cost</dt><dd>Free</dd></div>
+      </dl>
+      <button id="start-link" class="primary" type="button">Try the practice puzzle <span aria-hidden="true">→</span></button>
+      <p class="action-note">No account needed. Practice before the timer starts.</p>
+    </div>
+    <div class="intro-details">
+      <details class="disclosure">
+        <summary>How the test works</summary>
+        <ol class="instruction-list">
+          <li>Choose the icon that completes each pattern.</li>
+          <li>Skip tricky questions and return using the overview.</li>
+          <li>Review or change your answers before you finish.</li>
+        </ol>
+        <p>Your answers and start time are saved in this browser. Reloading keeps your original deadline.</p>
+        <p>The 40-minute timer continues while the page is closed. Unanswered questions count as incorrect.</p>
+      </details>
+      <details class="disclosure">
+        <summary>About your result</summary>
+        <p>Your score is compared with <span id="reference-count"></span> historical attempts lasting over one minute and up to 40 minutes.</p>
+        <p>Participants were recruited through paid Facebook ads and chose to take the test. This self-selected sample is not established as representative of the population.</p>
+        <p>This is a reasoning challenge, not a validated measurement of IQ.</p>
+      </details>
+    </div>
     <noscript><p>Enable JavaScript to take the test.</p></noscript>
   </section>
-  <section id="practice" class="screen intro" hidden aria-labelledby="practice-title">
-    <h1 id="practice-title" tabindex="-1">Practice puzzle</h1>
-    <p>Which shape comes next? Select an answer to see the explanation.</p>
-    <div class="practice-pattern" role="img" aria-label="Circle, square, circle, square, circle, missing shape">
-      <span aria-hidden="true">●</span><span aria-hidden="true">■</span>
-      <span aria-hidden="true">●</span><span aria-hidden="true">■</span>
-      <span aria-hidden="true">●</span><span aria-hidden="true">?</span>
+
+  <section id="practice" class="screen practice-screen" hidden aria-labelledby="practice-title">
+    <div class="section-intro">
+      <p class="eyebrow">Before you begin</p>
+      <h1 id="practice-title" tabindex="-1">A quick warm-up</h1>
+      <p class="lead">Which shape comes next?</p>
     </div>
-    <div class="practice-answers" role="group" aria-label="Practice answers">
-      <button id="practice-circle" type="button"><span aria-hidden="true">●</span> Circle</button>
-      <button id="practice-square" type="button"><span aria-hidden="true">■</span> Square</button>
-      <button id="practice-triangle" type="button"><span aria-hidden="true">▲</span> Triangle</button>
-    </div>
-    <p id="practice-feedback" role="status">This puzzle is unscored. You can try as many times as you like.</p>
-    <p class="small">Practice does not use any of your 40 minutes. The timer starts only when you press the button below.
-      This example is separate from the 36 test questions.</p>
-    <button id="practice-start-link" class="primary" type="button">Start 40-minute test</button>
-  </section>
-  <section id="test" class="screen" hidden aria-label="Reasoning test">
-    <header class="test-header">
-      <h1 id="question-number" tabindex="-1"></h1>
-      <div class="timer" role="timer" aria-label="Time remaining"><span id="time-left">40:00</span> left</div>
-    </header>
-    <p id="time-warning" class="small" role="status"></p>
-    <p class="small">You can skip, return and change answers. Your attempt resumes here after reloading. The timer keeps running while this page is closed.</p>
-    <div class="left-right">
-      <div id="test-left" class="test-left" role="group" aria-label="Four rows of visual patterns; complete the last row"></div>
-      <div class="test-right">
-        <h2 id="answer-instructions">Select the best fitting icon</h2>
-        <div id="test-right" class="answers" role="group" aria-labelledby="answer-instructions"></div>
+    <div class="panel practice-panel">
+      <div class="practice-pattern" role="img" aria-label="Circle, square, circle, square, circle, missing shape">
+        <span aria-hidden="true">●</span><span aria-hidden="true">■</span><span aria-hidden="true">●</span>
+        <span aria-hidden="true">■</span><span aria-hidden="true">●</span><span aria-hidden="true">?</span>
       </div>
+      <div class="practice-answers" role="group" aria-label="Practice answers">
+        <button id="practice-circle" type="button"><span aria-hidden="true">●</span> Circle</button>
+        <button id="practice-square" type="button"><span aria-hidden="true">■</span> Square</button>
+        <button id="practice-triangle" type="button"><span aria-hidden="true">▲</span> Triangle</button>
+      </div>
+      <p id="practice-feedback" class="feedback-note" role="status">This puzzle is unscored. You can try as many times as you like.</p>
     </div>
-    <div class="question-actions" aria-label="Question navigation">
+    <div class="screen-action">
+      <button id="practice-start-link" class="primary" type="button">Start 40-minute test <span aria-hidden="true">→</span></button>
+      <p class="action-note">Untimed practice. Your score starts with the real test.</p>
+    </div>
+  </section>
+
+  <section id="test" class="screen test-screen" hidden aria-label="Reasoning test">
+    <header class="test-header">
+      <div><p class="eyebrow">Your challenge</p><h1 id="question-number" tabindex="-1"></h1></div>
+      <div class="timer" role="timer" aria-label="Time remaining"><span id="time-left">40:00</span><span class="timer-label">remaining</span></div>
+    </header>
+    <p id="time-warning" class="time-warning" role="status"></p>
+    <div class="left-right">
+      <section class="panel puzzle-panel" aria-label="Question pattern">
+        <div class="panel-heading"><span class="step-number" aria-hidden="true">01</span><h2>Find the pattern</h2></div>
+        <div id="test-left" class="test-left" role="group" aria-label="Four rows of visual patterns; complete the last row"></div>
+      </section>
+      <section class="panel answer-panel">
+        <div class="panel-heading"><span class="step-number" aria-hidden="true">02</span><h2 id="answer-instructions">Choose your answer</h2></div>
+        <div id="test-right" class="answers" role="group" aria-labelledby="answer-instructions"></div>
+      </section>
+    </div>
+    <div class="question-actions navigation-actions" aria-label="Question navigation">
       <button id="previous-link" class="secondary" type="button">Previous question</button>
       <button id="skip-link" class="secondary" type="button">Skip for now</button>
     </div>
-    <section class="overview" aria-labelledby="overview-title">
-      <h2 id="overview-title">Question overview</h2>
-      <p id="progress-summary" role="status"></p>
-      <p class="small">Select a number to return. ✓ Answered · ○ Unanswered. The current question has a yellow outline.</p>
-      <nav id="question-overview" class="question-grid" aria-label="Jump to a question"></nav>
-      <p id="completion-hint" role="status"></p>
-      <button id="finish-link" class="primary" type="button">Review and finish</button>
-    </section>
-    <section id="finish-review" class="finish-review" hidden aria-labelledby="finish-title">
+    <div class="test-support">
+      <details class="disclosure overview" id="overview-panel">
+        <summary><span id="overview-title">Question overview</span><span id="progress-summary" class="summary-status" role="status"></span></summary>
+        <p class="legend"><span>✓ Answered</span><span>○ Unanswered</span><span>Outline = current</span></p>
+        <nav id="question-overview" class="question-grid" aria-label="Jump to a question"></nav>
+      </details>
+      <p id="completion-hint" class="feedback-note" role="status"></p>
+      <div class="finish-action"><button id="finish-link" class="text-button" type="button">Review and finish <span aria-hidden="true">→</span></button></div>
+      <details class="disclosure test-help">
+        <summary>Instructions &amp; saved progress</summary>
+        <p>Pick an answer to move to the next unanswered question. You can skip, return and change answers before finishing.</p>
+        <p>Answers save automatically in this browser. Reloading resumes the same question; your timer keeps running.</p>
+      </details>
+    </div>
+    <section id="finish-review" class="panel finish-review" hidden aria-labelledby="finish-title">
+      <p class="eyebrow">Ready when you are</p>
       <h2 id="finish-title" tabindex="-1">Finish this test?</h2>
       <p id="finish-count"></p>
-      <div class="question-actions">
-        <button id="finish-cancel" class="secondary" type="button">Keep working</button>
-        <button id="finish-confirm" class="primary" type="button">Finish and see result</button>
-      </div>
+      <div class="question-actions"><button id="finish-cancel" class="secondary" type="button">Keep working</button><button id="finish-confirm" class="primary" type="button">Finish and see result</button></div>
     </section>
   </section>
+
   <section id="result" class="screen result" hidden aria-labelledby="result-title">
-    <h1 id="result-title" tabindex="-1">Your result</h1>
-    <p id="result-reason"></p>
-    <p id="score" class="score"></p>
-    <p id="answered-count"></p>
-    <p id="percentile"></p>
-    <p id="comparison"></p>
-    <p id="result-context" class="small"></p>
-    <p class="small">This result describes your performance on these visual reasoning puzzles.
-      It is not a validated IQ score or a comparison with the general population.</p>
-    <div class="question-actions">
-      <button id="answer-review-link" class="primary" type="button">Review answers</button>
-      <button id="restart-link" class="secondary" type="button">Try again</button>
+    <div class="panel result-card">
+      <p class="eyebrow">Challenge complete</p>
+      <h1 id="result-title" tabindex="-1">Your result</h1>
+      <p id="result-reason" class="action-note"></p>
+      <p id="score" class="score"></p>
+      <p id="answered-count" class="result-progress"></p>
+      <div class="result-comparison"><p id="percentile"></p><p id="comparison" class="small"></p></div>
+      <div class="result-actions"><button id="answer-review-link" class="primary" type="button">Review answers <span aria-hidden="true">→</span></button><button id="restart-link" class="secondary" type="button">Try again</button></div>
     </div>
+    <details class="disclosure result-method"><summary>How to read this result</summary>
+      <p>This result describes your performance on these visual reasoning puzzles. It is not a validated IQ score or a comparison with the general population.</p>
+      <p id="result-context"></p>
+    </details>
   </section>
-  <section id="answer-review" class="screen" hidden aria-labelledby="answer-review-title">
-    <h1 id="answer-review-title" tabindex="-1">Review your answers</h1>
-    <button id="review-back" class="secondary" type="button">Back to result</button>
-    <p id="review-summary"></p>
-    <p class="small">Your test is finished. This review shows your submitted answers and the correct answers; your score is final.</p>
-    <p id="review-outcome" role="status"></p>
+
+  <section id="answer-review" class="screen review-screen" hidden aria-labelledby="answer-review-title">
+    <header class="review-header"><div><p class="eyebrow">Your answers, explained</p><h1 id="answer-review-title" tabindex="-1">Review your answers</h1></div><button id="review-back" class="secondary" type="button">Back to result</button></header>
+    <p id="review-summary" class="review-summary"></p>
+    <p id="review-outcome" class="feedback-note" role="status"></p>
     <div class="left-right">
-      <div id="review-pattern" class="test-left" role="group" aria-label="Question pattern"></div>
-      <div class="review-comparison">
-        <figure>
-          <figcaption>Your answer</figcaption>
-          <div id="review-selected" class="review-answer"></div>
-        </figure>
-        <figure>
-          <figcaption>Correct answer</figcaption>
-          <div id="review-correct" class="review-answer"></div>
-        </figure>
-      </div>
+      <section class="panel puzzle-panel"><div class="panel-heading"><h2>The pattern</h2></div><div id="review-pattern" class="test-left" role="group" aria-label="Question pattern"></div></section>
+      <section class="panel"><div class="panel-heading"><h2>Compare the answers</h2></div><div class="review-comparison">
+        <figure><figcaption>Your answer</figcaption><div id="review-selected" class="review-answer"></div></figure>
+        <figure><figcaption>Correct answer</figcaption><div id="review-correct" class="review-answer"></div></figure>
+      </div></section>
     </div>
-    <div class="question-actions">
-      <button id="review-previous" class="secondary" type="button">Previous review question</button>
-      <button id="review-next" class="secondary" type="button">Next review question</button>
-    </div>
-    <section class="overview" aria-labelledby="review-overview-title">
-      <h2 id="review-overview-title">Results by question</h2>
-      <p class="small">✓ Correct · × Incorrect · ○ Unanswered. Select a question to see your answer and the correct answer.</p>
+    <div class="question-actions navigation-actions"><button id="review-previous" class="secondary" type="button">Previous review question</button><button id="review-next" class="secondary" type="button">Next review question</button></div>
+    <details class="disclosure overview review-overview-panel"><summary><span id="review-overview-title">Results by question</span><span class="summary-status">Explore all 36 puzzles</span></summary>
+      <p class="legend"><span>✓ Correct</span><span>× Incorrect</span><span>○ Unanswered</span></p>
       <nav id="review-overview" class="question-grid" aria-label="Review a question"></nav>
-    </section>
+    </details>
+    <p class="action-note review-final-note">Your submitted answers and final score stay unchanged.</p>
   </section>
+  <footer class="site-footer"><span>IQ Champion</span><a href="https://www.linkedin.com/in/kent-caspersen-49531394/">Contact</a></footer>
 </main>
 </body>
 </html>
