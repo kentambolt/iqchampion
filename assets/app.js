@@ -2,7 +2,10 @@
 
 const total_questions = 36;
 const time_limit_ms = 40 * 60 * 1000;
-const storage_key = 'iqchampion.attempt.v1';
+// Old open clients rewrite v1 payloads and strip puzzleVersion. Migrate once,
+// then keep the versioned attempt isolated from their storage events.
+const storage_key = 'iqchampion.attempt.v3';
+const legacy_storage_key = 'iqchampion.attempt.v1';
 // These are recorded durations, not independently verified testing conditions.
 const reference_scores = time_and_scores.filter(row => row[0] > 60 && row[0] <= 2400);
 // Version 1 preserves the original puzzle for attempts saved before the correction.
@@ -52,8 +55,10 @@ function valid_attempt(saved) {
 
 function restore_attempt() {
   let raw;
+  let source_key = storage_key;
   try {
     raw = localStorage.getItem(storage_key);
+    if (!raw) { source_key = legacy_storage_key; raw = localStorage.getItem(legacy_storage_key); }
   } catch {
     storage_notice('Local saving is unavailable in this browser. Keep this page open to avoid losing your attempt.');
     return false;
@@ -64,7 +69,7 @@ function restore_attempt() {
     saved = JSON.parse(raw);
     if (!valid_attempt(saved)) throw new Error('Invalid saved attempt');
   } catch {
-    try { localStorage.removeItem(storage_key); } catch { /* The notice also covers unavailable storage. */ }
+    try { localStorage.removeItem(source_key); } catch { /* The notice also covers unavailable storage. */ }
     storage_notice('The saved attempt could not be restored. Start a new test when you are ready.');
     return false;
   }
@@ -89,7 +94,7 @@ function restore_attempt() {
     show_result(saved.completed ? saved.timedOut : !legacy_complete, !saved.completed && !legacy_complete);
   } else {
     show_question(current_question);
-    if (saved.version === 1) save_attempt();
+    if (saved.version === 1 || source_key === legacy_storage_key) save_attempt();
     update_timer();
     if (!finished) timer_id = setInterval(update_timer, 250);
   }
