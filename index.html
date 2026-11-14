@@ -9,6 +9,7 @@
 <script src="assets/time_and_scores.js?v=20261113-1" defer></script>
 <script src="assets/md5.js?v=20261113-1" defer></script>
 <script src="assets/app.js?v=20261113-4" defer></script>
+<script src="assets/layout.js?v=20261114-1" defer></script>
 </head>
 <body>
 <main>
@@ -17,7 +18,7 @@
     <img class="logo" src="images/logo.png" alt="IQ Champion" width="250">
     <div class="hero">
       <p class="eyebrow">A challenge in visual reasoning</p>
-      <h1>Spot the pattern.<br>Find the missing piece.</h1>
+      <h1 tabindex="-1">Spot the pattern.<br>Find the missing piece.</h1>
       <p class="lead">36 visual puzzles, one question at a time.</p>
       <dl class="test-facts">
         <div><dt>Puzzles</dt><dd>36</dd></div>
@@ -124,6 +125,7 @@
       <div class="result-comparison"><p id="percentile"></p><p id="comparison" class="small"></p></div>
       <div class="result-actions"><button id="answer-review-link" class="primary" type="button">Review answers <span aria-hidden="true">→</span></button><button id="restart-link" class="secondary" type="button">Try again</button></div>
     </div>
+    <div class="about-action"><button id="about-test-link" class="text-button" type="button">About this test</button></div>
     <details class="disclosure result-method"><summary>How to read this result</summary>
       <p>This result describes your performance on these visual reasoning puzzles. It is not a validated IQ score or a comparison with the general population.</p>
       <p id="result-context"></p>
