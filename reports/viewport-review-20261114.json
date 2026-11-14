@@ -1,0 +1,63 @@
+{
+  "environment": "local",
+  "appChecks": {
+    "passed": 38,
+    "failed": 0
+  },
+  "activeTestNoPageOverflow": [
+    {
+      "width": 1366,
+      "height": 768
+    },
+    {
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "width": 1024,
+      "height": 600
+    },
+    {
+      "width": 768,
+      "height": 1024
+    },
+    {
+      "width": 1024,
+      "height": 768
+    },
+    {
+      "width": 600,
+      "height": 800
+    },
+    {
+      "width": 800,
+      "height": 600
+    }
+  ],
+  "otherScreensAt1024x600": [
+    "introduction",
+    "practice with full feedback",
+    "results in da/en",
+    "answer review"
+  ],
+  "mobile": {
+    "width": 375,
+    "height": 812,
+    "pageHeight": 947,
+    "horizontalOverflow": false
+  },
+  "dialogs": [
+    "question overview and selection",
+    "help",
+    "methodology in Danish",
+    "finish and keep working",
+    "finish and result"
+  ],
+  "testImagesChanged": false,
+  "svgDesignStudies": "Separate proposals only, questions 2 and 31",
+  "analyticsEnabledInPreview": false,
+  "actualFinalDesktop": {
+    "width": 1280,
+    "height": 720
+  }
+}

@@ -5,13 +5,13 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>IQ Champion</title>
 <meta name="description" content="36 visual reasoning puzzles. Take a free 40-minute challenge and explore your results.">
-<link href="assets/styles.css?v=20261114-3" rel="stylesheet">
+<link href="assets/styles.css?v=20261114-4" rel="stylesheet">
 <script src="assets/time_and_scores.js?v=20261113-1" defer></script>
 <script src="assets/md5.js?v=20261113-1" defer></script>
-<script src="assets/i18n.js?v=20261114-1" defer></script>
+<script src="assets/i18n.js?v=20261114-2" defer></script>
 <script src="assets/app.js?v=20261114-5" defer></script>
 <script src="https://munthesystems.dk/systems/tracker.894a456da1305558.js" integrity="sha384-oGiw7CoaEVI+Ck8QDz70VAKJIosxw7zK9HTPC2p1LL6VwZ0wXtDArQS3qZxiHey8" crossorigin="anonymous" data-project="iqchampion" data-page="test" data-feedback="false" async></script>
-<script src="assets/layout.js?v=20261114-3" defer></script>
+<script src="assets/layout.js?v=20261114-4" defer></script>
 </head>
 <body>
 <main>
@@ -32,8 +32,7 @@
       <p class="action-note">No account needed. Practice before the timer starts.</p>
     </div>
     <div class="intro-details">
-      <details class="disclosure">
-        <summary>How the test works</summary>
+      <details class="disclosure" data-sheet-title="How the test works"><summary>How the test works</summary>
         <ol class="instruction-list">
           <li>Choose the icon that completes each pattern.</li>
           <li>Skip tricky questions and return using the overview.</li>
@@ -42,8 +41,7 @@
         <p>Your answers and start time are saved in this browser. Reloading keeps your original deadline.</p>
         <p>The 40-minute timer continues while the page is closed. Unanswered questions count as incorrect.</p>
       </details>
-      <details class="disclosure">
-        <summary>About your result</summary>
+      <details class="disclosure" data-sheet-title="About your result"><summary>About your result</summary>
         <p>Your score is compared with <span id="reference-count"></span> historical attempts lasting over one minute and up to 40 minutes.</p>
         <p>Participants were recruited through paid Facebook ads and chose to take the test. This self-selected sample is not established as representative of the population.</p>
         <p>This is a reasoning challenge, not a validated measurement of IQ.</p>
@@ -92,23 +90,23 @@
         <div id="test-right" class="answers" role="group" aria-labelledby="answer-instructions"></div>
       </section>
     </div>
+    <div class="test-toolbar">
     <div class="question-actions navigation-actions" aria-label="Question navigation">
       <button id="previous-link" class="secondary" type="button">Previous question</button>
       <button id="skip-link" class="secondary" type="button">Skip for now</button>
     </div>
     <div class="test-support">
-      <details class="disclosure overview" id="overview-panel">
-        <summary><span id="overview-title">Question overview</span><span id="progress-summary" class="summary-status" role="status"></span></summary>
+      <details class="disclosure overview" id="overview-panel" data-sheet-title="Question overview"><summary><span id="overview-title">Question overview</span><span id="progress-summary" class="summary-status" role="status"></span></summary>
         <p class="legend"><span>✓ Answered</span><span>○ Unanswered</span><span>Outline = current</span></p>
         <nav id="question-overview" class="question-grid" aria-label="Jump to a question"></nav>
       </details>
       <p id="completion-hint" class="feedback-note" role="status"></p>
       <div class="finish-action"><button id="finish-link" class="text-button" type="button">Review and finish <span aria-hidden="true">→</span></button></div>
-      <details class="disclosure test-help">
-        <summary>Instructions &amp; saved progress</summary>
+      <details class="disclosure test-help" data-sheet-title="Help"><summary>Help</summary>
         <p>Pick an answer to move to the next unanswered question. You can skip, return and change answers before finishing.</p>
         <p>Answers save automatically in this browser. Reloading resumes the same question; your timer keeps running.</p>
       </details>
+    </div>
     </div>
     <section id="finish-review" class="panel finish-review" hidden aria-labelledby="finish-title">
       <p class="eyebrow">Ready when you are</p>
@@ -129,7 +127,7 @@
       <div class="result-actions"><button id="answer-review-link" class="primary" type="button">Review answers <span aria-hidden="true">→</span></button><button id="restart-link" class="secondary" type="button">Try again</button></div>
     </div>
     <div class="about-action"><button id="about-test-link" class="text-button" type="button">About this test</button></div>
-    <details class="disclosure result-method"><summary>How to read this result</summary>
+    <details class="disclosure result-method" data-sheet-title="How to read this result"><summary>How to read this result</summary>
       <p>This result describes your performance on these visual reasoning puzzles. It is not a validated IQ score or a comparison with the general population.</p>
       <div id="result-context"></div>
     </details>
@@ -146,14 +144,16 @@
         <figure><figcaption>Correct answer</figcaption><div id="review-correct" class="review-answer"></div></figure>
       </div></section>
     </div>
-    <div class="question-actions navigation-actions"><button id="review-previous" class="secondary" type="button">Previous review question</button><button id="review-next" class="secondary" type="button">Next review question</button></div>
-    <details class="disclosure overview review-overview-panel"><summary><span id="review-overview-title">Results by question</span><span class="summary-status">Explore all 36 puzzles</span></summary>
+    <div class="review-toolbar"><div class="question-actions navigation-actions"><button id="review-previous" class="secondary" type="button">Previous review question</button><button id="review-next" class="secondary" type="button">Next review question</button></div>
+    <details class="disclosure overview review-overview-panel" data-sheet-title="Results by question"><summary><span id="review-overview-title">Results by question</span><span class="summary-status">Explore all 36 puzzles</span></summary>
       <p class="legend"><span>✓ Correct</span><span>× Incorrect</span><span>○ Unanswered</span></p>
       <nav id="review-overview" class="question-grid" aria-label="Review a question"></nav>
     </details>
+    </div>
     <p class="action-note review-final-note">Your submitted answers and final score stay unchanged.</p>
   </section>
   <footer class="site-footer"><span>IQ Champion</span><a id="feedback-link" href="https://munthesystems.dk/systems/feedback/iqchampion?lang=en" target="_blank" rel="noopener noreferrer" aria-label="Send feedback or contact us">Feedback &amp; contact</a><a href="https://www.linkedin.com/in/kent-caspersen-49531394/">Contact</a></footer>
+<dialog id="info-sheet" aria-labelledby="sheet-title"><header class="sheet-header"><h2 id="sheet-title"></h2><button id="sheet-close" class="secondary" type="button" aria-label="Close">×</button></header><div id="sheet-content"></div></dialog>
 </main>
 </body>
 </html>

@@ -4,7 +4,7 @@
 const i18n = (() => {
   const da = {
     '36 visual reasoning puzzles. Take a free 40-minute challenge and explore your results.': '36 visuelle logikopgaver. Prøv en gratis test på 40 minutter, og se dit resultat.',
-    '40 min': '40 min', 'Language': 'Sprog', 'About the test': 'Om testen',
+    'Close': 'Luk', 'Help': 'Hjælp', '40 min': '40 min', 'Language': 'Sprog', 'About the test': 'Om testen',
     'A challenge in visual reasoning': 'En udfordring i visuel logik',
     'Spot the pattern.': 'Find mønstret.', 'Find the missing piece.': 'Find den manglende brik.',
     '36 visual puzzles, one question at a time.': '36 visuelle opgaver, ét spørgsmål ad gangen.',

@@ -18,3 +18,7 @@ Offentlige produkttekster må ikke annoncere tilknytning til Munthe Systems. Fee
 ## Minimumssprog
 
 Produktets offentlige brugerflader og centrale flows skal understøtte både dansk og engelsk, inklusive navigation, vejledning, validering/fejl, feedback og relevante mails. Bevar øvrige sprog. Sprogvalg skal kunne skiftes konsekvent uden at miste testtilstand; brugerdata må ikke sendes til automatisk tredjepartsoversættelse. Den fælles feedbackformular vedligeholdes af selskabsforløbet.
+
+## Offentlig SEO
+
+Offentligt tilgængelige sider skal være SEO-optimerede efter SEO-afsnittet i C:/projekter/munthe-systems/munthe-systems/docs/FAELLES-KONTEKST.md: læsbart indhold, relevante metadata/canonical, semantik, billeder, mobil/performance, sitemap/statuskoder og kun ægte sprogruter/hreflang samt relevante strukturerede data. Bevar adgang/noindex for private og personlige flows, staging, prototyper og kontaktformularer; disse hører ikke i sitemap. Ingen betalte SEO-tjenester som standard.

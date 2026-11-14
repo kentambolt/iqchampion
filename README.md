@@ -120,7 +120,7 @@ expandable question overview. Results show the score and next actions first,
 with methodology available on demand. Side gutters, text widths and left-aligned
 body copy keep paragraphs readable. The existing scoring and timer are unchanged.
 
-## Danish and English (local release candidate)
+## Danish and English
 
 The language switch is available on every screen. Both languages cover practice,
 active and restored attempts, navigation, finish confirmation, results, methodology,
@@ -140,7 +140,25 @@ is maintained by the company project. There are no product transaction emails.
 Validation: 38/38 app checks passed, including translation coverage, language
 changes, reload, timeout, errors and review. Local real-browser flows passed at
 actual 375px and 1280px widths with no horizontal overflow or console errors.
-Preview analytics were disabled. The shared public form still displayed Danish
-for ?lang=en during the check and awaits its owner's language release. This
-product change requires its own merge approval and post-release live verification.
+Preview analytics were disabled. The shared form now serves da/en HTML for
+?lang=da/en, independently verified after the central release. Danish/English
+shipped in PR3 (8ba5aeba); later releases retain the normal product checks.
 The unfinished question-explanation iteration is excluded.
+
+## Viewport layout iteration
+
+Test artwork is capped at its original resolution and scales with viewport height
+and width. Navigation shares one compact toolbar. Instructions, methodology, the
+36-question overview and finish confirmation use a native dialog with keyboard
+focus handling, Escape/close and preserved live DOM controls. Results, introduction,
+practice and answer review are also compact on desktop/tablet. No body overflow is
+hidden to manufacture a fit; scrolling remains available for small mobile screens,
+zoom and longer dialog content. No question images, answers or scoring are changed.
+
+38 existing app checks pass. Real browser measurements found no page or horizontal
+overflow at 1366x768, 1280x720, 1024x600, 768x1024, 1024x768, 600x800 and 800x600 for the active test.
+At 1024x600, introduction, practice, results and review also fit. At 375x812 the
+active test retains vertical scrolling but has no horizontal overflow. Question
+overview selection, continued work, finish, review and bilingual dialogs were
+checked with actual controls. Preview analytics were disabled. Two SVG before/after
+art studies are separate proposals, excluded from the deployed product.
