@@ -631,13 +631,13 @@ test('IQ estimate survives reload and language changes, with partial-attempt qua
 
 test('question 36 corrections are versioned without changing saved answers or deadlines', () => {
  const app=load();app.run('start_test();submit_answer(1,get_hash(1,1,true));');
- assert.equal(app.run('puzzle_version'),2);
+ assert.equal(app.run('puzzle_version'),3);
  assert.match(app.run('get_picture_path(36,8,false)'),/v2\/.*\.svg$/);
  assert.match(app.run('get_picture_path(36,1,true)'),/v2\/.*\.svg$/);
  const saved=JSON.parse(app.store.get('iqchampion.attempt.v3'));
- assert.equal(saved.puzzleVersion,2);
+ assert.equal(saved.puzzleVersion,3);
  const resumed=load({store:app.store,now:61000});
- assert.equal(resumed.run('puzzle_version'),2);
+ assert.equal(resumed.run('puzzle_version'),3);
  assert.equal(resumed.element('time-left').textContent,'39:00');
  delete saved.puzzleVersion;app.store.set('iqchampion.attempt.v3',JSON.stringify(saved));
  const old=load({store:app.store,now:61000});
@@ -647,7 +647,7 @@ test('question 36 corrections are versioned without changing saved answers or de
  old.run('submit_answer(2,get_hash(2,1,true))');
  assert.equal(JSON.parse(old.store.get('iqchampion.attempt.v3')).puzzleVersion,1);
  old.run('request_finish();finish_test();show_practice();start_test();');
- assert.equal(old.run('puzzle_version'),2);
+ assert.equal(old.run('puzzle_version'),3);
 });
 
 
@@ -685,10 +685,26 @@ test('legacy open clients cannot overwrite or continuously restore versioned att
  app.windowEvents.storage({key:'iqchampion.attempt.v1'});
  assert.equal(app.element('answer-review').hidden,false);
  app.run('return_to_result();show_practice();start_test();');
- assert.equal(app.run('puzzle_version'),2);
+ assert.equal(app.run('puzzle_version'),3);
  const current=store.get('iqchampion.attempt.v3');
  store.set('iqchampion.attempt.v1',JSON.stringify({...legacy,completed:true}));
  app.windowEvents.storage({key:'iqchampion.attempt.v1'});
  assert.equal(store.get('iqchampion.attempt.v3'),current);
- assert.equal(app.run('puzzle_version'),2);
+ assert.equal(app.run('puzzle_version'),3);
+});
+
+
+test('version2 attempts retain previous examples while new version3 attempts use disambiguated examples',()=>{
+ const app=load();app.run('start_test();submit_answer(1,get_hash(1,1,true));');
+ assert.match(app.run('get_picture_path(19,1,false)'),/test19\/v3\/.*\.svg$/);
+ assert.match(app.run('get_picture_path(34,4,false)'),/test34\/v3\/.*\.svg$/);
+ const saved=JSON.parse(app.store.get('iqchampion.attempt.v3'));saved.puzzleVersion=2;
+ app.store.set('iqchampion.attempt.v3',JSON.stringify(saved));
+ const old=load({store:app.store,now:61000});
+ assert.equal(old.run('puzzle_version'),2);
+ assert.equal(old.element('time-left').textContent,'39:00');
+ assert.match(old.run('get_picture_path(19,1,false)'),/test19\/[^/]+\.png$/);
+ assert.match(old.run('get_picture_path(34,4,false)'),/test34\/[^/]+\.png$/);
+ assert.match(old.run('get_picture_path(36,8,false)'),/test36\/v2\/.*\.svg$/);
+ assert.equal(old.run('get_hash(19,1,true)'),app.run('get_hash(19,1,true)'));
 });
