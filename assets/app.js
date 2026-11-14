@@ -237,6 +237,17 @@ function show_answer_review(id = 1) {
     image.className = 'icon';
     selected.append(image);
   }
+  const explanation = question_explanations[id];
+  i18n.text(document.getElementById('explanation-title'), explanation.title);
+  i18n.text(document.getElementById('explanation-rule'), explanation.rule);
+  i18n.text(document.getElementById('explanation-application'), id === 36 && puzzle_version === 1
+    ? 'In this original version, the displayed middle picture expands to green at the top right and row 2, column 3; red at row 2, column 1; and brown at row 2, column 2, row 3, column 3 and row 4, column 3.' : explanation.application);
+  const legacy = id === 36 && puzzle_version === 1
+    ? 'You are reviewing the original version, which contained incorrect example markers. Your saved answer and score are unchanged. New attempts use the corrected version.'
+    : [19,34].includes(id) && puzzle_version < 3
+      ? 'You are reviewing an older puzzle version. Its examples contain the previously identified ambiguity; your saved answer and score are unchanged.' : '';
+  i18n.text(document.getElementById('explanation-legacy'), legacy);
+  document.getElementById('explanation-legacy').hidden = !legacy;
   const correct = document.getElementById('review-correct');
   correct.replaceChildren();
   const correct_image = new Image();

@@ -3,6 +3,13 @@
 // Product-owned copy only. No user data is sent to a translation service.
 const i18n = (() => {
   const da = {
+    'Why this answer?': 'Hvorfor dette svar?',
+    'Explanation': 'Forklaring',
+    'The rule': 'Reglen',
+    'Applying the rule': 'Sådan får du svaret',
+    'You are reviewing an older puzzle version. Its examples contain the previously identified ambiguity; your saved answer and score are unchanged.': 'Du gennemgår en tidligere opgaveversion. Eksemplerne har den tidligere påviste tvetydighed; dit gemte svar og resultat er uændret.',
+    'You are reviewing the original version, which contained incorrect example markers. Your saved answer and score are unchanged. New attempts use the corrected version.': 'Du gennemgår den oprindelige version, som havde fejl i eksemplernes prikker. Dit gemte svar og resultat er uændret. Nye forsøg bruger den rettede version.',
+    'In this original version, the displayed middle picture expands to green at the top right and row 2, column 3; red at row 2, column 1; and brown at row 2, column 2, row 3, column 3 and row 4, column 3.': 'I denne oprindelige version giver det viste midterbillede grønt øverst til højre og i række 2, kolonne 3; rødt i række 2, kolonne 1; og brunt i række 2, kolonne 2, række 3, kolonne 3 og række 4, kolonne 3.',
     "Share result on Facebook": "Del resultat på Facebook",
     "Share test on Facebook": "Del testen på Facebook",
     "Estimated IQ": "Estimeret IQ",
@@ -71,6 +78,7 @@ const i18n = (() => {
     'Local saving is unavailable in this browser. Keep this page open to avoid losing your attempt.': 'Lokal lagring er ikke tilgængelig i denne browser. Hold siden åben, så du ikke mister dit forsøg.',
     'The saved attempt could not be restored. Start a new test when you are ready.': 'Det gemte forsøg kunne ikke gendannes. Start en ny test, når du er klar.'
   };
+  if (typeof question_explanations !== 'undefined') for (const entry of Object.values(question_explanations)) for (const key of ['title','rule','application']) da[entry[key]] = entry.da[key];
   const status = {correct:'rigtigt', incorrect:'forkert', unanswered:'ubesvaret', answered:'besvaret'};
   const count = (n, singular, plural) => `${n} ${Number(n) === 1 ? singular : plural}`;
   const number = value => String(value).replace('.', ',');

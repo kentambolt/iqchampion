@@ -214,3 +214,9 @@ New attempts save puzzleVersion 2. Four versioned native SVG assets correct puzz
 Facebook links share the public test or an anonymous static score page. Share pages have localized Open Graph metadata, noindex, and no scripts or attempt history. Links never publish a post automatically. Generate all pages with node tools/Build-Language-Pages.cjs and check with --check.
 
 Validation: node --test checks/app.test.cjs checks/seo.test.cjs checks/question36.test.cjs.
+
+## Post-test explanations
+
+All 36 puzzles have reviewed English and Danish rule/application text in assets/explanations.js. The explanation opens in the existing accessible dialog during completed-attempt review. Language switches preserve the selected question and submitted answers. Legacy puzzle versions receive an explicit historical ambiguity/image-error note, and question36 uses the matching original or corrected answer description.
+
+Question19 version3 moves one dot in the first example; question34 version3 swaps two equal-height input pieces in example2. Both retain the final answer and now contradict the demonstrated competing rules. All rule/asset/version, app and SEO checks: node --test checks/*.test.cjs.
