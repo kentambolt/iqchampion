@@ -173,7 +173,7 @@ test('corrupt, incompatible and invalid saved attempts are discarded without a c
   for (const raw of ['{broken', 'null', JSON.stringify({ ...valid, version: 99 }),
     JSON.stringify({ ...valid, startedAt: 2000 }), JSON.stringify({ ...valid, answers: ['bad'] }),
     JSON.stringify({ ...valid, answers: Array(37).fill('bad') }), JSON.stringify({ ...valid, completed: true })]) {
-    const app = load({ store: new Map([['iqchampion.attempt.v1', raw]]) });
+    const app = load({ store: new Map([['iqchampion.attempt.v3', raw]]) });
     assert.equal(app.intervals.size, 0);
     assert.equal(app.run('finished'), true);
     assert.match(app.element('storage-notice').textContent, /could not be restored/);
@@ -203,7 +203,7 @@ test('a second tab picks up stored progress before accepting a stale answer', ()
   assert.equal(second.run('answered_count()'), 1);
   assert.equal(second.run('answers[0] === get_hash(1, 1, true)'), true);
   first.run('submit_answer(2, get_hash(2, 1, true))');
-  second.windowEvents.storage({ key: 'iqchampion.attempt.v1' });
+  second.windowEvents.storage({ key: 'iqchampion.attempt.v3' });
   assert.equal(second.element('question-number').textContent, 'Question 3 / 36');
 });
 
@@ -311,10 +311,10 @@ test('version 1 attempts migrate without losing answers, deadline or completed r
   assert.equal(migrated.element('question-number').textContent, 'Question 2 / 36');
   assert.equal(migrated.element('time-left').textContent, '39:00');
   assert.equal(migrated.run('answered_count()'), 1);
-  assert.equal(JSON.parse(store.get('iqchampion.attempt.v1')).version, 2);
+  assert.equal(JSON.parse(store.get('iqchampion.attempt.v3')).version, 2);
   saved.completed = true;
   saved.timedOut = true;
-  const result = load({ store: new Map([['iqchampion.attempt.v1', JSON.stringify(saved)]]), now: 2500000 });
+  const result = load({ store: new Map([['iqchampion.attempt.v3', JSON.stringify(saved)]]), now: 2500000 });
   assert.equal(result.element('score').textContent, '1 / 36 correct');
   assert.match(result.element('result-reason').textContent, /Time is up/);
 });
@@ -323,7 +323,7 @@ test('new save validation rejects invalid positions and answer arrays', () => {
   const valid = { version: 2, startedAt: 1000, answers: Array(36).fill(null), currentQuestion: 1, completed: false, timedOut: false };
   for (const saved of [{ ...valid, currentQuestion: 0 }, { ...valid, currentQuestion: 37 },
     { ...valid, answers: [] }, { ...valid, answers: [null, 'invalid', ...Array(34).fill(null)] }]) {
-    const app = load({ store: new Map([['iqchampion.attempt.v1', JSON.stringify(saved)]]) });
+    const app = load({ store: new Map([['iqchampion.attempt.v3', JSON.stringify(saved)]]) });
     assert.match(app.element('storage-notice').textContent, /could not be restored/);
     assert.equal(app.intervals.size, 0);
   }
@@ -371,7 +371,7 @@ test('review classifies every question and shows the exact saved answer and corr
 test('review navigation and attempted edits cannot change a completed score or saved attempt', () => {
   const app = load();
   app.run('start_test(); submit_answer(1, get_hash(1, 1, true)); request_finish(); finish_test();');
-  const before = app.store.get('iqchampion.attempt.v1');
+  const before = app.store.get('iqchampion.attempt.v3');
   const score = app.element('score').textContent;
   app.element('answer-review-link').events.click();
   app.element('review-next').events.click();
@@ -383,7 +383,7 @@ test('review navigation and attempted edits cannot change a completed score or s
   assert.equal(app.element('answer-review').hidden, true);
   assert.equal(app.element('result').hidden, false);
   assert.equal(app.element('score').textContent, score);
-  assert.equal(app.store.get('iqchampion.attempt.v1'), before);
+  assert.equal(app.store.get('iqchampion.attempt.v3'), before);
   assert.equal(app.intervals.size, 0);
 });
 
@@ -403,7 +403,7 @@ test('expired attempts can be reviewed after reopening, with unanswered question
 test('previously completed version 1 results support review without a new attempt', () => {
   const helper = load();
   const saved = { version: 1, startedAt: 1000, answers: [helper.run('get_hash(1, 1, true)')], completed: true, timedOut: true };
-  const app = load({ store: new Map([['iqchampion.attempt.v1', JSON.stringify(saved)]]), now: 2500000 });
+  const app = load({ store: new Map([['iqchampion.attempt.v3', JSON.stringify(saved)]]), now: 2500000 });
   app.run('show_answer_review(1)');
   assert.equal(app.element('review-summary').textContent, '1 correct; 0 incorrect; 35 unanswered.');
   assert.equal(app.run('started_at'), 1000);
@@ -487,13 +487,13 @@ test('switching language preserves answers, deadline, question, answer order and
   const events = [];
   const app = load({tracker:{event:name=>events.push(name)}});
   app.run('start_test(); submit_answer(1,get_hash(1,1,true)); go_to_question(4)');
-  const stored = app.store.get('iqchampion.attempt.v1');
+  const stored = app.store.get('iqchampion.attempt.v3');
   const buttons = [...app.element('test-right').children];
   app.run('i18n.setLanguage("da")');
   assert.equal(app.element('question-number').textContent, 'Opgave 4 / 36');
   assert.equal(app.element('progress-summary').textContent, '1 besvaret; 35 ubesvarede.');
   assert.deepEqual(app.element('test-right').children, buttons);
-  assert.equal(app.store.get('iqchampion.attempt.v1'), stored);
+  assert.equal(app.store.get('iqchampion.attempt.v3'), stored);
   assert.equal(app.run('deadline'), 2401000);
   assert.deepEqual(events, ['used']);
   const resumed = load({store:app.store, now:61000, language:'en-US'});
@@ -537,7 +537,7 @@ test('Danish storage failures and corrupt attempts have localized recoverable me
   assert.equal(app.run('finished'), false);
   const blocked = load({language:'da', failRead:true});
   assert.match(blocked.element('storage-notice').textContent, /^Lokal lagring/);
-  const corrupt = load({language:'da', store:new Map([['iqchampion.attempt.v1','invalid']])});
+  const corrupt = load({language:'da', store:new Map([['iqchampion.attempt.v3','invalid']])});
   assert.match(corrupt.element('storage-notice').textContent, /^Det gemte forsøg kunne ikke gendannes/);
 });
 
@@ -585,18 +585,18 @@ test('explicit real language routes override saved and browser preferences witho
 test('language route switches preserve active answers/deadline and update canonical metadata', () => {
   const app = load({path:'/en/',search:'?campaign=sample',hash:'#intro'});
   app.run('start_test(); submit_answer(1,get_hash(1,1,true));');
-  const before = app.store.get('iqchampion.attempt.v1');
+  const before = app.store.get('iqchampion.attempt.v3');
   app.run('i18n.setLanguage("da")');
   assert.equal(app.pageLocation.pathname,'/da/');
   assert.equal(app.pageLocation.search,'?campaign=sample');
-  assert.equal(app.store.get('iqchampion.attempt.v1'),before);
+  assert.equal(app.store.get('iqchampion.attempt.v3'),before);
   assert.equal(app.run('deadline'),2401000);
   assert.equal(app.element('link[rel="canonical"]').attributes.href,'https://iqchampion.com/da/');
   assert.equal(JSON.parse(app.element('site-schema').textContent).url,'https://iqchampion.com/da/');
   assert.equal(app.element('language-da').attributes['aria-current'],'page');
   app.run('i18n.setLanguage("en")');
   assert.equal(app.pageLocation.pathname,'/en/');
-  assert.equal(app.store.get('iqchampion.attempt.v1'),before);
+  assert.equal(app.store.get('iqchampion.attempt.v3'),before);
 });
 
 
@@ -634,18 +634,18 @@ test('question 36 corrections are versioned without changing saved answers or de
  assert.equal(app.run('puzzle_version'),2);
  assert.match(app.run('get_picture_path(36,8,false)'),/v2\/.*\.svg$/);
  assert.match(app.run('get_picture_path(36,1,true)'),/v2\/.*\.svg$/);
- const saved=JSON.parse(app.store.get('iqchampion.attempt.v1'));
+ const saved=JSON.parse(app.store.get('iqchampion.attempt.v3'));
  assert.equal(saved.puzzleVersion,2);
  const resumed=load({store:app.store,now:61000});
  assert.equal(resumed.run('puzzle_version'),2);
  assert.equal(resumed.element('time-left').textContent,'39:00');
- delete saved.puzzleVersion;app.store.set('iqchampion.attempt.v1',JSON.stringify(saved));
+ delete saved.puzzleVersion;app.store.set('iqchampion.attempt.v3',JSON.stringify(saved));
  const old=load({store:app.store,now:61000});
  assert.equal(old.run('puzzle_version'),1);
  assert.match(old.run('get_picture_path(36,8,false)'),/test36\/[^/]+\.png$/);
  assert.match(old.run('get_picture_path(36,1,true)'),/test36\/[^/]+\.png$/);
  old.run('submit_answer(2,get_hash(2,1,true))');
- assert.equal(JSON.parse(old.store.get('iqchampion.attempt.v1')).puzzleVersion,1);
+ assert.equal(JSON.parse(old.store.get('iqchampion.attempt.v3')).puzzleVersion,1);
  old.run('request_finish();finish_test();show_practice();start_test();');
  assert.equal(old.run('puzzle_version'),2);
 });
@@ -666,4 +666,29 @@ test('only complete results expose a share link; share URLs contain no answers o
  url=new URL(app.element('share-result-link').attributes.href);
  assert.equal(url.searchParams.get('u'),'https://iqchampion.com/share/en/25/');
  assert.equal(new URL(app.element('share-test-link').attributes.href).searchParams.get('u'),'https://iqchampion.com/en/');
+});
+
+
+test('legacy open clients cannot overwrite or continuously restore versioned attempts',()=>{
+ const helper=load();const legacy={version:2,startedAt:1000,answers:Array(36).fill(null),currentQuestion:36,completed:false,timedOut:false};
+ const store=new Map([['iqchampion.attempt.v1',JSON.stringify(legacy)]]);
+ const app=load({store,now:61000});
+ assert.equal(app.run('puzzle_version'),1);
+ assert.equal(app.run('current_question'),36);
+ assert.equal(app.element('time-left').textContent,'39:00');
+ assert.equal(JSON.parse(store.get('iqchampion.attempt.v3')).puzzleVersion,1);
+ assert.equal(store.get('iqchampion.attempt.v1'),JSON.stringify(legacy));
+ app.run('request_finish();finish_test();show_answer_review(36)');
+ assert.equal(app.element('answer-review').hidden,false);
+ // An old client saves the legacy key while this review is open.
+ store.set('iqchampion.attempt.v1',JSON.stringify({...legacy,completed:true}));
+ app.windowEvents.storage({key:'iqchampion.attempt.v1'});
+ assert.equal(app.element('answer-review').hidden,false);
+ app.run('return_to_result();show_practice();start_test();');
+ assert.equal(app.run('puzzle_version'),2);
+ const current=store.get('iqchampion.attempt.v3');
+ store.set('iqchampion.attempt.v1',JSON.stringify({...legacy,completed:true}));
+ app.windowEvents.storage({key:'iqchampion.attempt.v1'});
+ assert.equal(store.get('iqchampion.attempt.v3'),current);
+ assert.equal(app.run('puzzle_version'),2);
 });
