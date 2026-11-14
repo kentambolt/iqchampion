@@ -10,3 +10,7 @@ Bevar projektets eksisterende regler og Kents aktuelle opgave. Fribud-forløbet 
 Brug projektets faktiske nye mappe under `C:\projekter\munthe-systems` ved filoperationer; gamle chat-/projektposter kan pege på tidligere placeringer. Kan selskabsfilerne ikke læses, oplys det og fortsæt uafhængigt arbejde.
 
 Ved væsentlige ændringer: afstem kort produktstatus, hosting/DNS, server, database, mail/SMS og næste skridt med selskabsoversigten. Skriv aldrig credentials, private konfigurationer eller kundedata i statusfiler. Dashboardets oplysninger ligger i selskabsrepoets `dashboard-data.json` og `portfolio.json`; generér derefter `assets/dashboard-data.js` med `node tools/Build-Dashboard.mjs`, når værktøjet foreligger.
+
+## Neutral offentlig feedback
+
+Offentlige produkttekster må ikke annoncere tilknytning til Munthe Systems. Feedbacktekster, inklusive skærmlæsertekster, må ikke nævne Kent eller Munthe Systems; brug fx "Vi har modtaget din feedback". Bevar interne integrationer og korrekte nødvendige privatlivsoplysninger.
