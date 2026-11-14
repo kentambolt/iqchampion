@@ -1,5 +1,13 @@
 'use strict';
 
+// Focusing a sticky question heading does not scroll the pattern into view.
+if ('scrollRestoration' in history) history.scrollRestoration = 'manual';
+function scrollToQuestion() { window.scrollTo({ top: 0, behavior: 'instant' }); }
+for (const id of ['question-number', 'answer-review-title']) {
+  new MutationObserver(scrollToQuestion).observe(document.getElementById(id), { childList: true });
+}
+if (!document.getElementById('test').hidden) scrollToQuestion();
+
 // The scoring module supplies plain text; present longer methodology in short paragraphs.
 const resultContext = document.getElementById('result-context');
 function formatResultContext() {
