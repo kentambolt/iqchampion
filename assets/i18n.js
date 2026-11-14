@@ -3,12 +3,18 @@
 // Product-owned copy only. No user data is sent to a translation service.
 const i18n = (() => {
   const da = {
+    "Share result on Facebook": "Del resultat på Facebook",
+    "Share test on Facebook": "Del testen på Facebook",
+    "Estimated IQ": "Estimeret IQ",
+    "Just for fun. An approximate score, not a professionally validated IQ measurement.": "Kun for sjov. Et omtrentligt tal, ikke en fagligt valideret måling af IQ.",
+    "Your test is incomplete. Your correct answers are shown, but an IQ estimate needs all 36 answers.": "Din test er ufuldstændig. Du kan se dine rigtige svar, men et IQ-estimat kræver svar på alle 36 opgaver.",
+    "Unavailable": "Ikke tilgængelig",
     'Free visual reasoning test | IQ Champion': 'Gratis logiktest med figurer | IQ Champion',
     '36 visual reasoning puzzles. Take a free 40-minute challenge and explore your results.': '36 visuelle logikopgaver. Prøv en gratis test på 40 minutter, og se dit resultat.',
     'Answered':'Besvaret', 'Unanswered':'Ubesvaret', 'Correct':'Rigtigt', 'Incorrect':'Forkert', 'Close': 'Luk', 'Help': 'Hjælp', '40 min': '40 min', 'Language': 'Sprog', 'About the test': 'Om testen',
     'A challenge in visual reasoning': 'En udfordring i visuel logik',
     'Spot the pattern.': 'Find mønstret.', 'Find the missing piece.': 'Find den manglende brik.',
-    '36 visual puzzles, one question at a time.': '36 visuelle opgaver, ét spørgsmål ad gangen.',
+    "36 visual puzzles and an estimated IQ score. Just for fun.": "36 visuelle opgaver og en estimeret IQ-score. Kun for sjov.",
     'Puzzles': 'Opgaver', 'Time limit': 'Tidsgrænse', 'Cost': 'Pris', 'Free': 'Gratis',
     'Try the practice puzzle': 'Prøv øveopgaven',
     'No account needed. Practice before the timer starts.': 'Ingen konto nødvendig. Øv dig, før tiden starter.',
@@ -19,10 +25,10 @@ const i18n = (() => {
     'Your answers and start time are saved in this browser. Reloading keeps your original deadline.': 'Dine svar og din starttid gemmes i denne browser. Genindlæsning bevarer den oprindelige tidsfrist.',
     'The 40-minute timer continues while the page is closed. Unanswered questions count as incorrect.': 'De 40 minutter løber videre, mens siden er lukket. Ubesvarede opgaver tæller som forkerte.',
     'About your result': 'Om dit resultat',
-    'Your score is compared with': 'Dit resultat sammenlignes med',
-    'historical attempts lasting over one minute and up to 40 minutes.': 'historiske forsøg med en varighed på over ét minut og op til 40 minutter.',
-    'Participants were recruited through paid Facebook ads and chose to take the test. This self-selected sample is not established as representative of the population.': 'Deltagerne kom via betalte Facebook-annoncer og valgte selv at tage testen. Det er ikke dokumenteret, at denne gruppe er repræsentativ for befolkningen.',
-    'This is a reasoning challenge, not a validated measurement of IQ.': 'Dette er en logiktest, ikke en valideret måling af IQ.',
+    "Your estimated IQ is based on your position among": "Din estimerede IQ bygger på din placering blandt",
+    "historical attempts.": "historiske forsøg.",
+    "The comparison uses attempts lasting over one minute and up to 40 minutes. It has not been validated against an official IQ test or a representative population sample.": "Sammenligningen bruger forsøg på over ét minut og op til 40 minutter. Den er ikke valideret mod en officiel IQ-test eller et repræsentativt udsnit af befolkningen.",
+    "A test for fun. Your estimated IQ is an approximation, not a professionally validated IQ score.": "En test for sjov. Din estimerede IQ er en tilnærmelse, ikke en fagligt valideret IQ-score.",
     'Before you begin': 'Før du begynder', 'A quick warm-up': 'En kort opvarmning', 'Which shape comes next?': 'Hvilken figur kommer bagefter?',
     'Circle, square, circle, square, circle, missing shape': 'Cirkel, firkant, cirkel, firkant, cirkel, manglende figur',
     'Practice answers': 'Svar på øveopgaven', 'Circle': 'Cirkel', 'Square': 'Firkant', 'Triangle': 'Trekant',
@@ -45,7 +51,7 @@ const i18n = (() => {
     'Challenge complete': 'Testen er afsluttet', 'Your result': 'Dit resultat',
     'Review answers': 'Gennemgå svar', 'Try again': 'Prøv igen', 'About this test': 'Om denne test',
     'How to read this result': 'Sådan læser du resultatet',
-    'This result describes your performance on these visual reasoning puzzles. It is not a validated IQ score or a comparison with the general population.': 'Resultatet beskriver, hvordan du klarede disse visuelle logikopgaver. Det er ikke et valideret IQ-tal eller en sammenligning med befolkningen som helhed.',
+    "Your percentile among historical attempts is converted to the familiar IQ scale: midpoint 100 and standard deviation 15. This assumes the comparison group reflects the population, which has not been established.": "Din percentil blandt historiske forsøg omregnes til den velkendte IQ-skala med midtpunkt 100 og standardafvigelse 15. Det forudsætter, at sammenligningsgruppen afspejler befolkningen, hvilket ikke er dokumenteret.",
     'Your answers, explained': 'Overblik over dine svar', 'Review your answers': 'Gennemgå dine svar', 'Back to result': 'Tilbage til resultat',
     'The pattern': 'Mønstret', 'Compare the answers': 'Sammenlign svarene', 'Your answer': 'Dit svar', 'Correct answer': 'Rigtigt svar',
     'Previous review question': 'Forrige opgave i gennemgangen', 'Next review question': 'Næste opgave i gennemgangen',
@@ -80,7 +86,7 @@ const i18n = (() => {
     [/^(\d+) \/ (\d+) correct$/, (_,a,b) => `${a} / ${b} rigtige`],
     [/^Percentile among historical participants: (.+)$/, (_,a) => `Percentil blandt historiske deltagere: ${number(a)}`],
     [/^Participants scoring lower: (.+)%\. Participants with the same score: (.+)%\.$/, (_,a,b) => `Deltagere med lavere resultat: ${number(a)} %. Deltagere med samme resultat: ${number(b)} %.`],
-    [/^Reference group: ([\d,]+) historical attempts with recorded durations over one minute and up to 40 minutes\..*$/, (_,count) => `Sammenligningsgruppe: ${count.replace(/,/g,'.')} historiske forsøg med registreret varighed på over ét minut og op til 40 minutter. Deltagerne kom via betalte Facebook-annoncer og valgte selv at tage testen. Denne selvvalgte gruppe kan afvige fra befolkningen som helhed; retningen og størrelsen på forskellen er ukendt. Der er ikke korrigeret til befolkningsniveau. Ved samme antal rigtige bruges midten af gruppens percentilinterval. Historiske tidsmålinger og udeladelser i data er ikke uafhængigt verificeret. Øvelse, muligheden for at vende tilbage til opgaver, visning af facit og gentagne forsøg kan påvirke sammenligneligheden med historiske resultater.`],
+    [/^Reference group: ([\d,]+) historical attempts\..*$/, (_,count) => `Sammenligningsgruppe: ${count.replace(/,/g,'.')} historiske forsøg. Forsøg med registreret varighed på over ét minut og op til 40 minutter indgår. Ved samme antal rigtige bruges midten af gruppens percentilinterval. Estimater afrundes til hele tal og vises kun inden for 55–145 med en grænsemarkering uden for intervallet. Dette er en omregning af skalaen, ikke en uafhængigt valideret IQ-måling i befolkningen. Øvelse og gentagne forsøg kan påvirke dit resultat. En opgave er rettet, siden de historiske forsøg blev indsamlet, hvilket begrænser sammenligneligheden.`],
     [/^\d{1,3}(,\d{3})+$/, text => text.replace(/,/g,'.')]
   ];
   const route = typeof location !== 'undefined' ? location.pathname.match(/^\/(da|en)(?:\/|\/index\.html)?$/)?.[1] : null;
@@ -125,6 +131,7 @@ const i18n = (() => {
     for (const code of ['da','en']) document.getElementById('language-'+code)?.setAttribute('aria-current', language === code ? 'page' : 'false');
     const link = document.getElementById('feedback-link');
     if (link) link.setAttribute('href', 'https://munthesystems.dk/systems/feedback/iqchampion?lang='+language);
+    if (typeof update_share_links === 'function') update_share_links();
     const canonical = 'https://iqchampion.com/'+language+'/';
     document.title = translate('Free visual reasoning test | IQ Champion');
     document.querySelector?.('link[rel="canonical"]')?.setAttribute('href',canonical);

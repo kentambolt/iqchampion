@@ -5,6 +5,8 @@ const time_limit_ms = 40 * 60 * 1000;
 const storage_key = 'iqchampion.attempt.v1';
 // These are recorded durations, not independently verified testing conditions.
 const reference_scores = time_and_scores.filter(row => row[0] > 60 && row[0] <= 2400);
+// Version 1 preserves the original puzzle for attempts saved before the correction.
+let puzzle_version = 2;
 let answers = [];
 let current_question = 1;
 let review_question = 1;
@@ -22,7 +24,7 @@ function storage_notice(message) {
 }
 
 function save_attempt() {
-  const data = JSON.stringify({ version: 2, startedAt: started_at, answers, currentQuestion: current_question, completed: finished, timedOut: timed_out });
+  const data = JSON.stringify({ version: 2, puzzleVersion: puzzle_version, startedAt: started_at, answers, currentQuestion: current_question, completed: finished, timedOut: timed_out });
   try {
     localStorage.setItem(storage_key, data);
     last_saved = data;
@@ -34,6 +36,7 @@ function save_attempt() {
 
 function valid_attempt(saved) {
   return saved && [1, 2].includes(saved.version)
+    && (saved.puzzleVersion === undefined || [1, 2].includes(saved.puzzleVersion))
     && Number.isSafeInteger(saved.startedAt) && saved.startedAt > 0 && saved.startedAt <= Date.now()
     && typeof saved.completed === 'boolean' && typeof saved.timedOut === 'boolean'
     && (!saved.timedOut || saved.completed)
@@ -68,6 +71,7 @@ function restore_attempt() {
   last_saved = raw;
   clearInterval(timer_id);
   timer_id = null;
+  puzzle_version = saved.puzzleVersion ?? 1;
   started_at = saved.startedAt;
   deadline = started_at + time_limit_ms;
   answers = Array.from({ length: total_questions }, (_, index) => saved.answers[index] ?? null);
@@ -124,6 +128,9 @@ function get_hash(test_id, pic_id, is_answer) {
 
 function get_picture_path(test_id, pic_id, is_answer) {
   if (!is_answer && pic_id === 12) return 'images/questionmark.png';
+  const tile = is_answer ? pic_id + 11 : pic_id;
+  if (test_id === 36 && puzzle_version === 2 && [8, 9, 11, 12].includes(tile))
+    return 'tests/test36/v2/' + get_hash(test_id, pic_id, is_answer) + '.svg';
   return 'tests/test' + test_id + '/' + get_hash(test_id, pic_id, is_answer) + '.png';
 }
 
@@ -372,6 +379,15 @@ function calculate_score(submitted_answers, reference) {
   };
 }
 
+function update_share_links() {
+  const base = 'https://iqchampion.com/';
+  const site = base + i18n.language + '/';
+  const result = calculate_score(answers, reference_scores);
+  const shared = base + 'share/' + i18n.language + '/' + result.correct + '/';
+  document.getElementById('share-test-link').setAttribute('href', 'https://www.facebook.com/sharer/sharer.php?u=' + encodeURIComponent(site));
+  document.getElementById('share-result-link').setAttribute('href', 'https://www.facebook.com/sharer/sharer.php?u=' + encodeURIComponent(shared));
+}
+
 function format_percent(value) {
   if (value > 99.9 && value < 100) return '>99.9';
   if (value > 0 && value < 0.1) return '<0.1';
@@ -395,14 +411,20 @@ function show_result(expired, report_completion = true) {
   document.getElementById('test').hidden = true;
   document.getElementById('answer-review').hidden = true;
   document.getElementById('result').hidden = false;
+  document.getElementById('result-reason').hidden = !expired;
+  document.getElementById('share-result-link').hidden = answered_count() !== total_questions;
+  update_share_links();
   i18n.text(document.getElementById('result-reason'), expired ? 'Time is up. Your answers have been scored.' : 'Test completed.');
+  const iq = answered_count() === total_questions ? estimate_iq(result.percentile) : null;
+  i18n.text(document.getElementById('iq-estimate'), iq === null ? '—' : iq);
+  document.getElementById('iq-incomplete').hidden = answered_count() === total_questions;
   i18n.text(document.getElementById('score'), `${result.correct} / ${total_questions} correct`);
   i18n.text(document.getElementById('answered-count'), `${answered_count()} answered; ${total_questions - answered_count()} unanswered.`);
   i18n.text(document.getElementById('percentile'), result.percentile === null
     ? 'Comparison unavailable.' : `Percentile among historical participants: ${format_percent(result.percentile)}`);
   i18n.text(document.getElementById('comparison'), result.percentile === null ? ''
     : `Participants scoring lower: ${format_percent(result.below_percent)}%. Participants with the same score: ${format_percent(result.equal_percent)}%.`);
-  i18n.text(document.getElementById('result-context'), `Reference group: ${reference_scores.length.toLocaleString('en-US')} historical attempts with recorded durations over one minute and up to 40 minutes. Participants were recruited through paid Facebook ads and chose to take the test. This self-selected group may differ from the general population; the direction and size of any difference are unknown. No population adjustment has been applied. The percentile places tied scores at the middle of their group. Historical timing conditions and data exclusions have not been independently verified. Practice, returning to questions, seeing correct answers and repeated attempts may affect comparability with historical results.`);
+  i18n.text(document.getElementById('result-context'), `Reference group: ${reference_scores.length.toLocaleString('en-US')} historical attempts. Attempts with recorded durations over one minute and up to 40 minutes are included. Tied scores share the midpoint of their percentile group. Estimates are rounded to whole numbers and displayed only within 55–145, with a limit indicator outside that range. This is a scale conversion, not an independently validated population IQ measurement. Practice and repeated attempts can affect your result. One puzzle has been corrected since the historical attempts were collected, which limits comparability.`);
   document.getElementById('result-title').focus();
   if (report_completion) report_usage('test_completed');
 }
@@ -411,6 +433,7 @@ function start_test() {
   restore_attempt();
   if (!finished) return;
   clearInterval(timer_id);
+  puzzle_version = 2;
   answers = Array(total_questions).fill(null);
   current_question = 1;
   started_at = Date.now();
@@ -453,3 +476,5 @@ window.addEventListener('storage', event => {
 });
 preload_question(1);
 restore_attempt();
+
+update_share_links();

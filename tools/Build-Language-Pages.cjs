@@ -39,7 +39,8 @@ function render(language) {
     .replace(/(<meta property="og:url" content=")[^"]+/,`$1${origin}/${language}/`)
     .replace(/(<meta property="og:locale" content=")[^"]+/,`$1${language==='da'?'da_DK':'en_GB'}`)
     .replace(/(id="language-(da|en)"[^>]*aria-current=")[^"]+/g,(_,prefix,code)=>prefix+(code===language?'page':'false'))
-    .replace(/(id="feedback-link" href="[^"]+\?lang=)(?:da|en)/,`$1${language}`);
+    .replace(/(id="feedback-link" href="[^"]+\?lang=)(?:da|en)/,`$1${language}`)
+    .replace(/(id="share-test-link" href=")[^"]+/,`$1https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(origin+'/'+language+'/')}`);
   const schema={'@context':'https://schema.org','@type':'WebPage',name:translate('Free visual reasoning test | IQ Champion'),description:translate('36 visual reasoning puzzles. Take a free 40-minute challenge and explore your results.'),url:`${origin}/${language}/`,inLanguage:language,isAccessibleForFree:true,isPartOf:{'@type':'WebSite',name:'IQ Champion',url:origin+'/'}};
   html=html.replace(/(<script id="site-schema"[^>]*>)[\s\S]*?(<\/script>)/,(_,a,b)=>a+JSON.stringify(schema)+b);
   translate.check();
@@ -52,6 +53,20 @@ const files={
  'sitemap.xml':`<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n  <url><loc>${origin}/da/</loc></url>\n  <url><loc>${origin}/en/</loc></url>\n</urlset>\n`,
  '404.html':`<!DOCTYPE html>\n<html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="robots" content="noindex,follow"><title>Page not found | IQ Champion</title><link rel="stylesheet" href="${stylesheet}"></head><body><main class="result"><section class="panel"><h1>Page not found</h1><p lang="da">Siden findes ikke. Du kan fortsætte på dansk eller engelsk.</p><p>You can continue in Danish or English.</p><nav class="question-actions" aria-label="Choose language"><a class="secondary" href="/da/" lang="da">Dansk</a><a class="secondary" href="/en/" lang="en">English</a></nav></section></main></body></html>\n`
 };
+// Finite, anonymous score pages let Facebook read actual metadata on static hosting.
+// They contain only an aggregate correct count and estimate, never answers or IDs.
+const shareContext={};
+vm.runInNewContext(fs.readFileSync(path.join(root,'assets/time_and_scores.js'),'utf8')+';this.reference=time_and_scores.filter(r=>r[0]>60&&r[0]<=2400);'+fs.readFileSync(path.join(root,'assets/percentiles.js'),'utf8')+';'+fs.readFileSync(path.join(root,'assets/iq-score.js'),'utf8')+';this.iq=estimate_iq;',shareContext);
+for(const lang of ['da','en'])for(let score=0;score<=36;score++){
+ const ref=shareContext.reference;
+ const percentile=100*(ref.filter(r=>r[1]<score).length+ref.filter(r=>r[1]===score).length/2)/ref.length;
+ const estimate=shareContext.iq(percentile);
+ const da=lang==='da';
+ const title=(da?'Estimeret IQ ':'Estimated IQ ')+estimate+' | IQ Champion';
+ const summary=da?score+' / 36 rigtige. En gratis test med figuropgaver, kun for sjov. Ikke en fagligt valideret IQ-måling.':score+' / 36 correct. A free visual puzzle test, just for fun. Not a professionally validated IQ measurement.';
+ const url=origin+'/share/'+lang+'/'+score+'/';
+ files['share/'+lang+'/'+score+'/index.html']='<!DOCTYPE html>\n<html lang="'+lang+'"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="robots" content="noindex,follow"><title>'+escape(title)+'</title><meta name="description" content="'+escape(summary)+'"><link rel="canonical" href="'+url+'"><meta property="og:type" content="website"><meta property="og:url" content="'+url+'"><meta property="og:title" content="'+escape(title)+'"><meta property="og:description" content="'+escape(summary)+'"><meta property="og:image" content="'+origin+'/images/logo.png"><link rel="stylesheet" href="'+stylesheet+'"></head><body><main class="result"><section class="panel result-card"><h1>'+(da?'Delt resultat':'Shared result')+'</h1><p class="iq-label">'+(da?'Estimeret IQ':'Estimated IQ')+'</p><p class="iq-score">'+escape(estimate)+'</p><p class="iq-disclaimer small">'+escape(summary)+'</p><p class="small">'+(da?'Delte resultater er selvrapporterede.':'Shared results are self-reported.')+'</p><p class="about-action"><a class="primary" href="/'+lang+'/">'+(da?'Prøv selv testen':'Try the test yourself')+'</a></p></section></main></body></html>\n';
+}
 let stale=[];
 for(const [name,content] of Object.entries(files)) {
  const target=path.join(root,name);

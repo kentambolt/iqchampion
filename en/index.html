@@ -17,11 +17,13 @@
 <meta property="og:locale" content="en_GB">
 <script id="site-schema" type="application/ld+json">{"@context":"https://schema.org","@type":"WebPage","name":"Free visual reasoning test | IQ Champion","description":"36 visual reasoning puzzles. Take a free 40-minute challenge and explore your results.","url":"https://iqchampion.com/en/","inLanguage":"en","isAccessibleForFree":true,"isPartOf":{"@type":"WebSite","name":"IQ Champion","url":"https://iqchampion.com/"}}</script>
 <meta name="description" content="36 visual reasoning puzzles. Take a free 40-minute challenge and explore your results.">
-<link href="assets/styles.css?v=20261114-5" rel="stylesheet">
+<link href="assets/styles.css?v=20261114-7" rel="stylesheet">
 <script src="assets/time_and_scores.js?v=20261113-1" defer></script>
+<script src="assets/percentiles.js?v=20261114-1" defer></script>
 <script src="assets/md5.js?v=20261113-1" defer></script>
-<script src="assets/i18n.js?v=20261114-3" defer></script>
-<script src="assets/app.js?v=20261114-6" defer></script>
+<script src="assets/i18n.js?v=20261114-5" defer></script>
+<script src="assets/iq-score.js?v=20261114-1" defer></script>
+<script src="assets/app.js?v=20261114-8" defer></script>
 <script src="https://munthesystems.dk/systems/tracker.894a456da1305558.js" integrity="sha384-oGiw7CoaEVI+Ck8QDz70VAKJIosxw7zK9HTPC2p1LL6VwZ0wXtDArQS3qZxiHey8" crossorigin="anonymous" data-project="iqchampion" data-page="test" data-feedback="false" async></script>
 <script src="assets/layout.js?v=20261114-5" defer></script>
 </head>
@@ -34,7 +36,7 @@
     <div class="hero">
       <p class="eyebrow">A challenge in visual reasoning</p>
       <h1 tabindex="-1">Spot the pattern.<br>Find the missing piece.</h1>
-      <p class="lead">36 visual puzzles, one question at a time.</p>
+      <p class="lead">36 visual puzzles and an estimated IQ score. Just for fun.</p>
       <dl class="test-facts">
         <div><dt>Puzzles</dt><dd>36</dd></div>
         <div><dt>Time limit</dt><dd>40 min</dd></div>
@@ -54,9 +56,9 @@
         <p>The 40-minute timer continues while the page is closed. Unanswered questions count as incorrect.</p>
       </details>
       <details class="disclosure" data-sheet-title="About your result"><summary>About your result</summary>
-        <p>Your score is compared with <span id="reference-count">10,216</span> historical attempts lasting over one minute and up to 40 minutes.</p>
-        <p>Participants were recruited through paid Facebook ads and chose to take the test. This self-selected sample is not established as representative of the population.</p>
-        <p>This is a reasoning challenge, not a validated measurement of IQ.</p>
+        <p>Your estimated IQ is based on your position among <span id="reference-count">10,216</span> historical attempts.</p>
+        <p>The comparison uses attempts lasting over one minute and up to 40 minutes. It has not been validated against an official IQ test or a representative population sample.</p>
+        <p>A test for fun. Your estimated IQ is an approximation, not a professionally validated IQ score.</p>
       </details>
     </div>
     <noscript><p>Aktivér JavaScript for at tage testen. / Enable JavaScript to take the test.</p></noscript>
@@ -130,17 +132,20 @@
 
   <section id="result" class="screen result" hidden aria-labelledby="result-title">
     <div class="panel result-card">
-      <p class="eyebrow">Challenge complete</p>
       <h1 id="result-title" tabindex="-1">Your result</h1>
       <p id="result-reason" class="action-note"></p>
-      <p id="score" class="score"></p>
+      <p class="iq-label">Estimated IQ</p>
+      <p id="iq-estimate" class="iq-score"></p>
+      <p class="small iq-disclaimer">Just for fun. An approximate score, not a professionally validated IQ measurement.</p>
+      <p id="iq-incomplete" class="small" hidden>Your test is incomplete. Your correct answers are shown, but an IQ estimate needs all 36 answers.</p>
+      <p id="score" class="raw-score"></p>
       <p id="answered-count" class="result-progress"></p>
-      <div class="result-comparison"><p id="percentile"></p><p id="comparison" class="small"></p></div>
       <div class="result-actions"><button id="answer-review-link" class="primary" type="button">Review answers <svg class="ui-icon" viewBox="0 0 16 16" aria-hidden="true" focusable="false" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M2 8h11m-4-4 4 4-4 4"/></svg></button><button id="restart-link" class="secondary" type="button">Try again</button></div>
     </div>
-    <div class="about-action"><button id="about-test-link" class="text-button" type="button">About this test</button></div>
+    <div class="about-action"><button id="about-test-link" class="text-button" type="button">About this test</button><a id="share-result-link" class="text-button" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fiqchampion.com%2Fen%2F" target="_blank" rel="noopener noreferrer" hidden>Share result on Facebook</a></div>
     <details class="disclosure result-method" data-sheet-title="How to read this result"><summary>How to read this result</summary>
-      <p>This result describes your performance on these visual reasoning puzzles. It is not a validated IQ score or a comparison with the general population.</p>
+      <p>Your percentile among historical attempts is converted to the familiar IQ scale: midpoint 100 and standard deviation 15. This assumes the comparison group reflects the population, which has not been established.</p>
+      <div class="result-comparison"><p id="percentile"></p><p id="comparison" class="small"></p></div>
       <div id="result-context"></div>
     </details>
   </section>
@@ -164,7 +169,7 @@
     </div>
     <p class="action-note review-final-note">Your submitted answers and final score stay unchanged.</p>
   </section>
-  <footer class="site-footer"><span>IQ Champion</span><a id="feedback-link" href="https://munthesystems.dk/systems/feedback/iqchampion?lang=en" target="_blank" rel="noopener noreferrer" aria-label="Send feedback or contact us">Feedback &amp; contact</a><a href="https://www.linkedin.com/in/kent-caspersen-49531394/">Contact</a></footer>
+  <footer class="site-footer"><span>IQ Champion</span><a id="share-test-link" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fiqchampion.com%2Fen%2F" target="_blank" rel="noopener noreferrer">Share test on Facebook</a><a id="feedback-link" href="https://munthesystems.dk/systems/feedback/iqchampion?lang=en" target="_blank" rel="noopener noreferrer" aria-label="Send feedback or contact us">Feedback &amp; contact</a><a href="https://www.linkedin.com/in/kent-caspersen-49531394/">Contact</a></footer>
 <dialog id="info-sheet" aria-labelledby="sheet-title"><header class="sheet-header"><h2 id="sheet-title"></h2><button id="sheet-close" class="secondary" type="button" aria-label="Close"><svg class="ui-icon" viewBox="0 0 16 16" aria-hidden="true" focusable="false" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="m4 4 8 8M12 4l-8 8"/></svg></button></header><div id="sheet-content"></div></dialog>
 </main>
 </body>

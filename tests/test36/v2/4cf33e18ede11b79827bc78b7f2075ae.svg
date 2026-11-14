@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="110" height="110" viewBox="0 0 110 110">
+<rect x="4.5" y="4.5" width="101" height="101" rx="14" fill="none" stroke="#000" stroke-width="1.5"/>
+<circle data-colour="R" cx="17" cy="17" r="12.5" fill="#c2000b"/>
+<circle cx="17" cy="17" r="5" fill="#000"/>
+<circle cx="42" cy="17" r="5" fill="#000"/>
+<circle data-colour="G" cx="67" cy="17" r="12.5" fill="#40a629"/>
+<circle cx="67" cy="17" r="5" fill="#000"/>
+<circle data-colour="G" cx="92" cy="17" r="12.5" fill="#40a629"/>
+<circle cx="92" cy="17" r="5" fill="#000"/>
+<circle cx="17" cy="42" r="5" fill="#000"/>
+<circle cx="42" cy="42" r="5" fill="#000"/>
+<circle data-colour="O" cx="67" cy="42" r="12.5" fill="#be894a"/>
+<circle cx="67" cy="42" r="5" fill="#000"/>
+<circle data-colour="G" cx="92" cy="42" r="12.5" fill="#40a629"/>
+<circle cx="92" cy="42" r="5" fill="#000"/>
+<circle cx="17" cy="67" r="5" fill="#000"/>
+<circle data-colour="O" cx="42" cy="67" r="12.5" fill="#be894a"/>
+<circle cx="42" cy="67" r="5" fill="#000"/>
+<circle cx="67" cy="67" r="5" fill="#000"/>
+<circle cx="92" cy="67" r="5" fill="#000"/>
+<circle data-colour="B" cx="17" cy="92" r="12.5" fill="#4fa1ca"/>
+<circle cx="17" cy="92" r="5" fill="#000"/>
+<circle cx="42" cy="92" r="5" fill="#000"/>
+<circle data-colour="O" cx="67" cy="92" r="12.5" fill="#be894a"/>
+<circle cx="67" cy="92" r="5" fill="#000"/>
+<circle data-colour="O" cx="92" cy="92" r="12.5" fill="#be894a"/>
+<circle cx="92" cy="92" r="5" fill="#000"/>
+</svg>
