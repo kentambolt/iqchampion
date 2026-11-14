@@ -1,0 +1,35 @@
+{
+  "environment": "local",
+  "languages": [
+    "da",
+    "en"
+  ],
+  "appChecks": {
+    "passed": 38,
+    "failed": 0
+  },
+  "browserChecks": {
+    "actualWidths": [
+      375,
+      1280
+    ],
+    "flows": [
+      "practice feedback",
+      "new timed test",
+      "switch language while running",
+      "reload with original timer and saved language",
+      "manual finish",
+      "read-only review",
+      "English and Danish mobile introduction"
+    ],
+    "horizontalOverflow": false,
+    "consoleErrors": 0,
+    "previewAnalyticsEnabled": false
+  },
+  "feedback": {
+    "links": "?lang=da/en",
+    "englishSharedForm": "not yet deployed at check; owned by company project"
+  },
+  "releaseGate": "specific merge approval and post-release production verification",
+  "pendingExplanationsIncluded": false
+}

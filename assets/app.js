@@ -17,7 +17,7 @@ let last_saved = null;
 
 function storage_notice(message) {
   const notice = document.getElementById('storage-notice');
-  notice.textContent = message;
+  i18n.text(notice, message);
   notice.hidden = !message;
 }
 
@@ -98,14 +98,14 @@ function show_practice() {
   document.getElementById('result').hidden = true;
   document.getElementById('answer-review').hidden = true;
   document.getElementById('practice').hidden = false;
-  document.getElementById('practice-feedback').textContent = 'This puzzle is unscored. You can try as many times as you like.';
+  i18n.text(document.getElementById('practice-feedback'), 'This puzzle is unscored. You can try as many times as you like.');
   document.getElementById('practice-title').focus();
 }
 
 function answer_practice(shape) {
-  document.getElementById('practice-feedback').textContent = shape === 'square'
+  i18n.text(document.getElementById('practice-feedback'), shape === 'square'
     ? 'Correct! Circle and square alternate, so the missing shape is a square. In the test, answers are saved immediately. You can skip questions, return and change answers before finishing.'
-    : 'Try again. The shapes alternate between circle and square. What comes after a circle?';
+    : 'Try again. The shapes alternate between circle and square. What comes after a circle?');
 }
 
 function get_random_indexes(start, end) {
@@ -153,21 +153,21 @@ function question_markup(test_id) {
 function show_question(test_id) {
   current_question = test_id;
   const heading = document.getElementById('question-number');
-  heading.textContent = `Question ${test_id} / ${total_questions}`;
-  document.getElementById('test-left').innerHTML = question_markup(test_id);
+  i18n.text(heading, `Question ${test_id} / ${total_questions}`);
+  i18n.html(document.getElementById('test-left'), question_markup(test_id));
   const container = document.getElementById('test-right');
   container.replaceChildren();
   get_random_indexes(1, 9).forEach((pic_id, position) => {
     const button = document.createElement('button');
     button.type = 'button';
     button.className = 'answer';
-    button.setAttribute('aria-label', `Answer ${position + 1}`);
+    i18n.attribute(button, 'aria-label', `Answer ${position + 1}`);
     const selected = answers[test_id - 1] === get_hash(test_id, pic_id, true);
     button.setAttribute('aria-pressed', String(selected));
     button.classList.toggle('selected', selected);
     const image = new Image();
     image.src = get_picture_path(test_id, pic_id, true);
-    image.alt = '';
+    i18n.attribute(image, 'alt', '');
     image.className = 'icon';
     button.append(image);
     button.addEventListener('click', () => submit_answer(test_id, get_hash(test_id, pic_id, true)));
@@ -197,29 +197,29 @@ function show_answer_review(id = 1) {
   document.getElementById('practice').hidden = true;
   document.getElementById('answer-review').hidden = false;
   const heading = document.getElementById('answer-review-title');
-  heading.textContent = `Review question ${id} / ${total_questions}`;
+  i18n.text(heading, `Review question ${id} / ${total_questions}`);
   const counts = { correct: 0, incorrect: 0, unanswered: 0 };
   for (let q = 1; q <= total_questions; q++) counts[answer_status(q)]++;
-  document.getElementById('review-summary').textContent =
-    `${counts.correct} correct; ${counts.incorrect} incorrect; ${counts.unanswered} unanswered.`;
+  i18n.text(document.getElementById('review-summary'), `${counts.correct} correct; ${counts.incorrect} incorrect; ${counts.unanswered} unanswered.`);
   const status = answer_status(id);
-  document.getElementById('review-outcome').textContent = {
+  i18n.text(document.getElementById('review-outcome'), {
     correct: 'Correct — your answer matches the correct answer.',
     incorrect: 'Incorrect — your answer differs from the correct answer.',
     unanswered: 'Unanswered — no answer was submitted for this question.'
-  }[status];
-  document.getElementById('review-pattern').innerHTML = question_markup(id);
+  }[status]);
+  i18n.html(document.getElementById('review-pattern'), question_markup(id));
   const selected = document.getElementById('review-selected');
+  i18n.clear(selected);
   selected.replaceChildren();
   if (status === 'unanswered') {
-    selected.textContent = 'No answer submitted';
+    i18n.text(selected, 'No answer submitted');
   } else {
     // Match the saved answer identity, never its shuffled position on screen.
     const pic_id = Array.from({ length: 9 }, (_, i) => i + 1)
       .find(pic => get_hash(id, pic, true) === answers[id - 1]);
     const image = new Image();
     image.src = get_picture_path(id, pic_id, true);
-    image.alt = 'Your submitted answer';
+    i18n.attribute(image, 'alt', 'Your submitted answer');
     image.className = 'icon';
     selected.append(image);
   }
@@ -227,7 +227,7 @@ function show_answer_review(id = 1) {
   correct.replaceChildren();
   const correct_image = new Image();
   correct_image.src = get_picture_path(id, 1, true);
-  correct_image.alt = 'Correct answer';
+  i18n.attribute(correct_image, 'alt', 'Correct answer');
   correct_image.className = 'icon';
   correct.append(correct_image);
   document.getElementById('review-previous').disabled = id === 1;
@@ -240,8 +240,8 @@ function show_answer_review(id = 1) {
     const button = document.createElement('button');
     button.type = 'button';
     button.className = 'question-link review-' + outcome;
-    button.textContent = `${q} ${symbols[outcome]}`;
-    button.setAttribute('aria-label', `Review question ${q}, ${outcome}`);
+    i18n.text(button, `${q} ${symbols[outcome]}`);
+    i18n.attribute(button, 'aria-label', `Review question ${q}, ${outcome}`);
     button.setAttribute('aria-current', q === id ? 'step' : 'false');
     button.addEventListener('click', () => show_answer_review(q));
     overview.append(button);
@@ -259,11 +259,11 @@ function return_to_result() {
 
 function render_overview() {
   const count = answered_count();
-  document.getElementById('progress-summary').textContent = `${count} answered; ${total_questions - count} unanswered.`;
-  document.getElementById('completion-hint').textContent = count === total_questions
-    ? 'All questions are answered. You can still review and change answers, then finish the test.' : '';
+  i18n.text(document.getElementById('progress-summary'), `${count} answered; ${total_questions - count} unanswered.`);
+  i18n.text(document.getElementById('completion-hint'), count === total_questions
+    ? 'All questions are answered. You can still review and change answers, then finish the test.' : '');
   document.getElementById('previous-link').disabled = current_question === 1;
-  document.getElementById('skip-link').textContent = answers[current_question - 1] === null ? 'Skip for now' : 'Next question';
+  i18n.text(document.getElementById('skip-link'), answers[current_question - 1] === null ? 'Skip for now' : 'Next question');
   const overview = document.getElementById('question-overview');
   overview.replaceChildren();
   answers.forEach((answer, index) => {
@@ -271,8 +271,8 @@ function render_overview() {
     const button = document.createElement('button');
     button.type = 'button';
     button.className = 'question-link';
-    button.textContent = `${id} ${answer === null ? '○' : '✓'}`;
-    button.setAttribute('aria-label', `Question ${id}, ${answer === null ? 'unanswered' : 'answered'}`);
+    i18n.text(button, `${id} ${answer === null ? '○' : '✓'}`);
+    i18n.attribute(button, 'aria-label', `Question ${id}, ${answer === null ? 'unanswered' : 'answered'}`);
     button.setAttribute('aria-current', id === current_question ? 'step' : 'false');
     button.classList.toggle('answered', answer !== null);
     button.addEventListener('click', () => go_to_question(id));
@@ -300,8 +300,7 @@ function go_to_question(id) {
 
 function request_finish() {
   if (!active_attempt()) return;
-  document.getElementById('finish-count').textContent =
-    `${answered_count()} answered; ${total_questions - answered_count()} unanswered. Unanswered questions count as incorrect. Once finished, you cannot change answers.`;
+  i18n.text(document.getElementById('finish-count'), `${answered_count()} answered; ${total_questions - answered_count()} unanswered. Unanswered questions count as incorrect. Once finished, you cannot change answers.`);
   document.getElementById('finish-review').hidden = false;
   document.getElementById('finish-title').focus();
 }
@@ -317,12 +316,11 @@ function update_timer() {
   if (restore_attempt()) return;
   if (finished) return;
   const seconds = Math.max(0, Math.ceil((deadline - Date.now()) / 1000));
-  document.getElementById('time-left').textContent =
-    `${String(Math.floor(seconds / 60)).padStart(2, '0')}:${String(seconds % 60).padStart(2, '0')}`;
+  i18n.text(document.getElementById('time-left'), `${String(Math.floor(seconds / 60)).padStart(2, '0')}:${String(seconds % 60).padStart(2, '0')}`);
   document.querySelector('.timer').classList.toggle('urgent', seconds <= 300);
   const warning = seconds <= 300 ? 'Five minutes or less remaining.' : '';
   const status = document.getElementById('time-warning');
-  if (status.textContent !== warning) status.textContent = warning;
+  i18n.text(status, warning);
   if (seconds === 0) show_result(true);
 }
 
@@ -385,15 +383,14 @@ function show_result(expired, report_completion = true) {
   document.getElementById('test').hidden = true;
   document.getElementById('answer-review').hidden = true;
   document.getElementById('result').hidden = false;
-  document.getElementById('result-reason').textContent = expired ? 'Time is up. Your answers have been scored.' : 'Test completed.';
-  document.getElementById('score').textContent = `${result.correct} / ${total_questions} correct`;
-  document.getElementById('answered-count').textContent = `${answered_count()} answered; ${total_questions - answered_count()} unanswered.`;
-  document.getElementById('percentile').textContent = result.percentile === null
-    ? 'Comparison unavailable.' : `Percentile among historical participants: ${format_percent(result.percentile)}`;
-  document.getElementById('comparison').textContent = result.percentile === null ? ''
-    : `Participants scoring lower: ${format_percent(result.below_percent)}%. Participants with the same score: ${format_percent(result.equal_percent)}%.`;
-  document.getElementById('result-context').textContent =
-    `Reference group: ${reference_scores.length.toLocaleString('en-US')} historical attempts with recorded durations over one minute and up to 40 minutes. Participants were recruited through paid Facebook ads and chose to take the test. This self-selected group may differ from the general population; the direction and size of any difference are unknown. No population adjustment has been applied. The percentile places tied scores at the middle of their group. Historical timing conditions and data exclusions have not been independently verified. Practice, returning to questions, seeing correct answers and repeated attempts may affect comparability with historical results.`;
+  i18n.text(document.getElementById('result-reason'), expired ? 'Time is up. Your answers have been scored.' : 'Test completed.');
+  i18n.text(document.getElementById('score'), `${result.correct} / ${total_questions} correct`);
+  i18n.text(document.getElementById('answered-count'), `${answered_count()} answered; ${total_questions - answered_count()} unanswered.`);
+  i18n.text(document.getElementById('percentile'), result.percentile === null
+    ? 'Comparison unavailable.' : `Percentile among historical participants: ${format_percent(result.percentile)}`);
+  i18n.text(document.getElementById('comparison'), result.percentile === null ? ''
+    : `Participants scoring lower: ${format_percent(result.below_percent)}%. Participants with the same score: ${format_percent(result.equal_percent)}%.`);
+  i18n.text(document.getElementById('result-context'), `Reference group: ${reference_scores.length.toLocaleString('en-US')} historical attempts with recorded durations over one minute and up to 40 minutes. Participants were recruited through paid Facebook ads and chose to take the test. This self-selected group may differ from the general population; the direction and size of any difference are unknown. No population adjustment has been applied. The percentile places tied scores at the middle of their group. Historical timing conditions and data exclusions have not been independently verified. Practice, returning to questions, seeing correct answers and repeated attempts may affect comparability with historical results.`);
   document.getElementById('result-title').focus();
   if (report_completion) report_usage('test_completed');
 }
@@ -421,7 +418,7 @@ function start_test() {
   report_usage('used');
 }
 
-document.getElementById('reference-count').textContent = reference_scores.length.toLocaleString('en-US');
+i18n.text(document.getElementById('reference-count'), reference_scores.length.toLocaleString('en-US'));
 document.getElementById('start-link').addEventListener('click', show_practice);
 document.getElementById('restart-link').addEventListener('click', show_practice);
 document.getElementById('answer-review-link').addEventListener('click', () => show_answer_review(1));

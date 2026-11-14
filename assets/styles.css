@@ -175,3 +175,8 @@ button:disabled { opacity: .35; cursor: default; }
   .step-number { width: 22px; height: 22px; }
   .result-card { padding: 22px 18px; }
 }
+
+.language-switch { display: flex; justify-content: flex-end; gap: 4px; margin-bottom: 12px; }
+.language-switch button { min-height: 44px; padding: 8px 14px; border-radius: 10px; border: 1px solid var(--border); color: var(--muted); background: var(--panel); }
+.language-switch button[aria-pressed="true"] { color: #10283d; background: #c0e7ff; border-color: #c0e7ff; }
+.site-footer { flex-wrap: wrap; gap: 16px; }
