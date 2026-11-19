@@ -2,10 +2,10 @@
 
 const total_questions = 36;
 const time_limit_ms = 40 * 60 * 1000;
-// Old open clients rewrite v1 payloads and strip puzzleVersion. Migrate once,
-// then keep the versioned attempt isolated from their storage events.
-const storage_key = 'iqchampion.attempt.v3';
-const legacy_storage_key = 'iqchampion.attempt.v1';
+// Older open clients drop unknown metadata. Migrate without notifying; keep
+// this capture preparation isolated from their attempt storage/events.
+const storage_key = 'iqchampion.attempt.v4';
+const legacy_storage_keys = ['iqchampion.attempt.v3', 'iqchampion.attempt.v1'];
 // These are recorded durations, not independently verified testing conditions.
 const reference_scores = time_and_scores.filter(row => row[0] > 60 && row[0] <= 2400);
 // Version 1 preserves the original puzzle for attempts saved before the correction.
@@ -19,6 +19,7 @@ let timer_id = null;
 let finished = true;
 let timed_out = false;
 let last_saved = null;
+let start_notifications = test_start_intents.empty();
 
 function storage_notice(message) {
   const notice = document.getElementById('storage-notice');
@@ -27,14 +28,27 @@ function storage_notice(message) {
 }
 
 function save_attempt() {
-  const data = JSON.stringify({ version: 2, puzzleVersion: puzzle_version, startedAt: started_at, answers, currentQuestion: current_question, completed: finished, timedOut: timed_out });
+  const data = JSON.stringify({ version: 2, puzzleVersion: puzzle_version, startedAt: started_at, answers, currentQuestion: current_question, completed: finished, timedOut: timed_out, startNotifications: start_notifications });
   try {
     localStorage.setItem(storage_key, data);
     last_saved = data;
     storage_notice('');
+    return true;
   } catch {
     storage_notice('This browser could not save your attempt. Keep this page open: reloading may lose progress or restore older answers.');
+    return false;
   }
+}
+
+// Inspect durably saved capture records only. They must never become real pushes.
+// There is deliberately no send/ack function until the ingress contract exists.
+function captured_test_start_intents() {
+  if (!test_start_intents.permitted()) return [];
+  try {
+    const saved = JSON.parse(localStorage.getItem(storage_key));
+    if (!valid_attempt(saved)) return [];
+    return test_start_intents.restore(saved.startNotifications).pending;
+  } catch { return []; }
 }
 
 function valid_attempt(saved) {
@@ -58,7 +72,10 @@ function restore_attempt() {
   let source_key = storage_key;
   try {
     raw = localStorage.getItem(storage_key);
-    if (!raw) { source_key = legacy_storage_key; raw = localStorage.getItem(legacy_storage_key); }
+    for (const key of legacy_storage_keys) {
+      if (raw) break;
+      source_key = key; raw = localStorage.getItem(key);
+    }
   } catch {
     storage_notice('Local saving is unavailable in this browser. Keep this page open to avoid losing your attempt.');
     return false;
@@ -74,6 +91,7 @@ function restore_attempt() {
     return false;
   }
   last_saved = raw;
+  start_notifications = test_start_intents.restore(saved.startNotifications);
   clearInterval(timer_id);
   timer_id = null;
   puzzle_version = saved.puzzleVersion ?? 1;
@@ -94,7 +112,7 @@ function restore_attempt() {
     show_result(saved.completed ? saved.timedOut : !legacy_complete, !saved.completed && !legacy_complete);
   } else {
     show_question(current_question);
-    if (saved.version === 1 || source_key === legacy_storage_key) save_attempt();
+    if (saved.version === 1 || source_key !== storage_key) save_attempt();
     update_timer();
     if (!finished) timer_id = setInterval(update_timer, 250);
   }
@@ -458,6 +476,8 @@ function start_test() {
   deadline = started_at + time_limit_ms;
   finished = false;
   timed_out = false;
+  // This hook runs only for a newly accepted start, never restore/practice/navigation.
+  start_notifications = test_start_intents.record(start_notifications);
   document.getElementById('front').hidden = true;
   document.getElementById('result').hidden = true;
   document.getElementById('answer-review').hidden = true;
