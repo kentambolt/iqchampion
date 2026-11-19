@@ -1,11 +1,16 @@
 'use strict';
 
+// Notifications must never become a dependency of taking the IQ test.
+const start_notification_producer = typeof iq_test_start_notifications !== 'undefined' ? iq_test_start_notifications : {
+  createStart: () => null, restore: () => null, remember: () => Promise.resolve('disabled'), start: () => false
+};
+
 const total_questions = 36;
 const time_limit_ms = 40 * 60 * 1000;
-// Old open clients rewrite v1 payloads and strip puzzleVersion. Migrate once,
-// then keep the versioned attempt isolated from their storage events.
-const storage_key = 'iqchampion.attempt.v3';
-const legacy_storage_key = 'iqchampion.attempt.v1';
+// Older open clients drop unknown metadata. Migrate without notifying; keep
+// this capture preparation isolated from their attempt storage/events.
+const storage_key = 'iqchampion.attempt.v4';
+const legacy_storage_keys = ['iqchampion.attempt.v3', 'iqchampion.attempt.v1'];
 // These are recorded durations, not independently verified testing conditions.
 const reference_scores = time_and_scores.filter(row => row[0] > 60 && row[0] <= 2400);
 // Version 1 preserves the original puzzle for attempts saved before the correction.
@@ -19,6 +24,7 @@ let timer_id = null;
 let finished = true;
 let timed_out = false;
 let last_saved = null;
+let start_notification = null;
 
 function storage_notice(message) {
   const notice = document.getElementById('storage-notice');
@@ -27,14 +33,23 @@ function storage_notice(message) {
 }
 
 function save_attempt() {
-  const data = JSON.stringify({ version: 2, puzzleVersion: puzzle_version, startedAt: started_at, answers, currentQuestion: current_question, completed: finished, timedOut: timed_out });
+  const data = JSON.stringify({ version: 2, puzzleVersion: puzzle_version, startedAt: started_at, answers, currentQuestion: current_question, completed: finished, timedOut: timed_out, startNotification: start_notification });
   try {
     localStorage.setItem(storage_key, data);
     last_saved = data;
     storage_notice('');
+    remember_start_notification();
+    return true;
   } catch {
     storage_notice('This browser could not save your attempt. Keep this page open: reloading may lose progress or restore older answers.');
+    return false;
   }
+}
+
+function remember_start_notification() {
+  if (!start_notification) return;
+  try { Promise.resolve(start_notification_producer.remember(start_notification)).catch(() => {}); }
+  catch { /* Network/notification failures must never affect the test. */ }
 }
 
 function valid_attempt(saved) {
@@ -58,7 +73,10 @@ function restore_attempt() {
   let source_key = storage_key;
   try {
     raw = localStorage.getItem(storage_key);
-    if (!raw) { source_key = legacy_storage_key; raw = localStorage.getItem(legacy_storage_key); }
+    for (const key of legacy_storage_keys) {
+      if (raw) break;
+      source_key = key; raw = localStorage.getItem(key);
+    }
   } catch {
     storage_notice('Local saving is unavailable in this browser. Keep this page open to avoid losing your attempt.');
     return false;
@@ -74,6 +92,8 @@ function restore_attempt() {
     return false;
   }
   last_saved = raw;
+  try { start_notification = start_notification_producer.restore(saved.startNotification); }
+  catch { start_notification = null; }
   clearInterval(timer_id);
   timer_id = null;
   puzzle_version = saved.puzzleVersion ?? 1;
@@ -82,6 +102,7 @@ function restore_attempt() {
   answers = Array.from({ length: total_questions }, (_, index) => saved.answers[index] ?? null);
   current_question = saved.version === 2 ? saved.currentQuestion : Math.min(saved.answers.length + 1, total_questions);
   timed_out = saved.timedOut;
+  remember_start_notification();
   finished = false;
   document.getElementById('front').hidden = true;
   document.getElementById('practice').hidden = true;
@@ -94,7 +115,7 @@ function restore_attempt() {
     show_result(saved.completed ? saved.timedOut : !legacy_complete, !saved.completed && !legacy_complete);
   } else {
     show_question(current_question);
-    if (saved.version === 1 || source_key === legacy_storage_key) save_attempt();
+    if (saved.version === 1 || source_key !== storage_key) save_attempt();
     update_timer();
     if (!finished) timer_id = setInterval(update_timer, 250);
   }
@@ -458,6 +479,9 @@ function start_test() {
   deadline = started_at + time_limit_ms;
   finished = false;
   timed_out = false;
+  // This hook runs only for a newly accepted start, never restore/practice/navigation.
+  try { start_notification = start_notification_producer.createStart(); }
+  catch { start_notification = null; }
   document.getElementById('front').hidden = true;
   document.getElementById('result').hidden = true;
   document.getElementById('answer-review').hidden = true;
@@ -496,3 +520,5 @@ preload_question(1);
 restore_attempt();
 
 update_share_links();
+
+try { start_notification_producer.start(); } catch { /* Optional notification adapter. */ }
