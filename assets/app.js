@@ -1,5 +1,13 @@
 'use strict';
 
+// Notification preparation must remain optional if its asset is blocked/unavailable.
+const start_intent_capture = typeof test_start_intents !== 'undefined' ? test_start_intents : {
+  empty: () => ({version:1,mode:'capture',pending:[]}),
+  restore: () => ({version:1,mode:'capture',pending:[]}),
+  record: journal => journal,
+  permitted: () => false
+};
+
 const total_questions = 36;
 const time_limit_ms = 40 * 60 * 1000;
 // Older open clients drop unknown metadata. Migrate without notifying; keep
@@ -19,7 +27,7 @@ let timer_id = null;
 let finished = true;
 let timed_out = false;
 let last_saved = null;
-let start_notifications = test_start_intents.empty();
+let start_notifications = start_intent_capture.empty();
 
 function storage_notice(message) {
   const notice = document.getElementById('storage-notice');
@@ -43,11 +51,11 @@ function save_attempt() {
 // Inspect durably saved capture records only. They must never become real pushes.
 // There is deliberately no send/ack function until the ingress contract exists.
 function captured_test_start_intents() {
-  if (!test_start_intents.permitted()) return [];
+  if (!start_intent_capture.permitted()) return [];
   try {
     const saved = JSON.parse(localStorage.getItem(storage_key));
     if (!valid_attempt(saved)) return [];
-    return test_start_intents.restore(saved.startNotifications).pending;
+    return start_intent_capture.restore(saved.startNotifications).pending;
   } catch { return []; }
 }
 
@@ -91,7 +99,7 @@ function restore_attempt() {
     return false;
   }
   last_saved = raw;
-  start_notifications = test_start_intents.restore(saved.startNotifications);
+  start_notifications = start_intent_capture.restore(saved.startNotifications);
   clearInterval(timer_id);
   timer_id = null;
   puzzle_version = saved.puzzleVersion ?? 1;
@@ -477,7 +485,7 @@ function start_test() {
   finished = false;
   timed_out = false;
   // This hook runs only for a newly accepted start, never restore/practice/navigation.
-  start_notifications = test_start_intents.record(start_notifications);
+  start_notifications = start_intent_capture.record(start_notifications);
   document.getElementById('front').hidden = true;
   document.getElementById('result').hidden = true;
   document.getElementById('answer-review').hidden = true;

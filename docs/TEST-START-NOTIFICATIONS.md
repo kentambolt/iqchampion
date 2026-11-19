@@ -32,4 +32,4 @@ Den centrale modtagelse skal deduplikere `(project,event type,event ID)` og opre
 
 ## Validering
 
-`node --test checks/*.test.cjs`: 76 tests. De syv nye cases dækker autoritativ start, stabilt ID ved genoptagelse, flere forsøg, lagrings-/crypto-fejl, DNT/GPC, v3-migrering og journalens anonymitet/afgrænsning. Eksisterende regler/scoring/timer og da/en/SEO-checks bevares. Ingen netværks- eller mobilpushprøve er foretaget.
+`node --test checks/*.test.cjs`: 77 tests. De otte nye cases dækker autoritativ start, stabilt ID ved genoptagelse, flere forsøg, lagrings-/crypto-fejl, DNT/GPC, v3-migrering, journalens anonymitet/afgrænsning og blokeret helper-asset uden afbrydelse af testen. Eksisterende regler/scoring/timer og da/en/SEO-checks bevares. Ingen netværks- eller mobilpushprøve er foretaget.

@@ -39,6 +39,7 @@ function load(options = {}) {
     clearInterval(id) { intervals.delete(id); }
   });
   for (const file of ['time_and_scores.js', 'percentiles.js', 'iq-score.js', 'md5.js', 'explanations.js', 'i18n.js', 'test-start-intents.js', 'app.js']) {
+    if (options.skipIntentHelper && file === 'test-start-intents.js') continue;
     vm.runInContext(fs.readFileSync(path.join(__dirname, '..', 'assets', file), 'utf8'), context);
   }
   return { run: code => vm.runInContext(code, context), element, intervals, store, windowEvents, pageLocation, advance: ms => { now += ms; } };
@@ -816,4 +817,14 @@ test('capture journal drops unknown fields, rejects unsafe modes and preserves a
  const held=app.run('JSON.stringify(start_notifications)');
  app.run('start_notifications=test_start_intents.record(start_notifications)');
  assert.equal(app.run('JSON.stringify(start_notifications)'),held);
+});
+
+
+test('a blocked notification helper never prevents starting, resuming or completing the IQ test',()=>{
+ const app=load({skipIntentHelper:true});app.run('start_test();submit_answer(1,get_hash(1,1,true));');
+ assert.equal(app.element('time-left').textContent,'40:00');
+ assert.equal(app.run('captured_test_start_intents().length'),0);
+ const resumed=load({store:app.store,now:61000,skipIntentHelper:true});
+ assert.equal(resumed.element('time-left').textContent,'39:00');
+ resumed.run('request_finish();finish_test()');assert.equal(resumed.element('score').textContent,'1 / 36 correct');
 });
