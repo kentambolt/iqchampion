@@ -1,6 +1,6 @@
 # Teststart-notifikationer · 19. november 2026
 
-Status: lokal adapter og central HTTPS-capture verificeret; ingen produktionsudgivelse eller rigtig push. Browserstandard er fortsat `enabled:false, allowedOrigins:[]`. Koordineret release skal aktivere præcis `https://iqchampion.com`, og leveringsprofil skal afstemmes med central gateway før aktivering. Ingen ntfy-login eller klientnøgle.
+Status: Kent har 19. november godkendt merge/deploy af PR #11. Selskabsforløbet har bekræftet liveprofil capture=false/queued og alle syv Android-topics tilmeldt. Browseradapter aktiveres kun på `https://iqchampion.com` og forventer queued-ack. Faktisk Pages- og telefonstatus registreres efter udgivelse; aktiveret kildekode er ikke i sig selv leveringsbevis. Ingen ntfy-login eller klientnøgle.
 
 ## Trigger og data
 

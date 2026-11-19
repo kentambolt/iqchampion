@@ -4,8 +4,8 @@
   if (typeof module === 'object' && module.exports) module.exports = api;
   else {
     root.IQTestStartNotifications = api;
-    // Deliberately disabled until coordinated release approval; ingress is capture-ready.
-    root.iq_test_start_notifications = api.create({enabled:false, allowedOrigins:[]});
+    // Coordinated production activation: exact origin, queued acknowledgement only.
+    root.iq_test_start_notifications = api.create({enabled:true, allowedOrigins:['https://iqchampion.com']});
   }
 })(typeof globalThis !== 'undefined' ? globalThis : this, function() {
   const ENDPOINT = 'https://munthesystems.dk/notifications/v1/events';
