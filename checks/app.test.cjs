@@ -22,6 +22,7 @@ function load(options = {}) {
   let now = options.now ?? 1000;
   const store = options.store ?? new Map();
   const windowEvents = {};
+  const rememberedNotifications = [];
   const storage = {
     getItem(key) { if (options.failRead) throw new Error('Storage blocked'); return store.get(key) ?? null; },
     setItem(key, value) { if (options.failWrite) throw new Error('Quota exceeded'); store.set(key, value); },
@@ -31,6 +32,7 @@ function load(options = {}) {
   const pageHistory = { replaceState(_state,_title,value) { const url = new URL(value,'https://iqchampion.com'); pageLocation.pathname=url.pathname; pageLocation.search=url.search; pageLocation.hash=url.hash; } };
   const intervals = new Set();
   const context = vm.createContext({
+    setTimeout, clearTimeout,
     crypto: {randomUUID() { if(options.failCrypto) throw Error("Unavailable"); return "00000000-0000-4000-8000-"+String(++uuidSequence).padStart(12,"0"); }},
     location:pageLocation, history:pageHistory, Date: { now: () => now }, Image: class {}, localStorage: storage, navigator: { language: options.language || 'en', doNotTrack:options.dnt, globalPrivacyControl:options.gpc },
     document: { documentElement: makeElement(), getElementById: element, querySelector: element, createElement: makeElement, addEventListener() {} },
@@ -38,11 +40,17 @@ function load(options = {}) {
     setInterval(callback) { intervals.add(callback); return callback; },
     clearInterval(id) { intervals.delete(id); }
   });
-  for (const file of ['time_and_scores.js', 'percentiles.js', 'iq-score.js', 'md5.js', 'explanations.js', 'i18n.js', 'test-start-intents.js', 'app.js']) {
-    if (options.skipIntentHelper && file === 'test-start-intents.js') continue;
+  for (const file of ['time_and_scores.js', 'percentiles.js', 'iq-score.js', 'md5.js', 'explanations.js', 'i18n.js', 'test-start-notifications.js', 'app.js']) {
+    if (options.skipIntentHelper && file === 'test-start-notifications.js') continue;
+    if (file === 'app.js' && options.notificationStub && !options.skipIntentHelper) context.iq_test_start_notifications = {
+      createStart() { if(options.failCrypto || options.gpc || options.dnt==='1') return null; return {version:1,id:'00000000-0000-4000-8000-'+String(++uuidSequence).padStart(12,'0'),project:'iqchampion',environment:'production',type:'test_started',occurred_at:new Date(now).toISOString(),data:{}}; },
+      restore(payload) { return payload || null; },
+      remember(payload) { rememberedNotifications.push(JSON.parse(JSON.stringify(payload))); return Promise.resolve('stored'); },
+      start() { return false; }
+    };
     vm.runInContext(fs.readFileSync(path.join(__dirname, '..', 'assets', file), 'utf8'), context);
   }
-  return { run: code => vm.runInContext(code, context), element, intervals, store, windowEvents, pageLocation, advance: ms => { now += ms; } };
+  return { rememberedNotifications, run: code => vm.runInContext(code, context), element, intervals, store, windowEvents, pageLocation, advance: ms => { now += ms; } };
 }
 
 test('historical reference excludes durations outside the stated range', () => {
@@ -735,96 +743,31 @@ test('all 36 post-test explanations remain bilingual and follow the saved puzzle
 });
 
 
-test('capture records exactly one anonymous intent for a real start, not practice or repeated clicks',()=>{
- const app=load();assert.equal(app.run('captured_test_start_intents().length'),0);
- app.run('show_practice();answer_practice("square");');
- assert.equal(app.run('captured_test_start_intents().length'),0);
- app.run('start_test();start_test();');
- const pending=JSON.parse(app.run('JSON.stringify(captured_test_start_intents())'));
- assert.equal(pending.length,1);assert.equal(pending[0].kind,'test_started');
- assert.deepEqual(Object.keys(pending[0]).sort(),['id','kind']);
- assert.match(pending[0].id,/^[0-9a-f-]{36}$/);
- const saved=JSON.parse(app.store.get('iqchampion.attempt.v4'));
- assert.equal(saved.completed,false);assert.equal(saved.startNotifications.mode,'capture');
- assert.equal(saved.startNotifications.pending[0].id,pending[0].id);
-});
-
-test('resume, refresh, language, navigation, review and timeout preserve the existing event ID',()=>{
- const first=load();first.run('start_test()');
- const before=first.run('JSON.stringify(captured_test_start_intents())');
- const resumed=load({store:first.store,now:61000});
- resumed.run('go_to_question(4);i18n.setLanguage("da");restore_attempt();');
- assert.equal(resumed.run('JSON.stringify(captured_test_start_intents())'),before);
- resumed.advance(40*60*1000);resumed.run('update_timer();show_answer_review(4);');
- assert.equal(resumed.run('JSON.stringify(captured_test_start_intents())'),before);
- const reopened=load({store:resumed.store,now:2500000});
- assert.equal(reopened.run('JSON.stringify(captured_test_start_intents())'),before);
-});
-
-test('a subsequent attempt retains pending intents and gets its own event ID even at the same clock time',()=>{
- const app=load();app.run('start_test();request_finish();finish_test();show_practice();start_test();');
- const pending=JSON.parse(app.run('JSON.stringify(captured_test_start_intents())'));
- assert.equal(pending.length,2);assert.notEqual(pending[0].id,pending[1].id);
- const reloaded=load({store:app.store});
- reloaded.run('request_finish();finish_test();show_practice();start_test();');
- assert.equal(reloaded.run('captured_test_start_intents().length'),3);
-});
-
-test('event availability follows the successful attempt storage write; failure never prevents taking the test',()=>{
- const blocked=load({failWrite:true});blocked.run('start_test()');
- assert.equal(blocked.run('captured_test_start_intents().length'),0);
- assert.equal(blocked.element('time-left').textContent,'40:00');
- assert.equal(blocked.element('storage-notice').hidden,false);
- const cryptoBlocked=load({failCrypto:true});cryptoBlocked.run('start_test()');
- assert.equal(cryptoBlocked.run('captured_test_start_intents().length'),0);
- assert.equal(cryptoBlocked.element('time-left').textContent,'40:00');
-});
-
-test('DNT and GPC suppress capture without affecting the test',()=>{
- for(const options of [{dnt:'1'},{dnt:'yes'},{gpc:true},{windowDnt:'1'}]){
-  const app=load(options);app.run('start_test()');
-  assert.equal(app.run('captured_test_start_intents().length'),0);
-  assert.equal(app.element('time-left').textContent,'40:00');
- }
- const original=load();original.run('start_test()');
- const privateReload=load({store:original.store,gpc:true});
- assert.equal(privateReload.run('captured_test_start_intents().length'),0);
-});
-
-test('migration from v3 creates no retroactive intent and old clients cannot strip the new journal',()=>{
- const helper=load();const legacy={version:2,puzzleVersion:3,startedAt:1000,answers:Array(36).fill(null),currentQuestion:7,completed:false,timedOut:false};
- const store=new Map([['iqchampion.attempt.v3',JSON.stringify(legacy)]]);
- const app=load({store,now:61000});
- assert.equal(app.run('current_question'),7);assert.equal(app.element('time-left').textContent,'39:00');
- assert.equal(app.run('captured_test_start_intents().length'),0);
- assert.equal(store.get('iqchampion.attempt.v3'),JSON.stringify(legacy));
- app.run('request_finish();finish_test();show_practice();start_test();');
- const id=app.run('captured_test_start_intents()[0].id');
- store.set('iqchampion.attempt.v3',JSON.stringify({...legacy,completed:true}));
- app.windowEvents.storage({key:'iqchampion.attempt.v3'});
- assert.equal(app.run('captured_test_start_intents()[0].id'),id);
-});
-
-test('capture journal drops unknown fields, rejects unsafe modes and preserves a bounded backlog',()=>{
- const app=load();app.run('start_test()');
- const id=app.run('captured_test_start_intents()[0].id');
- const journal={version:1,mode:'capture',pending:[{id,kind:'test_started',email:'SYNTHETIC',answers:['SYNTHETIC']},{id,kind:'test_started'},{id:'bad',kind:'test_started'},{id,kind:'anything_else'}]};
- const cleaned=JSON.parse(app.run('JSON.stringify(test_start_intents.restore('+JSON.stringify(journal)+'))'));
- assert.deepEqual(cleaned.pending,[{id,kind:'test_started'}]);
- assert.equal(app.run('test_start_intents.restore({version:1,mode:"production",pending:[]}).mode'),'capture');
- app.run('for(let i=0;i<40;i++)start_notifications=test_start_intents.record(start_notifications)');
- assert.equal(app.run('start_notifications.pending.length'),32);
- const held=app.run('JSON.stringify(start_notifications)');
- app.run('start_notifications=test_start_intents.record(start_notifications)');
- assert.equal(app.run('JSON.stringify(start_notifications)'),held);
-});
-
-
-test('a blocked notification helper never prevents starting, resuming or completing the IQ test',()=>{
- const app=load({skipIntentHelper:true});app.run('start_test();submit_answer(1,get_hash(1,1,true));');
- assert.equal(app.element('time-left').textContent,'40:00');
- assert.equal(app.run('captured_test_start_intents().length'),0);
- const resumed=load({store:app.store,now:61000,skipIntentHelper:true});
+test('notification checkpoint is created only for a new start and restored unchanged',()=>{
+ const app=load({notificationStub:true});app.run('show_practice();answer_practice("square")');
+ assert.equal(app.rememberedNotifications.length,0);
+ app.run('start_test()');const payload=JSON.parse(app.store.get('iqchampion.attempt.v4')).startNotification;
+ assert.equal(payload.type,'test_started');assert.deepEqual(payload.data,{});
+ app.run('start_test();submit_answer(1,get_hash(1,1,true));i18n.setLanguage("da")');
+ assert.equal(JSON.parse(app.store.get('iqchampion.attempt.v4')).startNotification.id,payload.id);
+ const resumed=load({notificationStub:true,store:app.store,now:61000});
  assert.equal(resumed.element('time-left').textContent,'39:00');
- resumed.run('request_finish();finish_test()');assert.equal(resumed.element('score').textContent,'1 / 36 correct');
+ assert.ok(resumed.rememberedNotifications.length>0);
+ assert.ok(resumed.rememberedNotifications.every(p=>JSON.stringify(p)===JSON.stringify(payload)));
+ resumed.run('request_finish();finish_test();start_test()');
+ assert.notEqual(JSON.parse(app.store.get('iqchampion.attempt.v4')).startNotification.id,payload.id);
+});
+test('notification failures and missing optional asset never interrupt the test',()=>{
+ for(const options of [{notificationStub:true,failWrite:true},{notificationStub:true,failCrypto:true},{skipIntentHelper:true},{}]){
+  const app=load(options);app.run('start_test();submit_answer(1,get_hash(1,1,true))');
+  assert.equal(app.run('answered_count()'),1);assert.equal(app.element('time-left').textContent,'40:00');
+  assert.equal(app.rememberedNotifications.length,0);
+ }
+});
+test('legacy attempts migrate without inventing start notifications',()=>{
+ const store=new Map([['iqchampion.attempt.v3',JSON.stringify({version:2,puzzleVersion:3,startedAt:1000,answers:Array(36).fill(null),currentQuestion:1,completed:false,timedOut:false})]]);
+ const app=load({store,notificationStub:true,now:61000});
+ assert.equal(app.element('time-left').textContent,'39:00');
+ assert.equal(JSON.parse(store.get('iqchampion.attempt.v4')).startNotification,null);
+ assert.equal(app.rememberedNotifications.length,0);
 });

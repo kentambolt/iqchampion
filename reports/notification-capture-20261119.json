@@ -1,0 +1,39 @@
+{
+  "at": "2026-11-19T14:54:22.860Z",
+  "kind": "manual adapter to HTTPS central capture",
+  "transport": "Node fetch with explicit browser Origin; CORS response checked, not a real-browser CORS enforcement test",
+  "payload": {
+    "version": 1,
+    "id": "bd4613e4-aa25-47d6-a450-59019c202164",
+    "project": "iqchampion",
+    "environment": "production",
+    "type": "test_started",
+    "occurred_at": "2026-11-19T14:54:22.565Z",
+    "data": {}
+  },
+  "replies": [
+    {
+      "status": 202,
+      "body": {
+        "accepted": true,
+        "id": "bd4613e4-aa25-47d6-a450-59019c202164",
+        "duplicate": false,
+        "delivery": "capture"
+      },
+      "allowOrigin": "https://iqchampion.com"
+    },
+    {
+      "status": 200,
+      "body": {
+        "accepted": true,
+        "id": "bd4613e4-aa25-47d6-a450-59019c202164",
+        "duplicate": true,
+        "delivery": "capture"
+      },
+      "allowOrigin": "https://iqchampion.com"
+    }
+  ],
+  "localReplay": "acknowledged",
+  "realPush": false,
+  "productionRelease": false
+}

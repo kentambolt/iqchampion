@@ -1,0 +1,1 @@
+{"name":"iqchampion","private":true,"scripts":{"test":"node --test checks/*.test.cjs"},"devDependencies":{"fake-indexeddb":"6.2.8"}}

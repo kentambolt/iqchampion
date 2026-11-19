@@ -1,11 +1,8 @@
 'use strict';
 
-// Notification preparation must remain optional if its asset is blocked/unavailable.
-const start_intent_capture = typeof test_start_intents !== 'undefined' ? test_start_intents : {
-  empty: () => ({version:1,mode:'capture',pending:[]}),
-  restore: () => ({version:1,mode:'capture',pending:[]}),
-  record: journal => journal,
-  permitted: () => false
+// Notifications must never become a dependency of taking the IQ test.
+const start_notification_producer = typeof iq_test_start_notifications !== 'undefined' ? iq_test_start_notifications : {
+  createStart: () => null, restore: () => null, remember: () => Promise.resolve('disabled'), start: () => false
 };
 
 const total_questions = 36;
@@ -27,7 +24,7 @@ let timer_id = null;
 let finished = true;
 let timed_out = false;
 let last_saved = null;
-let start_notifications = start_intent_capture.empty();
+let start_notification = null;
 
 function storage_notice(message) {
   const notice = document.getElementById('storage-notice');
@@ -36,11 +33,12 @@ function storage_notice(message) {
 }
 
 function save_attempt() {
-  const data = JSON.stringify({ version: 2, puzzleVersion: puzzle_version, startedAt: started_at, answers, currentQuestion: current_question, completed: finished, timedOut: timed_out, startNotifications: start_notifications });
+  const data = JSON.stringify({ version: 2, puzzleVersion: puzzle_version, startedAt: started_at, answers, currentQuestion: current_question, completed: finished, timedOut: timed_out, startNotification: start_notification });
   try {
     localStorage.setItem(storage_key, data);
     last_saved = data;
     storage_notice('');
+    remember_start_notification();
     return true;
   } catch {
     storage_notice('This browser could not save your attempt. Keep this page open: reloading may lose progress or restore older answers.');
@@ -48,15 +46,10 @@ function save_attempt() {
   }
 }
 
-// Inspect durably saved capture records only. They must never become real pushes.
-// There is deliberately no send/ack function until the ingress contract exists.
-function captured_test_start_intents() {
-  if (!start_intent_capture.permitted()) return [];
-  try {
-    const saved = JSON.parse(localStorage.getItem(storage_key));
-    if (!valid_attempt(saved)) return [];
-    return start_intent_capture.restore(saved.startNotifications).pending;
-  } catch { return []; }
+function remember_start_notification() {
+  if (!start_notification) return;
+  try { Promise.resolve(start_notification_producer.remember(start_notification)).catch(() => {}); }
+  catch { /* Network/notification failures must never affect the test. */ }
 }
 
 function valid_attempt(saved) {
@@ -99,7 +92,8 @@ function restore_attempt() {
     return false;
   }
   last_saved = raw;
-  start_notifications = start_intent_capture.restore(saved.startNotifications);
+  try { start_notification = start_notification_producer.restore(saved.startNotification); }
+  catch { start_notification = null; }
   clearInterval(timer_id);
   timer_id = null;
   puzzle_version = saved.puzzleVersion ?? 1;
@@ -108,6 +102,7 @@ function restore_attempt() {
   answers = Array.from({ length: total_questions }, (_, index) => saved.answers[index] ?? null);
   current_question = saved.version === 2 ? saved.currentQuestion : Math.min(saved.answers.length + 1, total_questions);
   timed_out = saved.timedOut;
+  remember_start_notification();
   finished = false;
   document.getElementById('front').hidden = true;
   document.getElementById('practice').hidden = true;
@@ -485,7 +480,8 @@ function start_test() {
   finished = false;
   timed_out = false;
   // This hook runs only for a newly accepted start, never restore/practice/navigation.
-  start_notifications = start_intent_capture.record(start_notifications);
+  try { start_notification = start_notification_producer.createStart(); }
+  catch { start_notification = null; }
   document.getElementById('front').hidden = true;
   document.getElementById('result').hidden = true;
   document.getElementById('answer-review').hidden = true;
@@ -524,3 +520,5 @@ preload_question(1);
 restore_attempt();
 
 update_share_links();
+
+try { start_notification_producer.start(); } catch { /* Optional notification adapter. */ }
