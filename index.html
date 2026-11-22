@@ -21,6 +21,7 @@
 <script id="site-schema" type="application/ld+json">{"@context":"https://schema.org","@type":"WebPage","name":"Free visual reasoning test | IQ Champion","description":"36 visual reasoning puzzles. Take a free 40-minute challenge and explore your results.","url":"https://iqchampion.com/en/","inLanguage":"en","isAccessibleForFree":true,"isPartOf":{"@type":"WebSite","name":"IQ Champion","url":"https://iqchampion.com/"}}</script>
 <meta name="description" content="36 visual reasoning puzzles. Take a free 40-minute challenge and explore your results.">
 <link href="assets/styles.css?v=20261122-stats1" rel="stylesheet">
+<link href="assets/scandinavian.css?v=20261122-design1" rel="stylesheet">
 <script src="assets/time_and_scores.js?v=20261113-1" defer></script>
 <script src="assets/percentiles.js?v=20261114-1" defer></script>
 <script src="assets/md5.js?v=20261113-1" defer></script>
@@ -30,6 +31,7 @@
 <script src="assets/test-start-notifications.js?v=20261119-live1" defer></script>
 <script src="assets/attempt-statistics.js?v=20261122-stats1" defer></script>
 <script src="assets/comparisons.js?v=20261122-stats1" defer></script>
+<script src="assets/statistics-transport.js?v=20261122-stats1" defer></script>
 <script src="assets/result-statistics.js?v=20261122-stats1" defer></script>
 <script src="assets/app.js?v=20261122-stats1" defer></script>
 <script src="https://munthesystems.dk/systems/tracker.894a456da1305558.js" integrity="sha384-oGiw7CoaEVI+Ck8QDz70VAKJIosxw7zK9HTPC2p1LL6VwZ0wXtDArQS3qZxiHey8" crossorigin="anonymous" data-project="iqchampion" data-page="test" data-feedback="false" async></script>
@@ -37,24 +39,23 @@
 </head>
 <body>
 <main>
-  <nav class="language-switch" aria-label="Language"><a id="language-da" href="/da/" lang="da" hreflang="da" aria-current="false">Dansk</a><a id="language-en" href="/en/" lang="en" hreflang="en" aria-current="page">English</a></nav>
+  <header class="site-header"><a class="brand" href="/" aria-label="IQ Champion"><svg class="brand-mark" viewBox="0 0 30 30" aria-hidden="true"><defs><linearGradient id="brand-blue" x2="1" y2="1"><stop stop-color="#36a4e8"/><stop offset="1" stop-color="#1267ac"/></linearGradient></defs><rect x="2" y="11" width="18" height="18" rx="5" fill="#126cab"/><rect x="10" y="2" width="18" height="18" rx="5" fill="url(#brand-blue)"/><rect x="10" y="11" width="10" height="9" rx="3" fill="#65b4e8" opacity=".7"/></svg><span>IQCHAMPION</span></a><nav class="header-links" aria-label="About the test"><button type="button" data-intro-sheet="how-it-works">How the test works</button><button type="button" data-intro-sheet="about-your-result">About your result</button></nav><nav class="language-switch" aria-label="Language"><a id="language-da" href="/da/" lang="da" hreflang="da" aria-current="false">Dansk</a><a id="language-en" href="/en/" lang="en" hreflang="en" aria-current="page">English</a></nav></header>
   <p id="storage-notice" class="storage-notice" role="status" hidden></p>
   <section id="front" class="screen intro" aria-label="About the test">
-    <img class="logo" src="images/logo.png" alt="IQ Champion" width="369" height="89" decoding="async" fetchpriority="high">
-    <div class="hero">
+    <div class="hero"><div class="hero-copy">
       <p class="eyebrow">A challenge in visual reasoning</p>
       <h1 tabindex="-1">Spot the pattern.<br>Find the missing piece.</h1>
       <p class="lead">36 visual puzzles and an estimated IQ score. Just for fun.</p>
       <dl class="test-facts">
-        <div><dt>Puzzles</dt><dd>36</dd></div>
-        <div><dt>Time limit</dt><dd>40 min</dd></div>
-        <div><dt>Cost</dt><dd>Free</dd></div>
+        <div><svg class="fact-icon" viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.7"><path d="m12 2 9 5v10l-9 5-9-5V7l9-5Z"/><path d="m3 7 9 5 9-5M12 12v10"/></svg><dt>Puzzles</dt><dd>36</dd></div>
+        <div><svg class="fact-icon" viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.7"><circle cx="12" cy="12" r="9"/><path d="M12 6v6l4 2"/></svg><dt>Time limit</dt><dd>40 min</dd></div>
+        <div><svg class="fact-icon" viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M13 3h7v7L9 21l-7-7L13 3Z"/><circle cx="17" cy="6" r="1"/></svg><dt>Test</dt><dd>Free</dd></div>
       </dl>
       <button id="start-link" class="primary" type="button">Start 40-minute test <svg class="ui-icon" viewBox="0 0 16 16" aria-hidden="true" focusable="false" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M2 8h11m-4-4 4 4-4 4"/></svg></button>
-      <p class="action-note">No account needed. The timer starts when you begin.</p>
-    </div>
+      <ul class="hero-assurances"><li><svg viewBox="0 0 16 16" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m3 8 3 3 7-7"/></svg><span>No account needed</span></li><li><svg viewBox="0 0 16 16" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m3 8 3 3 7-7"/></svg><span>The test starts when you are ready</span></li></ul>
+    </div><div class="hero-visual" aria-hidden="true"><div class="hero-art"><div class="sample-tile"><span class="sample-dot"></span></div><div class="sample-tile"><span class="sample-dot"></span></div><div class="sample-tile"><span class="sample-dot"></span></div><div class="sample-tile sample-question">?</div></div><svg class="hero-sparks" viewBox="0 0 70 60" fill="none" stroke="#66bbef" stroke-width="5" stroke-linecap="round"><path d="m16 37-10-5m26-9-7-11m26 6V4"/></svg></div></div>
     <div class="intro-details">
-      <details class="disclosure" data-sheet-title="How the test works"><summary>How the test works</summary>
+      <details id="how-it-works" class="disclosure" data-sheet-title="How the test works"><summary>How the test works</summary>
         <ol class="instruction-list">
           <li>Choose the icon that completes each pattern.</li>
           <li>Skip tricky questions and return using the overview.</li>
@@ -63,7 +64,7 @@
         <p>Your answers and start time are saved in this browser. Reloading keeps your original deadline.</p>
         <p>The 40-minute timer continues while the page is closed. Unanswered questions count as incorrect.</p>
       </details>
-      <details class="disclosure" data-sheet-title="About your result"><summary>About your result</summary>
+      <details id="about-your-result" class="disclosure" data-sheet-title="About your result"><summary>About your result</summary>
         <p>Your estimated IQ is based on your position among <span id="reference-count">10,216</span> historical attempts.</p>
         <p>The comparison uses attempts lasting over one minute and up to 40 minutes. It has not been validated against an official IQ test or a representative population sample.</p>
         <p>A test for fun. Your estimated IQ is an approximation, not a professionally validated IQ score.</p>
@@ -75,7 +76,8 @@
   <section id="test" class="screen test-screen" hidden aria-label="Reasoning test">
     <header class="test-header">
       <div><p class="eyebrow">Your challenge</p><h1 id="question-number" tabindex="-1"></h1></div>
-      <div class="timer" role="timer" aria-label="Time remaining"><span id="time-left">40:00</span><span class="timer-label">remaining</span></div>
+      <div class="timer" role="timer" aria-label="Time remaining"><svg class="timer-icon" viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="9"/><path d="M12 6v6l4 2"/></svg><span id="time-left">40:00</span><span class="timer-label">remaining</span></div>
+      <div id="question-progress" class="question-progress" role="progressbar" aria-label="Answered questions" aria-valuemin="0" aria-valuemax="36" aria-valuenow="0"><span id="question-progress-fill"></span></div>
     </header>
     <p id="time-warning" class="time-warning" role="status"></p>
     <div class="left-right">
@@ -130,13 +132,13 @@
     <section class="panel result-spotlight" aria-labelledby="highlight-title">
       <p class="eyebrow">Something to share</p><h2 id="highlight-title">Your strongest moment</h2>
       <p id="highlight-label" class="highlight-label"></p><p id="highlight-value" class="highlight-value"></p><p id="highlight-note" class="small"></p>
-      <div class="share-choices" role="group" aria-label="Choose what to share"><button id="share-best-choice" type="button" class="text-button">Best moment</button><button id="share-iq-choice" type="button" class="text-button">IQ estimate</button><button id="share-score-choice" type="button" class="text-button">Correct patterns</button></div>
+      <div class="share-choices" role="group" aria-label="Choose what to share"><button id="share-best-choice" type="button" class="text-button">Best moment</button><button id="share-iq-choice" type="button" class="text-button">IQ estimate</button><button id="share-question-choice" type="button" class="text-button">Question time</button><button id="share-score-choice" type="button" class="text-button">Correct patterns</button></div>
       <a id="highlight-facebook" class="primary share-primary" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fiqchampion.com%2Fen%2F" target="_blank" rel="noopener noreferrer">Share on Facebook <svg class="ui-icon" viewBox="0 0 16 16" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M6 3h7v7M13 3 3 13"/></svg></a>
       <details class="copy-share"><summary>Copy a personal caption</summary><label for="share-copy-text">Your share text</label><textarea id="share-copy-text" rows="4" readonly></textarea><button id="copy-highlight" type="button" class="secondary">Copy text</button><p id="copy-status" role="status" class="small"></p><p class="small">Facebook lets you write your own caption. We never post automatically.</p></details>
     </section></div>
     <div class="result-tools">
     <details class="disclosure result-statistics" data-sheet-title="Your question statistics"><summary>Your question statistics</summary>
-      <p id="stats-total-time"></p><p id="stats-comparison-note" class="small"></p>
+      <p id="stats-cohort-label" class="small"></p><p id="stats-total-time"></p><p id="stats-comparison-note" class="small"></p>
       <p class="small">Times count visible, focused question time up to your last answer. For unanswered questions, time spent is shown. Hidden tabs and closed pages do not count. Earlier attempts may have no timings.</p>
       <div class="statistics-table-wrap"><table class="statistics-table"><caption>All 36 questions, including skipped questions</caption><thead><tr><th scope="col">Question</th><th scope="col">Your answer</th><th scope="col">Your time</th><th scope="col">Correct-answer median</th><th scope="col">Others correct</th></tr></thead><tbody id="statistics-rows"></tbody></table></div>
       <p class="small">Compare with voluntary attempts using the same puzzle version. At least 30 answered questions are needed for a correct rate, and 30 timed correct answers for a median. These are participants, not a representative population.</p>
@@ -147,6 +149,7 @@
       <form id="contribution-form" hidden>
         <label for="stats-age">Age group (optional)</label><select id="stats-age"><option value="">Prefer not to say</option><option value="under18">Under 18</option><option value="18-24">18–24</option><option value="25-34">25–34</option><option value="35-44">35–44</option><option value="45-54">45–54</option><option value="55-64">55–64</option><option value="65plus">65+</option></select>
         <label for="stats-country">Country (optional)</label><select id="stats-country"><option value="">Prefer not to say</option></select>
+        <div class="cohort-actions"><button id="compare-cohort" type="button" class="secondary">Compare with this group</button><button id="compare-all" type="button" class="text-button">All voluntary attempts</button></div>
         <label class="statistics-consent"><input id="stats-consent" type="checkbox" required><span>I agree to contribute my anonymous question results and active times, together with any age group and country I choose, to comparison statistics.</span></label>
         <p class="small">No name, email or exact age. Sharing your statistics is optional and does not affect your result. Small comparison groups are hidden.</p>
         <button id="contribute-statistics" class="primary" type="submit">Contribute anonymously</button><p id="contribution-status" class="feedback-note" role="status"></p>

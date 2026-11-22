@@ -6,18 +6,21 @@ foreach ($lang in @('da','en')) {
   $g = [System.Drawing.Graphics]::FromImage($bitmap)
   $g.SmoothingMode = [System.Drawing.Drawing2D.SmoothingMode]::AntiAlias
   $g.TextRenderingHint = [System.Drawing.Text.TextRenderingHint]::AntiAliasGridFit
-  $background = [System.Drawing.Drawing2D.LinearGradientBrush]::new([System.Drawing.Rectangle]::new(0,0,1200,630),[System.Drawing.Color]::FromArgb(11,22,37),[System.Drawing.Color]::FromArgb(22,49,73),20)
+  $background = [System.Drawing.Drawing2D.LinearGradientBrush]::new([System.Drawing.Rectangle]::new(0,0,1200,630),[System.Drawing.Color]::FromArgb(253,254,255),[System.Drawing.Color]::FromArgb(229,243,253),20)
   $g.FillRectangle($background,0,0,1200,630)
-  $white=[System.Drawing.SolidBrush]::new([System.Drawing.Color]::FromArgb(243,247,251))
-  $muted=[System.Drawing.SolidBrush]::new([System.Drawing.Color]::FromArgb(184,204,223))
-  $accent=[System.Drawing.SolidBrush]::new([System.Drawing.Color]::FromArgb(192,231,255))
-  $ink=[System.Drawing.SolidBrush]::new([System.Drawing.Color]::FromArgb(17,42,61))
+  $white=[System.Drawing.SolidBrush]::new([System.Drawing.Color]::FromArgb(16,35,63))
+  $muted=[System.Drawing.SolidBrush]::new([System.Drawing.Color]::FromArgb(65,87,117))
+  $accent=[System.Drawing.SolidBrush]::new([System.Drawing.Color]::FromArgb(19,111,178))
+  $ink=[System.Drawing.SolidBrush]::new([System.Drawing.Color]::FromArgb(255,255,255))
   $headline=[System.Drawing.Font]::new('Segoe UI',43,[System.Drawing.FontStyle]::Bold)
   $body=[System.Drawing.Font]::new('Segoe UI',20,[System.Drawing.FontStyle]::Regular)
   $cta=[System.Drawing.Font]::new('Segoe UI',18,[System.Drawing.FontStyle]::Bold)
   $foot=[System.Drawing.Font]::new('Segoe UI',15,[System.Drawing.FontStyle]::Regular)
   $logo=[System.Drawing.Image]::FromFile((Join-Path $shareRoot 'images/logo.png'))
-  $g.DrawImage($logo,76,64,250,60)
+  $brandFont=[System.Drawing.Font]::new('Segoe UI',24,[System.Drawing.FontStyle]::Bold)
+  $g.FillRectangle($accent,78,82,27,27)
+  $g.FillRectangle([System.Drawing.Brushes]::DodgerBlue,91,68,27,27)
+  $g.DrawString('IQCHAMPION',$brandFont,$white,129,72)
   $title=if($lang -eq 'da'){"Kan du finde`nmønstret?"}else{"Can you spot`nthe pattern?"}
   $g.DrawString($title,$headline,$white,[System.Drawing.RectangleF]::new(72,175,580,160))
   $g.DrawString($(if($lang -eq 'da'){'36 opgaver. 40 minutter.'}else{'36 puzzles. 40 minutes.'}),$body,$muted,78,356)
@@ -32,5 +35,5 @@ foreach ($lang in @('da','en')) {
     $g.DrawImage($tile,[int]$x,[int]$y,96,96); $tile.Dispose()
   }
   $bitmap.Save((Join-Path $shareRoot "images/share-$lang.png"),[System.Drawing.Imaging.ImageFormat]::Png)
-  foreach($item in @($logo,$headline,$body,$cta,$foot,$white,$muted,$accent,$ink,$background,$g,$bitmap)){$item.Dispose()}
+  foreach($item in @($logo,$brandFont,$headline,$body,$cta,$foot,$white,$muted,$accent,$ink,$background,$g,$bitmap)){$item.Dispose()}
 }

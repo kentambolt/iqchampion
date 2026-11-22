@@ -8,7 +8,7 @@
  }
  function highlight(rows,comparison,iq){
   const eligible=rows.filter(q=>q.status==='correct'&&q.answer_ms>=1000);
-  const peers=eligible.map(q=>({own:q,peer:comparison?.questions.find(p=>p.question===q.question)})).filter(q=>q.peer?.answered>=(comparison?.minimum_sample??30)&&q.peer.median_correct_ms!==null&&q.own.answer_ms<q.peer.median_correct_ms);
+  const peers=eligible.map(q=>({own:q,peer:comparison?.questions.find(p=>p.question===q.question)})).filter(q=>q.peer?.answered>=(comparison?.minimum_sample??30)&&q.peer.median_correct_ms!==null&&q.own.answer_ms<=q.peer.median_correct_ms-Math.max(1000,q.peer.median_correct_ms*.1));
   // Prefer an observed difficult correct answer beaten on time; no made-up speed percentile.
   peers.sort((a,b)=>a.peer.correct/a.peer.answered-b.peer.correct/b.peer.answered||a.own.answer_ms/a.peer.median_correct_ms-b.own.answer_ms/b.peer.median_correct_ms);
   if(peers.length&&peers[0].peer.correct/peers[0].peer.answered<=0.5)return {kind:'question',label:'A tricky puzzle, solved quickly',...peers[0]};

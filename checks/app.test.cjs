@@ -40,7 +40,7 @@ function load(options = {}) {
     setInterval(callback) { intervals.add(callback); return callback; },
     clearInterval(id) { intervals.delete(id); }
   });
-  for (const file of ['time_and_scores.js', 'percentiles.js', 'iq-score.js', 'md5.js', 'explanations.js', 'i18n.js', 'test-start-notifications.js', 'attempt-statistics.js', 'comparisons.js', 'result-statistics.js', 'app.js']) {
+  for (const file of ['time_and_scores.js', 'percentiles.js', 'iq-score.js', 'md5.js', 'explanations.js', 'i18n.js', 'test-start-notifications.js', 'attempt-statistics.js', 'comparisons.js', 'statistics-transport.js', 'result-statistics.js', 'app.js']) {
     if (options.skipIntentHelper && file === 'test-start-notifications.js') continue;
     if (file === 'app.js' && options.notificationStub && !options.skipIntentHelper) context.iq_test_start_notifications = {
       createStart() { if(options.failCrypto || options.gpc || options.dnt==='1') return null; return {version:1,id:'00000000-0000-4000-8000-'+String(++uuidSequence).padStart(12,'0'),project:'iqchampion',environment:'production',type:'test_started',occurred_at:new Date(now).toISOString(),data:{}}; },
@@ -762,8 +762,12 @@ test('legacy attempts migrate without inventing start notifications',()=>{
 test('partial-result statistics retain per-question active times across reload and stop at finish',()=>{
  const app=load({notificationStub:true});app.element('start-link').events.click();app.advance(7000);app.run('submit_answer(1,get_hash(1,1,true))');app.advance(3000);app.run('go_to_question(3)');app.advance(4000);app.run('submit_answer(3,get_hash(3,2,true));request_finish();finish_test()');
  const rows=app.run('result_rows()');assert.equal(rows[0].status,'correct');assert.equal(rows[0].answer_ms,7000);assert.equal(rows[1].status,'unanswered');assert.equal(rows[1].active_ms,3000);assert.equal(rows[2].status,'incorrect');assert.equal(rows[2].answer_ms,4000);assert.equal(app.element('statistics-rows').children.length,36);assert.equal(app.element('highlight-value').textContent,'Question 1 · 7 s');assert.match(app.element('highlight-facebook').attributes.href,/question%2F1%2F/);
- const resumed=load({store:app.store,now:1000000});assert.equal(resumed.run('result_rows()[0].answer_ms'),7000);assert.equal(resumed.run('IQAttemptStatistics.summary(result_rows()).active_ms'),14000);resumed.advance(10000);assert.equal(resumed.run('IQAttemptStatistics.summary(result_rows()).active_ms'),14000);resumed.run('i18n.setLanguage("da")');assert.equal(resumed.element('highlight-value').textContent,'Opgave 1 · 7 s');assert.deepEqual(Array.from(resumed.run('i18n.missing')),[]);
+ const resumed=load({store:app.store,now:1000000});assert.equal(resumed.run('result_rows()[0].answer_ms'),7000);assert.equal(resumed.run('finished_at'),15000);assert.equal(resumed.run('IQAttemptStatistics.summary(result_rows()).active_ms'),14000);resumed.advance(10000);assert.equal(resumed.run('IQAttemptStatistics.summary(result_rows()).active_ms'),14000);resumed.run('i18n.setLanguage("da")');assert.equal(resumed.element('highlight-value').textContent,'Opgave 1 · 7 s');assert.deepEqual(Array.from(resumed.run('i18n.missing')),[]);
 });
 test('old v4 results preserve answers and never invent historical question times',()=>{
  const saved={version:2,puzzleVersion:3,startedAt:1000,answers:Array(36).fill(null),currentQuestion:1,completed:true,timedOut:false};const store=new Map([['iqchampion.attempt.v4',JSON.stringify(saved)]]);const app=load({store,now:20000});assert.equal(app.run('result_rows()[0].active_ms'),null);assert.equal(app.run('statistics_id'),null);assert.equal(app.element('statistics-rows').children.length,36);assert.equal(store.get('iqchampion.attempt.v4'),JSON.stringify(saved));
+});
+test('sharing a demographic comparison never includes age/country or an unlabeled group median',()=>{
+ const app=load();app.element('start-link').events.click();app.advance(7000);app.run('submit_answer(1,get_hash(1,1,true));request_finish();finish_test();iq_comparison_data=IQComparisons.valid({version:1,puzzle_version:3,sample_size:100,minimum_sample:30,period_days:90,questions:[{question:1,answered:100,correct:40,timed_correct:35,median_correct_ms:30000}]},3);iq_current_cohort={age_group:"25-34",country:"DK"};render_result_statistics();');
+ assert.doesNotMatch(app.element('share-copy-text').value,/DK|25-34|median/);assert.doesNotMatch(app.element('highlight-facebook').attributes.href,/DK|25-34|country|age_group/);assert.equal(app.run('iq_statistics_api.allowed()'),false);
 });

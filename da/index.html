@@ -21,6 +21,7 @@
 <script id="site-schema" type="application/ld+json">{"@context":"https://schema.org","@type":"WebPage","name":"Gratis logiktest med figurer | IQ Champion","description":"36 visuelle logikopgaver. Prøv en gratis test på 40 minutter, og se dit resultat.","url":"https://iqchampion.com/da/","inLanguage":"da","isAccessibleForFree":true,"isPartOf":{"@type":"WebSite","name":"IQ Champion","url":"https://iqchampion.com/"}}</script>
 <meta name="description" content="36 visuelle logikopgaver. Prøv en gratis test på 40 minutter, og se dit resultat.">
 <link href="assets/styles.css?v=20261122-stats1" rel="stylesheet">
+<link href="assets/scandinavian.css?v=20261122-design1" rel="stylesheet">
 <script src="assets/time_and_scores.js?v=20261113-1" defer></script>
 <script src="assets/percentiles.js?v=20261114-1" defer></script>
 <script src="assets/md5.js?v=20261113-1" defer></script>
@@ -30,6 +31,7 @@
 <script src="assets/test-start-notifications.js?v=20261119-live1" defer></script>
 <script src="assets/attempt-statistics.js?v=20261122-stats1" defer></script>
 <script src="assets/comparisons.js?v=20261122-stats1" defer></script>
+<script src="assets/statistics-transport.js?v=20261122-stats1" defer></script>
 <script src="assets/result-statistics.js?v=20261122-stats1" defer></script>
 <script src="assets/app.js?v=20261122-stats1" defer></script>
 <script src="https://munthesystems.dk/systems/tracker.894a456da1305558.js" integrity="sha384-oGiw7CoaEVI+Ck8QDz70VAKJIosxw7zK9HTPC2p1LL6VwZ0wXtDArQS3qZxiHey8" crossorigin="anonymous" data-project="iqchampion" data-page="test" data-feedback="false" async></script>
@@ -37,24 +39,23 @@
 </head>
 <body>
 <main>
-  <nav class="language-switch" aria-label="Sprog"><a id="language-da" href="/da/" lang="da" hreflang="da" aria-current="page">Dansk</a><a id="language-en" href="/en/" lang="en" hreflang="en" aria-current="false">English</a></nav>
+  <header class="site-header"><a class="brand" href="/" aria-label="IQ Champion"><svg class="brand-mark" viewBox="0 0 30 30" aria-hidden="true"><defs><linearGradient id="brand-blue" x2="1" y2="1"><stop stop-color="#36a4e8"/><stop offset="1" stop-color="#1267ac"/></linearGradient></defs><rect x="2" y="11" width="18" height="18" rx="5" fill="#126cab"/><rect x="10" y="2" width="18" height="18" rx="5" fill="url(#brand-blue)"/><rect x="10" y="11" width="10" height="9" rx="3" fill="#65b4e8" opacity=".7"/></svg><span>IQCHAMPION</span></a><nav class="header-links" aria-label="Om testen"><button type="button" data-intro-sheet="how-it-works">Sådan fungerer testen</button><button type="button" data-intro-sheet="about-your-result">Om dit resultat</button></nav><nav class="language-switch" aria-label="Sprog"><a id="language-da" href="/da/" lang="da" hreflang="da" aria-current="page">Dansk</a><a id="language-en" href="/en/" lang="en" hreflang="en" aria-current="false">English</a></nav></header>
   <p id="storage-notice" class="storage-notice" role="status" hidden></p>
   <section id="front" class="screen intro" aria-label="Om testen">
-    <img class="logo" src="images/logo.png" alt="IQ Champion" width="369" height="89" decoding="async" fetchpriority="high">
-    <div class="hero">
-      <p class="eyebrow">En udfordring i visuel logik</p>
-      <h1 tabindex="-1">Find mønstret.<br>Find den manglende brik.</h1>
+    <div class="hero"><div class="hero-copy">
+      <p class="eyebrow">En udfordring i visuel ræsonnering.</p>
+      <h1 tabindex="-1">Spot mønstret.<br>Find den manglende brik.</h1>
       <p class="lead">36 visuelle opgaver og en estimeret IQ-score. Kun for sjov.</p>
       <dl class="test-facts">
-        <div><dt>Opgaver</dt><dd>36</dd></div>
-        <div><dt>Tidsgrænse</dt><dd>40 min</dd></div>
-        <div><dt>Pris</dt><dd>Gratis</dd></div>
+        <div><svg class="fact-icon" viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.7"><path d="m12 2 9 5v10l-9 5-9-5V7l9-5Z"/><path d="m3 7 9 5 9-5M12 12v10"/></svg><dt>Opgaver</dt><dd>36</dd></div>
+        <div><svg class="fact-icon" viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.7"><circle cx="12" cy="12" r="9"/><path d="M12 6v6l4 2"/></svg><dt>Tidsgrænse</dt><dd>40 min</dd></div>
+        <div><svg class="fact-icon" viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M13 3h7v7L9 21l-7-7L13 3Z"/><circle cx="17" cy="6" r="1"/></svg><dt>test</dt><dd>Gratis</dd></div>
       </dl>
-      <button id="start-link" class="primary" type="button">Start testen på 40 minutter <svg class="ui-icon" viewBox="0 0 16 16" aria-hidden="true" focusable="false" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M2 8h11m-4-4 4 4-4 4"/></svg></button>
-      <p class="action-note">Ingen konto nødvendig. Tiden starter, når du begynder.</p>
-    </div>
+      <button id="start-link" class="primary" type="button">Start 40-minutters test <svg class="ui-icon" viewBox="0 0 16 16" aria-hidden="true" focusable="false" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M2 8h11m-4-4 4 4-4 4"/></svg></button>
+      <ul class="hero-assurances"><li><svg viewBox="0 0 16 16" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m3 8 3 3 7-7"/></svg><span>Ingen konto nødvendig</span></li><li><svg viewBox="0 0 16 16" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m3 8 3 3 7-7"/></svg><span>Testen starter, når du er klar</span></li></ul>
+    </div><div class="hero-visual" aria-hidden="true"><div class="hero-art"><div class="sample-tile"><span class="sample-dot"></span></div><div class="sample-tile"><span class="sample-dot"></span></div><div class="sample-tile"><span class="sample-dot"></span></div><div class="sample-tile sample-question">?</div></div><svg class="hero-sparks" viewBox="0 0 70 60" fill="none" stroke="#66bbef" stroke-width="5" stroke-linecap="round"><path d="m16 37-10-5m26-9-7-11m26 6V4"/></svg></div></div>
     <div class="intro-details">
-      <details class="disclosure" data-sheet-title="How the test works"><summary>Sådan fungerer testen</summary>
+      <details id="how-it-works" class="disclosure" data-sheet-title="How the test works"><summary>Sådan fungerer testen</summary>
         <ol class="instruction-list">
           <li>Vælg den figur, der fuldender hvert mønster.</li>
           <li>Spring svære opgaver over, og vend tilbage via overblikket.</li>
@@ -63,7 +64,7 @@
         <p>Dine svar og din starttid gemmes i denne browser. Genindlæsning bevarer den oprindelige tidsfrist.</p>
         <p>De 40 minutter løber videre, mens siden er lukket. Ubesvarede opgaver tæller som forkerte.</p>
       </details>
-      <details class="disclosure" data-sheet-title="About your result"><summary>Om dit resultat</summary>
+      <details id="about-your-result" class="disclosure" data-sheet-title="About your result"><summary>Om dit resultat</summary>
         <p>Din estimerede IQ bygger på din placering blandt <span id="reference-count">10.216</span> historiske forsøg.</p>
         <p>Sammenligningen bruger forsøg på over ét minut og op til 40 minutter. Den er ikke valideret mod en officiel IQ-test eller et repræsentativt udsnit af befolkningen.</p>
         <p>En test for sjov. Din estimerede IQ er en tilnærmelse, ikke en fagligt valideret IQ-score.</p>
@@ -75,7 +76,8 @@
   <section id="test" class="screen test-screen" hidden aria-label="Logiktest">
     <header class="test-header">
       <div><p class="eyebrow">Din udfordring</p><h1 id="question-number" tabindex="-1"></h1></div>
-      <div class="timer" role="timer" aria-label="Tid tilbage"><span id="time-left">40:00</span><span class="timer-label">tilbage</span></div>
+      <div class="timer" role="timer" aria-label="Tid tilbage"><svg class="timer-icon" viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="9"/><path d="M12 6v6l4 2"/></svg><span id="time-left">40:00</span><span class="timer-label">tilbage</span></div>
+      <div id="question-progress" class="question-progress" role="progressbar" aria-label="Besvarede opgaver" aria-valuemin="0" aria-valuemax="36" aria-valuenow="0"><span id="question-progress-fill"></span></div>
     </header>
     <p id="time-warning" class="time-warning" role="status"></p>
     <div class="left-right">
@@ -130,13 +132,13 @@
     <section class="panel result-spotlight" aria-labelledby="highlight-title">
       <p class="eyebrow">Noget at dele</p><h2 id="highlight-title">Dit stærkeste øjeblik</h2>
       <p id="highlight-label" class="highlight-label"></p><p id="highlight-value" class="highlight-value"></p><p id="highlight-note" class="small"></p>
-      <div class="share-choices" role="group" aria-label="Vælg, hvad du vil dele"><button id="share-best-choice" type="button" class="text-button">Bedste øjeblik</button><button id="share-iq-choice" type="button" class="text-button">IQ-estimat</button><button id="share-score-choice" type="button" class="text-button">Rigtige mønstre</button></div>
+      <div class="share-choices" role="group" aria-label="Vælg, hvad du vil dele"><button id="share-best-choice" type="button" class="text-button">Bedste øjeblik</button><button id="share-iq-choice" type="button" class="text-button">IQ-estimat</button><button id="share-question-choice" type="button" class="text-button">Opgavetid</button><button id="share-score-choice" type="button" class="text-button">Rigtige mønstre</button></div>
       <a id="highlight-facebook" class="primary share-primary" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fiqchampion.com%2Fen%2F" target="_blank" rel="noopener noreferrer">Del på Facebook <svg class="ui-icon" viewBox="0 0 16 16" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M6 3h7v7M13 3 3 13"/></svg></a>
       <details class="copy-share"><summary>Kopiér en personlig tekst</summary><label for="share-copy-text">Din delingstekst</label><textarea id="share-copy-text" rows="4" readonly></textarea><button id="copy-highlight" type="button" class="secondary">Kopiér tekst</button><p id="copy-status" role="status" class="small"></p><p class="small">På Facebook kan du skrive din egen tekst. Vi slår aldrig noget op automatisk.</p></details>
     </section></div>
     <div class="result-tools">
     <details class="disclosure result-statistics" data-sheet-title="Your question statistics"><summary>Din opgavestatistik</summary>
-      <p id="stats-total-time"></p><p id="stats-comparison-note" class="small"></p>
+      <p id="stats-cohort-label" class="small"></p><p id="stats-total-time"></p><p id="stats-comparison-note" class="small"></p>
       <p class="small">Tiderne måler aktiv tid i en synlig opgave med fokus frem til dit sidste svar. Ved ubesvarede opgaver vises den brugte tid. Skjulte faner og lukkede sider tæller ikke med. Ældre forsøg kan mangle tider.</p>
       <div class="statistics-table-wrap"><table class="statistics-table"><caption>Alle 36 opgaver, også dem du sprang over</caption><thead><tr><th scope="col">Opgave</th><th scope="col">Dit svar</th><th scope="col">Din tid</th><th scope="col">Median for korrekte svar</th><th scope="col">Andre med korrekt svar</th></tr></thead><tbody id="statistics-rows"></tbody></table></div>
       <p class="small">Sammenlign med frivillige forsøg på samme opgaveversion. En korrektandel kræver mindst 30 besvarelser, og en median kræver 30 korrekte svar med tidsmåling. Deltagerne er ikke et repræsentativt udsnit af befolkningen.</p>
@@ -147,6 +149,7 @@
       <form id="contribution-form" hidden>
         <label for="stats-age">Aldersgruppe (valgfrit)</label><select id="stats-age"><option value="">Ønsker ikke at oplyse</option><option value="under18">Under 18</option><option value="18-24">18–24</option><option value="25-34">25–34</option><option value="35-44">35–44</option><option value="45-54">45–54</option><option value="55-64">55–64</option><option value="65plus">65+</option></select>
         <label for="stats-country">Land (valgfrit)</label><select id="stats-country"><option value="">Ønsker ikke at oplyse</option></select>
+        <div class="cohort-actions"><button id="compare-cohort" type="button" class="secondary">Sammenlign med denne gruppe</button><button id="compare-all" type="button" class="text-button">Alle frivillige forsøg</button></div>
         <label class="statistics-consent"><input id="stats-consent" type="checkbox" required><span>Jeg accepterer, at mine anonyme opgaveresultater og aktive tider samt eventuelt valgt aldersgruppe og land indgår i sammenligningsstatistik.</span></label>
         <p class="small">Intet navn, e-mail eller præcis alder. Det er frivilligt at dele statistik og ændrer ikke dit resultat. Små sammenligningsgrupper skjules.</p>
         <button id="contribute-statistics" class="primary" type="submit">Bidrag anonymt</button><p id="contribution-status" class="feedback-note" role="status"></p>
