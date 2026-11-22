@@ -40,7 +40,7 @@ function load(options = {}) {
     setInterval(callback) { intervals.add(callback); return callback; },
     clearInterval(id) { intervals.delete(id); }
   });
-  for (const file of ['time_and_scores.js', 'percentiles.js', 'iq-score.js', 'md5.js', 'explanations.js', 'i18n.js', 'test-start-notifications.js', 'attempt-statistics.js', 'comparisons.js', 'statistics-transport.js', 'result-statistics.js', 'app.js']) {
+  for (const file of ['languages.js', 'locale-templates.js', 'locales/en.js', 'time_and_scores.js', 'percentiles.js', 'iq-score.js', 'md5.js', 'explanations.js', 'i18n.js', 'test-start-notifications.js', 'attempt-statistics.js', 'comparisons.js', 'statistics-transport.js', 'result-statistics.js', 'app.js']) {
     if (options.skipIntentHelper && file === 'test-start-notifications.js') continue;
     if (file === 'app.js' && options.notificationStub && !options.skipIntentHelper) context.iq_test_start_notifications = {
       createStart() { if(options.failCrypto || options.gpc || options.dnt==='1') return null; return {version:1,id:'00000000-0000-4000-8000-'+String(++uuidSequence).padStart(12,'0'),project:'iqchampion',environment:'production',type:'test_started',occurred_at:new Date(now).toISOString(),data:{}}; },
@@ -550,7 +550,7 @@ test('unsupported locales fall back to English; an explicit valid choice wins ov
 
 test('all static product copy and accessibility labels have Danish translations', () => {
   const app = load({language:'da'});
-  const html = fs.readFileSync(path.join(__dirname,'../index.html'),'utf8').replace(/<(noscript|script)[^>]*>[\s\S]*?<\/\1>/g,'');
+  const html = fs.readFileSync(path.join(__dirname,'../index.html'),'utf8').replace(/<(noscript|script)[^>]*>[\s\S]*?<\/\1>/g,'').replace(/<nav[^>]*data-i18n-skip[^>]*>[\s\S]*?<\/nav>/g,'').replace(/<span[^>]*data-i18n-skip[^>]*>[\s\S]*?<\/span>/g,'');
   const decode = s => s.replace(/&amp;/g,'&').trim();
   const texts = [...html.matchAll(/>([^<>]+)</g)].map(m=>decode(m[1])).filter(Boolean);
   const attributes = [...html.matchAll(/(?:aria-label|alt)="([^"]*)"/g)].map(m=>decode(m[1]));
@@ -575,7 +575,7 @@ test('explicit real language routes override saved and browser preferences witho
   const app = load({path:'/da/',language:'en',store:new Map([['iqchampion.language','en']])});
   assert.equal(app.run('i18n.language'),'da');
   assert.equal(app.pageLocation.pathname,'/da/');
-  assert.match(app.run('document.title'),/^Gratis logiktest/);
+  assert.match(app.run('document.title'),/^Gratis IQ-test/);
   const english = load({path:'/en/index.html',language:'da',store:new Map([['iqchampion.language','da']])});
   assert.equal(english.run('i18n.language'),'en');
   assert.equal(english.pageLocation.pathname,'/en/index.html');
@@ -770,4 +770,25 @@ test('old v4 results preserve answers and never invent historical question times
 test('global comparison sharing never uses optional demographic fields',()=>{
  const app=load();app.element('start-link').events.click();app.advance(7000);app.run('submit_answer(1,get_hash(1,1,true));request_finish();finish_test();iq_comparison_data=IQComparisons.valid({version:1,timing_method:"histogram",puzzle_version:3,sample_size:100,minimum_sample:30,period_days:90,questions:[{question:1,answered:100,correct:40,timed_correct:35,median_lower_ms:29000,median_upper_ms:31000}]},3);document.getElementById("stats-age").value="25-34";document.getElementById("stats-country").value="DK";render_result_statistics();');
  assert.doesNotMatch(app.element('share-copy-text').value,/DK|25-34/);assert.doesNotMatch(app.element('highlight-facebook').attributes.href,/DK|25-34|country|age_group/);assert.equal(app.run('iq_statistics_api.allowed()'),false);
+});
+
+
+test('loading a language pack preserves answers and deadline and updates RTL without changing puzzle data',async()=>{
+ const app=load();app.run('start_test(); submit_answer(1,get_hash(1,1,true)); globalThis.beforeLocale=JSON.stringify({answers:answers,started:started_at}); document.head={append(script){globalThis.localeScript=script;}}');
+ const pending=app.run('i18n.setLanguage("ar")');
+ assert.equal(app.run('i18n.language'),'en');
+ app.run('IQLocalePacks.ar={...IQLocalePacks.en,code:"ar"}; localeScript.onload()');
+ assert.equal(await pending,true);
+ assert.equal(app.run('document.documentElement.attributes.dir'),'rtl');
+ assert.equal(app.run('JSON.stringify({answers:answers,started:started_at})===beforeLocale'),true);
+ assert.equal(app.pageLocation.pathname,'/ar/');
+});
+
+test('failed or incomplete language packs leave the language, answers and deadline intact',async()=>{
+ const app=load();app.run('start_test(); submit_answer(1,get_hash(1,1,true)); globalThis.beforeLocale=JSON.stringify({answers:answers,started:started_at}); document.head={append(script){globalThis.localeScript=script;}}');
+ const pending=app.run('i18n.setLanguage("fr")');
+ app.run('IQLocalePacks.fr={code:"fr",messages:{"Free IQ test for fun | IQ Champion":"Test"},templates:{}}; localeScript.onload()');
+ assert.equal(await pending,false);assert.equal(app.run('i18n.language'),'en');assert.equal(app.run('IQLocalePacks.fr'),undefined);
+ assert.equal(app.run('JSON.stringify({answers:answers,started:started_at})===beforeLocale'),true);
+ assert.match(app.element('language-load-status').textContent,/could not be loaded/);
 });

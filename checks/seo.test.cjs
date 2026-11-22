@@ -7,14 +7,14 @@ const root=path.resolve(__dirname,'..');
 const read=name=>fs.readFileSync(path.join(root,name),'utf8');
 
 test('generated language pages are reproducible and current',()=>{
- const result=spawnSync(process.execPath,['tools/Build-Language-Pages.cjs','--check'],{cwd:root,encoding:'utf8'});
+ const result=spawnSync(process.execPath,['tools/Build-Language-Pages.cjs','--ready-only','--check'],{cwd:root,encoding:'utf8'});
  assert.equal(result.status,0,result.stderr||result.stdout);
 });
 
 test('both real HTML routes expose localized content before JavaScript and reciprocal language metadata',()=>{
  for(const lang of ['da','en']) {
   const h=read(lang+'/index.html');
-  assert.match(h,new RegExp('<html lang="'+lang+'">'));
+  assert.match(h,new RegExp('<html lang="'+lang+'" dir="ltr">'));
   assert.ok(h.includes('<base href="/">'));
   assert.ok(h.includes('rel="canonical" href="https://iqchampion.com/'+lang+'/"'));
   for(const other of ['da','en'])assert.ok(h.includes('hreflang="'+other+'" href="https://iqchampion.com/'+other+'/"'));

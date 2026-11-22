@@ -134,6 +134,8 @@ const i18n = (() => {
     'The saved attempt could not be restored. Start a new test when you are ready.': 'Det gemte forsøg kunne ikke gendannes. Start en ny test, når du er klar.'
   };
   if (typeof question_explanations !== 'undefined') for (const entry of Object.values(question_explanations)) for (const key of ['title','rule','application']) da[entry[key]] = entry.da[key];
+  Object.assign(da,{"Choose language":"Vælg sprog","Search languages":"Søg efter sprog","Close language selector":"Luk sprogvælgeren","No languages found":"Ingen sprog fundet","Free IQ test for fun | IQ Champion":"Gratis IQ-test for sjov | IQ Champion","A free IQ-style test for fun: 36 visual puzzles, 40 minutes, saved progress and an estimated IQ result. No account needed.":"En gratis IQ-lignende test for sjov: 36 figuropgaver, 40 minutter, gemte svar og et estimeret IQ-resultat. Ingen konto nødvendig.","Choose your preferred language. Your answers and original deadline stay saved.":"Vælg dit sprog. Dine svar og oprindelige tidsfrist bevares.","Loading language…":"Indlæser sprog…","The language could not be loaded. Your test and answers are unchanged.":"Sproget kunne ikke indlæses. Din test og dine svar er uændrede.","Feedback is available in Danish and English.":"Feedback er tilgængelig på dansk og engelsk.","Shared achievement":"Delt præstation","Shared result":"Delt resultat","Shared results are self-reported.":"Delte resultater er selvrapporterede.","Shared achievements are self-reported. No age, country, answers or personal profiles are shared.":"Delte præstationer er selvrapporterede. Alder, land, svar og personlige profiler deles ikke.","Try the 36 puzzles yourself":"Prøv selv de 36 opgaver","Try the test yourself":"Prøv selv testen","A visual challenge in IQ Champion. Can you spot the pattern too?":"En visuel udfordring i IQ Champion. Kan du også finde mønstret?","A free visual puzzle test, just for fun. Not a professionally validated IQ measurement.":"En gratis test med figuropgaver, kun for sjov. Ikke en fagligt valideret IQ-måling.","Page not found":"Siden findes ikke","You can continue in another language.":"Du kan fortsætte på et andet sprog."});
+  const danishTemplates={"Estimated median range: {0} ({1} timed correct answers).":"Estimeret medianinterval: {0} ({1} korrekte svar med tidsmåling).","Question {0} · {1}":"Opgave {0} · {1}","{0} correct patterns":"{0} rigtige mønstre","Active time: {0}":"Aktiv tid: {0}","Comparison: {0} voluntary attempts over {1} days.":"Sammenligning: {0} frivillige forsøg over {1} dage.","Question {0} / {1}":"Opgave {0} / {1}","Review question {0} / {1}":"Gennemgå opgave {0} / {1}","Row {0}, icon {1}":"Række {0}, figur {1}","Answer {0}":"Svar {0}","Question {0}, {1}":"Opgave {0}, {1}","Review question {0}, {1}":"Gennemgå opgave {0}, {1}","{0} correct; {1} incorrect; {2} unanswered.":"{0} rigtige; {1} forkerte; {2} ubesvarede.","{0} answered; {1} unanswered.":"{0} besvarede; {1} ubesvarede.","{0} answered; {1} unanswered. Unanswered questions count as incorrect. Once finished, you cannot change answers.":"{0} besvarede; {1} ubesvarede. Ubesvarede opgaver tæller som forkerte. Når du har afsluttet, kan du ikke rette dine svar.","{0} / {1} correct":"{0} / {1} rigtige","Percentile among historical participants: {0}":"Percentil blandt historiske deltagere: {0}","Participants scoring lower: {0}%. Participants with the same score: {1}%.":"Deltagere med lavere resultat: {0} %. Deltagere med samme resultat: {1} %.","Reference group: {0} historical attempts. Attempts with recorded durations over one minute and up to 40 minutes are included. Tied scores share the midpoint of their percentile group. Estimates are rounded to whole numbers and displayed only within 55–145, with a limit indicator outside that range. This is a scale conversion, not an independently validated population IQ measurement. Practice and repeated attempts can affect your result. Some example images have been corrected since the historical attempts were collected, which limits comparability.":"Sammenligningsgruppe: {0} historiske forsøg. Forsøg med registreret varighed på over ét minut og op til 40 minutter indgår. Ved samme antal rigtige bruges midten af gruppens percentilinterval. Estimater afrundes til hele tal og vises kun inden for 55–145 med en grænsemarkering uden for intervallet. Dette er en omregning af skalaen, ikke en uafhængigt valideret IQ-måling i befolkningen. Øvelse og gentagne forsøg kan påvirke dit resultat. Nogle eksempelbilleder er rettet, siden de historiske forsøg blev indsamlet, hvilket begrænser sammenligneligheden.","My estimated IQ in IQ Champion: {0}. Just for fun. Try it: {1}":"Min estimerede IQ i IQ Champion: {0}. Kun for sjov. Prøv selv: {1}","I solved question {0} correctly in {1}. Can you do it too? {2}":"Jeg løste opgave {0} korrekt på {1}. Kan du også? {2}","I solved question {0} correctly in {1} (estimated median among correct answers: {2}). Can you do it too? {3}":"Jeg løste opgave {0} korrekt på {1} (estimeret median blandt korrekte svar: {2}). Kan du også? {3}","I found {0} correct patterns in IQ Champion. Try it: {1}":"Jeg fandt {0} rigtige mønstre i IQ Champion. Prøv selv: {1}","Can you find the missing patterns in IQ Champion? {0}":"Kan du finde de manglende mønstre i IQ Champion? {0}","Question {0} solved":"Opgave {0} løst","{0} patterns solved":"{0} mønstre løst","{0} / 36 correct. {1}":"{0} / 36 rigtige. {1}","Estimated IQ {0} | IQ Champion":"Estimeret IQ {0} | IQ Champion"};
   const status = {correct:'rigtigt', incorrect:'forkert', unanswered:'ubesvaret', answered:'besvaret'};
   const count = (n, singular, plural) => `${n} ${Number(n) === 1 ? singular : plural}`;
   const number = value => String(value).replace('.', ',');
@@ -158,19 +160,31 @@ const i18n = (() => {
     [/^Reference group: ([\d,]+) historical attempts\..*$/, (_,count) => `Sammenligningsgruppe: ${count.replace(/,/g,'.')} historiske forsøg. Forsøg med registreret varighed på over ét minut og op til 40 minutter indgår. Ved samme antal rigtige bruges midten af gruppens percentilinterval. Estimater afrundes til hele tal og vises kun inden for 55–145 med en grænsemarkering uden for intervallet. Dette er en omregning af skalaen, ikke en uafhængigt valideret IQ-måling i befolkningen. Øvelse og gentagne forsøg kan påvirke dit resultat. Nogle eksempelbilleder er rettet, siden de historiske forsøg blev indsamlet, hvilket begrænser sammenligneligheden.`],
     [/^\d{1,3}(,\d{3})+$/, text => text.replace(/,/g,'.')]
   ];
-  const route = typeof location !== 'undefined' ? location.pathname.match(/^\/(da|en)(?:\/|\/index\.html)?$/)?.[1] : null;
-  let language = route || 'en';
-  if (!route) try { const saved=localStorage.getItem('iqchampion.language'); if (saved==='da'||saved==='en') language=saved; else if (navigator.language?.toLowerCase().startsWith('da')) language='da'; } catch { if (typeof navigator!=='undefined'&&navigator.language?.toLowerCase().startsWith('da')) language='da'; }
-  const englishByDanish = new Map(Object.entries(da).map(([english,danish])=>[danish,english]));
-  const englishSource = value => englishByDanish.get(value) || value;
+  const catalog = typeof IQLanguages!=='undefined'?IQLanguages:[{code:'da',nativeName:'Dansk',flag:'dk',dir:'ltr'},{code:'en',nativeName:'English',flag:'gb',dir:'ltr'}];
+  const supported = code=>catalog.some(l=>l.code===code);
+  const packs=globalThis.IQLocalePacks||(globalThis.IQLocalePacks={});
+  packs.da={code:'da',messages:da,templates:danishTemplates};packs.en??={code:'en',messages:{},templates:{}};
+  const routeCode=typeof location!=='undefined'?location.pathname.match(/^\/([^/]+)(?:\/|\/index\.html)?$/)?.[1]:null;
+  const route=supported(routeCode)?routeCode:null;
+  function preferred(code){const base=String(code||'').toLowerCase().split('-')[0];return supported(base)?base:base==='no'?'nb':null;}
+  let language=route||'en';
+  if(!route){let saved;try{saved=localStorage.getItem('iqchampion.language');}catch{}language=preferred(saved)||Array.from(navigator.languages||[navigator.language]).map(preferred).find(Boolean)||'en';}
+  if(language!=='en'&&language!=='da'&&!packs[language])language='en';
+  const englishSources=new Map();
+  for(const p of Object.values(packs))for(const [english,target] of Object.entries(p.messages||{}))englishSources.set(target,english);
+  const englishSource=value=>englishSources.get(value)||value;
   const bindings = new Map();
   const missing = new Set();
+  function format(template,...values){const translated=language==='en'?template:packs[language]?.templates?.[template];if(!translated){missing.add(template);return typeof IQLocaleTemplates!=='undefined'?IQLocaleTemplates.format(template,values):template;}return IQLocaleTemplates.format(translated,values);}
   function translate(value) {
-    const source = String(value);
-    if (language === 'en') return source;
-    if (Object.hasOwn(da, source)) return da[source];
-    for (const [pattern, render] of patterns) { const match = source.match(pattern); if (match) return render(...match); }
-    if (/[A-Za-z]/.test(source) && !['IQ Champion','Dansk','English'].includes(source)) missing.add(source);
+    const source=String(value);
+    if(language==='en')return source;
+    const dictionary=language==='da'?da:packs[language]?.messages||{};
+    if(Object.hasOwn(dictionary,source))return dictionary[source];
+    if(language==='da')for(const [pattern,render] of patterns){const match=source.match(pattern);if(match)return render(...match);}
+    if(typeof IQLocaleTemplates!=='undefined'){const dynamic=IQLocaleTemplates.match(source);if(dynamic){const translated=packs[language]?.templates?.[dynamic.source];if(translated)return IQLocaleTemplates.format(translated,dynamic.values.map(v=>dictionary[v]||v));}}
+    if(/^\d{1,3}(,\d{3})+$/.test(source))return new Intl.NumberFormat(language).format(Number(source.replace(/,/g,'')));
+    if(/[A-Za-z]/.test(source)&&!['IQ Champion','IQCHAMPION','Dansk','English'].includes(source))missing.add(source);
     return source;
   }
   function bind(element, property, source) {
@@ -188,41 +202,50 @@ const i18n = (() => {
     else if (property === 'alt') element.alt = value;
     else element.setAttribute(property, value);
   }
-  function setLanguage(next, persist = true) {
-    if (!['da','en'].includes(next)) return;
+  function applyLanguage(next, persist = true) {
+    if (!supported(next)) return false;
     language = next;
     document.documentElement?.setAttribute('lang', language);
+    document.documentElement?.setAttribute('dir', catalog.find(l=>l.code===language)?.dir||'ltr');
     missing.clear();
     for (const [element, entries] of bindings) {
       if (element.isConnected === false) { bindings.delete(element); continue; }
       for (const [property, source] of entries) apply(element, property, source);
     }
-    for (const code of ['da','en']) document.getElementById('language-'+code)?.setAttribute('aria-current', language === code ? 'page' : 'false');
+    for (const {code} of catalog) document.getElementById('language-'+code)?.setAttribute('aria-current', language === code ? 'page' : 'false');
     const link = document.getElementById('feedback-link');
-    if (link) link.setAttribute('href', 'https://munthesystems.dk/systems/feedback/iqchampion?lang='+language);
+    if (link) link.setAttribute('href', 'https://munthesystems.dk/systems/feedback/iqchampion?lang='+(language==='da'?'da':'en'));
+    const locale=catalog.find(l=>l.code===language);
+    const label=document.getElementById('language-current-name');if(label)label.textContent=locale.nativeName;
+    document.getElementById('language-current-flag')?.setAttribute('src','images/flags/'+locale.flag+'.svg');
+    const note=document.getElementById('feedback-language-note');if(note)note.hidden=['da','en'].includes(language);
     if (typeof update_share_links === 'function') update_share_links();
     if (typeof render_result_statistics === 'function') render_result_statistics();
     const canonical = 'https://iqchampion.com/'+language+'/';
-    document.title = translate('Free visual reasoning test | IQ Champion');
+    document.title = translate('Free IQ test for fun | IQ Champion');
     document.querySelector?.('link[rel="canonical"]')?.setAttribute('href',canonical);
     document.querySelector?.('meta[property="og:url"]')?.setAttribute('content',canonical);
     document.querySelector?.('meta[property="og:title"]')?.setAttribute('content',document.title);
-    document.querySelector?.('meta[property="og:locale"]')?.setAttribute('content',language==='da'?'da_DK':'en_GB');
-    const description=translate('36 visual reasoning puzzles. Take a free 40-minute challenge and explore your results.');
+    document.querySelector?.('meta[property="og:locale"]')?.setAttribute('content',(language==='fil'?'tl':language)+'_'+locale.flag.toUpperCase());
+    const description=translate('A free IQ-style test for fun: 36 visual puzzles, 40 minutes, saved progress and an estimated IQ result. No account needed.');
     document.querySelector?.('meta[property="og:description"]')?.setAttribute('content',description);
+    document.querySelector?.('meta[property="og:image"]')?.setAttribute('content','https://iqchampion.com/images/'+(['da','en'].includes(language)?'share-'+language:'share-universal')+'.png');
     const schema=document.getElementById('site-schema');
-    if(schema) schema.textContent=JSON.stringify({'@context':'https://schema.org','@type':'WebPage',name:document.title,description,url:canonical,inLanguage:language,isAccessibleForFree:true,isPartOf:{'@type':'WebSite',name:'IQ Champion',url:'https://iqchampion.com/'}});
+    if(schema) schema.textContent=JSON.stringify({'@context':'https://schema.org','@type':'WebPage',name:document.title,description,url:canonical,inLanguage:language,isAccessibleForFree:true,isPartOf:{'@type':'WebSite',name:'IQ Champion',url:'https://iqchampion.com/'},primaryImageOfPage:{'@type':'ImageObject',url:'https://iqchampion.com/images/'+(['da','en'].includes(language)?'share-'+language:'share-universal')+'.png',width:1200,height:630}});
     if (persist) {
       try { localStorage.setItem('iqchampion.language', language); } catch { /* The current page still switches. */ }
       if (typeof history!=='undefined'&&typeof location!=='undefined') try { history.replaceState(null,'','/'+language+'/'+location.search+location.hash); } catch { /* Keep the language usable in restricted previews. */ }
     }
   }
+  let languageRequest=0;const loading=new Map();
+  function load(code){if(packs[code])return Promise.resolve();if(loading.has(code))return loading.get(code);const promise=new Promise((resolve,reject)=>{if(!document.createElement||!document.head?.append){reject(Error('Language unavailable'));return;}const script=document.createElement('script');script.src='assets/locales/'+code+'.js?v=20261122-l10n1';script.async=true;const timeout=setTimeout(()=>reject(Error('Language timeout')),15000);script.onload=()=>{clearTimeout(timeout);packs[code]?.code===code&&typeof packs[code].messages?.['Free IQ test for fun | IQ Champion']==='string'&&Object.keys(packs.en.messages).every(key=>typeof packs[code].messages[key]==='string'&&packs[code].messages[key].trim())&&IQLocaleTemplates.sources.every(source=>IQLocaleTemplates.valid(source,packs[code].templates?.[source]))?resolve():(delete packs[code],reject(Error('Language unavailable')));};script.onerror=()=>{clearTimeout(timeout);reject(Error('Language unavailable'));};document.head.append(script);}).finally(()=>loading.delete(code));loading.set(code,promise);return promise;}
+  function setLanguage(next,persist=true){if(!supported(next))return false;const request=++languageRequest;if(packs[next]){applyLanguage(next,persist);return true;}const status=document.getElementById('language-load-status');if(status)status.textContent=translate('Loading language…');return load(next).then(()=>{if(request!==languageRequest)return false;applyLanguage(next,persist);if(status)status.textContent='';return true;}).catch(()=>{if(request===languageRequest&&status)status.textContent=translate('The language could not be loaded. Your test and answers are unchanged.');return false;});}
   // Capture only the initial product-owned HTML. Dynamic content uses the same bindings below.
   if (document.createTreeWalker) {
     const walker = document.createTreeWalker(document.body, 4);
     let node;
     while ((node = walker.nextNode())) {
-      if (['SCRIPT','STYLE','NOSCRIPT'].includes(node.parentElement?.tagName) || !node.nodeValue.trim()) continue;
+      if (['SCRIPT','STYLE','NOSCRIPT'].includes(node.parentElement?.tagName) || node.parentElement?.closest?.('[data-i18n-skip]') || !node.nodeValue.trim()) continue;
       const original=node.nodeValue;
       bind(node,'node',original.match(/^\s*/)[0]+englishSource(original.trim())+original.match(/\s*$/)[0]);
     }
@@ -230,11 +253,11 @@ const i18n = (() => {
       for (const attr of ['aria-label','alt','content']) if (el.hasAttribute(attr)) bind(el,attr,englishSource(el.getAttribute(attr)));
     }
   }
-  for (const code of ['da','en']) document.getElementById('language-'+code)?.addEventListener('click', event => {
+  for (const {code} of catalog) document.getElementById('language-'+code)?.addEventListener('click', event => {
     if (event && (event.button>0||event.ctrlKey||event.metaKey||event.shiftKey||event.altKey)) return;
     event?.preventDefault();
-    setLanguage(code);
+    Promise.resolve(setLanguage(code)).then(ok=>{const dialog=document.getElementById('language-dialog');if(ok&&dialog?.open)dialog.close();});
   });
   setLanguage(language, false);
-  return { clear:el=>bindings.delete(el), text:(el,value)=>bind(el,'text',value), html:(el,value)=>bind(el,'html',value), attribute:(el,name,value)=>bind(el,name,value), setLanguage, translate, get language(){return language;}, missing };
+  return { clear:el=>bindings.delete(el), text:(el,value)=>bind(el,'text',value), html:(el,value)=>bind(el,'html',value), attribute:(el,name,value)=>bind(el,name,value), setLanguage, translate, format, catalog, get language(){return language;}, missing };
 })();

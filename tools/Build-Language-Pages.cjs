@@ -1,86 +1,29 @@
 'use strict';
-const fs = require('node:fs');
-const path = require('node:path');
-const vm = require('node:vm');
-const root = path.resolve(__dirname, '..');
-const source = fs.readFileSync(path.join(root, 'index.html'), 'utf8');
-const check = process.argv.includes('--check');
-const normalize = text => text.replace(/\r\n/g,'\n');
-const origin = 'https://iqchampion.com';
-const stylesheet='/' + source.match(/<link href="(assets\/styles\.css[^"]*)" rel="stylesheet">/)[1];
-const skin='/' + source.match(/<link href="(assets\/scandinavian\.css[^"]*)" rel="stylesheet">/)[1];
-const reference={};
-vm.runInNewContext(fs.readFileSync(path.join(root,'assets/time_and_scores.js'),'utf8')+';this.count=time_and_scores.filter(row=>row[0]>60&&row[0]<=2400).length;',reference);
-if(!source.includes('<span id="reference-count">'+reference.count.toLocaleString('en-US')+'</span>'))throw Error('Update the reference count in the HTML template from the unchanged source data.');
-const decode = s => s.replace(/&amp;/g,'&').replace(/&quot;/g,'"').replace(/&#39;/g,"'").replace(/&lt;/g,'<').replace(/&gt;/g,'>');
-const escape = s => s.replace(/&/g,'&amp;').replace(/"/g,'&quot;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
-function locale(language) {
-  const context = vm.createContext({location:{pathname:`/${language}/`,search:'',hash:''},navigator:{language},localStorage:{getItem:()=>null},document:{documentElement:{setAttribute(){}},getElementById:()=>null,querySelector:()=>null}});
-  vm.runInContext(fs.readFileSync(path.join(root,'assets/i18n.js'),'utf8')+';this.translateProductCopy=i18n.translate;',context);
-  const translate=value=>context.translateProductCopy(value);
-  translate.check=()=>{const missing=vm.runInContext('Array.from(i18n.missing)',context);if(missing.length)throw Error('Missing product translations: '+missing.join(', '));};
-  return translate;
+const fs=require('node:fs'),path=require('node:path'),vm=require('node:vm');const root=path.resolve(__dirname,'..');const source=fs.readFileSync(path.join(root,'index.html'),'utf8');const catalog=require('../assets/languages.js');const templates=require('../assets/locale-templates.js');const check=process.argv.includes('--check'),readyOnly=process.argv.includes('--ready-only');const origin='https://iqchampion.com';const normalize=s=>s.replace(/\r\n/g,'\n');const escape=s=>String(s).replace(/&/g,'&amp;').replace(/"/g,'&quot;').replace(/</g,'&lt;').replace(/>/g,'&gt;');const decode=s=>s.replace(/&amp;/g,'&').replace(/&quot;/g,'"').replace(/&#39;/g,"'").replace(/&lt;/g,'<').replace(/&gt;/g,'>');
+const packs=new Map();for(const l of catalog){const file=path.join(root,'assets/locales/'+l.code+'.js');if(!fs.existsSync(file)){if(readyOnly)continue;throw Error('Missing complete language pack: '+l.code);}const ctx={};vm.runInNewContext(fs.readFileSync(file,'utf8'),ctx);const pack=ctx.IQLocalePacks?.[l.code];if(!pack?.messages||!pack?.templates)throw Error('Invalid language pack: '+l.code);const englishContext={};vm.runInNewContext(fs.readFileSync(path.join(root,'assets/locales/en.js'),'utf8'),englishContext);for(const key of Object.keys(englishContext.IQLocalePacks.en.messages))if(typeof pack.messages[key]!=='string'||!pack.messages[key].trim())throw Error('Incomplete '+l.code+' translation: '+key);for(const t of templates.sources)if(!templates.valid(t,pack.templates[t]))throw Error('Invalid template '+l.code+': '+t);packs.set(l.code,pack);}
+const languages=catalog.filter(l=>packs.has(l.code));const stylesheet='/'+source.match(/<link href="(assets\/styles\.css[^"]*)" rel="stylesheet">/)[1];const skin='/'+source.match(/<link href="(assets\/scandinavian\.css[^"]*)" rel="stylesheet">/)[1];
+const reference={};vm.runInNewContext(fs.readFileSync(path.join(root,'assets/time_and_scores.js'),'utf8')+';this.rows=time_and_scores.filter(row=>row[0]>60&&row[0]<=2400);'+fs.readFileSync(path.join(root,'assets/percentiles.js'),'utf8')+';'+fs.readFileSync(path.join(root,'assets/iq-score.js'),'utf8')+';this.iq=estimate_iq;',reference);
+if(!source.includes('<span id="reference-count">'+reference.rows.length.toLocaleString('en-US')+'</span>'))throw Error('Reference count differs from unchanged norm data');
+const titleSource='Free IQ test for fun | IQ Champion',descriptionSource='A free IQ-style test for fun: 36 visual puzzles, 40 minutes, saved progress and an estimated IQ result. No account needed.';
+function translate(language,text){if(/^\d{1,3}(,\d{3})+$/.test(text))return new Intl.NumberFormat(language).format(Number(text.replace(/,/g,'')));if(language==='en')return text;const result=packs.get(language).messages[text];if(typeof result!=='string'||!result.trim()){if(!/[A-Za-z]/.test(text)||['IQ Champion','IQCHAMPION','English','Dansk'].includes(text))return text;throw Error('Missing '+language+' translation: '+text);}return result;}
+const format=(language,text,...values)=>templates.format(language==='en'?text:packs.get(language).templates[text],values);
+const shareImage=language=>origin+'/images/'+(['da','en'].includes(language)?'share-'+language:'share-universal')+'.png';
+const alternates=languages.map(l=>`<link rel="alternate" hreflang="${l.code}" href="${origin}/${l.code}/">`).join('\n')+`\n<link rel="alternate" hreflang="x-default" href="${origin}/">`;
+const ogLocale=l=>(l.code==='fil'?'tl':l.code)+'_'+l.flag.toUpperCase();
+function render(l){let stack=[];const voids=new Set(['area','base','br','col','embed','hr','img','input','link','meta','param','source','track','wbr']);let html=(source.match(/<!--[\s\S]*?-->|<[^>]*>|[^<]+/g)||[]).map(token=>{if(token.startsWith('<')){const close=token.match(/^<\/([\w:-]+)/);if(close){const i=stack.map(x=>x.tag).lastIndexOf(close[1].toLowerCase());if(i>=0)stack=stack.slice(0,i);}else{const open=token.match(/^<([\w:-]+)/);if(open&&!voids.has(open[1].toLowerCase())&&!token.endsWith('/>'))stack.push({tag:open[1].toLowerCase(),skip:['script','style','noscript'].includes(open[1].toLowerCase())||token.includes('data-i18n-skip')});}
+ token=token.replace(/\b(aria-label|alt)="([^"]*)"/g,(_,k,v)=>k+'="'+escape(translate(l.code,decode(v)))+'"');if(/^<meta\b/i.test(token)&&/(?:name="description"|property="og:(?:title|description)")/.test(token))token=token.replace(/content="([^"]*)"/,(_,v)=>'content="'+escape(translate(l.code,decode(v)))+'"');return token;}if(stack.some(x=>x.skip)||!token.trim())return token;return token.match(/^\s*/)[0]+escape(translate(l.code,decode(token.trim())))+token.match(/\s*$/)[0];}).join('');
+ html=html.replace(/<html lang="[^"]+"(?: dir="[^"]+")?>/,`<html lang="${l.code}" dir="${l.dir}">`).replace(/<link rel="alternate" hreflang="[^"]+" href="[^"]+">\s*/g,'').replace(/(<link rel="canonical" href=")[^"]+/,`$1${origin}/${l.code}/`).replace(/(<link rel="canonical"[^>]*>)/,'$1\n'+alternates).replace(/(<meta property="og:url" content=")[^"]+/,`$1${origin}/${l.code}/`).replace(/(<meta property="og:locale" content=")[^"]+/,`$1${ogLocale(l)}`).replace(/(<meta property="og:image" content=")[^"]+/,`$1${shareImage(l.code)}`).replace(/(id="locale-pack" src=")assets\/locales\/[^?]+/,`$1assets/locales/${l.code}.js`).replace(/(id="language-current-flag" src=")[^"]+/,`$1images/flags/${l.flag}.svg`).replace(/(<span id="language-current-name"[^>]*>)[^<]*/,(_,prefix)=>prefix+escape(l.nativeName)).replace(/(id="language-([^"]+)"[^>]*aria-current=")[^"]+/g,(_,prefix,code)=>prefix+(code===l.code?'page':'false')).replace(/(id="feedback-link" href="[^?]+\?lang=)(?:da|en)/,`$1${l.code==='da'?'da':'en'}`).replace(/(id="share-test-link" href=")[^"]+/,`$1https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(origin+'/'+l.code+'/')}`);
+ if(!['da','en'].includes(l.code))html=html.replace('id="feedback-language-note" class="feedback-language-note" hidden','id="feedback-language-note" class="feedback-language-note"');
+ const schema={'@context':'https://schema.org','@type':'WebPage',name:translate(l.code,titleSource),description:translate(l.code,descriptionSource),url:origin+'/'+l.code+'/',inLanguage:l.code,isAccessibleForFree:true,isPartOf:{'@type':'WebSite',name:'IQ Champion',url:origin+'/'},primaryImageOfPage:{'@type':'ImageObject',url:shareImage(l.code),width:1200,height:630}};
+ html=html.replace(/(<title>)[\s\S]*?(<\/title>)/,(_,a,b)=>a+escape(translate(l.code,titleSource))+b).replace(/(<meta property="og:title" content=")[^"]*/,(_,a)=>a+escape(translate(l.code,titleSource)));
+ return html.replace(/(<script id="site-schema"[^>]*>)[\s\S]*?(<\/script>)/,(_,a,b)=>a+JSON.stringify(schema)+b);
 }
-function render(language) {
-  const translate=locale(language);
-  let ignored=0;
-  let html=(source.match(/<!--[\s\S]*?-->|<[^>]*>|[^<]+/g)||[]).map(token=>{
-    if(token.startsWith('<')) {
-      if(/^<\/(script|style|noscript)\b/i.test(token))ignored--;
-      else if(/^<(script|style|noscript)\b/i.test(token))ignored++;
-      token=token.replace(/\b(aria-label|alt)="([^"]*)"/g,(_,key,value)=>`${key}="${escape(translate(decode(value)))}"`);
-      if(/^<meta\b/i.test(token)&&/(?:name="description"|property="og:(?:title|description)")/.test(token))token=token.replace(/content="([^"]*)"/,(_,value)=>`content="${escape(translate(decode(value)))}"`);
-      return token;
-    }
-    if(ignored||!token.trim())return token;
-    return token.match(/^\s*/)[0]+escape(translate(decode(token.trim())))+token.match(/\s*$/)[0];
-  }).join('');
-  html=html.replace('<html lang="en">',`<html lang="${language}">`)
-    .replace(/(<link rel="canonical" href=")[^"]+/,`$1${origin}/${language}/`)
-    .replace(/(<meta property="og:url" content=")[^"]+/,`$1${origin}/${language}/`)
-    .replace(/(<meta property="og:locale" content=")[^"]+/,`$1${language==='da'?'da_DK':'en_GB'}`)
-    .replace(/(<meta property="og:image" content=")[^"]+/,`$1${origin}/images/share-${language}.png`)
-    .replace(/(id="language-(da|en)"[^>]*aria-current=")[^"]+/g,(_,prefix,code)=>prefix+(code===language?'page':'false'))
-    .replace(/(id="feedback-link" href="[^"]+\?lang=)(?:da|en)/,`$1${language}`)
-    .replace(/(id="share-test-link" href=")[^"]+/,`$1https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(origin+'/'+language+'/')}`);
-  const schema={'@context':'https://schema.org','@type':'WebPage',name:translate('Free visual reasoning test | IQ Champion'),description:translate('36 visual reasoning puzzles. Take a free 40-minute challenge and explore your results.'),url:`${origin}/${language}/`,inLanguage:language,isAccessibleForFree:true,isPartOf:{'@type':'WebSite',name:'IQ Champion',url:origin+'/'}};
-  html=html.replace(/(<script id="site-schema"[^>]*>)[\s\S]*?(<\/script>)/,(_,a,b)=>a+JSON.stringify(schema)+b);
-  translate.check();
-  return html;
-}
-const files={
- 'da/index.html':render('da'),
- 'en/index.html':render('en'),
- 'robots.txt':`User-agent: *\nAllow: /\nSitemap: ${origin}/sitemap.xml\n`,
- 'sitemap.xml':`<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n  <url><loc>${origin}/da/</loc></url>\n  <url><loc>${origin}/en/</loc></url>\n</urlset>\n`,
- '404.html':`<!DOCTYPE html>\n<html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="robots" content="noindex,follow"><title>Page not found | IQ Champion</title><link rel="stylesheet" href="${stylesheet}"><link rel="stylesheet" href="${skin}"></head><body><main class="result"><section class="panel"><h1>Page not found</h1><p lang="da">Siden findes ikke. Du kan fortsætte på dansk eller engelsk.</p><p>You can continue in Danish or English.</p><nav class="question-actions" aria-label="Choose language"><a class="secondary" href="/da/" lang="da">Dansk</a><a class="secondary" href="/en/" lang="en">English</a></nav></section></main></body></html>\n`
-};
-// Finite, anonymous score pages let Facebook read actual metadata on static hosting.
-// They contain only an aggregate correct count and estimate, never answers or IDs.
-const shareContext={};
-vm.runInNewContext(fs.readFileSync(path.join(root,'assets/time_and_scores.js'),'utf8')+';this.reference=time_and_scores.filter(r=>r[0]>60&&r[0]<=2400);'+fs.readFileSync(path.join(root,'assets/percentiles.js'),'utf8')+';'+fs.readFileSync(path.join(root,'assets/iq-score.js'),'utf8')+';this.iq=estimate_iq;',shareContext);
-for(const lang of ['da','en'])for(let score=0;score<=36;score++){
- const ref=shareContext.reference;
- const percentile=100*(ref.filter(r=>r[1]<score).length+ref.filter(r=>r[1]===score).length/2)/ref.length;
- const estimate=shareContext.iq(percentile);
- const da=lang==='da';
- const title=(da?'Estimeret IQ ':'Estimated IQ ')+estimate+' | IQ Champion';
- const summary=da?score+' / 36 rigtige. En gratis test med figuropgaver, kun for sjov. Ikke en fagligt valideret IQ-måling.':score+' / 36 correct. A free visual puzzle test, just for fun. Not a professionally validated IQ measurement.';
- const url=origin+'/share/'+lang+'/'+score+'/';
- files['share/'+lang+'/'+score+'/index.html']='<!DOCTYPE html>\n<html lang="'+lang+'"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="robots" content="noindex,follow"><title>'+escape(title)+'</title><meta name="description" content="'+escape(summary)+'"><link rel="canonical" href="'+url+'"><meta property="og:type" content="website"><meta property="og:url" content="'+url+'"><meta property="og:title" content="'+escape(title)+'"><meta property="og:description" content="'+escape(summary)+'"><meta property="og:image" content="'+origin+'/images/share-'+lang+'.png"><link rel="stylesheet" href="'+stylesheet+'"><link rel="stylesheet" href="'+skin+'"></head><body><main class="result"><section class="panel result-card"><h1>'+(da?'Delt resultat':'Shared result')+'</h1><p class="iq-label">'+(da?'Estimeret IQ':'Estimated IQ')+'</p><p class="iq-score">'+escape(estimate)+'</p><p class="iq-disclaimer small">'+escape(summary)+'</p><p class="small">'+(da?'Delte resultater er selvrapporterede.':'Shared results are self-reported.')+'</p><p class="about-action"><a class="primary" href="/'+lang+'/">'+(da?'Prøv selv testen':'Try the test yourself')+'</a></p></section></main></body></html>\n';
-}
-// Share cards are static and anonymous: captions stay with the user, never in URL parameters.
-for(const lang of ['da','en'])for(const kind of ['question','patterns'])for(let n=kind==='question'?1:0;n<=36;n++){
- const da=lang==='da',url=origin+'/share/'+lang+'/'+kind+'/'+n+'/';
- const title=kind==='question'?(da?'Opgave '+n+' løst':'Question '+n+' solved'):(da?n+' mønstre løst':n+' patterns solved');
- const summary=da?'En visuel udfordring i IQ Champion. Kan du også finde mønstret?':'A visual challenge in IQ Champion. Can you spot the pattern too?';
- files['share/'+lang+'/'+kind+'/'+n+'/index.html']='<!DOCTYPE html>\n<html lang="'+lang+'"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="robots" content="noindex,follow"><title>'+escape(title)+' | IQ Champion</title><meta name="description" content="'+escape(summary)+'"><link rel="canonical" href="'+url+'"><meta property="og:type" content="website"><meta property="og:url" content="'+url+'"><meta property="og:title" content="'+escape(title)+' | IQ Champion"><meta property="og:description" content="'+escape(summary)+'"><meta property="og:image" content="'+origin+'/images/share-'+lang+'.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><link rel="stylesheet" href="'+stylesheet+'"><link rel="stylesheet" href="'+skin+'"></head><body><main class="result"><section class="panel result-card"><p class="eyebrow">IQ Champion</p><h1>'+escape(title)+'</h1><p>'+escape(summary)+'</p><p class="small">'+(da?'Delte præstationer er selvrapporterede. Ingen alder, land, svar eller personlige profiler deles.':'Shared achievements are self-reported. No age, country, answers or personal profiles are shared.')+'</p><p class="about-action"><a class="primary" href="/'+lang+'/">'+(da?'Prøv selv de 36 opgaver':'Try the 36 puzzles yourself')+'</a></p></section></main></body></html>\n';
-}
-let stale=[];
-for(const [name,content] of Object.entries(files)) {
- const target=path.join(root,name);
- if(check) { if(!fs.existsSync(target)||normalize(fs.readFileSync(target,'utf8'))!==normalize(content))stale.push(name); }
- else { fs.mkdirSync(path.dirname(target),{recursive:true});fs.writeFileSync(target,content); }
-}
-if(stale.length){console.error('Generated pages need updating: '+stale.join(', '));process.exitCode=1;}
-else console.log((check?'Verified':'Generated')+' da/en HTML, sitemap, robots and noindex 404.');
+const files={};for(const l of languages)files[l.code+'/index.html']=render(l);files['index.html']=render(catalog.find(l=>l.code==='en'));
+files['robots.txt']='User-agent: *\nAllow: /\nSitemap: '+origin+'/sitemap.xml\n';
+files['sitemap.xml']='<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">\n'+languages.map(l=>'  <url><loc>'+origin+'/'+l.code+'/</loc>'+languages.map(x=>'<xhtml:link rel="alternate" hreflang="'+x.code+'" href="'+origin+'/'+x.code+'/"/>').join('')+'<xhtml:link rel="alternate" hreflang="x-default" href="'+origin+'/"/></url>').join('\n')+'\n</urlset>\n';
+const languageLinks=catalog.map(l=>'<a href="/'+l.code+'/" lang="'+l.code+'" hreflang="'+l.code+'">'+escape(l.nativeName)+'</a>').join(' ');
+files['404.html']='<!DOCTYPE html>\n<html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="robots" content="noindex,follow"><title>Page not found | IQ Champion</title><link rel="stylesheet" href="'+stylesheet+'"><link rel="stylesheet" href="'+skin+'"></head><body><main class="result"><section class="panel"><h1>404</h1><p>Page not found. Choose your language.</p><nav class="error-languages" aria-label="Choose language">'+languageLinks+'</nav></section></main></body></html>\n';
+function share(l,relative,title,description,content){const url=origin+'/'+relative;return '<!DOCTYPE html>\n<html lang="'+l.code+'" dir="'+l.dir+'"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="robots" content="noindex,follow"><title>'+escape(title)+'</title><meta name="description" content="'+escape(description)+'"><link rel="canonical" href="'+url+'"><meta property="og:type" content="website"><meta property="og:url" content="'+url+'"><meta property="og:locale" content="'+ogLocale(l)+'"><meta property="og:title" content="'+escape(title)+'"><meta property="og:description" content="'+escape(description)+'"><meta property="og:image" content="'+shareImage(l.code)+'"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><link rel="stylesheet" href="'+stylesheet+'"><link rel="stylesheet" href="'+skin+'"></head><body><main class="result"><section class="panel result-card">'+content+'<p class="about-action"><a class="primary" href="/'+l.code+'/">'+escape(translate(l.code,'Try the test yourself'))+'</a></p></section></main></body></html>\n';}
+for(const l of languages){for(let score=0;score<=36;score++){const r=reference.rows,percentile=100*(r.filter(x=>x[1]<score).length+r.filter(x=>x[1]===score).length/2)/r.length,iq=reference.iq(percentile);const title=format(l.code,'Estimated IQ {0} | IQ Champion',iq),summary=format(l.code,'{0} / 36 correct. {1}',score,translate(l.code,'A free visual puzzle test, just for fun. Not a professionally validated IQ measurement.'));files['share/'+l.code+'/'+score+'/index.html']=share(l,'share/'+l.code+'/'+score+'/',title,summary,'<h1>'+escape(translate(l.code,'Shared result'))+'</h1><p class="iq-label">'+escape(translate(l.code,'Estimated IQ'))+'</p><p class="iq-score">'+escape(iq)+'</p><p class="small">'+escape(summary)+'</p><p class="small">'+escape(translate(l.code,'Shared results are self-reported.'))+'</p>');}
+ for(const kind of ['question','patterns'])for(let n=kind==='question'?1:0;n<=36;n++){const title=format(l.code,kind==='question'?'Question {0} solved':'{0} patterns solved',n),summary=translate(l.code,'A visual challenge in IQ Champion. Can you spot the pattern too?');files['share/'+l.code+'/'+kind+'/'+n+'/index.html']=share(l,'share/'+l.code+'/'+kind+'/'+n+'/',title+' | IQ Champion',summary,'<p class="eyebrow">IQ Champion</p><h1>'+escape(title)+'</h1><p>'+escape(summary)+'</p><p class="small">'+escape(translate(l.code,'Shared achievements are self-reported. No age, country, answers or personal profiles are shared.'))+'</p>');}}
+const stale=[];for(const [name,content] of Object.entries(files)){const file=path.join(root,name);if(check){if(!fs.existsSync(file)||normalize(fs.readFileSync(file,'utf8'))!==normalize(content))stale.push(name);}else{fs.mkdirSync(path.dirname(file),{recursive:true});fs.writeFileSync(file,content);}}if(stale.length){console.error('Generated pages need updating: '+stale.slice(0,20).join(', '));process.exitCode=1;}else console.log((check?'Verified':'Generated')+' '+languages.length+' full language routes, localized anonymous shares, reciprocal hreflang and sitemap.'+(readyOnly?' (ready-only development mode)':''));

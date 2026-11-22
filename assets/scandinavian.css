@@ -139,3 +139,29 @@ body { display:flow-root; }
 .partial-result .iq-incomplete { margin-top:18px; }
 @media (max-width:599px) { .test-screen[data-detailed="true"] { --tile:72px; } }
 @media (max-width:599px) { .hero-art { margin:0; transform:rotate(18deg) skewY(-4deg) scale(.76); } }
+/* Searchable locale selection: local SVG flags supplement native language names. */
+.language-trigger { display:flex; min-width:0; align-items:center; gap:8px; min-height:34px; padding:6px 11px; border:1px solid #d7e3ed; border-radius:20px; color:#173b5b; background:linear-gradient(#fff,#f0f6fb); font-size:12px; font-weight:600; }
+.language-trigger:hover { background:#eaf5fc; border-color:#9bbfd9; }
+.language-trigger img,.language-choice img { width:24px; height:18px; object-fit:cover; border-radius:3px; box-shadow:0 0 0 1px #142d4a15; flex:none; }
+.language-trigger .ui-icon { width:13px; height:13px; flex:none; }
+#language-current-name { white-space:nowrap; overflow:hidden; text-overflow:ellipsis; max-width:160px; }
+.site-header .language-switch { flex:0 1 auto; min-width:0; }
+#language-dialog { width:min(700px,calc(100vw - 28px)); max-height:calc(100svh - 32px); border:1px solid #d2dfeb; border-radius:18px; color:var(--text); background:#fff; padding:24px; box-shadow:0 20px 90px #16395630; }
+#language-dialog::backdrop { background:#243e5b35; backdrop-filter:blur(5px); }
+.language-dialog-header { display:flex; justify-content:space-between; align-items:center; gap:20px; margin-bottom:10px; }
+.language-dialog-header h2 { font-size:23px; }
+#language-picker-close { min-width:40px; min-height:40px; padding:7px; }
+#language-dialog label { display:block; margin:18px 0 8px; font-size:13px; font-weight:600; }
+#language-search { width:100%; min-height:44px; padding:10px 14px; color:var(--text); border:1px solid #bfd2e2; border-radius:9px; background:#f8fbfd; font:inherit; font-size:15px; }
+#language-load-status:not(:empty) { padding-top:12px; }
+.language-list { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:8px; max-height:min(54svh,440px); overflow:auto; padding:4px 3px; margin-top:16px; }
+.language-list .language-choice { display:grid; grid-template-columns:24px minmax(0,1fr); gap:3px 9px; align-items:center; min-height:58px; margin:0; padding:9px; border:1px solid #e1e8f0; border-radius:10px; color:#193b5c; background:#fff; text-decoration:none; font-size:14px; text-align:start; }
+.language-choice img { grid-row:1/3; }.language-choice-name { font-weight:600; overflow-wrap:anywhere; }.language-english { grid-column:2; font-size:11px; color:#657b91; }
+.language-list .language-choice:hover { border-color:#99c4e4; background:#f1f9fe; }.language-list .language-choice[aria-current="page"] { border-color:#79b7df; background:#eaf5fd; box-shadow:inset 0 0 0 1px #c1dff1; }
+.feedback-language-note { padding:8px 24px 0; text-align:center; color:#58718c; font-size:11px; }
+.error-languages { display:flex; flex-wrap:wrap; gap:8px 18px; padding:20px; }.error-languages a { color:#146fb3; }
+html[dir="rtl"] .brand { direction:ltr; } html[dir="rtl"] .test-left,html[dir="rtl"] .answers,html[dir="rtl"] .review-comparison,html[dir="rtl"] .timer { direction:ltr; }
+html[dir="rtl"] .hero .primary .ui-icon { right:auto; left:18px; transform:rotate(180deg); }html[dir="rtl"] .hero .primary { padding-right:20px; padding-left:42px; }
+html[dir="rtl"] .test-facts > div+div::before { left:auto; right:0; }html[dir="rtl"] .test-toolbar .toolbar-control { text-align:right; }html[dir="rtl"] .test-toolbar .disclosure-caret { margin-left:0; margin-right:auto; }
+html[dir="rtl"] .statistics-table { text-align:right; }html[dir="rtl"] #language-dialog { text-align:right; }
+@media (max-width:599px) { .language-trigger { min-height:32px; padding:5px 8px; font-size:11px; gap:5px; }.language-trigger img { width:21px; height:16px; }#language-current-name { max-width:100px; }#language-dialog { padding:18px; }.language-list { grid-template-columns:repeat(2,minmax(0,1fr)); }.language-list .language-choice { font-size:13px; padding:9px 7px; }.language-english { font-size:10px; }.language-dialog-header h2 { font-size:21px; } }

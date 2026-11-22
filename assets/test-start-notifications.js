@@ -8,6 +8,8 @@
     root.iq_test_start_notifications = api.create({enabled:true, allowedOrigins:['https://iqchampion.com']});
   }
 })(typeof globalThis !== 'undefined' ? globalThis : this, function() {
+  const languages=typeof module==='object'&&module.exports?require('./languages.js'):(typeof IQLanguages!=='undefined'?IQLanguages:[{code:'da'},{code:'en'}]);
+  const paths=new Set(['/',...languages.map(l=>'/'+l.code+'/')]);
   const ENDPOINT = 'https://munthesystems.dk/notifications/v1/events';
   const TTL = 7 * 86400000;
   const UUID = /^[0-9a-f]{8}-[0-9a-f]{4}-[1-8][0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$/;
@@ -27,7 +29,7 @@
     let opened = null, db = null, draining = null, timer = null, activeController = null, closed = false;
     const profileAllowed = () => !closed && options.enabled === true && (options.environment ?? 'production') === 'production' && Array.isArray(options.allowedOrigins)
       && options.allowedOrigins.includes(scope.origin) && String(scope.origin).startsWith('https://')
-      && ['/', '/da/', '/en/'].includes(scope.pathname);
+      && paths.has(scope.pathname);
     function privacyAllowed() {
       try {
         return nav.globalPrivacyControl !== true && !nav.webdriver

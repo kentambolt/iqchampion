@@ -10,11 +10,11 @@ function result_rows() { return IQAttemptStatistics.rows(answers,Array.from({len
 function stats_time(ms) { return ms===null||!Number.isFinite(ms)?'—':Math.max(0,Math.round(ms/1000))+' s'; }
 function stats_median(peer) { return stats_time(peer.median_lower_ms)+'–'+stats_time(peer.median_upper_ms); }
 function stats_copy_text(highlight) {
- const da=i18n.language==='da',site='https://iqchampion.com/'+i18n.language+'/';
- if(highlight.kind==='iq')return (da?'Min estimerede IQ i IQ Champion: ':'My estimated IQ in IQ Champion: ')+highlight.iq+(da?'. Kun for sjov. Prøv selv: ':'. Just for fun. Try it: ')+site;
- if(highlight.kind==='question')return (da?'Jeg løste opgave ':'I solved question ')+highlight.own.question+(da?' korrekt på ':' correctly in ')+stats_time(highlight.own.answer_ms)+(highlight.peer?(da?' (estimeret median blandt korrekte svar: ':' (estimated median among correct answers: ')+stats_median(highlight.peer)+')':'')+(da?'. Kan du også? ':'. Can you do it too? ')+site;
- if(highlight.kind==='score')return (da?'Jeg fandt ':'I found ')+highlight.correct+(da?' rigtige mønstre i IQ Champion. Prøv selv: ':' correct patterns in IQ Champion. Try it: ')+site;
- return (da?'Kan du finde de manglende mønstre i IQ Champion? ':'Can you find the missing patterns in IQ Champion? ')+site;
+ const site='https://iqchampion.com/'+i18n.language+'/';
+ if(highlight.kind==='iq')return i18n.format('My estimated IQ in IQ Champion: {0}. Just for fun. Try it: {1}',highlight.iq,site);
+ if(highlight.kind==='question')return highlight.peer?i18n.format('I solved question {0} correctly in {1} (estimated median among correct answers: {2}). Can you do it too? {3}',highlight.own.question,stats_time(highlight.own.answer_ms),stats_median(highlight.peer),site):i18n.format('I solved question {0} correctly in {1}. Can you do it too? {2}',highlight.own.question,stats_time(highlight.own.answer_ms),site);
+ if(highlight.kind==='score')return i18n.format('I found {0} correct patterns in IQ Champion. Try it: {1}',highlight.correct,site);
+ return i18n.format('Can you find the missing patterns in IQ Champion? {0}',site);
 }
 function render_result_statistics() {
  if(!finished||started_at===null)return;

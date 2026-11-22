@@ -1,7 +1,7 @@
 # Build deterministic 1200x630 social images from product-owned typography and original puzzle examples.
 Add-Type -AssemblyName System.Drawing
 $shareRoot = Split-Path $PSScriptRoot -Parent
-foreach ($lang in @('da','en')) {
+foreach ($lang in @('da','en','universal')) {
   $bitmap = [System.Drawing.Bitmap]::new(1200,630)
   $g = [System.Drawing.Graphics]::FromImage($bitmap)
   $g.SmoothingMode = [System.Drawing.Drawing2D.SmoothingMode]::AntiAlias
@@ -22,10 +22,10 @@ foreach ($lang in @('da','en')) {
   $g.FillRectangle([System.Drawing.Brushes]::DodgerBlue,91,68,27,27)
   $g.DrawString('IQCHAMPION',$brandFont,$white,129,72)
   $title=if($lang -eq 'da'){"Kan du finde`nmønstret?"}else{"Can you spot`nthe pattern?"}
-  $g.DrawString($title,$headline,$white,[System.Drawing.RectangleF]::new(72,175,580,160))
-  $g.DrawString($(if($lang -eq 'da'){'36 opgaver. 40 minutter.'}else{'36 puzzles. 40 minutes.'}),$body,$muted,78,356)
-  $g.FillRectangle($accent,78,432,425,68)
-  $g.DrawString($(if($lang -eq 'da'){'Prøv IQ Champion'}else{'Try IQ Champion'}),$cta,$ink,100,450)
+  if ($lang -ne 'universal') { $g.DrawString($title,$headline,$white,[System.Drawing.RectangleF]::new(72,175,580,160)) }
+  $g.DrawString($(if($lang -eq 'da'){'36 opgaver. 40 minutter.'}elseif($lang -eq 'universal'){'36 / 40:00'}else{'36 puzzles. 40 minutes.'}),$body,$muted,78,356)
+  if ($lang -ne 'universal') { $g.FillRectangle($accent,78,432,425,68) }
+  if ($lang -ne 'universal') { $g.DrawString($(if($lang -eq 'da'){'Prøv IQ Champion'}else{'Try IQ Champion'}),$cta,$ink,100,450) }
   $g.DrawString('iqchampion.com',$foot,$muted,78,554)
   for($i=1;$i -le 9;$i++) {
     $source='2'+$i.ToString('00')

@@ -1,0 +1,550 @@
+TAP version 13
+# Subtest: historical reference excludes durations outside the stated range
+ok 1 - historical reference excludes durations outside the stated range
+  ---
+  duration_ms: 146.3263
+  ...
+# Subtest: zero, partial and perfect scores; ties use the midpoint with no artificial floor
+ok 2 - zero, partial and perfect scores; ties use the midpoint with no artificial floor
+  ---
+  duration_ms: 372.3431
+  ...
+# Subtest: timer uses elapsed wall time and rejects an answer at the deadline
+ok 3 - timer uses elapsed wall time and rejects an answer at the deadline
+  ---
+  duration_ms: 53.3455
+  ...
+# Subtest: automatic timeout scores zero answers and restarting resets the attempt
+ok 4 - automatic timeout scores zero answers and restarting resets the attempt
+  ---
+  duration_ms: 51.1443
+  ...
+# Subtest: stale and invalid answers do not advance the question
+ok 5 - stale and invalid answers do not advance the question
+  ---
+  duration_ms: 43.3328
+  ...
+# Subtest: front start goes straight to question one with a fresh 40-minute deadline
+ok 6 - front start goes straight to question one with a fresh 40-minute deadline
+  ---
+  duration_ms: 29.0532
+  ...
+# Subtest: reload restores answers, original start time and remaining deadline
+ok 7 - reload restores answers, original start time and remaining deadline
+  ---
+  duration_ms: 92.6526
+  ...
+# Subtest: reopening after the deadline scores stored answers instead of resetting
+ok 8 - reopening after the deadline scores stored answers instead of resetting
+  ---
+  duration_ms: 95.0572
+  ...
+# Subtest: a completed result survives reload and Try again starts a fresh timed attempt
+ok 9 - a completed result survives reload and Try again starts a fresh timed attempt
+  ---
+  duration_ms: 421.3711
+  ...
+# Subtest: corrupt, incompatible and invalid saved attempts are discarded without a crash
+ok 10 - corrupt, incompatible and invalid saved attempts are discarded without a crash
+  ---
+  duration_ms: 153.6805
+  ...
+# Subtest: unavailable storage and write failures do not interrupt the active test
+ok 11 - unavailable storage and write failures do not interrupt the active test
+  ---
+  duration_ms: 107.7598
+  ...
+# Subtest: a second tab picks up stored progress before accepting a stale answer
+ok 12 - a second tab picks up stored progress before accepting a stale answer
+  ---
+  duration_ms: 99.1036
+  ...
+# Subtest: timeout in a suspended tab reconciles newer stored answers before scoring
+ok 13 - timeout in a suspended tab reconciles newer stored answers before scoring
+  ---
+  duration_ms: 85.0461
+  ...
+# Subtest: skipping preserves question positions and returning can replace an answer
+ok 14 - skipping preserves question positions and returning can replace an answer
+  ---
+  duration_ms: 85.2914
+  ...
+# Subtest: overview distinguishes answered, unanswered and current questions
+ok 15 - overview distinguishes answered, unanswered and current questions
+  ---
+  duration_ms: 49.522
+  ...
+# Subtest: navigation and sparse answers survive reload with the original deadline
+ok 16 - navigation and sparse answers survive reload with the original deadline
+  ---
+  duration_ms: 87.7541
+  ...
+# Subtest: all answered still allows review and changes before explicit finish
+ok 17 - all answered still allows review and changes before explicit finish
+  ---
+  duration_ms: 387.7692
+  ...
+# Subtest: finishing with skipped questions requires confirmation and survives reload
+ok 18 - finishing with skipped questions requires confirmation and survives reload
+  ---
+  duration_ms: 106.1949
+  ...
+# Subtest: time expiry during review blocks navigation and answer changes, retaining sparse score
+ok 19 - time expiry during review blocks navigation and answer changes, retaining sparse score
+  ---
+  duration_ms: 63.5866
+  ...
+# Subtest: version 1 attempts migrate without losing answers, deadline or completed results
+ok 20 - version 1 attempts migrate without losing answers, deadline or completed results
+  ---
+  duration_ms: 98.5036
+  ...
+# Subtest: new save validation rejects invalid positions and answer arrays
+ok 21 - new save validation rejects invalid positions and answer arrays
+  ---
+  duration_ms: 95.0998
+  ...
+# Subtest: answer review is unavailable before starting and while an attempt is active
+ok 22 - answer review is unavailable before starting and while an attempt is active
+  ---
+  duration_ms: 28.4276
+  ...
+# Subtest: review classifies every question and shows the exact saved answer and correct image
+ok 23 - review classifies every question and shows the exact saved answer and correct image
+  ---
+  duration_ms: 81.3814
+  ...
+# Subtest: review navigation and attempted edits cannot change a completed score or saved attempt
+ok 24 - review navigation and attempted edits cannot change a completed score or saved attempt
+  ---
+  duration_ms: 62.2552
+  ...
+# Subtest: expired attempts can be reviewed after reopening, with unanswered questions kept separate
+ok 25 - expired attempts can be reviewed after reopening, with unanswered questions kept separate
+  ---
+  duration_ms: 127.37
+  ...
+# Subtest: previously completed version 1 results support review without a new attempt
+ok 26 - previously completed version 1 results support review without a new attempt
+  ---
+  duration_ms: 68.6526
+  ...
+# Subtest: starting again or reconciling another tab hides the previous answer review
+ok 27 - starting again or reconciling another tab hides the previous answer review
+  ---
+  duration_ms: 83.813
+  ...
+# Subtest: usage events follow new starts and finishes, without reporting a restored result
+ok 28 - usage events follow new starts and finishes, without reporting a restored result
+  ---
+  duration_ms: 92.833
+  ...
+# Subtest: reloading a running test preserves time without counting another start
+ok 29 - reloading a running test preserves time without counting another start
+  ---
+  duration_ms: 122.6897
+  ...
+# Subtest: an attempt first found expired on reload reports completion once
+ok 30 - an attempt first found expired on reload reports completion once
+  ---
+  duration_ms: 116.7011
+  ...
+# Subtest: a blocked or failing tracker cannot prevent starting and completing a test
+ok 31 - a blocked or failing tracker cannot prevent starting and completing a test
+  ---
+  duration_ms: 43.4085
+  ...
+# Subtest: Danish direct start, active test and accessible answers are translated
+ok 32 - Danish direct start, active test and accessible answers are translated
+  ---
+  duration_ms: 39.3271
+  ...
+# Subtest: switching language preserves answers, deadline, question, answer order and events
+ok 33 - switching language preserves answers, deadline, question, answer order and events
+  ---
+  duration_ms: 95.2892
+  ...
+# Subtest: Danish timeout, method, decimals and read-only answer review remain bilingual
+ok 34 - Danish timeout, method, decimals and read-only answer review remain bilingual
+  ---
+  duration_ms: 94.2881
+  ...
+# Subtest: Danish storage failures and corrupt attempts have localized recoverable messages
+ok 35 - Danish storage failures and corrupt attempts have localized recoverable messages
+  ---
+  duration_ms: 79.1382
+  ...
+# Subtest: unsupported locales fall back to English; an explicit valid choice wins over browser language
+ok 36 - unsupported locales fall back to English; an explicit valid choice wins over browser language
+  ---
+  duration_ms: 46.4694
+  ...
+# Subtest: all static product copy and accessibility labels have Danish translations
+ok 37 - all static product copy and accessibility labels have Danish translations
+  ---
+  duration_ms: 26.2084
+  ...
+# Subtest: switching language after an unanswered review cannot replace a submitted answer image
+ok 38 - switching language after an unanswered review cannot replace a submitted answer image
+  ---
+  duration_ms: 72.4318
+  ...
+# Subtest: explicit real language routes override saved and browser preferences without redirecting on load
+ok 39 - explicit real language routes override saved and browser preferences without redirecting on load
+  ---
+  duration_ms: 49.9175
+  ...
+# Subtest: language route switches preserve active answers/deadline and update canonical metadata
+ok 40 - language route switches preserve active answers/deadline and update canonical metadata
+  ---
+  duration_ms: 48.9118
+  ...
+# Subtest: IQ-style conversion matches normal-scale anchors and bounds unsupported tails
+ok 41 - IQ-style conversion matches normal-scale anchors and bounds unsupported tails
+  ---
+  duration_ms: 332.3257
+  ...
+# Subtest: IQ estimate survives reload and language changes, with partial-attempt qualification
+ok 42 - IQ estimate survives reload and language changes, with partial-attempt qualification
+  ---
+  duration_ms: 554.3629
+  ...
+# Subtest: question 36 corrections are versioned without changing saved answers or deadlines
+ok 43 - question 36 corrections are versioned without changing saved answers or deadlines
+  ---
+  duration_ms: 134.6786
+  ...
+# Subtest: only complete results expose a share link; share URLs contain no answers or browser parameters
+ok 44 - only complete results expose a share link; share URLs contain no answers or browser parameters
+  ---
+  duration_ms: 414.4841
+  ...
+# Subtest: legacy open clients cannot overwrite or continuously restore versioned attempts
+ok 45 - legacy open clients cannot overwrite or continuously restore versioned attempts
+  ---
+  duration_ms: 78.3781
+  ...
+# Subtest: version2 attempts retain previous examples while new version3 attempts use disambiguated examples
+ok 46 - version2 attempts retain previous examples while new version3 attempts use disambiguated examples
+  ---
+  duration_ms: 74.135
+  ...
+# Subtest: all 36 post-test explanations remain bilingual and follow the saved puzzle version
+ok 47 - all 36 post-test explanations remain bilingual and follow the saved puzzle version
+  ---
+  duration_ms: 236.3351
+  ...
+# Subtest: notification checkpoint is created only for a new start and restored unchanged
+ok 48 - notification checkpoint is created only for a new start and restored unchanged
+  ---
+  duration_ms: 99.3584
+  ...
+# Subtest: notification failures and missing optional asset never interrupt the test
+ok 49 - notification failures and missing optional asset never interrupt the test
+  ---
+  duration_ms: 152.0971
+  ...
+# Subtest: legacy attempts migrate without inventing start notifications
+ok 50 - legacy attempts migrate without inventing start notifications
+  ---
+  duration_ms: 33.6578
+  ...
+# Subtest: partial-result statistics retain per-question active times across reload and stop at finish
+ok 51 - partial-result statistics retain per-question active times across reload and stop at finish
+  ---
+  duration_ms: 144.6781
+  ...
+# Subtest: old v4 results preserve answers and never invent historical question times
+ok 52 - old v4 results preserve answers and never invent historical question times
+  ---
+  duration_ms: 45.9566
+  ...
+# Subtest: global comparison sharing never uses optional demographic fields
+ok 53 - global comparison sharing never uses optional demographic fields
+  ---
+  duration_ms: 56.9355
+  ...
+# Subtest: loading a language pack preserves answers and deadline and updates RTL without changing puzzle data
+ok 54 - loading a language pack preserves answers and deadline and updates RTL without changing puzzle data
+  ---
+  duration_ms: 50.9656
+  ...
+# Subtest: failed or incomplete language packs leave the language, answers and deadline intact
+ok 55 - failed or incomplete language packs leave the language, answers and deadline intact
+  ---
+  duration_ms: 36.1989
+  ...
+# Subtest: revised question19 preserves all eight intended transitions and final key but breaks the competing rule
+ok 56 - revised question19 preserves all eight intended transitions and final key but breaks the competing rule
+  ---
+  duration_ms: 19.3278
+  ...
+# Subtest: revised question34 preserves piece geometry and all intended results but breaks the competing tie-breaker
+ok 57 - revised question34 preserves piece geometry and all intended results but breaks the competing tie-breaker
+  ---
+  duration_ms: 2.8694
+  ...
+# Subtest: actual version3 SVGs encode exactly the reviewed dot and block positions
+ok 58 - actual version3 SVGs encode exactly the reviewed dot and block positions
+  ---
+  duration_ms: 11.268
+  ...
+# Subtest: all 36 questions have a rule and a concrete final-row explanation
+ok 59 - all 36 questions have a rule and a concrete final-row explanation
+  ---
+  duration_ms: 20.0993
+  ...
+# Subtest: question 19: removing every closest pair matches all eight transitions
+ok 60 - question 19: removing every closest pair matches all eight transitions
+  ---
+  duration_ms: 2.9701
+  ...
+# Subtest: question 21: opposite rotations of white and black match all eight transitions
+ok 61 - question 21: opposite rotations of white and black match all eight transitions
+  ---
+  duration_ms: 1.0903
+  ...
+# Subtest: question 28: colour-specific motion relative to the enclosing circle matches all eight transitions
+ok 62 - question 28: colour-specific motion relative to the enclosing circle matches all eight transitions
+  ---
+  duration_ms: 0.9251
+  ...
+# Subtest: question 31: red moves one tip counterclockwise, blue two clockwise, matching all eight transitions
+ok 63 - question 31: red moves one tip counterclockwise, blue two clockwise, matching all eight transitions
+  ---
+  duration_ms: 0.8809
+  ...
+# Subtest: question 32: two wrapped shifts and overlap colours match every example and answer
+ok 64 - question 32: two wrapped shifts and overlap colours match every example and answer
+  ---
+  duration_ms: 1.2775
+  ...
+# Subtest: question 35: simultaneous circular bead-divider swaps match all eight transitions
+ok 65 - question 35: simultaneous circular bead-divider swaps match all eight transitions
+  ---
+  duration_ms: 0.7574
+  ...
+# Subtest: question 33: cuts between the two string layers match all four images including the answer
+ok 66 - question 33: cuts between the two string layers match all four images including the answer
+  ---
+  duration_ms: 7.8221
+  ...
+# Subtest: question 34: size-based horizontal packing preserves every piece and matches all four results
+ok 67 - question 34: size-based horizontal packing preserves every piece and matches all four results
+  ---
+  duration_ms: 4.4876
+  ...
+# Subtest: question 36: release gate requires all example images to match the author-confirmed rule
+ok 68 - question 36: release gate requires all example images to match the author-confirmed rule
+  ---
+  duration_ms: 7.3771
+  ...
+# Subtest: question 36: the stored final answer matches the displayed last-row middle picture
+ok 69 - question 36: the stored final answer matches the displayed last-row middle picture
+  ---
+  duration_ms: 2.7323
+  ...
+# Subtest: question 19 has a demonstrated competing shared-dot rule, selecting another offered answer
+ok 70 - question 19 has a demonstrated competing shared-dot rule, selecting another offered answer
+  ---
+  duration_ms: 0.7587
+  ...
+# Subtest: question 34 boundary-priority tie-breaker matches every example but differs from the stored final key
+ok 71 - question 34 boundary-priority tie-breaker matches every example but differs from the stored final key
+  ---
+  duration_ms: 3.4631
+  ...
+# Subtest: 50 distinct languages have native names, local licensed SVG flags and explicit direction
+ok 72 - 50 distinct languages have native names, local licensed SVG flags and explicit direction
+  ---
+  duration_ms: 89.8722
+  ...
+# Subtest: translation compiler rejects missing, duplicate and altered template placeholders
+ok 73 - translation compiler rejects missing, duplicate and altered template placeholders
+  ---
+  duration_ms: 2.3703
+  ...
+# Subtest: ready packs include every English message and preserve every dynamic placeholder
+ok 74 - ready packs include every English message and preserve every dynamic placeholder
+  ---
+  duration_ms: 18.297
+  ...
+# Subtest: disabled, staging, preview, wrong path/origin and privacy profiles produce no journal or transport
+ok 75 - disabled, staging, preview, wrong path/origin and privacy profiles produce no journal or transport
+  ---
+  duration_ms: 16.2898
+  ...
+# Subtest: production payload is exactly the neutral v1 contract and uses credentialless CORS
+ok 76 - production payload is exactly the neutral v1 contract and uses credentialless CORS
+  ---
+  duration_ms: 52.2501
+  ...
+# Subtest: unknown fields, private data, invalid UUID, environment and dates are rejected without IO
+ok 77 - unknown fields, private data, invalid UUID, environment and dates are rejected without IO
+  ---
+  duration_ms: 1.235
+  ...
+# Subtest: lost central acknowledgement retries identical bytes/ID and central idempotency makes one event
+ok 78 - lost central acknowledgement retries identical bytes/ID and central idempotency makes one event
+  ---
+  duration_ms: 7.8869
+  ...
+# Subtest: two tab connections serialize insertion and claim so a live lease sends only once
+ok 79 - two tab connections serialize insertion and claim so a live lease sends only once
+  ---
+  duration_ms: 6.0167
+  ...
+# Subtest: crashed/expired tab lease can be reclaimed with the same payload, never a new central event
+ok 80 - crashed/expired tab lease can be reclaimed with the same payload, never a new central event
+  ---
+  duration_ms: 8.1068
+  ...
+# Subtest: 429/503 backoff honours numeric and HTTP-date Retry-After and preserves payload
+ok 81 - 429/503 backoff honours numeric and HTTP-date Retry-After and preserves payload
+  ---
+  duration_ms: 11.6266
+  ...
+# Subtest: malformed/incorrect ack is not removal; same ID retries until valid matching ack
+ok 82 - malformed/incorrect ack is not removal; same ID retries until valid matching ack
+  ---
+  duration_ms: 18.2634
+  ...
+# Subtest: permanent validation/access/conflict/expiry responses stay in review without ID replacement
+ok 83 - permanent validation/access/conflict/expiry responses stay in review without ID replacement
+  ---
+  duration_ms: 12.5541
+  ...
+# Subtest: offline does not consume attempts; retries are bounded and TTL expiry is retained for review
+ok 84 - offline does not consume attempts; retries are bounded and TTL expiry is retained for review
+  ---
+  duration_ms: 16.986
+  ...
+# Subtest: 100-row limit never evicts an event whose reply was lost
+ok 85 - 100-row limit never evicts an event whose reply was lost
+  ---
+  duration_ms: 42.5783
+  ...
+# Subtest: DNT/GPC revocation clears the existing journal and never sends it
+ok 86 - DNT/GPC revocation clears the existing journal and never sends it
+  ---
+  duration_ms: 1.5707
+  ...
+# Subtest: transport starts only after local enqueue AND claim transactions commit
+ok 87 - transport starts only after local enqueue AND claim transactions commit
+  ---
+  duration_ms: 2.2064
+  ...
+# Subtest: all eight transitions obey the author-confirmed colour rule after the correction
+ok 88 - all eight transitions obey the author-confirmed colour rule after the correction
+  ---
+  duration_ms: 6.6016
+  ...
+# Subtest: the actual corrected SVG assets encode the reviewed grids with no extra coloured balls
+ok 89 - the actual corrected SVG assets encode the reviewed grids with no extra coloured balls
+  ---
+  duration_ms: 9.7252
+  ...
+# Subtest: generated language pages are reproducible and current
+ok 90 - generated language pages are reproducible and current
+  ---
+  duration_ms: 520.6432
+  ...
+# Subtest: both real HTML routes expose localized content before JavaScript and reciprocal language metadata
+ok 91 - both real HTML routes expose localized content before JavaScript and reciprocal language metadata
+  ---
+  duration_ms: 25.1658
+  ...
+# Subtest: sitemap contains only the two real canonical public pages; 404 is noindex and has no test state
+ok 92 - sitemap contains only the two real canonical public pages; 404 is noindex and has no test state
+  ---
+  duration_ms: 5.2307
+  ...
+# Subtest: anonymous share pages have localized score metadata, noindex and no attempt storage or tracker
+ok 93 - anonymous share pages have localized score metadata, noindex and no attempt storage or tracker
+  ---
+  duration_ms: 68.7207
+  ...
+# Subtest: question and pattern shares use static bilingual metadata without demographic or timing URLs
+ok 94 - question and pattern shares use static bilingual metadata without demographic or timing URLs
+  ---
+  duration_ms: 157.8052
+  ...
+# Subtest: times accumulate across visits, but pause when hidden and stop after finish
+ok 95 - times accumulate across visits, but pause when hidden and stop after finish
+  ---
+  duration_ms: 5.325
+  ...
+# Subtest: reload restores recorded time without counting the closed period
+ok 96 - reload restores recorded time without counting the closed period
+  ---
+  duration_ms: 0.9046
+  ...
+# Subtest: final-answer time excludes later inspection without changing the answer
+ok 97 - final-answer time excludes later inspection without changing the answer
+  ---
+  duration_ms: 0.3589
+  ...
+# Subtest: clock reversal and delayed callbacks cannot exceed the 40 minute budget
+ok 98 - clock reversal and delayed callbacks cannot exceed the 40 minute budget
+  ---
+  duration_ms: 0.3687
+  ...
+# Subtest: legacy and malformed measurements remain unknown rather than fabricated zero times
+ok 99 - legacy and malformed measurements remain unknown rather than fabricated zero times
+  ---
+  duration_ms: 1.3734
+  ...
+# Subtest: comparison validator suppresses small cohorts and requires sufficient correct timing samples
+ok 100 - comparison validator suppresses small cohorts and requires sufficient correct timing samples
+  ---
+  duration_ms: 0.818
+  ...
+# Subtest: a genuinely difficult correct answer beaten on time can be the highlight of a partial test
+ok 101 - a genuinely difficult correct answer beaten on time can be the highlight of a partial test
+  ---
+  duration_ms: 0.8473
+  ...
+# Subtest: no peer ranking or difficult-question claim is invented without valid data
+ok 102 - no peer ranking or difficult-question claim is invented without valid data
+  ---
+  duration_ms: 0.5822
+  ...
+# Subtest: contributions require explicit consent and privacy gates before all transport
+ok 103 - contributions require explicit consent and privacy gates before all transport
+  ---
+  duration_ms: 3.6961
+  ...
+# Subtest: minimal contribution rejects identifiers, exact age, bad timing and incorrect dimensions
+ok 104 - minimal contribution rejects identifiers, exact age, bad timing and incorrect dimensions
+  ---
+  duration_ms: 5.0208
+  ...
+# Subtest: same immutable contribution and ID survive a lost acknowledgment and only matching ack is accepted
+ok 105 - same immutable contribution and ID survive a lost acknowledgment and only matching ack is accepted
+  ---
+  duration_ms: 2.7435
+  ...
+# Subtest: mismatched acknowledgments and unavailable comparisons never fabricate acceptance or peers
+ok 106 - mismatched acknowledgments and unavailable comparisons never fabricate acceptance or peers
+  ---
+  duration_ms: 1.2346
+  ...
+# Subtest: public comparison requests reject all demographic filters before IO
+ok 107 - public comparison requests reject all demographic filters before IO
+  ---
+  duration_ms: 1.6318
+  ...
+# Subtest: histogram benchmarks need explicit bounds; highlighting beats the conservative bound
+ok 108 - histogram benchmarks need explicit bounds; highlighting beats the conservative bound
+  ---
+  duration_ms: 0.8753
+  ...
+1..108
+# tests 108
+# suites 0
+# pass 108
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 6765.0791

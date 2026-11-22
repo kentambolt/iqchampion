@@ -1,0 +1,2665 @@
+{
+  "entries": [
+    {
+      "id": "K0001",
+      "kind": "message",
+      "source": "Estimated median range"
+    },
+    {
+      "id": "K0002",
+      "kind": "message",
+      "source": "Public comparisons include all contributors using this puzzle version. Optional age group and country are only used in private aggregate statistics."
+    },
+    {
+      "id": "K0003",
+      "kind": "message",
+      "source": "I agree to contribute my anonymous question results, active times and any optional age group or country to aggregate statistics."
+    },
+    {
+      "id": "K0004",
+      "kind": "message",
+      "source": "Median ranges are estimated from time histograms. The displayed interval shows the timing resolution; no exact median or speed percentile is claimed."
+    },
+    {
+      "id": "K0005",
+      "kind": "message",
+      "source": "Share the challenge"
+    },
+    {
+      "id": "K0006",
+      "kind": "message",
+      "source": "Question time"
+    },
+    {
+      "id": "K0007",
+      "kind": "message",
+      "source": "Your browser privacy preferences keep these statistics on your device."
+    },
+    {
+      "id": "K0008",
+      "kind": "message",
+      "source": "All voluntary attempts"
+    },
+    {
+      "id": "K0009",
+      "kind": "message",
+      "source": "Thank you. Your anonymous contribution was saved."
+    },
+    {
+      "id": "K0010",
+      "kind": "message",
+      "source": "There are not enough comparable attempts in this group yet. Your own statistics are always available."
+    },
+    {
+      "id": "K0011",
+      "kind": "message",
+      "source": "Comparisons are temporarily unavailable. Your own statistics and sharing still work."
+    },
+    {
+      "id": "K0012",
+      "kind": "message",
+      "source": "This older attempt has no complete timing record. You can still explore and share your result."
+    },
+    {
+      "id": "K0013",
+      "kind": "message",
+      "source": "Choose whether to contribute before sending any data."
+    },
+    {
+      "id": "K0014",
+      "kind": "message",
+      "source": "This attempt has no complete timing record. Your personal results are unchanged."
+    },
+    {
+      "id": "K0015",
+      "kind": "message",
+      "source": "Your contribution could not be saved in this browser. Nothing was sent."
+    },
+    {
+      "id": "K0016",
+      "kind": "message",
+      "source": "This contribution needs review and was not counted again."
+    },
+    {
+      "id": "K0017",
+      "kind": "message",
+      "source": "Your contribution has not been confirmed. Try again with the same saved contribution."
+    },
+    {
+      "id": "K0018",
+      "kind": "message",
+      "source": "No account needed"
+    },
+    {
+      "id": "K0019",
+      "kind": "message",
+      "source": "The test starts when you are ready"
+    },
+    {
+      "id": "K0020",
+      "kind": "message",
+      "source": "Test"
+    },
+    {
+      "id": "K0021",
+      "kind": "message",
+      "source": "Answered questions"
+    },
+    {
+      "id": "K0022",
+      "kind": "message",
+      "source": "Something to share"
+    },
+    {
+      "id": "K0023",
+      "kind": "message",
+      "source": "Your strongest moment"
+    },
+    {
+      "id": "K0024",
+      "kind": "message",
+      "source": "Your estimated IQ"
+    },
+    {
+      "id": "K0025",
+      "kind": "message",
+      "source": "A tricky puzzle, solved quickly"
+    },
+    {
+      "id": "K0026",
+      "kind": "message",
+      "source": "Quicker than the typical correct answer"
+    },
+    {
+      "id": "K0027",
+      "kind": "message",
+      "source": "Your quickest correct answer"
+    },
+    {
+      "id": "K0028",
+      "kind": "message",
+      "source": "Patterns you solved"
+    },
+    {
+      "id": "K0029",
+      "kind": "message",
+      "source": "A challenge worth sharing"
+    },
+    {
+      "id": "K0030",
+      "kind": "message",
+      "source": "36 puzzles. One challenge."
+    },
+    {
+      "id": "K0031",
+      "kind": "message",
+      "source": "Share a challenge with someone you know."
+    },
+    {
+      "id": "K0032",
+      "kind": "message",
+      "source": "Your own active time. There is not enough comparison data to rank its speed."
+    },
+    {
+      "id": "K0033",
+      "kind": "message",
+      "source": "Choose what to share"
+    },
+    {
+      "id": "K0034",
+      "kind": "message",
+      "source": "Best moment"
+    },
+    {
+      "id": "K0035",
+      "kind": "message",
+      "source": "IQ estimate"
+    },
+    {
+      "id": "K0036",
+      "kind": "message",
+      "source": "Correct patterns"
+    },
+    {
+      "id": "K0037",
+      "kind": "message",
+      "source": "Share on Facebook"
+    },
+    {
+      "id": "K0038",
+      "kind": "message",
+      "source": "Copy a personal caption"
+    },
+    {
+      "id": "K0039",
+      "kind": "message",
+      "source": "Your share text"
+    },
+    {
+      "id": "K0040",
+      "kind": "message",
+      "source": "Copy text"
+    },
+    {
+      "id": "K0041",
+      "kind": "message",
+      "source": "Facebook lets you write your own caption. We never post automatically."
+    },
+    {
+      "id": "K0042",
+      "kind": "message",
+      "source": "Copied. Paste it into your post."
+    },
+    {
+      "id": "K0043",
+      "kind": "message",
+      "source": "Select and copy the text below."
+    },
+    {
+      "id": "K0044",
+      "kind": "message",
+      "source": "Your question statistics"
+    },
+    {
+      "id": "K0045",
+      "kind": "message",
+      "source": "Question comparisons are not available yet. Your personal statistics are shown below."
+    },
+    {
+      "id": "K0046",
+      "kind": "message",
+      "source": "Times count visible, focused question time up to your last answer. For unanswered questions, time spent is shown. Hidden tabs and closed pages do not count. Earlier attempts may have no timings."
+    },
+    {
+      "id": "K0047",
+      "kind": "message",
+      "source": "All 36 questions, including skipped questions"
+    },
+    {
+      "id": "K0048",
+      "kind": "message",
+      "source": "Question"
+    },
+    {
+      "id": "K0049",
+      "kind": "message",
+      "source": "Your time"
+    },
+    {
+      "id": "K0050",
+      "kind": "message",
+      "source": "Correct-answer median"
+    },
+    {
+      "id": "K0051",
+      "kind": "message",
+      "source": "Others correct"
+    },
+    {
+      "id": "K0052",
+      "kind": "message",
+      "source": "Compare with voluntary attempts using the same puzzle version. At least 30 answered questions are needed for a correct rate, and 30 timed correct answers for a median. These are participants, not a representative population."
+    },
+    {
+      "id": "K0053",
+      "kind": "message",
+      "source": "Compare and contribute"
+    },
+    {
+      "id": "K0054",
+      "kind": "message",
+      "source": "Help future participants compare their results. You can share anonymous test statistics after finishing, even if you skipped questions."
+    },
+    {
+      "id": "K0055",
+      "kind": "message",
+      "source": "Anonymous comparisons are being prepared. Your personal statistics and sharing work without contributing."
+    },
+    {
+      "id": "K0056",
+      "kind": "message",
+      "source": "Age group (optional)"
+    },
+    {
+      "id": "K0057",
+      "kind": "message",
+      "source": "Country (optional)"
+    },
+    {
+      "id": "K0058",
+      "kind": "message",
+      "source": "Prefer not to say"
+    },
+    {
+      "id": "K0059",
+      "kind": "message",
+      "source": "Under 18"
+    },
+    {
+      "id": "K0060",
+      "kind": "message",
+      "source": "I agree to contribute my anonymous question results and active times, together with any age group and country I choose, to comparison statistics."
+    },
+    {
+      "id": "K0061",
+      "kind": "message",
+      "source": "No name, email or exact age. Sharing your statistics is optional and does not affect your result. Small comparison groups are hidden."
+    },
+    {
+      "id": "K0062",
+      "kind": "message",
+      "source": "Contribute anonymously"
+    },
+    {
+      "id": "K0063",
+      "kind": "message",
+      "source": "Why this answer?"
+    },
+    {
+      "id": "K0064",
+      "kind": "message",
+      "source": "Explanation"
+    },
+    {
+      "id": "K0065",
+      "kind": "message",
+      "source": "The rule"
+    },
+    {
+      "id": "K0066",
+      "kind": "message",
+      "source": "Applying the rule"
+    },
+    {
+      "id": "K0067",
+      "kind": "message",
+      "source": "You are reviewing an older puzzle version. Its examples contain the previously identified ambiguity; your saved answer and score are unchanged."
+    },
+    {
+      "id": "K0068",
+      "kind": "message",
+      "source": "You are reviewing the original version, which contained incorrect example markers. Your saved answer and score are unchanged. New attempts use the corrected version."
+    },
+    {
+      "id": "K0069",
+      "kind": "message",
+      "source": "In this original version, the displayed middle picture expands to green at the top right and row 2, column 3; red at row 2, column 1; and brown at row 2, column 2, row 3, column 3 and row 4, column 3."
+    },
+    {
+      "id": "K0070",
+      "kind": "message",
+      "source": "Share result on Facebook"
+    },
+    {
+      "id": "K0071",
+      "kind": "message",
+      "source": "Share test on Facebook"
+    },
+    {
+      "id": "K0072",
+      "kind": "message",
+      "source": "Estimated IQ"
+    },
+    {
+      "id": "K0073",
+      "kind": "message",
+      "source": "Just for fun. An approximate score, not a professionally validated IQ measurement."
+    },
+    {
+      "id": "K0074",
+      "kind": "message",
+      "source": "Your test is incomplete. Your correct answers are shown, but an IQ estimate needs all 36 answers."
+    },
+    {
+      "id": "K0075",
+      "kind": "message",
+      "source": "Unavailable"
+    },
+    {
+      "id": "K0076",
+      "kind": "message",
+      "source": "Free visual reasoning test | IQ Champion"
+    },
+    {
+      "id": "K0077",
+      "kind": "message",
+      "source": "36 visual reasoning puzzles. Take a free 40-minute challenge and explore your results."
+    },
+    {
+      "id": "K0078",
+      "kind": "message",
+      "source": "Answered"
+    },
+    {
+      "id": "K0079",
+      "kind": "message",
+      "source": "Unanswered"
+    },
+    {
+      "id": "K0080",
+      "kind": "message",
+      "source": "Correct"
+    },
+    {
+      "id": "K0081",
+      "kind": "message",
+      "source": "Incorrect"
+    },
+    {
+      "id": "K0082",
+      "kind": "message",
+      "source": "Close"
+    },
+    {
+      "id": "K0083",
+      "kind": "message",
+      "source": "Help"
+    },
+    {
+      "id": "K0084",
+      "kind": "message",
+      "source": "40 min"
+    },
+    {
+      "id": "K0085",
+      "kind": "message",
+      "source": "Language"
+    },
+    {
+      "id": "K0086",
+      "kind": "message",
+      "source": "About the test"
+    },
+    {
+      "id": "K0087",
+      "kind": "message",
+      "source": "A challenge in visual reasoning"
+    },
+    {
+      "id": "K0088",
+      "kind": "message",
+      "source": "Spot the pattern."
+    },
+    {
+      "id": "K0089",
+      "kind": "message",
+      "source": "Find the missing piece."
+    },
+    {
+      "id": "K0090",
+      "kind": "message",
+      "source": "36 visual puzzles and an estimated IQ score. Just for fun."
+    },
+    {
+      "id": "K0091",
+      "kind": "message",
+      "source": "Puzzles"
+    },
+    {
+      "id": "K0092",
+      "kind": "message",
+      "source": "Time limit"
+    },
+    {
+      "id": "K0093",
+      "kind": "message",
+      "source": "Cost"
+    },
+    {
+      "id": "K0094",
+      "kind": "message",
+      "source": "Free"
+    },
+    {
+      "id": "K0095",
+      "kind": "message",
+      "source": "No account needed. The timer starts when you begin."
+    },
+    {
+      "id": "K0096",
+      "kind": "message",
+      "source": "How the test works"
+    },
+    {
+      "id": "K0097",
+      "kind": "message",
+      "source": "Choose the icon that completes each pattern."
+    },
+    {
+      "id": "K0098",
+      "kind": "message",
+      "source": "Skip tricky questions and return using the overview."
+    },
+    {
+      "id": "K0099",
+      "kind": "message",
+      "source": "Review or change your answers before you finish."
+    },
+    {
+      "id": "K0100",
+      "kind": "message",
+      "source": "Your answers and start time are saved in this browser. Reloading keeps your original deadline."
+    },
+    {
+      "id": "K0101",
+      "kind": "message",
+      "source": "The 40-minute timer continues while the page is closed. Unanswered questions count as incorrect."
+    },
+    {
+      "id": "K0102",
+      "kind": "message",
+      "source": "About your result"
+    },
+    {
+      "id": "K0103",
+      "kind": "message",
+      "source": "Your estimated IQ is based on your position among"
+    },
+    {
+      "id": "K0104",
+      "kind": "message",
+      "source": "historical attempts."
+    },
+    {
+      "id": "K0105",
+      "kind": "message",
+      "source": "The comparison uses attempts lasting over one minute and up to 40 minutes. It has not been validated against an official IQ test or a representative population sample."
+    },
+    {
+      "id": "K0106",
+      "kind": "message",
+      "source": "A test for fun. Your estimated IQ is an approximation, not a professionally validated IQ score."
+    },
+    {
+      "id": "K0107",
+      "kind": "message",
+      "source": "Start 40-minute test"
+    },
+    {
+      "id": "K0108",
+      "kind": "message",
+      "source": "Reasoning test"
+    },
+    {
+      "id": "K0109",
+      "kind": "message",
+      "source": "Your challenge"
+    },
+    {
+      "id": "K0110",
+      "kind": "message",
+      "source": "Time remaining"
+    },
+    {
+      "id": "K0111",
+      "kind": "message",
+      "source": "remaining"
+    },
+    {
+      "id": "K0112",
+      "kind": "message",
+      "source": "Question pattern"
+    },
+    {
+      "id": "K0113",
+      "kind": "message",
+      "source": "Find the pattern"
+    },
+    {
+      "id": "K0114",
+      "kind": "message",
+      "source": "Four rows of visual patterns; complete the last row"
+    },
+    {
+      "id": "K0115",
+      "kind": "message",
+      "source": "Choose your answer"
+    },
+    {
+      "id": "K0116",
+      "kind": "message",
+      "source": "Question navigation"
+    },
+    {
+      "id": "K0117",
+      "kind": "message",
+      "source": "Previous question"
+    },
+    {
+      "id": "K0118",
+      "kind": "message",
+      "source": "Skip for now"
+    },
+    {
+      "id": "K0119",
+      "kind": "message",
+      "source": "Next question"
+    },
+    {
+      "id": "K0120",
+      "kind": "message",
+      "source": "Question overview"
+    },
+    {
+      "id": "K0121",
+      "kind": "message",
+      "source": "✓ Answered"
+    },
+    {
+      "id": "K0122",
+      "kind": "message",
+      "source": "○ Unanswered"
+    },
+    {
+      "id": "K0123",
+      "kind": "message",
+      "source": "Outline = current"
+    },
+    {
+      "id": "K0124",
+      "kind": "message",
+      "source": "Jump to a question"
+    },
+    {
+      "id": "K0125",
+      "kind": "message",
+      "source": "Review and finish"
+    },
+    {
+      "id": "K0126",
+      "kind": "message",
+      "source": "Instructions & saved progress"
+    },
+    {
+      "id": "K0127",
+      "kind": "message",
+      "source": "Pick an answer to move to the next unanswered question. You can skip, return and change answers before finishing."
+    },
+    {
+      "id": "K0128",
+      "kind": "message",
+      "source": "Answers save automatically in this browser. Reloading resumes the same question; your timer keeps running."
+    },
+    {
+      "id": "K0129",
+      "kind": "message",
+      "source": "Ready when you are"
+    },
+    {
+      "id": "K0130",
+      "kind": "message",
+      "source": "Finish this test?"
+    },
+    {
+      "id": "K0131",
+      "kind": "message",
+      "source": "Keep working"
+    },
+    {
+      "id": "K0132",
+      "kind": "message",
+      "source": "Finish and see result"
+    },
+    {
+      "id": "K0133",
+      "kind": "message",
+      "source": "Challenge complete"
+    },
+    {
+      "id": "K0134",
+      "kind": "message",
+      "source": "Your result"
+    },
+    {
+      "id": "K0135",
+      "kind": "message",
+      "source": "Review answers"
+    },
+    {
+      "id": "K0136",
+      "kind": "message",
+      "source": "Try again"
+    },
+    {
+      "id": "K0137",
+      "kind": "message",
+      "source": "About this test"
+    },
+    {
+      "id": "K0138",
+      "kind": "message",
+      "source": "How to read this result"
+    },
+    {
+      "id": "K0139",
+      "kind": "message",
+      "source": "Your percentile among historical attempts is converted to the familiar IQ scale: midpoint 100 and standard deviation 15. This assumes the comparison group reflects the population, which has not been established."
+    },
+    {
+      "id": "K0140",
+      "kind": "message",
+      "source": "Your answers, explained"
+    },
+    {
+      "id": "K0141",
+      "kind": "message",
+      "source": "Review your answers"
+    },
+    {
+      "id": "K0142",
+      "kind": "message",
+      "source": "Back to result"
+    },
+    {
+      "id": "K0143",
+      "kind": "message",
+      "source": "The pattern"
+    },
+    {
+      "id": "K0144",
+      "kind": "message",
+      "source": "Compare the answers"
+    },
+    {
+      "id": "K0145",
+      "kind": "message",
+      "source": "Your answer"
+    },
+    {
+      "id": "K0146",
+      "kind": "message",
+      "source": "Correct answer"
+    },
+    {
+      "id": "K0147",
+      "kind": "message",
+      "source": "Previous review question"
+    },
+    {
+      "id": "K0148",
+      "kind": "message",
+      "source": "Next review question"
+    },
+    {
+      "id": "K0149",
+      "kind": "message",
+      "source": "Results by question"
+    },
+    {
+      "id": "K0150",
+      "kind": "message",
+      "source": "Explore all 36 puzzles"
+    },
+    {
+      "id": "K0151",
+      "kind": "message",
+      "source": "✓ Correct"
+    },
+    {
+      "id": "K0152",
+      "kind": "message",
+      "source": "× Incorrect"
+    },
+    {
+      "id": "K0153",
+      "kind": "message",
+      "source": "Review a question"
+    },
+    {
+      "id": "K0154",
+      "kind": "message",
+      "source": "Your submitted answers and final score stay unchanged."
+    },
+    {
+      "id": "K0155",
+      "kind": "message",
+      "source": "Contact"
+    },
+    {
+      "id": "K0156",
+      "kind": "message",
+      "source": "Feedback & contact"
+    },
+    {
+      "id": "K0157",
+      "kind": "message",
+      "source": "Send feedback or contact us"
+    },
+    {
+      "id": "K0158",
+      "kind": "message",
+      "source": "Correct. Your answer matches the correct answer."
+    },
+    {
+      "id": "K0159",
+      "kind": "message",
+      "source": "Incorrect. Your answer differs from the correct answer."
+    },
+    {
+      "id": "K0160",
+      "kind": "message",
+      "source": "Unanswered. No answer was submitted for this question."
+    },
+    {
+      "id": "K0161",
+      "kind": "message",
+      "source": "No answer submitted"
+    },
+    {
+      "id": "K0162",
+      "kind": "message",
+      "source": "Your submitted answer"
+    },
+    {
+      "id": "K0163",
+      "kind": "message",
+      "source": "Missing icon"
+    },
+    {
+      "id": "K0164",
+      "kind": "message",
+      "source": "All questions are answered. You can still review and change answers, then finish the test."
+    },
+    {
+      "id": "K0165",
+      "kind": "message",
+      "source": "Five minutes or less remaining."
+    },
+    {
+      "id": "K0166",
+      "kind": "message",
+      "source": "Time is up. Your answers have been scored."
+    },
+    {
+      "id": "K0167",
+      "kind": "message",
+      "source": "Test completed."
+    },
+    {
+      "id": "K0168",
+      "kind": "message",
+      "source": "Comparison unavailable."
+    },
+    {
+      "id": "K0169",
+      "kind": "message",
+      "source": "This browser could not save your attempt. Keep this page open: reloading may lose progress or restore older answers."
+    },
+    {
+      "id": "K0170",
+      "kind": "message",
+      "source": "Local saving is unavailable in this browser. Keep this page open to avoid losing your attempt."
+    },
+    {
+      "id": "K0171",
+      "kind": "message",
+      "source": "The saved attempt could not be restored. Start a new test when you are ready."
+    },
+    {
+      "id": "K0172",
+      "kind": "message",
+      "source": "Keep the figure unchanged"
+    },
+    {
+      "id": "K0173",
+      "kind": "message",
+      "source": "Every position in each example row contains the same blue circle. Neither the shape, colour nor size changes."
+    },
+    {
+      "id": "K0174",
+      "kind": "message",
+      "source": "The last row already contains two identical blue circles. Another identical blue circle completes it."
+    },
+    {
+      "id": "K0175",
+      "kind": "message",
+      "source": "Add one nested outline"
+    },
+    {
+      "id": "K0176",
+      "kind": "message",
+      "source": "Moving right adds a smaller outline of the same shape inside the previous one. The outer shape and its colour stay unchanged."
+    },
+    {
+      "id": "K0177",
+      "kind": "message",
+      "source": "The green triangle has one inner triangle in the middle position. Add one more, smaller inner triangle to obtain the answer."
+    },
+    {
+      "id": "K0178",
+      "kind": "message",
+      "source": "Use the first shape as a cut-out"
+    },
+    {
+      "id": "K0179",
+      "kind": "message",
+      "source": "The black shape in the first position is removed from the centre of the coloured square in the second position. The hole is white."
+    },
+    {
+      "id": "K0180",
+      "kind": "message",
+      "source": "The black square makes a square hole in the green square. Choose the green square with the white square opening."
+    },
+    {
+      "id": "K0181",
+      "kind": "message",
+      "source": "Combine the upper and lower colours"
+    },
+    {
+      "id": "K0182",
+      "kind": "message",
+      "source": "The result takes its upper half from the first capsule and its lower half from the second capsule."
+    },
+    {
+      "id": "K0183",
+      "kind": "message",
+      "source": "The first capsule is white and the second is blue, so the result is white above and blue below."
+    },
+    {
+      "id": "K0184",
+      "kind": "message",
+      "source": "Rotate the coloured lobes"
+    },
+    {
+      "id": "K0185",
+      "kind": "message",
+      "source": "At each step, turn the whole four-lobed figure 90 degrees clockwise. Every red and blue lobe moves with the figure."
+    },
+    {
+      "id": "K0186",
+      "kind": "message",
+      "source": "Turn the middle figure another quarter-turn clockwise. The two red lobes finish on the right and at the bottom; the top and left lobes are blue."
+    },
+    {
+      "id": "K0187",
+      "kind": "message",
+      "source": "Round the corners progressively"
+    },
+    {
+      "id": "K0188",
+      "kind": "message",
+      "source": "The colour and general shape remain the same while the corners become more rounded at each step."
+    },
+    {
+      "id": "K0189",
+      "kind": "message",
+      "source": "Continue rounding the corners of the brown rectangle. The answer is the brown capsule with fully rounded ends."
+    },
+    {
+      "id": "K0190",
+      "kind": "message",
+      "source": "Continue the circle’s movement"
+    },
+    {
+      "id": "K0191",
+      "kind": "message",
+      "source": "Within each row the green circle moves the same distance in the same direction: upward, downward or horizontally. Its size stays fixed."
+    },
+    {
+      "id": "K0192",
+      "kind": "message",
+      "source": "In the last row the circle moves left along the bottom of the square. One more equal step places it at the bottom left."
+    },
+    {
+      "id": "K0193",
+      "kind": "message",
+      "source": "Turn the entire dot pattern"
+    },
+    {
+      "id": "K0194",
+      "kind": "message",
+      "source": "Rotate the square and all its dots 45 degrees counterclockwise at each step. The square becomes a diamond, then a square again."
+    },
+    {
+      "id": "K0195",
+      "kind": "message",
+      "source": "Turn the middle green-and-black diamond another 45 degrees counterclockwise. Keep the green and black dots in their rotated positions."
+    },
+    {
+      "id": "K0196",
+      "kind": "message",
+      "source": "Shorten each bar from the top"
+    },
+    {
+      "id": "K0197",
+      "kind": "message",
+      "source": "At every step, each vertical black bar loses one grid interval from its upper end. Its lower end stays on the bottom line. A bar disappears when its length reaches zero."
+    },
+    {
+      "id": "K0198",
+      "kind": "message",
+      "source": "The middle picture has a one-interval middle bar and a two-interval right bar. The middle bar disappears, leaving a one-interval bar on the right."
+    },
+    {
+      "id": "K0199",
+      "kind": "message",
+      "source": "Reflect across the black line"
+    },
+    {
+      "id": "K0200",
+      "kind": "message",
+      "source": "The middle line is a mirror axis. Reflect the coloured shape in that line rather than simply rotating it."
+    },
+    {
+      "id": "K0201",
+      "kind": "message",
+      "source": "The last mirror line is vertical, so the yellow shape is flipped left to right. Its colour and size remain unchanged."
+    },
+    {
+      "id": "K0202",
+      "kind": "message",
+      "source": "Overlay the shapes and use the first colour"
+    },
+    {
+      "id": "K0203",
+      "kind": "message",
+      "source": "Place both shapes on top of one another. Keep the combined silhouette and the visible outlines, but colour the result with the first shape’s colour."
+    },
+    {
+      "id": "K0204",
+      "kind": "message",
+      "source": "Overlay the blue downward triangle and the yellow hexagon, then use blue for the combined figure. The triangle’s projecting tips remain visible around the hexagon."
+    },
+    {
+      "id": "K0205",
+      "kind": "message",
+      "source": "Keep green in exactly one input"
+    },
+    {
+      "id": "K0206",
+      "kind": "message",
+      "source": "Compare corresponding areas of the two squares. An area is green if it is green in exactly one input. Green in both cancels to white; white in both stays white."
+    },
+    {
+      "id": "K0207",
+      "kind": "message",
+      "source": "The first square is entirely green and the second has only a green bottom-left quarter. That shared quarter turns white; the other three quarters stay green."
+    },
+    {
+      "id": "K0208",
+      "kind": "message",
+      "source": "Attach a copy at every corner"
+    },
+    {
+      "id": "K0209",
+      "kind": "message",
+      "source": "Put a copy of the small black symbol at each vertex of the large shape. The added copies take the large shape’s colour."
+    },
+    {
+      "id": "K0210",
+      "kind": "message",
+      "source": "The large blue diamond has four corners. Add a blue downward triangle at each corner, following the same placement rule as the examples."
+    },
+    {
+      "id": "K0211",
+      "kind": "message",
+      "source": "Add corresponding bar heights"
+    },
+    {
+      "id": "K0212",
+      "kind": "message",
+      "source": "For each of the three horizontal positions, add the black bar’s height in the first picture to its height in the second. Measure upwards from the common bottom line."
+    },
+    {
+      "id": "K0213",
+      "kind": "message",
+      "source": "Neither input has a left bar. The two middle bars add to a full-height bar, while the right bars add to a shorter bar. The answer has just those middle and right bars."
+    },
+    {
+      "id": "K0214",
+      "kind": "message",
+      "source": "Rotate and alternate colours"
+    },
+    {
+      "id": "K0215",
+      "kind": "message",
+      "source": "Turn the shape 45 degrees counterclockwise at each step. Its colour alternates, so the third picture returns to the first picture’s colour."
+    },
+    {
+      "id": "K0216",
+      "kind": "message",
+      "source": "Turn the white middle shape another 45 degrees counterclockwise and restore the dark colour from the first picture. Choose the dark curved shape in that orientation."
+    },
+    {
+      "id": "K0217",
+      "kind": "message",
+      "source": "Combine the black circles"
+    },
+    {
+      "id": "K0218",
+      "kind": "message",
+      "source": "A circle is black in the result whenever the matching circle is black in either input. It is white only when both inputs have a white circle there."
+    },
+    {
+      "id": "K0219",
+      "kind": "message",
+      "source": "The first input contributes the bottom-right black circle; the second contributes the two top black circles. The centre and bottom-left circle stay white."
+    },
+    {
+      "id": "K0220",
+      "kind": "message",
+      "source": "Expand into neighbouring cells"
+    },
+    {
+      "id": "K0221",
+      "kind": "message",
+      "source": "At each step, every blue cell remains blue and also colours its immediate neighbours above, below, left and right. Expansion stops at the grid boundary."
+    },
+    {
+      "id": "K0222",
+      "kind": "message",
+      "source": "Apply the same one-cell expansion to the middle blue region. Newly reached side neighbours become blue; cells farther away remain in the grey-and-black checkerboard."
+    },
+    {
+      "id": "K0223",
+      "kind": "message",
+      "source": "Cancel matching brown positions"
+    },
+    {
+      "id": "K0224",
+      "kind": "message",
+      "source": "Compare the two five-cell strips position by position. A cell is brown in the result if exactly one input is brown there. Matching brown cells cancel to blue."
+    },
+    {
+      "id": "K0225",
+      "kind": "message",
+      "source": "Brown occurs in positions 2, 3, 4 and 5 in the first strip and in positions 2, 3 and 5 in the second. Only position 4 remains brown."
+    },
+    {
+      "id": "K0226",
+      "kind": "message",
+      "source": "Remove the closest red dots"
+    },
+    {
+      "id": "K0227",
+      "kind": "message",
+      "source": "Find the smallest distance between any two red dots. Remove every red dot belonging to a pair at that distance. Recalculate the closest distance for the next step."
+    },
+    {
+      "id": "K0228",
+      "kind": "message",
+      "source": "In the middle picture, the three lower red dots participate in the closest diagonal pairs. Removing them leaves only the red dot in the top row, fourth column."
+    },
+    {
+      "id": "K0229",
+      "kind": "message",
+      "source": "Move the six colours around a cycle"
+    },
+    {
+      "id": "K0230",
+      "kind": "message",
+      "source": "Read down the left stack, then down the right stack. Shift every colour one position forward in that six-position cycle; the bottom-right colour wraps to the top left."
+    },
+    {
+      "id": "K0231",
+      "kind": "message",
+      "source": "From the middle picture, the bottom-right brown circle wraps to the top left. The final stacks are brown/red/red on the left and black/brown/blue on the right."
+    },
+    {
+      "id": "K0232",
+      "kind": "message",
+      "source": "Move white and black in opposite directions"
+    },
+    {
+      "id": "K0233",
+      "kind": "message",
+      "source": "White circles move one corner clockwise and black circles move one corner counterclockwise at each step. Grey means that a white and a black circle occupy the same corner; separate them before moving again."
+    },
+    {
+      "id": "K0234",
+      "kind": "message",
+      "source": "The middle picture contains white circles at the two left corners and black circles at the two left corners and bottom right. Moving them gives white at top left, grey at top right, and black at both bottom corners."
+    },
+    {
+      "id": "K0235",
+      "kind": "message",
+      "source": "Extend every horizontal stroke"
+    },
+    {
+      "id": "K0236",
+      "kind": "message",
+      "source": "At each step, extend each black horizontal stroke into the immediately neighbouring capsule on both sides. Existing strokes remain, and strokes stop at the outside edges."
+    },
+    {
+      "id": "K0237",
+      "kind": "message",
+      "source": "Extend the strokes in the middle picture one more capsule left and right. Keep separate stroke heights distinct; the answer shows the resulting longer horizontal lines across the four capsules."
+    },
+    {
+      "id": "K0238",
+      "kind": "message",
+      "source": "Grow the triangular lattice"
+    },
+    {
+      "id": "K0239",
+      "kind": "message",
+      "source": "Treat the drawing as a group of small triangles. At each step, add a small triangle just outside every exposed edge, keeping the existing triangles and their connecting lines."
+    },
+    {
+      "id": "K0240",
+      "kind": "message",
+      "source": "Grow the middle green cluster by one more layer of neighbouring triangles. The answer keeps the same triangular grid and adds the triangles along its outside edges."
+    },
+    {
+      "id": "K0241",
+      "kind": "message",
+      "source": "Remove the marked vertices"
+    },
+    {
+      "id": "K0242",
+      "kind": "message",
+      "source": "The brown dots identify vertices of the black polygon to remove. Connect the remaining vertices in their original order. Two remaining vertices produce a line segment."
+    },
+    {
+      "id": "K0243",
+      "kind": "message",
+      "source": "Remove the top and left vertices marked by the brown dots. Only the two lower vertices remain, so the answer is the short horizontal line near the bottom right."
+    },
+    {
+      "id": "K0244",
+      "kind": "message",
+      "source": "Toggle the dots at the outline’s corners"
+    },
+    {
+      "id": "K0245",
+      "kind": "message",
+      "source": "Match the black outline’s vertices to the 3-by-3 dot positions. At each vertex, remove an existing blue dot or add one if the position is empty. Other positions stay unchanged."
+    },
+    {
+      "id": "K0246",
+      "kind": "message",
+      "source": "Toggle the four corner positions of the slanted outline. The result has blue dots at top left and top middle, middle middle and middle right, and all three bottom positions."
+    },
+    {
+      "id": "K0247",
+      "kind": "message",
+      "source": "Remove the marked brick and its neighbours"
+    },
+    {
+      "id": "K0248",
+      "kind": "message",
+      "source": "First remove the red brick and every brick sharing an edge with it, then let unsupported bricks fall straight down. Repeat the same process with the yellow brick."
+    },
+    {
+      "id": "K0249",
+      "kind": "message",
+      "source": "After the red removal, the remaining bricks form the middle staircase. Removing the yellow brick and its touching neighbours leaves the upper blue brick, which falls to the bottom."
+    },
+    {
+      "id": "K0250",
+      "kind": "message",
+      "source": "Cycle the layers and apply the colour mask"
+    },
+    {
+      "id": "K0251",
+      "kind": "message",
+      "source": "Track the same three shapes. At each step the front shape goes to the back. For the final picture, keep the middle picture’s grey or black fills; its unfilled white shapes regain their colours from the first picture."
+    },
+    {
+      "id": "K0252",
+      "kind": "message",
+      "source": "The grey hexagon comes to the front, the black horizontal capsule lies behind it, and the vertical capsule moves to the back. That white vertical capsule regains its original yellow colour."
+    },
+    {
+      "id": "K0253",
+      "kind": "message",
+      "source": "Use each circle’s colour to find its motion"
+    },
+    {
+      "id": "K0254",
+      "kind": "message",
+      "source": "Track each circle relative to the circle immediately around it. White moves 90 degrees clockwise, black moves 90 degrees counterclockwise, and red stays in the same relative position. Blue does not move. Apply these movements to every nested level."
+    },
+    {
+      "id": "K0255",
+      "kind": "message",
+      "source": "The black circle moves from above the blue circle to its left. Red stays to the right inside black. The larger white circle moves from above red to its right; the smallest white circle moves from below the larger white circle to its left."
+    },
+    {
+      "id": "K0256",
+      "kind": "message",
+      "source": "Move colours along the connected routes"
+    },
+    {
+      "id": "K0257",
+      "kind": "message",
+      "source": "The black links specify the routes along which the colours move. Follow each loop clockwise, moving each colour to the next connected position. A two-position route swaps its colours; unconnected dots stay put."
+    },
+    {
+      "id": "K0258",
+      "kind": "message",
+      "source": "Swap the two top colours. On the lower loop, the left-middle blue moves to the centre and the right-middle red moves to the bottom left. The unconnected bottom-right red stays unchanged."
+    },
+    {
+      "id": "K0259",
+      "kind": "message",
+      "source": "Move each colour along its own path"
+    },
+    {
+      "id": "K0260",
+      "kind": "message",
+      "source": "Red moves down, green moves right and yellow moves left. Blue moves up and, where possible, one column left. White marks overlapping colours; separate those colours again when applying the next move. Colours moving beyond the grid disappear."
+    },
+    {
+      "id": "K0261",
+      "kind": "message",
+      "source": "Separate the middle white cell into red and green. Red moves to bottom middle, green to middle right, blue reaches top left and yellow exits on the left. Those three coloured cells form the answer."
+    },
+    {
+      "id": "K0262",
+      "kind": "message",
+      "source": "Move red and blue tips in opposite directions"
+    },
+    {
+      "id": "K0263",
+      "kind": "message",
+      "source": "At each step, every red tip moves one position counterclockwise and every blue tip moves two positions clockwise around the five-pointed star. White means that red and blue overlap; separate both colours before moving again."
+    },
+    {
+      "id": "K0264",
+      "kind": "message",
+      "source": "In the middle picture, red is at the lower right and blue is at the upper right and upper left. The next move puts red and one blue together at the upper right, making it white. The other blue moves to the lower left."
+    },
+    {
+      "id": "K0265",
+      "kind": "message",
+      "source": "Shift two copies in the sector’s directions"
+    },
+    {
+      "id": "K0266",
+      "kind": "message",
+      "source": "The two edges of the white sector indicate two movement directions. Make two copies of the red-dot pattern and shift one copy one grid step in each direction, wrapping at the edges. A position reached once is red; a position reached by both copies is blue."
+    },
+    {
+      "id": "K0267",
+      "kind": "message",
+      "source": "The final sector points down-left and down-right. Shift a copy each way. Their overlap makes the entire top row and the centre blue; the single-copy positions remain red, as shown in the answer."
+    },
+    {
+      "id": "K0268",
+      "kind": "message",
+      "source": "Remove crossing string segments"
+    },
+    {
+      "id": "K0269",
+      "kind": "message",
+      "source": "Overlay both drawings. Treat each straight piece between successive grid dots as a separate string segment. When a segment from one drawing crosses a segment from the other between dots, remove both segments. Segments meeting at a grid dot stay. Keep all uncut segments from both drawings."
+    },
+    {
+      "id": "K0270",
+      "kind": "message",
+      "source": "Remove the diagonal segments cut between the grid dots. The remaining pieces form an upper fork with a vertical stem, two detached short diagonals near the top corners, and a lower fork with its own vertical stem."
+    },
+    {
+      "id": "K0271",
+      "kind": "message",
+      "source": "Slide and sort the pieces by size"
+    },
+    {
+      "id": "K0272",
+      "kind": "message",
+      "source": "Push all pieces in the arrow’s direction. Smaller pieces pass larger pieces and reach the furthest available spaces first. Keep every piece’s height and vertical position. Pieces may share a column if they do not overlap vertically; equal-sized pieces keep their relative order."
+    },
+    {
+      "id": "K0273",
+      "kind": "message",
+      "source": "The arrow points right. Fit the shortest pieces into the available spaces on the right, then the two-cell pieces, then the taller pieces to their left. Nothing moves up or down, and no piece changes size."
+    },
+    {
+      "id": "K0274",
+      "kind": "message",
+      "source": "Move the dividers into free spaces"
+    },
+    {
+      "id": "K0275",
+      "kind": "message",
+      "source": "All black dividers simultaneously move one position to the right if the next position contains a yellow bead. A divider blocked by another divider waits. The right edge connects to the left edge."
+    },
+    {
+      "id": "K0276",
+      "kind": "message",
+      "source": "Apply one simultaneous step to the middle sequence. The final order is divider, bead, divider, bead, divider, divider, bead."
+    },
+    {
+      "id": "K0277",
+      "kind": "message",
+      "source": "Expand the colours and keep the largest group"
+    },
+    {
+      "id": "K0278",
+      "kind": "message",
+      "source": "Replace every coloured ball with four new balls of the same colour, one step above, below, left and right. Balls leaving the grid disappear. At each position, keep the colour with the largest number of arriving balls. If colours tie for the largest number, leave the position empty. Several arrivals of the same colour appear as one coloured marker."
+    },
+    {
+      "id": "K0279",
+      "kind": "message",
+      "source": "Expanding the displayed middle picture leaves green at the top right and at row 2, column 3; red at row 2, column 1; and brown at row 2, column 2, row 3, column 3, and row 4, columns 2, 3 and 4. Those are exactly the colours and positions in the stored answer."
+    },
+    {
+      "id": "K0280",
+      "kind": "message",
+      "source": "Choose language"
+    },
+    {
+      "id": "K0281",
+      "kind": "message",
+      "source": "Search languages"
+    },
+    {
+      "id": "K0282",
+      "kind": "message",
+      "source": "Close language selector"
+    },
+    {
+      "id": "K0283",
+      "kind": "message",
+      "source": "No languages found"
+    },
+    {
+      "id": "K0284",
+      "kind": "message",
+      "source": "Free IQ test for fun | IQ Champion"
+    },
+    {
+      "id": "K0285",
+      "kind": "message",
+      "source": "A free IQ-style test for fun: 36 visual puzzles, 40 minutes, saved progress and an estimated IQ result. No account needed."
+    },
+    {
+      "id": "K0286",
+      "kind": "message",
+      "source": "Choose your preferred language. Your answers and original deadline stay saved."
+    },
+    {
+      "id": "K0287",
+      "kind": "message",
+      "source": "Loading language…"
+    },
+    {
+      "id": "K0288",
+      "kind": "message",
+      "source": "The language could not be loaded. Your test and answers are unchanged."
+    },
+    {
+      "id": "K0289",
+      "kind": "message",
+      "source": "Feedback is available in Danish and English."
+    },
+    {
+      "id": "K0290",
+      "kind": "message",
+      "source": "Shared achievement"
+    },
+    {
+      "id": "K0291",
+      "kind": "message",
+      "source": "Shared result"
+    },
+    {
+      "id": "K0292",
+      "kind": "message",
+      "source": "Shared results are self-reported."
+    },
+    {
+      "id": "K0293",
+      "kind": "message",
+      "source": "Shared achievements are self-reported. No age, country, answers or personal profiles are shared."
+    },
+    {
+      "id": "K0294",
+      "kind": "message",
+      "source": "Try the 36 puzzles yourself"
+    },
+    {
+      "id": "K0295",
+      "kind": "message",
+      "source": "Try the test yourself"
+    },
+    {
+      "id": "K0296",
+      "kind": "message",
+      "source": "A visual challenge in IQ Champion. Can you spot the pattern too?"
+    },
+    {
+      "id": "K0297",
+      "kind": "message",
+      "source": "A free visual puzzle test, just for fun. Not a professionally validated IQ measurement."
+    },
+    {
+      "id": "K0298",
+      "kind": "message",
+      "source": "Page not found"
+    },
+    {
+      "id": "K0299",
+      "kind": "message",
+      "source": "You can continue in another language."
+    },
+    {
+      "id": "K0300",
+      "kind": "message",
+      "source": "answered"
+    },
+    {
+      "id": "K0301",
+      "kind": "message",
+      "source": "unanswered"
+    },
+    {
+      "id": "K0302",
+      "kind": "message",
+      "source": "correct"
+    },
+    {
+      "id": "K0303",
+      "kind": "message",
+      "source": "incorrect"
+    },
+    {
+      "id": "K0304",
+      "kind": "template",
+      "source": "Estimated median range: {0} ({1} timed correct answers)."
+    },
+    {
+      "id": "K0305",
+      "kind": "template",
+      "source": "Question {0} · {1}"
+    },
+    {
+      "id": "K0306",
+      "kind": "template",
+      "source": "{0} correct patterns"
+    },
+    {
+      "id": "K0307",
+      "kind": "template",
+      "source": "Active time: {0}"
+    },
+    {
+      "id": "K0308",
+      "kind": "template",
+      "source": "Comparison: {0} voluntary attempts over {1} days."
+    },
+    {
+      "id": "K0309",
+      "kind": "template",
+      "source": "Question {0} / {1}"
+    },
+    {
+      "id": "K0310",
+      "kind": "template",
+      "source": "Review question {0} / {1}"
+    },
+    {
+      "id": "K0311",
+      "kind": "template",
+      "source": "Row {0}, icon {1}"
+    },
+    {
+      "id": "K0312",
+      "kind": "template",
+      "source": "Answer {0}"
+    },
+    {
+      "id": "K0313",
+      "kind": "template",
+      "source": "Question {0}, {1}"
+    },
+    {
+      "id": "K0314",
+      "kind": "template",
+      "source": "Review question {0}, {1}"
+    },
+    {
+      "id": "K0315",
+      "kind": "template",
+      "source": "{0} correct; {1} incorrect; {2} unanswered."
+    },
+    {
+      "id": "K0316",
+      "kind": "template",
+      "source": "{0} answered; {1} unanswered."
+    },
+    {
+      "id": "K0317",
+      "kind": "template",
+      "source": "{0} answered; {1} unanswered. Unanswered questions count as incorrect. Once finished, you cannot change answers."
+    },
+    {
+      "id": "K0318",
+      "kind": "template",
+      "source": "{0} / {1} correct"
+    },
+    {
+      "id": "K0319",
+      "kind": "template",
+      "source": "Percentile among historical participants: {0}"
+    },
+    {
+      "id": "K0320",
+      "kind": "template",
+      "source": "Participants scoring lower: {0}%. Participants with the same score: {1}%."
+    },
+    {
+      "id": "K0321",
+      "kind": "template",
+      "source": "Reference group: {0} historical attempts. Attempts with recorded durations over one minute and up to 40 minutes are included. Tied scores share the midpoint of their percentile group. Estimates are rounded to whole numbers and displayed only within 55–145, with a limit indicator outside that range. This is a scale conversion, not an independently validated population IQ measurement. Practice and repeated attempts can affect your result. Some example images have been corrected since the historical attempts were collected, which limits comparability."
+    },
+    {
+      "id": "K0322",
+      "kind": "template",
+      "source": "My estimated IQ in IQ Champion: {0}. Just for fun. Try it: {1}"
+    },
+    {
+      "id": "K0323",
+      "kind": "template",
+      "source": "I solved question {0} correctly in {1}. Can you do it too? {2}"
+    },
+    {
+      "id": "K0324",
+      "kind": "template",
+      "source": "I solved question {0} correctly in {1} (estimated median among correct answers: {2}). Can you do it too? {3}"
+    },
+    {
+      "id": "K0325",
+      "kind": "template",
+      "source": "I found {0} correct patterns in IQ Champion. Try it: {1}"
+    },
+    {
+      "id": "K0326",
+      "kind": "template",
+      "source": "Can you find the missing patterns in IQ Champion? {0}"
+    },
+    {
+      "id": "K0327",
+      "kind": "template",
+      "source": "Question {0} solved"
+    },
+    {
+      "id": "K0328",
+      "kind": "template",
+      "source": "{0} patterns solved"
+    },
+    {
+      "id": "K0329",
+      "kind": "template",
+      "source": "{0} / 36 correct. {1}"
+    },
+    {
+      "id": "K0330",
+      "kind": "template",
+      "source": "Estimated IQ {0} | IQ Champion"
+    }
+  ],
+  "chunks": [
+    {
+      "index": 0,
+      "ids": [
+        "K0001",
+        "K0002",
+        "K0003",
+        "K0004",
+        "K0005",
+        "K0006",
+        "K0007",
+        "K0008",
+        "K0009",
+        "K0010",
+        "K0011",
+        "K0012",
+        "K0013",
+        "K0014",
+        "K0015",
+        "K0016",
+        "K0017",
+        "K0018",
+        "K0019",
+        "K0020",
+        "K0021",
+        "K0022",
+        "K0023",
+        "K0024",
+        "K0025",
+        "K0026",
+        "K0027",
+        "K0028",
+        "K0029",
+        "K0030",
+        "K0031",
+        "K0032",
+        "K0033",
+        "K0034",
+        "K0035",
+        "K0036",
+        "K0037",
+        "K0038",
+        "K0039",
+        "K0040",
+        "K0041",
+        "K0042",
+        "K0043",
+        "K0044",
+        "K0045",
+        "K0046",
+        "K0047",
+        "K0048",
+        "K0049",
+        "K0050",
+        "K0051",
+        "K0052",
+        "K0053",
+        "K0054",
+        "K0055",
+        "K0056",
+        "K0057",
+        "K0058",
+        "K0059",
+        "K0060",
+        "K0061",
+        "K0062",
+        "K0063",
+        "K0064",
+        "K0065",
+        "K0066",
+        "K0067",
+        "K0068",
+        "K0069",
+        "K0070"
+      ],
+      "text": "[[K0001]]\nEstimated median range\n\n[[K0002]]\nPublic comparisons include all contributors using this puzzle version. Optional age group and country are only used in private aggregate statistics.\n\n[[K0003]]\nI agree to contribute my anonymous question results, active times and any optional age group or country to aggregate statistics.\n\n[[K0004]]\nMedian ranges are estimated from time histograms. The displayed interval shows the timing resolution; no exact median or speed percentile is claimed.\n\n[[K0005]]\nShare the challenge\n\n[[K0006]]\nQuestion time\n\n[[K0007]]\nYour browser privacy preferences keep these statistics on your device.\n\n[[K0008]]\nAll voluntary attempts\n\n[[K0009]]\nThank you. Your anonymous contribution was saved.\n\n[[K0010]]\nThere are not enough comparable attempts in this group yet. Your own statistics are always available.\n\n[[K0011]]\nComparisons are temporarily unavailable. Your own statistics and sharing still work.\n\n[[K0012]]\nThis older attempt has no complete timing record. You can still explore and share your result.\n\n[[K0013]]\nChoose whether to contribute before sending any data.\n\n[[K0014]]\nThis attempt has no complete timing record. Your personal results are unchanged.\n\n[[K0015]]\nYour contribution could not be saved in this browser. Nothing was sent.\n\n[[K0016]]\nThis contribution needs review and was not counted again.\n\n[[K0017]]\nYour contribution has not been confirmed. Try again with the same saved contribution.\n\n[[K0018]]\nNo account needed\n\n[[K0019]]\nThe test starts when you are ready\n\n[[K0020]]\nTest\n\n[[K0021]]\nAnswered questions\n\n[[K0022]]\nSomething to share\n\n[[K0023]]\nYour strongest moment\n\n[[K0024]]\nYour estimated IQ\n\n[[K0025]]\nA tricky puzzle, solved quickly\n\n[[K0026]]\nQuicker than the typical correct answer\n\n[[K0027]]\nYour quickest correct answer\n\n[[K0028]]\nPatterns you solved\n\n[[K0029]]\nA challenge worth sharing\n\n[[K0030]]\n36 puzzles. One challenge.\n\n[[K0031]]\nShare a challenge with someone you know.\n\n[[K0032]]\nYour own active time. There is not enough comparison data to rank its speed.\n\n[[K0033]]\nChoose what to share\n\n[[K0034]]\nBest moment\n\n[[K0035]]\nIQ estimate\n\n[[K0036]]\nCorrect patterns\n\n[[K0037]]\nShare on Facebook\n\n[[K0038]]\nCopy a personal caption\n\n[[K0039]]\nYour share text\n\n[[K0040]]\nCopy text\n\n[[K0041]]\nFacebook lets you write your own caption. We never post automatically.\n\n[[K0042]]\nCopied. Paste it into your post.\n\n[[K0043]]\nSelect and copy the text below.\n\n[[K0044]]\nYour question statistics\n\n[[K0045]]\nQuestion comparisons are not available yet. Your personal statistics are shown below.\n\n[[K0046]]\nTimes count visible, focused question time up to your last answer. For unanswered questions, time spent is shown. Hidden tabs and closed pages do not count. Earlier attempts may have no timings.\n\n[[K0047]]\nAll 36 questions, including skipped questions\n\n[[K0048]]\nQuestion\n\n[[K0049]]\nYour time\n\n[[K0050]]\nCorrect-answer median\n\n[[K0051]]\nOthers correct\n\n[[K0052]]\nCompare with voluntary attempts using the same puzzle version. At least 30 answered questions are needed for a correct rate, and 30 timed correct answers for a median. These are participants, not a representative population.\n\n[[K0053]]\nCompare and contribute\n\n[[K0054]]\nHelp future participants compare their results. You can share anonymous test statistics after finishing, even if you skipped questions.\n\n[[K0055]]\nAnonymous comparisons are being prepared. Your personal statistics and sharing work without contributing.\n\n[[K0056]]\nAge group (optional)\n\n[[K0057]]\nCountry (optional)\n\n[[K0058]]\nPrefer not to say\n\n[[K0059]]\nUnder 18\n\n[[K0060]]\nI agree to contribute my anonymous question results and active times, together with any age group and country I choose, to comparison statistics.\n\n[[K0061]]\nNo name, email or exact age. Sharing your statistics is optional and does not affect your result. Small comparison groups are hidden.\n\n[[K0062]]\nContribute anonymously\n\n[[K0063]]\nWhy this answer?\n\n[[K0064]]\nExplanation\n\n[[K0065]]\nThe rule\n\n[[K0066]]\nApplying the rule\n\n[[K0067]]\nYou are reviewing an older puzzle version. Its examples contain the previously identified ambiguity; your saved answer and score are unchanged.\n\n[[K0068]]\nYou are reviewing the original version, which contained incorrect example markers. Your saved answer and score are unchanged. New attempts use the corrected version.\n\n[[K0069]]\nIn this original version, the displayed middle picture expands to green at the top right and row 2, column 3; red at row 2, column 1; and brown at row 2, column 2, row 3, column 3 and row 4, column 3.\n\n[[K0070]]\nShare result on Facebook"
+    },
+    {
+      "index": 1,
+      "ids": [
+        "K0071",
+        "K0072",
+        "K0073",
+        "K0074",
+        "K0075",
+        "K0076",
+        "K0077",
+        "K0078",
+        "K0079",
+        "K0080",
+        "K0081",
+        "K0082",
+        "K0083",
+        "K0084",
+        "K0085",
+        "K0086",
+        "K0087",
+        "K0088",
+        "K0089",
+        "K0090",
+        "K0091",
+        "K0092",
+        "K0093",
+        "K0094",
+        "K0095",
+        "K0096",
+        "K0097",
+        "K0098",
+        "K0099",
+        "K0100",
+        "K0101",
+        "K0102",
+        "K0103",
+        "K0104",
+        "K0105",
+        "K0106",
+        "K0107",
+        "K0108",
+        "K0109",
+        "K0110",
+        "K0111",
+        "K0112",
+        "K0113",
+        "K0114",
+        "K0115",
+        "K0116",
+        "K0117",
+        "K0118",
+        "K0119",
+        "K0120",
+        "K0121",
+        "K0122",
+        "K0123",
+        "K0124",
+        "K0125",
+        "K0126",
+        "K0127",
+        "K0128",
+        "K0129",
+        "K0130",
+        "K0131",
+        "K0132",
+        "K0133",
+        "K0134",
+        "K0135",
+        "K0136",
+        "K0137",
+        "K0138",
+        "K0139",
+        "K0140",
+        "K0141",
+        "K0142",
+        "K0143",
+        "K0144",
+        "K0145",
+        "K0146",
+        "K0147",
+        "K0148",
+        "K0149",
+        "K0150",
+        "K0151",
+        "K0152",
+        "K0153",
+        "K0154",
+        "K0155",
+        "K0156",
+        "K0157",
+        "K0158",
+        "K0159",
+        "K0160",
+        "K0161",
+        "K0162",
+        "K0163",
+        "K0164",
+        "K0165",
+        "K0166",
+        "K0167",
+        "K0168",
+        "K0169",
+        "K0170",
+        "K0171",
+        "K0172"
+      ],
+      "text": "[[K0071]]\nShare test on Facebook\n\n[[K0072]]\nEstimated IQ\n\n[[K0073]]\nJust for fun. An approximate score, not a professionally validated IQ measurement.\n\n[[K0074]]\nYour test is incomplete. Your correct answers are shown, but an IQ estimate needs all 36 answers.\n\n[[K0075]]\nUnavailable\n\n[[K0076]]\nFree visual reasoning test | IQ Champion\n\n[[K0077]]\n36 visual reasoning puzzles. Take a free 40-minute challenge and explore your results.\n\n[[K0078]]\nAnswered\n\n[[K0079]]\nUnanswered\n\n[[K0080]]\nCorrect\n\n[[K0081]]\nIncorrect\n\n[[K0082]]\nClose\n\n[[K0083]]\nHelp\n\n[[K0084]]\n40 min\n\n[[K0085]]\nLanguage\n\n[[K0086]]\nAbout the test\n\n[[K0087]]\nA challenge in visual reasoning\n\n[[K0088]]\nSpot the pattern.\n\n[[K0089]]\nFind the missing piece.\n\n[[K0090]]\n36 visual puzzles and an estimated IQ score. Just for fun.\n\n[[K0091]]\nPuzzles\n\n[[K0092]]\nTime limit\n\n[[K0093]]\nCost\n\n[[K0094]]\nFree\n\n[[K0095]]\nNo account needed. The timer starts when you begin.\n\n[[K0096]]\nHow the test works\n\n[[K0097]]\nChoose the icon that completes each pattern.\n\n[[K0098]]\nSkip tricky questions and return using the overview.\n\n[[K0099]]\nReview or change your answers before you finish.\n\n[[K0100]]\nYour answers and start time are saved in this browser. Reloading keeps your original deadline.\n\n[[K0101]]\nThe 40-minute timer continues while the page is closed. Unanswered questions count as incorrect.\n\n[[K0102]]\nAbout your result\n\n[[K0103]]\nYour estimated IQ is based on your position among\n\n[[K0104]]\nhistorical attempts.\n\n[[K0105]]\nThe comparison uses attempts lasting over one minute and up to 40 minutes. It has not been validated against an official IQ test or a representative population sample.\n\n[[K0106]]\nA test for fun. Your estimated IQ is an approximation, not a professionally validated IQ score.\n\n[[K0107]]\nStart 40-minute test\n\n[[K0108]]\nReasoning test\n\n[[K0109]]\nYour challenge\n\n[[K0110]]\nTime remaining\n\n[[K0111]]\nremaining\n\n[[K0112]]\nQuestion pattern\n\n[[K0113]]\nFind the pattern\n\n[[K0114]]\nFour rows of visual patterns; complete the last row\n\n[[K0115]]\nChoose your answer\n\n[[K0116]]\nQuestion navigation\n\n[[K0117]]\nPrevious question\n\n[[K0118]]\nSkip for now\n\n[[K0119]]\nNext question\n\n[[K0120]]\nQuestion overview\n\n[[K0121]]\n✓ Answered\n\n[[K0122]]\n○ Unanswered\n\n[[K0123]]\nOutline = current\n\n[[K0124]]\nJump to a question\n\n[[K0125]]\nReview and finish\n\n[[K0126]]\nInstructions & saved progress\n\n[[K0127]]\nPick an answer to move to the next unanswered question. You can skip, return and change answers before finishing.\n\n[[K0128]]\nAnswers save automatically in this browser. Reloading resumes the same question; your timer keeps running.\n\n[[K0129]]\nReady when you are\n\n[[K0130]]\nFinish this test?\n\n[[K0131]]\nKeep working\n\n[[K0132]]\nFinish and see result\n\n[[K0133]]\nChallenge complete\n\n[[K0134]]\nYour result\n\n[[K0135]]\nReview answers\n\n[[K0136]]\nTry again\n\n[[K0137]]\nAbout this test\n\n[[K0138]]\nHow to read this result\n\n[[K0139]]\nYour percentile among historical attempts is converted to the familiar IQ scale: midpoint 100 and standard deviation 15. This assumes the comparison group reflects the population, which has not been established.\n\n[[K0140]]\nYour answers, explained\n\n[[K0141]]\nReview your answers\n\n[[K0142]]\nBack to result\n\n[[K0143]]\nThe pattern\n\n[[K0144]]\nCompare the answers\n\n[[K0145]]\nYour answer\n\n[[K0146]]\nCorrect answer\n\n[[K0147]]\nPrevious review question\n\n[[K0148]]\nNext review question\n\n[[K0149]]\nResults by question\n\n[[K0150]]\nExplore all 36 puzzles\n\n[[K0151]]\n✓ Correct\n\n[[K0152]]\n× Incorrect\n\n[[K0153]]\nReview a question\n\n[[K0154]]\nYour submitted answers and final score stay unchanged.\n\n[[K0155]]\nContact\n\n[[K0156]]\nFeedback & contact\n\n[[K0157]]\nSend feedback or contact us\n\n[[K0158]]\nCorrect. Your answer matches the correct answer.\n\n[[K0159]]\nIncorrect. Your answer differs from the correct answer.\n\n[[K0160]]\nUnanswered. No answer was submitted for this question.\n\n[[K0161]]\nNo answer submitted\n\n[[K0162]]\nYour submitted answer\n\n[[K0163]]\nMissing icon\n\n[[K0164]]\nAll questions are answered. You can still review and change answers, then finish the test.\n\n[[K0165]]\nFive minutes or less remaining.\n\n[[K0166]]\nTime is up. Your answers have been scored.\n\n[[K0167]]\nTest completed.\n\n[[K0168]]\nComparison unavailable.\n\n[[K0169]]\nThis browser could not save your attempt. Keep this page open: reloading may lose progress or restore older answers.\n\n[[K0170]]\nLocal saving is unavailable in this browser. Keep this page open to avoid losing your attempt.\n\n[[K0171]]\nThe saved attempt could not be restored. Start a new test when you are ready.\n\n[[K0172]]\nKeep the figure unchanged"
+    },
+    {
+      "index": 2,
+      "ids": [
+        "K0173",
+        "K0174",
+        "K0175",
+        "K0176",
+        "K0177",
+        "K0178",
+        "K0179",
+        "K0180",
+        "K0181",
+        "K0182",
+        "K0183",
+        "K0184",
+        "K0185",
+        "K0186",
+        "K0187",
+        "K0188",
+        "K0189",
+        "K0190",
+        "K0191",
+        "K0192",
+        "K0193",
+        "K0194",
+        "K0195",
+        "K0196",
+        "K0197",
+        "K0198",
+        "K0199",
+        "K0200",
+        "K0201",
+        "K0202",
+        "K0203",
+        "K0204",
+        "K0205",
+        "K0206",
+        "K0207",
+        "K0208",
+        "K0209",
+        "K0210",
+        "K0211",
+        "K0212",
+        "K0213",
+        "K0214"
+      ],
+      "text": "[[K0173]]\nEvery position in each example row contains the same blue circle. Neither the shape, colour nor size changes.\n\n[[K0174]]\nThe last row already contains two identical blue circles. Another identical blue circle completes it.\n\n[[K0175]]\nAdd one nested outline\n\n[[K0176]]\nMoving right adds a smaller outline of the same shape inside the previous one. The outer shape and its colour stay unchanged.\n\n[[K0177]]\nThe green triangle has one inner triangle in the middle position. Add one more, smaller inner triangle to obtain the answer.\n\n[[K0178]]\nUse the first shape as a cut-out\n\n[[K0179]]\nThe black shape in the first position is removed from the centre of the coloured square in the second position. The hole is white.\n\n[[K0180]]\nThe black square makes a square hole in the green square. Choose the green square with the white square opening.\n\n[[K0181]]\nCombine the upper and lower colours\n\n[[K0182]]\nThe result takes its upper half from the first capsule and its lower half from the second capsule.\n\n[[K0183]]\nThe first capsule is white and the second is blue, so the result is white above and blue below.\n\n[[K0184]]\nRotate the coloured lobes\n\n[[K0185]]\nAt each step, turn the whole four-lobed figure 90 degrees clockwise. Every red and blue lobe moves with the figure.\n\n[[K0186]]\nTurn the middle figure another quarter-turn clockwise. The two red lobes finish on the right and at the bottom; the top and left lobes are blue.\n\n[[K0187]]\nRound the corners progressively\n\n[[K0188]]\nThe colour and general shape remain the same while the corners become more rounded at each step.\n\n[[K0189]]\nContinue rounding the corners of the brown rectangle. The answer is the brown capsule with fully rounded ends.\n\n[[K0190]]\nContinue the circle’s movement\n\n[[K0191]]\nWithin each row the green circle moves the same distance in the same direction: upward, downward or horizontally. Its size stays fixed.\n\n[[K0192]]\nIn the last row the circle moves left along the bottom of the square. One more equal step places it at the bottom left.\n\n[[K0193]]\nTurn the entire dot pattern\n\n[[K0194]]\nRotate the square and all its dots 45 degrees counterclockwise at each step. The square becomes a diamond, then a square again.\n\n[[K0195]]\nTurn the middle green-and-black diamond another 45 degrees counterclockwise. Keep the green and black dots in their rotated positions.\n\n[[K0196]]\nShorten each bar from the top\n\n[[K0197]]\nAt every step, each vertical black bar loses one grid interval from its upper end. Its lower end stays on the bottom line. A bar disappears when its length reaches zero.\n\n[[K0198]]\nThe middle picture has a one-interval middle bar and a two-interval right bar. The middle bar disappears, leaving a one-interval bar on the right.\n\n[[K0199]]\nReflect across the black line\n\n[[K0200]]\nThe middle line is a mirror axis. Reflect the coloured shape in that line rather than simply rotating it.\n\n[[K0201]]\nThe last mirror line is vertical, so the yellow shape is flipped left to right. Its colour and size remain unchanged.\n\n[[K0202]]\nOverlay the shapes and use the first colour\n\n[[K0203]]\nPlace both shapes on top of one another. Keep the combined silhouette and the visible outlines, but colour the result with the first shape’s colour.\n\n[[K0204]]\nOverlay the blue downward triangle and the yellow hexagon, then use blue for the combined figure. The triangle’s projecting tips remain visible around the hexagon.\n\n[[K0205]]\nKeep green in exactly one input\n\n[[K0206]]\nCompare corresponding areas of the two squares. An area is green if it is green in exactly one input. Green in both cancels to white; white in both stays white.\n\n[[K0207]]\nThe first square is entirely green and the second has only a green bottom-left quarter. That shared quarter turns white; the other three quarters stay green.\n\n[[K0208]]\nAttach a copy at every corner\n\n[[K0209]]\nPut a copy of the small black symbol at each vertex of the large shape. The added copies take the large shape’s colour.\n\n[[K0210]]\nThe large blue diamond has four corners. Add a blue downward triangle at each corner, following the same placement rule as the examples.\n\n[[K0211]]\nAdd corresponding bar heights\n\n[[K0212]]\nFor each of the three horizontal positions, add the black bar’s height in the first picture to its height in the second. Measure upwards from the common bottom line.\n\n[[K0213]]\nNeither input has a left bar. The two middle bars add to a full-height bar, while the right bars add to a shorter bar. The answer has just those middle and right bars.\n\n[[K0214]]\nRotate and alternate colours"
+    },
+    {
+      "index": 3,
+      "ids": [
+        "K0215",
+        "K0216",
+        "K0217",
+        "K0218",
+        "K0219",
+        "K0220",
+        "K0221",
+        "K0222",
+        "K0223",
+        "K0224",
+        "K0225",
+        "K0226",
+        "K0227",
+        "K0228",
+        "K0229",
+        "K0230",
+        "K0231",
+        "K0232",
+        "K0233",
+        "K0234",
+        "K0235",
+        "K0236",
+        "K0237",
+        "K0238",
+        "K0239",
+        "K0240",
+        "K0241",
+        "K0242",
+        "K0243",
+        "K0244",
+        "K0245",
+        "K0246",
+        "K0247",
+        "K0248"
+      ],
+      "text": "[[K0215]]\nTurn the shape 45 degrees counterclockwise at each step. Its colour alternates, so the third picture returns to the first picture’s colour.\n\n[[K0216]]\nTurn the white middle shape another 45 degrees counterclockwise and restore the dark colour from the first picture. Choose the dark curved shape in that orientation.\n\n[[K0217]]\nCombine the black circles\n\n[[K0218]]\nA circle is black in the result whenever the matching circle is black in either input. It is white only when both inputs have a white circle there.\n\n[[K0219]]\nThe first input contributes the bottom-right black circle; the second contributes the two top black circles. The centre and bottom-left circle stay white.\n\n[[K0220]]\nExpand into neighbouring cells\n\n[[K0221]]\nAt each step, every blue cell remains blue and also colours its immediate neighbours above, below, left and right. Expansion stops at the grid boundary.\n\n[[K0222]]\nApply the same one-cell expansion to the middle blue region. Newly reached side neighbours become blue; cells farther away remain in the grey-and-black checkerboard.\n\n[[K0223]]\nCancel matching brown positions\n\n[[K0224]]\nCompare the two five-cell strips position by position. A cell is brown in the result if exactly one input is brown there. Matching brown cells cancel to blue.\n\n[[K0225]]\nBrown occurs in positions 2, 3, 4 and 5 in the first strip and in positions 2, 3 and 5 in the second. Only position 4 remains brown.\n\n[[K0226]]\nRemove the closest red dots\n\n[[K0227]]\nFind the smallest distance between any two red dots. Remove every red dot belonging to a pair at that distance. Recalculate the closest distance for the next step.\n\n[[K0228]]\nIn the middle picture, the three lower red dots participate in the closest diagonal pairs. Removing them leaves only the red dot in the top row, fourth column.\n\n[[K0229]]\nMove the six colours around a cycle\n\n[[K0230]]\nRead down the left stack, then down the right stack. Shift every colour one position forward in that six-position cycle; the bottom-right colour wraps to the top left.\n\n[[K0231]]\nFrom the middle picture, the bottom-right brown circle wraps to the top left. The final stacks are brown/red/red on the left and black/brown/blue on the right.\n\n[[K0232]]\nMove white and black in opposite directions\n\n[[K0233]]\nWhite circles move one corner clockwise and black circles move one corner counterclockwise at each step. Grey means that a white and a black circle occupy the same corner; separate them before moving again.\n\n[[K0234]]\nThe middle picture contains white circles at the two left corners and black circles at the two left corners and bottom right. Moving them gives white at top left, grey at top right, and black at both bottom corners.\n\n[[K0235]]\nExtend every horizontal stroke\n\n[[K0236]]\nAt each step, extend each black horizontal stroke into the immediately neighbouring capsule on both sides. Existing strokes remain, and strokes stop at the outside edges.\n\n[[K0237]]\nExtend the strokes in the middle picture one more capsule left and right. Keep separate stroke heights distinct; the answer shows the resulting longer horizontal lines across the four capsules.\n\n[[K0238]]\nGrow the triangular lattice\n\n[[K0239]]\nTreat the drawing as a group of small triangles. At each step, add a small triangle just outside every exposed edge, keeping the existing triangles and their connecting lines.\n\n[[K0240]]\nGrow the middle green cluster by one more layer of neighbouring triangles. The answer keeps the same triangular grid and adds the triangles along its outside edges.\n\n[[K0241]]\nRemove the marked vertices\n\n[[K0242]]\nThe brown dots identify vertices of the black polygon to remove. Connect the remaining vertices in their original order. Two remaining vertices produce a line segment.\n\n[[K0243]]\nRemove the top and left vertices marked by the brown dots. Only the two lower vertices remain, so the answer is the short horizontal line near the bottom right.\n\n[[K0244]]\nToggle the dots at the outline’s corners\n\n[[K0245]]\nMatch the black outline’s vertices to the 3-by-3 dot positions. At each vertex, remove an existing blue dot or add one if the position is empty. Other positions stay unchanged.\n\n[[K0246]]\nToggle the four corner positions of the slanted outline. The result has blue dots at top left and top middle, middle middle and middle right, and all three bottom positions.\n\n[[K0247]]\nRemove the marked brick and its neighbours\n\n[[K0248]]\nFirst remove the red brick and every brick sharing an edge with it, then let unsupported bricks fall straight down. Repeat the same process with the yellow brick."
+    },
+    {
+      "index": 4,
+      "ids": [
+        "K0249",
+        "K0250",
+        "K0251",
+        "K0252",
+        "K0253",
+        "K0254",
+        "K0255",
+        "K0256",
+        "K0257",
+        "K0258",
+        "K0259",
+        "K0260",
+        "K0261",
+        "K0262",
+        "K0263",
+        "K0264",
+        "K0265",
+        "K0266",
+        "K0267",
+        "K0268",
+        "K0269",
+        "K0270",
+        "K0271",
+        "K0272",
+        "K0273",
+        "K0274"
+      ],
+      "text": "[[K0249]]\nAfter the red removal, the remaining bricks form the middle staircase. Removing the yellow brick and its touching neighbours leaves the upper blue brick, which falls to the bottom.\n\n[[K0250]]\nCycle the layers and apply the colour mask\n\n[[K0251]]\nTrack the same three shapes. At each step the front shape goes to the back. For the final picture, keep the middle picture’s grey or black fills; its unfilled white shapes regain their colours from the first picture.\n\n[[K0252]]\nThe grey hexagon comes to the front, the black horizontal capsule lies behind it, and the vertical capsule moves to the back. That white vertical capsule regains its original yellow colour.\n\n[[K0253]]\nUse each circle’s colour to find its motion\n\n[[K0254]]\nTrack each circle relative to the circle immediately around it. White moves 90 degrees clockwise, black moves 90 degrees counterclockwise, and red stays in the same relative position. Blue does not move. Apply these movements to every nested level.\n\n[[K0255]]\nThe black circle moves from above the blue circle to its left. Red stays to the right inside black. The larger white circle moves from above red to its right; the smallest white circle moves from below the larger white circle to its left.\n\n[[K0256]]\nMove colours along the connected routes\n\n[[K0257]]\nThe black links specify the routes along which the colours move. Follow each loop clockwise, moving each colour to the next connected position. A two-position route swaps its colours; unconnected dots stay put.\n\n[[K0258]]\nSwap the two top colours. On the lower loop, the left-middle blue moves to the centre and the right-middle red moves to the bottom left. The unconnected bottom-right red stays unchanged.\n\n[[K0259]]\nMove each colour along its own path\n\n[[K0260]]\nRed moves down, green moves right and yellow moves left. Blue moves up and, where possible, one column left. White marks overlapping colours; separate those colours again when applying the next move. Colours moving beyond the grid disappear.\n\n[[K0261]]\nSeparate the middle white cell into red and green. Red moves to bottom middle, green to middle right, blue reaches top left and yellow exits on the left. Those three coloured cells form the answer.\n\n[[K0262]]\nMove red and blue tips in opposite directions\n\n[[K0263]]\nAt each step, every red tip moves one position counterclockwise and every blue tip moves two positions clockwise around the five-pointed star. White means that red and blue overlap; separate both colours before moving again.\n\n[[K0264]]\nIn the middle picture, red is at the lower right and blue is at the upper right and upper left. The next move puts red and one blue together at the upper right, making it white. The other blue moves to the lower left.\n\n[[K0265]]\nShift two copies in the sector’s directions\n\n[[K0266]]\nThe two edges of the white sector indicate two movement directions. Make two copies of the red-dot pattern and shift one copy one grid step in each direction, wrapping at the edges. A position reached once is red; a position reached by both copies is blue.\n\n[[K0267]]\nThe final sector points down-left and down-right. Shift a copy each way. Their overlap makes the entire top row and the centre blue; the single-copy positions remain red, as shown in the answer.\n\n[[K0268]]\nRemove crossing string segments\n\n[[K0269]]\nOverlay both drawings. Treat each straight piece between successive grid dots as a separate string segment. When a segment from one drawing crosses a segment from the other between dots, remove both segments. Segments meeting at a grid dot stay. Keep all uncut segments from both drawings.\n\n[[K0270]]\nRemove the diagonal segments cut between the grid dots. The remaining pieces form an upper fork with a vertical stem, two detached short diagonals near the top corners, and a lower fork with its own vertical stem.\n\n[[K0271]]\nSlide and sort the pieces by size\n\n[[K0272]]\nPush all pieces in the arrow’s direction. Smaller pieces pass larger pieces and reach the furthest available spaces first. Keep every piece’s height and vertical position. Pieces may share a column if they do not overlap vertically; equal-sized pieces keep their relative order.\n\n[[K0273]]\nThe arrow points right. Fit the shortest pieces into the available spaces on the right, then the two-cell pieces, then the taller pieces to their left. Nothing moves up or down, and no piece changes size.\n\n[[K0274]]\nMove the dividers into free spaces"
+    },
+    {
+      "index": 5,
+      "ids": [
+        "K0275",
+        "K0276",
+        "K0277",
+        "K0278",
+        "K0279",
+        "K0280",
+        "K0281",
+        "K0282",
+        "K0283",
+        "K0284",
+        "K0285",
+        "K0286",
+        "K0287",
+        "K0288",
+        "K0289",
+        "K0290",
+        "K0291",
+        "K0292",
+        "K0293",
+        "K0294",
+        "K0295",
+        "K0296",
+        "K0297",
+        "K0298",
+        "K0299",
+        "K0300",
+        "K0301",
+        "K0302",
+        "K0303",
+        "K0304",
+        "K0305",
+        "K0306",
+        "K0307",
+        "K0308",
+        "K0309",
+        "K0310",
+        "K0311",
+        "K0312",
+        "K0313",
+        "K0314",
+        "K0315",
+        "K0316",
+        "K0317",
+        "K0318",
+        "K0319",
+        "K0320",
+        "K0321",
+        "K0322",
+        "K0323",
+        "K0324",
+        "K0325",
+        "K0326",
+        "K0327",
+        "K0328",
+        "K0329",
+        "K0330"
+      ],
+      "text": "[[K0275]]\nAll black dividers simultaneously move one position to the right if the next position contains a yellow bead. A divider blocked by another divider waits. The right edge connects to the left edge.\n\n[[K0276]]\nApply one simultaneous step to the middle sequence. The final order is divider, bead, divider, bead, divider, divider, bead.\n\n[[K0277]]\nExpand the colours and keep the largest group\n\n[[K0278]]\nReplace every coloured ball with four new balls of the same colour, one step above, below, left and right. Balls leaving the grid disappear. At each position, keep the colour with the largest number of arriving balls. If colours tie for the largest number, leave the position empty. Several arrivals of the same colour appear as one coloured marker.\n\n[[K0279]]\nExpanding the displayed middle picture leaves green at the top right and at row 2, column 3; red at row 2, column 1; and brown at row 2, column 2, row 3, column 3, and row 4, columns 2, 3 and 4. Those are exactly the colours and positions in the stored answer.\n\n[[K0280]]\nChoose language\n\n[[K0281]]\nSearch languages\n\n[[K0282]]\nClose language selector\n\n[[K0283]]\nNo languages found\n\n[[K0284]]\nFree IQ test for fun | IQ Champion\n\n[[K0285]]\nA free IQ-style test for fun: 36 visual puzzles, 40 minutes, saved progress and an estimated IQ result. No account needed.\n\n[[K0286]]\nChoose your preferred language. Your answers and original deadline stay saved.\n\n[[K0287]]\nLoading language…\n\n[[K0288]]\nThe language could not be loaded. Your test and answers are unchanged.\n\n[[K0289]]\nFeedback is available in Danish and English.\n\n[[K0290]]\nShared achievement\n\n[[K0291]]\nShared result\n\n[[K0292]]\nShared results are self-reported.\n\n[[K0293]]\nShared achievements are self-reported. No age, country, answers or personal profiles are shared.\n\n[[K0294]]\nTry the 36 puzzles yourself\n\n[[K0295]]\nTry the test yourself\n\n[[K0296]]\nA visual challenge in IQ Champion. Can you spot the pattern too?\n\n[[K0297]]\nA free visual puzzle test, just for fun. Not a professionally validated IQ measurement.\n\n[[K0298]]\nPage not found\n\n[[K0299]]\nYou can continue in another language.\n\n[[K0300]]\nanswered\n\n[[K0301]]\nunanswered\n\n[[K0302]]\ncorrect\n\n[[K0303]]\nincorrect\n\n[[K0304]]\nEstimated median range: {0} ({1} timed correct answers).\n\n[[K0305]]\nQuestion {0} · {1}\n\n[[K0306]]\n{0} correct patterns\n\n[[K0307]]\nActive time: {0}\n\n[[K0308]]\nComparison: {0} voluntary attempts over {1} days.\n\n[[K0309]]\nQuestion {0} / {1}\n\n[[K0310]]\nReview question {0} / {1}\n\n[[K0311]]\nRow {0}, icon {1}\n\n[[K0312]]\nAnswer {0}\n\n[[K0313]]\nQuestion {0}, {1}\n\n[[K0314]]\nReview question {0}, {1}\n\n[[K0315]]\n{0} correct; {1} incorrect; {2} unanswered.\n\n[[K0316]]\n{0} answered; {1} unanswered.\n\n[[K0317]]\n{0} answered; {1} unanswered. Unanswered questions count as incorrect. Once finished, you cannot change answers.\n\n[[K0318]]\n{0} / {1} correct\n\n[[K0319]]\nPercentile among historical participants: {0}\n\n[[K0320]]\nParticipants scoring lower: {0}%. Participants with the same score: {1}%.\n\n[[K0321]]\nReference group: {0} historical attempts. Attempts with recorded durations over one minute and up to 40 minutes are included. Tied scores share the midpoint of their percentile group. Estimates are rounded to whole numbers and displayed only within 55–145, with a limit indicator outside that range. This is a scale conversion, not an independently validated population IQ measurement. Practice and repeated attempts can affect your result. Some example images have been corrected since the historical attempts were collected, which limits comparability.\n\n[[K0322]]\nMy estimated IQ in IQ Champion: {0}. Just for fun. Try it: {1}\n\n[[K0323]]\nI solved question {0} correctly in {1}. Can you do it too? {2}\n\n[[K0324]]\nI solved question {0} correctly in {1} (estimated median among correct answers: {2}). Can you do it too? {3}\n\n[[K0325]]\nI found {0} correct patterns in IQ Champion. Try it: {1}\n\n[[K0326]]\nCan you find the missing patterns in IQ Champion? {0}\n\n[[K0327]]\nQuestion {0} solved\n\n[[K0328]]\n{0} patterns solved\n\n[[K0329]]\n{0} / 36 correct. {1}\n\n[[K0330]]\nEstimated IQ {0} | IQ Champion"
+    }
+  ],
+  "dictionaries": {
+    "en": {
+      "Estimated median range": "Estimated median range",
+      "Public comparisons include all contributors using this puzzle version. Optional age group and country are only used in private aggregate statistics.": "Public comparisons include all contributors using this puzzle version. Optional age group and country are only used in private aggregate statistics.",
+      "I agree to contribute my anonymous question results, active times and any optional age group or country to aggregate statistics.": "I agree to contribute my anonymous question results, active times and any optional age group or country to aggregate statistics.",
+      "Median ranges are estimated from time histograms. The displayed interval shows the timing resolution; no exact median or speed percentile is claimed.": "Median ranges are estimated from time histograms. The displayed interval shows the timing resolution; no exact median or speed percentile is claimed.",
+      "Share the challenge": "Share the challenge",
+      "Question time": "Question time",
+      "Your browser privacy preferences keep these statistics on your device.": "Your browser privacy preferences keep these statistics on your device.",
+      "All voluntary attempts": "All voluntary attempts",
+      "Thank you. Your anonymous contribution was saved.": "Thank you. Your anonymous contribution was saved.",
+      "There are not enough comparable attempts in this group yet. Your own statistics are always available.": "There are not enough comparable attempts in this group yet. Your own statistics are always available.",
+      "Comparisons are temporarily unavailable. Your own statistics and sharing still work.": "Comparisons are temporarily unavailable. Your own statistics and sharing still work.",
+      "This older attempt has no complete timing record. You can still explore and share your result.": "This older attempt has no complete timing record. You can still explore and share your result.",
+      "Choose whether to contribute before sending any data.": "Choose whether to contribute before sending any data.",
+      "This attempt has no complete timing record. Your personal results are unchanged.": "This attempt has no complete timing record. Your personal results are unchanged.",
+      "Your contribution could not be saved in this browser. Nothing was sent.": "Your contribution could not be saved in this browser. Nothing was sent.",
+      "This contribution needs review and was not counted again.": "This contribution needs review and was not counted again.",
+      "Your contribution has not been confirmed. Try again with the same saved contribution.": "Your contribution has not been confirmed. Try again with the same saved contribution.",
+      "IQCHAMPION": "IQCHAMPION",
+      "No account needed": "No account needed",
+      "The test starts when you are ready": "The test starts when you are ready",
+      "Test": "Test",
+      "Answered questions": "Answered questions",
+      "Something to share": "Something to share",
+      "Your strongest moment": "Your strongest moment",
+      "Your estimated IQ": "Your estimated IQ",
+      "A tricky puzzle, solved quickly": "A tricky puzzle, solved quickly",
+      "Quicker than the typical correct answer": "Quicker than the typical correct answer",
+      "Your quickest correct answer": "Your quickest correct answer",
+      "Patterns you solved": "Patterns you solved",
+      "A challenge worth sharing": "A challenge worth sharing",
+      "36 puzzles. One challenge.": "36 puzzles. One challenge.",
+      "Share a challenge with someone you know.": "Share a challenge with someone you know.",
+      "Your own active time. There is not enough comparison data to rank its speed.": "Your own active time. There is not enough comparison data to rank its speed.",
+      "Choose what to share": "Choose what to share",
+      "Best moment": "Best moment",
+      "IQ estimate": "IQ estimate",
+      "Correct patterns": "Correct patterns",
+      "Share on Facebook": "Share on Facebook",
+      "Copy a personal caption": "Copy a personal caption",
+      "Your share text": "Your share text",
+      "Copy text": "Copy text",
+      "Facebook lets you write your own caption. We never post automatically.": "Facebook lets you write your own caption. We never post automatically.",
+      "Copied. Paste it into your post.": "Copied. Paste it into your post.",
+      "Select and copy the text below.": "Select and copy the text below.",
+      "Your question statistics": "Your question statistics",
+      "Question comparisons are not available yet. Your personal statistics are shown below.": "Question comparisons are not available yet. Your personal statistics are shown below.",
+      "Times count visible, focused question time up to your last answer. For unanswered questions, time spent is shown. Hidden tabs and closed pages do not count. Earlier attempts may have no timings.": "Times count visible, focused question time up to your last answer. For unanswered questions, time spent is shown. Hidden tabs and closed pages do not count. Earlier attempts may have no timings.",
+      "All 36 questions, including skipped questions": "All 36 questions, including skipped questions",
+      "Question": "Question",
+      "Your time": "Your time",
+      "Correct-answer median": "Correct-answer median",
+      "Others correct": "Others correct",
+      "Compare with voluntary attempts using the same puzzle version. At least 30 answered questions are needed for a correct rate, and 30 timed correct answers for a median. These are participants, not a representative population.": "Compare with voluntary attempts using the same puzzle version. At least 30 answered questions are needed for a correct rate, and 30 timed correct answers for a median. These are participants, not a representative population.",
+      "Compare and contribute": "Compare and contribute",
+      "Help future participants compare their results. You can share anonymous test statistics after finishing, even if you skipped questions.": "Help future participants compare their results. You can share anonymous test statistics after finishing, even if you skipped questions.",
+      "Anonymous comparisons are being prepared. Your personal statistics and sharing work without contributing.": "Anonymous comparisons are being prepared. Your personal statistics and sharing work without contributing.",
+      "Age group (optional)": "Age group (optional)",
+      "Country (optional)": "Country (optional)",
+      "Prefer not to say": "Prefer not to say",
+      "Under 18": "Under 18",
+      "I agree to contribute my anonymous question results and active times, together with any age group and country I choose, to comparison statistics.": "I agree to contribute my anonymous question results and active times, together with any age group and country I choose, to comparison statistics.",
+      "No name, email or exact age. Sharing your statistics is optional and does not affect your result. Small comparison groups are hidden.": "No name, email or exact age. Sharing your statistics is optional and does not affect your result. Small comparison groups are hidden.",
+      "Contribute anonymously": "Contribute anonymously",
+      "Why this answer?": "Why this answer?",
+      "Explanation": "Explanation",
+      "The rule": "The rule",
+      "Applying the rule": "Applying the rule",
+      "You are reviewing an older puzzle version. Its examples contain the previously identified ambiguity; your saved answer and score are unchanged.": "You are reviewing an older puzzle version. Its examples contain the previously identified ambiguity; your saved answer and score are unchanged.",
+      "You are reviewing the original version, which contained incorrect example markers. Your saved answer and score are unchanged. New attempts use the corrected version.": "You are reviewing the original version, which contained incorrect example markers. Your saved answer and score are unchanged. New attempts use the corrected version.",
+      "In this original version, the displayed middle picture expands to green at the top right and row 2, column 3; red at row 2, column 1; and brown at row 2, column 2, row 3, column 3 and row 4, column 3.": "In this original version, the displayed middle picture expands to green at the top right and row 2, column 3; red at row 2, column 1; and brown at row 2, column 2, row 3, column 3 and row 4, column 3.",
+      "Share result on Facebook": "Share result on Facebook",
+      "Share test on Facebook": "Share test on Facebook",
+      "Estimated IQ": "Estimated IQ",
+      "Just for fun. An approximate score, not a professionally validated IQ measurement.": "Just for fun. An approximate score, not a professionally validated IQ measurement.",
+      "Your test is incomplete. Your correct answers are shown, but an IQ estimate needs all 36 answers.": "Your test is incomplete. Your correct answers are shown, but an IQ estimate needs all 36 answers.",
+      "Unavailable": "Unavailable",
+      "Free visual reasoning test | IQ Champion": "Free visual reasoning test | IQ Champion",
+      "36 visual reasoning puzzles. Take a free 40-minute challenge and explore your results.": "36 visual reasoning puzzles. Take a free 40-minute challenge and explore your results.",
+      "Answered": "Answered",
+      "Unanswered": "Unanswered",
+      "Correct": "Correct",
+      "Incorrect": "Incorrect",
+      "Close": "Close",
+      "Help": "Help",
+      "40 min": "40 min",
+      "Language": "Language",
+      "About the test": "About the test",
+      "A challenge in visual reasoning": "A challenge in visual reasoning",
+      "Spot the pattern.": "Spot the pattern.",
+      "Find the missing piece.": "Find the missing piece.",
+      "36 visual puzzles and an estimated IQ score. Just for fun.": "36 visual puzzles and an estimated IQ score. Just for fun.",
+      "Puzzles": "Puzzles",
+      "Time limit": "Time limit",
+      "Cost": "Cost",
+      "Free": "Free",
+      "No account needed. The timer starts when you begin.": "No account needed. The timer starts when you begin.",
+      "How the test works": "How the test works",
+      "Choose the icon that completes each pattern.": "Choose the icon that completes each pattern.",
+      "Skip tricky questions and return using the overview.": "Skip tricky questions and return using the overview.",
+      "Review or change your answers before you finish.": "Review or change your answers before you finish.",
+      "Your answers and start time are saved in this browser. Reloading keeps your original deadline.": "Your answers and start time are saved in this browser. Reloading keeps your original deadline.",
+      "The 40-minute timer continues while the page is closed. Unanswered questions count as incorrect.": "The 40-minute timer continues while the page is closed. Unanswered questions count as incorrect.",
+      "About your result": "About your result",
+      "Your estimated IQ is based on your position among": "Your estimated IQ is based on your position among",
+      "historical attempts.": "historical attempts.",
+      "The comparison uses attempts lasting over one minute and up to 40 minutes. It has not been validated against an official IQ test or a representative population sample.": "The comparison uses attempts lasting over one minute and up to 40 minutes. It has not been validated against an official IQ test or a representative population sample.",
+      "A test for fun. Your estimated IQ is an approximation, not a professionally validated IQ score.": "A test for fun. Your estimated IQ is an approximation, not a professionally validated IQ score.",
+      "Start 40-minute test": "Start 40-minute test",
+      "Reasoning test": "Reasoning test",
+      "Your challenge": "Your challenge",
+      "Time remaining": "Time remaining",
+      "remaining": "remaining",
+      "Question pattern": "Question pattern",
+      "Find the pattern": "Find the pattern",
+      "Four rows of visual patterns; complete the last row": "Four rows of visual patterns; complete the last row",
+      "Choose your answer": "Choose your answer",
+      "Question navigation": "Question navigation",
+      "Previous question": "Previous question",
+      "Skip for now": "Skip for now",
+      "Next question": "Next question",
+      "Question overview": "Question overview",
+      "✓ Answered": "✓ Answered",
+      "○ Unanswered": "○ Unanswered",
+      "Outline = current": "Outline = current",
+      "Jump to a question": "Jump to a question",
+      "Review and finish": "Review and finish",
+      "Instructions & saved progress": "Instructions & saved progress",
+      "Pick an answer to move to the next unanswered question. You can skip, return and change answers before finishing.": "Pick an answer to move to the next unanswered question. You can skip, return and change answers before finishing.",
+      "Answers save automatically in this browser. Reloading resumes the same question; your timer keeps running.": "Answers save automatically in this browser. Reloading resumes the same question; your timer keeps running.",
+      "Ready when you are": "Ready when you are",
+      "Finish this test?": "Finish this test?",
+      "Keep working": "Keep working",
+      "Finish and see result": "Finish and see result",
+      "Challenge complete": "Challenge complete",
+      "Your result": "Your result",
+      "Review answers": "Review answers",
+      "Try again": "Try again",
+      "About this test": "About this test",
+      "How to read this result": "How to read this result",
+      "Your percentile among historical attempts is converted to the familiar IQ scale: midpoint 100 and standard deviation 15. This assumes the comparison group reflects the population, which has not been established.": "Your percentile among historical attempts is converted to the familiar IQ scale: midpoint 100 and standard deviation 15. This assumes the comparison group reflects the population, which has not been established.",
+      "Your answers, explained": "Your answers, explained",
+      "Review your answers": "Review your answers",
+      "Back to result": "Back to result",
+      "The pattern": "The pattern",
+      "Compare the answers": "Compare the answers",
+      "Your answer": "Your answer",
+      "Correct answer": "Correct answer",
+      "Previous review question": "Previous review question",
+      "Next review question": "Next review question",
+      "Results by question": "Results by question",
+      "Explore all 36 puzzles": "Explore all 36 puzzles",
+      "✓ Correct": "✓ Correct",
+      "× Incorrect": "× Incorrect",
+      "Review a question": "Review a question",
+      "Your submitted answers and final score stay unchanged.": "Your submitted answers and final score stay unchanged.",
+      "Contact": "Contact",
+      "Feedback & contact": "Feedback & contact",
+      "Send feedback or contact us": "Send feedback or contact us",
+      "Correct. Your answer matches the correct answer.": "Correct. Your answer matches the correct answer.",
+      "Incorrect. Your answer differs from the correct answer.": "Incorrect. Your answer differs from the correct answer.",
+      "Unanswered. No answer was submitted for this question.": "Unanswered. No answer was submitted for this question.",
+      "No answer submitted": "No answer submitted",
+      "Your submitted answer": "Your submitted answer",
+      "Missing icon": "Missing icon",
+      "All questions are answered. You can still review and change answers, then finish the test.": "All questions are answered. You can still review and change answers, then finish the test.",
+      "Five minutes or less remaining.": "Five minutes or less remaining.",
+      "Time is up. Your answers have been scored.": "Time is up. Your answers have been scored.",
+      "Test completed.": "Test completed.",
+      "Comparison unavailable.": "Comparison unavailable.",
+      "This browser could not save your attempt. Keep this page open: reloading may lose progress or restore older answers.": "This browser could not save your attempt. Keep this page open: reloading may lose progress or restore older answers.",
+      "Local saving is unavailable in this browser. Keep this page open to avoid losing your attempt.": "Local saving is unavailable in this browser. Keep this page open to avoid losing your attempt.",
+      "The saved attempt could not be restored. Start a new test when you are ready.": "The saved attempt could not be restored. Start a new test when you are ready.",
+      "Keep the figure unchanged": "Keep the figure unchanged",
+      "Every position in each example row contains the same blue circle. Neither the shape, colour nor size changes.": "Every position in each example row contains the same blue circle. Neither the shape, colour nor size changes.",
+      "The last row already contains two identical blue circles. Another identical blue circle completes it.": "The last row already contains two identical blue circles. Another identical blue circle completes it.",
+      "Add one nested outline": "Add one nested outline",
+      "Moving right adds a smaller outline of the same shape inside the previous one. The outer shape and its colour stay unchanged.": "Moving right adds a smaller outline of the same shape inside the previous one. The outer shape and its colour stay unchanged.",
+      "The green triangle has one inner triangle in the middle position. Add one more, smaller inner triangle to obtain the answer.": "The green triangle has one inner triangle in the middle position. Add one more, smaller inner triangle to obtain the answer.",
+      "Use the first shape as a cut-out": "Use the first shape as a cut-out",
+      "The black shape in the first position is removed from the centre of the coloured square in the second position. The hole is white.": "The black shape in the first position is removed from the centre of the coloured square in the second position. The hole is white.",
+      "The black square makes a square hole in the green square. Choose the green square with the white square opening.": "The black square makes a square hole in the green square. Choose the green square with the white square opening.",
+      "Combine the upper and lower colours": "Combine the upper and lower colours",
+      "The result takes its upper half from the first capsule and its lower half from the second capsule.": "The result takes its upper half from the first capsule and its lower half from the second capsule.",
+      "The first capsule is white and the second is blue, so the result is white above and blue below.": "The first capsule is white and the second is blue, so the result is white above and blue below.",
+      "Rotate the coloured lobes": "Rotate the coloured lobes",
+      "At each step, turn the whole four-lobed figure 90 degrees clockwise. Every red and blue lobe moves with the figure.": "At each step, turn the whole four-lobed figure 90 degrees clockwise. Every red and blue lobe moves with the figure.",
+      "Turn the middle figure another quarter-turn clockwise. The two red lobes finish on the right and at the bottom; the top and left lobes are blue.": "Turn the middle figure another quarter-turn clockwise. The two red lobes finish on the right and at the bottom; the top and left lobes are blue.",
+      "Round the corners progressively": "Round the corners progressively",
+      "The colour and general shape remain the same while the corners become more rounded at each step.": "The colour and general shape remain the same while the corners become more rounded at each step.",
+      "Continue rounding the corners of the brown rectangle. The answer is the brown capsule with fully rounded ends.": "Continue rounding the corners of the brown rectangle. The answer is the brown capsule with fully rounded ends.",
+      "Continue the circle’s movement": "Continue the circle’s movement",
+      "Within each row the green circle moves the same distance in the same direction: upward, downward or horizontally. Its size stays fixed.": "Within each row the green circle moves the same distance in the same direction: upward, downward or horizontally. Its size stays fixed.",
+      "In the last row the circle moves left along the bottom of the square. One more equal step places it at the bottom left.": "In the last row the circle moves left along the bottom of the square. One more equal step places it at the bottom left.",
+      "Turn the entire dot pattern": "Turn the entire dot pattern",
+      "Rotate the square and all its dots 45 degrees counterclockwise at each step. The square becomes a diamond, then a square again.": "Rotate the square and all its dots 45 degrees counterclockwise at each step. The square becomes a diamond, then a square again.",
+      "Turn the middle green-and-black diamond another 45 degrees counterclockwise. Keep the green and black dots in their rotated positions.": "Turn the middle green-and-black diamond another 45 degrees counterclockwise. Keep the green and black dots in their rotated positions.",
+      "Shorten each bar from the top": "Shorten each bar from the top",
+      "At every step, each vertical black bar loses one grid interval from its upper end. Its lower end stays on the bottom line. A bar disappears when its length reaches zero.": "At every step, each vertical black bar loses one grid interval from its upper end. Its lower end stays on the bottom line. A bar disappears when its length reaches zero.",
+      "The middle picture has a one-interval middle bar and a two-interval right bar. The middle bar disappears, leaving a one-interval bar on the right.": "The middle picture has a one-interval middle bar and a two-interval right bar. The middle bar disappears, leaving a one-interval bar on the right.",
+      "Reflect across the black line": "Reflect across the black line",
+      "The middle line is a mirror axis. Reflect the coloured shape in that line rather than simply rotating it.": "The middle line is a mirror axis. Reflect the coloured shape in that line rather than simply rotating it.",
+      "The last mirror line is vertical, so the yellow shape is flipped left to right. Its colour and size remain unchanged.": "The last mirror line is vertical, so the yellow shape is flipped left to right. Its colour and size remain unchanged.",
+      "Overlay the shapes and use the first colour": "Overlay the shapes and use the first colour",
+      "Place both shapes on top of one another. Keep the combined silhouette and the visible outlines, but colour the result with the first shape’s colour.": "Place both shapes on top of one another. Keep the combined silhouette and the visible outlines, but colour the result with the first shape’s colour.",
+      "Overlay the blue downward triangle and the yellow hexagon, then use blue for the combined figure. The triangle’s projecting tips remain visible around the hexagon.": "Overlay the blue downward triangle and the yellow hexagon, then use blue for the combined figure. The triangle’s projecting tips remain visible around the hexagon.",
+      "Keep green in exactly one input": "Keep green in exactly one input",
+      "Compare corresponding areas of the two squares. An area is green if it is green in exactly one input. Green in both cancels to white; white in both stays white.": "Compare corresponding areas of the two squares. An area is green if it is green in exactly one input. Green in both cancels to white; white in both stays white.",
+      "The first square is entirely green and the second has only a green bottom-left quarter. That shared quarter turns white; the other three quarters stay green.": "The first square is entirely green and the second has only a green bottom-left quarter. That shared quarter turns white; the other three quarters stay green.",
+      "Attach a copy at every corner": "Attach a copy at every corner",
+      "Put a copy of the small black symbol at each vertex of the large shape. The added copies take the large shape’s colour.": "Put a copy of the small black symbol at each vertex of the large shape. The added copies take the large shape’s colour.",
+      "The large blue diamond has four corners. Add a blue downward triangle at each corner, following the same placement rule as the examples.": "The large blue diamond has four corners. Add a blue downward triangle at each corner, following the same placement rule as the examples.",
+      "Add corresponding bar heights": "Add corresponding bar heights",
+      "For each of the three horizontal positions, add the black bar’s height in the first picture to its height in the second. Measure upwards from the common bottom line.": "For each of the three horizontal positions, add the black bar’s height in the first picture to its height in the second. Measure upwards from the common bottom line.",
+      "Neither input has a left bar. The two middle bars add to a full-height bar, while the right bars add to a shorter bar. The answer has just those middle and right bars.": "Neither input has a left bar. The two middle bars add to a full-height bar, while the right bars add to a shorter bar. The answer has just those middle and right bars.",
+      "Rotate and alternate colours": "Rotate and alternate colours",
+      "Turn the shape 45 degrees counterclockwise at each step. Its colour alternates, so the third picture returns to the first picture’s colour.": "Turn the shape 45 degrees counterclockwise at each step. Its colour alternates, so the third picture returns to the first picture’s colour.",
+      "Turn the white middle shape another 45 degrees counterclockwise and restore the dark colour from the first picture. Choose the dark curved shape in that orientation.": "Turn the white middle shape another 45 degrees counterclockwise and restore the dark colour from the first picture. Choose the dark curved shape in that orientation.",
+      "Combine the black circles": "Combine the black circles",
+      "A circle is black in the result whenever the matching circle is black in either input. It is white only when both inputs have a white circle there.": "A circle is black in the result whenever the matching circle is black in either input. It is white only when both inputs have a white circle there.",
+      "The first input contributes the bottom-right black circle; the second contributes the two top black circles. The centre and bottom-left circle stay white.": "The first input contributes the bottom-right black circle; the second contributes the two top black circles. The centre and bottom-left circle stay white.",
+      "Expand into neighbouring cells": "Expand into neighbouring cells",
+      "At each step, every blue cell remains blue and also colours its immediate neighbours above, below, left and right. Expansion stops at the grid boundary.": "At each step, every blue cell remains blue and also colours its immediate neighbours above, below, left and right. Expansion stops at the grid boundary.",
+      "Apply the same one-cell expansion to the middle blue region. Newly reached side neighbours become blue; cells farther away remain in the grey-and-black checkerboard.": "Apply the same one-cell expansion to the middle blue region. Newly reached side neighbours become blue; cells farther away remain in the grey-and-black checkerboard.",
+      "Cancel matching brown positions": "Cancel matching brown positions",
+      "Compare the two five-cell strips position by position. A cell is brown in the result if exactly one input is brown there. Matching brown cells cancel to blue.": "Compare the two five-cell strips position by position. A cell is brown in the result if exactly one input is brown there. Matching brown cells cancel to blue.",
+      "Brown occurs in positions 2, 3, 4 and 5 in the first strip and in positions 2, 3 and 5 in the second. Only position 4 remains brown.": "Brown occurs in positions 2, 3, 4 and 5 in the first strip and in positions 2, 3 and 5 in the second. Only position 4 remains brown.",
+      "Remove the closest red dots": "Remove the closest red dots",
+      "Find the smallest distance between any two red dots. Remove every red dot belonging to a pair at that distance. Recalculate the closest distance for the next step.": "Find the smallest distance between any two red dots. Remove every red dot belonging to a pair at that distance. Recalculate the closest distance for the next step.",
+      "In the middle picture, the three lower red dots participate in the closest diagonal pairs. Removing them leaves only the red dot in the top row, fourth column.": "In the middle picture, the three lower red dots participate in the closest diagonal pairs. Removing them leaves only the red dot in the top row, fourth column.",
+      "Move the six colours around a cycle": "Move the six colours around a cycle",
+      "Read down the left stack, then down the right stack. Shift every colour one position forward in that six-position cycle; the bottom-right colour wraps to the top left.": "Read down the left stack, then down the right stack. Shift every colour one position forward in that six-position cycle; the bottom-right colour wraps to the top left.",
+      "From the middle picture, the bottom-right brown circle wraps to the top left. The final stacks are brown/red/red on the left and black/brown/blue on the right.": "From the middle picture, the bottom-right brown circle wraps to the top left. The final stacks are brown/red/red on the left and black/brown/blue on the right.",
+      "Move white and black in opposite directions": "Move white and black in opposite directions",
+      "White circles move one corner clockwise and black circles move one corner counterclockwise at each step. Grey means that a white and a black circle occupy the same corner; separate them before moving again.": "White circles move one corner clockwise and black circles move one corner counterclockwise at each step. Grey means that a white and a black circle occupy the same corner; separate them before moving again.",
+      "The middle picture contains white circles at the two left corners and black circles at the two left corners and bottom right. Moving them gives white at top left, grey at top right, and black at both bottom corners.": "The middle picture contains white circles at the two left corners and black circles at the two left corners and bottom right. Moving them gives white at top left, grey at top right, and black at both bottom corners.",
+      "Extend every horizontal stroke": "Extend every horizontal stroke",
+      "At each step, extend each black horizontal stroke into the immediately neighbouring capsule on both sides. Existing strokes remain, and strokes stop at the outside edges.": "At each step, extend each black horizontal stroke into the immediately neighbouring capsule on both sides. Existing strokes remain, and strokes stop at the outside edges.",
+      "Extend the strokes in the middle picture one more capsule left and right. Keep separate stroke heights distinct; the answer shows the resulting longer horizontal lines across the four capsules.": "Extend the strokes in the middle picture one more capsule left and right. Keep separate stroke heights distinct; the answer shows the resulting longer horizontal lines across the four capsules.",
+      "Grow the triangular lattice": "Grow the triangular lattice",
+      "Treat the drawing as a group of small triangles. At each step, add a small triangle just outside every exposed edge, keeping the existing triangles and their connecting lines.": "Treat the drawing as a group of small triangles. At each step, add a small triangle just outside every exposed edge, keeping the existing triangles and their connecting lines.",
+      "Grow the middle green cluster by one more layer of neighbouring triangles. The answer keeps the same triangular grid and adds the triangles along its outside edges.": "Grow the middle green cluster by one more layer of neighbouring triangles. The answer keeps the same triangular grid and adds the triangles along its outside edges.",
+      "Remove the marked vertices": "Remove the marked vertices",
+      "The brown dots identify vertices of the black polygon to remove. Connect the remaining vertices in their original order. Two remaining vertices produce a line segment.": "The brown dots identify vertices of the black polygon to remove. Connect the remaining vertices in their original order. Two remaining vertices produce a line segment.",
+      "Remove the top and left vertices marked by the brown dots. Only the two lower vertices remain, so the answer is the short horizontal line near the bottom right.": "Remove the top and left vertices marked by the brown dots. Only the two lower vertices remain, so the answer is the short horizontal line near the bottom right.",
+      "Toggle the dots at the outline’s corners": "Toggle the dots at the outline’s corners",
+      "Match the black outline’s vertices to the 3-by-3 dot positions. At each vertex, remove an existing blue dot or add one if the position is empty. Other positions stay unchanged.": "Match the black outline’s vertices to the 3-by-3 dot positions. At each vertex, remove an existing blue dot or add one if the position is empty. Other positions stay unchanged.",
+      "Toggle the four corner positions of the slanted outline. The result has blue dots at top left and top middle, middle middle and middle right, and all three bottom positions.": "Toggle the four corner positions of the slanted outline. The result has blue dots at top left and top middle, middle middle and middle right, and all three bottom positions.",
+      "Remove the marked brick and its neighbours": "Remove the marked brick and its neighbours",
+      "First remove the red brick and every brick sharing an edge with it, then let unsupported bricks fall straight down. Repeat the same process with the yellow brick.": "First remove the red brick and every brick sharing an edge with it, then let unsupported bricks fall straight down. Repeat the same process with the yellow brick.",
+      "After the red removal, the remaining bricks form the middle staircase. Removing the yellow brick and its touching neighbours leaves the upper blue brick, which falls to the bottom.": "After the red removal, the remaining bricks form the middle staircase. Removing the yellow brick and its touching neighbours leaves the upper blue brick, which falls to the bottom.",
+      "Cycle the layers and apply the colour mask": "Cycle the layers and apply the colour mask",
+      "Track the same three shapes. At each step the front shape goes to the back. For the final picture, keep the middle picture’s grey or black fills; its unfilled white shapes regain their colours from the first picture.": "Track the same three shapes. At each step the front shape goes to the back. For the final picture, keep the middle picture’s grey or black fills; its unfilled white shapes regain their colours from the first picture.",
+      "The grey hexagon comes to the front, the black horizontal capsule lies behind it, and the vertical capsule moves to the back. That white vertical capsule regains its original yellow colour.": "The grey hexagon comes to the front, the black horizontal capsule lies behind it, and the vertical capsule moves to the back. That white vertical capsule regains its original yellow colour.",
+      "Use each circle’s colour to find its motion": "Use each circle’s colour to find its motion",
+      "Track each circle relative to the circle immediately around it. White moves 90 degrees clockwise, black moves 90 degrees counterclockwise, and red stays in the same relative position. Blue does not move. Apply these movements to every nested level.": "Track each circle relative to the circle immediately around it. White moves 90 degrees clockwise, black moves 90 degrees counterclockwise, and red stays in the same relative position. Blue does not move. Apply these movements to every nested level.",
+      "The black circle moves from above the blue circle to its left. Red stays to the right inside black. The larger white circle moves from above red to its right; the smallest white circle moves from below the larger white circle to its left.": "The black circle moves from above the blue circle to its left. Red stays to the right inside black. The larger white circle moves from above red to its right; the smallest white circle moves from below the larger white circle to its left.",
+      "Move colours along the connected routes": "Move colours along the connected routes",
+      "The black links specify the routes along which the colours move. Follow each loop clockwise, moving each colour to the next connected position. A two-position route swaps its colours; unconnected dots stay put.": "The black links specify the routes along which the colours move. Follow each loop clockwise, moving each colour to the next connected position. A two-position route swaps its colours; unconnected dots stay put.",
+      "Swap the two top colours. On the lower loop, the left-middle blue moves to the centre and the right-middle red moves to the bottom left. The unconnected bottom-right red stays unchanged.": "Swap the two top colours. On the lower loop, the left-middle blue moves to the centre and the right-middle red moves to the bottom left. The unconnected bottom-right red stays unchanged.",
+      "Move each colour along its own path": "Move each colour along its own path",
+      "Red moves down, green moves right and yellow moves left. Blue moves up and, where possible, one column left. White marks overlapping colours; separate those colours again when applying the next move. Colours moving beyond the grid disappear.": "Red moves down, green moves right and yellow moves left. Blue moves up and, where possible, one column left. White marks overlapping colours; separate those colours again when applying the next move. Colours moving beyond the grid disappear.",
+      "Separate the middle white cell into red and green. Red moves to bottom middle, green to middle right, blue reaches top left and yellow exits on the left. Those three coloured cells form the answer.": "Separate the middle white cell into red and green. Red moves to bottom middle, green to middle right, blue reaches top left and yellow exits on the left. Those three coloured cells form the answer.",
+      "Move red and blue tips in opposite directions": "Move red and blue tips in opposite directions",
+      "At each step, every red tip moves one position counterclockwise and every blue tip moves two positions clockwise around the five-pointed star. White means that red and blue overlap; separate both colours before moving again.": "At each step, every red tip moves one position counterclockwise and every blue tip moves two positions clockwise around the five-pointed star. White means that red and blue overlap; separate both colours before moving again.",
+      "In the middle picture, red is at the lower right and blue is at the upper right and upper left. The next move puts red and one blue together at the upper right, making it white. The other blue moves to the lower left.": "In the middle picture, red is at the lower right and blue is at the upper right and upper left. The next move puts red and one blue together at the upper right, making it white. The other blue moves to the lower left.",
+      "Shift two copies in the sector’s directions": "Shift two copies in the sector’s directions",
+      "The two edges of the white sector indicate two movement directions. Make two copies of the red-dot pattern and shift one copy one grid step in each direction, wrapping at the edges. A position reached once is red; a position reached by both copies is blue.": "The two edges of the white sector indicate two movement directions. Make two copies of the red-dot pattern and shift one copy one grid step in each direction, wrapping at the edges. A position reached once is red; a position reached by both copies is blue.",
+      "The final sector points down-left and down-right. Shift a copy each way. Their overlap makes the entire top row and the centre blue; the single-copy positions remain red, as shown in the answer.": "The final sector points down-left and down-right. Shift a copy each way. Their overlap makes the entire top row and the centre blue; the single-copy positions remain red, as shown in the answer.",
+      "Remove crossing string segments": "Remove crossing string segments",
+      "Overlay both drawings. Treat each straight piece between successive grid dots as a separate string segment. When a segment from one drawing crosses a segment from the other between dots, remove both segments. Segments meeting at a grid dot stay. Keep all uncut segments from both drawings.": "Overlay both drawings. Treat each straight piece between successive grid dots as a separate string segment. When a segment from one drawing crosses a segment from the other between dots, remove both segments. Segments meeting at a grid dot stay. Keep all uncut segments from both drawings.",
+      "Remove the diagonal segments cut between the grid dots. The remaining pieces form an upper fork with a vertical stem, two detached short diagonals near the top corners, and a lower fork with its own vertical stem.": "Remove the diagonal segments cut between the grid dots. The remaining pieces form an upper fork with a vertical stem, two detached short diagonals near the top corners, and a lower fork with its own vertical stem.",
+      "Slide and sort the pieces by size": "Slide and sort the pieces by size",
+      "Push all pieces in the arrow’s direction. Smaller pieces pass larger pieces and reach the furthest available spaces first. Keep every piece’s height and vertical position. Pieces may share a column if they do not overlap vertically; equal-sized pieces keep their relative order.": "Push all pieces in the arrow’s direction. Smaller pieces pass larger pieces and reach the furthest available spaces first. Keep every piece’s height and vertical position. Pieces may share a column if they do not overlap vertically; equal-sized pieces keep their relative order.",
+      "The arrow points right. Fit the shortest pieces into the available spaces on the right, then the two-cell pieces, then the taller pieces to their left. Nothing moves up or down, and no piece changes size.": "The arrow points right. Fit the shortest pieces into the available spaces on the right, then the two-cell pieces, then the taller pieces to their left. Nothing moves up or down, and no piece changes size.",
+      "Move the dividers into free spaces": "Move the dividers into free spaces",
+      "All black dividers simultaneously move one position to the right if the next position contains a yellow bead. A divider blocked by another divider waits. The right edge connects to the left edge.": "All black dividers simultaneously move one position to the right if the next position contains a yellow bead. A divider blocked by another divider waits. The right edge connects to the left edge.",
+      "Apply one simultaneous step to the middle sequence. The final order is divider, bead, divider, bead, divider, divider, bead.": "Apply one simultaneous step to the middle sequence. The final order is divider, bead, divider, bead, divider, divider, bead.",
+      "Expand the colours and keep the largest group": "Expand the colours and keep the largest group",
+      "Replace every coloured ball with four new balls of the same colour, one step above, below, left and right. Balls leaving the grid disappear. At each position, keep the colour with the largest number of arriving balls. If colours tie for the largest number, leave the position empty. Several arrivals of the same colour appear as one coloured marker.": "Replace every coloured ball with four new balls of the same colour, one step above, below, left and right. Balls leaving the grid disappear. At each position, keep the colour with the largest number of arriving balls. If colours tie for the largest number, leave the position empty. Several arrivals of the same colour appear as one coloured marker.",
+      "Expanding the displayed middle picture leaves green at the top right and at row 2, column 3; red at row 2, column 1; and brown at row 2, column 2, row 3, column 3, and row 4, columns 2, 3 and 4. Those are exactly the colours and positions in the stored answer.": "Expanding the displayed middle picture leaves green at the top right and at row 2, column 3; red at row 2, column 1; and brown at row 2, column 2, row 3, column 3, and row 4, columns 2, 3 and 4. Those are exactly the colours and positions in the stored answer.",
+      "Choose language": "Choose language",
+      "Search languages": "Search languages",
+      "Close language selector": "Close language selector",
+      "No languages found": "No languages found",
+      "Free IQ test for fun | IQ Champion": "Free IQ test for fun | IQ Champion",
+      "A free IQ-style test for fun: 36 visual puzzles, 40 minutes, saved progress and an estimated IQ result. No account needed.": "A free IQ-style test for fun: 36 visual puzzles, 40 minutes, saved progress and an estimated IQ result. No account needed.",
+      "Choose your preferred language. Your answers and original deadline stay saved.": "Choose your preferred language. Your answers and original deadline stay saved.",
+      "Loading language…": "Loading language…",
+      "The language could not be loaded. Your test and answers are unchanged.": "The language could not be loaded. Your test and answers are unchanged.",
+      "Feedback is available in Danish and English.": "Feedback is available in Danish and English.",
+      "Shared achievement": "Shared achievement",
+      "Shared result": "Shared result",
+      "Shared results are self-reported.": "Shared results are self-reported.",
+      "Shared achievements are self-reported. No age, country, answers or personal profiles are shared.": "Shared achievements are self-reported. No age, country, answers or personal profiles are shared.",
+      "Try the 36 puzzles yourself": "Try the 36 puzzles yourself",
+      "Try the test yourself": "Try the test yourself",
+      "A visual challenge in IQ Champion. Can you spot the pattern too?": "A visual challenge in IQ Champion. Can you spot the pattern too?",
+      "A free visual puzzle test, just for fun. Not a professionally validated IQ measurement.": "A free visual puzzle test, just for fun. Not a professionally validated IQ measurement.",
+      "Page not found": "Page not found",
+      "You can continue in another language.": "You can continue in another language.",
+      "answered": "answered",
+      "unanswered": "unanswered",
+      "correct": "correct",
+      "incorrect": "incorrect"
+    },
+    "da": {
+      "Estimated median range": "Estimeret medianinterval",
+      "Public comparisons include all contributors using this puzzle version. Optional age group and country are only used in private aggregate statistics.": "Offentlige sammenligninger omfatter alle bidrag på denne opgaveversion. Frivillig aldersgruppe og land bruges kun i privat, samlet statistik.",
+      "I agree to contribute my anonymous question results, active times and any optional age group or country to aggregate statistics.": "Jeg accepterer, at mine anonyme opgaveresultater, aktive tider og eventuelt valgt aldersgruppe eller land indgår i samlet statistik.",
+      "Median ranges are estimated from time histograms. The displayed interval shows the timing resolution; no exact median or speed percentile is claimed.": "Medianintervaller estimeres fra tidshistogrammer. Det viste interval angiver tidsopløsningen. Der angives ikke en eksakt median eller hastighedspercentil.",
+      "Share the challenge": "Del udfordringen",
+      "Question time": "Opgavetid",
+      "Your browser privacy preferences keep these statistics on your device.": "Din browsers privatlivsvalg holder disse statistikker på din enhed.",
+      "All voluntary attempts": "Alle frivillige forsøg",
+      "Thank you. Your anonymous contribution was saved.": "Tak. Dit anonyme bidrag er gemt.",
+      "There are not enough comparable attempts in this group yet. Your own statistics are always available.": "Der er endnu ikke nok sammenlignelige forsøg i denne gruppe. Din egen statistik er altid tilgængelig.",
+      "Comparisons are temporarily unavailable. Your own statistics and sharing still work.": "Sammenligninger er midlertidigt utilgængelige. Din egen statistik og deling fungerer stadig.",
+      "This older attempt has no complete timing record. You can still explore and share your result.": "Dette ældre forsøg har ikke en fuldstændig tidsmåling. Du kan stadig gennemgå og dele dit resultat.",
+      "Choose whether to contribute before sending any data.": "Vælg, om du vil bidrage, før der sendes data.",
+      "This attempt has no complete timing record. Your personal results are unchanged.": "Dette forsøg har ikke en fuldstændig tidsmåling. Dine egne resultater er uændrede.",
+      "Your contribution could not be saved in this browser. Nothing was sent.": "Dit bidrag kunne ikke gemmes i denne browser. Der blev ikke sendt noget.",
+      "This contribution needs review and was not counted again.": "Dette bidrag kræver gennemgang og er ikke talt med igen.",
+      "Your contribution has not been confirmed. Try again with the same saved contribution.": "Dit bidrag er ikke bekræftet. Prøv igen med det samme gemte bidrag.",
+      "IQCHAMPION": "IQCHAMPION",
+      "No account needed": "Ingen konto nødvendig",
+      "The test starts when you are ready": "Testen starter, når du er klar",
+      "Test": "test",
+      "Answered questions": "Besvarede opgaver",
+      "Something to share": "Noget at dele",
+      "Your strongest moment": "Dit stærkeste øjeblik",
+      "Your estimated IQ": "Din estimerede IQ",
+      "A tricky puzzle, solved quickly": "En svær opgave, løst hurtigt",
+      "Quicker than the typical correct answer": "Hurtigere end det typiske korrekte svar",
+      "Your quickest correct answer": "Dit hurtigste korrekte svar",
+      "Patterns you solved": "Mønstre, du løste",
+      "A challenge worth sharing": "En udfordring at dele",
+      "36 puzzles. One challenge.": "36 opgaver. Én udfordring.",
+      "Share a challenge with someone you know.": "Del udfordringen med en, du kender.",
+      "Your own active time. There is not enough comparison data to rank its speed.": "Din egen aktive tid. Der er endnu ikke nok sammenligningsdata til at vurdere hastigheden.",
+      "Choose what to share": "Vælg, hvad du vil dele",
+      "Best moment": "Bedste øjeblik",
+      "IQ estimate": "IQ-estimat",
+      "Correct patterns": "Rigtige mønstre",
+      "Share on Facebook": "Del på Facebook",
+      "Copy a personal caption": "Kopiér en personlig tekst",
+      "Your share text": "Din delingstekst",
+      "Copy text": "Kopiér tekst",
+      "Facebook lets you write your own caption. We never post automatically.": "På Facebook kan du skrive din egen tekst. Vi slår aldrig noget op automatisk.",
+      "Copied. Paste it into your post.": "Kopieret. Indsæt teksten i dit opslag.",
+      "Select and copy the text below.": "Markér og kopiér teksten herunder.",
+      "Your question statistics": "Din opgavestatistik",
+      "Question comparisons are not available yet. Your personal statistics are shown below.": "Opgavesammenligninger er endnu ikke tilgængelige. Du kan se din egen statistik herunder.",
+      "Times count visible, focused question time up to your last answer. For unanswered questions, time spent is shown. Hidden tabs and closed pages do not count. Earlier attempts may have no timings.": "Tiderne måler aktiv tid i en synlig opgave med fokus frem til dit sidste svar. Ved ubesvarede opgaver vises den brugte tid. Skjulte faner og lukkede sider tæller ikke med. Ældre forsøg kan mangle tider.",
+      "All 36 questions, including skipped questions": "Alle 36 opgaver, også dem du sprang over",
+      "Question": "Opgave",
+      "Your time": "Din tid",
+      "Correct-answer median": "Median for korrekte svar",
+      "Others correct": "Andre med korrekt svar",
+      "Compare with voluntary attempts using the same puzzle version. At least 30 answered questions are needed for a correct rate, and 30 timed correct answers for a median. These are participants, not a representative population.": "Sammenlign med frivillige forsøg på samme opgaveversion. En korrektandel kræver mindst 30 besvarelser, og en median kræver 30 korrekte svar med tidsmåling. Deltagerne er ikke et repræsentativt udsnit af befolkningen.",
+      "Compare and contribute": "Sammenlign og bidrag",
+      "Help future participants compare their results. You can share anonymous test statistics after finishing, even if you skipped questions.": "Hjælp fremtidige deltagere med at sammenligne deres resultater. Du kan dele anonym teststatistik efter afslutning, også hvis du sprang opgaver over.",
+      "Anonymous comparisons are being prepared. Your personal statistics and sharing work without contributing.": "Anonyme sammenligninger er på vej. Din egen statistik og deling fungerer uden et bidrag.",
+      "Age group (optional)": "Aldersgruppe (valgfrit)",
+      "Country (optional)": "Land (valgfrit)",
+      "Prefer not to say": "Ønsker ikke at oplyse",
+      "Under 18": "Under 18",
+      "I agree to contribute my anonymous question results and active times, together with any age group and country I choose, to comparison statistics.": "Jeg accepterer, at mine anonyme opgaveresultater og aktive tider samt eventuelt valgt aldersgruppe og land indgår i sammenligningsstatistik.",
+      "No name, email or exact age. Sharing your statistics is optional and does not affect your result. Small comparison groups are hidden.": "Intet navn, e-mail eller præcis alder. Det er frivilligt at dele statistik og ændrer ikke dit resultat. Små sammenligningsgrupper skjules.",
+      "Contribute anonymously": "Bidrag anonymt",
+      "Why this answer?": "Hvorfor dette svar?",
+      "Explanation": "Forklaring",
+      "The rule": "Reglen",
+      "Applying the rule": "Sådan får du svaret",
+      "You are reviewing an older puzzle version. Its examples contain the previously identified ambiguity; your saved answer and score are unchanged.": "Du gennemgår en tidligere opgaveversion. Eksemplerne har den tidligere påviste tvetydighed; dit gemte svar og resultat er uændret.",
+      "You are reviewing the original version, which contained incorrect example markers. Your saved answer and score are unchanged. New attempts use the corrected version.": "Du gennemgår den oprindelige version, som havde fejl i eksemplernes prikker. Dit gemte svar og resultat er uændret. Nye forsøg bruger den rettede version.",
+      "In this original version, the displayed middle picture expands to green at the top right and row 2, column 3; red at row 2, column 1; and brown at row 2, column 2, row 3, column 3 and row 4, column 3.": "I denne oprindelige version giver det viste midterbillede grønt øverst til højre og i række 2, kolonne 3; rødt i række 2, kolonne 1; og brunt i række 2, kolonne 2, række 3, kolonne 3 og række 4, kolonne 3.",
+      "Share result on Facebook": "Del resultat på Facebook",
+      "Share test on Facebook": "Del testen på Facebook",
+      "Estimated IQ": "Estimeret IQ",
+      "Just for fun. An approximate score, not a professionally validated IQ measurement.": "Kun for sjov. Et omtrentligt tal, ikke en fagligt valideret måling af IQ.",
+      "Your test is incomplete. Your correct answers are shown, but an IQ estimate needs all 36 answers.": "Din test er ufuldstændig. Du kan se dine rigtige svar, men et IQ-estimat kræver svar på alle 36 opgaver.",
+      "Unavailable": "Ikke tilgængelig",
+      "Free visual reasoning test | IQ Champion": "Gratis logiktest med figurer | IQ Champion",
+      "36 visual reasoning puzzles. Take a free 40-minute challenge and explore your results.": "36 visuelle logikopgaver. Prøv en gratis test på 40 minutter, og se dit resultat.",
+      "Answered": "Besvaret",
+      "Unanswered": "Ubesvaret",
+      "Correct": "Rigtigt",
+      "Incorrect": "Forkert",
+      "Close": "Luk",
+      "Help": "Hjælp",
+      "40 min": "40 min",
+      "Language": "Sprog",
+      "About the test": "Om testen",
+      "A challenge in visual reasoning": "En udfordring i visuel ræsonnering.",
+      "Spot the pattern.": "Spot mønstret.",
+      "Find the missing piece.": "Find den manglende brik.",
+      "36 visual puzzles and an estimated IQ score. Just for fun.": "36 visuelle opgaver og en estimeret IQ-score. Kun for sjov.",
+      "Puzzles": "Opgaver",
+      "Time limit": "Tidsgrænse",
+      "Cost": "Pris",
+      "Free": "Gratis",
+      "No account needed. The timer starts when you begin.": "Ingen konto nødvendig. Tiden starter, når du begynder.",
+      "How the test works": "Sådan fungerer testen",
+      "Choose the icon that completes each pattern.": "Vælg den figur, der fuldender hvert mønster.",
+      "Skip tricky questions and return using the overview.": "Spring svære opgaver over, og vend tilbage via overblikket.",
+      "Review or change your answers before you finish.": "Gennemgå eller ret dine svar, før du afslutter.",
+      "Your answers and start time are saved in this browser. Reloading keeps your original deadline.": "Dine svar og din starttid gemmes i denne browser. Genindlæsning bevarer den oprindelige tidsfrist.",
+      "The 40-minute timer continues while the page is closed. Unanswered questions count as incorrect.": "De 40 minutter løber videre, mens siden er lukket. Ubesvarede opgaver tæller som forkerte.",
+      "About your result": "Om dit resultat",
+      "Your estimated IQ is based on your position among": "Din estimerede IQ bygger på din placering blandt",
+      "historical attempts.": "historiske forsøg.",
+      "The comparison uses attempts lasting over one minute and up to 40 minutes. It has not been validated against an official IQ test or a representative population sample.": "Sammenligningen bruger forsøg på over ét minut og op til 40 minutter. Den er ikke valideret mod en officiel IQ-test eller et repræsentativt udsnit af befolkningen.",
+      "A test for fun. Your estimated IQ is an approximation, not a professionally validated IQ score.": "En test for sjov. Din estimerede IQ er en tilnærmelse, ikke en fagligt valideret IQ-score.",
+      "Start 40-minute test": "Start 40-minutters test",
+      "Reasoning test": "Logiktest",
+      "Your challenge": "Din udfordring",
+      "Time remaining": "Tid tilbage",
+      "remaining": "tilbage",
+      "Question pattern": "Opgavens mønster",
+      "Find the pattern": "Find mønstret",
+      "Four rows of visual patterns; complete the last row": "Fire rækker med visuelle mønstre; fuldend den sidste række",
+      "Choose your answer": "Vælg dit svar",
+      "Question navigation": "Navigation mellem opgaver",
+      "Previous question": "Forrige opgave",
+      "Skip for now": "Spring over",
+      "Next question": "Næste opgave",
+      "Question overview": "Opgaveoverblik",
+      "✓ Answered": "✓ Besvaret",
+      "○ Unanswered": "○ Ubesvaret",
+      "Outline = current": "Ramme = aktuel",
+      "Jump to a question": "Gå til en opgave",
+      "Review and finish": "Gennemgå og afslut",
+      "Instructions & saved progress": "Vejledning og gemte svar",
+      "Pick an answer to move to the next unanswered question. You can skip, return and change answers before finishing.": "Vælg et svar for at gå til næste ubesvarede opgave. Du kan springe over, vende tilbage og rette dine svar, før du afslutter.",
+      "Answers save automatically in this browser. Reloading resumes the same question; your timer keeps running.": "Svar gemmes automatisk i denne browser. Efter genindlæsning fortsætter du på samme opgave; tiden løber videre.",
+      "Ready when you are": "Når du er klar",
+      "Finish this test?": "Vil du afslutte testen?",
+      "Keep working": "Fortsæt testen",
+      "Finish and see result": "Afslut og se resultat",
+      "Challenge complete": "Testen er afsluttet",
+      "Your result": "Dit resultat",
+      "Review answers": "Gennemgå svar",
+      "Try again": "Prøv igen",
+      "About this test": "Om denne test",
+      "How to read this result": "Sådan læser du resultatet",
+      "Your percentile among historical attempts is converted to the familiar IQ scale: midpoint 100 and standard deviation 15. This assumes the comparison group reflects the population, which has not been established.": "Din percentil blandt historiske forsøg omregnes til den velkendte IQ-skala med midtpunkt 100 og standardafvigelse 15. Det forudsætter, at sammenligningsgruppen afspejler befolkningen, hvilket ikke er dokumenteret.",
+      "Your answers, explained": "Overblik over dine svar",
+      "Review your answers": "Gennemgå dine svar",
+      "Back to result": "Tilbage til resultat",
+      "The pattern": "Mønstret",
+      "Compare the answers": "Sammenlign svarene",
+      "Your answer": "Dit svar",
+      "Correct answer": "Rigtigt svar",
+      "Previous review question": "Forrige opgave i gennemgangen",
+      "Next review question": "Næste opgave i gennemgangen",
+      "Results by question": "Resultat pr. opgave",
+      "Explore all 36 puzzles": "Se alle 36 opgaver",
+      "✓ Correct": "✓ Rigtigt",
+      "× Incorrect": "× Forkert",
+      "Review a question": "Gennemgå en opgave",
+      "Your submitted answers and final score stay unchanged.": "Dine indsendte svar og dit endelige resultat ændres ikke.",
+      "Contact": "Kontakt",
+      "Feedback & contact": "Feedback og kontakt",
+      "Send feedback or contact us": "Send feedback eller kontakt os",
+      "Correct. Your answer matches the correct answer.": "Rigtigt. Dit svar stemmer med facit.",
+      "Incorrect. Your answer differs from the correct answer.": "Forkert. Dit svar er forskelligt fra facit.",
+      "Unanswered. No answer was submitted for this question.": "Ubesvaret. Du har ikke svaret på denne opgave.",
+      "No answer submitted": "Intet svar afgivet",
+      "Your submitted answer": "Dit indsendte svar",
+      "Missing icon": "Manglende figur",
+      "All questions are answered. You can still review and change answers, then finish the test.": "Alle opgaver er besvaret. Du kan stadig gennemgå og rette dine svar, før du afslutter testen.",
+      "Five minutes or less remaining.": "Der er højst fem minutter tilbage.",
+      "Time is up. Your answers have been scored.": "Tiden er gået. Dit resultat er beregnet.",
+      "Test completed.": "Testen er afsluttet.",
+      "Comparison unavailable.": "Sammenligningen er ikke tilgængelig.",
+      "This browser could not save your attempt. Keep this page open: reloading may lose progress or restore older answers.": "Browseren kunne ikke gemme dit forsøg. Hold siden åben: genindlæsning kan miste nye svar eller gendanne ældre svar.",
+      "Local saving is unavailable in this browser. Keep this page open to avoid losing your attempt.": "Lokal lagring er ikke tilgængelig i denne browser. Hold siden åben, så du ikke mister dit forsøg.",
+      "The saved attempt could not be restored. Start a new test when you are ready.": "Det gemte forsøg kunne ikke gendannes. Start en ny test, når du er klar.",
+      "Keep the figure unchanged": "Bevar figuren",
+      "Every position in each example row contains the same blue circle. Neither the shape, colour nor size changes.": "Alle tre billeder i hver eksempelrække viser den samme blå cirkel. Form, farve og størrelse ændres ikke.",
+      "The last row already contains two identical blue circles. Another identical blue circle completes it.": "Sidste række har allerede to ens blå cirkler. En tredje identisk cirkel fuldender rækken.",
+      "Add one nested outline": "Tilføj en indre kontur",
+      "Moving right adds a smaller outline of the same shape inside the previous one. The outer shape and its colour stay unchanged.": "For hvert trin mod højre tilføjes en mindre kontur af samme figur indeni. Den ydre form og farven bevares.",
+      "The green triangle has one inner triangle in the middle position. Add one more, smaller inner triangle to obtain the answer.": "Den grønne trekant har én indre trekant i midten. Tilføj endnu en mindre trekant indeni.",
+      "Use the first shape as a cut-out": "Brug den sorte figur som udskæring",
+      "The black shape in the first position is removed from the centre of the coloured square in the second position. The hole is white.": "Den sorte figur i første billede skæres ud af midten af den farvede firkant i andet billede. Hullet er hvidt.",
+      "The black square makes a square hole in the green square. Choose the green square with the white square opening.": "Den sorte firkant giver et firkantet hul i den grønne firkant. Vælg den grønne firkant med det hvide, firkantede hul.",
+      "Combine the upper and lower colours": "Kombinér farverne foroven og forneden",
+      "The result takes its upper half from the first capsule and its lower half from the second capsule.": "Resultatet får sin øverste halvdel fra den første kapsel og sin nederste halvdel fra den anden.",
+      "The first capsule is white and the second is blue, so the result is white above and blue below.": "Første kapsel er hvid og anden kapsel blå. Resultatet bliver derfor hvidt foroven og blåt forneden.",
+      "Rotate the coloured lobes": "Drej hele figuren",
+      "At each step, turn the whole four-lobed figure 90 degrees clockwise. Every red and blue lobe moves with the figure.": "Drej hele figuren med fire buer 90 grader med uret for hvert trin. Alle røde og blå dele følger med.",
+      "Turn the middle figure another quarter-turn clockwise. The two red lobes finish on the right and at the bottom; the top and left lobes are blue.": "Drej midterfiguren endnu en kvart omgang med uret. De røde dele ender til højre og forneden; de blå ender foroven og til venstre.",
+      "Round the corners progressively": "Afrund hjørnerne mere og mere",
+      "The colour and general shape remain the same while the corners become more rounded at each step.": "Farven og grundformen bevares, mens hjørnerne bliver mere afrundede for hvert trin.",
+      "Continue rounding the corners of the brown rectangle. The answer is the brown capsule with fully rounded ends.": "Fortsæt afrundingen af det brune rektangel. Resultatet er den brune kapsel med helt afrundede ender.",
+      "Continue the circle’s movement": "Fortsæt cirklens bevægelse",
+      "Within each row the green circle moves the same distance in the same direction: upward, downward or horizontally. Its size stays fixed.": "I hver række bevæger den grønne cirkel sig lige langt i samme retning for hvert trin. Størrelsen er uændret.",
+      "In the last row the circle moves left along the bottom of the square. One more equal step places it at the bottom left.": "I sidste række flytter cirklen mod venstre langs firkantens bund. Endnu et lige langt trin placerer den nederst til venstre.",
+      "Turn the entire dot pattern": "Drej hele prikmønstret",
+      "Rotate the square and all its dots 45 degrees counterclockwise at each step. The square becomes a diamond, then a square again.": "Drej firkanten og alle dens prikker 45 grader mod uret for hvert trin. Firkanten bliver først en rombe og derefter en firkant igen.",
+      "Turn the middle green-and-black diamond another 45 degrees counterclockwise. Keep the green and black dots in their rotated positions.": "Drej den grønne og sorte rombe i midten endnu 45 grader mod uret. Alle prikker skal følge med i drejningen.",
+      "Shorten each bar from the top": "Forkort søjlerne fra toppen",
+      "At every step, each vertical black bar loses one grid interval from its upper end. Its lower end stays on the bottom line. A bar disappears when its length reaches zero.": "Hver lodret sort søjle mister ét gitterinterval fra sin øverste ende. Den nederste ende bliver på bundlinjen. En søjle forsvinder, når længden bliver nul.",
+      "The middle picture has a one-interval middle bar and a two-interval right bar. The middle bar disappears, leaving a one-interval bar on the right.": "Midterbilledet har en søjle på ét interval i midten og to intervaller til højre. Den midterste forsvinder, og den højre forkortes til ét interval.",
+      "Reflect across the black line": "Spejl i den sorte linje",
+      "The middle line is a mirror axis. Reflect the coloured shape in that line rather than simply rotating it.": "Linjen i midten er en spejlakse. Figuren skal spejles i linjen.",
+      "The last mirror line is vertical, so the yellow shape is flipped left to right. Its colour and size remain unchanged.": "Den sidste spejlakse er lodret. Den gule figur spejles derfor fra venstre mod højre, mens farve og størrelse bevares.",
+      "Overlay the shapes and use the first colour": "Læg figurerne sammen og brug første farve",
+      "Place both shapes on top of one another. Keep the combined silhouette and the visible outlines, but colour the result with the first shape’s colour.": "Læg de to figurer oven på hinanden. Bevar den samlede silhuet og de synlige konturer, og brug den første figurs farve.",
+      "Overlay the blue downward triangle and the yellow hexagon, then use blue for the combined figure. The triangle’s projecting tips remain visible around the hexagon.": "Læg den blå trekant og den gule sekskant sammen. Hele resultatet bliver blåt, og trekantens udstikkende spidser skal stadig kunne ses.",
+      "Keep green in exactly one input": "Bevar grønt fra præcis ét billede",
+      "Compare corresponding areas of the two squares. An area is green if it is green in exactly one input. Green in both cancels to white; white in both stays white.": "Sammenlign de samme områder i de to firkanter. Et område er grønt i resultatet, hvis det er grønt i præcis ét af billederne. Grønt i begge billeder bliver hvidt.",
+      "The first square is entirely green and the second has only a green bottom-left quarter. That shared quarter turns white; the other three quarters stay green.": "Første firkant er helt grøn; anden er kun grøn nederst til venstre. Det fælles grønne hjørne bliver hvidt, og de tre øvrige hjørner forbliver grønne.",
+      "Attach a copy at every corner": "Sæt en kopi i hvert hjørne",
+      "Put a copy of the small black symbol at each vertex of the large shape. The added copies take the large shape’s colour.": "Anbring en kopi af det lille sorte symbol ved hvert hjørne af den store figur. Kopierne får den store figurs farve.",
+      "The large blue diamond has four corners. Add a blue downward triangle at each corner, following the same placement rule as the examples.": "Den blå rombe har fire hjørner. Anbring en blå, nedadvendt trekant ved hvert hjørne på samme måde som i eksemplerne.",
+      "Add corresponding bar heights": "Læg søjlernes højder sammen",
+      "For each of the three horizontal positions, add the black bar’s height in the first picture to its height in the second. Measure upwards from the common bottom line.": "På hver af de tre pladser lægges søjlens højde i første billede sammen med højden i andet billede. Mål fra den fælles bundlinje.",
+      "Neither input has a left bar. The two middle bars add to a full-height bar, while the right bars add to a shorter bar. The answer has just those middle and right bars.": "Ingen af billederne har en venstre søjle. De midterste søjler giver tilsammen en søjle i fuld højde, mens de højre giver en kortere søjle.",
+      "Rotate and alternate colours": "Drej og skift farve",
+      "Turn the shape 45 degrees counterclockwise at each step. Its colour alternates, so the third picture returns to the first picture’s colour.": "Figuren drejes 45 grader mod uret for hvert trin. Farven skifter hver gang, så tredje billede har samme farve som det første.",
+      "Turn the white middle shape another 45 degrees counterclockwise and restore the dark colour from the first picture. Choose the dark curved shape in that orientation.": "Drej den hvide midterfigur endnu 45 grader mod uret, og brug den mørke farve fra første billede. Vælg den mørke, buede figur i denne retning.",
+      "Combine the black circles": "Kombinér de sorte cirkler",
+      "A circle is black in the result whenever the matching circle is black in either input. It is white only when both inputs have a white circle there.": "En cirkel bliver sort i resultatet, hvis den tilsvarende cirkel er sort i mindst ét af de to billeder. Den er kun hvid, hvis begge billeder er hvide dér.",
+      "The first input contributes the bottom-right black circle; the second contributes the two top black circles. The centre and bottom-left circle stay white.": "Første billede bidrager med den sorte cirkel nederst til højre, og andet med de to øverste. Cirklerne i midten og nederst til venstre forbliver hvide.",
+      "Expand into neighbouring cells": "Udvid til nabofelterne",
+      "At each step, every blue cell remains blue and also colours its immediate neighbours above, below, left and right. Expansion stops at the grid boundary.": "Alle blå felter bevares og farver også deres nærmeste naboer oppe, nede, til venstre og til højre blå. Udvidelsen stopper ved kanten.",
+      "Apply the same one-cell expansion to the middle blue region. Newly reached side neighbours become blue; cells farther away remain in the grey-and-black checkerboard.": "Udvid det blå område i midterbilledet med endnu ét nabofelt i hver retning. Felter længere væk beholder skakmønstret.",
+      "Cancel matching brown positions": "Fjern brunt på fælles pladser",
+      "Compare the two five-cell strips position by position. A cell is brown in the result if exactly one input is brown there. Matching brown cells cancel to blue.": "Sammenlign de to strimler plads for plads. En plads bliver brun, hvis den er brun i præcis én strimmel. Brunt i begge strimler bliver blåt.",
+      "Brown occurs in positions 2, 3, 4 and 5 in the first strip and in positions 2, 3 and 5 in the second. Only position 4 remains brown.": "Første strimmel er brun på plads 2, 3, 4 og 5; anden på plads 2, 3 og 5. Kun plads 4 forbliver brun.",
+      "Remove the closest red dots": "Fjern de nærmeste røde prikker",
+      "Find the smallest distance between any two red dots. Remove every red dot belonging to a pair at that distance. Recalculate the closest distance for the next step.": "Find den mindste afstand mellem to røde prikker. Fjern alle prikker, som indgår i et par med denne afstand. Find derefter den nye mindste afstand til næste trin.",
+      "In the middle picture, the three lower red dots participate in the closest diagonal pairs. Removing them leaves only the red dot in the top row, fourth column.": "De tre nederste røde prikker i midterbilledet indgår i de nærmeste diagonale par. Når de fjernes, er kun prikken i øverste række, fjerde kolonne tilbage.",
+      "Move the six colours around a cycle": "Flyt farverne rundt i et kredsløb",
+      "Read down the left stack, then down the right stack. Shift every colour one position forward in that six-position cycle; the bottom-right colour wraps to the top left.": "Læs først ned gennem venstre stak og derefter ned gennem højre. Flyt hver farve én plads frem i dette kredsløb. Farven nederst til højre fortsætter øverst til venstre.",
+      "From the middle picture, the bottom-right brown circle wraps to the top left. The final stacks are brown/red/red on the left and black/brown/blue on the right.": "Den brune cirkel nederst til højre flytter øverst til venstre. Resultatets venstre stak bliver brun, rød, rød, og højre stak bliver sort, brun, blå.",
+      "Move white and black in opposite directions": "Flyt hvidt og sort hver sin vej",
+      "White circles move one corner clockwise and black circles move one corner counterclockwise at each step. Grey means that a white and a black circle occupy the same corner; separate them before moving again.": "Hvide cirkler flytter ét hjørne med uret, og sorte ét hjørne mod uret. Grå betyder, at hvidt og sort overlapper; flyt de to farver hver for sig i næste trin.",
+      "The middle picture contains white circles at the two left corners and black circles at the two left corners and bottom right. Moving them gives white at top left, grey at top right, and black at both bottom corners.": "Midterbilledet har hvidt i de to venstre hjørner og sort i de to venstre samt nederst til højre. Efter flytningen bliver øverst til venstre hvidt, øverst til højre gråt og begge nederste hjørner sorte.",
+      "Extend every horizontal stroke": "Forlæng de vandrette streger",
+      "At each step, extend each black horizontal stroke into the immediately neighbouring capsule on both sides. Existing strokes remain, and strokes stop at the outside edges.": "Hver sort vandret streg forlænges til nabokapslen på begge sider. De eksisterende streger bevares, og forlængelsen stopper ved yderkanterne.",
+      "Extend the strokes in the middle picture one more capsule left and right. Keep separate stroke heights distinct; the answer shows the resulting longer horizontal lines across the four capsules.": "Forlæng midterbilledets streger endnu én kapsel til venstre og højre. Streger i forskellige højder skal fortsat være adskilte.",
+      "Grow the triangular lattice": "Udvid trekantgitteret",
+      "Treat the drawing as a group of small triangles. At each step, add a small triangle just outside every exposed edge, keeping the existing triangles and their connecting lines.": "Se figuren som en samling små trekanter. Tilføj en lille trekant uden på hver fri kant, mens de eksisterende trekanter og forbindelseslinjer bevares.",
+      "Grow the middle green cluster by one more layer of neighbouring triangles. The answer keeps the same triangular grid and adds the triangles along its outside edges.": "Udvid den grønne samling i midten med endnu ét lag nabotrekanter langs yderkanten. Bevar det samme trekantgitter.",
+      "Remove the marked vertices": "Fjern de markerede hjørner",
+      "The brown dots identify vertices of the black polygon to remove. Connect the remaining vertices in their original order. Two remaining vertices produce a line segment.": "De brune prikker markerer hjørner, der skal fjernes fra den sorte polygon. Forbind de resterende hjørner i deres oprindelige rækkefølge. To hjørner giver et linjestykke.",
+      "Remove the top and left vertices marked by the brown dots. Only the two lower vertices remain, so the answer is the short horizontal line near the bottom right.": "Fjern det øverste og venstre markerede hjørne. Kun de to nederste bliver tilbage, så svaret er den korte vandrette streg nederst til højre.",
+      "Toggle the dots at the outline’s corners": "Skift prikkerne ved konturens hjørner",
+      "Match the black outline’s vertices to the 3-by-3 dot positions. At each vertex, remove an existing blue dot or add one if the position is empty. Other positions stay unchanged.": "Placér konturens hjørner på prikgitteret med tre rækker og tre kolonner. Ved hvert hjørne fjernes en blå prik, hvis der er en, og tilføjes en, hvis pladsen er tom.",
+      "Toggle the four corner positions of the slanted outline. The result has blue dots at top left and top middle, middle middle and middle right, and all three bottom positions.": "Skift de fire pladser ved den skrå konturs hjørner. Resultatet har blå prikker øverst til venstre og i midten, i midterste rækkes midte og højre samt på alle tre nederste pladser.",
+      "Remove the marked brick and its neighbours": "Fjern den markerede klods og dens naboer",
+      "First remove the red brick and every brick sharing an edge with it, then let unsupported bricks fall straight down. Repeat the same process with the yellow brick.": "Fjern først den røde klods og alle klodser, der deler en kant med den. Lad klodser uden støtte falde lodret ned. Gentag med den gule klods.",
+      "After the red removal, the remaining bricks form the middle staircase. Removing the yellow brick and its touching neighbours leaves the upper blue brick, which falls to the bottom.": "Efter første fjernelse danner klodserne trappen i midten. Når den gule klods og dens kantnaboer fjernes, bliver den øverste blå klods tilbage og falder til bunden.",
+      "Cycle the layers and apply the colour mask": "Flyt lagene og bevar farvemasken",
+      "Track the same three shapes. At each step the front shape goes to the back. For the final picture, keep the middle picture’s grey or black fills; its unfilled white shapes regain their colours from the first picture.": "De samme tre figurer følges gennem rækken. For hvert trin flytter den forreste figur bagerst. I sidste billede bevares gråt og sort fra midterbilledet, mens hvide figurer får deres oprindelige farve tilbage.",
+      "The grey hexagon comes to the front, the black horizontal capsule lies behind it, and the vertical capsule moves to the back. That white vertical capsule regains its original yellow colour.": "Den grå sekskant kommer forrest med den sorte vandrette kapsel bagved. Den lodrette kapsel flytter bagerst og bliver gul igen.",
+      "Use each circle’s colour to find its motion": "Lad cirklens farve bestemme bevægelsen",
+      "Track each circle relative to the circle immediately around it. White moves 90 degrees clockwise, black moves 90 degrees counterclockwise, and red stays in the same relative position. Blue does not move. Apply these movements to every nested level.": "Følg hver cirkel i forhold til cirklen umiddelbart udenom. Hvid flytter 90 grader med uret, sort 90 grader mod uret, og rød bevarer sin relative placering. Blå flytter ikke. Gør det på alle niveauer.",
+      "The black circle moves from above the blue circle to its left. Red stays to the right inside black. The larger white circle moves from above red to its right; the smallest white circle moves from below the larger white circle to its left.": "Sort flytter fra over den blå cirkel til venstre for den. Rød bliver til højre inde i sort. Den store hvide flytter fra over rød til højre for den; den mindste hvide flytter fra under den store hvide til venstre for den.",
+      "Move colours along the connected routes": "Flyt farverne langs forbindelserne",
+      "The black links specify the routes along which the colours move. Follow each loop clockwise, moving each colour to the next connected position. A two-position route swaps its colours; unconnected dots stay put.": "De sorte forbindelser viser farvernes ruter. Følg hver løkke med uret, og flyt hver farve til næste forbundne plads. To forbundne pladser bytter farve. Prikker uden forbindelse bliver stående.",
+      "Swap the two top colours. On the lower loop, the left-middle blue moves to the centre and the right-middle red moves to the bottom left. The unconnected bottom-right red stays unchanged.": "Byt de to øverste farver. I den nederste løkke flytter blå fra venstre side til midten, og rød fra højre side til nederst til venstre. Den uforbundne røde prik nederst til højre bevares.",
+      "Move each colour along its own path": "Flyt hver farve ad sin egen rute",
+      "Red moves down, green moves right and yellow moves left. Blue moves up and, where possible, one column left. White marks overlapping colours; separate those colours again when applying the next move. Colours moving beyond the grid disappear.": "Rød flytter ned, grøn til højre og gul til venstre. Blå flytter op og, hvor det er muligt, én kolonne til venstre. Hvid viser overlappende farver, som adskilles før næste flytning. Farver uden for gitteret forsvinder.",
+      "Separate the middle white cell into red and green. Red moves to bottom middle, green to middle right, blue reaches top left and yellow exits on the left. Those three coloured cells form the answer.": "Adskil den hvide midtercelle i rød og grøn. Rød flytter til nederste midte, grøn til midterste højre, blå til øverste venstre, og gul forlader gitteret mod venstre.",
+      "Move red and blue tips in opposite directions": "Flyt røde og blå spidser hver sin vej",
+      "At each step, every red tip moves one position counterclockwise and every blue tip moves two positions clockwise around the five-pointed star. White means that red and blue overlap; separate both colours before moving again.": "For hvert trin flytter røde spidser én plads mod uret og blå to pladser med uret rundt om stjernen. Hvid betyder overlap af rød og blå; flyt begge farver hver for sig i næste trin.",
+      "In the middle picture, red is at the lower right and blue is at the upper right and upper left. The next move puts red and one blue together at the upper right, making it white. The other blue moves to the lower left.": "I midten er rød nederst til højre og blå øverst til højre og venstre. Næste trin samler rød og én blå øverst til højre, som bliver hvid. Den anden blå ender nederst til venstre.",
+      "Shift two copies in the sector’s directions": "Forskyd to kopier i sektorens retninger",
+      "The two edges of the white sector indicate two movement directions. Make two copies of the red-dot pattern and shift one copy one grid step in each direction, wrapping at the edges. A position reached once is red; a position reached by both copies is blue.": "Den hvide sektors to kanter viser to bevægelsesretninger. Lav to kopier af det røde prikmønster, og forskyd én kopi ét gittertrin i hver retning. Fortsæt rundt ved kanterne. Én kopi giver rødt; overlap af begge giver blåt.",
+      "The final sector points down-left and down-right. Shift a copy each way. Their overlap makes the entire top row and the centre blue; the single-copy positions remain red, as shown in the answer.": "Sidste sektor peger skråt ned mod venstre og højre. Forskyd en kopi hver vej. Overlappet gør hele øverste række og midten blå, mens de øvrige nåede pladser bliver røde.",
+      "Remove crossing string segments": "Fjern overklippede snorestykker",
+      "Overlay both drawings. Treat each straight piece between successive grid dots as a separate string segment. When a segment from one drawing crosses a segment from the other between dots, remove both segments. Segments meeting at a grid dot stay. Keep all uncut segments from both drawings.": "Læg de to tegninger oven på hinanden. Hvert lige stykke mellem to naboprikker er et snorestykke. Når et stykke fra den ene tegning krydser et fra den anden mellem prikkerne, fjernes begge. Møder ved en prik bevares.",
+      "Remove the diagonal segments cut between the grid dots. The remaining pieces form an upper fork with a vertical stem, two detached short diagonals near the top corners, and a lower fork with its own vertical stem.": "Fjern de diagonale stykker, der klippes mellem prikkerne. Resten danner en øvre og en nedre forgrening med lodrette stammer samt to korte, adskilte diagonaler nær de øverste hjørner.",
+      "Slide and sort the pieces by size": "Skub og sortér brikkerne efter størrelse",
+      "Push all pieces in the arrow’s direction. Smaller pieces pass larger pieces and reach the furthest available spaces first. Keep every piece’s height and vertical position. Pieces may share a column if they do not overlap vertically; equal-sized pieces keep their relative order.": "Skub alle brikker i pilens retning. Små brikker passerer store og når de yderste ledige pladser først. Højde og lodret placering bevares. Brikker kan dele kolonne uden lodret overlap. Lige høje brikker bevarer deres indbyrdes vandrette rækkefølge.",
+      "The arrow points right. Fit the shortest pieces into the available spaces on the right, then the two-cell pieces, then the taller pieces to their left. Nothing moves up or down, and no piece changes size.": "Pilen peger mod højre. Placér først de korteste brikker længst til højre, så brikkerne på to felter og derefter de højere brikker til venstre for dem. Ingen brik flytter op eller ned eller ændrer størrelse.",
+      "Move the dividers into free spaces": "Flyt stregerne til ledige pladser",
+      "All black dividers simultaneously move one position to the right if the next position contains a yellow bead. A divider blocked by another divider waits. The right edge connects to the left edge.": "Alle sorte streger flytter samtidig én plads mod højre, hvis den næste plads indeholder en gul kugle. En streg med en anden streg foran sig venter. Højre kant fortsætter ved venstre kant.",
+      "Apply one simultaneous step to the middle sequence. The final order is divider, bead, divider, bead, divider, divider, bead.": "Flyt én gang ud fra midterbilledets placeringer. Den sidste rækkefølge bliver streg, kugle, streg, kugle, streg, streg, kugle.",
+      "Expand the colours and keep the largest group": "Udvid farverne og bevar den største gruppe",
+      "Replace every coloured ball with four new balls of the same colour, one step above, below, left and right. Balls leaving the grid disappear. At each position, keep the colour with the largest number of arriving balls. If colours tie for the largest number, leave the position empty. Several arrivals of the same colour appear as one coloured marker.": "Erstat hver farvet kugle med fire nye i samme farve: én oppe, nede, til venstre og til højre. Kugler uden for gitteret forsvinder. På hver plads bevares den farve, flest kugler ankommer i. Ved lighed mellem de største grupper bliver pladsen tom.",
+      "Expanding the displayed middle picture leaves green at the top right and at row 2, column 3; red at row 2, column 1; and brown at row 2, column 2, row 3, column 3, and row 4, columns 2, 3 and 4. Those are exactly the colours and positions in the stored answer.": "Udvid midterbilledet. Grøn ender øverst til højre og i række 2, kolonne 3; rød i række 2, kolonne 1. Brun ender i række 2, kolonne 2, række 3, kolonne 3 og nederste rækkes kolonne 2, 3 og 4.",
+      "Choose language": "Choose language",
+      "Search languages": "Search languages",
+      "Close language selector": "Close language selector",
+      "No languages found": "No languages found",
+      "Free IQ test for fun | IQ Champion": "Free IQ test for fun | IQ Champion",
+      "A free IQ-style test for fun: 36 visual puzzles, 40 minutes, saved progress and an estimated IQ result. No account needed.": "A free IQ-style test for fun: 36 visual puzzles, 40 minutes, saved progress and an estimated IQ result. No account needed.",
+      "Choose your preferred language. Your answers and original deadline stay saved.": "Choose your preferred language. Your answers and original deadline stay saved.",
+      "Loading language…": "Loading language…",
+      "The language could not be loaded. Your test and answers are unchanged.": "The language could not be loaded. Your test and answers are unchanged.",
+      "Feedback is available in Danish and English.": "Feedback is available in Danish and English.",
+      "Shared achievement": "Shared achievement",
+      "Shared result": "Shared result",
+      "Shared results are self-reported.": "Shared results are self-reported.",
+      "Shared achievements are self-reported. No age, country, answers or personal profiles are shared.": "Shared achievements are self-reported. No age, country, answers or personal profiles are shared.",
+      "Try the 36 puzzles yourself": "Try the 36 puzzles yourself",
+      "Try the test yourself": "Try the test yourself",
+      "A visual challenge in IQ Champion. Can you spot the pattern too?": "A visual challenge in IQ Champion. Can you spot the pattern too?",
+      "A free visual puzzle test, just for fun. Not a professionally validated IQ measurement.": "A free visual puzzle test, just for fun. Not a professionally validated IQ measurement.",
+      "Page not found": "Page not found",
+      "You can continue in another language.": "You can continue in another language.",
+      "answered": "besvaret",
+      "unanswered": "ubesvaret",
+      "correct": "rigtigt",
+      "incorrect": "forkert"
+    }
+  },
+  "templates": [
+    "Estimated median range: {0} ({1} timed correct answers).",
+    "Question {0} · {1}",
+    "{0} correct patterns",
+    "Active time: {0}",
+    "Comparison: {0} voluntary attempts over {1} days.",
+    "Question {0} / {1}",
+    "Review question {0} / {1}",
+    "Row {0}, icon {1}",
+    "Answer {0}",
+    "Question {0}, {1}",
+    "Review question {0}, {1}",
+    "{0} correct; {1} incorrect; {2} unanswered.",
+    "{0} answered; {1} unanswered.",
+    "{0} answered; {1} unanswered. Unanswered questions count as incorrect. Once finished, you cannot change answers.",
+    "{0} / {1} correct",
+    "Percentile among historical participants: {0}",
+    "Participants scoring lower: {0}%. Participants with the same score: {1}%.",
+    "Reference group: {0} historical attempts. Attempts with recorded durations over one minute and up to 40 minutes are included. Tied scores share the midpoint of their percentile group. Estimates are rounded to whole numbers and displayed only within 55–145, with a limit indicator outside that range. This is a scale conversion, not an independently validated population IQ measurement. Practice and repeated attempts can affect your result. Some example images have been corrected since the historical attempts were collected, which limits comparability.",
+    "My estimated IQ in IQ Champion: {0}. Just for fun. Try it: {1}",
+    "I solved question {0} correctly in {1}. Can you do it too? {2}",
+    "I solved question {0} correctly in {1} (estimated median among correct answers: {2}). Can you do it too? {3}",
+    "I found {0} correct patterns in IQ Champion. Try it: {1}",
+    "Can you find the missing patterns in IQ Champion? {0}",
+    "Question {0} solved",
+    "{0} patterns solved",
+    "{0} / 36 correct. {1}",
+    "Estimated IQ {0} | IQ Champion"
+  ]
+}
