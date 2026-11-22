@@ -1,26 +1,26 @@
 [[K0215]]
-Draai de vorm bij elke stap 45 graden tegen de klok in. De kleur wisselt telkens, waardoor de derde afbeelding weer dezelfde kleur heeft als de eerste. 
+Draai de vorm bij elke stap 45 graden tegen de klok in. De kleur wisselt telkens, waardoor de derde afbeelding weer dezelfde kleur heeft als de eerste.
 
 [[K0216]]
-Draai de witte vorm in het midden nog eens 45 graden tegen de klok in en breng de donkere kleur uit de eerste afbeelding terug. Kies de donkere, gebogen vorm in die stand. 
+Draai de witte vorm in het midden nog eens 45 graden tegen de klok in en breng de donkere kleur uit de eerste afbeelding terug. Kies de donkere, gebogen vorm in die stand.
 
 [[K0217]]
 Combineer de zwarte cirkels.
 
 [[K0218]]
-Een cirkel is in het resultaat zwart als de bijbehorende cirkel in een van de twee invoerafbeeldingen zwart is. Hij is alleen wit als beide invoerafbeeldingen op die plek een witte cirkel hebben. 
+Een cirkel is in het resultaat zwart als de bijbehorende cirkel in een van de twee invoerafbeeldingen zwart is. Hij is alleen wit als beide invoerafbeeldingen op die plek een witte cirkel hebben.
 
 [[K0219]]
-De eerste invoerafbeelding levert de zwarte cirkel rechtsonder; de tweede levert de twee zwarte cirkels aan de bovenkant. De cirkels in het midden en linksonder blijven wit. 
+De eerste invoerafbeelding levert de zwarte cirkel rechtsonder; de tweede levert de twee zwarte cirkels aan de bovenkant. De cirkels in het midden en linksonder blijven wit.
 
 [[K0220]]
 Breid uit naar aangrenzende cellen.
 
 [[K0221]]
-Bij elke stap blijft elke blauwe cel blauw en kleurt deze ook de direct aangrenzende cellen erboven, eronder, links en rechts blauw. De uitbreiding stopt bij de rand van het raster. 
+Bij elke stap blijft elke blauwe cel blauw en kleurt deze ook de direct aangrenzende cellen erboven, eronder, links en rechts blauw. De uitbreiding stopt bij de rand van het raster.
 
 [[K0222]]
-Pas dezelfde uitbreiding van één cel toe op het blauwe gebied in het midden. Cellen die hierdoor voor het eerst worden bereikt, worden blauw; cellen die verder weg liggen, blijven onderdeel van het grijs-zwarte dambordpatroon. 
+Pas dezelfde uitbreiding van één cel toe op het blauwe gebied in het midden. Cellen die hierdoor voor het eerst worden bereikt, worden blauw; cellen die verder weg liggen, blijven onderdeel van het grijs-zwarte dambordpatroon.
 
 [[K0223]]
 Laat overeenkomende bruine posities wegvallen.
@@ -29,68 +29,68 @@ Laat overeenkomende bruine posities wegvallen.
 Vergelijk de twee stroken van vijf cellen positie voor positie. Een cel is in het resultaat bruin als deze in precies één van de twee invoerafbeeldingen bruin is. Overeenkomende bruine cellen worden blauw (ze vallen tegen elkaar weg).
 
 [[K0225]]
-In de eerste strook zijn de posities 2, 3, 4 en 5 bruin; in de tweede strook zijn dat de posities 2, 3 en 5. Alleen positie 4 blijft bruin. 
+In de eerste strook zijn de posities 2, 3, 4 en 5 bruin; in de tweede strook zijn dat de posities 2, 3 en 5. Alleen positie 4 blijft bruin.
 
 [[K0226]]
 Verwijder de rode stippen die het dichtst bij elkaar liggen.
 
 [[K0227]]
 Bepaal de kleinste afstand tussen twee rode stippen. Verwijder alle rode stippen die deel uitmaken van een paar met die afstand. Bereken voor de volgende stap opnieuw wat de kleinste afstand is. [[K0228]]
-In de middelste afbeelding maken de drie onderste rode stippen deel uit van de diagonaal gelegen paren die het dichtst bij elkaar liggen. Als je deze verwijdert, blijft alleen de rode stip in de bovenste rij, vierde kolom, over. 
+In de middelste afbeelding maken de drie onderste rode stippen deel uit van de diagonaal gelegen paren die het dichtst bij elkaar liggen. Als je deze verwijdert, blijft alleen de rode stip in de bovenste rij, vierde kolom, over.
 
 [[K0229]]
 Verplaats de zes kleuren in een cyclus.
 
 [[K0230]]
-Lees de linkerstapel van boven naar beneden, en vervolgens de rechterstapel. Verschuif elke kleur één positie vooruit in deze cyclus van zes posities; de kleur rechtsonder schuift door naar linksboven. 
+Lees de linkerstapel van boven naar beneden, en vervolgens de rechterstapel. Verschuif elke kleur één positie vooruit in deze cyclus van zes posities; de kleur rechtsonder schuift door naar linksboven.
 
 [[K0231]]
-In de middelste afbeelding schuift de bruine cirkel rechtsonder door naar linksboven. De uiteindelijke stapels zijn bruin/rood/rood aan de linkerkant en zwart/bruin/blauw aan de rechterkant. 
+In de middelste afbeelding schuift de bruine cirkel rechtsonder door naar linksboven. De uiteindelijke stapels zijn bruin/rood/rood aan de linkerkant en zwart/bruin/blauw aan de rechterkant.
 
 [[K0232]]
 Verplaats wit en zwart in tegengestelde richtingen.
 
 [[K0233]]
-Bij elke stap verschuiven witte cirkels één hoek met de klok mee, en zwarte cirkels één hoek tegen de klok in. Een grijze kleur geeft aan dat een witte en een zwarte cirkel zich in dezelfde hoek bevinden; scheid ze van elkaar voordat je de volgende verplaatsing uitvoert. 
+Bij elke stap verschuiven witte cirkels één hoek met de klok mee, en zwarte cirkels één hoek tegen de klok in. Een grijze kleur geeft aan dat een witte en een zwarte cirkel zich in dezelfde hoek bevinden; scheid ze van elkaar voordat je de volgende verplaatsing uitvoert.
 
 [[K0234]]
-In de middelste afbeelding bevinden zich witte cirkels in de twee linkerhoeken, en zwarte cirkels in de twee linkerhoeken en rechtsonder. Na verplaatsing bevinden zich witte cirkels linksboven, een grijze cirkel rechtsboven, en zwarte cirkels in beide onderste hoeken. 
+In de middelste afbeelding bevinden zich witte cirkels in de twee linkerhoeken, en zwarte cirkels in de twee linkerhoeken en rechtsonder. Na verplaatsing bevinden zich witte cirkels linksboven, een grijze cirkel rechtsboven, en zwarte cirkels in beide onderste hoeken.
 
 [[K0235]]
 Verleng elke horizontale lijn.
 
 [[K0236]]
-Verleng bij elke stap elke zwarte horizontale lijn naar de direct aangrenzende capsules aan beide zijden. Bestaande lijnen blijven behouden, en de lijnen stoppen bij de buitenste randen. 
+Verleng bij elke stap elke zwarte horizontale lijn naar de direct aangrenzende capsules aan beide zijden. Bestaande lijnen blijven behouden, en de lijnen stoppen bij de buitenste randen.
 
 [[K0237]]
-Verleng de lijnen in de middelste afbeelding met nog één capsule naar links en naar rechts. Houd rekening met de verschillende hoogtes van de lijnen; het antwoord toont de resulterende langere horizontale lijnen die over de vier capsules lopen. 
+Verleng de lijnen in de middelste afbeelding met nog één capsule naar links en naar rechts. Houd rekening met de verschillende hoogtes van de lijnen; het antwoord toont de resulterende langere horizontale lijnen die over de vier capsules lopen.
 
 [[K0238]]
 Breid het driehoeksrooster uit.
 
 [[K0239]]
-Beschouw de tekening als een verzameling kleine driehoeken. Voeg bij elke stap een kleine driehoek toe net buiten elke openliggende zijde, waarbij de bestaande driehoeken en hun verbindingslijnen behouden blijven. 
+Beschouw de tekening als een verzameling kleine driehoeken. Voeg bij elke stap een kleine driehoek toe net buiten elke openliggende zijde, waarbij de bestaande driehoeken en hun verbindingslijnen behouden blijven.
 
 [[K0240]]
-Breid het middelste groene cluster uit met nog een laag aangrenzende driehoeken. Het antwoord behoudt hetzelfde driehoeksraster en voegt de driehoeken langs de buitenranden toe. 
+Breid het middelste groene cluster uit met nog een laag aangrenzende driehoeken. Het antwoord behoudt hetzelfde driehoeksraster en voegt de driehoeken langs de buitenranden toe.
 
 [[K0241]]
 Verwijder de gemarkeerde hoekpunten.
 
 [[K0242]]
-De bruine stippen geven de hoekpunten van de zwarte veelhoek aan die verwijderd moeten worden. Verbind de overgebleven hoekpunten in hun oorspronkelijke volgorde met elkaar. Twee overgebleven hoekpunten vormen samen een lijnstuk. 
+De bruine stippen geven de hoekpunten van de zwarte veelhoek aan die verwijderd moeten worden. Verbind de overgebleven hoekpunten in hun oorspronkelijke volgorde met elkaar. Twee overgebleven hoekpunten vormen samen een lijnstuk.
 
 [[K0243]]
-Verwijder de bovenste en linker hoekpunten die met bruine stippen zijn gemarkeerd. Alleen de twee onderste hoekpunten blijven over; het antwoord is dus het korte horizontale lijntje rechtsonder. 
+Verwijder de bovenste en linker hoekpunten die met bruine stippen zijn gemarkeerd. Alleen de twee onderste hoekpunten blijven over; het antwoord is dus het korte horizontale lijntje rechtsonder.
 
 [[K0244]]
 Schakel de stippen op de hoekpunten van de omtrek in of uit.
 
 [[K0245]]
-Breng de hoekpunten van de zwarte omtrek in verband met de posities in het 3-bij-3-raster van stippen. Verwijder op elk hoekpunt een aanwezige blauwe stip, of voeg er een toe als de positie leeg is. De overige posities blijven ongewijzigd. 
+Breng de hoekpunten van de zwarte omtrek in verband met de posities in het 3-bij-3-raster van stippen. Verwijder op elk hoekpunt een aanwezige blauwe stip, of voeg er een toe als de positie leeg is. De overige posities blijven ongewijzigd.
 
 [[K0246]]
-Schakel de vier hoekpunten van de schuine omtrek in of uit. Het resultaat bevat blauwe stippen linksboven, in het middenboven, in het midden, rechtsmidden en op alle drie de onderste posities. 
+Schakel de vier hoekpunten van de schuine omtrek in of uit. Het resultaat bevat blauwe stippen linksboven, in het middenboven, in het midden, rechtsmidden en op alle drie de onderste posities.
 
 [[K0247]]
 Verwijder de gemarkeerde baksteen en de aangrenzende bakstenen.

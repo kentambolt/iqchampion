@@ -1,121 +1,121 @@
 [[K0173]]
-Cada posição em cada linha de exemplo contém o mesmo círculo azul. Nem a forma, nem a cor, nem o tamanho mudam. 
+Cada posição em cada linha de exemplo contém o mesmo círculo azul. Nem a forma, nem a cor, nem o tamanho mudam.
 
 [[K0174]]
-A última linha já contém dois círculos azuis idênticos. Outro círculo azul idêntico a completa. 
+A última linha já contém dois círculos azuis idênticos. Outro círculo azul idêntico a completa.
 
 [[K0175]]
 Adicione um contorno interno
 
 [[K0176]]
-Ao mover para a direita, um contorno menor, com o mesmo formato, é adicionado dentro do anterior. O formato externo e sua cor permanecem inalterados. 
+Ao mover para a direita, um contorno menor, com o mesmo formato, é adicionado dentro do anterior. O formato externo e sua cor permanecem inalterados.
 
 [[K0177]]
-O triângulo verde possui um triângulo interno na posição central. Adicione mais um triângulo interno, menor, para obter a resposta. 
+O triângulo verde possui um triângulo interno na posição central. Adicione mais um triângulo interno, menor, para obter a resposta.
 
 [[K0178]]
 Use a primeira forma como um recorte
 
 [[K0179]]
-A forma preta na primeira posição é removida do centro do quadrado colorido na segunda posição. O orifício resultante é branco. 
+A forma preta na primeira posição é removida do centro do quadrado colorido na segunda posição. O orifício resultante é branco.
 
 [[K0180]]
-O quadrado preto cria um orifício quadrado no quadrado verde. Escolha o quadrado verde que apresenta uma abertura quadrada branca. 
+O quadrado preto cria um orifício quadrado no quadrado verde. Escolha o quadrado verde que apresenta uma abertura quadrada branca.
 
 [[K0181]]
 Combine as cores superior e inferior
 
 [[K0182]]
-O resultado é composto pela metade superior da primeira cápsula e pela metade inferior da segunda cápsula. 
+O resultado é composto pela metade superior da primeira cápsula e pela metade inferior da segunda cápsula.
 
 [[K0183]]
-A primeira cápsula é branca e a segunda é azul; portanto, o resultado é branco na parte superior e azul na parte inferior. 
+A primeira cápsula é branca e a segunda é azul; portanto, o resultado é branco na parte superior e azul na parte inferior.
 
 [[K0184]]
 Gire os lóbulos coloridos
 
 [[K0185]]
-A cada etapa, gire toda a figura de quatro lóbulos em 90 graus no sentido horário. Todos os lóbulos vermelhos e azuis giram junto com a figura. 
+A cada etapa, gire toda a figura de quatro lóbulos em 90 graus no sentido horário. Todos os lóbulos vermelhos e azuis giram junto com a figura.
 
 [[K0186]]
-Gire a figura central mais um quarto de volta no sentido horário. Os dois lóbulos vermelhos ficam posicionados à direita e na parte inferior; os lóbulos superior e esquerdo são azuis. 
+Gire a figura central mais um quarto de volta no sentido horário. Os dois lóbulos vermelhos ficam posicionados à direita e na parte inferior; os lóbulos superior e esquerdo são azuis.
 
 [[K0187]]
 Arredonde os cantos progressivamente
 
 [[K0188]]
 A cor e o formato geral permanecem os mesmos, enquanto os cantos tornam-se mais arredondados a cada etapa. [[K0189]]
-Continue arredondando os cantos do retângulo marrom. A resposta é a cápsula marrom com as extremidades totalmente arredondadas. 
+Continue arredondando os cantos do retângulo marrom. A resposta é a cápsula marrom com as extremidades totalmente arredondadas.
 
 [[K0190]]
 Continue o movimento do círculo.
 
 [[K0191]]
-Em cada linha, o círculo verde se desloca a mesma distância na mesma direção: para cima, para baixo ou horizontalmente. Seu tamanho permanece inalterado. 
+Em cada linha, o círculo verde se desloca a mesma distância na mesma direção: para cima, para baixo ou horizontalmente. Seu tamanho permanece inalterado.
 
 [[K0192]]
-Na última linha, o círculo se move para a esquerda ao longo da base do quadrado. Mais um passo igual a esse o posiciona no canto inferior esquerdo. 
+Na última linha, o círculo se move para a esquerda ao longo da base do quadrado. Mais um passo igual a esse o posiciona no canto inferior esquerdo.
 
 [[K0193]]
 Gire todo o padrão de pontos.
 
 [[K0194]]
-Gire o quadrado e todos os seus pontos em 45 graus no sentido anti-horário a cada etapa. O quadrado transforma-se em um losango e, depois, volta a ser um quadrado. 
+Gire o quadrado e todos os seus pontos em 45 graus no sentido anti-horário a cada etapa. O quadrado transforma-se em um losango e, depois, volta a ser um quadrado.
 
 [[K0195]]
-Gire o losango central (verde e preto) em mais 45 graus no sentido anti-horário. Mantenha os pontos verdes e pretos em suas posições rotacionadas. 
+Gire o losango central (verde e preto) em mais 45 graus no sentido anti-horário. Mantenha os pontos verdes e pretos em suas posições rotacionadas.
 
 [[K0196]]
 Encurte cada barra a partir do topo.
 
 [[K0197]]
-A cada etapa, cada barra vertical preta perde um intervalo da grade em sua extremidade superior. A extremidade inferior permanece na linha de base. Uma barra desaparece quando seu comprimento chega a zero. 
+A cada etapa, cada barra vertical preta perde um intervalo da grade em sua extremidade superior. A extremidade inferior permanece na linha de base. Uma barra desaparece quando seu comprimento chega a zero.
 
 [[K0198]]
-A imagem central apresenta uma barra no meio com um intervalo de altura e uma barra à direita com dois intervalos. A barra central desaparece, restando apenas a barra à direita, com um intervalo de altura. 
+A imagem central apresenta uma barra no meio com um intervalo de altura e uma barra à direita com dois intervalos. A barra central desaparece, restando apenas a barra à direita, com um intervalo de altura.
 
 [[K0199]]
 Reflita em relação à linha preta.
 
 [[K0200]]
-A linha central funciona como um eixo de espelhamento. Reflita a forma colorida em relação a essa linha, em vez de simplesmente rotacioná-la. 
+A linha central funciona como um eixo de espelhamento. Reflita a forma colorida em relação a essa linha, em vez de simplesmente rotacioná-la.
 
 [[K0201]]
-A última linha de espelhamento é vertical; portanto, a forma amarela é invertida da esquerda para a direita. Sua cor e seu tamanho permanecem inalterados. 
+A última linha de espelhamento é vertical; portanto, a forma amarela é invertida da esquerda para a direita. Sua cor e seu tamanho permanecem inalterados.
 
 [[K0202]]
 Sobreponha as formas e utilize a cor da primeira.
 
 [[K0203]]
 Coloque as duas formas uma sobre a outra. Mantenha a silhueta combinada e os contornos visíveis, mas aplique à figura resultante a cor da primeira forma. [[K0204]]
-Sobreponha o triângulo azul voltado para baixo e o hexágono amarelo; em seguida, utilize a cor azul para a figura resultante. As pontas do triângulo que se estendem para fora permanecem visíveis ao redor do hexágono. 
+Sobreponha o triângulo azul voltado para baixo e o hexágono amarelo; em seguida, utilize a cor azul para a figura resultante. As pontas do triângulo que se estendem para fora permanecem visíveis ao redor do hexágono.
 
 [[K0205]]
 Mantenha a cor verde em exatamente uma das entradas.
 
 [[K0206]]
-Compare as áreas correspondentes dos dois quadrados. Uma área será verde se, e somente se, for verde em exatamente uma das entradas. Se for verde em ambas, a cor torna-se branca; se for branca em ambas, permanece branca. 
+Compare as áreas correspondentes dos dois quadrados. Uma área será verde se, e somente se, for verde em exatamente uma das entradas. Se for verde em ambas, a cor torna-se branca; se for branca em ambas, permanece branca.
 
 [[K0207]]
-O primeiro quadrado é inteiramente verde, enquanto o segundo possui apenas o quadrante inferior esquerdo na cor verde. Esse quadrante comum torna-se branco; os outros três quadrantes permanecem verdes. 
+O primeiro quadrado é inteiramente verde, enquanto o segundo possui apenas o quadrante inferior esquerdo na cor verde. Esse quadrante comum torna-se branco; os outros três quadrantes permanecem verdes.
 
 [[K0208]]
 Adicione uma cópia em cada canto.
 
 [[K0209]]
-Coloque uma cópia do pequeno símbolo preto em cada vértice da forma maior. As cópias adicionadas assumem a cor da forma maior. 
+Coloque uma cópia do pequeno símbolo preto em cada vértice da forma maior. As cópias adicionadas assumem a cor da forma maior.
 
 [[K0210]]
-O losango azul grande possui quatro cantos. Adicione um triângulo azul voltado para baixo em cada canto, seguindo a mesma regra de posicionamento apresentada nos exemplos. 
+O losango azul grande possui quatro cantos. Adicione um triângulo azul voltado para baixo em cada canto, seguindo a mesma regra de posicionamento apresentada nos exemplos.
 
 [[K0211]]
 Some as alturas correspondentes das barras.
 
 [[K0212]]
-Para cada uma das três posições horizontais, some a altura da barra preta da primeira imagem à altura da barra correspondente na segunda imagem. A medição deve ser feita a partir da linha de base comum, em direção à parte superior. 
+Para cada uma das três posições horizontais, some a altura da barra preta da primeira imagem à altura da barra correspondente na segunda imagem. A medição deve ser feita a partir da linha de base comum, em direção à parte superior.
 
 [[K0213]]
-Nenhuma das entradas apresenta uma barra à esquerda. As duas barras centrais, ao serem somadas, formam uma barra de altura total, enquanto as barras à direita resultam em uma barra de menor altura. O resultado final contém apenas essas barras centrais e à direita. 
+Nenhuma das entradas apresenta uma barra à esquerda. As duas barras centrais, ao serem somadas, formam uma barra de altura total, enquanto as barras à direita resultam em uma barra de menor altura. O resultado final contém apenas essas barras centrais e à direita.
 
 [[K0214]]
 Rotacione e alterne as cores.

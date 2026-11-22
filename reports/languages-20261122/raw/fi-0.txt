@@ -2,13 +2,13 @@
 Arvioitu mediaaniväli
 
 [[K0002]]
-Julkiset vertailut sisältävät kaikkien tätä tehtäväversiota käyttäneiden osallistujien tiedot. Vapaaehtoisesti annettuja ikäryhmä- ja maatietoja käytetään vain anonyymeissa koontitilastoissa. 
+Julkiset vertailut sisältävät kaikkien tätä tehtäväversiota käyttäneiden osallistujien tiedot. Vapaaehtoisesti annettuja ikäryhmä- ja maatietoja käytetään vain anonyymeissa koontitilastoissa.
 
 [[K0003]]
-Suostun siihen, että anonyymit tulokseni, suoritusaikani sekä mahdolliset ikäryhmä- ja maatietoni lisätään koontitilastoihin. 
+Suostun siihen, että anonyymit tulokseni, suoritusaikani sekä mahdolliset ikäryhmä- ja maatietoni lisätään koontitilastoihin.
 
 [[K0004]]
-Mediaanivälit arvioidaan aikajakaumien perusteella. Näytetty väli kuvastaa mittaustarkkuutta; kyseessä ei ole tarkka mediaani tai nopeuspersentiili. 
+Mediaanivälit arvioidaan aikajakaumien perusteella. Näytetty väli kuvastaa mittaustarkkuutta; kyseessä ei ole tarkka mediaani tai nopeuspersentiili.
 
 [[K0005]]
 Jaa haaste
@@ -17,34 +17,34 @@ Jaa haaste
 Tehtävän suoritusaika
 
 [[K0007]]
-Selaimesi yksityisyysasetusten vuoksi nämä tilastot säilyvät laitteellasi. 
+Selaimesi yksityisyysasetusten vuoksi nämä tilastot säilyvät laitteellasi.
 
 [[K0008]]
 Kaikki vapaaehtoiset suoritukset
 
 [[K0009]]
-Kiitos. Anonyymi suorituksesi on tallennettu. 
+Kiitos. Anonyymi suorituksesi on tallennettu.
 
 [[K0010]]
-Tässä ryhmässä ei ole vielä riittävästi vertailukelpoisia suorituksia. Omat tilastosi ovat kuitenkin aina nähtävillä. 
+Tässä ryhmässä ei ole vielä riittävästi vertailukelpoisia suorituksia. Omat tilastosi ovat kuitenkin aina nähtävillä.
 
 [[K0011]]
-Vertailut eivät ole tällä hetkellä käytettävissä. Omat tilastosi ja jakotoiminnot toimivat edelleen. 
+Vertailut eivät ole tällä hetkellä käytettävissä. Omat tilastosi ja jakotoiminnot toimivat edelleen.
 
 [[K0012]]
-Tästä vanhemmasta suorituksesta ei ole täydellisiä aikatallenteita. Voit silti tarkastella ja jakaa tulostasi. 
+Tästä vanhemmasta suorituksesta ei ole täydellisiä aikatallenteita. Voit silti tarkastella ja jakaa tulostasi.
 
 [[K0013]]
-Valitse, haluatko osallistua tilastoihin, ennen kuin lähetät tietoja. 
+Valitse, haluatko osallistua tilastoihin, ennen kuin lähetät tietoja.
 
 [[K0014]]
-Tästä suorituksesta ei ole täydellisiä aikatallenteita. Henkilökohtaiset tuloksesi pysyvät ennallaan. 
+Tästä suorituksesta ei ole täydellisiä aikatallenteita. Henkilökohtaiset tuloksesi pysyvät ennallaan.
 
 [[K0015]]
-Suoritustasi ei voitu tallentaa tässä selaimessa. Mitään tietoja ei lähetetty. 
+Suoritustasi ei voitu tallentaa tässä selaimessa. Mitään tietoja ei lähetetty.
 
 [[K0016]]
-Tämä suoritus vaatii tarkistusta, eikä sitä laskettu mukaan uudelleen. 
+Tämä suoritus vaatii tarkistusta, eikä sitä laskettu mukaan uudelleen.
 
 [[K0017]]
 Suoritustasi ei ole vahvistettu. Yritä uudelleen käyttämällä samaa tallennettua suoritusta. [[K0018]]
@@ -84,13 +84,13 @@ Ratkaisemasi tehtävät
 Haaste, joka kannattaa jakaa
 
 [[K0030]]
-36 tehtävää. Yksi haaste. 
+36 tehtävää. Yksi haaste.
 
 [[K0031]]
-Jaa haaste tuttavallesi. 
+Jaa haaste tuttavallesi.
 
 [[K0032]]
-Oma aktiivinen aikasi. Vertailutietoa ei ole riittävästi nopeuden arvioimiseksi. 
+Oma aktiivinen aikasi. Vertailutietoa ei ole riittävästi nopeuden arvioimiseksi.
 
 [[K0033]]
 Valitse, mitä jaat
@@ -117,22 +117,22 @@ Jaettava tekstisi
 Kopioi teksti
 
 [[K0041]]
-Facebookissa voit kirjoittaa oman saatetekstisi. Emme koskaan julkaise mitään automaattisesti. 
+Facebookissa voit kirjoittaa oman saatetekstisi. Emme koskaan julkaise mitään automaattisesti.
 
 [[K0042]]
-Kopioitu. Liitä se julkaisuusi. 
+Kopioitu. Liitä se julkaisuusi.
 
 [[K0043]]
-Valitse ja kopioi alla oleva teksti. 
+Valitse ja kopioi alla oleva teksti.
 
 [[K0044]]
 Tilastot kysymyksistäsi
 
 [[K0045]]
-Vertailutietoja kysymyksistä ei ole vielä saatavilla. Henkilökohtaiset tilastosi näkyvät alla. 
+Vertailutietoja kysymyksistä ei ole vielä saatavilla. Henkilökohtaiset tilastosi näkyvät alla.
 
 [[K0046]]
-Aika lasketaan aktiivisesta ajasta, joka on kulunut kysymyksen parissa viimeiseen vastaukseesi asti. Vastaamattomien kysymysten kohdalla näytetään käytetty aika. Piilotetut välilehdet ja suljetut sivut eivät kerrytä aikaa. Aiemmista yrityksistä ei välttämättä ole tallennettu aikatietoja. 
+Aika lasketaan aktiivisesta ajasta, joka on kulunut kysymyksen parissa viimeiseen vastaukseesi asti. Vastaamattomien kysymysten kohdalla näytetään käytetty aika. Piilotetut välilehdet ja suljetut sivut eivät kerrytä aikaa. Aiemmista yrityksistä ei välttämättä ole tallennettu aikatietoja.
 
 [[K0047]]
 Kaikki 36 kysymystä, mukaan lukien väliin jätetyt kysymykset
@@ -150,16 +150,16 @@ Oikeiden vastausten mediaaniaika
 Muiden oikeat vastaukset
 
 [[K0052]]
-Vertaa tuloksiasi muihin vapaaehtoisiin osallistujiin, jotka ovat ratkaisseet saman version tehtävästä. Oikeiden vastausten osuuden laskemiseen vaaditaan vähintään 30 vastausta, ja mediaaniajan laskemiseen vähintään 30 oikeaa vastausta, joista on tallennettu aikatiedot. Kyseessä on joukko osallistujia, ei väestöä edustava otos. 
+Vertaa tuloksiasi muihin vapaaehtoisiin osallistujiin, jotka ovat ratkaisseet saman version tehtävästä. Oikeiden vastausten osuuden laskemiseen vaaditaan vähintään 30 vastausta, ja mediaaniajan laskemiseen vähintään 30 oikeaa vastausta, joista on tallennettu aikatiedot. Kyseessä on joukko osallistujia, ei väestöä edustava otos.
 
 [[K0053]]
 Vertaa ja osallistu
 
 [[K0054]]
-Auta muita osallistujia vertailemaan tuloksiaan. Voit jakaa anonyymejä tilastoja suorituksestasi, vaikka olisitkin jättänyt kysymyksiä väliin. 
+Auta muita osallistujia vertailemaan tuloksiaan. Voit jakaa anonyymejä tilastoja suorituksestasi, vaikka olisitkin jättänyt kysymyksiä väliin.
 
 [[K0055]]
-Anonyymejä vertailuja valmistellaan. Voit tarkastella omia tilastojasi ja jakaa niitä osallistumatta itse vertailuaineiston kerryttämiseen. 
+Anonyymejä vertailuja valmistellaan. Voit tarkastella omia tilastojasi ja jakaa niitä osallistumatta itse vertailuaineiston kerryttämiseen.
 
 [[K0056]]
 Ikäryhmä (vapaaehtoinen)
@@ -174,16 +174,16 @@ En halua kertoa
 Alle 18-vuotias
 
 [[K0060]]
-Suostun siihen, että anonyymit vastaukseni ja niihin käytetyt ajat – sekä mahdollisesti ilmoittamani ikäryhmä ja maa – lisätään vertailutilastoihin. 
+Suostun siihen, että anonyymit vastaukseni ja niihin käytetyt ajat – sekä mahdollisesti ilmoittamani ikäryhmä ja maa – lisätään vertailutilastoihin.
 
 [[K0061]]
-Ei nimeä, sähköpostiosoitetta tai tarkkaa ikää. Tilastojen jakaminen on vapaaehtoista eikä vaikuta tulokseesi. Pienet vertailuryhmät pidetään piilossa. 
+Ei nimeä, sähköpostiosoitetta tai tarkkaa ikää. Tilastojen jakaminen on vapaaehtoista eikä vaikuta tulokseesi. Pienet vertailuryhmät pidetään piilossa.
 
 [[K0062]]
 Osallistu anonyymisti
 
 [[K0063]]
-Miksi juuri tämä vastaus? 
+Miksi juuri tämä vastaus?
 
 [[K0064]]
 Selitys
@@ -195,10 +195,10 @@ Sääntö
 Säännön soveltaminen
 
 [[K0067]]
-Tarkastelet tehtävän vanhempaa versiota. Sen esimerkeissä on aiemmin havaittu epäselvyys; tallennettu vastauksesi ja pistemääräsi pysyvät ennallaan. 
+Tarkastelet tehtävän vanhempaa versiota. Sen esimerkeissä on aiemmin havaittu epäselvyys; tallennettu vastauksesi ja pistemääräsi pysyvät ennallaan.
 
 [[K0068]]
-Tarkastelet alkuperäistä versiota, joka sisälsi virheellisiä merkintöjä esimerkeissä. Tallennettu vastauksesi ja pistemääräsi pysyvät ennallaan. Uusissa yrityksissä käytetään korjattua versiota. 
+Tarkastelet alkuperäistä versiota, joka sisälsi virheellisiä merkintöjä esimerkeissä. Tallennettu vastauksesi ja pistemääräsi pysyvät ennallaan. Uusissa yrityksissä käytetään korjattua versiota.
 
 [[K0069]]
 Tässä alkuperäisessä versiossa näkyvä keskimmäinen kuva laajenee seuraavasti: vihreäksi oikeassa yläkulmassa sekä rivillä 2, sarakkeessa 3; punaiseksi rivillä 2, sarakkeessa 1; ja ruskeaksi rivillä 2, sarakkeessa 2, rivillä 3, sarakkeessa 3 sekä rivillä 4, sarakkeessa 3.

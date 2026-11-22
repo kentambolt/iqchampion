@@ -2,13 +2,13 @@
 Becsült mediántartomány
 
 [[K0002]]
-A nyilvános összehasonlítások magukban foglalják az összes olyan felhasználót, aki hozzájárult adataival ezen feladványverzió kapcsán. A megadható korcsoport és országadatok kizárólag az összesített statisztikákban jelennek meg. 
+A nyilvános összehasonlítások magukban foglalják az összes olyan felhasználót, aki hozzájárult adataival ezen feladványverzió kapcsán. A megadható korcsoport és országadatok kizárólag az összesített statisztikákban jelennek meg.
 
 [[K0003]]
-Hozzájárulok ahhoz, hogy anonim módon megosszam a feladvány megoldásához szükséges időt, valamint – opcionálisan – a korcsoportomat és az országomat az összesített statisztikák céljából. 
+Hozzájárulok ahhoz, hogy anonim módon megosszam a feladvány megoldásához szükséges időt, valamint – opcionálisan – a korcsoportomat és az országomat az összesített statisztikák céljából.
 
 [[K0004]]
-A mediántartományok becslése az időeloszlási hisztogramok alapján történik. A megjelenített intervallum az időmérési felbontást tükrözi; nem tekinthető pontos mediánértéknek vagy sebesség-percentilisnek. 
+A mediántartományok becslése az időeloszlási hisztogramok alapján történik. A megjelenített intervallum az időmérési felbontást tükrözi; nem tekinthető pontos mediánértéknek vagy sebesség-percentilisnek.
 
 [[K0005]]
 Oszd meg a kihívást
@@ -17,34 +17,34 @@ Oszd meg a kihívást
 Megoldási idő
 
 [[K0007]]
-A böngésződ adatvédelmi beállításai miatt ezek a statisztikák az eszközödön maradnak. 
+A böngésződ adatvédelmi beállításai miatt ezek a statisztikák az eszközödön maradnak.
 
 [[K0008]]
 Az összes önkéntes próbálkozás
 
 [[K0009]]
-Köszönjük! Az anonim hozzájárulásodat elmentettük. 
+Köszönjük! Az anonim hozzájárulásodat elmentettük.
 
 [[K0010]]
-Ebben a csoportban még nincs elegendő összehasonlítható próbálkozás. A saját statisztikáid természetesen továbbra is elérhetők. 
+Ebben a csoportban még nincs elegendő összehasonlítható próbálkozás. A saját statisztikáid természetesen továbbra is elérhetők.
 
 [[K0011]]
-Az összehasonlítások átmenetileg nem érhetők el. A saját statisztikáid megtekintése és az eredmények megosztása továbbra is működik. 
+Az összehasonlítások átmenetileg nem érhetők el. A saját statisztikáid megtekintése és az eredmények megosztása továbbra is működik.
 
 [[K0012]]
-Ehhez a korábbi próbálkozáshoz nem tartozik teljes időmérési adat. Az eredményedet ettől függetlenül megtekintheted és megoszthatod. 
+Ehhez a korábbi próbálkozáshoz nem tartozik teljes időmérési adat. Az eredményedet ettől függetlenül megtekintheted és megoszthatod.
 
 [[K0013]]
-Döntsd el, hogy hozzájárulsz-e az adatok megosztásához, mielőtt bármilyen adatot elküldenél. 
+Döntsd el, hogy hozzájárulsz-e az adatok megosztásához, mielőtt bármilyen adatot elküldenél.
 
 [[K0014]]
-Ehhez a próbálkozáshoz nem tartozik teljes időmérési adat. A személyes eredményeid változatlanok maradnak. 
+Ehhez a próbálkozáshoz nem tartozik teljes időmérési adat. A személyes eredményeid változatlanok maradnak.
 
 [[K0015]]
-A hozzájárulásodat nem sikerült elmenteni ebben a böngészőben. Semmilyen adat nem került továbbításra. 
+A hozzájárulásodat nem sikerült elmenteni ebben a böngészőben. Semmilyen adat nem került továbbításra.
 
 [[K0016]]
-Ez a hozzájárulás felülvizsgálatot igényel, ezért nem került ismét beszámításra. 
+Ez a hozzájárulás felülvizsgálatot igényel, ezért nem került ismét beszámításra.
 
 [[K0017]]
 A hozzájárulásodat nem sikerült megerősíteni. Kérjük, próbáld újra ugyanazzal az elmentett adattal! [[K0018]]
@@ -84,13 +84,13 @@ Megoldott mintázatok
 Egy kihívás, amit érdemes megosztani
 
 [[K0030]]
-36 feladvány. Egy kihívás. 
+36 feladvány. Egy kihívás.
 
 [[K0031]]
-Oszd meg a kihívást egy ismerősöddel! 
+Oszd meg a kihívást egy ismerősöddel!
 
 [[K0032]]
-A saját aktív időd. Nincs elegendő összehasonlító adat a sebesség rangsorolásához. 
+A saját aktív időd. Nincs elegendő összehasonlító adat a sebesség rangsorolásához.
 
 [[K0033]]
 Válaszd ki, mit szeretnél megosztani
@@ -117,22 +117,22 @@ A megosztáshoz tartozó szöveg
 Szöveg másolása
 
 [[K0041]]
-A Facebook lehetővé teszi saját kísérőszöveg írását. Soha nem posztolunk automatikusan. 
+A Facebook lehetővé teszi saját kísérőszöveg írását. Soha nem posztolunk automatikusan.
 
 [[K0042]]
-Másolva. Illessze be a bejegyzésébe. 
+Másolva. Illessze be a bejegyzésébe.
 
 [[K0043]]
-Jelölje ki és másolja ki az alábbi szöveget. 
+Jelölje ki és másolja ki az alábbi szöveget.
 
 [[K0044]]
 Kérdésekkel kapcsolatos statisztikái
 
 [[K0045]]
-A kérdések összehasonlítása még nem érhető el. Személyes statisztikái alább láthatók. 
+A kérdések összehasonlítása még nem érhető el. Személyes statisztikái alább láthatók.
 
 [[K0046]]
-Az időadatok az adott kérdéssel töltött, aktív időt mutatják az utolsó válaszadásig. Megválaszolatlan kérdések esetén az eltöltött idő látható. A rejtett fülek és bezárt oldalak ideje nem számít bele. A korábbi próbálkozásokhoz előfordulhat, hogy nem tartozik időadat. 
+Az időadatok az adott kérdéssel töltött, aktív időt mutatják az utolsó válaszadásig. Megválaszolatlan kérdések esetén az eltöltött idő látható. A rejtett fülek és bezárt oldalak ideje nem számít bele. A korábbi próbálkozásokhoz előfordulhat, hogy nem tartozik időadat.
 
 [[K0047]]
 Mind a 36 kérdés, beleértve a kihagyottakat is
@@ -150,13 +150,13 @@ Helyes válaszok mediánja
 Mások helyes válaszai
 
 [[K0052]]
-Összehasonlítás mások önkéntes próbálkozásaival, ugyanazon feladványváltozat esetén. A helyes válaszarány kiszámításához legalább 30 megválaszolt kérdés, a mediánhoz pedig legalább 30 időméréssel rögzített helyes válasz szükséges. Az adatok résztvevőktől származnak, nem egy reprezentatív népességtől. 
+Összehasonlítás mások önkéntes próbálkozásaival, ugyanazon feladványváltozat esetén. A helyes válaszarány kiszámításához legalább 30 megválaszolt kérdés, a mediánhoz pedig legalább 30 időméréssel rögzített helyes válasz szükséges. Az adatok résztvevőktől származnak, nem egy reprezentatív népességtől.
 
 [[K0053]]
 Összehasonlítás és hozzájárulás
 
 [[K0054]]
-Segítsen a jövőbeli résztvevőknek eredményeik összehasonlításában! A teszt befejezése után megoszthatja anonim statisztikáit – még akkor is, ha kihagyott kérdéseket. 
+Segítsen a jövőbeli résztvevőknek eredményeik összehasonlításában! A teszt befejezése után megoszthatja anonim statisztikáit – még akkor is, ha kihagyott kérdéseket.
 
 [[K0055]]
 Az anonim összehasonlítások előkészítés alatt állnak. Személyes statisztikáit anélkül is megtekintheti és megoszthatja, hogy hozzájárulna az adatokhoz. [[K0056]]
@@ -172,16 +172,16 @@ Inkább nem válaszolok
 18 év alatti
 
 [[K0060]]
-Hozzájárulok, hogy anonim válaszaimat és aktivitási időimet – a megadott korcsoporttal és országgal együtt – felhasználják az összehasonlító statisztikákhoz. 
+Hozzájárulok, hogy anonim válaszaimat és aktivitási időimet – a megadott korcsoporttal és országgal együtt – felhasználják az összehasonlító statisztikákhoz.
 
 [[K0061]]
-Név, e-mail-cím vagy pontos életkor megadása nem szükséges. A statisztikák megosztása önkéntes, és nincs hatással az eredményre. A kis létszámú összehasonlító csoportok rejtve maradnak. 
+Név, e-mail-cím vagy pontos életkor megadása nem szükséges. A statisztikák megosztása önkéntes, és nincs hatással az eredményre. A kis létszámú összehasonlító csoportok rejtve maradnak.
 
 [[K0062]]
 Hozzájárulás anonim módon
 
 [[K0063]]
-Miért ez a válasz? 
+Miért ez a válasz?
 
 [[K0064]]
 Magyarázat
@@ -193,10 +193,10 @@ A szabály
 A szabály alkalmazása
 
 [[K0067]]
-Ön a feladvány egy korábbi változatát tekinti meg. A példákban szerepel az a korábban észlelt kétértelműség; a korábban elmentett válasza és pontszáma változatlan marad. 
+Ön a feladvány egy korábbi változatát tekinti meg. A példákban szerepel az a korábban észlelt kétértelműség; a korábban elmentett válasza és pontszáma változatlan marad.
 
 [[K0068]]
-Ön az eredeti változatot tekinti meg, amelyben hibás példajelölések voltak. A korábban elmentett válasza és pontszáma változatlan marad. Az új próbálkozások már a javított változatot használják. 
+Ön az eredeti változatot tekinti meg, amelyben hibás példajelölések voltak. A korábban elmentett válasza és pontszáma változatlan marad. Az új próbálkozások már a javított változatot használják.
 
 [[K0069]]
 Ebben az eredeti változatban a középen látható ábra a következőképpen bővül: zöld színű lesz a jobb felső sarokban, valamint a 2. sor 3. oszlopában; piros színű a 2. sor 1. oszlopában; barna színű pedig a 2. sor 2. oszlopában, a 3. sor 3. oszlopában és a 4. sor 3. oszlopában.

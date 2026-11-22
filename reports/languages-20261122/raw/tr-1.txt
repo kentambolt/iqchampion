@@ -5,10 +5,10 @@ Testi Facebook'ta paylaş
 Tahmini IQ
 
 [[K0073]]
-Sadece eğlence amaçlıdır. Profesyonel olarak doğrulanmış bir IQ ölçümü değil, yaklaşık bir puandır. 
+Sadece eğlence amaçlıdır. Profesyonel olarak doğrulanmış bir IQ ölçümü değil, yaklaşık bir puandır.
 
 [[K0074]]
-Testiniz tamamlanmadı. Doğru cevaplarınız gösteriliyor ancak bir IQ tahmini için 36 sorunun tamamının yanıtlanması gerekir. 
+Testiniz tamamlanmadı. Doğru cevaplarınız gösteriliyor ancak bir IQ tahmini için 36 sorunun tamamının yanıtlanması gerekir.
 
 [[K0075]]
 Mevcut değil
@@ -17,7 +17,7 @@ Mevcut değil
 Ücretsiz görsel akıl yürütme testi | IQ Champion
 
 [[K0077]]
-36 görsel akıl yürütme bulmacası. 40 dakikalık ücretsiz teste katılın ve sonuçlarınızı görün. 
+36 görsel akıl yürütme bulmacası. 40 dakikalık ücretsiz teste katılın ve sonuçlarınızı görün.
 
 [[K0078]]
 Yanıtlandı
@@ -50,13 +50,13 @@ Test hakkında
 Görsel akıl yürütme üzerine bir meydan okuma
 
 [[K0088]]
-Örüntüyü keşfedin. 
+Örüntüyü keşfedin.
 
 [[K0089]]
-Eksik parçayı bulun. 
+Eksik parçayı bulun.
 
 [[K0090]]
-36 görsel bulmaca ve tahmini bir IQ puanı. Sadece eğlence amaçlı. 
+36 görsel bulmaca ve tahmini bir IQ puanı. Sadece eğlence amaçlı.
 
 [[K0091]]
 Bulmacalar
@@ -71,23 +71,23 @@ Süre sınırı
 Ücretsiz
 
 [[K0095]]
-Hesap gerekmez. Başladığınız anda süre işlemeye başlar. 
+Hesap gerekmez. Başladığınız anda süre işlemeye başlar.
 
 [[K0096]]
 Test nasıl işliyor?
 
 [[K0097]]
-Her bir örüntüyü tamamlayan simgeyi seçin. 
+Her bir örüntüyü tamamlayan simgeyi seçin.
 
 [[K0098]]
-Zor soruları atlayabilir ve genel bakış ekranını kullanarak onlara geri dönebilirsiniz. 
+Zor soruları atlayabilir ve genel bakış ekranını kullanarak onlara geri dönebilirsiniz.
 
 [[K0099]]
 Testi bitirmeden önce yanıtlarınızı gözden geçirebilir veya değiştirebilirsiniz. [[K0100]]
-Yanıtlarınız ve başlangıç ​​zamanınız bu tarayıcıda kaydedilir. Sayfayı yeniden yükleseniz bile orijinal bitiş süreniz korunur. 
+Yanıtlarınız ve başlangıç ​​zamanınız bu tarayıcıda kaydedilir. Sayfayı yeniden yükleseniz bile orijinal bitiş süreniz korunur.
 
 [[K0101]]
-Sayfa kapalıyken 40 dakikalık süre işlemeye devam eder. Yanıtlanmamış sorular yanlış kabul edilir. 
+Sayfa kapalıyken 40 dakikalık süre işlemeye devam eder. Yanıtlanmamış sorular yanlış kabul edilir.
 
 [[K0102]]
 Sonucunuz hakkında
@@ -96,13 +96,13 @@ Sonucunuz hakkında
 Tahmini IQ değeriniz, geçmişteki denemeler
 
 [[K0104]]
-arasındaki konumunuza göre belirlenir. 
+arasındaki konumunuza göre belirlenir.
 
 [[K0105]]
-Bu karşılaştırma, bir dakikadan uzun ve 40 dakikaya kadar süren denemeleri temel alır. Resmi bir IQ testi veya temsili bir nüfus örneklemi ile doğrulanmamıştır. 
+Bu karşılaştırma, bir dakikadan uzun ve 40 dakikaya kadar süren denemeleri temel alır. Resmi bir IQ testi veya temsili bir nüfus örneklemi ile doğrulanmamıştır.
 
 [[K0106]]
-Eğlence amaçlı bir testtir. Tahmini IQ değeriniz bir yaklaşık değerdir; profesyonel olarak doğrulanmış bir IQ puanı değildir. 
+Eğlence amaçlı bir testtir. Tahmini IQ değeriniz bir yaklaşık değerdir; profesyonel olarak doğrulanmış bir IQ puanı değildir.
 
 [[K0107]]
 40 dakikalık testi başlat
@@ -165,16 +165,16 @@ Gözden geçir ve bitir
 Talimatlar ve kaydedilen ilerleme
 
 [[K0127]]
-Bir sonraki yanıtlanmamış soruya geçmek için bir yanıt seçin. Testi bitirmeden önce soruları atlayabilir, geri dönebilir ve cevaplarınızı değiştirebilirsiniz. 
+Bir sonraki yanıtlanmamış soruya geçmek için bir yanıt seçin. Testi bitirmeden önce soruları atlayabilir, geri dönebilir ve cevaplarınızı değiştirebilirsiniz.
 
 [[K0128]]
-Cevaplarınız bu tarayıcıda otomatik olarak kaydedilir. Sayfayı yeniden yüklediğinizde kaldığınız sorudan devam edersiniz; süre sayacınız işlemeye devam eder. 
+Cevaplarınız bu tarayıcıda otomatik olarak kaydedilir. Sayfayı yeniden yüklediğinizde kaldığınız sorudan devam edersiniz; süre sayacınız işlemeye devam eder.
 
 [[K0129]]
 Hazır olduğunuzda başlayabilirsiniz
 
 [[K0130]]
-Testi bitir? 
+Testi bitir?
 
 [[K0131]]
 Çalışmaya devam et
@@ -256,13 +256,13 @@ Geri bildirim ve iletişim
 Geri bildirim gönderin veya bizimle iletişime geçin
 
 [[K0158]]
-Doğru. Cevabınız, doğru cevapla eşleşiyor. 
+Doğru. Cevabınız, doğru cevapla eşleşiyor.
 
 [[K0159]]
-Yanlış. Cevabınız, doğru cevaptan farklı. 
+Yanlış. Cevabınız, doğru cevaptan farklı.
 
 [[K0160]]
-Cevaplanmadı. Bu soru için herhangi bir cevap gönderilmedi. 
+Cevaplanmadı. Bu soru için herhangi bir cevap gönderilmedi.
 
 [[K0161]]
 Cevap gönderilmedi
@@ -274,28 +274,28 @@ Gönderdiğiniz cevap
 Eksik simge
 
 [[K0164]]
-Tüm sorular cevaplandı. Yine de cevaplarınızı gözden geçirebilir, değiştirebilir ve ardından testi bitirebilirsiniz. 
+Tüm sorular cevaplandı. Yine de cevaplarınızı gözden geçirebilir, değiştirebilir ve ardından testi bitirebilirsiniz.
 
 [[K0165]]
-Beş dakika veya daha az süre kaldı. 
+Beş dakika veya daha az süre kaldı.
 
 [[K0166]]
-Süre doldu. Cevaplarınız puanlandı. 
+Süre doldu. Cevaplarınız puanlandı.
 
 [[K0167]]
-Test tamamlandı. 
+Test tamamlandı.
 
 [[K0168]]
-Karşılaştırma yapılamıyor. 
+Karşılaştırma yapılamıyor.
 
 [[K0169]]
-Bu tarayıcı, yaptığınız çalışmayı kaydedemedi. Sayfayı açık tutun; sayfayı yeniden yüklemek, kaydettiğiniz ilerlemenin kaybolmasına veya eski cevapların geri gelmesine neden olabilir. 
+Bu tarayıcı, yaptığınız çalışmayı kaydedemedi. Sayfayı açık tutun; sayfayı yeniden yüklemek, kaydettiğiniz ilerlemenin kaybolmasına veya eski cevapların geri gelmesine neden olabilir.
 
 [[K0170]]
-Bu tarayıcıda yerel kaydetme özelliği kullanılamıyor. Çalışmanızın kaybolmaması için sayfayı açık tutun. 
+Bu tarayıcıda yerel kaydetme özelliği kullanılamıyor. Çalışmanızın kaybolmaması için sayfayı açık tutun.
 
 [[K0171]]
-Kaydedilen çalışma geri yüklenemedi. Hazır olduğunuzda yeni bir teste başlayın. 
+Kaydedilen çalışma geri yüklenemedi. Hazır olduğunuzda yeni bir teste başlayın.
 
 [[K0172]]
 Şekli değiştirmeden bırakın

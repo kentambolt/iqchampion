@@ -5,10 +5,10 @@ Chia sẻ bài kiểm tra trên Facebook
 Chỉ số IQ ước tính
 
 [[K0073]]
-Chỉ để giải trí. Điểm số ước tính, không phải là phép đo IQ được xác nhận chuyên nghiệp. 
+Chỉ để giải trí. Điểm số ước tính, không phải là phép đo IQ được xác nhận chuyên nghiệp.
 
 [[K0074]]
-Bài kiểm tra của bạn chưa hoàn thành. Các câu trả lời đúng của bạn đã được hiển thị, nhưng để ước tính IQ cần tất cả 36 câu trả lời. 
+Bài kiểm tra của bạn chưa hoàn thành. Các câu trả lời đúng của bạn đã được hiển thị, nhưng để ước tính IQ cần tất cả 36 câu trả lời.
 
 [[K0075]]
 Không khả dụng
@@ -17,7 +17,7 @@ Không khả dụng
 Bài kiểm tra suy luận hình ảnh miễn phí | Nhà vô địch IQ
 
 [[K0077]]
-36 câu đố suy luận hình ảnh. Tham gia thử thách miễn phí 40 phút và khám phá kết quả của bạn. 
+36 câu đố suy luận hình ảnh. Tham gia thử thách miễn phí 40 phút và khám phá kết quả của bạn.
 
 [[K0078]]
 Đã trả lời
@@ -50,13 +50,13 @@ Về bài kiểm tra
 Một thử thách về khả năng suy luận hình ảnh
 
 [[K0088]]
-Tìm ra quy luật. 
+Tìm ra quy luật.
 
 [[K0089]]
-Tìm mảnh ghép còn thiếu. 
+Tìm mảnh ghép còn thiếu.
 
 [[K0090]]
-36 câu đố hình ảnh và điểm IQ ước tính. Chỉ để giải trí. 
+36 câu đố hình ảnh và điểm IQ ước tính. Chỉ để giải trí.
 
 [[K0091]]
 Câu đố
@@ -71,25 +71,25 @@ Chi phí
 Miễn phí
 
 [[K0095]]
-Không cần tài khoản. Bộ đếm thời gian bắt đầu khi bạn bắt đầu. 
+Không cần tài khoản. Bộ đếm thời gian bắt đầu khi bạn bắt đầu.
 
 [[K0096]]
 Cách làm bài kiểm tra
 
 [[K0097]]
-Chọn biểu tượng hoàn thành mỗi mẫu. 
+Chọn biểu tượng hoàn thành mỗi mẫu.
 
 [[K0098]]
-Bỏ qua các câu hỏi khó và quay lại bằng cách sử dụng tổng quan. 
+Bỏ qua các câu hỏi khó và quay lại bằng cách sử dụng tổng quan.
 
 [[K0099]]
-Xem lại hoặc thay đổi câu trả lời của bạn trước khi hoàn thành. 
+Xem lại hoặc thay đổi câu trả lời của bạn trước khi hoàn thành.
 
 [[K0100]]
-Câu trả lời và thời gian bắt đầu của bạn được lưu trong trình duyệt này. Tải lại trang sẽ giữ nguyên thời hạn ban đầu của bạn. 
+Câu trả lời và thời gian bắt đầu của bạn được lưu trong trình duyệt này. Tải lại trang sẽ giữ nguyên thời hạn ban đầu của bạn.
 
 [[K0101]]
-Bộ đếm thời gian 40 phút tiếp tục chạy khi trang được đóng. Các câu hỏi chưa trả lời được tính là sai. 
+Bộ đếm thời gian 40 phút tiếp tục chạy khi trang được đóng. Các câu hỏi chưa trả lời được tính là sai.
 
 [[K0102]]
 Về kết quả của bạn
@@ -97,13 +97,13 @@ Về kết quả của bạn
 [[K0103]]
 Chỉ số IQ ước tính của bạn dựa trên vị trí của bạn trong số
 
-[[K0104]] các lần làm bài kiểm tra trước đây. 
+[[K0104]] các lần làm bài kiểm tra trước đây.
 
 [[K0105]]
-Việc so sánh sử dụng các lần làm bài kéo dài hơn một phút và tối đa 40 phút. Kết quả này chưa được xác thực so với bài kiểm tra IQ chính thức hoặc mẫu dân số đại diện. 
+Việc so sánh sử dụng các lần làm bài kéo dài hơn một phút và tối đa 40 phút. Kết quả này chưa được xác thực so với bài kiểm tra IQ chính thức hoặc mẫu dân số đại diện.
 
 [[K0106]]
-Một bài kiểm tra mang tính giải trí. Chỉ số IQ ước tính của bạn chỉ là một giá trị gần đúng, không phải là điểm số IQ được xác thực chuyên nghiệp. 
+Một bài kiểm tra mang tính giải trí. Chỉ số IQ ước tính của bạn chỉ là một giá trị gần đúng, không phải là điểm số IQ được xác thực chuyên nghiệp.
 
 [[K0107]]
 Bắt đầu bài kiểm tra 40 phút
@@ -166,16 +166,16 @@ Xem lại và hoàn thành
 Hướng dẫn & tiến độ đã lưu
 
 [[K0127]]
-Chọn một câu trả lời để chuyển sang câu hỏi chưa trả lời tiếp theo. Bạn có thể bỏ qua, quay lại và thay đổi câu trả lời trước khi hoàn thành. 
+Chọn một câu trả lời để chuyển sang câu hỏi chưa trả lời tiếp theo. Bạn có thể bỏ qua, quay lại và thay đổi câu trả lời trước khi hoàn thành.
 
 [[K0128]]
-Câu trả lời được lưu tự động trong trình duyệt này. Tải lại trang sẽ tiếp tục câu hỏi tương tự; bộ đếm thời gian của bạn vẫn tiếp tục chạy. 
+Câu trả lời được lưu tự động trong trình duyệt này. Tải lại trang sẽ tiếp tục câu hỏi tương tự; bộ đếm thời gian của bạn vẫn tiếp tục chạy.
 
 [[K0129]]
 Sẵn sàng khi bạn
 
 [[K0130]]
-Hoàn thành bài kiểm tra này? 
+Hoàn thành bài kiểm tra này?
 
 [[K0131]]
 Tiếp tục làm bài
@@ -202,7 +202,7 @@ Về bài kiểm tra này
 Cách đọc kết quả này
 
 [[K0139]]
-Điểm phần trăm của bạn trong số các lần làm bài trước được quy đổi sang thang điểm IQ quen thuộc: điểm giữa là 100 và độ lệch chuẩn là 15. Điều này giả định nhóm so sánh phản ánh dân số, điều này chưa được xác định. 
+Điểm phần trăm của bạn trong số các lần làm bài trước được quy đổi sang thang điểm IQ quen thuộc: điểm giữa là 100 và độ lệch chuẩn là 15. Điều này giả định nhóm so sánh phản ánh dân số, điều này chưa được xác định.
 
 [[K0140]]
 Giải thích câu trả lời của bạn
@@ -247,7 +247,7 @@ Khám phá tất cả 36 câu đố
 Xem lại một câu hỏi
 
 [[K0154]]
-Câu trả lời bạn đã gửi và điểm số cuối cùng không thay đổi. 
+Câu trả lời bạn đã gửi và điểm số cuối cùng không thay đổi.
 
 [[K0155]]
 Liên hệ
@@ -259,13 +259,13 @@ Phản hồi & liên hệ
 Gửi phản hồi hoặc liên hệ với chúng tôi
 
 [[K0158]]
-Đúng. Câu trả lời của bạn trùng khớp với đáp án đúng. 
+Đúng. Câu trả lời của bạn trùng khớp với đáp án đúng.
 
 [[K0159]]
-Sai. Câu trả lời của bạn khác với đáp án đúng. 
+Sai. Câu trả lời của bạn khác với đáp án đúng.
 
 [[K0160]]
-Chưa trả lời. Không có câu trả lời nào được gửi cho câu hỏi này. 
+Chưa trả lời. Không có câu trả lời nào được gửi cho câu hỏi này.
 
 [[K0161]]
 Chưa có câu trả lời nào được gửi
@@ -277,28 +277,28 @@ Câu trả lời bạn đã gửi
 Biểu tượng bị thiếu
 
 [[K0164]]
-Tất cả các câu hỏi đã được trả lời. Bạn vẫn có thể xem lại và thay đổi câu trả lời, sau đó hoàn thành bài kiểm tra. 
+Tất cả các câu hỏi đã được trả lời. Bạn vẫn có thể xem lại và thay đổi câu trả lời, sau đó hoàn thành bài kiểm tra.
 
 [[K0165]]
-Còn năm phút hoặc ít hơn. 
+Còn năm phút hoặc ít hơn.
 
 [[K0166]]
-Hết giờ. Câu trả lời của bạn đã được chấm điểm. 
+Hết giờ. Câu trả lời của bạn đã được chấm điểm.
 
 [[K0167]]
-Bài kiểm tra đã hoàn tất. 
+Bài kiểm tra đã hoàn tất.
 
 [[K0168]]
-Không thể so sánh. 
+Không thể so sánh.
 
 [[K0169]]
-Trình duyệt này không thể lưu bài làm của bạn. Hãy giữ trang này mở: việc tải lại có thể làm mất tiến độ hoặc khôi phục các câu trả lời cũ hơn. 
+Trình duyệt này không thể lưu bài làm của bạn. Hãy giữ trang này mở: việc tải lại có thể làm mất tiến độ hoặc khôi phục các câu trả lời cũ hơn.
 
 [[K0170]]
-Không thể lưu cục bộ trên trình duyệt này. Hãy giữ trang này mở để tránh mất bài làm của bạn. 
+Không thể lưu cục bộ trên trình duyệt này. Hãy giữ trang này mở để tránh mất bài làm của bạn.
 
 [[K0171]]
-Không thể khôi phục bài làm đã lưu. Hãy bắt đầu một bài kiểm tra mới khi bạn sẵn sàng. 
+Không thể khôi phục bài làm đã lưu. Hãy bắt đầu một bài kiểm tra mới khi bạn sẵn sàng.
 
 [[K0172]]
 Giữ nguyên hình ảnh

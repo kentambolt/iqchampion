@@ -1,121 +1,121 @@
 [[K0173]]
-Elke positie in elke voorbeeldrij bevat dezelfde blauwe cirkel. Noch de vorm, noch de kleur of de grootte verandert. 
+Elke positie in elke voorbeeldrij bevat dezelfde blauwe cirkel. Noch de vorm, noch de kleur of de grootte verandert.
 
 [[K0174]]
-De laatste rij bevat al twee identieke blauwe cirkels. Een derde, identieke blauwe cirkel maakt de rij compleet. 
+De laatste rij bevat al twee identieke blauwe cirkels. Een derde, identieke blauwe cirkel maakt de rij compleet.
 
 [[K0175]]
 Voeg een ingesloten omtrek toe
 
 [[K0176]]
-Bij elke stap naar rechts wordt er een kleinere omtrek van dezelfde vorm binnen de voorgaande vorm geplaatst. De buitenste vorm en de kleur daarvan blijven ongewijzigd. 
+Bij elke stap naar rechts wordt er een kleinere omtrek van dezelfde vorm binnen de voorgaande vorm geplaatst. De buitenste vorm en de kleur daarvan blijven ongewijzigd.
 
 [[K0177]]
-De groene driehoek heeft in de middelste positie één driehoek aan de binnenzijde. Voeg nog een kleinere driehoek aan de binnenzijde toe om tot het juiste antwoord te komen. 
+De groene driehoek heeft in de middelste positie één driehoek aan de binnenzijde. Voeg nog een kleinere driehoek aan de binnenzijde toe om tot het juiste antwoord te komen.
 
 [[K0178]]
 Gebruik de eerste vorm als uitsparing
 
 [[K0179]]
-De zwarte vorm op de eerste positie wordt uit het midden van het gekleurde vierkant op de tweede positie verwijderd. Het gat is wit. 
+De zwarte vorm op de eerste positie wordt uit het midden van het gekleurde vierkant op de tweede positie verwijderd. Het gat is wit.
 
 [[K0180]]
-Het zwarte vierkant creëert een vierkant gat in het groene vierkant. Kies het groene vierkant met de witte vierkante opening. 
+Het zwarte vierkant creëert een vierkant gat in het groene vierkant. Kies het groene vierkant met de witte vierkante opening.
 
 [[K0181]]
 Combineer de kleuren van de bovenste en onderste helft
 
 [[K0182]]
-Het resultaat bestaat uit de bovenste helft van de eerste capsule en de onderste helft van de tweede capsule. 
+Het resultaat bestaat uit de bovenste helft van de eerste capsule en de onderste helft van de tweede capsule.
 
 [[K0183]]
-De eerste capsule is wit en de tweede is blauw; het resultaat is daarom wit aan de bovenkant en blauw aan de onderkant. 
+De eerste capsule is wit en de tweede is blauw; het resultaat is daarom wit aan de bovenkant en blauw aan de onderkant.
 
 [[K0184]]
 Draai de gekleurde lobben
 
 [[K0185]]
-Bij elke stap wordt de volledige figuur met vier lobben 90 graden met de klok mee gedraaid. Alle rode en blauwe lobben draaien mee met de figuur. 
+Bij elke stap wordt de volledige figuur met vier lobben 90 graden met de klok mee gedraaid. Alle rode en blauwe lobben draaien mee met de figuur.
 
 [[K0186]]
-Draai de middelste figuur nog een kwartslag met de klok mee. De twee rode lobben bevinden zich dan aan de rechterkant en aan de onderkant; de lobben aan de bovenkant en de linkerkant zijn blauw. 
+Draai de middelste figuur nog een kwartslag met de klok mee. De twee rode lobben bevinden zich dan aan de rechterkant en aan de onderkant; de lobben aan de bovenkant en de linkerkant zijn blauw.
 
 [[K0187]]
 Rond de hoeken stapsgewijs af
 
 [[K0188]]
 De kleur en de algemene vorm blijven gelijk, terwijl de hoeken bij elke stap steeds ronder worden. [[K0189]]
-Ga door met het afronden van de hoeken van de bruine rechthoek. Het resultaat is de bruine capsulevorm met volledig afgeronde uiteinden. 
+Ga door met het afronden van de hoeken van de bruine rechthoek. Het resultaat is de bruine capsulevorm met volledig afgeronde uiteinden.
 
 [[K0190]]
 Zet de beweging van de cirkel voort.
 
 [[K0191]]
-In elke rij verplaatst de groene cirkel zich over dezelfde afstand in dezelfde richting: omhoog, omlaag of horizontaal. De grootte blijft gelijk. 
+In elke rij verplaatst de groene cirkel zich over dezelfde afstand in dezelfde richting: omhoog, omlaag of horizontaal. De grootte blijft gelijk.
 
 [[K0192]]
-In de onderste rij beweegt de cirkel naar links langs de onderzijde van het vierkant. Nog een stap van gelijke grootte brengt de cirkel linksonder. 
+In de onderste rij beweegt de cirkel naar links langs de onderzijde van het vierkant. Nog een stap van gelijke grootte brengt de cirkel linksonder.
 
 [[K0193]]
 Draai het volledige patroon van stippen.
 
 [[K0194]]
-Draai het vierkant en alle stippen erin bij elke stap 45 graden tegen de klok in. Het vierkant verandert in een ruit en vervolgens weer in een vierkant. 
+Draai het vierkant en alle stippen erin bij elke stap 45 graden tegen de klok in. Het vierkant verandert in een ruit en vervolgens weer in een vierkant.
 
 [[K0195]]
-Draai de middelste groen-zwarte ruit nog eens 45 graden tegen de klok in. Laat de groene en zwarte stippen op hun gedraaide posities staan. 
+Draai de middelste groen-zwarte ruit nog eens 45 graden tegen de klok in. Laat de groene en zwarte stippen op hun gedraaide posities staan.
 
 [[K0196]]
 Verkort elke balk vanaf de bovenkant.
 
 [[K0197]]
-Bij elke stap verliest elke verticale zwarte balk één rastereenheid aan de bovenzijde. De onderzijde blijft op de onderste lijn staan. Een balk verdwijnt zodra de lengte nul is geworden. 
+Bij elke stap verliest elke verticale zwarte balk één rastereenheid aan de bovenzijde. De onderzijde blijft op de onderste lijn staan. Een balk verdwijnt zodra de lengte nul is geworden.
 
 [[K0198]]
-De middelste afbeelding toont een middelste balk van één eenheid lang en een rechterbalk van twee eenheden lang. De middelste balk verdwijnt, waardoor er aan de rechterkant een balk van één eenheid overblijft. 
+De middelste afbeelding toont een middelste balk van één eenheid lang en een rechterbalk van twee eenheden lang. De middelste balk verdwijnt, waardoor er aan de rechterkant een balk van één eenheid overblijft.
 
 [[K0199]]
 Spiegel ten opzichte van de zwarte lijn.
 
 [[K0200]]
-De middelste lijn fungeert als spiegelas. Spiegel de gekleurde vorm in deze lijn in plaats van deze simpelweg te draaien. 
+De middelste lijn fungeert als spiegelas. Spiegel de gekleurde vorm in deze lijn in plaats van deze simpelweg te draaien.
 
 [[K0201]]
-De laatste spiegellijn is verticaal, waardoor de gele vorm horizontaal wordt omgedraaid (van links naar rechts). De kleur en grootte blijven ongewijzigd. 
+De laatste spiegellijn is verticaal, waardoor de gele vorm horizontaal wordt omgedraaid (van links naar rechts). De kleur en grootte blijven ongewijzigd.
 
 [[K0202]]
 Leg de vormen over elkaar en gebruik de kleur van de eerste vorm.
 
 [[K0203]]
 Plaats beide vormen over elkaar. Behoud het gecombineerde silhouet en de zichtbare contouren, maar geef het geheel de kleur van de eerste vorm. [[K0204]]
-Leg de blauwe, naar beneden wijzende driehoek over de gele zeshoek heen en gebruik blauw voor de gecombineerde figuur. De uitstekende punten van de driehoek blijven rondom de zeshoek zichtbaar. 
+Leg de blauwe, naar beneden wijzende driehoek over de gele zeshoek heen en gebruik blauw voor de gecombineerde figuur. De uitstekende punten van de driehoek blijven rondom de zeshoek zichtbaar.
 
 [[K0205]]
 Behoud de kleur groen in precies één van de invoerfiguren.
 
 [[K0206]]
-Vergelijk de overeenkomstige vlakken van de twee vierkanten. Een vlak wordt groen als het in precies één van de invoerfiguren groen is. Is een vlak in beide figuren groen, dan wordt het wit; is het in beide figuren wit, dan blijft het wit. 
+Vergelijk de overeenkomstige vlakken van de twee vierkanten. Een vlak wordt groen als het in precies één van de invoerfiguren groen is. Is een vlak in beide figuren groen, dan wordt het wit; is het in beide figuren wit, dan blijft het wit.
 
 [[K0207]]
-Het eerste vierkant is volledig groen, terwijl bij het tweede vierkant alleen het kwart linksonder groen is. Dat gemeenschappelijke kwart wordt wit; de overige drie kwarten blijven groen. 
+Het eerste vierkant is volledig groen, terwijl bij het tweede vierkant alleen het kwart linksonder groen is. Dat gemeenschappelijke kwart wordt wit; de overige drie kwarten blijven groen.
 
 [[K0208]]
 Plaats bij elke hoek een kopie.
 
 [[K0209]]
-Plaats bij elk hoekpunt van de grote vorm een ​​kopie van het kleine zwarte symbool. De toegevoegde kopieën nemen de kleur van de grote vorm aan. 
+Plaats bij elk hoekpunt van de grote vorm een ​​kopie van het kleine zwarte symbool. De toegevoegde kopieën nemen de kleur van de grote vorm aan.
 
 [[K0210]]
-De grote blauwe ruit heeft vier hoeken. Voeg bij elke hoek een blauwe, naar beneden wijzende driehoek toe, volgens dezelfde plaatsingsregel als in de voorbeelden. 
+De grote blauwe ruit heeft vier hoeken. Voeg bij elke hoek een blauwe, naar beneden wijzende driehoek toe, volgens dezelfde plaatsingsregel als in de voorbeelden.
 
 [[K0211]]
 Tel de hoogtes van de overeenkomstige balken bij elkaar op.
 
 [[K0212]]
-Tel voor elk van de drie horizontale posities de hoogte van de zwarte balk in de eerste afbeelding op bij de hoogte in de tweede afbeelding. Meet hierbij vanaf de gezamenlijke onderlijn naar boven. 
+Tel voor elk van de drie horizontale posities de hoogte van de zwarte balk in de eerste afbeelding op bij de hoogte in de tweede afbeelding. Meet hierbij vanaf de gezamenlijke onderlijn naar boven.
 
 [[K0213]]
-In geen van beide invoerfiguren is een balk aan de linkerkant aanwezig. De twee middelste balken vormen samen een balk van volledige hoogte, terwijl de balken aan de rechterkant samen een kortere balk vormen. Het resultaat bevat enkel deze middelste en rechter balken. 
+In geen van beide invoerfiguren is een balk aan de linkerkant aanwezig. De twee middelste balken vormen samen een balk van volledige hoogte, terwijl de balken aan de rechterkant samen een kortere balk vormen. Het resultaat bevat enkel deze middelste en rechter balken.
 
 [[K0214]]
 Draai de figuren en wissel de kleuren af.

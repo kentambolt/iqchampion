@@ -5,10 +5,10 @@ Distribuie testul pe Facebook
 IQ estimat
 
 [[K0073]]
-Doar pentru distracție. Un scor aproximativ; nu este o măsurare a IQ-ului validată profesional. 
+Doar pentru distracție. Un scor aproximativ; nu este o măsurare a IQ-ului validată profesional.
 
 [[K0074]]
-Testul tău este incomplet. Răspunsurile corecte sunt afișate, dar pentru o estimare a IQ-ului sunt necesare toate cele 36 de răspunsuri. 
+Testul tău este incomplet. Răspunsurile corecte sunt afișate, dar pentru o estimare a IQ-ului sunt necesare toate cele 36 de răspunsuri.
 
 [[K0075]]
 Indisponibil
@@ -17,7 +17,7 @@ Indisponibil
 Test gratuit de raționament vizual | IQ Champion
 
 [[K0077]]
-36 de puzzle-uri de raționament vizual. Acceptă provocarea gratuită de 40 de minute și descoperă-ți rezultatele. 
+36 de puzzle-uri de raționament vizual. Acceptă provocarea gratuită de 40 de minute și descoperă-ți rezultatele.
 
 [[K0078]]
 Răspuns
@@ -50,13 +50,13 @@ Despre test
 O provocare de raționament vizual
 
 [[K0088]]
-Identifică tiparul. 
+Identifică tiparul.
 
 [[K0089]]
-Găsește piesa lipsă. 
+Găsește piesa lipsă.
 
 [[K0090]]
-36 de puzzle-uri vizuale și un scor IQ estimat. Doar pentru distracție. 
+36 de puzzle-uri vizuale și un scor IQ estimat. Doar pentru distracție.
 
 [[K0091]]
 Puzzle-uri
@@ -71,23 +71,23 @@ Cost
 Gratuit
 
 [[K0095]]
-Nu este necesar un cont. Cronometrul pornește în momentul în care începi. 
+Nu este necesar un cont. Cronometrul pornește în momentul în care începi.
 
 [[K0096]]
 Cum funcționează testul
 
 [[K0097]]
-Alege pictograma care completează fiecare tipar. 
+Alege pictograma care completează fiecare tipar.
 
 [[K0098]]
-Sari peste întrebările dificile și revino la ele folosind vizualizarea de ansamblu. 
+Sari peste întrebările dificile și revino la ele folosind vizualizarea de ansamblu.
 
 [[K0099]]
 Verifică sau modifică răspunsurile înainte de a finaliza. [[K0100]]
-Răspunsurile tale și momentul începerii sunt salvate în acest browser. Reîncărcarea paginii nu modifică termenul-limită inițial. 
+Răspunsurile tale și momentul începerii sunt salvate în acest browser. Reîncărcarea paginii nu modifică termenul-limită inițial.
 
 [[K0101]]
-Cronometrul de 40 de minute continuă să ruleze chiar dacă pagina este închisă. Întrebările la care nu s-a răspuns sunt considerate incorecte. 
+Cronometrul de 40 de minute continuă să ruleze chiar dacă pagina este închisă. Întrebările la care nu s-a răspuns sunt considerate incorecte.
 
 [[K0102]]
 Despre rezultatul tău
@@ -96,13 +96,13 @@ Despre rezultatul tău
 IQ-ul tău estimat se bazează pe poziția ta în raport cu
 
 [[K0104]]
-încercările anterioare. 
+încercările anterioare.
 
 [[K0105]]
-Comparația ia în calcul încercările cu o durată cuprinsă între un minut și 40 de minute. Aceasta nu a fost validată prin raportare la un test IQ oficial sau la un eșantion reprezentativ al populației. 
+Comparația ia în calcul încercările cu o durată cuprinsă între un minut și 40 de minute. Aceasta nu a fost validată prin raportare la un test IQ oficial sau la un eșantion reprezentativ al populației.
 
 [[K0106]]
-Un test realizat pentru divertisment. IQ-ul estimat reprezintă o aproximare, nu un scor IQ validat profesional. 
+Un test realizat pentru divertisment. IQ-ul estimat reprezintă o aproximare, nu un scor IQ validat profesional.
 
 [[K0107]]
 Începe testul de 40 de minute
@@ -165,16 +165,16 @@ Revizuiește și finalizează
 Instrucțiuni și progres salvat
 
 [[K0127]]
-Selectează un răspuns pentru a trece la următoarea întrebare la care nu s-a răspuns. Poți să sari peste întrebări, să revii la ele și să modifici răspunsurile înainte de a finaliza. 
+Selectează un răspuns pentru a trece la următoarea întrebare la care nu s-a răspuns. Poți să sari peste întrebări, să revii la ele și să modifici răspunsurile înainte de a finaliza.
 
 [[K0128]]
-Răspunsurile se salvează automat în acest browser. Dacă reîncarci pagina, vei reveni la aceeași întrebare; cronometrul continuă să ruleze. 
+Răspunsurile se salvează automat în acest browser. Dacă reîncarci pagina, vei reveni la aceeași întrebare; cronometrul continuă să ruleze.
 
 [[K0129]]
 Începem când ești gata
 
 [[K0130]]
-Închei testul? 
+Închei testul?
 
 [[K0131]]
 Continuă
@@ -201,7 +201,7 @@ Despre acest test
 Cum să interpretezi acest rezultat
 
 [[K0139]]
-Poziția ta procentuală (percentila) în raport cu încercările anterioare este convertită în scara IQ consacrată: cu o valoare centrală de 100 și o abatere standard de 15. Această conversie presupune că grupul de comparație este reprezentativ pentru populația generală – un aspect care nu a fost confirmat. 
+Poziția ta procentuală (percentila) în raport cu încercările anterioare este convertită în scara IQ consacrată: cu o valoare centrală de 100 și o abatere standard de 15. Această conversie presupune că grupul de comparație este reprezentativ pentru populația generală – un aspect care nu a fost confirmat.
 
 [[K0140]]
 Explicația răspunsurilor tale
@@ -256,13 +256,13 @@ Feedback și contact
 Trimiteți feedback sau contactați-ne
 
 [[K0158]]
-Corect. Răspunsul dumneavoastră coincide cu răspunsul corect. 
+Corect. Răspunsul dumneavoastră coincide cu răspunsul corect.
 
 [[K0159]]
-Incorect. Răspunsul dumneavoastră diferă de răspunsul corect. 
+Incorect. Răspunsul dumneavoastră diferă de răspunsul corect.
 
 [[K0160]]
-Fără răspuns. Nu a fost trimis niciun răspuns pentru această întrebare. 
+Fără răspuns. Nu a fost trimis niciun răspuns pentru această întrebare.
 
 [[K0161]]
 Nu a fost trimis niciun răspuns
@@ -274,28 +274,28 @@ Răspunsul trimis de dumneavoastră
 Pictogramă lipsă
 
 [[K0164]]
-Toate întrebările au primit răspuns. Puteți totuși să revizuiți și să modificați răspunsurile, apoi să finalizați testul. 
+Toate întrebările au primit răspuns. Puteți totuși să revizuiți și să modificați răspunsurile, apoi să finalizați testul.
 
 [[K0165]]
-Au mai rămas cinci minute sau mai puțin. 
+Au mai rămas cinci minute sau mai puțin.
 
 [[K0166]]
-Timpul a expirat. Răspunsurile dumneavoastră au fost evaluate. 
+Timpul a expirat. Răspunsurile dumneavoastră au fost evaluate.
 
 [[K0167]]
-Test finalizat. 
+Test finalizat.
 
 [[K0168]]
-Comparația nu este disponibilă. 
+Comparația nu este disponibilă.
 
 [[K0169]]
-Acest browser nu a putut salva încercarea dumneavoastră. Mențineți această pagină deschisă: reîncărcarea paginii poate duce la pierderea progresului sau la restabilirea unor răspunsuri anterioare. 
+Acest browser nu a putut salva încercarea dumneavoastră. Mențineți această pagină deschisă: reîncărcarea paginii poate duce la pierderea progresului sau la restabilirea unor răspunsuri anterioare.
 
 [[K0170]]
-Salvarea locală nu este disponibilă în acest browser. Mențineți această pagină deschisă pentru a evita pierderea încercării dumneavoastră. 
+Salvarea locală nu este disponibilă în acest browser. Mențineți această pagină deschisă pentru a evita pierderea încercării dumneavoastră.
 
 [[K0171]]
-Încercarea salvată nu a putut fi restabilită. Începeți un nou test când sunteți pregătit. 
+Încercarea salvată nu a putut fi restabilită. Începeți un nou test când sunteți pregătit.
 
 [[K0172]]
 Mențineți figura neschimbată

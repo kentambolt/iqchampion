@@ -1,36 +1,36 @@
 [[K0249]]
-Efter att den röda biten tagits bort bildar de kvarvarande bitarna en trappa i mitten. När den gula biten och dess angränsande grannar tas bort, blir den blå biten högst upp kvar – den faller sedan ner till botten. 
+Efter att den röda biten tagits bort bildar de kvarvarande bitarna en trappa i mitten. När den gula biten och dess angränsande grannar tas bort, blir den blå biten högst upp kvar – den faller sedan ner till botten.
 
 [[K0250]]
 Rotera lagren och applicera färgmasken.
 
 [[K0251]]
-Följ samma tre former. I varje steg flyttas den främre formen längst bak. I den slutgiltiga bilden behålls de grå eller svarta fyllningarna från den mellersta bilden, medan de ofyllda vita formerna återfår sina färger från den första bilden. 
+Följ samma tre former. I varje steg flyttas den främre formen längst bak. I den slutgiltiga bilden behålls de grå eller svarta fyllningarna från den mellersta bilden, medan de ofyllda vita formerna återfår sina färger från den första bilden.
 
 [[K0252]]
-Den grå hexagonen hamnar längst fram, den svarta horisontella kapselformen ligger bakom den, och den vertikala kapselformen hamnar längst bak. Den vita vertikala kapselformen återfår sin ursprungliga gula färg. 
+Den grå hexagonen hamnar längst fram, den svarta horisontella kapselformen ligger bakom den, och den vertikala kapselformen hamnar längst bak. Den vita vertikala kapselformen återfår sin ursprungliga gula färg.
 
 [[K0253]]
 Använd varje cirkels färg för att avgöra hur den rör sig.
 
 [[K0254]]
-Följ varje cirkel i förhållande till cirkeln som omsluter den. Den vita cirkeln rör sig 90 grader medurs, den svarta 90 grader moturs, och den röda behåller sin relativa position. Den blå cirkeln rör sig inte. Tillämpa dessa rörelser på alla inbäddade nivåer. 
+Följ varje cirkel i förhållande till cirkeln som omsluter den. Den vita cirkeln rör sig 90 grader medurs, den svarta 90 grader moturs, och den röda behåller sin relativa position. Den blå cirkeln rör sig inte. Tillämpa dessa rörelser på alla inbäddade nivåer.
 
 [[K0255]]
-Den svarta cirkeln flyttas från positionen ovanför den blå cirkeln till dess vänstra sida. Den röda cirkeln stannar kvar till höger inuti den svarta. Den större vita cirkeln flyttas från positionen ovanför den röda till dess högra sida; den minsta vita cirkeln flyttas från positionen under den större vita cirkeln till dess vänstra sida. 
+Den svarta cirkeln flyttas från positionen ovanför den blå cirkeln till dess vänstra sida. Den röda cirkeln stannar kvar till höger inuti den svarta. Den större vita cirkeln flyttas från positionen ovanför den röda till dess högra sida; den minsta vita cirkeln flyttas från positionen under den större vita cirkeln till dess vänstra sida.
 
 [[K0256]]
 Flytta färgerna längs de sammankopplade vägarna.
 
 [[K0257]]
-De svarta linjerna anger vägarna som färgerna rör sig längs. Följ varje slinga medurs och flytta varje färg till nästa sammankopplade position. En väg som omfattar två positioner innebär att färgerna byter plats med varandra; punkter som inte är sammankopplade ligger kvar där de är. 
+De svarta linjerna anger vägarna som färgerna rör sig längs. Följ varje slinga medurs och flytta varje färg till nästa sammankopplade position. En väg som omfattar två positioner innebär att färgerna byter plats med varandra; punkter som inte är sammankopplade ligger kvar där de är.
 
 [[K0258]]
 Byt plats på de två översta färgerna. I den nedre slingan flyttas den blå cirkeln (i mitten till vänster) till mitten, och den röda cirkeln (i mitten till höger) flyttas till nedre vänstra hörnet. Den röda cirkeln längst ner till höger, som inte är sammankopplad med någon annan, ligger kvar oförändrad. [[K0259]]
 Flytta varje färg längs dess egen bana
 
 [[K0260]]
-Rött flyttas nedåt, grönt åt höger och gult åt vänster. Blått flyttas uppåt och, där det är möjligt, ett steg åt vänster. Vitt markerar färger som överlappar varandra; separera dessa färger igen innan nästa förflyttning görs. Färger som hamnar utanför rutnätet försvinner. 
+Rött flyttas nedåt, grönt åt höger och gult åt vänster. Blått flyttas uppåt och, där det är möjligt, ett steg åt vänster. Vitt markerar färger som överlappar varandra; separera dessa färger igen innan nästa förflyttning görs. Färger som hamnar utanför rutnätet försvinner.
 
 [[K0261]]
 Dela upp den vita rutan i mitten i rött och grönt. Det röda flyttas till mitten längst ner, det gröna till mitten till höger, det blå hamnar längst upp till vänster och det gula försvinner ut till vänster. Dessa tre färgade rutor utgör svaret.
@@ -39,37 +39,37 @@ Dela upp den vita rutan i mitten i rött och grönt. Det röda flyttas till mitt
 Flytta de röda och blå spetsarna i motsatta riktningar
 
 [[K0263]]
-I varje steg flyttas varje röd spets ett steg moturs, och varje blå spets flyttas två steg medurs längs den femuddiga stjärnan. Vitt innebär att rött och blått överlappar varandra; separera färgerna innan nästa förflyttning. 
+I varje steg flyttas varje röd spets ett steg moturs, och varje blå spets flyttas två steg medurs längs den femuddiga stjärnan. Vitt innebär att rött och blått överlappar varandra; separera färgerna innan nästa förflyttning.
 
 [[K0264]]
-I den mellersta bilden finns rött längst ner till höger, medan blått finns både längst upp till höger och längst upp till vänster. I nästa steg hamnar det röda och en av de blå delarna på samma plats längst upp till höger, vilket gör rutan vit. Den andra blå delen flyttas längst ner till vänster. 
+I den mellersta bilden finns rött längst ner till höger, medan blått finns både längst upp till höger och längst upp till vänster. I nästa steg hamnar det röda och en av de blå delarna på samma plats längst upp till höger, vilket gör rutan vit. Den andra blå delen flyttas längst ner till vänster.
 
 [[K0265]]
 Förskjut två kopior i den riktning sektorn pekar
 
 [[K0266]]
-De två kanterna på den vita sektorn anger två rörelseriktningar. Skapa två kopior av mönstret med röda prickar och förskjut en kopia ett steg i rutnätet i vardera riktningen (låt mönstret fortsätta på andra sidan vid kanterna). En position som nås av en kopia blir röd; en position som nås av båda kopiorna blir blå. 
+De två kanterna på den vita sektorn anger två rörelseriktningar. Skapa två kopior av mönstret med röda prickar och förskjut en kopia ett steg i rutnätet i vardera riktningen (låt mönstret fortsätta på andra sidan vid kanterna). En position som nås av en kopia blir röd; en position som nås av båda kopiorna blir blå.
 
 [[K0267]]
-Den sista sektorn pekar neråt-vänster och neråt-höger. Förskjut en kopia åt vardera hållet. Där de överlappar blir hela den översta raden samt mitten blå; de positioner som bara täcks av en kopia förblir röda, vilket visas i svaret. 
+Den sista sektorn pekar neråt-vänster och neråt-höger. Förskjut en kopia åt vardera hållet. Där de överlappar blir hela den översta raden samt mitten blå; de positioner som bara täcks av en kopia förblir röda, vilket visas i svaret.
 
 [[K0268]]
 Ta bort linjesegment som korsar varandra
 
 [[K0269]]
-Lägg de två teckningarna ovanpå varandra. Betrakta varje rak linje mellan två intilliggande punkter i rutnätet som ett separat linjesegment. Om ett segment från den ena teckningen korsar ett segment från den andra mellan två punkter, ska båda segmenten tas bort. Segment som möts i en rutnätspunkt får vara kvar. Behåll alla oskurna segment från båda ritningarna. 
+Lägg de två teckningarna ovanpå varandra. Betrakta varje rak linje mellan två intilliggande punkter i rutnätet som ett separat linjesegment. Om ett segment från den ena teckningen korsar ett segment från den andra mellan två punkter, ska båda segmenten tas bort. Segment som möts i en rutnätspunkt får vara kvar. Behåll alla oskurna segment från båda ritningarna.
 
 [[K0270]]
-Ta bort de diagonala segmenten som skurits av mellan rutnätspunkterna. De kvarvarande delarna bildar en övre gaffel med ett vertikalt skaft, två fristående korta diagonaler nära de övre hörnen, samt en nedre gaffel med ett eget vertikalt skaft. 
+Ta bort de diagonala segmenten som skurits av mellan rutnätspunkterna. De kvarvarande delarna bildar en övre gaffel med ett vertikalt skaft, två fristående korta diagonaler nära de övre hörnen, samt en nedre gaffel med ett eget vertikalt skaft.
 
 [[K0271]]
 Skjut och sortera delarna efter storlek.
 
 [[K0272]]
-Förflytta alla delar i pilens riktning. Mindre delar passerar större delar och når de yttersta tillgängliga platserna först. Behåll varje dels höjd och vertikala position. Delar kan dela kolumn om de inte överlappar varandra vertikalt; delar av samma storlek behåller sin inbördes ordning. 
+Förflytta alla delar i pilens riktning. Mindre delar passerar större delar och når de yttersta tillgängliga platserna först. Behåll varje dels höjd och vertikala position. Delar kan dela kolumn om de inte överlappar varandra vertikalt; delar av samma storlek behåller sin inbördes ordning.
 
 [[K0273]]
-Pilen pekar åt höger. Placera de kortaste delarna på de lediga platserna till höger, därefter delarna som består av två enheter, och slutligen de högre delarna till vänster om dessa. Ingenting flyttas uppåt eller nedåt, och ingen del ändrar storlek. 
+Pilen pekar åt höger. Placera de kortaste delarna på de lediga platserna till höger, därefter delarna som består av två enheter, och slutligen de högre delarna till vänster om dessa. Ingenting flyttas uppåt eller nedåt, och ingen del ändrar storlek.
 
 [[K0274]]
 Flytta avgränsarna till lediga utrymmen.

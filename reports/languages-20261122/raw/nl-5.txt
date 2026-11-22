@@ -1,17 +1,17 @@
 [[K0275]]
-Alle zwarte scheidingslijnen verschuiven gelijktijdig één positie naar rechts, mits de volgende positie een gele kraal bevat. Een scheidingslijn die door een andere scheidingslijn wordt geblokkeerd, blijft staan. De rechterrand is verbonden met de linkerrand. 
+Alle zwarte scheidingslijnen verschuiven gelijktijdig één positie naar rechts, mits de volgende positie een gele kraal bevat. Een scheidingslijn die door een andere scheidingslijn wordt geblokkeerd, blijft staan. De rechterrand is verbonden met de linkerrand.
 
 [[K0276]]
-Voer één gelijktijdige stap uit op de middelste reeks. De uiteindelijke volgorde is: scheidingslijn, kraal, scheidingslijn, kraal, scheidingslijn, scheidingslijn, kraal. 
+Voer één gelijktijdige stap uit op de middelste reeks. De uiteindelijke volgorde is: scheidingslijn, kraal, scheidingslijn, kraal, scheidingslijn, scheidingslijn, kraal.
 
 [[K0277]]
 Breid de kleuren uit en behoud de grootste groep.
 
 [[K0278]]
-Vervang elke gekleurde bal door vier nieuwe ballen van dezelfde kleur: één positie erboven, eronder, links en rechts. Ballen die buiten het raster vallen, verdwijnen. Behoud op elke positie de kleur die het vaakst op die plek terechtkomt. Als er een gelijke stand is tussen kleuren, laat de positie dan leeg. Meerdere ballen van dezelfde kleur op één positie worden weergegeven als één gekleurd merkteken. 
+Vervang elke gekleurde bal door vier nieuwe ballen van dezelfde kleur: één positie erboven, eronder, links en rechts. Ballen die buiten het raster vallen, verdwijnen. Behoud op elke positie de kleur die het vaakst op die plek terechtkomt. Als er een gelijke stand is tussen kleuren, laat de positie dan leeg. Meerdere ballen van dezelfde kleur op één positie worden weergegeven als één gekleurd merkteken.
 
 [[K0279]]
-Bij het uitbreiden van de getoonde middelste afbeelding blijft groen over rechtsboven en op rij 2, kolom 3; rood op rij 2, kolom 1; en bruin op rij 2, kolom 2, rij 3, kolom 3, en rij 4, kolommen 2, 3 en 4. Dit zijn precies de kleuren en posities zoals in het opgeslagen antwoord. 
+Bij het uitbreiden van de getoonde middelste afbeelding blijft groen over rechtsboven en op rij 2, kolom 3; rood op rij 2, kolom 1; en bruin op rij 2, kolom 2, rij 3, kolom 3, en rij 4, kolommen 2, 3 en 4. Dit zijn precies de kleuren en posities zoals in het opgeslagen antwoord.
 
 [[K0280]]
 Taal kiezen
@@ -29,17 +29,17 @@ Geen talen gevonden
 Gratis IQ-test voor de lol | IQ Champion
 
 [[K0285]]
-Een gratis IQ-test voor de lol: 36 visuele puzzels, 40 minuten de tijd, voortgang wordt opgeslagen en je krijgt een geschat IQ-resultaat. Geen account vereist. 
+Een gratis IQ-test voor de lol: 36 visuele puzzels, 40 minuten de tijd, voortgang wordt opgeslagen en je krijgt een geschat IQ-resultaat. Geen account vereist.
 
 [[K0286]]
-Kies de taal van je voorkeur. Je antwoorden en de oorspronkelijke tijdslimiet blijven bewaard. 
+Kies de taal van je voorkeur. Je antwoorden en de oorspronkelijke tijdslimiet blijven bewaard.
 
 [[K0287]]
 Taal laden…
 
 [[K0288]]
 De taal kon niet worden geladen. Je test en antwoorden blijven ongewijzigd. [[K0289]]
-Feedback is beschikbaar in het Deens en Engels. 
+Feedback is beschikbaar in het Deens en Engels.
 
 [[K0290]]
 Gedeelde prestatie
@@ -48,10 +48,10 @@ Gedeelde prestatie
 Gedeeld resultaat
 
 [[K0292]]
-Gedeelde resultaten zijn door de gebruiker zelf opgegeven. 
+Gedeelde resultaten zijn door de gebruiker zelf opgegeven.
 
 [[K0293]]
-Gedeelde prestaties zijn door de gebruiker zelf opgegeven. Leeftijd, land, antwoorden of persoonlijke profielen worden niet gedeeld. 
+Gedeelde prestaties zijn door de gebruiker zelf opgegeven. Leeftijd, land, antwoorden of persoonlijke profielen worden niet gedeeld.
 
 [[K0294]]
 Probeer zelf de 36 puzzels
@@ -60,16 +60,16 @@ Probeer zelf de 36 puzzels
 Probeer zelf de test
 
 [[K0296]]
-Een visuele uitdaging in IQ Champion. Zie jij het patroon ook? 
+Een visuele uitdaging in IQ Champion. Zie jij het patroon ook?
 
 [[K0297]]
-Een gratis visuele puzzeltest, puur voor het plezier. Geen professioneel gevalideerde IQ-meting. 
+Een gratis visuele puzzeltest, puur voor het plezier. Geen professioneel gevalideerde IQ-meting.
 
 [[K0298]]
 Pagina niet gevonden
 
 [[K0299]]
-Je kunt verdergaan in een andere taal. 
+Je kunt verdergaan in een andere taal.
 
 [[K0300]]
 beantwoord
@@ -84,7 +84,7 @@ correct
 incorrect
 
 [[K0304]]
-Geschat mediaanbereik: {0} ({1} correcte antwoorden binnen de tijd). 
+Geschat mediaanbereik: {0} ({1} correcte antwoorden binnen de tijd).
 
 [[K0305]]
 Vraag {0} · {1}
@@ -96,7 +96,7 @@ Vraag {0} · {1}
 Actieve tijd: {0}
 
 [[K0308]]
-Vergelijking: {0} vrijwillige pogingen over een periode van {1} dagen. 
+Vergelijking: {0} vrijwillige pogingen over een periode van {1} dagen.
 
 [[K0309]]
 Vraag {0} / {1}
@@ -117,13 +117,13 @@ Vraag {0}, {1}
 Bekijk vraag {0}, {1}
 
 [[K0315]]
-{0} correct; {1} incorrect; {2} onbeantwoord. 
+{0} correct; {1} incorrect; {2} onbeantwoord.
 
 [[K0316]]
-{0} beantwoord; {1} onbeantwoord. 
+{0} beantwoord; {1} onbeantwoord.
 
 [[K0317]]
-{0} beantwoord; {1} onbeantwoord. Onbeantwoorde vragen worden als fout gerekend. Zodra je klaar bent, kun je je antwoorden niet meer wijzigen. 
+{0} beantwoord; {1} onbeantwoord. Onbeantwoorde vragen worden als fout gerekend. Zodra je klaar bent, kun je je antwoorden niet meer wijzigen.
 
 [[K0318]]
 {0} / {1} correct
@@ -132,10 +132,10 @@ Bekijk vraag {0}, {1}
 Percentiel ten opzichte van eerdere deelnemers: {0}
 
 [[K0320]]
-Deelnemers met een lagere score: {0}%. Deelnemers met dezelfde score: {1}%. 
+Deelnemers met een lagere score: {0}%. Deelnemers met dezelfde score: {1}%.
 
 [[K0321]]
-Referentiegroep: {0} eerdere pogingen. Hierin zijn pogingen opgenomen met een geregistreerde duur van meer dan één minuut tot maximaal 40 minuten. Bij gelijke scores wordt het midden van de betreffende percentielgroep aangehouden. Schattingen worden afgerond op gehele getallen en alleen weergegeven binnen het bereik van 55–145; daarbuiten wordt een indicatie gegeven. Dit betreft een schaalconversie en geen onafhankelijk gevalideerde IQ-meting voor de algemene bevolking. Oefening en herhaalde pogingen kunnen je resultaat beïnvloeden. Sommige voorbeeldafbeeldingen zijn gecorrigeerd sinds de gegevens van eerdere deelnemers werden verzameld, wat de vergelijkbaarheid beperkt. 
+Referentiegroep: {0} eerdere pogingen. Hierin zijn pogingen opgenomen met een geregistreerde duur van meer dan één minuut tot maximaal 40 minuten. Bij gelijke scores wordt het midden van de betreffende percentielgroep aangehouden. Schattingen worden afgerond op gehele getallen en alleen weergegeven binnen het bereik van 55–145; daarbuiten wordt een indicatie gegeven. Dit betreft een schaalconversie en geen onafhankelijk gevalideerde IQ-meting voor de algemene bevolking. Oefening en herhaalde pogingen kunnen je resultaat beïnvloeden. Sommige voorbeeldafbeeldingen zijn gecorrigeerd sinds de gegevens van eerdere deelnemers werden verzameld, wat de vergelijkbaarheid beperkt.
 
 [[K0322]]
 Mijn geschatte IQ in IQ Champion: {0}. Gewoon voor de lol. Probeer het zelf: {1}

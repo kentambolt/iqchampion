@@ -1,96 +1,96 @@
 [[K0215]]
-Gira la figura 45 grados en sentido contrario a las agujas del reloj en cada paso. Su color alterna, de modo que la tercera imagen recupera el color de la primera. 
+Gira la figura 45 grados en sentido contrario a las agujas del reloj en cada paso. Su color alterna, de modo que la tercera imagen recupera el color de la primera.
 
 [[K0216]]
-Gira la figura central blanca otros 45 grados en sentido contrario a las agujas del reloj y recupera el color oscuro de la primera imagen. Elige la figura curva oscura en esa orientación. 
+Gira la figura central blanca otros 45 grados en sentido contrario a las agujas del reloj y recupera el color oscuro de la primera imagen. Elige la figura curva oscura en esa orientación.
 
 [[K0217]]
 Combina los círculos negros.
 
 [[K0218]]
-En el resultado, un círculo es negro si el círculo correspondiente es negro en cualquiera de las entradas. Solo es blanco cuando, en ambas entradas, el círculo en esa posición es blanco. 
+En el resultado, un círculo es negro si el círculo correspondiente es negro en cualquiera de las entradas. Solo es blanco cuando, en ambas entradas, el círculo en esa posición es blanco.
 
 [[K0219]]
-La primera entrada aporta el círculo negro situado abajo a la derecha; la segunda aporta los dos círculos negros de la parte superior. Los círculos central y el de abajo a la izquierda permanecen blancos. 
+La primera entrada aporta el círculo negro situado abajo a la derecha; la segunda aporta los dos círculos negros de la parte superior. Los círculos central y el de abajo a la izquierda permanecen blancos.
 
 [[K0220]]
 Expande hacia las celdas vecinas.
 
 [[K0221]]
-En cada paso, toda celda azul permanece azul y, además, tiñe de azul a sus vecinas inmediatas (arriba, abajo, a la izquierda y a la derecha). La expansión se detiene al llegar al límite de la cuadrícula. 
+En cada paso, toda celda azul permanece azul y, además, tiñe de azul a sus vecinas inmediatas (arriba, abajo, a la izquierda y a la derecha). La expansión se detiene al llegar al límite de la cuadrícula.
 
 [[K0222]]
-Aplica la misma expansión de una celda a la región azul central. Las celdas vecinas recién alcanzadas se vuelven azules; las celdas más alejadas permanecen en el patrón de tablero de ajedrez gris y negro. 
+Aplica la misma expansión de una celda a la región azul central. Las celdas vecinas recién alcanzadas se vuelven azules; las celdas más alejadas permanecen en el patrón de tablero de ajedrez gris y negro.
 
 [[K0223]]
 Elimina las posiciones marrones coincidentes.
 
 [[K0224]]
-Compara las dos franjas de cinco celdas, posición por posición. En el resultado, una celda es marrón si, y solo si, es marrón en una de las dos entradas. Las celdas marrones que coinciden se transforman en azules. 
+Compara las dos franjas de cinco celdas, posición por posición. En el resultado, una celda es marrón si, y solo si, es marrón en una de las dos entradas. Las celdas marrones que coinciden se transforman en azules.
 
 [[K0225]]
-El color marrón aparece en las posiciones 2, 3, 4 y 5 de la primera franja, y en las posiciones 2, 3 y 5 de la segunda. Solo la posición 4 permanece marrón. 
+El color marrón aparece en las posiciones 2, 3, 4 y 5 de la primera franja, y en las posiciones 2, 3 y 5 de la segunda. Solo la posición 4 permanece marrón.
 
 [[K0226]]
 Elimina los puntos rojos más cercanos entre sí.
 
 [[K0227]]
 Determina la distancia mínima entre dos puntos rojos cualesquiera. Elimina todos los puntos rojos que formen parte de un par a esa distancia. Vuelve a calcular la distancia mínima para el siguiente paso. [[K0228]]
-En la imagen central, los tres puntos rojos inferiores forman parte de los pares diagonales más cercanos. Al eliminarlos, solo queda el punto rojo situado en la fila superior, cuarta columna. 
+En la imagen central, los tres puntos rojos inferiores forman parte de los pares diagonales más cercanos. Al eliminarlos, solo queda el punto rojo situado en la fila superior, cuarta columna.
 
 [[K0229]]
 Desplaza los seis colores a lo largo de un ciclo.
 
 [[K0230]]
-Lee la columna de la izquierda de arriba hacia abajo y, a continuación, la de la derecha. Desplaza cada color una posición hacia adelante en ese ciclo de seis elementos; el color situado en la parte inferior derecha pasa a la parte superior izquierda. 
+Lee la columna de la izquierda de arriba hacia abajo y, a continuación, la de la derecha. Desplaza cada color una posición hacia adelante en ese ciclo de seis elementos; el color situado en la parte inferior derecha pasa a la parte superior izquierda.
 
 [[K0231]]
-Partiendo de la imagen central, el círculo marrón de la parte inferior derecha pasa a la parte superior izquierda. Las columnas resultantes son: marrón/rojo/rojo a la izquierda, y negro/marrón/azul a la derecha. 
+Partiendo de la imagen central, el círculo marrón de la parte inferior derecha pasa a la parte superior izquierda. Las columnas resultantes son: marrón/rojo/rojo a la izquierda, y negro/marrón/azul a la derecha.
 
 [[K0232]]
 Mueve los elementos blanco y negro en direcciones opuestas.
 
 [[K0233]]
-En cada paso, los círculos blancos se desplazan una esquina en sentido horario, mientras que los círculos negros se desplazan una esquina en sentido antihorario. El color gris indica que un círculo blanco y uno negro ocupan la misma esquina; sepáralos antes de realizar el siguiente movimiento. 
+En cada paso, los círculos blancos se desplazan una esquina en sentido horario, mientras que los círculos negros se desplazan una esquina en sentido antihorario. El color gris indica que un círculo blanco y uno negro ocupan la misma esquina; sepáralos antes de realizar el siguiente movimiento.
 
 [[K0234]]
-En la imagen central, hay círculos blancos en las dos esquinas izquierdas, y círculos negros en las dos esquinas izquierdas y en la esquina inferior derecha. Tras el movimiento, los círculos blancos quedan en la esquina superior izquierda, los grises en la superior derecha, y los negros en ambas esquinas inferiores. 
+En la imagen central, hay círculos blancos en las dos esquinas izquierdas, y círculos negros en las dos esquinas izquierdas y en la esquina inferior derecha. Tras el movimiento, los círculos blancos quedan en la esquina superior izquierda, los grises en la superior derecha, y los negros en ambas esquinas inferiores.
 
 [[K0235]]
 Extiende todos los trazos horizontales.
 
 [[K0236]]
-En cada paso, extiende cada trazo horizontal negro hacia la cápsula adyacente a ambos lados. Los trazos existentes se mantienen, y los trazos se detienen al llegar a los bordes exteriores. 
+En cada paso, extiende cada trazo horizontal negro hacia la cápsula adyacente a ambos lados. Los trazos existentes se mantienen, y los trazos se detienen al llegar a los bordes exteriores.
 
 [[K0237]]
-Extiende los trazos de la imagen central una cápsula más hacia la izquierda y hacia la derecha. Mantén la distinción entre las diferentes alturas de los trazos; la solución muestra las líneas horizontales resultantes, que ahora abarcan las cuatro cápsulas. 
+Extiende los trazos de la imagen central una cápsula más hacia la izquierda y hacia la derecha. Mantén la distinción entre las diferentes alturas de los trazos; la solución muestra las líneas horizontales resultantes, que ahora abarcan las cuatro cápsulas.
 
 [[K0238]]
 Amplía la red triangular.
 
 [[K0239]]
-Considera el dibujo como un conjunto de triángulos pequeños. En cada paso, añade un triángulo pequeño justo al exterior de cada borde expuesto, conservando los triángulos ya existentes y sus líneas de conexión. 
+Considera el dibujo como un conjunto de triángulos pequeños. En cada paso, añade un triángulo pequeño justo al exterior de cada borde expuesto, conservando los triángulos ya existentes y sus líneas de conexión.
 
 [[K0240]]
-Amplía el grupo verde central añadiendo una capa más de triángulos adyacentes. La respuesta conserva la misma cuadrícula triangular y añade triángulos a lo largo de sus bordes exteriores. 
+Amplía el grupo verde central añadiendo una capa más de triángulos adyacentes. La respuesta conserva la misma cuadrícula triangular y añade triángulos a lo largo de sus bordes exteriores.
 
 [[K0241]]
 Elimina los vértices marcados.
 
 [[K0242]]
-Los puntos marrones indican los vértices del polígono negro que deben eliminarse. Conecta los vértices restantes siguiendo su orden original. Si quedan dos vértices, se forma un segmento de recta. 
+Los puntos marrones indican los vértices del polígono negro que deben eliminarse. Conecta los vértices restantes siguiendo su orden original. Si quedan dos vértices, se forma un segmento de recta.
 
 [[K0243]]
-Elimina los vértices superior e izquierdo marcados con puntos marrones. Solo quedan los dos vértices inferiores, por lo que la respuesta es el pequeño segmento horizontal situado cerca de la parte inferior derecha. 
+Elimina los vértices superior e izquierdo marcados con puntos marrones. Solo quedan los dos vértices inferiores, por lo que la respuesta es el pequeño segmento horizontal situado cerca de la parte inferior derecha.
 
 [[K0244]]
 Alterna el estado de los puntos situados en las esquinas del contorno.
 
 [[K0245]]
-Haz coincidir los vértices del contorno negro con las posiciones de los puntos en la cuadrícula de 3x3. En cada vértice, elimina el punto azul existente o añade uno si la posición está vacía. Las demás posiciones permanecen sin cambios. 
+Haz coincidir los vértices del contorno negro con las posiciones de los puntos en la cuadrícula de 3x3. En cada vértice, elimina el punto azul existente o añade uno si la posición está vacía. Las demás posiciones permanecen sin cambios.
 
 [[K0246]]
-Alterna el estado de los puntos en las cuatro esquinas del contorno inclinado. El resultado muestra puntos azules en las posiciones superior izquierda y superior central, central central y central derecha, así como en las tres posiciones inferiores. 
+Alterna el estado de los puntos en las cuatro esquinas del contorno inclinado. El resultado muestra puntos azules en las posiciones superior izquierda y superior central, central central y central derecha, así como en las tres posiciones inferiores.
 
 [[K0247]]
 Elimina el bloque marcado y sus vecinos.

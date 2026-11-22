@@ -2,13 +2,13 @@
 Aplēstais mediānas diapazons
 
 [[K0002]]
-Publiskajos salīdzinājumos ir iekļauti visi dalībnieki, kuri risinājuši šo mīklas versiju. Norādītā vecuma grupa un valsts (ja tās izvēlētas) tiek izmantotas tikai apkopotajā statistikā. 
+Publiskajos salīdzinājumos ir iekļauti visi dalībnieki, kuri risinājuši šo mīklas versiju. Norādītā vecuma grupa un valsts (ja tās izvēlētas) tiek izmantotas tikai apkopotajā statistikā.
 
 [[K0003]]
-Es piekrītu iekļaut savus anonīmos rezultātus, risināšanai veltīto laiku, kā arī (pēc izvēles) vecuma grupu un valsti apkopotajā statistikā. 
+Es piekrītu iekļaut savus anonīmos rezultātus, risināšanai veltīto laiku, kā arī (pēc izvēles) vecuma grupu un valsti apkopotajā statistikā.
 
 [[K0004]]
-Mediānas diapazoni tiek aprēķināti, pamatojoties uz laika sadalījuma histogrammām. Attēlotais intervāls norāda uz mērījumu precizitātes pakāpi; netiek apgalvots, ka norādītā vērtība ir precīza mediāna vai konkrēts ātruma procentile. 
+Mediānas diapazoni tiek aprēķināti, pamatojoties uz laika sadalījuma histogrammām. Attēlotais intervāls norāda uz mērījumu precizitātes pakāpi; netiek apgalvots, ka norādītā vērtība ir precīza mediāna vai konkrēts ātruma procentile.
 
 [[K0005]]
 Dalies ar izaicinājumu
@@ -17,34 +17,34 @@ Dalies ar izaicinājumu
 Risināšanas laiks
 
 [[K0007]]
-Tava pārlūkprogrammas privātuma iestatījumu dēļ šī statistika tiek saglabāta tavā ierīcē. 
+Tava pārlūkprogrammas privātuma iestatījumu dēļ šī statistika tiek saglabāta tavā ierīcē.
 
 [[K0008]]
 Visi brīvprātīgie mēģinājumi
 
 [[K0009]]
-Paldies! Tavs anonīmais ieguldījums ir saglabāts. 
+Paldies! Tavs anonīmais ieguldījums ir saglabāts.
 
 [[K0010]]
-Šajā grupā vēl nav pietiekami daudz salīdzināmu mēģinājumu. Tava personīgā statistika ir pieejama vienmēr. 
+Šajā grupā vēl nav pietiekami daudz salīdzināmu mēģinājumu. Tava personīgā statistika ir pieejama vienmēr.
 
 [[K0011]]
-Salīdzinājumi uz laiku nav pieejami. Tava personīgā statistika un iespēja dalīties ar rezultātiem joprojām darbojas. 
+Salīdzinājumi uz laiku nav pieejami. Tava personīgā statistika un iespēja dalīties ar rezultātiem joprojām darbojas.
 
 [[K0012]]
-Šim vecākam mēģinājumam nav pilnīgu laika uzskaites datu. Tu joprojām vari aplūkot un kopīgot savu rezultātu. 
+Šim vecākam mēģinājumam nav pilnīgu laika uzskaites datu. Tu joprojām vari aplūkot un kopīgot savu rezultātu.
 
 [[K0013]]
-Pirms datu nosūtīšanas izvēlies, vai vēlies sniegt savu ieguldījumu statistikā. 
+Pirms datu nosūtīšanas izvēlies, vai vēlies sniegt savu ieguldījumu statistikā.
 
 [[K0014]]
-Šim mēģinājumam nav pilnīgu laika uzskaites datu. Tavi personīgie rezultāti paliek nemainīgi. 
+Šim mēģinājumam nav pilnīgu laika uzskaites datu. Tavi personīgie rezultāti paliek nemainīgi.
 
 [[K0015]]
-Tavu ieguldījumu neizdevās saglabāt šajā pārlūkprogrammā. Nekādi dati netika nosūtīti. 
+Tavu ieguldījumu neizdevās saglabāt šajā pārlūkprogrammā. Nekādi dati netika nosūtīti.
 
 [[K0016]]
-Šis ieguldījums ir jāpārskata, tāpēc tas netika atkārtoti ieskaitīts statistikā. 
+Šis ieguldījums ir jāpārskata, tāpēc tas netika atkārtoti ieskaitīts statistikā.
 
 [[K0017]]
 Tavs ieguldījums nav apstiprināts. Mēģini vēlreiz, izmantojot to pašu saglabāto ieguldījumu. [[K0018]]
@@ -84,13 +84,13 @@ Atrisinātie likumsakarību uzdevumi
 Izaicinājums, ar kuru vērts padalīties
 
 [[K0030]]
-36 uzdevumi. Viens izaicinājums. 
+36 uzdevumi. Viens izaicinājums.
 
 [[K0031]]
-Dalieties ar izaicinājumu ar kādu no saviem paziņām. 
+Dalieties ar izaicinājumu ar kādu no saviem paziņām.
 
 [[K0032]]
-Jūsu aktīvais laiks. Nav pietiekami daudz salīdzināšanas datu, lai novērtētu ātrumu. 
+Jūsu aktīvais laiks. Nav pietiekami daudz salīdzināšanas datu, lai novērtētu ātrumu.
 
 [[K0033]]
 Izvēlieties, ar ko dalīties
@@ -117,22 +117,22 @@ Teksts dalīšanai
 Kopēt tekstu
 
 [[K0041]]
-Facebook ļauj pievienot savu aprakstu. Mēs nekad neveicam automātiskas publikācijas. 
+Facebook ļauj pievienot savu aprakstu. Mēs nekad neveicam automātiskas publikācijas.
 
 [[K0042]]
-Nokopēts. Ielīmējiet to savā ierakstā. 
+Nokopēts. Ielīmējiet to savā ierakstā.
 
 [[K0043]]
-Atlasiet un nokopējiet zemāk redzamo tekstu. 
+Atlasiet un nokopējiet zemāk redzamo tekstu.
 
 [[K0044]]
 Jautājumu statistika
 
 [[K0045]]
-Salīdzinājumi pa jautājumiem vēl nav pieejami. Jūsu personīgā statistika ir redzama zemāk. 
+Salīdzinājumi pa jautājumiem vēl nav pieejami. Jūsu personīgā statistika ir redzama zemāk.
 
 [[K0046]]
-Tiek uzskaitīts laiks, kad jautājums bija aktīvs un uzmanības centrā — līdz brīdim, kad sniedzāt pēdējo atbildi. Neatbildētiem jautājumiem tiek parādīts patērētais laiks. Laiks, kad cilnes bija paslēptas vai lapas aizvērtas, netiek iekļauts. Iepriekšējiem mēģinājumiem, iespējams, nav fiksēts laiks. 
+Tiek uzskaitīts laiks, kad jautājums bija aktīvs un uzmanības centrā — līdz brīdim, kad sniedzāt pēdējo atbildi. Neatbildētiem jautājumiem tiek parādīts patērētais laiks. Laiks, kad cilnes bija paslēptas vai lapas aizvērtas, netiek iekļauts. Iepriekšējiem mēģinājumiem, iespējams, nav fiksēts laiks.
 
 [[K0047]]
 Visi 36 jautājumi, tostarp izlaistie
@@ -150,16 +150,16 @@ Pareizo atbilžu mediāna
 Citu pareizās atbildes
 
 [[K0052]]
-Salīdziniet ar brīvprātīgiem mēģinājumiem, kuros izmantota tā pati uzdevuma versija. Lai aprēķinātu pareizo atbilžu īpatsvaru, nepieciešamas vismaz 30 atbildes, bet mediānas noteikšanai — vismaz 30 pareizas atbildes, kurām fiksēts laiks. Šie dati attiecas uz konkrētiem dalībniekiem, nevis reprezentē visu iedzīvotāju kopumu. 
+Salīdziniet ar brīvprātīgiem mēģinājumiem, kuros izmantota tā pati uzdevuma versija. Lai aprēķinātu pareizo atbilžu īpatsvaru, nepieciešamas vismaz 30 atbildes, bet mediānas noteikšanai — vismaz 30 pareizas atbildes, kurām fiksēts laiks. Šie dati attiecas uz konkrētiem dalībniekiem, nevis reprezentē visu iedzīvotāju kopumu.
 
 [[K0053]]
 Salīdziniet un sniedziet datus
 
 [[K0054]]
-Palīdziet nākamajiem dalībniekiem salīdzināt savus rezultātus. Pēc uzdevuma pabeigšanas varat kopīgot anonīmu statistiku — pat ja esat izlaidis kādus jautājumus. 
+Palīdziet nākamajiem dalībniekiem salīdzināt savus rezultātus. Pēc uzdevuma pabeigšanas varat kopīgot anonīmu statistiku — pat ja esat izlaidis kādus jautājumus.
 
 [[K0055]]
-Tiek sagatavoti anonīmi salīdzinājumi. Jūsu personīgā statistika un tās kopīgošana ir pieejama arī tad, ja nepievienojat savus datus kopējai statistikai. 
+Tiek sagatavoti anonīmi salīdzinājumi. Jūsu personīgā statistika un tās kopīgošana ir pieejama arī tad, ja nepievienojat savus datus kopējai statistikai.
 
 [[K0056]]
 Vecuma grupa (nav obligāti)
@@ -174,16 +174,16 @@ Nevēlos norādīt
 Jaunāki par 18 gadiem
 
 [[K0060]]
-Es piekrītu iekļaut savus anonīmos atbilžu rezultātus un patērēto laiku (kopā ar manis izvēlēto vecuma grupu un valsti) salīdzināšanas statistikā. 
+Es piekrītu iekļaut savus anonīmos atbilžu rezultātus un patērēto laiku (kopā ar manis izvēlēto vecuma grupu un valsti) salīdzināšanas statistikā.
 
 [[K0061]]
-Netiek prasīts vārds, e-pasts vai precīzs vecums. Statistikas kopīgošana ir brīvprātīga un neietekmē jūsu rezultātu. Nelielas salīdzināšanas grupas netiek rādītas. 
+Netiek prasīts vārds, e-pasts vai precīzs vecums. Statistikas kopīgošana ir brīvprātīga un neietekmē jūsu rezultātu. Nelielas salīdzināšanas grupas netiek rādītas.
 
 [[K0062]]
 Pievienot datus anonīmi
 
 [[K0063]]
-Kāpēc tieši šāda atbilde? 
+Kāpēc tieši šāda atbilde?
 
 [[K0064]]
 Skaidrojums
@@ -195,10 +195,10 @@ Noteikums
 Noteikuma piemērošana
 
 [[K0067]]
-Jūs skatāt vecāku uzdevuma versiju. Tās piemēros ir iepriekš konstatēta neskaidrība; jūsu saglabātā atbilde un rezultāts paliek nemainīgi. 
+Jūs skatāt vecāku uzdevuma versiju. Tās piemēros ir iepriekš konstatēta neskaidrība; jūsu saglabātā atbilde un rezultāts paliek nemainīgi.
 
 [[K0068]]
-Jūs skatāt sākotnējo versiju, kurā bija kļūdainas piemēru norādes. Jūsu saglabātā atbilde un rezultāts paliek nemainīgi. Jaunos mēģinājumos tiek izmantota koriģētā versija. 
+Jūs skatāt sākotnējo versiju, kurā bija kļūdainas piemēru norādes. Jūsu saglabātā atbilde un rezultāts paliek nemainīgi. Jaunos mēģinājumos tiek izmantota koriģētā versija.
 
 [[K0069]]
 Šajā sākotnējā versijā redzamais vidējais attēls izvēršas, iegūstot zaļu krāsu augšējā labajā stūrī, kā arī 2. rindas 3. kolonnā; sarkanu krāsu – 2. rindas 1. kolonnā; un brūnu krāsu – 2. rindas 2. kolonnā, 3. rindas 3. kolonnā un 4. rindas 3. kolonnā.

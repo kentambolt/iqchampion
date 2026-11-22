@@ -1,121 +1,121 @@
 [[K0173]]
-Igas näidisreas on igal positsioonil sama sinine ring. Ei kuju, värv ega suurus muutu. 
+Igas näidisreas on igal positsioonil sama sinine ring. Ei kuju, värv ega suurus muutu.
 
 [[K0174]]
-Viimases reas on juba kaks identset sinist ringi. Veel üks identne sinine ring täiendab seda. 
+Viimases reas on juba kaks identset sinist ringi. Veel üks identne sinine ring täiendab seda.
 
 [[K0175]]
 Lisa üks sisemine kontuur
 
 [[K0176]]
-Paremale liikudes lisatakse eelmise kujundi sisse sama kujuga, kuid väiksem kontuur. Välimine kujund ja selle värv jäävad muutumatuks. 
+Paremale liikudes lisatakse eelmise kujundi sisse sama kujuga, kuid väiksem kontuur. Välimine kujund ja selle värv jäävad muutumatuks.
 
 [[K0177]]
-Rohelisel kolmnurgal on keskmisel positsioonil üks sisemine kolmnurk. Lisa veel üks, väiksem sisemine kolmnurk, et saada vastus. 
+Rohelisel kolmnurgal on keskmisel positsioonil üks sisemine kolmnurk. Lisa veel üks, väiksem sisemine kolmnurk, et saada vastus.
 
 [[K0178]]
 Kasuta esimest kujundit väljalõikena
 
 [[K0179]]
-Esimene must kujund eemaldatakse teisel positsioonil oleva värvilise ruudu keskelt. Tekkinud auk on valge. 
+Esimene must kujund eemaldatakse teisel positsioonil oleva värvilise ruudu keskelt. Tekkinud auk on valge.
 
 [[K0180]]
-Must ruut tekitab rohelisse ruutu ruudukujulise augu. Vali roheline ruut, milles on valge ruudukujuline ava. 
+Must ruut tekitab rohelisse ruutu ruudukujulise augu. Vali roheline ruut, milles on valge ruudukujuline ava.
 
 [[K0181]]
 Ühenda ülemine ja alumine värv
 
 [[K0182]]
-Tulemuse ülemine pool pärineb esimesest kapslist ja alumine pool teisest kapslist. 
+Tulemuse ülemine pool pärineb esimesest kapslist ja alumine pool teisest kapslist.
 
 [[K0183]]
-Esimene kapsel on valge ja teine ​​sinine, seega on tulemus ülevalt valge ja alt sinine. 
+Esimene kapsel on valge ja teine ​​sinine, seega on tulemus ülevalt valge ja alt sinine.
 
 [[K0184]]
 Pööra värvilisi osi
 
 [[K0185]]
-Igas etapis pööra kogu nelja osaga kujundit 90 kraadi päripäeva. Kõik punased ja sinised osad liiguvad koos kujundiga. 
+Igas etapis pööra kogu nelja osaga kujundit 90 kraadi päripäeva. Kõik punased ja sinised osad liiguvad koos kujundiga.
 
 [[K0186]]
-Pööra keskmist kujundit veel veerandpöörde võrra päripäeva. Kaks punast osa jäävad paremale ja alla; ülemine ja vasak osa on sinised. 
+Pööra keskmist kujundit veel veerandpöörde võrra päripäeva. Kaks punast osa jäävad paremale ja alla; ülemine ja vasak osa on sinised.
 
 [[K0187]]
 Ümarda nurgad järk-järgult
 
 [[K0188]]
 Värv ja üldkuju jäävad samaks, kuid nurgad muutuvad iga sammuga ümaramaks. [[K0189]]
-Jätka pruuni ristküliku nurkade ümardamist. Vastuseks on pruun kapslikujuline kujund, mille otsad on täielikult ümardatud. 
+Jätka pruuni ristküliku nurkade ümardamist. Vastuseks on pruun kapslikujuline kujund, mille otsad on täielikult ümardatud.
 
 [[K0190]]
 Jätka ringi liikumist
 
 [[K0191]]
-Igas reas liigub roheline ring sama vahemaa võrra samas suunas: üles, alla või horisontaalselt. Selle suurus jääb muutumatuks. 
+Igas reas liigub roheline ring sama vahemaa võrra samas suunas: üles, alla või horisontaalselt. Selle suurus jääb muutumatuks.
 
 [[K0192]]
-Viimases reas liigub ring mööda ruudu alumist serva vasakule. Veel üks samasugune samm viib selle vasakusse alanurka. 
+Viimases reas liigub ring mööda ruudu alumist serva vasakule. Veel üks samasugune samm viib selle vasakusse alanurka.
 
 [[K0193]]
 Pööra kogu punktimustrit
 
 [[K0194]]
-Pööra ruutu ja kõiki selle punkte igal sammul 45 kraadi vastupäeva. Ruut muutub rombiks ja seejärel taas ruuduks. 
+Pööra ruutu ja kõiki selle punkte igal sammul 45 kraadi vastupäeva. Ruut muutub rombiks ja seejärel taas ruuduks.
 
 [[K0195]]
-Pööra keskmist rohelis-musta rombi veel 45 kraadi vastupäeva. Jäta rohelised ja mustad punktid nende pööratud asenditesse. 
+Pööra keskmist rohelis-musta rombi veel 45 kraadi vastupäeva. Jäta rohelised ja mustad punktid nende pööratud asenditesse.
 
 [[K0196]]
 Lühenda iga tulpa ülevalt poolt
 
 [[K0197]]
-Igal sammul jääb iga vertikaalne must tulp oma ülemisest otsast ühe ruudustikuühiku võrra lühemaks. Selle alumine ots püsib alumisel joonel. Tulp kaob, kui selle pikkus muutub nulliks. 
+Igal sammul jääb iga vertikaalne must tulp oma ülemisest otsast ühe ruudustikuühiku võrra lühemaks. Selle alumine ots püsib alumisel joonel. Tulp kaob, kui selle pikkus muutub nulliks.
 
 [[K0198]]
-Keskmisel pildil on keskmine tulp ühe ühiku pikkune ja parempoolne tulp kahe ühiku pikkune. Keskmine tulp kaob, jättes paremale alles ühe ühiku pikkuse tulba. 
+Keskmisel pildil on keskmine tulp ühe ühiku pikkune ja parempoolne tulp kahe ühiku pikkune. Keskmine tulp kaob, jättes paremale alles ühe ühiku pikkuse tulba.
 
 [[K0199]]
 Peegelda üle musta joone
 
 [[K0200]]
-Keskmine joon on peegeldustelg. Peegelda värvilist kujundit üle selle joone, selle asemel et seda lihtsalt pöörata. 
+Keskmine joon on peegeldustelg. Peegelda värvilist kujundit üle selle joone, selle asemel et seda lihtsalt pöörata.
 
 [[K0201]]
-Viimane peegeldusjoon on vertikaalne, seega pööratakse kollane kujund vasakult paremale. Selle värv ja suurus jäävad samaks. 
+Viimane peegeldusjoon on vertikaalne, seega pööratakse kollane kujund vasakult paremale. Selle värv ja suurus jäävad samaks.
 
 [[K0202]]
 Aseta kujundid üksteise peale ja kasuta esimest värvi
 
 [[K0203]]
 Aseta mõlemad kujundid üksteise peale. Säilita ühendatud siluett ja nähtavad piirjooned, kuid värvi tulemus esimese kujundi värviga. [[K0204]]
-Aseta sinine allapoole suunatud kolmnurk ja kollane kuusnurk üksteise peale ning kasuta saadud kujundi puhul sinist värvi. Kolmnurga väljaulatuvad tipud jäävad kuusnurga ümber nähtavaks. 
+Aseta sinine allapoole suunatud kolmnurk ja kollane kuusnurk üksteise peale ning kasuta saadud kujundi puhul sinist värvi. Kolmnurga väljaulatuvad tipud jäävad kuusnurga ümber nähtavaks.
 
 [[K0205]]
 Jäta roheliseks vaid see osa, mis on roheline täpselt ühes sisendis.
 
 [[K0206]]
-Võrdle kahe ruudu vastavaid piirkondi. Piirkond on roheline, kui see on roheline täpselt ühes sisendis. Kui piirkond on roheline mõlemas, muutub see valgeks; kui see on valge mõlemas, jääb see valgeks. 
+Võrdle kahe ruudu vastavaid piirkondi. Piirkond on roheline, kui see on roheline täpselt ühes sisendis. Kui piirkond on roheline mõlemas, muutub see valgeks; kui see on valge mõlemas, jääb see valgeks.
 
 [[K0207]]
-Esimene ruut on tervenisti roheline, teisel ruudul on roheline vaid vasak alumine veerand. See ühine veerand muutub valgeks; ülejäänud kolm veerandit jäävad roheliseks. 
+Esimene ruut on tervenisti roheline, teisel ruudul on roheline vaid vasak alumine veerand. See ühine veerand muutub valgeks; ülejäänud kolm veerandit jäävad roheliseks.
 
 [[K0208]]
 Lisa koopia igasse nurka.
 
 [[K0209]]
-Aseta väike must sümbol suure kujundi iga tipu juurde. Lisatud koopiad võtavad üle suure kujundi värvi. 
+Aseta väike must sümbol suure kujundi iga tipu juurde. Lisatud koopiad võtavad üle suure kujundi värvi.
 
 [[K0210]]
-Suurel sinisel rombil on neli nurka. Lisa igasse nurka sinine allapoole suunatud kolmnurk, järgides sama paigutusreeglit, mis on toodud näidetes. 
+Suurel sinisel rombil on neli nurka. Lisa igasse nurka sinine allapoole suunatud kolmnurk, järgides sama paigutusreeglit, mis on toodud näidetes.
 
 [[K0211]]
 Liida vastavate tulpade kõrgused.
 
 [[K0212]]
-Liida iga kolme horisontaalse asukoha puhul esimesel pildil oleva musta tulba kõrgus teisel pildil oleva tulba kõrgusega. Mõõda kõrgust ülespoole ühisest alumisest joonest. 
+Liida iga kolme horisontaalse asukoha puhul esimesel pildil oleva musta tulba kõrgus teisel pildil oleva tulba kõrgusega. Mõõda kõrgust ülespoole ühisest alumisest joonest.
 
 [[K0213]]
-Kummaski sisendis pole vasakpoolset tulpa. Kaks keskmist tulpa moodustavad kokku täiskõrguses tulba, parempoolsed tulbad aga lühema tulba. Vastuses on seega vaid need keskmised ja parempoolsed tulbad. 
+Kummaski sisendis pole vasakpoolset tulpa. Kaks keskmist tulpa moodustavad kokku täiskõrguses tulba, parempoolsed tulbad aga lühema tulba. Vastuses on seega vaid need keskmised ja parempoolsed tulbad.
 
 [[K0214]]
 Pööra kujundeid ja vaheta värve.

@@ -1,121 +1,121 @@
 [[K0173]]
-A példasorok minden pozíciójában ugyanaz a kék kör látható. Sem az alak, sem a szín, sem a méret nem változik. 
+A példasorok minden pozíciójában ugyanaz a kék kör látható. Sem az alak, sem a szín, sem a méret nem változik.
 
 [[K0174]]
-Az utolsó sorban már két egyforma kék kör van. Egy újabb, velük azonos kék kör egészíti ki a sort. 
+Az utolsó sorban már két egyforma kék kör van. Egy újabb, velük azonos kék kör egészíti ki a sort.
 
 [[K0175]]
 Adj hozzá egy belső körvonalat
 
 [[K0176]]
-Jobbra haladva egy, az előzővel azonos alakú, de kisebb körvonal jelenik meg a korábbi belsejében. A külső alakzat és annak színe változatlan marad. 
+Jobbra haladva egy, az előzővel azonos alakú, de kisebb körvonal jelenik meg a korábbi belsejében. A külső alakzat és annak színe változatlan marad.
 
 [[K0177]]
-A zöld háromszög közepén egy belső háromszög található. Adj hozzá még egy, annál kisebb belső háromszöget a helyes válasz eléréséhez. 
+A zöld háromszög közepén egy belső háromszög található. Adj hozzá még egy, annál kisebb belső háromszöget a helyes válasz eléréséhez.
 
 [[K0178]]
 Használd az első alakzatot kivágóelemként
 
 [[K0179]]
-Az első pozícióban lévő fekete alakzatot kivágjuk a második pozícióban lévő színes négyzet közepéből. A keletkező lyuk fehér színű. 
+Az első pozícióban lévő fekete alakzatot kivágjuk a második pozícióban lévő színes négyzet közepéből. A keletkező lyuk fehér színű.
 
 [[K0180]]
-A fekete négyzet négyzet alakú lyukat hoz létre a zöld négyzetben. Válaszd ki azt a zöld négyzetet, amelyen fehér négyzet alakú nyílás látható. 
+A fekete négyzet négyzet alakú lyukat hoz létre a zöld négyzetben. Válaszd ki azt a zöld négyzetet, amelyen fehér négyzet alakú nyílás látható.
 
 [[K0181]]
 Kombináld a felső és az alsó színeket
 
 [[K0182]]
-Az eredmény felső fele az első kapszulából, alsó fele pedig a második kapszulából származik. 
+Az eredmény felső fele az első kapszulából, alsó fele pedig a második kapszulából származik.
 
 [[K0183]]
-Az első kapszula fehér, a második pedig kék; így az eredmény felül fehér, alul pedig kék színű. 
+Az első kapszula fehér, a második pedig kék; így az eredmény felül fehér, alul pedig kék színű.
 
 [[K0184]]
 Forgasd el a színes karéjokat
 
 [[K0185]]
-Minden lépésnél fordítsd el a teljes, négykaréjos alakzatot 90 fokkal az óramutató járásával megegyező irányba. Minden piros és kék karéj az alakzattal együtt mozdul el. 
+Minden lépésnél fordítsd el a teljes, négykaréjos alakzatot 90 fokkal az óramutató járásával megegyező irányba. Minden piros és kék karéj az alakzattal együtt mozdul el.
 
 [[K0186]]
-Fordítsd el a középső alakzatot még egy negyed fordulattal az óramutató járásával megegyező irányba. A két piros karéj így jobbra és alulra kerül; a felső és a bal oldali karéj pedig kék lesz. 
+Fordítsd el a középső alakzatot még egy negyed fordulattal az óramutató járásával megegyező irányba. A két piros karéj így jobbra és alulra kerül; a felső és a bal oldali karéj pedig kék lesz.
 
 [[K0187]]
 Fokozatosan kerekítsd le a sarkokat
 
 [[K0188]]
 A szín és az általános forma változatlan marad, miközben a sarkok minden lépésnél egyre kerekebbé válnak. [[K0189]]
-Folytasd a barna téglalap sarkainak lekerekítését. A megoldás a teljesen lekerekített végű, barna kapszula alakú forma. 
+Folytasd a barna téglalap sarkainak lekerekítését. A megoldás a teljesen lekerekített végű, barna kapszula alakú forma.
 
 [[K0190]]
 Folytasd a kör mozgását.
 
 [[K0191]]
-Minden sorban a zöld kör azonos távolságot tesz meg ugyanabba az irányba: felfelé, lefelé vagy vízszintesen. A mérete változatlan marad. 
+Minden sorban a zöld kör azonos távolságot tesz meg ugyanabba az irányba: felfelé, lefelé vagy vízszintesen. A mérete változatlan marad.
 
 [[K0192]]
-Az utolsó sorban a kör balra mozog a négyzet alsó széle mentén. Még egy ugyanekkora lépés után a bal alsó sarokba kerül. 
+Az utolsó sorban a kör balra mozog a négyzet alsó széle mentén. Még egy ugyanekkora lépés után a bal alsó sarokba kerül.
 
 [[K0193]]
 Forgasd el a teljes pontmintázatot.
 
 [[K0194]]
-Minden lépésnél forgasd el a négyzetet és az összes pontot 45 fokkal az óramutató járásával ellentétes irányba. A négyzet rombusz alakot vesz fel, majd újra négyzetté válik. 
+Minden lépésnél forgasd el a négyzetet és az összes pontot 45 fokkal az óramutató járásával ellentétes irányba. A négyzet rombusz alakot vesz fel, majd újra négyzetté válik.
 
 [[K0195]]
-Forgasd el a középső, zöld-fekete rombuszt további 45 fokkal az óramutató járásával ellentétes irányba. A zöld és fekete pontok maradjanak az elforgatott helyzetükben. 
+Forgasd el a középső, zöld-fekete rombuszt további 45 fokkal az óramutató járásával ellentétes irányba. A zöld és fekete pontok maradjanak az elforgatott helyzetükben.
 
 [[K0196]]
 Rövidítsd meg az egyes sávokat felülről.
 
 [[K0197]]
-Minden lépésnél az egyes függőleges fekete sávok felső végéből egy rácsegységnyi rész tűnik el. Az alsó végük a legalsó vonalon marad. Amikor egy sáv hossza nullára csökken, a sáv eltűnik. 
+Minden lépésnél az egyes függőleges fekete sávok felső végéből egy rácsegységnyi rész tűnik el. Az alsó végük a legalsó vonalon marad. Amikor egy sáv hossza nullára csökken, a sáv eltűnik.
 
 [[K0198]]
-A középső ábrán egy egy egység hosszú középső sáv és egy két egység hosszú jobb oldali sáv látható. A középső sáv eltűnik, így csak a jobb oldali, egy egység hosszú sáv marad meg. 
+A középső ábrán egy egy egység hosszú középső sáv és egy két egység hosszú jobb oldali sáv látható. A középső sáv eltűnik, így csak a jobb oldali, egy egység hosszú sáv marad meg.
 
 [[K0199]]
 Tükrözd a fekete vonalra.
 
 [[K0200]]
-A középső vonal egy tükörtengely. A színes alakzatot ne egyszerűen elforgasd, hanem tükrözd erre a vonalra. 
+A középső vonal egy tükörtengely. A színes alakzatot ne egyszerűen elforgasd, hanem tükrözd erre a vonalra.
 
 [[K0201]]
-Az utolsó tükörtengely függőleges, ezért a sárga alakzat vízszintesen tükröződik (balról jobbra). A színe és a mérete változatlan marad. 
+Az utolsó tükörtengely függőleges, ezért a sárga alakzat vízszintesen tükröződik (balról jobbra). A színe és a mérete változatlan marad.
 
 [[K0202]]
 Helyezd egymásra az alakzatokat, és használd az első alakzat színét.
 
 [[K0203]]
 Helyezd a két alakzatot egymásra. Tartsd meg az egyesített körvonalat és a látható belső vonalakat, de az eredményt az első alakzat színével színezd ki. [[K0204]]
-Helyezd egymásra a kék, lefelé mutató háromszöget és a sárga hatszöget, majd az így létrejövő alakzatot színezd kékre. A háromszög hatszögből kilógó csúcsai láthatóak maradnak. 
+Helyezd egymásra a kék, lefelé mutató háromszöget és a sárga hatszöget, majd az így létrejövő alakzatot színezd kékre. A háromszög hatszögből kilógó csúcsai láthatóak maradnak.
 
 [[K0205]]
 A zöld szín pontosan egy bemeneti ábrán maradjon meg.
 
 [[K0206]]
-Hasonlítsd össze a két négyzet megfelelő területeit. Egy terület akkor lesz zöld, ha pontosan az egyik bemeneti ábrán zöld. Ha mindkettőn zöld, akkor fehérré válik; ha mindkettőn fehér, akkor fehér marad. 
+Hasonlítsd össze a két négyzet megfelelő területeit. Egy terület akkor lesz zöld, ha pontosan az egyik bemeneti ábrán zöld. Ha mindkettőn zöld, akkor fehérré válik; ha mindkettőn fehér, akkor fehér marad.
 
 [[K0207]]
-Az első négyzet teljes egészében zöld, a másodiknak pedig csak a bal alsó negyede zöld. Ez a közös negyed fehérré válik, a többi három negyed pedig zöld marad. 
+Az első négyzet teljes egészében zöld, a másodiknak pedig csak a bal alsó negyede zöld. Ez a közös negyed fehérré válik, a többi három negyed pedig zöld marad.
 
 [[K0208]]
 Helyezz el egy másolatot minden sarokban.
 
 [[K0209]]
-Helyezd el a kis fekete szimbólum egy-egy másolatát a nagy alakzat minden csúcsánál. A hozzáadott másolatok felveszik a nagy alakzat színét. 
+Helyezd el a kis fekete szimbólum egy-egy másolatát a nagy alakzat minden csúcsánál. A hozzáadott másolatok felveszik a nagy alakzat színét.
 
 [[K0210]]
-A nagy kék rombusznak négy sarka van. Helyezz el egy-egy kék, lefelé mutató háromszöget minden saroknál, a példákban látható elhelyezési szabályt követve. 
+A nagy kék rombusznak négy sarka van. Helyezz el egy-egy kék, lefelé mutató háromszöget minden saroknál, a példákban látható elhelyezési szabályt követve.
 
 [[K0211]]
 Add össze a megfelelő oszlopok magasságát.
 
 [[K0212]]
-Mindhárom vízszintes pozíció esetében add össze az első és a második ábrán látható fekete oszlopok magasságát. A mérést a közös alsó vonaltól felfelé végezd. 
+Mindhárom vízszintes pozíció esetében add össze az első és a második ábrán látható fekete oszlopok magasságát. A mérést a közös alsó vonaltól felfelé végezd.
 
 [[K0213]]
-Egyik bemeneti ábrán sincs bal oldali oszlop. A két középső oszlop összeadódva egy teljes magasságú oszlopot alkot, míg a jobb oldali oszlopok egy rövidebb oszlopot eredményeznek. A végeredményben csak ezek a középső és jobb oldali oszlopok szerepelnek. 
+Egyik bemeneti ábrán sincs bal oldali oszlop. A két középső oszlop összeadódva egy teljes magasságú oszlopot alkot, míg a jobb oldali oszlopok egy rövidebb oszlopot eredményeznek. A végeredményben csak ezek a középső és jobb oldali oszlopok szerepelnek.
 
 [[K0214]]
 Forgasd el, és váltogasd a színeket.

@@ -1,121 +1,121 @@
 [[K0173]]
-Ogni posizione in ciascuna riga di esempio contiene lo stesso cerchio blu. La forma, il colore e le dimensioni rimangono invariati. 
+Ogni posizione in ciascuna riga di esempio contiene lo stesso cerchio blu. La forma, il colore e le dimensioni rimangono invariati.
 
 [[K0174]]
-L'ultima riga contiene già due cerchi blu identici. Un ulteriore cerchio blu, anch'esso identico, la completa. 
+L'ultima riga contiene già due cerchi blu identici. Un ulteriore cerchio blu, anch'esso identico, la completa.
 
 [[K0175]]
 Aggiungi un contorno interno
 
 [[K0176]]
-Spostandosi verso destra, viene aggiunto all'interno un contorno più piccolo della stessa forma. La forma esterna e il suo colore rimangono invariati. 
+Spostandosi verso destra, viene aggiunto all'interno un contorno più piccolo della stessa forma. La forma esterna e il suo colore rimangono invariati.
 
 [[K0177]]
-Il triangolo verde presenta un triangolo interno nella posizione centrale. Aggiungine un altro, più piccolo, per ottenere la soluzione. 
+Il triangolo verde presenta un triangolo interno nella posizione centrale. Aggiungine un altro, più piccolo, per ottenere la soluzione.
 
 [[K0178]]
 Usa la prima forma come sagoma per un ritaglio
 
 [[K0179]]
-La forma nera, presente nella prima posizione, viene sottratta dal centro del quadrato colorato che si trova nella seconda posizione. Il foro risultante è bianco. 
+La forma nera, presente nella prima posizione, viene sottratta dal centro del quadrato colorato che si trova nella seconda posizione. Il foro risultante è bianco.
 
 [[K0180]]
-Il quadrato nero crea un foro quadrato all'interno del quadrato verde. Scegli il quadrato verde che presenta l'apertura quadrata bianca. 
+Il quadrato nero crea un foro quadrato all'interno del quadrato verde. Scegli il quadrato verde che presenta l'apertura quadrata bianca.
 
 [[K0181]]
 Combina i colori della parte superiore e di quella inferiore
 
 [[K0182]]
-Il risultato è composto dalla metà superiore, presa dalla prima capsula, e dalla metà inferiore, presa dalla seconda capsula. 
+Il risultato è composto dalla metà superiore, presa dalla prima capsula, e dalla metà inferiore, presa dalla seconda capsula.
 
 [[K0183]]
-La prima capsula è bianca e la seconda è blu; di conseguenza, il risultato appare bianco nella parte superiore e blu in quella inferiore. 
+La prima capsula è bianca e la seconda è blu; di conseguenza, il risultato appare bianco nella parte superiore e blu in quella inferiore.
 
 [[K0184]]
 Ruota i lobi colorati
 
 [[K0185]]
-A ogni passaggio, l'intera figura a quattro lobi ruota di 90 gradi in senso orario. Tutti i lobi, rossi e blu, si spostano insieme alla figura. 
+A ogni passaggio, l'intera figura a quattro lobi ruota di 90 gradi in senso orario. Tutti i lobi, rossi e blu, si spostano insieme alla figura.
 
 [[K0186]]
-Ruota ulteriormente la figura centrale di un quarto di giro in senso orario. I due lobi rossi si vengono a trovare a destra e in basso, mentre i lobi in alto e a sinistra sono blu. 
+Ruota ulteriormente la figura centrale di un quarto di giro in senso orario. I due lobi rossi si vengono a trovare a destra e in basso, mentre i lobi in alto e a sinistra sono blu.
 
 [[K0187]]
 Arrotonda progressivamente gli angoli
 
 [[K0188]]
 Il colore e la forma generale rimangono invariati, mentre gli angoli diventano sempre più arrotondati a ogni passaggio. [[K0189]]
-Continua ad arrotondare gli angoli del rettangolo marrone. Il risultato è la figura a forma di capsula marrone con le estremità completamente arrotondate. 
+Continua ad arrotondare gli angoli del rettangolo marrone. Il risultato è la figura a forma di capsula marrone con le estremità completamente arrotondate.
 
 [[K0190]]
 Prosegui il movimento del cerchio.
 
 [[K0191]]
-In ogni riga, il cerchio verde si sposta della stessa distanza e nella stessa direzione: verso l'alto, verso il basso o in orizzontale. Le sue dimensioni rimangono invariate. 
+In ogni riga, il cerchio verde si sposta della stessa distanza e nella stessa direzione: verso l'alto, verso il basso o in orizzontale. Le sue dimensioni rimangono invariate.
 
 [[K0192]]
-Nell'ultima riga, il cerchio si sposta verso sinistra lungo il lato inferiore del quadrato. Un ulteriore spostamento della stessa entità lo porta nell'angolo in basso a sinistra. 
+Nell'ultima riga, il cerchio si sposta verso sinistra lungo il lato inferiore del quadrato. Un ulteriore spostamento della stessa entità lo porta nell'angolo in basso a sinistra.
 
 [[K0193]]
 Ruota l'intera configurazione di punti.
 
 [[K0194]]
-Ruota il quadrato e tutti i punti in esso contenuti di 45 gradi in senso antiorario a ogni passaggio. Il quadrato assume la forma di un rombo, per poi tornare a essere un quadrato. 
+Ruota il quadrato e tutti i punti in esso contenuti di 45 gradi in senso antiorario a ogni passaggio. Il quadrato assume la forma di un rombo, per poi tornare a essere un quadrato.
 
 [[K0195]]
-Ruota il rombo verde-nero centrale di altri 45 gradi in senso antiorario. Mantieni i punti verdi e neri nelle posizioni ottenute dopo la rotazione. 
+Ruota il rombo verde-nero centrale di altri 45 gradi in senso antiorario. Mantieni i punti verdi e neri nelle posizioni ottenute dopo la rotazione.
 
 [[K0196]]
 Accorcia ciascuna barra partendo dall'alto.
 
 [[K0197]]
-A ogni passaggio, ogni barra nera verticale perde un'unità (un intervallo della griglia) dall'estremità superiore. L'estremità inferiore rimane fissa sulla linea di base. Quando la lunghezza di una barra si riduce a zero, la barra scompare. 
+A ogni passaggio, ogni barra nera verticale perde un'unità (un intervallo della griglia) dall'estremità superiore. L'estremità inferiore rimane fissa sulla linea di base. Quando la lunghezza di una barra si riduce a zero, la barra scompare.
 
 [[K0198]]
-Nell'immagine centrale, la barra al centro è lunga un'unità, mentre quella a destra è lunga due unità. La barra centrale scompare, lasciando solo la barra a destra, che ha una lunghezza di un'unità. 
+Nell'immagine centrale, la barra al centro è lunga un'unità, mentre quella a destra è lunga due unità. La barra centrale scompare, lasciando solo la barra a destra, che ha una lunghezza di un'unità.
 
 [[K0199]]
 Esegui una riflessione rispetto alla linea nera.
 
 [[K0200]]
-La linea centrale funge da asse di simmetria (specchio). Rifletti la figura colorata rispetto a tale linea, anziché limitarti a ruotarla. 
+La linea centrale funge da asse di simmetria (specchio). Rifletti la figura colorata rispetto a tale linea, anziché limitarti a ruotarla.
 
 [[K0201]]
-L'ultimo asse di simmetria è verticale; pertanto, la figura gialla viene ribaltata da sinistra a destra. Il suo colore e le sue dimensioni rimangono invariati. 
+L'ultimo asse di simmetria è verticale; pertanto, la figura gialla viene ribaltata da sinistra a destra. Il suo colore e le sue dimensioni rimangono invariati.
 
 [[K0202]]
 Sovrapponi le figure e utilizza il colore della prima.
 
 [[K0203]]
 Sovrapponi le due figure. Mantieni la sagoma complessiva e i contorni visibili, ma colora il risultato utilizzando il colore della prima figura. [[K0204]]
-Sovrapponi il triangolo blu rivolto verso il basso e l'esagono giallo, quindi usa il colore blu per la figura risultante. Le punte del triangolo che sporgono dall'esagono rimangono visibili. 
+Sovrapponi il triangolo blu rivolto verso il basso e l'esagono giallo, quindi usa il colore blu per la figura risultante. Le punte del triangolo che sporgono dall'esagono rimangono visibili.
 
 [[K0205]]
 Mantieni il colore verde in esattamente uno degli input.
 
 [[K0206]]
-Confronta le aree corrispondenti dei due quadrati. Un'area diventa verde se è verde in esattamente uno degli input. Se un'area è verde in entrambi, il colore si annulla diventando bianco; se è bianca in entrambi, rimane bianca. 
+Confronta le aree corrispondenti dei due quadrati. Un'area diventa verde se è verde in esattamente uno degli input. Se un'area è verde in entrambi, il colore si annulla diventando bianco; se è bianca in entrambi, rimane bianca.
 
 [[K0207]]
-Il primo quadrato è interamente verde, mentre nel secondo solo il quarto in basso a sinistra è verde. Tale porzione, presente in entrambi, diventa bianca; gli altri tre quarti rimangono verdi. 
+Il primo quadrato è interamente verde, mentre nel secondo solo il quarto in basso a sinistra è verde. Tale porzione, presente in entrambi, diventa bianca; gli altri tre quarti rimangono verdi.
 
 [[K0208]]
 Aggiungi una copia in corrispondenza di ogni angolo.
 
 [[K0209]]
-Posiziona una copia del piccolo simbolo nero su ogni vertice della figura grande. Le copie aggiunte assumono il colore della figura grande. 
+Posiziona una copia del piccolo simbolo nero su ogni vertice della figura grande. Le copie aggiunte assumono il colore della figura grande.
 
 [[K0210]]
-Il grande rombo blu presenta quattro angoli. Aggiungi un triangolo blu rivolto verso il basso in corrispondenza di ciascun angolo, seguendo la stessa regola di posizionamento mostrata negli esempi. 
+Il grande rombo blu presenta quattro angoli. Aggiungi un triangolo blu rivolto verso il basso in corrispondenza di ciascun angolo, seguendo la stessa regola di posizionamento mostrata negli esempi.
 
 [[K0211]]
 Somma le altezze delle barre corrispondenti.
 
 [[K0212]]
-Per ciascuna delle tre posizioni orizzontali, somma l'altezza della barra nera presente nella prima immagine a quella della barra corrispondente nella seconda. L'altezza va misurata verso l'alto a partire dalla linea di base comune. 
+Per ciascuna delle tre posizioni orizzontali, somma l'altezza della barra nera presente nella prima immagine a quella della barra corrispondente nella seconda. L'altezza va misurata verso l'alto a partire dalla linea di base comune.
 
 [[K0213]]
-In nessuno dei due input è presente una barra a sinistra. Le due barre centrali, sommate, formano una barra a tutta altezza, mentre le barre a destra ne formano una più corta. Il risultato finale comprende solo queste barre centrali e di destra. 
+In nessuno dei due input è presente una barra a sinistra. Le due barre centrali, sommate, formano una barra a tutta altezza, mentre le barre a destra ne formano una più corta. Il risultato finale comprende solo queste barre centrali e di destra.
 
 [[K0214]]
 Ruota e alterna i colori.

@@ -1,96 +1,96 @@
 [[K0215]]
-Ruota la forma di 45 gradi in senso antiorario a ogni passaggio. Il suo colore alterna, quindi la terza immagine riprende il colore della prima. 
+Ruota la forma di 45 gradi in senso antiorario a ogni passaggio. Il suo colore alterna, quindi la terza immagine riprende il colore della prima.
 
 [[K0216]]
-Ruota la forma bianca centrale di altri 45 gradi in senso antiorario e ripristina il colore scuro presente nella prima immagine. Seleziona la forma curva scura con tale orientamento. 
+Ruota la forma bianca centrale di altri 45 gradi in senso antiorario e ripristina il colore scuro presente nella prima immagine. Seleziona la forma curva scura con tale orientamento.
 
 [[K0217]]
 Combina i cerchi neri.
 
 [[K0218]]
-Nel risultato, un cerchio è nero se, in almeno uno degli input, il cerchio corrispondente è nero. È bianco solo se, in entrambi gli input, il cerchio corrispondente è bianco. 
+Nel risultato, un cerchio è nero se, in almeno uno degli input, il cerchio corrispondente è nero. È bianco solo se, in entrambi gli input, il cerchio corrispondente è bianco.
 
 [[K0219]]
-Il primo input fornisce il cerchio nero in basso a destra; il secondo fornisce i due cerchi neri in alto. I cerchi al centro e in basso a sinistra rimangono bianchi. 
+Il primo input fornisce il cerchio nero in basso a destra; il secondo fornisce i due cerchi neri in alto. I cerchi al centro e in basso a sinistra rimangono bianchi.
 
 [[K0220]]
 Espandi verso le celle adiacenti.
 
 [[K0221]]
-A ogni passaggio, ogni cella blu rimane blu e colora anche le celle immediatamente adiacenti (sopra, sotto, a sinistra e a destra). L'espansione si arresta ai bordi della griglia. 
+A ogni passaggio, ogni cella blu rimane blu e colora anche le celle immediatamente adiacenti (sopra, sotto, a sinistra e a destra). L'espansione si arresta ai bordi della griglia.
 
 [[K0222]]
-Applica la stessa espansione di una cella all'area blu centrale. Le celle adiacenti appena raggiunte diventano blu; quelle più distanti rimangono parte del motivo a scacchiera grigio e nero. 
+Applica la stessa espansione di una cella all'area blu centrale. Le celle adiacenti appena raggiunte diventano blu; quelle più distanti rimangono parte del motivo a scacchiera grigio e nero.
 
 [[K0223]]
 Elimina le posizioni marroni coincidenti.
 
 [[K0224]]
-Confronta le due sequenze di cinque celle, posizione per posizione. Nel risultato, una cella è marrone se è marrone in uno solo dei due input. Se la cella è marrone in entrambi gli input, le due posizioni si annullano diventando blu. 
+Confronta le due sequenze di cinque celle, posizione per posizione. Nel risultato, una cella è marrone se è marrone in uno solo dei due input. Se la cella è marrone in entrambi gli input, le due posizioni si annullano diventando blu.
 
 [[K0225]]
-Il colore marrone è presente nelle posizioni 2, 3, 4 e 5 della prima sequenza, e nelle posizioni 2, 3 e 5 della seconda. Solo la posizione 4 rimane marrone. 
+Il colore marrone è presente nelle posizioni 2, 3, 4 e 5 della prima sequenza, e nelle posizioni 2, 3 e 5 della seconda. Solo la posizione 4 rimane marrone.
 
 [[K0226]]
 Rimuovi i punti rossi più vicini tra loro.
 
 [[K0227]]
 Individua la distanza minima tra due punti rossi qualsiasi. Rimuovi tutti i punti rossi che fanno parte di una coppia a tale distanza. Ricalcola la distanza minima per il passaggio successivo. [[K0228]]
-Nell'immagine centrale, i tre punti rossi più in basso fanno parte delle coppie diagonali più vicine. Rimuovendoli, rimane solo il punto rosso nella riga superiore, quarta colonna. 
+Nell'immagine centrale, i tre punti rossi più in basso fanno parte delle coppie diagonali più vicine. Rimuovendoli, rimane solo il punto rosso nella riga superiore, quarta colonna.
 
 [[K0229]]
 Sposta i sei colori lungo un ciclo.
 
 [[K0230]]
-Leggi la colonna di sinistra dall'alto verso il basso, poi quella di destra. Fai avanzare ogni colore di una posizione lungo questo ciclo di sei elementi; il colore in basso a destra passa in alto a sinistra. 
+Leggi la colonna di sinistra dall'alto verso il basso, poi quella di destra. Fai avanzare ogni colore di una posizione lungo questo ciclo di sei elementi; il colore in basso a destra passa in alto a sinistra.
 
 [[K0231]]
-Partendo dall'immagine centrale, il cerchio marrone in basso a destra si sposta in alto a sinistra. Le colonne finali risultano: marrone/rosso/rosso a sinistra e nero/marrone/blu a destra. 
+Partendo dall'immagine centrale, il cerchio marrone in basso a destra si sposta in alto a sinistra. Le colonne finali risultano: marrone/rosso/rosso a sinistra e nero/marrone/blu a destra.
 
 [[K0232]]
 Sposta il bianco e il nero in direzioni opposte.
 
 [[K0233]]
-A ogni passaggio, i cerchi bianchi si spostano di un angolo in senso orario, mentre quelli neri si spostano di un angolo in senso antiorario. Il colore grigio indica che un cerchio bianco e uno nero occupano lo stesso angolo; separali prima di procedere con lo spostamento successivo. 
+A ogni passaggio, i cerchi bianchi si spostano di un angolo in senso orario, mentre quelli neri si spostano di un angolo in senso antiorario. Il colore grigio indica che un cerchio bianco e uno nero occupano lo stesso angolo; separali prima di procedere con lo spostamento successivo.
 
 [[K0234]]
-Nell'immagine centrale, i cerchi bianchi si trovano nei due angoli a sinistra, mentre quelli neri occupano i due angoli a sinistra e quello in basso a destra. Dopo lo spostamento, si ottiene un cerchio bianco in alto a sinistra, uno grigio in alto a destra e cerchi neri in entrambi gli angoli inferiori. 
+Nell'immagine centrale, i cerchi bianchi si trovano nei due angoli a sinistra, mentre quelli neri occupano i due angoli a sinistra e quello in basso a destra. Dopo lo spostamento, si ottiene un cerchio bianco in alto a sinistra, uno grigio in alto a destra e cerchi neri in entrambi gli angoli inferiori.
 
 [[K0235]]
 Estendi ogni tratto orizzontale.
 
 [[K0236]]
-A ogni passaggio, estendi ciascun tratto orizzontale nero verso le capsule immediatamente adiacenti su entrambi i lati. I tratti già esistenti rimangono, mentre l'estensione si interrompe in corrispondenza dei bordi esterni. 
+A ogni passaggio, estendi ciascun tratto orizzontale nero verso le capsule immediatamente adiacenti su entrambi i lati. I tratti già esistenti rimangono, mentre l'estensione si interrompe in corrispondenza dei bordi esterni.
 
 [[K0237]]
-Estendi i tratti presenti nell'immagine centrale di un'ulteriore capsula verso sinistra e verso destra. Mantieni distinte le diverse altezze dei tratti; la soluzione mostra le linee orizzontali risultanti, che ora si estendono attraverso le quattro capsule. 
+Estendi i tratti presenti nell'immagine centrale di un'ulteriore capsula verso sinistra e verso destra. Mantieni distinte le diverse altezze dei tratti; la soluzione mostra le linee orizzontali risultanti, che ora si estendono attraverso le quattro capsule.
 
 [[K0238]]
 Espandi il reticolo triangolare.
 
 [[K0239]]
-Considera il disegno come un insieme di piccoli triangoli. A ogni passaggio, aggiungi un piccolo triangolo appena oltre ogni lato esposto, mantenendo i triangoli già presenti e le linee che li collegano. 
+Considera il disegno come un insieme di piccoli triangoli. A ogni passaggio, aggiungi un piccolo triangolo appena oltre ogni lato esposto, mantenendo i triangoli già presenti e le linee che li collegano.
 
 [[K0240]]
-Espandi il gruppo verde centrale aggiungendo un ulteriore strato di triangoli adiacenti. La soluzione mantiene la stessa griglia triangolare e aggiunge i triangoli lungo i suoi bordi esterni. 
+Espandi il gruppo verde centrale aggiungendo un ulteriore strato di triangoli adiacenti. La soluzione mantiene la stessa griglia triangolare e aggiunge i triangoli lungo i suoi bordi esterni.
 
 [[K0241]]
 Rimuovi i vertici contrassegnati
 
 [[K0242]]
-I punti marroni indicano i vertici del poligono nero da rimuovere. Collega i vertici rimanenti seguendo il loro ordine originale. Se rimangono due vertici, si ottiene un segmento. 
+I punti marroni indicano i vertici del poligono nero da rimuovere. Collega i vertici rimanenti seguendo il loro ordine originale. Se rimangono due vertici, si ottiene un segmento.
 
 [[K0243]]
-Rimuovi i vertici in alto e a sinistra, contrassegnati dai punti marroni. Rimangono solo i due vertici in basso; la soluzione è quindi il breve segmento orizzontale situato verso la parte in basso a destra. 
+Rimuovi i vertici in alto e a sinistra, contrassegnati dai punti marroni. Rimangono solo i due vertici in basso; la soluzione è quindi il breve segmento orizzontale situato verso la parte in basso a destra.
 
 [[K0244]]
 Inverti lo stato dei punti in corrispondenza degli angoli del contorno
 
 [[K0245]]
-Abbina i vertici del contorno nero alle posizioni della griglia 3x3. In corrispondenza di ogni vertice, rimuovi il punto blu se è presente, oppure aggiungine uno se la posizione è vuota. Le altre posizioni rimangono invariate. 
+Abbina i vertici del contorno nero alle posizioni della griglia 3x3. In corrispondenza di ogni vertice, rimuovi il punto blu se è presente, oppure aggiungine uno se la posizione è vuota. Le altre posizioni rimangono invariate.
 
 [[K0246]]
-Inverti lo stato dei punti nei quattro angoli del contorno inclinato. Il risultato presenta punti blu in alto a sinistra e in alto al centro, al centro e al centro a destra, oltre che in tutte e tre le posizioni in basso. 
+Inverti lo stato dei punti nei quattro angoli del contorno inclinato. Il risultato presenta punti blu in alto a sinistra e in alto al centro, al centro e al centro a destra, oltre che in tutte e tre le posizioni in basso.
 
 [[K0247]]
 Rimuovi il blocco contrassegnato e quelli adiacenti

@@ -5,10 +5,10 @@ Compartir prueba en Facebook
 CI estimado
 
 [[K0073]]
-Solo por diversión. Una puntuación aproximada; no es una medición de CI validada profesionalmente. 
+Solo por diversión. Una puntuación aproximada; no es una medición de CI validada profesionalmente.
 
 [[K0074]]
-Tu prueba está incompleta. Se muestran tus respuestas correctas, pero para obtener una estimación del CI es necesario completar las 36 preguntas. 
+Tu prueba está incompleta. Se muestran tus respuestas correctas, pero para obtener una estimación del CI es necesario completar las 36 preguntas.
 
 [[K0075]]
 No disponible
@@ -17,7 +17,7 @@ No disponible
 Prueba gratuita de razonamiento visual | IQ Champion
 
 [[K0077]]
-36 acertijos de razonamiento visual. Participa en un desafío gratuito de 40 minutos y explora tus resultados. 
+36 acertijos de razonamiento visual. Participa en un desafío gratuito de 40 minutos y explora tus resultados.
 
 [[K0078]]
 Respondida
@@ -50,13 +50,13 @@ Sobre la prueba
 Un desafío de razonamiento visual
 
 [[K0088]]
-Identifica el patrón. 
+Identifica el patrón.
 
 [[K0089]]
-Encuentra la pieza que falta. 
+Encuentra la pieza que falta.
 
 [[K0090]]
-36 acertijos visuales y una estimación de tu CI. Solo por diversión. 
+36 acertijos visuales y una estimación de tu CI. Solo por diversión.
 
 [[K0091]]
 Acertijos
@@ -71,23 +71,23 @@ Costo
 Gratis
 
 [[K0095]]
-No es necesario crear una cuenta. El cronómetro comienza al iniciar. 
+No es necesario crear una cuenta. El cronómetro comienza al iniciar.
 
 [[K0096]]
 Cómo funciona la prueba
 
 [[K0097]]
-Elige el icono que completa cada patrón. 
+Elige el icono que completa cada patrón.
 
 [[K0098]]
-Puedes saltarte las preguntas difíciles y volver a ellas usando la vista general. 
+Puedes saltarte las preguntas difíciles y volver a ellas usando la vista general.
 
 [[K0099]]
 Revisa o modifica tus respuestas antes de finalizar. [[K0100]]
-Tus respuestas y la hora de inicio se guardan en este navegador. Si recargas la página, se mantiene el plazo original. 
+Tus respuestas y la hora de inicio se guardan en este navegador. Si recargas la página, se mantiene el plazo original.
 
 [[K0101]]
-El temporizador de 40 minutos sigue corriendo aunque la página esté cerrada. Las preguntas sin responder cuentan como incorrectas. 
+El temporizador de 40 minutos sigue corriendo aunque la página esté cerrada. Las preguntas sin responder cuentan como incorrectas.
 
 [[K0102]]
 Sobre tu resultado
@@ -96,13 +96,13 @@ Sobre tu resultado
 Tu coeficiente intelectual (CI) estimado se basa en tu posición entre
 
 [[K0104]]
-los intentos realizados anteriormente. 
+los intentos realizados anteriormente.
 
 [[K0105]]
-La comparación tiene en cuenta los intentos con una duración de entre un minuto y 40 minutos. No ha sido validada mediante una prueba de CI oficial ni con una muestra representativa de la población. 
+La comparación tiene en cuenta los intentos con una duración de entre un minuto y 40 minutos. No ha sido validada mediante una prueba de CI oficial ni con una muestra representativa de la población.
 
 [[K0126]]
-Una prueba por diversión. Tu CI estimado es una aproximación, no una puntuación de CI validada profesionalmente. 
+Una prueba por diversión. Tu CI estimado es una aproximación, no una puntuación de CI validada profesionalmente.
 
 [[K0107]]
 Iniciar prueba de 40 minutos
@@ -165,16 +165,16 @@ Revisar y finalizar
 Instrucciones y progreso guardado
 
 [[K0127]]
-Selecciona una respuesta para pasar a la siguiente pregunta sin responder. Puedes omitir preguntas, volver atrás y modificar tus respuestas antes de finalizar. 
+Selecciona una respuesta para pasar a la siguiente pregunta sin responder. Puedes omitir preguntas, volver atrás y modificar tus respuestas antes de finalizar.
 
 [[K0128]]
-Las respuestas se guardan automáticamente en este navegador. Si recargas la página, retomarás la prueba en la misma pregunta; el temporizador seguirá en marcha. 
+Las respuestas se guardan automáticamente en este navegador. Si recargas la página, retomarás la prueba en la misma pregunta; el temporizador seguirá en marcha.
 
 [[K0129]]
 Cuando estés listo
 
 [[K0130]]
-¿Finalizar esta prueba? 
+¿Finalizar esta prueba?
 
 [[K0131]]
 Seguir trabajando
@@ -201,7 +201,7 @@ Sobre esta prueba
 Cómo interpretar este resultado
 
 [[K0139]]
-Tu percentil, calculado a partir de los intentos realizados anteriormente, se convierte a la escala de cociente intelectual (CI) habitual: con un punto medio de 100 y una desviación estándar de 15. Esto asume que el grupo de comparación es representativo de la población general, algo que no ha sido confirmado. 
+Tu percentil, calculado a partir de los intentos realizados anteriormente, se convierte a la escala de cociente intelectual (CI) habitual: con un punto medio de 100 y una desviación estándar de 15. Esto asume que el grupo de comparación es representativo de la población general, algo que no ha sido confirmado.
 
 [[K0140]]
 Explicación de tus respuestas
@@ -256,13 +256,13 @@ Comentarios y contacto
 Envía tus comentarios o contáctanos
 
 [[K0158]]
-Correcto. Tu respuesta coincide con la respuesta correcta. 
+Correcto. Tu respuesta coincide con la respuesta correcta.
 
 [[K0159]]
-Incorrecto. Tu respuesta difiere de la respuesta correcta. 
+Incorrecto. Tu respuesta difiere de la respuesta correcta.
 
 [[K0160]]
-Sin responder. No se envió ninguna respuesta para esta pregunta. 
+Sin responder. No se envió ninguna respuesta para esta pregunta.
 
 [[K0161]]
 No se ha enviado ninguna respuesta
@@ -274,28 +274,28 @@ Tu respuesta enviada
 Icono faltante
 
 [[K0164]]
-Todas las preguntas han sido respondidas. Aún puedes revisar y modificar tus respuestas, y luego finalizar la prueba. 
+Todas las preguntas han sido respondidas. Aún puedes revisar y modificar tus respuestas, y luego finalizar la prueba.
 
 [[K0165]]
-Quedan cinco minutos o menos. 
+Quedan cinco minutos o menos.
 
 [[K0166]]
-Se ha agotado el tiempo. Tus respuestas han sido evaluadas. 
+Se ha agotado el tiempo. Tus respuestas han sido evaluadas.
 
 [[K0167]]
-Prueba completada. 
+Prueba completada.
 
 [[K0168]]
-Comparación no disponible. 
+Comparación no disponible.
 
 [[K0169]]
-Este navegador no pudo guardar tu intento. Mantén esta página abierta: recargarla podría provocar la pérdida de tu progreso o restaurar respuestas anteriores. 
+Este navegador no pudo guardar tu intento. Mantén esta página abierta: recargarla podría provocar la pérdida de tu progreso o restaurar respuestas anteriores.
 
 [[K0170]]
-El guardado local no está disponible en este navegador. Mantén esta página abierta para evitar perder tu intento. 
+El guardado local no está disponible en este navegador. Mantén esta página abierta para evitar perder tu intento.
 
 [[K0171]]
-No se pudo restaurar el intento guardado. Inicia una nueva prueba cuando estés listo. 
+No se pudo restaurar el intento guardado. Inicia una nueva prueba cuando estés listo.
 
 [[K0172]]
 Mantén la figura sin cambios

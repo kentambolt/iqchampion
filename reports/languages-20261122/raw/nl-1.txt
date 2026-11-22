@@ -5,10 +5,10 @@ Deel de test op Facebook
 Geschat IQ
 
 [[K0073]]
-Gewoon voor de lol. Een indicatieve score, geen professioneel gevalideerde IQ-meting. 
+Gewoon voor de lol. Een indicatieve score, geen professioneel gevalideerde IQ-meting.
 
 [[K0074]]
-Je test is onvolledig. Je juiste antwoorden worden getoond, maar voor een IQ-schatting zijn alle 36 antwoorden nodig. 
+Je test is onvolledig. Je juiste antwoorden worden getoond, maar voor een IQ-schatting zijn alle 36 antwoorden nodig.
 
 [[K0075]]
 Niet beschikbaar
@@ -17,7 +17,7 @@ Niet beschikbaar
 Gratis test voor visueel redeneren | IQ Champion
 
 [[K0077]]
-36 puzzels voor visueel redeneren. Ga de uitdaging aan – het duurt 40 minuten en is volledig gratis – en bekijk je resultaten. 
+36 puzzels voor visueel redeneren. Ga de uitdaging aan – het duurt 40 minuten en is volledig gratis – en bekijk je resultaten.
 
 [[K0078]]
 Beantwoord
@@ -50,13 +50,13 @@ Over de test
 Een uitdaging op het gebied van visueel redeneren
 
 [[K0088]]
-Ontdek het patroon. 
+Ontdek het patroon.
 
 [[K0089]]
-Vind het ontbrekende onderdeel. 
+Vind het ontbrekende onderdeel.
 
 [[K0090]]
-36 visuele puzzels en een geschatte IQ-score. Gewoon voor de lol. 
+36 visuele puzzels en een geschatte IQ-score. Gewoon voor de lol.
 
 [[K0091]]
 Puzzels
@@ -71,23 +71,23 @@ Kosten
 Gratis
 
 [[K0095]]
-Geen account vereist. De timer start zodra je begint. 
+Geen account vereist. De timer start zodra je begint.
 
 [[K0096]]
 Hoe de test werkt
 
 [[K0097]]
-Kies het icoon dat elk patroon compleet maakt. 
+Kies het icoon dat elk patroon compleet maakt.
 
 [[K0098]]
-Sla lastige vragen over en keer er later via het overzicht naar terug. 
+Sla lastige vragen over en keer er later via het overzicht naar terug.
 
 [[K0099]]
 Controleer of wijzig je antwoorden voordat je de test afrondt. [[K0100]]
-Je antwoorden en starttijd worden in deze browser opgeslagen. Als je de pagina opnieuw laadt, blijft je oorspronkelijke deadline behouden. 
+Je antwoorden en starttijd worden in deze browser opgeslagen. Als je de pagina opnieuw laadt, blijft je oorspronkelijke deadline behouden.
 
 [[K0101]]
-De timer van 40 minuten loopt door, ook als de pagina gesloten is. Onbeantwoorde vragen worden als fout gerekend. 
+De timer van 40 minuten loopt door, ook als de pagina gesloten is. Onbeantwoorde vragen worden als fout gerekend.
 
 [[K0102]]
 Over je resultaat
@@ -96,13 +96,13 @@ Over je resultaat
 Je geschatte IQ is gebaseerd op je positie ten opzichte van
 
 [[K0104]]
-eerdere pogingen. 
+eerdere pogingen.
 
 [[K0105]]
-De vergelijking is gebaseerd op pogingen die tussen de één en 40 minuten duurden. Deze is niet gevalideerd aan de hand van een officiële IQ-test of een representatieve steekproef uit de bevolking. 
+De vergelijking is gebaseerd op pogingen die tussen de één en 40 minuten duurden. Deze is niet gevalideerd aan de hand van een officiële IQ-test of een representatieve steekproef uit de bevolking.
 
 [[K0106]]
-Een test voor de lol. Je geschatte IQ is een benadering, geen professioneel gevalideerde IQ-score. 
+Een test voor de lol. Je geschatte IQ is een benadering, geen professioneel gevalideerde IQ-score.
 
 [[K0107]]
 Start de test van 40 minuten
@@ -165,16 +165,16 @@ Controleren en afronden
 Instructies & opgeslagen voortgang
 
 [[K0127]]
-Kies een antwoord om naar de volgende onbeantwoorde vraag te gaan. Je kunt vragen overslaan, teruggaan en antwoorden wijzigen voordat je de test afrondt. 
+Kies een antwoord om naar de volgende onbeantwoorde vraag te gaan. Je kunt vragen overslaan, teruggaan en antwoorden wijzigen voordat je de test afrondt.
 
 [[K0128]]
-Antwoorden worden automatisch opgeslagen in deze browser. Als je de pagina opnieuw laadt, ga je verder bij dezelfde vraag; de timer blijft doorlopen. 
+Antwoorden worden automatisch opgeslagen in deze browser. Als je de pagina opnieuw laadt, ga je verder bij dezelfde vraag; de timer blijft doorlopen.
 
 [[K0129]]
 Klaar wanneer jij er klaar voor bent
 
 [[K0130]]
-Deze test afronden? 
+Deze test afronden?
 
 [[K0131]]
 Verder werken
@@ -256,13 +256,13 @@ Feedback & contact
 Stuur feedback of neem contact met ons op
 
 [[K0158]]
-Correct. Je antwoord komt overeen met het juiste antwoord. 
+Correct. Je antwoord komt overeen met het juiste antwoord.
 
 [[K0159]]
-Incorrect. Je antwoord verschilt van het juiste antwoord. 
+Incorrect. Je antwoord verschilt van het juiste antwoord.
 
 [[K0160]]
-Niet beantwoord. Er is geen antwoord ingediend voor deze vraag. 
+Niet beantwoord. Er is geen antwoord ingediend voor deze vraag.
 
 [[K0161]]
 Geen antwoord ingediend
@@ -274,28 +274,28 @@ Jouw ingediende antwoord
 Ontbrekend icoon
 
 [[K0164]]
-Alle vragen zijn beantwoord. Je kunt je antwoorden nog bekijken en wijzigen, en vervolgens de toets afronden. 
+Alle vragen zijn beantwoord. Je kunt je antwoorden nog bekijken en wijzigen, en vervolgens de toets afronden.
 
 [[K0165]]
-Nog vijf minuten of minder resterend. 
+Nog vijf minuten of minder resterend.
 
 [[K0166]]
-De tijd is om. Je antwoorden zijn beoordeeld. 
+De tijd is om. Je antwoorden zijn beoordeeld.
 
 [[K0167]]
-Toets voltooid. 
+Toets voltooid.
 
 [[K0168]]
-Vergelijking niet beschikbaar. 
+Vergelijking niet beschikbaar.
 
 [[K0169]]
-Deze browser kon je poging niet opslaan. Houd deze pagina geopend: bij het opnieuw laden kan voortgang verloren gaan of kunnen oudere antwoorden worden teruggezet. 
+Deze browser kon je poging niet opslaan. Houd deze pagina geopend: bij het opnieuw laden kan voortgang verloren gaan of kunnen oudere antwoorden worden teruggezet.
 
 [[K0170]]
-Lokaal opslaan is niet mogelijk in deze browser. Houd deze pagina geopend om te voorkomen dat je poging verloren gaat. 
+Lokaal opslaan is niet mogelijk in deze browser. Houd deze pagina geopend om te voorkomen dat je poging verloren gaat.
 
 [[K0171]]
-De opgeslagen poging kon niet worden hersteld. Start een nieuwe toets wanneer je er klaar voor bent. 
+De opgeslagen poging kon niet worden hersteld. Start een nieuwe toets wanneer je er klaar voor bent.
 
 [[K0172]]
 Laat de figuur ongewijzigd

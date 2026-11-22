@@ -5,10 +5,10 @@ Dalīties ar testu Facebook
 Aptuvenais IQ
 
 [[K0073]]
-Tikai izklaidei. Aptuvens rezultāts; tas nav profesionāli apstiprināts IQ mērījums. 
+Tikai izklaidei. Aptuvens rezultāts; tas nav profesionāli apstiprināts IQ mērījums.
 
 [[K0074]]
-Tests nav pabeigts. Tiek parādītas jūsu pareizās atbildes, taču IQ novērtējumam ir nepieciešamas visas 36 atbildes. 
+Tests nav pabeigts. Tiek parādītas jūsu pareizās atbildes, taču IQ novērtējumam ir nepieciešamas visas 36 atbildes.
 
 [[K0075]]
 Nav pieejams
@@ -17,7 +17,7 @@ Nav pieejams
 Bezmaksas vizuālās domāšanas tests | IQ Champion
 
 [[K0077]]
-36 vizuālās domāšanas uzdevumi. Izmēģiniet bezmaksas 40 minūšu izaicinājumu un uzziniet savus rezultātus. 
+36 vizuālās domāšanas uzdevumi. Izmēģiniet bezmaksas 40 minūšu izaicinājumu un uzziniet savus rezultātus.
 
 [[K0078]]
 Atbildēts
@@ -50,13 +50,13 @@ Par testu
 Vizuālās domāšanas izaicinājums
 
 [[K0088]]
-Atklājiet likumsakarību. 
+Atklājiet likumsakarību.
 
 [[K0089]]
-Atrodiet trūkstošo elementu. 
+Atrodiet trūkstošo elementu.
 
 [[K0090]]
-36 vizuālie uzdevumi un aptuvenais IQ rādītājs. Tikai izklaidei. 
+36 vizuālie uzdevumi un aptuvenais IQ rādītājs. Tikai izklaidei.
 
 [[K0091]]
 Uzdevumi
@@ -71,23 +71,23 @@ Izmaksas
 Bezmaksas
 
 [[K0095]]
-Nav nepieciešams konts. Laika atskaite sākas brīdī, kad uzsākat testu. 
+Nav nepieciešams konts. Laika atskaite sākas brīdī, kad uzsākat testu.
 
 [[K0096]]
 Kā darbojas tests
 
 [[K0097]]
-Izvēlieties ikonu, kas papildina katru likumsakarību. 
+Izvēlieties ikonu, kas papildina katru likumsakarību.
 
 [[K0098]]
-Izlaidiet sarežģītus jautājumus un atgriezieties pie tiem, izmantojot pārskatu. 
+Izlaidiet sarežģītus jautājumus un atgriezieties pie tiem, izmantojot pārskatu.
 
 [[K0099]]
 Pārskatiet vai mainiet savas atbildes, pirms pabeidzat testu. [[K0100]]
-Jūsu atbildes un sākuma laiks tiek saglabāti šajā pārlūkprogrammā. Pārlādējot lapu, sākotnējais termiņš paliek nemainīgs. 
+Jūsu atbildes un sākuma laiks tiek saglabāti šajā pārlūkprogrammā. Pārlādējot lapu, sākotnējais termiņš paliek nemainīgs.
 
 [[K0101]]
-40 minūšu taimeris turpina darboties arī tad, ja lapa ir aizvērta. Uz neatbildētajiem jautājumiem tiek skatīts kā uz nepareizām atbildēm. 
+40 minūšu taimeris turpina darboties arī tad, ja lapa ir aizvērta. Uz neatbildētajiem jautājumiem tiek skatīts kā uz nepareizām atbildēm.
 
 [[K0102]]
 Par jūsu rezultātu
@@ -96,13 +96,13 @@ Par jūsu rezultātu
 Jūsu aptuvenais IQ tiek noteikts, balstoties uz jūsu vietu starp
 
 [[K0104]]
-iepriekšējiem mēģinājumiem. 
+iepriekšējiem mēģinājumiem.
 
 [[K0105]]
-Salīdzinājumā tiek ņemti vērā mēģinājumi, kas ilguši no vienas līdz 40 minūtēm. Rezultāts nav salīdzināts vai apstiprināts, izmantojot oficiālu IQ testu vai reprezentatīvu iedzīvotāju izlasi. 
+Salīdzinājumā tiek ņemti vērā mēģinājumi, kas ilguši no vienas līdz 40 minūtēm. Rezultāts nav salīdzināts vai apstiprināts, izmantojot oficiālu IQ testu vai reprezentatīvu iedzīvotāju izlasi.
 
 [[K0106]]
-Tests izklaidei. Jūsu aptuvenais IQ ir tikai aptuvens rādītājs, nevis profesionāli apstiprināts IQ novērtējums. 
+Tests izklaidei. Jūsu aptuvenais IQ ir tikai aptuvens rādītājs, nevis profesionāli apstiprināts IQ novērtējums.
 
 [[K0107]]
 Sākt 40 minūšu testu
@@ -165,16 +165,16 @@ Pārskatīt un pabeigt
 Instrukcijas un saglabātais progress
 
 [[K0127]]
-Izvēlieties atbildi, lai pārietu uz nākamo neatbildēto jautājumu. Pirms testa pabeigšanas varat izlaist jautājumus, atgriezties pie tiem un mainīt atbildes. 
+Izvēlieties atbildi, lai pārietu uz nākamo neatbildēto jautājumu. Pirms testa pabeigšanas varat izlaist jautājumus, atgriezties pie tiem un mainīt atbildes.
 
 [[K0128]]
-Šajā pārlūkprogrammā atbildes tiek saglabātas automātiski. Pārlādējot lapu, tiks atvērts tas pats jautājums; taimeris turpinās darboties. 
+Šajā pārlūkprogrammā atbildes tiek saglabātas automātiski. Pārlādējot lapu, tiks atvērts tas pats jautājums; taimeris turpinās darboties.
 
 [[K0129]]
 Sākam, kad esat gatavs
 
 [[K0130]]
-Pabeigt testu? 
+Pabeigt testu?
 
 [[K0131]]
 Turpināt darbu
@@ -201,7 +201,7 @@ Par šo testu
 Kā interpretēt šo rezultātu
 
 [[K0139]]
-Jūsu procentile (vieta starp iepriekšējiem rezultātiem) ir pārveidota atbilstoši ierastajai IQ skalai: vidējais rādītājs ir 100, bet standarta novirze — 15. Tas balstās uz pieņēmumu, ka salīdzināmā grupa atspoguļo visu iedzīvotāju kopumu, taču tas nav apstiprināts. 
+Jūsu procentile (vieta starp iepriekšējiem rezultātiem) ir pārveidota atbilstoši ierastajai IQ skalai: vidējais rādītājs ir 100, bet standarta novirze — 15. Tas balstās uz pieņēmumu, ka salīdzināmā grupa atspoguļo visu iedzīvotāju kopumu, taču tas nav apstiprināts.
 
 [[K0140]]
 Jūsu atbilžu skaidrojums
@@ -256,13 +256,13 @@ Atsauksmes un kontakti
 Sniedziet atsauksmes vai sazinieties ar mums
 
 [[K0158]]
-Pareizi. Jūsu atbilde sakrīt ar pareizo atbildi. 
+Pareizi. Jūsu atbilde sakrīt ar pareizo atbildi.
 
 [[K0159]]
-Nepareizi. Jūsu atbilde atšķiras no pareizās atbildes. 
+Nepareizi. Jūsu atbilde atšķiras no pareizās atbildes.
 
 [[K0160]]
-Nav atbildēts. Uz šo jautājumu atbilde netika sniegta. 
+Nav atbildēts. Uz šo jautājumu atbilde netika sniegta.
 
 [[K0161]]
 Atbilde nav sniegta
@@ -274,28 +274,28 @@ Jūsu sniegtā atbilde
 Trūkst ikonas
 
 [[K0164]]
-Uz visiem jautājumiem ir atbildēts. Jūs joprojām varat pārskatīt un mainīt atbildes, un pēc tam pabeigt testu. 
+Uz visiem jautājumiem ir atbildēts. Jūs joprojām varat pārskatīt un mainīt atbildes, un pēc tam pabeigt testu.
 
 [[K0165]]
-Atlikušas piecas minūtes vai mazāk. 
+Atlikušas piecas minūtes vai mazāk.
 
 [[K0166]]
-Laiks ir beidzies. Jūsu atbildes ir novērtētas. 
+Laiks ir beidzies. Jūsu atbildes ir novērtētas.
 
 [[K0167]]
-Tests pabeigts. 
+Tests pabeigts.
 
 [[K0168]]
-Salīdzināšana nav pieejama. 
+Salīdzināšana nav pieejama.
 
 [[K0169]]
-Šī pārlūkprogramma nevarēja saglabāt jūsu mēģinājumu. Atstājiet šo lapu atvērtu: pārlādējot lapu, var tikt zaudēts progress vai atjaunotas vecākas atbildes. 
+Šī pārlūkprogramma nevarēja saglabāt jūsu mēģinājumu. Atstājiet šo lapu atvērtu: pārlādējot lapu, var tikt zaudēts progress vai atjaunotas vecākas atbildes.
 
 [[K0170]]
-Šajā pārlūkprogrammā nav pieejama saglabāšana lokālajā atmiņā. Atstājiet šo lapu atvērtu, lai nezaudētu savu mēģinājumu. 
+Šajā pārlūkprogrammā nav pieejama saglabāšana lokālajā atmiņā. Atstājiet šo lapu atvērtu, lai nezaudētu savu mēģinājumu.
 
 [[K0171]]
-Saglabāto mēģinājumu neizdevās atjaunot. Sāciet jaunu testu, kad esat gatavs. 
+Saglabāto mēģinājumu neizdevās atjaunot. Sāciet jaunu testu, kad esat gatavs.
 
 [[K0172]]
 Atstājiet attēlu nemainītu

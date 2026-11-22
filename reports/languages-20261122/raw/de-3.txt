@@ -1,96 +1,96 @@
 [[K0215]]
-Drehe die Form bei jedem Schritt um 45 Grad gegen den Uhrzeigersinn. Ihre Farbe wechselt ab, sodass das dritte Bild wieder die Farbe des ersten Bildes aufweist. 
+Drehe die Form bei jedem Schritt um 45 Grad gegen den Uhrzeigersinn. Ihre Farbe wechselt ab, sodass das dritte Bild wieder die Farbe des ersten Bildes aufweist.
 
 [[K0216]]
-Drehe die weiße mittlere Form um weitere 45 Grad gegen den Uhrzeigersinn und stelle die dunkle Farbe aus dem ersten Bild wieder her. Wähle die dunkle, gekrümmte Form in dieser Ausrichtung aus. 
+Drehe die weiße mittlere Form um weitere 45 Grad gegen den Uhrzeigersinn und stelle die dunkle Farbe aus dem ersten Bild wieder her. Wähle die dunkle, gekrümmte Form in dieser Ausrichtung aus.
 
 [[K0217]]
 Kombiniere die schwarzen Kreise.
 
 [[K0218]]
-Ein Kreis ist im Ergebnis dann schwarz, wenn der entsprechende Kreis in einem der beiden Eingabebilder schwarz ist. Er ist nur dann weiß, wenn beide Eingabebilder an dieser Stelle einen weißen Kreis aufweisen. 
+Ein Kreis ist im Ergebnis dann schwarz, wenn der entsprechende Kreis in einem der beiden Eingabebilder schwarz ist. Er ist nur dann weiß, wenn beide Eingabebilder an dieser Stelle einen weißen Kreis aufweisen.
 
 [[K0219]]
-Das erste Eingabebild liefert den schwarzen Kreis unten rechts; das zweite liefert die beiden schwarzen Kreise oben. Die Kreise in der Mitte und unten links bleiben weiß. 
+Das erste Eingabebild liefert den schwarzen Kreis unten rechts; das zweite liefert die beiden schwarzen Kreise oben. Die Kreise in der Mitte und unten links bleiben weiß.
 
 [[K0220]]
 Erweitere auf benachbarte Zellen.
 
 [[K0221]]
-Bei jedem Schritt bleibt jede blaue Zelle blau und färbt zudem ihre unmittelbaren Nachbarn – oben, unten, links und rechts – ebenfalls blau. Die Ausbreitung endet am Rand des Rasters. 
+Bei jedem Schritt bleibt jede blaue Zelle blau und färbt zudem ihre unmittelbaren Nachbarn – oben, unten, links und rechts – ebenfalls blau. Die Ausbreitung endet am Rand des Rasters.
 
 [[K0222]]
-Wende dieselbe Erweiterung um eine Zelle auf den mittleren blauen Bereich an. Neu erreichte seitliche Nachbarn werden blau; weiter entfernte Zellen bleiben im grau-schwarzen Schachbrettmuster. 
+Wende dieselbe Erweiterung um eine Zelle auf den mittleren blauen Bereich an. Neu erreichte seitliche Nachbarn werden blau; weiter entfernte Zellen bleiben im grau-schwarzen Schachbrettmuster.
 
 [[K0223]]
 Hebe übereinstimmende braune Positionen auf.
 
 [[K0224]]
-Vergleiche die beiden aus fünf Zellen bestehenden Streifen Position für Position. Eine Zelle ist im Ergebnis dann braun, wenn sie in genau einem der beiden Eingabebilder braun ist. Übereinstimmende braune Zellen heben sich auf und werden blau. 
+Vergleiche die beiden aus fünf Zellen bestehenden Streifen Position für Position. Eine Zelle ist im Ergebnis dann braun, wenn sie in genau einem der beiden Eingabebilder braun ist. Übereinstimmende braune Zellen heben sich auf und werden blau.
 
 [[K0225]]
-Im ersten Streifen sind die Positionen 2, 3, 4 und 5 braun, im zweiten die Positionen 2, 3 und 5. Nur Position 4 bleibt braun. 
+Im ersten Streifen sind die Positionen 2, 3, 4 und 5 braun, im zweiten die Positionen 2, 3 und 5. Nur Position 4 bleibt braun.
 
 [[K0226]]
 Entferne die am nächsten beieinander liegenden roten Punkte.
 
 [[K0227]]
 Bestimme den geringsten Abstand zwischen zwei beliebigen roten Punkten. Entferne alle roten Punkte, die Teil eines Paares mit diesem Abstand sind. Berechne für den nächsten Schritt den neuen geringsten Abstand. [[K0228]]
-Im mittleren Bild sind die drei unteren roten Punkte Teil der am engsten beieinander liegenden diagonalen Paare. Entfernt man diese, bleibt nur der rote Punkt in der obersten Reihe, vierte Spalte, übrig. 
+Im mittleren Bild sind die drei unteren roten Punkte Teil der am engsten beieinander liegenden diagonalen Paare. Entfernt man diese, bleibt nur der rote Punkt in der obersten Reihe, vierte Spalte, übrig.
 
 [[K0229]]
 Verschiebe die sechs Farben entlang eines Zyklus.
 
 [[K0230]]
-Lies die linke Stapelreihe von oben nach unten, dann die rechte Stapelreihe. Verschiebe jede Farbe um eine Position in diesem Sechs-Positionen-Zyklus weiter; die Farbe ganz unten rechts rückt an die oberste linke Position. 
+Lies die linke Stapelreihe von oben nach unten, dann die rechte Stapelreihe. Verschiebe jede Farbe um eine Position in diesem Sechs-Positionen-Zyklus weiter; die Farbe ganz unten rechts rückt an die oberste linke Position.
 
 [[K0231]]
-Ausgehend vom mittleren Bild rückt der braune Kreis ganz unten rechts an die oberste linke Position. Die resultierenden Stapel sind: Braun/Rot/Rot auf der linken Seite und Schwarz/Braun/Blau auf der rechten Seite. 
+Ausgehend vom mittleren Bild rückt der braune Kreis ganz unten rechts an die oberste linke Position. Die resultierenden Stapel sind: Braun/Rot/Rot auf der linken Seite und Schwarz/Braun/Blau auf der rechten Seite.
 
 [[K0232]]
 Bewege Weiß und Schwarz in entgegengesetzte Richtungen.
 
 [[K0233]]
-Bei jedem Schritt bewegen sich weiße Kreise um eine Ecke im Uhrzeigersinn, schwarze Kreise um eine Ecke gegen den Uhrzeigersinn. „Grau“ bedeutet, dass ein weißer und ein schwarzer Kreis dieselbe Ecke besetzen; trenne sie, bevor der nächste Schritt erfolgt. 
+Bei jedem Schritt bewegen sich weiße Kreise um eine Ecke im Uhrzeigersinn, schwarze Kreise um eine Ecke gegen den Uhrzeigersinn. „Grau“ bedeutet, dass ein weißer und ein schwarzer Kreis dieselbe Ecke besetzen; trenne sie, bevor der nächste Schritt erfolgt.
 
 [[K0234]]
-Im mittleren Bild befinden sich weiße Kreise an den beiden linken Ecken, schwarze Kreise an den beiden linken Ecken sowie unten rechts. Nach der Verschiebung befindet sich ein weißer Kreis oben links, ein grauer Kreis oben rechts und schwarze Kreise an den beiden unteren Ecken. 
+Im mittleren Bild befinden sich weiße Kreise an den beiden linken Ecken, schwarze Kreise an den beiden linken Ecken sowie unten rechts. Nach der Verschiebung befindet sich ein weißer Kreis oben links, ein grauer Kreis oben rechts und schwarze Kreise an den beiden unteren Ecken.
 
 [[K0235]]
 Verlängere jeden horizontalen Strich.
 
 [[K0236]]
-Verlängere bei jedem Schritt jeden schwarzen horizontalen Strich in die jeweils benachbarten Kapseln auf beiden Seiten. Vorhandene Striche bleiben erhalten; die Striche enden an den äußeren Rändern. 
+Verlängere bei jedem Schritt jeden schwarzen horizontalen Strich in die jeweils benachbarten Kapseln auf beiden Seiten. Vorhandene Striche bleiben erhalten; die Striche enden an den äußeren Rändern.
 
 [[K0237]]
-Verlängere die Striche im mittleren Bild um jeweils eine weitere Kapsel nach links und rechts. Unterschiedliche Höhen der Striche bleiben dabei gewahrt; die Lösung zeigt die resultierenden längeren horizontalen Linien, die sich über die vier Kapseln erstrecken. 
+Verlängere die Striche im mittleren Bild um jeweils eine weitere Kapsel nach links und rechts. Unterschiedliche Höhen der Striche bleiben dabei gewahrt; die Lösung zeigt die resultierenden längeren horizontalen Linien, die sich über die vier Kapseln erstrecken.
 
 [[K0238]]
 Erweitere das Dreiecksgitter.
 
 [[K0239]]
-Betrachte die Zeichnung als eine Ansammlung kleiner Dreiecke. Füge bei jedem Schritt ein kleines Dreieck direkt außerhalb jeder freien Kante hinzu, wobei die bereits vorhandenen Dreiecke und deren Verbindungslinien erhalten bleiben. 
+Betrachte die Zeichnung als eine Ansammlung kleiner Dreiecke. Füge bei jedem Schritt ein kleines Dreieck direkt außerhalb jeder freien Kante hinzu, wobei die bereits vorhandenen Dreiecke und deren Verbindungslinien erhalten bleiben.
 
 [[K0240]]
-Erweitere die mittlere grüne Ansammlung um eine weitere Schicht benachbarter Dreiecke. Die Lösung behält das ursprüngliche Dreiecksgitter bei und fügt an den Außenkanten weitere Dreiecke hinzu. 
+Erweitere die mittlere grüne Ansammlung um eine weitere Schicht benachbarter Dreiecke. Die Lösung behält das ursprüngliche Dreiecksgitter bei und fügt an den Außenkanten weitere Dreiecke hinzu.
 
 [[K0241]]
 Entferne die markierten Eckpunkte.
 
 [[K0242]]
-Die braunen Punkte markieren Eckpunkte des schwarzen Polygons, die entfernt werden sollen. Verbinde die verbleibenden Eckpunkte in ihrer ursprünglichen Reihenfolge. Wenn zwei Eckpunkte übrig bleiben, ergibt sich eine Strecke. 
+Die braunen Punkte markieren Eckpunkte des schwarzen Polygons, die entfernt werden sollen. Verbinde die verbleibenden Eckpunkte in ihrer ursprünglichen Reihenfolge. Wenn zwei Eckpunkte übrig bleiben, ergibt sich eine Strecke.
 
 [[K0243]]
-Entferne die oberen und linken Eckpunkte, die mit braunen Punkten markiert sind. Es bleiben nur die beiden unteren Eckpunkte übrig; die Lösung ist also die kurze horizontale Linie unten rechts. 
+Entferne die oberen und linken Eckpunkte, die mit braunen Punkten markiert sind. Es bleiben nur die beiden unteren Eckpunkte übrig; die Lösung ist also die kurze horizontale Linie unten rechts.
 
 [[K0244]]
 Ändere den Zustand der Punkte an den Ecken der Umrisslinie.
 
 [[K0245]]
-Ordne die Eckpunkte der schwarzen Umrisslinie den Positionen im 3×3-Punkteraster zu. Entferne an jedem Eckpunkt einen vorhandenen blauen Punkt – oder füge einen hinzu, falls die Position leer ist. Alle anderen Positionen bleiben unverändert. 
+Ordne die Eckpunkte der schwarzen Umrisslinie den Positionen im 3×3-Punkteraster zu. Entferne an jedem Eckpunkt einen vorhandenen blauen Punkt – oder füge einen hinzu, falls die Position leer ist. Alle anderen Positionen bleiben unverändert.
 
 [[K0246]]
-Ändere den Zustand der vier Eckpunkte der schrägen Umrisslinie. Das Ergebnis zeigt blaue Punkte oben links, oben in der Mitte, in der Mitte (sowohl mittig als auch rechts) sowie an allen drei unteren Positionen. 
+Ändere den Zustand der vier Eckpunkte der schrägen Umrisslinie. Das Ergebnis zeigt blaue Punkte oben links, oben in der Mitte, in der Mitte (sowohl mittig als auch rechts) sowie an allen drei unteren Positionen.
 
 [[K0247]]
 Entferne den markierten Stein sowie dessen Nachbarsteine.

@@ -1,121 +1,121 @@
 [[K0173]]
-Chaque emplacement, dans chacune des lignes d'exemple, contient le même cercle bleu. Ni la forme, ni la couleur, ni la taille ne changent. 
+Chaque emplacement, dans chacune des lignes d'exemple, contient le même cercle bleu. Ni la forme, ni la couleur, ni la taille ne changent.
 
 [[K0174]]
-La dernière ligne contient déjà deux cercles bleus identiques. Un troisième cercle bleu, identique aux autres, vient la compléter. 
+La dernière ligne contient déjà deux cercles bleus identiques. Un troisième cercle bleu, identique aux autres, vient la compléter.
 
 [[K0175]]
 Ajouter une forme imbriquée
 
 [[K0176]]
-En se déplaçant vers la droite, une forme plus petite — identique à la précédente — vient s'insérer à l'intérieur de celle-ci. La forme extérieure et sa couleur restent inchangées. 
+En se déplaçant vers la droite, une forme plus petite — identique à la précédente — vient s'insérer à l'intérieur de celle-ci. La forme extérieure et sa couleur restent inchangées.
 
 [[K0177]]
-Le triangle vert comporte un triangle intérieur en son centre. Ajoutez-en un second, plus petit, pour obtenir la réponse. 
+Le triangle vert comporte un triangle intérieur en son centre. Ajoutez-en un second, plus petit, pour obtenir la réponse.
 
 [[K0178]]
 Utiliser la première forme comme un emporte-pièce
 
 [[K0179]]
-La forme noire, située en première position, est retirée du centre du carré coloré placé en deuxième position. L'ouverture ainsi créée est blanche. 
+La forme noire, située en première position, est retirée du centre du carré coloré placé en deuxième position. L'ouverture ainsi créée est blanche.
 
 [[K0180]]
-Le carré noir crée une ouverture carrée dans le carré vert. Choisissez le carré vert présentant une ouverture carrée blanche. 
+Le carré noir crée une ouverture carrée dans le carré vert. Choisissez le carré vert présentant une ouverture carrée blanche.
 
 [[K0181]]
 Combiner les couleurs du haut et du bas
 
 [[K0182]]
-Le résultat est composé de la moitié supérieure de la première capsule et de la moitié inférieure de la seconde. 
+Le résultat est composé de la moitié supérieure de la première capsule et de la moitié inférieure de la seconde.
 
 [[K0183]]
-La première capsule étant blanche et la seconde bleue, le résultat est blanc dans sa partie supérieure et bleu dans sa partie inférieure. 
+La première capsule étant blanche et la seconde bleue, le résultat est blanc dans sa partie supérieure et bleu dans sa partie inférieure.
 
 [[K0184]]
 Faire pivoter les lobes colorés
 
 [[K0185]]
-À chaque étape, la figure à quatre lobes pivote de 90 degrés dans le sens des aiguilles d'une montre. Tous les lobes rouges et bleus suivent ce mouvement. 
+À chaque étape, la figure à quatre lobes pivote de 90 degrés dans le sens des aiguilles d'une montre. Tous les lobes rouges et bleus suivent ce mouvement.
 
 [[K0186]]
-Faites pivoter la figure centrale d'un quart de tour supplémentaire dans le sens des aiguilles d'une montre. Les deux lobes rouges se retrouvent alors sur la droite et en bas ; les lobes situés en haut et à gauche sont bleus. 
+Faites pivoter la figure centrale d'un quart de tour supplémentaire dans le sens des aiguilles d'une montre. Les deux lobes rouges se retrouvent alors sur la droite et en bas ; les lobes situés en haut et à gauche sont bleus.
 
 [[K0187]]
 Arrondir progressivement les angles
 
 [[K0188]]
 La couleur et la forme générale restent identiques, tandis que les angles deviennent de plus en plus arrondis à chaque étape. [[K0189]]
-Continuez à arrondir les angles du rectangle brun. Le résultat est la forme oblongue brune aux extrémités entièrement arrondies. 
+Continuez à arrondir les angles du rectangle brun. Le résultat est la forme oblongue brune aux extrémités entièrement arrondies.
 
 [[K0190]]
 Poursuivez le déplacement du cercle.
 
 [[K0191]]
-Dans chaque ligne, le cercle vert se déplace de la même distance et dans la même direction : vers le haut, vers le bas ou horizontalement. Sa taille reste inchangée. 
+Dans chaque ligne, le cercle vert se déplace de la même distance et dans la même direction : vers le haut, vers le bas ou horizontalement. Sa taille reste inchangée.
 
 [[K0192]]
-Dans la dernière ligne, le cercle se déplace vers la gauche le long du bas du carré. Un pas supplémentaire de même amplitude le place en bas à gauche. 
+Dans la dernière ligne, le cercle se déplace vers la gauche le long du bas du carré. Un pas supplémentaire de même amplitude le place en bas à gauche.
 
 [[K0193]]
 Faites pivoter l'ensemble de la configuration des points.
 
 [[K0194]]
-À chaque étape, faites pivoter le carré et tous les points qu'il contient de 45 degrés dans le sens inverse des aiguilles d'une montre. Le carré devient un losange, puis redevient un carré. 
+À chaque étape, faites pivoter le carré et tous les points qu'il contient de 45 degrés dans le sens inverse des aiguilles d'une montre. Le carré devient un losange, puis redevient un carré.
 
 [[K0195]]
-Faites pivoter le losange central (vert et noir) de 45 degrés supplémentaires dans le sens inverse des aiguilles d'une montre. Maintenez les points verts et noirs dans leurs nouvelles positions après rotation. 
+Faites pivoter le losange central (vert et noir) de 45 degrés supplémentaires dans le sens inverse des aiguilles d'une montre. Maintenez les points verts et noirs dans leurs nouvelles positions après rotation.
 
 [[K0196]]
 Raccourcissez chaque barre par le haut.
 
 [[K0197]]
-À chaque étape, chaque barre noire verticale perd une unité de longueur par son extrémité supérieure. Son extrémité inférieure reste fixée sur la ligne du bas. Une barre disparaît lorsque sa longueur atteint zéro. 
+À chaque étape, chaque barre noire verticale perd une unité de longueur par son extrémité supérieure. Son extrémité inférieure reste fixée sur la ligne du bas. Une barre disparaît lorsque sa longueur atteint zéro.
 
 [[K0198]]
-L'image centrale présente une barre médiane d'une unité de longueur et une barre à droite de deux unités. La barre médiane disparaît, ne laissant qu'une barre d'une unité sur la droite. 
+L'image centrale présente une barre médiane d'une unité de longueur et une barre à droite de deux unités. La barre médiane disparaît, ne laissant qu'une barre d'une unité sur la droite.
 
 [[K0199]]
 Effectuez une réflexion par rapport à la ligne noire.
 
 [[K0200]]
-La ligne centrale sert d'axe de symétrie (miroir). Appliquez une réflexion à la forme colorée par rapport à cette ligne, plutôt qu'une simple rotation. 
+La ligne centrale sert d'axe de symétrie (miroir). Appliquez une réflexion à la forme colorée par rapport à cette ligne, plutôt qu'une simple rotation.
 
 [[K0201]]
-Le dernier axe de symétrie est vertical ; la forme jaune est donc inversée horizontalement (de gauche à droite). Sa couleur et sa taille restent inchangées. 
+Le dernier axe de symétrie est vertical ; la forme jaune est donc inversée horizontalement (de gauche à droite). Sa couleur et sa taille restent inchangées.
 
 [[K0202]]
 Superposez les formes et utilisez la couleur de la première.
 
 [[K0203]]
 Superposez les deux formes. Conservez la silhouette globale ainsi que les contours visibles, mais appliquez à l'ensemble la couleur de la première forme. [[K0204]]
-Superposez le triangle bleu pointé vers le bas et l'hexagone jaune, puis utilisez la couleur bleue pour la figure obtenue. Les pointes du triangle qui dépassent restent visibles autour de l'hexagone. 
+Superposez le triangle bleu pointé vers le bas et l'hexagone jaune, puis utilisez la couleur bleue pour la figure obtenue. Les pointes du triangle qui dépassent restent visibles autour de l'hexagone.
 
 [[K0205]]
 Conservez la couleur verte dans exactement l'une des figures d'entrée.
 
 [[K0206]]
-Comparez les zones correspondantes des deux carrés. Une zone est verte si elle est verte dans exactement l'une des figures d'entrée. Si une zone est verte dans les deux, elle devient blanche ; si elle est blanche dans les deux, elle reste blanche. 
+Comparez les zones correspondantes des deux carrés. Une zone est verte si elle est verte dans exactement l'une des figures d'entrée. Si une zone est verte dans les deux, elle devient blanche ; si elle est blanche dans les deux, elle reste blanche.
 
 [[K0207]]
-Le premier carré est entièrement vert, tandis que le second n'a qu'un quart inférieur gauche vert. Ce quart commun devient blanc ; les trois autres quarts restent verts. 
+Le premier carré est entièrement vert, tandis que le second n'a qu'un quart inférieur gauche vert. Ce quart commun devient blanc ; les trois autres quarts restent verts.
 
 [[K0208]]
 Ajoutez une copie à chaque coin.
 
 [[K0209]]
-Placez une copie du petit symbole noir à chaque sommet de la grande forme. Les copies ajoutées prennent la couleur de la grande forme. 
+Placez une copie du petit symbole noir à chaque sommet de la grande forme. Les copies ajoutées prennent la couleur de la grande forme.
 
 [[K0210]]
-Le grand losange bleu possède quatre coins. Ajoutez un triangle bleu pointé vers le bas à chaque coin, en suivant la même règle de placement que dans les exemples. 
+Le grand losange bleu possède quatre coins. Ajoutez un triangle bleu pointé vers le bas à chaque coin, en suivant la même règle de placement que dans les exemples.
 
 [[K0211]]
 Additionnez les hauteurs des barres correspondantes.
 
 [[K0212]]
-Pour chacune des trois positions horizontales, additionnez la hauteur de la barre noire de la première image à celle de la seconde. Mesurez la hauteur vers le haut, à partir de la ligne de base commune. 
+Pour chacune des trois positions horizontales, additionnez la hauteur de la barre noire de la première image à celle de la seconde. Mesurez la hauteur vers le haut, à partir de la ligne de base commune.
 
 [[K0213]]
-Aucune des figures d'entrée ne comporte de barre à gauche. Les deux barres centrales, une fois additionnées, forment une barre de hauteur maximale, tandis que les barres de droite forment une barre plus courte. Le résultat ne contient que ces barres centrales et de droite. 
+Aucune des figures d'entrée ne comporte de barre à gauche. Les deux barres centrales, une fois additionnées, forment une barre de hauteur maximale, tandis que les barres de droite forment une barre plus courte. Le résultat ne contient que ces barres centrales et de droite.
 
 [[K0214]]
 Effectuez une rotation et alternez les couleurs.

@@ -1,17 +1,17 @@
 [[K0275]]
-Tutti i separatori neri si spostano simultaneamente di una posizione verso destra, a condizione che la posizione successiva contenga una perlina gialla. Un separatore bloccato da un altro separatore rimane fermo. Il bordo destro è collegato a quello sinistro. 
+Tutti i separatori neri si spostano simultaneamente di una posizione verso destra, a condizione che la posizione successiva contenga una perlina gialla. Un separatore bloccato da un altro separatore rimane fermo. Il bordo destro è collegato a quello sinistro.
 
 [[K0276]]
-Esegui un passaggio simultaneo sulla sequenza centrale. La disposizione finale è: separatore, perlina, separatore, perlina, separatore, separatore, perlina. 
+Esegui un passaggio simultaneo sulla sequenza centrale. La disposizione finale è: separatore, perlina, separatore, perlina, separatore, separatore, perlina.
 
 [[K0277]]
 Espandi i colori e conserva il gruppo più numeroso.
 
 [[K0278]]
-Sostituisci ogni pallina colorata con quattro nuove palline dello stesso colore, posizionate rispettivamente sopra, sotto, a sinistra e a destra. Le palline che escono dalla griglia scompaiono. In ogni posizione, mantieni il colore associato al maggior numero di palline in arrivo. In caso di parità tra più colori, lascia la posizione vuota. Più palline dello stesso colore che arrivano nella stessa posizione vengono considerate come un unico elemento colorato. 
+Sostituisci ogni pallina colorata con quattro nuove palline dello stesso colore, posizionate rispettivamente sopra, sotto, a sinistra e a destra. Le palline che escono dalla griglia scompaiono. In ogni posizione, mantieni il colore associato al maggior numero di palline in arrivo. In caso di parità tra più colori, lascia la posizione vuota. Più palline dello stesso colore che arrivano nella stessa posizione vengono considerate come un unico elemento colorato.
 
 [[K0279]]
-Espandendo l'immagine centrale mostrata, si ottiene: verde in alto a destra e alla riga 2, colonna 3; rosso alla riga 2, colonna 1; marrone alla riga 2, colonna 2, alla riga 3, colonna 3, e alla riga 4, colonne 2, 3 e 4. Questi corrispondono esattamente ai colori e alle posizioni indicati nella risposta salvata. 
+Espandendo l'immagine centrale mostrata, si ottiene: verde in alto a destra e alla riga 2, colonna 3; rosso alla riga 2, colonna 1; marrone alla riga 2, colonna 2, alla riga 3, colonna 3, e alla riga 4, colonne 2, 3 e 4. Questi corrispondono esattamente ai colori e alle posizioni indicati nella risposta salvata.
 
 [[K0280]]
 Scegli la lingua
@@ -29,17 +29,17 @@ Nessuna lingua trovata
 Test del QI gratuito per puro divertimento | IQ Champion
 
 [[K0285]]
-Un test gratuito in stile QI per puro divertimento: 36 enigmi visivi, 40 minuti di tempo, salvataggio automatico dei progressi e una stima del proprio QI. Non è richiesto alcun account. 
+Un test gratuito in stile QI per puro divertimento: 36 enigmi visivi, 40 minuti di tempo, salvataggio automatico dei progressi e una stima del proprio QI. Non è richiesto alcun account.
 
 [[K0286]]
-Seleziona la lingua che preferisci. Le tue risposte e il tempo limite originale rimarranno salvati. 
+Seleziona la lingua che preferisci. Le tue risposte e il tempo limite originale rimarranno salvati.
 
 [[K0287]]
 Caricamento lingua in corso…
 
 [[K0288]]
 Impossibile caricare la lingua. Il test e le risposte inserite rimangono invariati. [[K0289]]
-Il riscontro è disponibile in danese e in inglese. 
+Il riscontro è disponibile in danese e in inglese.
 
 [[K0290]]
 Traguardo condiviso
@@ -48,10 +48,10 @@ Traguardo condiviso
 Risultato condiviso
 
 [[K0292]]
-I risultati condivisi sono dichiarati dall'utente. 
+I risultati condivisi sono dichiarati dall'utente.
 
 [[K0293]]
-I traguardi condivisi sono dichiarati dall'utente. Non vengono condivisi età, paese, risposte o profili personali. 
+I traguardi condivisi sono dichiarati dall'utente. Non vengono condivisi età, paese, risposte o profili personali.
 
 [[K0294]]
 Prova tu stesso i 36 enigmi
@@ -60,16 +60,16 @@ Prova tu stesso i 36 enigmi
 Prova tu stesso il test
 
 [[K0296]]
-Una sfida visiva in IQ Champion. Riesci a individuare anche tu lo schema? 
+Una sfida visiva in IQ Champion. Riesci a individuare anche tu lo schema?
 
 [[K0297]]
-Un test visivo gratuito, solo per divertimento. Non si tratta di una misurazione del QI convalidata a livello professionale. 
+Un test visivo gratuito, solo per divertimento. Non si tratta di una misurazione del QI convalidata a livello professionale.
 
 [[K0298]]
 Pagina non trovata
 
 [[K0299]]
-Puoi continuare in un'altra lingua. 
+Puoi continuare in un'altra lingua.
 
 [[K0300]]
 risposto
@@ -84,7 +84,7 @@ corretto
 errato
 
 [[K0304]]
-Intervallo mediano stimato: {0} ({1} risposte corrette fornite entro il tempo limite). 
+Intervallo mediano stimato: {0} ({1} risposte corrette fornite entro il tempo limite).
 
 [[K0305]]
 Domanda {0} · {1}
@@ -96,7 +96,7 @@ Domanda {0} · {1}
 Tempo attivo: {0}
 
 [[K0308]]
-Confronto: {0} tentativi volontari nell'arco di {1} giorni. 
+Confronto: {0} tentativi volontari nell'arco di {1} giorni.
 
 [[K0309]]
 Domanda {0} / {1}
@@ -117,13 +117,13 @@ Domanda {0}, {1}
 Rivedi la domanda {0}, {1}
 
 [[K0315]]
-{0} corrette; {1} errate; {2} senza risposta. 
+{0} corrette; {1} errate; {2} senza risposta.
 
 [[K0316]]
-{0} con risposta; {1} senza risposta. 
+{0} con risposta; {1} senza risposta.
 
 [[K0317]]
-{0} con risposta; {1} senza risposta. Le domande senza risposta vengono conteggiate come errate. Una volta terminato, non è più possibile modificare le risposte. 
+{0} con risposta; {1} senza risposta. Le domande senza risposta vengono conteggiate come errate. Una volta terminato, non è più possibile modificare le risposte.
 
 [[K0318]]
 {0} / {1} corrette
@@ -132,10 +132,10 @@ Rivedi la domanda {0}, {1}
 Percentile rispetto ai partecipanti precedenti: {0}
 
 [[K0320]]
-Partecipanti con un punteggio inferiore: {0}%. Partecipanti con lo stesso punteggio: {1}%. 
+Partecipanti con un punteggio inferiore: {0}%. Partecipanti con lo stesso punteggio: {1}%.
 
 [[K0321]]
-Gruppo di riferimento: {0} tentativi precedenti. Sono inclusi i tentativi con una durata registrata superiore a un minuto e fino a 40 minuti. In caso di parità, viene assegnato il valore centrale del relativo gruppo percentile. Le stime sono arrotondate a numeri interi e visualizzate solo nell'intervallo 55–145; al di fuori di tale intervallo, viene indicato un limite. Si tratta di una conversione di scala e non di una misurazione del QI della popolazione validata in modo indipendente. L'esercizio e i tentativi ripetuti possono influenzare il risultato. Alcune immagini di esempio sono state corrette dopo la raccolta dei dati storici, il che limita la comparabilità. 
+Gruppo di riferimento: {0} tentativi precedenti. Sono inclusi i tentativi con una durata registrata superiore a un minuto e fino a 40 minuti. In caso di parità, viene assegnato il valore centrale del relativo gruppo percentile. Le stime sono arrotondate a numeri interi e visualizzate solo nell'intervallo 55–145; al di fuori di tale intervallo, viene indicato un limite. Si tratta di una conversione di scala e non di una misurazione del QI della popolazione validata in modo indipendente. L'esercizio e i tentativi ripetuti possono influenzare il risultato. Alcune immagini di esempio sono state corrette dopo la raccolta dei dati storici, il che limita la comparabilità.
 
 [[K0322]]
 Il mio QI stimato su IQ Champion: {0}. Solo per divertimento. Provalo: {1}

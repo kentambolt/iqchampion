@@ -1,96 +1,96 @@
 [[K0215]]
-Käännä kuviota 45 astetta vastapäivään jokaisessa vaiheessa. Sen väri vaihtelee, joten kolmannessa kuvassa väri palaa samaksi kuin ensimmäisessä kuvassa. 
+Käännä kuviota 45 astetta vastapäivään jokaisessa vaiheessa. Sen väri vaihtelee, joten kolmannessa kuvassa väri palaa samaksi kuin ensimmäisessä kuvassa.
 
 [[K0216]]
-Käännä valkoista keskikuviota vielä 45 astetta vastapäivään ja palauta ensimmäisessä kuvassa ollut tumma väri. Valitse tumma, kaareva kuvio tässä asennossa. 
+Käännä valkoista keskikuviota vielä 45 astetta vastapäivään ja palauta ensimmäisessä kuvassa ollut tumma väri. Valitse tumma, kaareva kuvio tässä asennossa.
 
 [[K0217]]
 Yhdistä mustat ympyrät.
 
 [[K0218]]
-Ympyrä on lopputuloksessa musta, jos vastaava ympyrä on musta jommassakummassa lähtökuviossa. Se on valkoinen vain, jos molemmissa lähtökuvioissa on kyseisessä kohdassa valkoinen ympyrä. 
+Ympyrä on lopputuloksessa musta, jos vastaava ympyrä on musta jommassakummassa lähtökuviossa. Se on valkoinen vain, jos molemmissa lähtökuvioissa on kyseisessä kohdassa valkoinen ympyrä.
 
 [[K0219]]
-Ensimmäinen lähtökuvio tuo mukanaan oikeassa alakulmassa olevan mustan ympyrän; toinen tuo kaksi yläreunassa olevaa mustaa ympyrää. Keskellä ja vasemmassa alakulmassa olevat ympyrät pysyvät valkoisina. 
+Ensimmäinen lähtökuvio tuo mukanaan oikeassa alakulmassa olevan mustan ympyrän; toinen tuo kaksi yläreunassa olevaa mustaa ympyrää. Keskellä ja vasemmassa alakulmassa olevat ympyrät pysyvät valkoisina.
 
 [[K0220]]
 Laajenna viereisiin ruutuihin.
 
 [[K0221]]
-Jokaisessa vaiheessa jokainen sininen ruutu pysyy sinisenä ja värjää myös välittömät naapurinsa ylä-, ala-, vasemmalla ja oikealla puolella. Laajeneminen pysähtyy ruudukon reunaan. 
+Jokaisessa vaiheessa jokainen sininen ruutu pysyy sinisenä ja värjää myös välittömät naapurinsa ylä-, ala-, vasemmalla ja oikealla puolella. Laajeneminen pysähtyy ruudukon reunaan.
 
 [[K0222]]
-Tee samanlainen yhden ruudun laajennus keskellä olevalle siniselle alueelle. Uudet sivusuuntaiset naapurit muuttuvat sinisiksi; kauempana olevat ruudut pysyvät harmaa-mustassa ruutukuviossa. 
+Tee samanlainen yhden ruudun laajennus keskellä olevalle siniselle alueelle. Uudet sivusuuntaiset naapurit muuttuvat sinisiksi; kauempana olevat ruudut pysyvät harmaa-mustassa ruutukuviossa.
 
 [[K0223]]
 Poista toisiaan vastaavat ruskeat kohdat.
 
 [[K0224]]
-Vertaa kahta viiden ruudun jonoa kohta kohdalta. Ruutu on lopputuloksessa ruskea, jos täsmälleen toisessa lähtökuviossa on kyseisessä kohdassa ruskea väri. Toisiaan vastaavat ruskeat ruudut muuttuvat sinisiksi. 
+Vertaa kahta viiden ruudun jonoa kohta kohdalta. Ruutu on lopputuloksessa ruskea, jos täsmälleen toisessa lähtökuviossa on kyseisessä kohdassa ruskea väri. Toisiaan vastaavat ruskeat ruudut muuttuvat sinisiksi.
 
 [[K0225]]
-Ensimmäisessä jonossa ruskeaa väriä on kohdissa 2, 3, 4 ja 5, ja toisessa jonossa kohdissa 2, 3 ja 5. Vain kohta 4 jää ruskeaksi. 
+Ensimmäisessä jonossa ruskeaa väriä on kohdissa 2, 3, 4 ja 5, ja toisessa jonossa kohdissa 2, 3 ja 5. Vain kohta 4 jää ruskeaksi.
 
 [[K0226]]
 Poista lähimmät punaiset pisteet.
 
 [[K0227]]
 Etsi pienin etäisyys minkä tahansa kahden punaisen pisteen välillä. Poista kaikki punaiset pisteet, jotka kuuluvat tällä etäisyydellä toisistaan ​​oleviin pareihin. Laske pienin etäisyys uudelleen seuraavaa vaihetta varten. [[K0228]]
-Keskimmäisessä kuvassa kolme alinta punaista pistettä muodostavat lähimmät diagonaaliset parit. Kun ne poistetaan, jäljelle jää vain ylärivin neljännessä sarakkeessa oleva punainen piste. 
+Keskimmäisessä kuvassa kolme alinta punaista pistettä muodostavat lähimmät diagonaaliset parit. Kun ne poistetaan, jäljelle jää vain ylärivin neljännessä sarakkeessa oleva punainen piste.
 
 [[K0229]]
 Siirrä kuutta väriä syklin mukaisesti.
 
 [[K0230]]
-Lue vasemmanpuoleinen pino ylhäältä alas ja sen jälkeen oikeanpuoleinen pino ylhäältä alas. Siirrä jokaista väriä yhden askeleen verran eteenpäin tässä kuuden kohdan syklissä; oikeassa alakulmassa oleva väri siirtyy vasempaan yläkulmaan. 
+Lue vasemmanpuoleinen pino ylhäältä alas ja sen jälkeen oikeanpuoleinen pino ylhäältä alas. Siirrä jokaista väriä yhden askeleen verran eteenpäin tässä kuuden kohdan syklissä; oikeassa alakulmassa oleva väri siirtyy vasempaan yläkulmaan.
 
 [[K0231]]
-Keskimmäisessä kuvassa oikeassa alakulmassa oleva ruskea ympyrä siirtyy vasempaan yläkulmaan. Lopulliset pinot ovat vasemmalla ruskea/punainen/punainen ja oikealla musta/ruskea/sininen. 
+Keskimmäisessä kuvassa oikeassa alakulmassa oleva ruskea ympyrä siirtyy vasempaan yläkulmaan. Lopulliset pinot ovat vasemmalla ruskea/punainen/punainen ja oikealla musta/ruskea/sininen.
 
 [[K0232]]
 Siirrä valkoista ja mustaa vastakkaisiin suuntiin.
 
 [[K0233]]
-Valkoiset ympyrät liikkuvat yhden kulman verran myötäpäivään ja mustat ympyrät yhden kulman verran vastapäivään jokaisessa vaiheessa. Harmaa väri tarkoittaa, että valkoinen ja musta ympyrä ovat samassa kulmassa; erota ne toisistaan ​​ennen seuraavaa siirtoa. 
+Valkoiset ympyrät liikkuvat yhden kulman verran myötäpäivään ja mustat ympyrät yhden kulman verran vastapäivään jokaisessa vaiheessa. Harmaa väri tarkoittaa, että valkoinen ja musta ympyrä ovat samassa kulmassa; erota ne toisistaan ​​ennen seuraavaa siirtoa.
 
 [[K0234]]
-Keskimmäisessä kuvassa on valkoisia ympyröitä kahdessa vasemmanpuoleisessa kulmassa sekä mustia ympyröitä kahdessa vasemmanpuoleisessa kulmassa ja oikeassa alakulmassa. Siirtojen jälkeen vasemmassa yläkulmassa on valkoinen, oikeassa yläkulmassa harmaa ja molemmissa alakulmissa musta ympyrä. 
+Keskimmäisessä kuvassa on valkoisia ympyröitä kahdessa vasemmanpuoleisessa kulmassa sekä mustia ympyröitä kahdessa vasemmanpuoleisessa kulmassa ja oikeassa alakulmassa. Siirtojen jälkeen vasemmassa yläkulmassa on valkoinen, oikeassa yläkulmassa harmaa ja molemmissa alakulmissa musta ympyrä.
 
 [[K0235]]
 Pidennä jokaista vaakasuoraa viivaa.
 
 [[K0236]]
-Pidennä jokaisessa vaiheessa jokaista mustaa vaakasuoraa viivaa siten, että se ulottuu molemmin puolin välittömästi viereisiin kapseleihin. Aiemmat viivat säilyvät, ja viivat päättyvät uloimpiin reunoihin. 
+Pidennä jokaisessa vaiheessa jokaista mustaa vaakasuoraa viivaa siten, että se ulottuu molemmin puolin välittömästi viereisiin kapseleihin. Aiemmat viivat säilyvät, ja viivat päättyvät uloimpiin reunoihin.
 
 [[K0237]]
-Pidennä keskimmäisen kuvan viivoja vielä yhden kapselin verran vasemmalle ja oikealle. Säilytä eri korkeudella olevat viivat erillään; vastaus näyttää lopputuloksena syntyvät pidemmät vaakasuorat viivat, jotka kulkevat neljän kapselin halki. 
+Pidennä keskimmäisen kuvan viivoja vielä yhden kapselin verran vasemmalle ja oikealle. Säilytä eri korkeudella olevat viivat erillään; vastaus näyttää lopputuloksena syntyvät pidemmät vaakasuorat viivat, jotka kulkevat neljän kapselin halki.
 
 [[K0238]]
 Laajenna kolmioverkkoa.
 
 [[K0239]]
-Käsittele piirrosta pienten kolmioiden ryhmänä. Lisää jokaisessa vaiheessa pieni kolmio jokaisen vapaana olevan reunan ulkopuolelle säilyttäen samalla aiemmat kolmiot ja niitä yhdistävät viivat. 
+Käsittele piirrosta pienten kolmioiden ryhmänä. Lisää jokaisessa vaiheessa pieni kolmio jokaisen vapaana olevan reunan ulkopuolelle säilyttäen samalla aiemmat kolmiot ja niitä yhdistävät viivat.
 
 [[K0240]]
-Laajenna keskimmäistä vihreää ryvästä vielä yhdellä kerroksella viereisiä kolmioita. Vastauksessa säilytetään sama kolmioverkko, ja sen ulkoreunoille lisätään kolmioita. 
+Laajenna keskimmäistä vihreää ryvästä vielä yhdellä kerroksella viereisiä kolmioita. Vastauksessa säilytetään sama kolmioverkko, ja sen ulkoreunoille lisätään kolmioita.
 
 [[K0241]]
 Poista merkityt kärkipisteet.
 
 [[K0242]]
-Ruskeat pisteet osoittavat mustan monikulmion kärkipisteet, jotka tulee poistaa. Yhdistä jäljelle jääneet kärkipisteet alkuperäisessä järjestyksessään. Jos jäljelle jää kaksi kärkipistettä, muodostuu jana. 
+Ruskeat pisteet osoittavat mustan monikulmion kärkipisteet, jotka tulee poistaa. Yhdistä jäljelle jääneet kärkipisteet alkuperäisessä järjestyksessään. Jos jäljelle jää kaksi kärkipistettä, muodostuu jana.
 
 [[K0243]]
-Poista ruskeilla pisteillä merkityt ylin ja vasen kärkipiste. Jäljelle jäävät vain kaksi alinta kärkipistettä, joten vastauksena on lyhyt vaakasuora jana oikeassa alakulmassa. 
+Poista ruskeilla pisteillä merkityt ylin ja vasen kärkipiste. Jäljelle jäävät vain kaksi alinta kärkipistettä, joten vastauksena on lyhyt vaakasuora jana oikeassa alakulmassa.
 
 [[K0244]]
 Muuta pisteiden tilaa ääriviivan kulmissa.
 
 [[K0245]]
-Kohdista mustan ääriviivan kärkipisteet 3x3-pisteruudukkoon. Poista kunkin kärkipisteen kohdalta sininen piste, jos sellainen on olemassa, tai lisää piste, jos kohta on tyhjä. Muut kohdat pysyvät ennallaan. 
+Kohdista mustan ääriviivan kärkipisteet 3x3-pisteruudukkoon. Poista kunkin kärkipisteen kohdalta sininen piste, jos sellainen on olemassa, tai lisää piste, jos kohta on tyhjä. Muut kohdat pysyvät ennallaan.
 
 [[K0246]]
-Muuta pisteiden tilaa vinon ääriviivan neljässä kulmassa. Lopputuloksessa on siniset pisteet vasemmassa yläkulmassa, ylärivin keskellä, keskellä, oikealla keskellä sekä kaikissa kolmessa alarivin kohdassa. 
+Muuta pisteiden tilaa vinon ääriviivan neljässä kulmassa. Lopputuloksessa on siniset pisteet vasemmassa yläkulmassa, ylärivin keskellä, keskellä, oikealla keskellä sekä kaikissa kolmessa alarivin kohdassa.
 
 [[K0247]]
 Poista merkitty tiili ja sen naapuritiilet.

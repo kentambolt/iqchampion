@@ -1,17 +1,17 @@
 [[K0275]]
-Semua pembatas hitam secara bersamaan bergerak satu posisi ke kanan jika posisi berikutnya berisi manik kuning. Pembatas yang terhalang oleh pembatas lain menunggu. Tepi kanan terhubung ke tepi kiri. 
+Semua pembatas hitam secara bersamaan bergerak satu posisi ke kanan jika posisi berikutnya berisi manik kuning. Pembatas yang terhalang oleh pembatas lain menunggu. Tepi kanan terhubung ke tepi kiri.
 
 [[K0276]]
-Terapkan satu langkah simultan pada urutan tengah. Urutan akhirnya adalah pembatas, manik, pembatas, manik, pembatas, pembatas, manik. 
+Terapkan satu langkah simultan pada urutan tengah. Urutan akhirnya adalah pembatas, manik, pembatas, manik, pembatas, pembatas, manik.
 
 [[K0277]]
 Perluas warna dan pertahankan kelompok terbesar
 
 [[K0278]]
-Ganti setiap bola berwarna dengan empat bola baru dengan warna yang sama, satu langkah di atas, di bawah, kiri, dan kanan. Bola yang meninggalkan grid menghilang. Di setiap posisi, pertahankan warna dengan jumlah bola yang datang terbanyak. Jika warna memiliki jumlah terbanyak yang sama, biarkan posisi tersebut kosong. Beberapa kedatangan warna yang sama muncul sebagai satu penanda berwarna. 
+Ganti setiap bola berwarna dengan empat bola baru dengan warna yang sama, satu langkah di atas, di bawah, kiri, dan kanan. Bola yang meninggalkan grid menghilang. Di setiap posisi, pertahankan warna dengan jumlah bola yang datang terbanyak. Jika warna memiliki jumlah terbanyak yang sama, biarkan posisi tersebut kosong. Beberapa kedatangan warna yang sama muncul sebagai satu penanda berwarna.
 
 [[K0279]]
-Memperluas gambar tengah yang ditampilkan menyisakan warna hijau di kanan atas dan di baris 2, kolom 3; Merah di baris 2, kolom 1; dan cokelat di baris 2, kolom 2, baris 3, kolom 3, dan baris 4, kolom 2, 3 dan 4. Itu persis warna dan posisi dalam jawaban yang tersimpan. 
+Memperluas gambar tengah yang ditampilkan menyisakan warna hijau di kanan atas dan di baris 2, kolom 3; Merah di baris 2, kolom 1; dan cokelat di baris 2, kolom 2, baris 3, kolom 3, dan baris 4, kolom 2, 3 dan 4. Itu persis warna dan posisi dalam jawaban yang tersimpan.
 
 [[K0280]]
 Pilih bahasa
@@ -29,19 +29,19 @@ Tidak ada bahasa yang ditemukan
 Tes IQ gratis untuk bersenang-senang | Juara IQ
 
 [[K0285]]
-Tes bergaya IQ gratis untuk bersenang-senang: 36 teka-teki visual, 40 menit, kemajuan tersimpan, dan perkiraan hasil IQ. Tidak perlu akun. 
+Tes bergaya IQ gratis untuk bersenang-senang: 36 teka-teki visual, 40 menit, kemajuan tersimpan, dan perkiraan hasil IQ. Tidak perlu akun.
 
 [[K0286]]
-Pilih bahasa pilihan Anda. Jawaban dan tenggat waktu asli Anda tetap tersimpan. 
+Pilih bahasa pilihan Anda. Jawaban dan tenggat waktu asli Anda tetap tersimpan.
 
 [[K0287]]
 Memuat bahasa…
 
 [[K0288]]
-Bahasa tidak dapat dimuat. Tes dan jawaban Anda tidak berubah. 
+Bahasa tidak dapat dimuat. Tes dan jawaban Anda tidak berubah.
 
 [[K0289]]
-Umpan balik tersedia dalam bahasa Denmark dan Inggris. 
+Umpan balik tersedia dalam bahasa Denmark dan Inggris.
 
 [[K0290]]
 Prestasi bersama
@@ -50,10 +50,10 @@ Prestasi bersama
 Hasil bersama
 
 [[K0292]]
-Hasil bersama dilaporkan sendiri. 
+Hasil bersama dilaporkan sendiri.
 
 [[K0293]]
-Prestasi bersama dilaporkan sendiri. Tidak ada usia, negara, jawaban, atau profil pribadi yang dibagikan. 
+Prestasi bersama dilaporkan sendiri. Tidak ada usia, negara, jawaban, atau profil pribadi yang dibagikan.
 
 [[K0294]]
 Cobalah 36 teka-teki sendiri
@@ -62,16 +62,16 @@ Cobalah 36 teka-teki sendiri
 Cobalah tes sendiri
 
 [[K0296]]
-Tantangan visual di IQ Champion. Bisakah Anda juga menemukan polanya? 
+Tantangan visual di IQ Champion. Bisakah Anda juga menemukan polanya?
 
 [[K0297]]
-Tes teka-teki visual gratis, hanya untuk bersenang-senang. Bukan pengukuran IQ yang divalidasi secara profesional. 
+Tes teka-teki visual gratis, hanya untuk bersenang-senang. Bukan pengukuran IQ yang divalidasi secara profesional.
 
 [[K0298]]
 Halaman tidak ditemukan
 
 [[K0299]]
-Anda dapat melanjutkan dalam bahasa lain. 
+Anda dapat melanjutkan dalam bahasa lain.
 
 [[K0300]]
 terjawab
@@ -86,7 +86,7 @@ benar
 Salah
 
 [[K0304]]
-Perkiraan rentang median: {0} ({1} jawaban benar berdasarkan waktu). 
+Perkiraan rentang median: {0} ({1} jawaban benar berdasarkan waktu).
 
 [[K0305]]
 Pertanyaan {0} · {1}
@@ -98,7 +98,7 @@ Pertanyaan {0} · {1}
 Waktu aktif: {0}
 
 [[K0308]]
-Perbandingan: {0} percobaan sukarela selama {1} hari. 
+Perbandingan: {0} percobaan sukarela selama {1} hari.
 
 [[K0309]]
 Pertanyaan {0} / {1}
@@ -119,13 +119,13 @@ Pertanyaan {0}, {1}
 Pertanyaan tinjauan {0}, {1}
 
 [[K0315]]
-{0} benar; {1} salah; {2} tidak terjawab. 
+{0} benar; {1} salah; {2} tidak terjawab.
 
 [[K0316]]
-{0} dijawab; {1} tidak terjawab. 
+{0} dijawab; {1} tidak terjawab.
 
 [[K0317]]
-{0} dijawab; {1} tidak terjawab. Pertanyaan yang tidak terjawab dihitung sebagai salah. Setelah selesai, Anda tidak dapat mengubah jawaban. 
+{0} dijawab; {1} tidak terjawab. Pertanyaan yang tidak terjawab dihitung sebagai salah. Setelah selesai, Anda tidak dapat mengubah jawaban.
 
 [[K0318]]
 {0} / {1} benar
@@ -134,10 +134,10 @@ Pertanyaan tinjauan {0}, {1}
 Persentil di antara peserta historis: {0}
 
 [[K0320]]
-Peserta dengan skor lebih rendah: {0}%. Peserta dengan skor yang sama: {1}%. 
+Peserta dengan skor lebih rendah: {0}%. Peserta dengan skor yang sama: {1}%.
 
 [[K0321]]
-Grup referensi: {0} percobaan historis. Percobaan dengan durasi yang tercatat lebih dari satu menit hingga 40 menit disertakan. Skor yang sama berbagi titik tengah kelompok persentilnya. Estimasi dibulatkan ke bilangan bulat dan hanya ditampilkan dalam rentang 55–145, dengan indikator batas di luar rentang tersebut. Ini adalah konversi skala, bukan pengukuran IQ populasi yang divalidasi secara independen. Latihan dan percobaan berulang dapat memengaruhi hasil Anda. Beberapa contoh gambar telah dikoreksi sejak percobaan historis dikumpulkan, yang membatasi perbandingan. 
+Grup referensi: {0} percobaan historis. Percobaan dengan durasi yang tercatat lebih dari satu menit hingga 40 menit disertakan. Skor yang sama berbagi titik tengah kelompok persentilnya. Estimasi dibulatkan ke bilangan bulat dan hanya ditampilkan dalam rentang 55–145, dengan indikator batas di luar rentang tersebut. Ini adalah konversi skala, bukan pengukuran IQ populasi yang divalidasi secara independen. Latihan dan percobaan berulang dapat memengaruhi hasil Anda. Beberapa contoh gambar telah dikoreksi sejak percobaan historis dikumpulkan, yang membatasi perbandingan.
 
 [[K0322]]
 Estimasi IQ saya di IQ Champion: {0}. Hanya untuk bersenang-senang. Coba ini: {1}

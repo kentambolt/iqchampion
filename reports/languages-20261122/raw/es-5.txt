@@ -1,17 +1,17 @@
 [[K0275]]
-Todos los separadores negros se desplazan simultáneamente una posición hacia la derecha si la posición siguiente contiene una cuenta amarilla. Si un separador está bloqueado por otro, permanece inmóvil. El borde derecho se conecta con el borde izquierdo. 
+Todos los separadores negros se desplazan simultáneamente una posición hacia la derecha si la posición siguiente contiene una cuenta amarilla. Si un separador está bloqueado por otro, permanece inmóvil. El borde derecho se conecta con el borde izquierdo.
 
 [[K0276]]
-Aplica un paso simultáneo a la secuencia central. El orden final es: separador, cuenta, separador, cuenta, separador, separador, cuenta. 
+Aplica un paso simultáneo a la secuencia central. El orden final es: separador, cuenta, separador, cuenta, separador, separador, cuenta.
 
 [[K0277]]
 Expande los colores y conserva el grupo más grande.
 
 [[K0278]]
-Sustituye cada bola de color por cuatro bolas nuevas del mismo color, situadas una posición por encima, por debajo, a la izquierda y a la derecha. Las bolas que salen de la cuadrícula desaparecen. En cada posición, conserva el color que reciba el mayor número de bolas. Si hay un empate entre colores, deja la posición vacía. Varias bolas del mismo color que llegan a una misma posición se representan como un único marcador de ese color. 
+Sustituye cada bola de color por cuatro bolas nuevas del mismo color, situadas una posición por encima, por debajo, a la izquierda y a la derecha. Las bolas que salen de la cuadrícula desaparecen. En cada posición, conserva el color que reciba el mayor número de bolas. Si hay un empate entre colores, deja la posición vacía. Varias bolas del mismo color que llegan a una misma posición se representan como un único marcador de ese color.
 
 [[K0279]]
-Al expandir la imagen central mostrada, el color verde queda en la parte superior derecha y en la fila 2, columna 3; el rojo, en la fila 2, columna 1; y el marrón, en la fila 2, columna 2, en la fila 3, columna 3, y en la fila 4, columnas 2, 3 y 4. Estos coinciden exactamente con los colores y posiciones de la respuesta guardada. 
+Al expandir la imagen central mostrada, el color verde queda en la parte superior derecha y en la fila 2, columna 3; el rojo, en la fila 2, columna 1; y el marrón, en la fila 2, columna 2, en la fila 3, columna 3, y en la fila 4, columnas 2, 3 y 4. Estos coinciden exactamente con los colores y posiciones de la respuesta guardada.
 
 [[K0280]]
 Elige un idioma.
@@ -29,17 +29,17 @@ No se han encontrado idiomas.
 Prueba de CI gratuita por diversión | IQ Champion
 
 [[K0285]]
-Una prueba gratuita al estilo de los test de CI, para pasar un buen rato: 36 acertijos visuales, 40 minutos de tiempo, guardado de progreso y una estimación de tu CI. No es necesario crear una cuenta. 
+Una prueba gratuita al estilo de los test de CI, para pasar un buen rato: 36 acertijos visuales, 40 minutos de tiempo, guardado de progreso y una estimación de tu CI. No es necesario crear una cuenta.
 
 [[K0286]]
-Elige tu idioma preferido. Tus respuestas y el plazo original permanecerán guardados. 
+Elige tu idioma preferido. Tus respuestas y el plazo original permanecerán guardados.
 
 [[K0287]]
 Cargando idioma…
 
 [[K0288]]
 No se ha podido cargar el idioma. Tu prueba y tus respuestas permanecen sin cambios. [[K0289]]
-La retroalimentación está disponible en danés e inglés. 
+La retroalimentación está disponible en danés e inglés.
 
 [[K0290]]
 Logro compartido
@@ -48,10 +48,10 @@ Logro compartido
 Resultado compartido
 
 [[K0292]]
-Los resultados compartidos son comunicados por el propio usuario. 
+Los resultados compartidos son comunicados por el propio usuario.
 
 [[K0293]]
-Los logros compartidos son comunicados por el propio usuario. No se comparten la edad, el país, las respuestas ni los perfiles personales. 
+Los logros compartidos son comunicados por el propio usuario. No se comparten la edad, el país, las respuestas ni los perfiles personales.
 
 [[K0294]]
 Prueba tú mismo los 36 acertijos
@@ -60,16 +60,16 @@ Prueba tú mismo los 36 acertijos
 Prueba tú mismo el test
 
 [[K0296]]
-Un desafío visual en IQ Champion. ¿Puedes identificar el patrón tú también? 
+Un desafío visual en IQ Champion. ¿Puedes identificar el patrón tú también?
 
 [[K0297]]
-Un test visual gratuito, solo por diversión. No constituye una medición del cociente intelectual (CI) validada profesionalmente. 
+Un test visual gratuito, solo por diversión. No constituye una medición del cociente intelectual (CI) validada profesionalmente.
 
 [[K0298]]
 Página no encontrada
 
 [[K0299]]
-Puedes continuar en otro idioma. 
+Puedes continuar en otro idioma.
 
 [[K0300]]
 respondida
@@ -84,7 +84,7 @@ correcta
 incorrecta
 
 [[K0304]]
-Rango mediano estimado: {0} ({1} respuestas correctas con límite de tiempo). 
+Rango mediano estimado: {0} ({1} respuestas correctas con límite de tiempo).
 
 [[K0305]]
 Pregunta {0} · {1}
@@ -96,7 +96,7 @@ Pregunta {0} · {1}
 Tiempo activo: {0}
 
 [[K0308]]
-Comparación: {0} intentos voluntarios a lo largo de {1} días. 
+Comparación: {0} intentos voluntarios a lo largo de {1} días.
 
 [[K0309]]
 Pregunta {0} / {1}
@@ -117,13 +117,13 @@ Pregunta {0}, {1}
 Revisar pregunta {0}, {1}
 
 [[K0315]]
-{0} correctas; {1} incorrectas; {2} sin responder. 
+{0} correctas; {1} incorrectas; {2} sin responder.
 
 [[K0316]]
-{0} respondidas; {1} sin responder. 
+{0} respondidas; {1} sin responder.
 
 [[K0317]]
-{0} respondidas; {1} sin responder. Las preguntas sin responder cuentan como incorrectas. Una vez finalizado, no es posible cambiar las respuestas. 
+{0} respondidas; {1} sin responder. Las preguntas sin responder cuentan como incorrectas. Una vez finalizado, no es posible cambiar las respuestas.
 
 [[K0318]]
 {0} / {1} correctas
@@ -132,10 +132,10 @@ Revisar pregunta {0}, {1}
 Percentil entre los participantes históricos: {0}
 
 [[K0320]]
-Participantes con una puntuación inferior: {0}%. Participantes con la misma puntuación: {1}%. 
+Participantes con una puntuación inferior: {0}%. Participantes con la misma puntuación: {1}%.
 
 [[K0321]]
-Grupo de referencia: {0} intentos históricos. Se incluyen los intentos con una duración registrada de más de un minuto y hasta 40 minutos. Las puntuaciones empatadas comparten el punto medio de su grupo percentil. Las estimaciones se redondean a números enteros y se muestran únicamente dentro del rango 55–145; fuera de este, se indica un límite. Se trata de una conversión de escala, no de una medición del cociente intelectual (CI) poblacional validada de forma independiente. La práctica y los intentos repetidos pueden influir en el resultado. Algunas imágenes de ejemplo han sido corregidas desde que se recopilaron los datos históricos, lo que limita la comparabilidad. 
+Grupo de referencia: {0} intentos históricos. Se incluyen los intentos con una duración registrada de más de un minuto y hasta 40 minutos. Las puntuaciones empatadas comparten el punto medio de su grupo percentil. Las estimaciones se redondean a números enteros y se muestran únicamente dentro del rango 55–145; fuera de este, se indica un límite. Se trata de una conversión de escala, no de una medición del cociente intelectual (CI) poblacional validada de forma independiente. La práctica y los intentos repetidos pueden influir en el resultado. Algunas imágenes de ejemplo han sido corregidas desde que se recopilaron los datos históricos, lo que limita la comparabilidad.
 
 [[K0322]]
 Mi CI estimado en IQ Champion: {0}. Solo por diversión. ¡Pruébalo!: {1}

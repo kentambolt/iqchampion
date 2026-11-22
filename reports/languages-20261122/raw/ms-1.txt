@@ -5,10 +5,10 @@ Kongsi ujian di Facebook
 Anggaran IQ
 
 [[K0073]]
-Hanya untuk suka-suka. Skor anggaran, bukan ukuran IQ yang disahkan secara profesional. 
+Hanya untuk suka-suka. Skor anggaran, bukan ukuran IQ yang disahkan secara profesional.
 
 [[K0074]]
-Ujian anda tidak lengkap. Jawapan betul anda ditunjukkan, tetapi anggaran IQ memerlukan semua 36 jawapan. 
+Ujian anda tidak lengkap. Jawapan betul anda ditunjukkan, tetapi anggaran IQ memerlukan semua 36 jawapan.
 
 [[K0075]]
 Tidak tersedia
@@ -17,7 +17,7 @@ Tidak tersedia
 Ujian penaakulan visual percuma | Juara IQ
 
 [[K0077]]
-36 teka-teki penaakulan visual. Ambil cabaran 40 minit percuma dan terokai keputusan anda. 
+36 teka-teki penaakulan visual. Ambil cabaran 40 minit percuma dan terokai keputusan anda.
 
 [[K0078]]
 Dijawab
@@ -50,13 +50,13 @@ Perihal ujian
 Satu cabaran dalam penaakulan visual
 
 [[K0088]]
-Kenali coraknya. 
+Kenali coraknya.
 
 [[K0089]]
-Cari bahagian yang hilang. 
+Cari bahagian yang hilang.
 
 [[K0090]]
-36 teka-teki visual dan anggaran skor IQ. Sekadar untuk keseronokan. 
+36 teka-teki visual dan anggaran skor IQ. Sekadar untuk keseronokan.
 
 [[K0091]]
 Teka-teki
@@ -71,25 +71,25 @@ Kos
 Percuma
 
 [[K0095]]
-Tiada akaun diperlukan. Pemasa bermula apabila anda mula. 
+Tiada akaun diperlukan. Pemasa bermula apabila anda mula.
 
 [[K0096]]
 Cara ujian berfungsi
 
 [[K0097]]
-Pilih ikon yang melengkapkan setiap corak. 
+Pilih ikon yang melengkapkan setiap corak.
 
 [[K0098]]
-Langkau soalan yang sukar dan kembali menggunakan gambaran keseluruhan. 
+Langkau soalan yang sukar dan kembali menggunakan gambaran keseluruhan.
 
 [[K0099]]
-Semak atau ubah jawapan anda sebelum anda selesai. 
+Semak atau ubah jawapan anda sebelum anda selesai.
 
 [[K0100]]
-Jawapan dan masa mula anda disimpan dalam pelayar ini. Muat semula mengekalkan tarikh akhir asal anda. 
+Jawapan dan masa mula anda disimpan dalam pelayar ini. Muat semula mengekalkan tarikh akhir asal anda.
 
 [[K0101]]
-Pemasa 40 minit berterusan semasa halaman ditutup. Soalan yang tidak dijawab dikira sebagai salah. 
+Pemasa 40 minit berterusan semasa halaman ditutup. Soalan yang tidak dijawab dikira sebagai salah.
 
 [[K0102]]
 Perihal keputusan anda
@@ -98,13 +98,13 @@ Perihal keputusan anda
 Anggaran IQ anda adalah berdasarkan kedudukan anda di antara
 
 [[K0104]]
-percubaan sejarah. 
+percubaan sejarah.
 
 [[K0105]]
-Perbandingan ini menggunakan percubaan yang berlangsung selama lebih satu minit dan sehingga 40 minit. Ia belum disahkan terhadap ujian IQ rasmi atau sampel populasi yang mewakili. 
+Perbandingan ini menggunakan percubaan yang berlangsung selama lebih satu minit dan sehingga 40 minit. Ia belum disahkan terhadap ujian IQ rasmi atau sampel populasi yang mewakili.
 
 [[K0106]]
-Ujian untuk keseronokan. Anggaran IQ anda adalah anggaran, bukan skor IQ yang disahkan secara profesional. 
+Ujian untuk keseronokan. Anggaran IQ anda adalah anggaran, bukan skor IQ yang disahkan secara profesional.
 
 [[K0107]]
 Mula ujian 40 minit
@@ -168,16 +168,16 @@ Semak dan selesaikan
 Arahan & kemajuan yang disimpan
 
 [[K0127]]
-Pilih jawapan untuk beralih ke soalan seterusnya yang tidak terjawab. Anda boleh melangkau, kembali dan menukar jawapan sebelum selesai. 
+Pilih jawapan untuk beralih ke soalan seterusnya yang tidak terjawab. Anda boleh melangkau, kembali dan menukar jawapan sebelum selesai.
 
 [[K0128]]
-Jawapan disimpan secara automatik dalam pelayar ini. Muat semula akan menyambung semula soalan yang sama; pemasa anda terus berjalan. 
+Jawapan disimpan secara automatik dalam pelayar ini. Muat semula akan menyambung semula soalan yang sama; pemasa anda terus berjalan.
 
 [[K0129]]
 Bersedia apabila anda sudah bersedia
 
 [[K0130]]
-Selesai ujian ini? 
+Selesai ujian ini?
 
 [[K0131]]
 Teruskan berusaha
@@ -204,7 +204,7 @@ Perihal ujian ini
 Cara membaca hasil ini
 
 [[K0139]]
-Persentil anda antara percubaan sejarah ditukar kepada skala IQ yang biasa: titik tengah 100 dan sisihan piawai 15. Ini mengandaikan kumpulan perbandingan mencerminkan populasi, yang belum diwujudkan. 
+Persentil anda antara percubaan sejarah ditukar kepada skala IQ yang biasa: titik tengah 100 dan sisihan piawai 15. Ini mengandaikan kumpulan perbandingan mencerminkan populasi, yang belum diwujudkan.
 
 [[K0140]]
 Jawapan anda, dijelaskan
@@ -249,7 +249,7 @@ Terokai semua 36 teka-teki
 Semak soalan
 
 [[K0154]]
-Jawapan yang anda serahkan dan skor akhir kekal tidak berubah. 
+Jawapan yang anda serahkan dan skor akhir kekal tidak berubah.
 
 [[K0155]]
 Hubungi
@@ -261,13 +261,13 @@ Maklum balas & hubungan
 Hantar maklum balas atau hubungi kami
 
 [[K0158]]
-Betul. Jawapan anda sepadan dengan jawapan yang betul. 
+Betul. Jawapan anda sepadan dengan jawapan yang betul.
 
 [[K0159]]
-Salah. Jawapan anda berbeza daripada jawapan yang betul. 
+Salah. Jawapan anda berbeza daripada jawapan yang betul.
 
 [[K0160]]
-Tidak dijawab. Tiada jawapan dihantar untuk soalan ini. 
+Tidak dijawab. Tiada jawapan dihantar untuk soalan ini.
 
 [[K0161]]
 Tiada jawapan dihantar
@@ -279,28 +279,28 @@ Jawapan anda dihantar
 Ikon tiada
 
 [[K0164]]
-Semua soalan telah dijawab. Anda masih boleh menyemak dan menukar jawapan, kemudian menyelesaikan ujian. 
+Semua soalan telah dijawab. Anda masih boleh menyemak dan menukar jawapan, kemudian menyelesaikan ujian.
 
 [[K0165]]
-Lima minit atau kurang lagi. 
+Lima minit atau kurang lagi.
 
 [[K0166]]
-Masa tamat. Jawapan anda telah dijaringkan. 
+Masa tamat. Jawapan anda telah dijaringkan.
 
 [[K0167]]
-Ujian selesai. 
+Ujian selesai.
 
 [[K0168]]
-Perbandingan tidak tersedia. 
+Perbandingan tidak tersedia.
 
 [[K0169]]
-Pelayar ini tidak dapat menyimpan percubaan anda. Pastikan halaman ini terbuka: muat semula mungkin kehilangan kemajuan atau memulihkan jawapan yang lebih lama. 
+Pelayar ini tidak dapat menyimpan percubaan anda. Pastikan halaman ini terbuka: muat semula mungkin kehilangan kemajuan atau memulihkan jawapan yang lebih lama.
 
 [[K0170]]
-Penyimpanan setempat tidak tersedia dalam pelayar ini. Pastikan halaman ini terbuka untuk mengelakkan kehilangan percubaan anda. 
+Penyimpanan setempat tidak tersedia dalam pelayar ini. Pastikan halaman ini terbuka untuk mengelakkan kehilangan percubaan anda.
 
 [[K0171]]
-Percubaan yang disimpan tidak dapat dipulihkan. Mulakan ujian baharu apabila anda bersedia. 
+Percubaan yang disimpan tidak dapat dipulihkan. Mulakan ujian baharu apabila anda bersedia.
 
 [[K0172]]
 Kekalkan angka tidak berubah

@@ -1,17 +1,17 @@
 [[K0275]]
-Semua pembahagi hitam bergerak satu kedudukan ke kanan secara serentak jika kedudukan seterusnya mengandungi manik kuning. Pembahagi yang disekat oleh pembahagi lain menunggu. Tepi kanan bersambung ke tepi kiri. 
+Semua pembahagi hitam bergerak satu kedudukan ke kanan secara serentak jika kedudukan seterusnya mengandungi manik kuning. Pembahagi yang disekat oleh pembahagi lain menunggu. Tepi kanan bersambung ke tepi kiri.
 
 [[K0276]]
-Lakukan satu langkah serentak pada urutan tengah. Urutan terakhir ialah pembahagi, manik, pembahagi, manik, pembahagi, pembahagi, manik. 
+Lakukan satu langkah serentak pada urutan tengah. Urutan terakhir ialah pembahagi, manik, pembahagi, manik, pembahagi, pembahagi, manik.
 
 [[K0277]]
 Kembangkan warna dan kekalkan kumpulan terbesar
 
 [[K0278]]
-Gantikan setiap bola berwarna dengan empat bola baharu yang sama warna, satu langkah di atas, di bawah, kiri dan kanan. Bola yang meninggalkan grid hilang. Pada setiap kedudukan, kekalkan warna dengan bilangan bola yang tiba paling banyak. Jika warna seri untuk bilangan terbesar, biarkan kedudukan kosong. Beberapa ketibaan dengan warna yang sama muncul sebagai satu penanda berwarna. 
+Gantikan setiap bola berwarna dengan empat bola baharu yang sama warna, satu langkah di atas, di bawah, kiri dan kanan. Bola yang meninggalkan grid hilang. Pada setiap kedudukan, kekalkan warna dengan bilangan bola yang tiba paling banyak. Jika warna seri untuk bilangan terbesar, biarkan kedudukan kosong. Beberapa ketibaan dengan warna yang sama muncul sebagai satu penanda berwarna.
 
 [[K0279]]
-Mengembangkan gambar tengah yang dipaparkan meninggalkan warna hijau di bahagian atas kanan dan di baris 2, lajur 3; merah di baris 2, lajur 1; dan berwarna coklat pada baris 2, lajur 2, baris 3, lajur 3, dan baris 4, lajur 2, 3 dan 4. Itulah warna dan kedudukan dalam jawapan yang disimpan. 
+Mengembangkan gambar tengah yang dipaparkan meninggalkan warna hijau di bahagian atas kanan dan di baris 2, lajur 3; merah di baris 2, lajur 1; dan berwarna coklat pada baris 2, lajur 2, baris 3, lajur 3, dan baris 4, lajur 2, 3 dan 4. Itulah warna dan kedudukan dalam jawapan yang disimpan.
 
 [[K0280]]
 Pilih bahasa
@@ -29,19 +29,19 @@ Tiada bahasa ditemui
 Ujian IQ percuma untuk keseronokan | Juara IQ
 
 [[K0285]]
-Ujian gaya IQ percuma untuk keseronokan: 36 teka-teki visual, 40 minit, kemajuan yang disimpan dan anggaran keputusan IQ. Tiada akaun diperlukan. 
+Ujian gaya IQ percuma untuk keseronokan: 36 teka-teki visual, 40 minit, kemajuan yang disimpan dan anggaran keputusan IQ. Tiada akaun diperlukan.
 
 [[K0286]]
-Pilih bahasa pilihan anda. Jawapan dan tarikh akhir asal anda kekal disimpan. 
+Pilih bahasa pilihan anda. Jawapan dan tarikh akhir asal anda kekal disimpan.
 
 [[K0287]]
 Memuatkan bahasa…
 
 [[K0288]]
-Bahasa tidak dapat dimuatkan. Ujian dan jawapan anda tidak berubah. 
+Bahasa tidak dapat dimuatkan. Ujian dan jawapan anda tidak berubah.
 
 [[K0289]]
-Maklum balas tersedia dalam bahasa Denmark dan Inggeris. 
+Maklum balas tersedia dalam bahasa Denmark dan Inggeris.
 
 [[K0290]]
 Pencapaian dikongsi
@@ -50,10 +50,10 @@ Pencapaian dikongsi
 Keputusan dikongsi
 
 [[K0292]]
-Keputusan dikongsi adalah laporan sendiri. 
+Keputusan dikongsi adalah laporan sendiri.
 
 [[K0293]]
-Pencapaian dikongsi adalah laporan sendiri. Tiada umur, negara, jawapan atau profil peribadi dikongsi. 
+Pencapaian dikongsi adalah laporan sendiri. Tiada umur, negara, jawapan atau profil peribadi dikongsi.
 
 [[K0294]]
 Cuba 36 teka-teki sendiri
@@ -62,16 +62,16 @@ Cuba 36 teka-teki sendiri
 Cuba ujian sendiri
 
 [[K0296]]
-Cabaran visual dalam IQ Champion. Bolehkah anda mengesan coraknya juga? 
+Cabaran visual dalam IQ Champion. Bolehkah anda mengesan coraknya juga?
 
 [[K0297]]
-Ujian teka-teki visual percuma, hanya untuk keseronokan. Bukan ukuran IQ yang disahkan secara profesional. 
+Ujian teka-teki visual percuma, hanya untuk keseronokan. Bukan ukuran IQ yang disahkan secara profesional.
 
 [[K0298]]
 Halaman tidak dijumpai
 
 [[K0299]]
-Anda boleh meneruskan dalam bahasa lain. 
+Anda boleh meneruskan dalam bahasa lain.
 
 [[K0300]]
 dijawab
@@ -86,7 +86,7 @@ betul
 salah
 
 [[K0304]]
-Julat median anggaran: {0} ({1} jawapan betul berjadual). 
+Julat median anggaran: {0} ({1} jawapan betul berjadual).
 
 [[K0305]]
 Soalan {0} · {1}
@@ -98,7 +98,7 @@ Soalan {0} · {1}
 Masa aktif: {0}
 
 [[K0308]]
-Perbandingan: {0} percubaan sukarela selama {1} hari. 
+Perbandingan: {0} percubaan sukarela selama {1} hari.
 
 [[K0309]]
 Soalan {0} / {1}
@@ -119,13 +119,13 @@ Soalan {0}, {1}
 Kaji semula soalan {0}, {1}
 
 [[K0315]]
-{0} betul; {1} salah; {2} tidak dijawab. 
+{0} betul; {1} salah; {2} tidak dijawab.
 
 [[K0316]]
-{0} dijawab; {1} tidak dijawab. 
+{0} dijawab; {1} tidak dijawab.
 
 [[K0317]]
-{0} dijawab; {1} tidak dijawab. Soalan yang tidak dijawab dikira sebagai salah. Setelah selesai, anda tidak boleh menukar jawapan. 
+{0} dijawab; {1} tidak dijawab. Soalan yang tidak dijawab dikira sebagai salah. Setelah selesai, anda tidak boleh menukar jawapan.
 
 [[K0318]]
 {0} / {1} betul
@@ -134,10 +134,10 @@ Kaji semula soalan {0}, {1}
 Persentil antara peserta sejarah: {0}
 
 [[K0320]]
-Peserta mendapat markah lebih rendah: {0}%. Peserta dengan skor yang sama: {1}%. 
+Peserta mendapat markah lebih rendah: {0}%. Peserta dengan skor yang sama: {1}%.
 
 [[K0321]]
-Kumpulan rujukan: {0} percubaan sejarah. Percubaan dengan tempoh yang direkodkan melebihi satu minit dan sehingga 40 minit disertakan. Skor seri berkongsi titik tengah kumpulan persentilnya. Anggaran dibundarkan kepada nombor bulat dan dipaparkan hanya dalam lingkungan 55–145, dengan penunjuk had di luar julat tersebut. Ini adalah penukaran skala, bukan pengukuran IQ populasi yang disahkan secara bebas. Latihan dan percubaan berulang boleh menjejaskan keputusan anda. Beberapa contoh imej telah dibetulkan sejak percubaan sejarah dikumpulkan, yang mengehadkan perbandingan. 
+Kumpulan rujukan: {0} percubaan sejarah. Percubaan dengan tempoh yang direkodkan melebihi satu minit dan sehingga 40 minit disertakan. Skor seri berkongsi titik tengah kumpulan persentilnya. Anggaran dibundarkan kepada nombor bulat dan dipaparkan hanya dalam lingkungan 55–145, dengan penunjuk had di luar julat tersebut. Ini adalah penukaran skala, bukan pengukuran IQ populasi yang disahkan secara bebas. Latihan dan percubaan berulang boleh menjejaskan keputusan anda. Beberapa contoh imej telah dibetulkan sejak percubaan sejarah dikumpulkan, yang mengehadkan perbandingan.
 
 [[K0322]]
 Anggaran IQ saya dalam Juara IQ: {0}. Sekadar untuk suka-suka. Cubalah: {1}

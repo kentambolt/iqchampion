@@ -5,10 +5,10 @@ Del testen på Facebook
 Estimert IQ
 
 [[K0073]]
-Kun for moro skyld. Et omtrentlig resultat, ikke en profesjonelt validert IQ-måling. 
+Kun for moro skyld. Et omtrentlig resultat, ikke en profesjonelt validert IQ-måling.
 
 [[K0074]]
-Testen din er ufullstendig. Dine riktige svar vises, men et IQ-estimat krever alle 36 svarene. 
+Testen din er ufullstendig. Dine riktige svar vises, men et IQ-estimat krever alle 36 svarene.
 
 [[K0075]]
 Ikke tilgjengelig
@@ -17,7 +17,7 @@ Ikke tilgjengelig
 Gratis test i visuell resonnering | IQ Champion
 
 [[K0077]]
-36 oppgaver innen visuell resonnering. Ta en gratis 40-minutters utfordring og se resultatene dine. 
+36 oppgaver innen visuell resonnering. Ta en gratis 40-minutters utfordring og se resultatene dine.
 
 [[K0078]]
 Besvart
@@ -50,13 +50,13 @@ Om testen
 En utfordring innen visuell resonnering
 
 [[K0088]]
-Finn mønsteret. 
+Finn mønsteret.
 
 [[K0089]]
-Finn den manglende brikken. 
+Finn den manglende brikken.
 
 [[K0090]]
-36 visuelle oppgaver og en estimert IQ-skåre. Kun for moro skyld. 
+36 visuelle oppgaver og en estimert IQ-skåre. Kun for moro skyld.
 
 [[K0091]]
 Oppgaver
@@ -71,23 +71,23 @@ Pris
 Gratis
 
 [[K0095]]
-Ingen konto nødvendig. Tidtakeren starter når du begynner. 
+Ingen konto nødvendig. Tidtakeren starter når du begynner.
 
 [[K0096]]
 Slik fungerer testen
 
 [[K0097]]
-Velg ikonet som fullfører hvert mønster. 
+Velg ikonet som fullfører hvert mønster.
 
 [[K0098]]
-Hopp over vanskelige spørsmål, og gå tilbake til dem via oversikten. 
+Hopp over vanskelige spørsmål, og gå tilbake til dem via oversikten.
 
 [[K0099]]
 Gå gjennom eller endre svarene dine før du fullfører. [[K0100]]
-Svarene dine og starttidspunktet lagres i denne nettleseren. Hvis du laster inn siden på nytt, beholdes den opprinnelige tidsfristen. 
+Svarene dine og starttidspunktet lagres i denne nettleseren. Hvis du laster inn siden på nytt, beholdes den opprinnelige tidsfristen.
 
 [[K0101]]
-Nedtellingen på 40 minutter fortsetter selv om siden lukkes. Spørsmål som ikke besvares, regnes som feil. 
+Nedtellingen på 40 minutter fortsetter selv om siden lukkes. Spørsmål som ikke besvares, regnes som feil.
 
 [[K0102]]
 Om resultatet ditt
@@ -96,13 +96,13 @@ Om resultatet ditt
 Din estimerte IQ er basert på hvor du plasserer deg blant
 
 [[K0104]]
-tidligere gjennomføringer. 
+tidligere gjennomføringer.
 
 [[K0105]]
-Sammenligningen baseres på gjennomføringer som varte i alt fra ett minutt opptil 40 minutter. Den er ikke validert mot en offisiell IQ-test eller et representativt utvalg av befolkningen. 
+Sammenligningen baseres på gjennomføringer som varte i alt fra ett minutt opptil 40 minutter. Den er ikke validert mot en offisiell IQ-test eller et representativt utvalg av befolkningen.
 
 [[K0106]]
-En test for moro skyld. Din estimerte IQ er en tilnærming, ikke et profesjonelt validert IQ-resultat. 
+En test for moro skyld. Din estimerte IQ er en tilnærming, ikke et profesjonelt validert IQ-resultat.
 
 [[K0107]]
 Start 40-minutters test
@@ -165,16 +165,16 @@ Gå gjennom og fullfør
 Instruksjoner og lagret fremdrift
 
 [[K0127]]
-Velg et svar for å gå videre til neste ubesvarte spørsmål. Du kan hoppe over, gå tilbake og endre svar før du fullfører. 
+Velg et svar for å gå videre til neste ubesvarte spørsmål. Du kan hoppe over, gå tilbake og endre svar før du fullfører.
 
 [[K0128]]
-Svarene lagres automatisk i denne nettleseren. Hvis du laster inn siden på nytt, kommer du tilbake til samme spørsmål; tidtakeren fortsetter å gå. 
+Svarene lagres automatisk i denne nettleseren. Hvis du laster inn siden på nytt, kommer du tilbake til samme spørsmål; tidtakeren fortsetter å gå.
 
 [[K0129]]
 Klar når du er klar
 
 [[K0130]]
-Fullfør denne testen? 
+Fullfør denne testen?
 
 [[K0131]]
 Fortsett
@@ -201,7 +201,7 @@ Om denne testen
 Hvordan tolke dette resultatet
 
 [[K0139]]
-Din persentil blant tidligere forsøk er omregnet til den kjente IQ-skalaen: med et midtpunkt på 100 og et standardavvik på 15. Dette forutsetter at sammenligningsgruppen er representativ for befolkningen, noe som ikke er bekreftet. 
+Din persentil blant tidligere forsøk er omregnet til den kjente IQ-skalaen: med et midtpunkt på 100 og et standardavvik på 15. Dette forutsetter at sammenligningsgruppen er representativ for befolkningen, noe som ikke er bekreftet.
 
 [[K0140]]
 Dine svar – forklart
@@ -256,13 +256,13 @@ Tilbakemelding og kontakt
 Send tilbakemelding eller kontakt oss
 
 [[K0158]]
-Riktig. Svaret ditt stemmer overens med det riktige svaret. 
+Riktig. Svaret ditt stemmer overens med det riktige svaret.
 
 [[K0159]]
-Feil. Svaret ditt avviker fra det riktige svaret. 
+Feil. Svaret ditt avviker fra det riktige svaret.
 
 [[K0160]]
-Ikke besvart. Det ble ikke gitt noe svar på dette spørsmålet. 
+Ikke besvart. Det ble ikke gitt noe svar på dette spørsmålet.
 
 [[K0161]]
 Ingen svar avgitt
@@ -274,28 +274,28 @@ Svaret du ga
 Manglende ikon
 
 [[K0164]]
-Alle spørsmål er besvart. Du kan fortsatt gå gjennom og endre svar, og deretter fullføre testen. 
+Alle spørsmål er besvart. Du kan fortsatt gå gjennom og endre svar, og deretter fullføre testen.
 
 [[K0165]]
-Fem minutter eller mindre gjenstår. 
+Fem minutter eller mindre gjenstår.
 
 [[K0166]]
-Tiden er ute. Svarene dine er vurdert. 
+Tiden er ute. Svarene dine er vurdert.
 
 [[K0167]]
-Test fullført. 
+Test fullført.
 
 [[K0168]]
-Sammenligning er ikke tilgjengelig. 
+Sammenligning er ikke tilgjengelig.
 
 [[K0169]]
-Denne nettleseren kunne ikke lagre forsøket ditt. Hold siden åpen: Hvis du laster inn siden på nytt, kan fremdriften gå tapt, eller eldre svar kan bli gjenopprettet. 
+Denne nettleseren kunne ikke lagre forsøket ditt. Hold siden åpen: Hvis du laster inn siden på nytt, kan fremdriften gå tapt, eller eldre svar kan bli gjenopprettet.
 
 [[K0170]]
-Lokal lagring er ikke tilgjengelig i denne nettleseren. Hold siden åpen for å unngå å miste forsøket ditt. 
+Lokal lagring er ikke tilgjengelig i denne nettleseren. Hold siden åpen for å unngå å miste forsøket ditt.
 
 [[K0171]]
-Det lagrede forsøket kunne ikke gjenopprettes. Start en ny test når du er klar. 
+Det lagrede forsøket kunne ikke gjenopprettes. Start en ny test når du er klar.
 
 [[K0172]]
 La figuren være uendret

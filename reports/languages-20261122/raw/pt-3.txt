@@ -1,96 +1,96 @@
 [[K0215]]
-Gire a forma 45 graus no sentido anti-horário a cada etapa. Sua cor alterna; portanto, a terceira imagem retoma a cor da primeira. 
+Gire a forma 45 graus no sentido anti-horário a cada etapa. Sua cor alterna; portanto, a terceira imagem retoma a cor da primeira.
 
 [[K0216]]
-Gire a forma branca central mais 45 graus no sentido anti-horário e restaure a cor escura presente na primeira imagem. Escolha a forma curva escura nessa orientação. 
+Gire a forma branca central mais 45 graus no sentido anti-horário e restaure a cor escura presente na primeira imagem. Escolha a forma curva escura nessa orientação.
 
 [[K0217]]
 Combine os círculos pretos.
 
 [[K0218]]
-No resultado, um círculo será preto se o círculo correspondente for preto em qualquer uma das entradas. Ele só será branco se ambos os círculos nas entradas forem brancos. 
+No resultado, um círculo será preto se o círculo correspondente for preto em qualquer uma das entradas. Ele só será branco se ambos os círculos nas entradas forem brancos.
 
 [[K0219]]
-A primeira entrada fornece o círculo preto na parte inferior direita; a segunda fornece os dois círculos pretos na parte superior. Os círculos no centro e na parte inferior esquerda permanecem brancos. 
+A primeira entrada fornece o círculo preto na parte inferior direita; a segunda fornece os dois círculos pretos na parte superior. Os círculos no centro e na parte inferior esquerda permanecem brancos.
 
 [[K0220]]
 Expanda para as células vizinhas.
 
 [[K0221]]
-A cada etapa, toda célula azul permanece azul e também colore seus vizinhos imediatos — acima, abaixo, à esquerda e à direita. A expansão para nos limites da grade. 
+A cada etapa, toda célula azul permanece azul e também colore seus vizinhos imediatos — acima, abaixo, à esquerda e à direita. A expansão para nos limites da grade.
 
 [[K0222]]
-Aplique a mesma expansão de uma célula à região azul central. Os vizinhos laterais recém-alcançados tornam-se azuis; as células mais distantes permanecem no padrão de xadrez cinza e preto. 
+Aplique a mesma expansão de uma célula à região azul central. Os vizinhos laterais recém-alcançados tornam-se azuis; as células mais distantes permanecem no padrão de xadrez cinza e preto.
 
 [[K0223]]
 Anule as posições marrons correspondentes.
 
 [[K0224]]
-Compare as duas faixas de cinco células, posição por posição. No resultado, uma célula será marrom se, e somente se, ela for marrom em exatamente uma das entradas. Células marrons correspondentes anulam-se, tornando-se azuis. 
+Compare as duas faixas de cinco células, posição por posição. No resultado, uma célula será marrom se, e somente se, ela for marrom em exatamente uma das entradas. Células marrons correspondentes anulam-se, tornando-se azuis.
 
 [[K0225]]
-A cor marrom aparece nas posições 2, 3, 4 e 5 na primeira faixa, e nas posições 2, 3 e 5 na segunda. Apenas a posição 4 permanece marrom. 
+A cor marrom aparece nas posições 2, 3, 4 e 5 na primeira faixa, e nas posições 2, 3 e 5 na segunda. Apenas a posição 4 permanece marrom.
 
 [[K0226]]
 Remova os pontos vermelhos mais próximos.
 
 [[K0227]]
 Determine a menor distância entre quaisquer dois pontos vermelhos. Remova todos os pontos vermelhos que pertençam a um par com essa distância. Recalcule a menor distância para a próxima etapa. [[K0228]]
-Na imagem central, os três pontos vermelhos inferiores participam dos pares diagonais mais próximos. Ao removê-los, resta apenas o ponto vermelho na linha superior, quarta coluna. 
+Na imagem central, os três pontos vermelhos inferiores participam dos pares diagonais mais próximos. Ao removê-los, resta apenas o ponto vermelho na linha superior, quarta coluna.
 
 [[K0229]]
 Mova as seis cores ao longo de um ciclo.
 
 [[K0230]]
-Leia a pilha da esquerda de cima para baixo e, em seguida, a pilha da direita, também de cima para baixo. Desloque cada cor uma posição à frente nesse ciclo de seis posições; a cor que está na parte inferior direita passa para a parte superior esquerda. 
+Leia a pilha da esquerda de cima para baixo e, em seguida, a pilha da direita, também de cima para baixo. Desloque cada cor uma posição à frente nesse ciclo de seis posições; a cor que está na parte inferior direita passa para a parte superior esquerda.
 
 [[K0231]]
-Na imagem central, o círculo marrom da parte inferior direita passa para a parte superior esquerda. As pilhas finais ficam: marrom/vermelho/vermelho, à esquerda, e preto/marrom/azul, à direita. 
+Na imagem central, o círculo marrom da parte inferior direita passa para a parte superior esquerda. As pilhas finais ficam: marrom/vermelho/vermelho, à esquerda, e preto/marrom/azul, à direita.
 
 [[K0232]]
 Mova as cores branca e preta em direções opostas.
 
 [[K0233]]
-A cada passo, os círculos brancos movem-se uma posição no sentido horário, e os círculos pretos, uma posição no sentido anti-horário. A cor cinza indica que um círculo branco e um círculo preto ocupam a mesma posição; separe-os antes de realizar o próximo movimento. 
+A cada passo, os círculos brancos movem-se uma posição no sentido horário, e os círculos pretos, uma posição no sentido anti-horário. A cor cinza indica que um círculo branco e um círculo preto ocupam a mesma posição; separe-os antes de realizar o próximo movimento.
 
 [[K0234]]
-A imagem central apresenta círculos brancos nos dois cantos esquerdos, e círculos pretos nos dois cantos esquerdos e no canto inferior direito. Ao movê-los, obtém-se: branco no canto superior esquerdo, cinza no canto superior direito e preto nos dois cantos inferiores. 
+A imagem central apresenta círculos brancos nos dois cantos esquerdos, e círculos pretos nos dois cantos esquerdos e no canto inferior direito. Ao movê-los, obtém-se: branco no canto superior esquerdo, cinza no canto superior direito e preto nos dois cantos inferiores.
 
 [[K0235]]
 Estenda todos os traços horizontais.
 
 [[K0236]]
-A cada passo, estenda cada traço horizontal preto até a cápsula vizinha imediata, em ambos os lados. Os traços já existentes permanecem, e os traços param ao atingir as bordas externas. 
+A cada passo, estenda cada traço horizontal preto até a cápsula vizinha imediata, em ambos os lados. Os traços já existentes permanecem, e os traços param ao atingir as bordas externas.
 
 [[K0237]]
-Estenda os traços da imagem central por mais uma cápsula, para a esquerda e para a direita. Mantenha a distinção entre as diferentes alturas dos traços; a resposta mostra as linhas horizontais resultantes, que se tornam mais longas e atravessam as quatro cápsulas. 
+Estenda os traços da imagem central por mais uma cápsula, para a esquerda e para a direita. Mantenha a distinção entre as diferentes alturas dos traços; a resposta mostra as linhas horizontais resultantes, que se tornam mais longas e atravessam as quatro cápsulas.
 
 [[K0238]]
 Expanda a malha triangular.
 
 [[K0239]]
-Considere o desenho como um conjunto de pequenos triângulos. A cada passo, adicione um pequeno triângulo logo após cada borda exposta, mantendo os triângulos já existentes e suas linhas de conexão. 
+Considere o desenho como um conjunto de pequenos triângulos. A cada passo, adicione um pequeno triângulo logo após cada borda exposta, mantendo os triângulos já existentes e suas linhas de conexão.
 
 [[K0240]]
-Expanda o agrupamento verde central adicionando mais uma camada de triângulos adjacentes. A resposta mantém a mesma grade triangular e adiciona triângulos ao longo de suas bordas externas. 
+Expanda o agrupamento verde central adicionando mais uma camada de triângulos adjacentes. A resposta mantém a mesma grade triangular e adiciona triângulos ao longo de suas bordas externas.
 
 [[K0241]]
 Remova os vértices marcados.
 
 [[K0242]]
-Os pontos marrons identificam os vértices do polígono preto que devem ser removidos. Conecte os vértices restantes na ordem original. Dois vértices restantes formam um segmento de reta. 
+Os pontos marrons identificam os vértices do polígono preto que devem ser removidos. Conecte os vértices restantes na ordem original. Dois vértices restantes formam um segmento de reta.
 
 [[K0243]]
-Remova os vértices superior e esquerdo marcados pelos pontos marrons. Restam apenas os dois vértices inferiores; portanto, a resposta é o pequeno segmento de reta horizontal próximo ao canto inferior direito. 
+Remova os vértices superior e esquerdo marcados pelos pontos marrons. Restam apenas os dois vértices inferiores; portanto, a resposta é o pequeno segmento de reta horizontal próximo ao canto inferior direito.
 
 [[K0244]]
 Alterne o estado dos pontos nos cantos do contorno.
 
 [[K0245]]
-Faça a correspondência entre os vértices do contorno preto e as posições dos pontos em uma grade 3x3. Em cada vértice, remova um ponto azul existente ou adicione um, caso a posição esteja vazia. As demais posições permanecem inalteradas. 
+Faça a correspondência entre os vértices do contorno preto e as posições dos pontos em uma grade 3x3. Em cada vértice, remova um ponto azul existente ou adicione um, caso a posição esteja vazia. As demais posições permanecem inalteradas.
 
 [[K0246]]
-Alterne o estado dos quatro pontos nos cantos do contorno inclinado. O resultado apresenta pontos azuis nas posições: superior esquerda e superior central, central central e central direita, além de todas as três posições inferiores. 
+Alterne o estado dos quatro pontos nos cantos do contorno inclinado. O resultado apresenta pontos azuis nas posições: superior esquerda e superior central, central central e central direita, além de todas as três posições inferiores.
 
 [[K0247]]
 Remova o bloco marcado e seus vizinhos.

@@ -2,13 +2,13 @@
 Odhadované rozpätie mediánu
 
 [[K0002]]
-Verejné porovnania zahŕňajú všetkých používateľov, ktorí prispeli údajmi pri tejto verzii hlavolamu. Voliteľné údaje o vekovej skupine a krajine sa používajú iba v rámci súhrnných štatistík. 
+Verejné porovnania zahŕňajú všetkých používateľov, ktorí prispeli údajmi pri tejto verzii hlavolamu. Voliteľné údaje o vekovej skupine a krajine sa používajú iba v rámci súhrnných štatistík.
 
 [[K0003]]
-Súhlasím s tým, aby boli moje anonymné výsledky (vrátane času riešenia a voliteľných údajov o vekovej skupine či krajine) zahrnuté do súhrnných štatistík. 
+Súhlasím s tým, aby boli moje anonymné výsledky (vrátane času riešenia a voliteľných údajov o vekovej skupine či krajine) zahrnuté do súhrnných štatistík.
 
 [[K0004]]
-Rozpätia mediánu sú odhadované na základe časových histogramov. Zobrazený interval vyjadruje rozlíšenie časových údajov; nejde o presný medián ani percentil rýchlosti. 
+Rozpätia mediánu sú odhadované na základe časových histogramov. Zobrazený interval vyjadruje rozlíšenie časových údajov; nejde o presný medián ani percentil rýchlosti.
 
 [[K0005]]
 Zdieľať výzvu
@@ -17,34 +17,34 @@ Zdieľať výzvu
 Čas riešenia
 
 [[K0007]]
-Vďaka nastaveniam súkromia vo vašom prehliadači zostávajú tieto štatistiky uložené vo vašom zariadení. 
+Vďaka nastaveniam súkromia vo vašom prehliadači zostávajú tieto štatistiky uložené vo vašom zariadení.
 
 [[K0008]]
 Všetky dobrovoľné pokusy
 
 [[K0009]]
-Ďakujeme. Váš anonymný príspevok bol uložený. 
+Ďakujeme. Váš anonymný príspevok bol uložený.
 
 [[K0010]]
-V tejto skupine zatiaľ nie je dostatok porovnateľných pokusov. Vaše vlastné štatistiky sú však vždy k dispozícii. 
+V tejto skupine zatiaľ nie je dostatok porovnateľných pokusov. Vaše vlastné štatistiky sú však vždy k dispozícii.
 
 [[K0011]]
-Porovnania sú dočasne nedostupné. Vaše vlastné štatistiky a možnosť zdieľania naďalej fungujú. 
+Porovnania sú dočasne nedostupné. Vaše vlastné štatistiky a možnosť zdieľania naďalej fungujú.
 
 [[K0012]]
-Tento starší pokus neobsahuje kompletný záznam o čase riešenia. Svoj výsledok si však stále môžete prezrieť a zdieľať. 
+Tento starší pokus neobsahuje kompletný záznam o čase riešenia. Svoj výsledok si však stále môžete prezrieť a zdieľať.
 
 [[K0013]]
-Pred odoslaním akýchkoľvek údajov sa rozhodnite, či chcete prispieť do štatistík. 
+Pred odoslaním akýchkoľvek údajov sa rozhodnite, či chcete prispieť do štatistík.
 
 [[K0014]]
-Tento pokus neobsahuje kompletný záznam o čase riešenia. Vaše osobné výsledky zostávajú nezmenené. 
+Tento pokus neobsahuje kompletný záznam o čase riešenia. Vaše osobné výsledky zostávajú nezmenené.
 
 [[K0015]]
-Váš príspevok sa v tomto prehliadači nepodarilo uložiť. Žiadne údaje neboli odoslané. 
+Váš príspevok sa v tomto prehliadači nepodarilo uložiť. Žiadne údaje neboli odoslané.
 
 [[K0016]]
-Tento príspevok vyžaduje kontrolu, preto nebol opätovne započítaný. 
+Tento príspevok vyžaduje kontrolu, preto nebol opätovne započítaný.
 
 [[K0017]]
 Váš príspevok nebol potvrdený. ​​Skúste to znova s ​​tými istými uloženými údajmi. [[K0018]]
@@ -84,13 +84,13 @@ Vyriešené vzorce
 Výzva, ktorú stojí za to zdieľať
 
 [[K0030]]
-36 úloh. Jedna výzva. 
+36 úloh. Jedna výzva.
 
 [[K0031]]
-Zdieľajte výzvu s niekým, koho poznáte. 
+Zdieľajte výzvu s niekým, koho poznáte.
 
 [[K0032]]
-Váš čas aktívneho riešenia. K dispozícii nie je dostatok porovnávacích údajov na určenie poradia podľa rýchlosti. 
+Váš čas aktívneho riešenia. K dispozícii nie je dostatok porovnávacích údajov na určenie poradia podľa rýchlosti.
 
 [[K0033]]
 Vyberte, čo chcete zdieľať
@@ -117,22 +117,22 @@ Váš text na zdieľanie
 Skopírovať text
 
 [[K0041]]
-Na Facebooku môžete napísať vlastný text. Nikdy nič nezverejňujeme automaticky. 
+Na Facebooku môžete napísať vlastný text. Nikdy nič nezverejňujeme automaticky.
 
 [[K0042]]
-Skopírované. Vložte to do svojho príspevku. 
+Skopírované. Vložte to do svojho príspevku.
 
 [[K0043]]
-Vyberte a skopírujte text nižšie. 
+Vyberte a skopírujte text nižšie.
 
 [[K0044]]
 Štatistiky vašich odpovedí
 
 [[K0045]]
-Porovnania otázok zatiaľ nie sú k dispozícii. Vaše osobné štatistiky sú uvedené nižšie. 
+Porovnania otázok zatiaľ nie sú k dispozícii. Vaše osobné štatistiky sú uvedené nižšie.
 
 [[K0046]]
-Čas zahŕňa dobu, počas ktorej ste sa sústredili na otázku, až do momentu vašej poslednej odpovede. Pri nezodpovedaných otázkach sa zobrazuje čas strávený nad úlohou. Čas na skrytých kartách alebo zatvorených stránkach sa nezapočítava. Pri starších pokusoch nemusia byť k dispozícii údaje o čase. 
+Čas zahŕňa dobu, počas ktorej ste sa sústredili na otázku, až do momentu vašej poslednej odpovede. Pri nezodpovedaných otázkach sa zobrazuje čas strávený nad úlohou. Čas na skrytých kartách alebo zatvorených stránkach sa nezapočítava. Pri starších pokusoch nemusia byť k dispozícii údaje o čase.
 
 [[K0047]]
 Všetkých 36 otázok vrátane vynechaných
@@ -150,16 +150,16 @@ Medián času pri správnych odpovediach
 Správne odpovede ostatných
 
 [[K0052]]
-Porovnajte svoje výsledky s výsledkami dobrovoľných účastníkov, ktorí riešili tú istú verziu hlavolamu. Na výpočet miery úspešnosti je potrebných aspoň 30 zodpovedaných otázok a na určenie mediánu aspoň 30 správnych odpovedí s zaznamenaným časom. Ide o účastníkov, nie o reprezentatívnu vzorku populácie. 
+Porovnajte svoje výsledky s výsledkami dobrovoľných účastníkov, ktorí riešili tú istú verziu hlavolamu. Na výpočet miery úspešnosti je potrebných aspoň 30 zodpovedaných otázok a na určenie mediánu aspoň 30 správnych odpovedí s zaznamenaným časom. Ide o účastníkov, nie o reprezentatívnu vzorku populácie.
 
 [[K0053]]
 Porovnajte a prispejte
 
 [[K0054]]
-Pomôžte budúcim účastníkom porovnať si výsledky. Po dokončení testu môžete zdieľať anonymné štatistiky, a to aj v prípade, že ste niektoré otázky vynechali. 
+Pomôžte budúcim účastníkom porovnať si výsledky. Po dokončení testu môžete zdieľať anonymné štatistiky, a to aj v prípade, že ste niektoré otázky vynechali.
 
 [[K0055]]
-Pripravujú sa anonymné porovnania. Svoje osobné štatistiky môžete zobraziť a zdieľať aj bez toho, aby ste prispeli do celkových štatistík. 
+Pripravujú sa anonymné porovnania. Svoje osobné štatistiky môžete zobraziť a zdieľať aj bez toho, aby ste prispeli do celkových štatistík.
 
 [[K0056]]
 Veková skupina (nepovinné)
@@ -174,16 +174,16 @@ Nechcem uviesť
 Menej ako 18 rokov
 
 [[K0060]]
-Súhlasím s tým, aby boli moje anonymné výsledky otázok a časy riešenia – spolu s vekovou skupinou a krajinou, ktoré uvediem – zahrnuté do porovnávacích štatistík. 
+Súhlasím s tým, aby boli moje anonymné výsledky otázok a časy riešenia – spolu s vekovou skupinou a krajinou, ktoré uvediem – zahrnuté do porovnávacích štatistík.
 
 [[K0061]]
-Bez mena, e-mailu či presného veku. Zdieľanie štatistík je dobrovoľné a nemá vplyv na váš výsledok. Malé porovnávacie skupiny sú skryté. 
+Bez mena, e-mailu či presného veku. Zdieľanie štatistík je dobrovoľné a nemá vplyv na váš výsledok. Malé porovnávacie skupiny sú skryté.
 
 [[K0062]]
 Prispieť anonymne
 
 [[K0063]]
-Prečo práve táto odpoveď? 
+Prečo práve táto odpoveď?
 
 [[K0064]]
 Vysvetlenie
@@ -195,13 +195,13 @@ Pravidlo
 Aplikácia pravidla
 
 [[K0067]]
-Prezeráte si staršiu verziu hlavolamu. Jej príklady obsahujú nejednoznačnosť, ktorá bola medzičasom odhalená; vaša uložená odpoveď ani skóre sa nemenia. 
+Prezeráte si staršiu verziu hlavolamu. Jej príklady obsahujú nejednoznačnosť, ktorá bola medzičasom odhalená; vaša uložená odpoveď ani skóre sa nemenia.
 
 [[K0068]]
-Prezeráte si pôvodnú verziu, ktorá obsahovala nesprávne označené príklady. Vaša uložená odpoveď ani skóre sa nemenia. Nové pokusy využívajú opravenú verziu. 
+Prezeráte si pôvodnú verziu, ktorá obsahovala nesprávne označené príklady. Vaša uložená odpoveď ani skóre sa nemenia. Nové pokusy využívajú opravenú verziu.
 
 [[K0069]]
-V tejto pôvodnej verzii sa zobrazený stredný obrázok rozširuje na zelenú farbu vpravo hore (riadok 2, stĺpec 3), červenú farbu (riadok 2, stĺpec 1) a hnedú farbu (riadok 2, stĺpec 2; riadok 3, stĺpec 3; a riadok 4, stĺpec 3). 
+V tejto pôvodnej verzii sa zobrazený stredný obrázok rozširuje na zelenú farbu vpravo hore (riadok 2, stĺpec 3), červenú farbu (riadok 2, stĺpec 1) a hnedú farbu (riadok 2, stĺpec 2; riadok 3, stĺpec 3; a riadok 4, stĺpec 3).
 
 [[K0070]]
 Zdieľať výsledok na Facebooku

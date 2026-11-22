@@ -1,75 +1,75 @@
 [[K0249]]
-Após a remoção da peça vermelha, os blocos restantes formam a escadaria central. Ao remover o bloco amarelo e seus vizinhos adjacentes, o bloco azul superior cai para a base. 
+Após a remoção da peça vermelha, os blocos restantes formam a escadaria central. Ao remover o bloco amarelo e seus vizinhos adjacentes, o bloco azul superior cai para a base.
 
 [[K0250]]
 Alterne as camadas e aplique a máscara de cores.
 
 [[K0251]]
-Acompanhe as três formas. A cada etapa, a forma que está à frente passa para trás. Na imagem final, mantenha os preenchimentos cinzas ou pretos da imagem intermediária; as formas brancas (sem preenchimento) recuperam as cores que tinham na primeira imagem. 
+Acompanhe as três formas. A cada etapa, a forma que está à frente passa para trás. Na imagem final, mantenha os preenchimentos cinzas ou pretos da imagem intermediária; as formas brancas (sem preenchimento) recuperam as cores que tinham na primeira imagem.
 
 [[K0252]]
-O hexágono cinza vem para a frente, a cápsula horizontal preta fica atrás dele, e a cápsula vertical vai para a parte de trás. Aquela cápsula vertical branca recupera sua cor amarela original. 
+O hexágono cinza vem para a frente, a cápsula horizontal preta fica atrás dele, e a cápsula vertical vai para a parte de trás. Aquela cápsula vertical branca recupera sua cor amarela original.
 
 [[K0253]]
 Use a cor de cada círculo para determinar seu movimento.
 
 [[K0254]]
-Acompanhe cada círculo em relação ao círculo que o envolve imediatamente. O branco move-se 90 graus no sentido horário, o preto move-se 90 graus no sentido anti-horário, e o vermelho permanece na mesma posição relativa. O azul não se move. Aplique esses movimentos a todos os níveis aninhados. 
+Acompanhe cada círculo em relação ao círculo que o envolve imediatamente. O branco move-se 90 graus no sentido horário, o preto move-se 90 graus no sentido anti-horário, e o vermelho permanece na mesma posição relativa. O azul não se move. Aplique esses movimentos a todos os níveis aninhados.
 
 [[K0255]]
-O círculo preto desloca-se de uma posição acima do círculo azul para a esquerda dele. O vermelho permanece à direita, dentro do círculo preto. O círculo branco maior move-se de uma posição acima do vermelho para a direita dele; o círculo branco menor move-se de uma posição abaixo do círculo branco maior para a esquerda dele. 
+O círculo preto desloca-se de uma posição acima do círculo azul para a esquerda dele. O vermelho permanece à direita, dentro do círculo preto. O círculo branco maior move-se de uma posição acima do vermelho para a direita dele; o círculo branco menor move-se de uma posição abaixo do círculo branco maior para a esquerda dele.
 
 [[K0256]]
 Desloque as cores ao longo dos caminhos conectados.
 
 [[K0257]]
-As conexões pretas definem as rotas pelas quais as cores se movem. Siga cada ciclo no sentido horário, deslocando cada cor para a próxima posição conectada. Em uma rota de duas posições, as cores são trocadas entre si; pontos não conectados permanecem onde estão. 
+As conexões pretas definem as rotas pelas quais as cores se movem. Siga cada ciclo no sentido horário, deslocando cada cor para a próxima posição conectada. Em uma rota de duas posições, as cores são trocadas entre si; pontos não conectados permanecem onde estão.
 
 [[K0258]]
 Troque as duas cores do topo. No ciclo inferior, a cor azul (no meio à esquerda) move-se para o centro, e a cor vermelha (no meio à direita) move-se para a parte inferior esquerda. A cor vermelha isolada, na parte inferior direita, permanece inalterada. [[K0259]]
 Mova cada cor ao longo de seu próprio caminho.
 
 [[K0260]]
-O vermelho move-se para baixo, o verde para a direita e o amarelo para a esquerda. O azul move-se para cima e, sempre que possível, uma coluna para a esquerda. A cor branca indica a sobreposição de cores; separe essas cores novamente ao realizar o próximo movimento. Cores que ultrapassam os limites da grade desaparecem. 
+O vermelho move-se para baixo, o verde para a direita e o amarelo para a esquerda. O azul move-se para cima e, sempre que possível, uma coluna para a esquerda. A cor branca indica a sobreposição de cores; separe essas cores novamente ao realizar o próximo movimento. Cores que ultrapassam os limites da grade desaparecem.
 
 [[K0261]]
-Separe a célula branca central em vermelho e verde. O vermelho move-se para a parte inferior central, o verde para a parte central direita, o azul chega ao canto superior esquerdo e o amarelo sai pelo lado esquerdo. Essas três células coloridas formam a resposta. 
+Separe a célula branca central em vermelho e verde. O vermelho move-se para a parte inferior central, o verde para a parte central direita, o azul chega ao canto superior esquerdo e o amarelo sai pelo lado esquerdo. Essas três células coloridas formam a resposta.
 
 [[K0262]]
 Mova as pontas vermelhas e azuis em direções opostas.
 
 [[K0263]]
-A cada passo, todas as pontas vermelhas movem-se uma posição no sentido anti-horário, e todas as pontas azuis movem-se duas posições no sentido horário ao redor da estrela de cinco pontas. A cor branca indica que o vermelho e o azul estão sobrepostos; separe as duas cores antes de realizar o próximo movimento. 
+A cada passo, todas as pontas vermelhas movem-se uma posição no sentido anti-horário, e todas as pontas azuis movem-se duas posições no sentido horário ao redor da estrela de cinco pontas. A cor branca indica que o vermelho e o azul estão sobrepostos; separe as duas cores antes de realizar o próximo movimento.
 
 [[K0264]]
-Na imagem central, o vermelho está na parte inferior direita, enquanto o azul está na parte superior direita e na parte superior esquerdo. O movimento seguinte coloca o vermelho e um dos azuis na parte superior direita, resultando na cor branca. O outro azul move-se para a parte inferior esquerda. 
+Na imagem central, o vermelho está na parte inferior direita, enquanto o azul está na parte superior direita e na parte superior esquerdo. O movimento seguinte coloca o vermelho e um dos azuis na parte superior direita, resultando na cor branca. O outro azul move-se para a parte inferior esquerda.
 
 [[K0265]]
 Desloque duas cópias nas direções indicadas pelo setor.
 
 [[K0266]]
-As duas bordas do setor branco indicam duas direções de movimento. Crie duas cópias do padrão de pontos vermelhos e desloque cada cópia uma posição na grade em uma das direções, permitindo que o padrão "dê a volta" nas bordas. Uma posição alcançada por apenas uma das cópias torna-se vermelha; uma posição alcançada por ambas as cópias torna-se azul. 
+As duas bordas do setor branco indicam duas direções de movimento. Crie duas cópias do padrão de pontos vermelhos e desloque cada cópia uma posição na grade em uma das direções, permitindo que o padrão "dê a volta" nas bordas. Uma posição alcançada por apenas uma das cópias torna-se vermelha; uma posição alcançada por ambas as cópias torna-se azul.
 
 [[K0267]]
-O setor final aponta para baixo-esquerda e baixo-direita. Desloque uma cópia em cada direção. A sobreposição delas torna toda a linha superior e o centro azuis; as posições alcançadas por apenas uma das cópias permanecem vermelhas, conforme mostrado na resposta. 
+O setor final aponta para baixo-esquerda e baixo-direita. Desloque uma cópia em cada direção. A sobreposição delas torna toda a linha superior e o centro azuis; as posições alcançadas por apenas uma das cópias permanecem vermelhas, conforme mostrado na resposta.
 
 [[K0268]]
 Remova segmentos de linha que se cruzam.
 
 [[K0269]]
-Sobreponha os dois desenhos. Considere cada segmento reto entre dois pontos consecutivos da grade como um segmento de linha individual. Quando um segmento de um desenho cruzar um segmento do outro entre os pontos da grade, remova ambos os segmentos. Segmentos que se encontram em um ponto da grade permanecem no lugar. Mantenha todos os segmentos não cortados de ambos os desenhos. 
+Sobreponha os dois desenhos. Considere cada segmento reto entre dois pontos consecutivos da grade como um segmento de linha individual. Quando um segmento de um desenho cruzar um segmento do outro entre os pontos da grade, remova ambos os segmentos. Segmentos que se encontram em um ponto da grade permanecem no lugar. Mantenha todos os segmentos não cortados de ambos os desenhos.
 
 [[K0270]]
-Remova os segmentos diagonais cortados entre os pontos da grade. As peças restantes formam uma bifurcação superior com uma haste vertical, duas diagonais curtas separadas próximas aos cantos superiores, e uma bifurcação inferior com sua própria haste vertical. 
+Remova os segmentos diagonais cortados entre os pontos da grade. As peças restantes formam uma bifurcação superior com uma haste vertical, duas diagonais curtas separadas próximas aos cantos superiores, e uma bifurcação inferior com sua própria haste vertical.
 
 [[K0271]]
 Deslize e organize as peças por tamanho.
 
 [[K0272]]
-Empurre todas as peças na direção da seta. Peças menores passam pelas peças maiores e alcançam primeiro os espaços disponíveis mais distantes. Mantenha a altura e a posição vertical de cada peça. Peças podem compartilhar uma coluna, desde que não se sobreponham verticalmente; peças de mesmo tamanho mantêm sua ordem relativa. 
+Empurre todas as peças na direção da seta. Peças menores passam pelas peças maiores e alcançam primeiro os espaços disponíveis mais distantes. Mantenha a altura e a posição vertical de cada peça. Peças podem compartilhar uma coluna, desde que não se sobreponham verticalmente; peças de mesmo tamanho mantêm sua ordem relativa.
 
 [[K0273]]
-A seta aponta para a direita. Encaixe as peças mais curtas nos espaços disponíveis à direita; em seguida, as peças que ocupam duas células; depois, as peças mais altas à esquerda delas. Nada se move para cima ou para baixo, e nenhuma peça muda de tamanho. 
+A seta aponta para a direita. Encaixe as peças mais curtas nos espaços disponíveis à direita; em seguida, as peças que ocupam duas células; depois, as peças mais altas à esquerda delas. Nada se move para cima ou para baixo, e nenhuma peça muda de tamanho.
 
 [[K0274]]
 Mova os divisores para os espaços livres.

@@ -1,75 +1,75 @@
 [[K0249]]
-Na het verwijderen van de rode blokjes vormen de overgebleven blokjes de middelste trap. Door het gele blokje en de aangrenzende blokjes te verwijderen, blijft het bovenste blauwe blokje over, dat vervolgens naar beneden valt. 
+Na het verwijderen van de rode blokjes vormen de overgebleven blokjes de middelste trap. Door het gele blokje en de aangrenzende blokjes te verwijderen, blijft het bovenste blauwe blokje over, dat vervolgens naar beneden valt.
 
 [[K0250]]
 Doorloop de lagen en pas het kleurmasker toe.
 
 [[K0251]]
-Volg dezelfde drie vormen. Bij elke stap verplaatst de voorste vorm zich naar achteren. Behoud voor het eindresultaat de grijze of zwarte invullingen uit de middelste afbeelding; de niet-ingevulde witte vormen krijgen hun oorspronkelijke kleuren uit de eerste afbeelding terug. 
+Volg dezelfde drie vormen. Bij elke stap verplaatst de voorste vorm zich naar achteren. Behoud voor het eindresultaat de grijze of zwarte invullingen uit de middelste afbeelding; de niet-ingevulde witte vormen krijgen hun oorspronkelijke kleuren uit de eerste afbeelding terug.
 
 [[K0252]]
-De grijze zeshoek komt vooraan te staan, de zwarte horizontale capsule bevindt zich daarachter, en de verticale capsule verplaatst zich naar de achterste positie. De witte verticale capsule krijgt zijn oorspronkelijke gele kleur terug. 
+De grijze zeshoek komt vooraan te staan, de zwarte horizontale capsule bevindt zich daarachter, en de verticale capsule verplaatst zich naar de achterste positie. De witte verticale capsule krijgt zijn oorspronkelijke gele kleur terug.
 
 [[K0253]]
 Gebruik de kleur van elke cirkel om de beweging ervan te bepalen.
 
 [[K0254]]
-Volg elke cirkel ten opzichte van de cirkel die er direct omheen ligt. Een witte cirkel beweegt 90 graden met de klok mee, een zwarte cirkel 90 graden tegen de klok in, en een rode cirkel blijft op dezelfde relatieve positie. Een blauwe cirkel beweegt niet. Pas deze bewegingen toe op elk niveau in de reeks. 
+Volg elke cirkel ten opzichte van de cirkel die er direct omheen ligt. Een witte cirkel beweegt 90 graden met de klok mee, een zwarte cirkel 90 graden tegen de klok in, en een rode cirkel blijft op dezelfde relatieve positie. Een blauwe cirkel beweegt niet. Pas deze bewegingen toe op elk niveau in de reeks.
 
 [[K0255]]
-De zwarte cirkel verplaatst zich van een positie boven de blauwe cirkel naar een positie links daarvan. De rode cirkel blijft rechts, binnen de zwarte cirkel. De grotere witte cirkel verplaatst zich van een positie boven de rode cirkel naar rechts daarvan; de kleinste witte cirkel verplaatst zich van een positie onder de grotere witte cirkel naar links daarvan. 
+De zwarte cirkel verplaatst zich van een positie boven de blauwe cirkel naar een positie links daarvan. De rode cirkel blijft rechts, binnen de zwarte cirkel. De grotere witte cirkel verplaatst zich van een positie boven de rode cirkel naar rechts daarvan; de kleinste witte cirkel verplaatst zich van een positie onder de grotere witte cirkel naar links daarvan.
 
 [[K0256]]
 Verplaats de kleuren langs de verbonden routes.
 
 [[K0257]]
-De zwarte verbindingen bepalen de routes waarlangs de kleuren zich verplaatsen. Volg elke lus met de klok mee en verplaats elke kleur naar de volgende verbonden positie. Bij een route tussen twee posities worden de kleuren onderling verwisseld; losstaande punten blijven op hun plek. 
+De zwarte verbindingen bepalen de routes waarlangs de kleuren zich verplaatsen. Volg elke lus met de klok mee en verplaats elke kleur naar de volgende verbonden positie. Bij een route tussen twee posities worden de kleuren onderling verwisseld; losstaande punten blijven op hun plek.
 
 [[K0258]]
 Verwissel de twee bovenste kleuren. In de onderste lus verplaatst de blauwe cirkel (links in het midden) zich naar het midden, en de rode cirkel (rechts in het midden) verplaatst zich naar linksonder. De rode cirkel rechtsonder, die niet verbonden is met andere elementen, blijft ongewijzigd. [[K0259]]
 Verplaats elke kleur langs een eigen pad
 
 [[K0260]]
-Rood beweegt naar beneden, groen naar rechts en geel naar links. Blauw beweegt naar boven en, waar mogelijk, één kolom naar links. Witte vakjes duiden op overlappende kleuren; scheid deze kleuren weer bij de volgende verplaatsing. Kleuren die buiten het raster terechtkomen, verdwijnen. 
+Rood beweegt naar beneden, groen naar rechts en geel naar links. Blauw beweegt naar boven en, waar mogelijk, één kolom naar links. Witte vakjes duiden op overlappende kleuren; scheid deze kleuren weer bij de volgende verplaatsing. Kleuren die buiten het raster terechtkomen, verdwijnen.
 
 [[K0261]]
-Splits het middelste witte vakje op in rood en groen. Rood verplaatst zich naar het midden onderaan, groen naar het midden rechts, blauw bereikt linksboven en geel verlaat het raster aan de linkerkant. Deze drie gekleurde vakjes vormen het antwoord. 
+Splits het middelste witte vakje op in rood en groen. Rood verplaatst zich naar het midden onderaan, groen naar het midden rechts, blauw bereikt linksboven en geel verlaat het raster aan de linkerkant. Deze drie gekleurde vakjes vormen het antwoord.
 
 [[K0262]]
 Verplaats de rode en blauwe uiteinden in tegengestelde richtingen
 
 [[K0263]]
-Bij elke stap verplaatst elk rood uiteinde zich één positie tegen de klok in, en elk blauw uiteinde twee posities met de klok mee langs de vijfpuntige ster. Een wit vakje betekent dat rood en blauw elkaar overlappen; scheid de kleuren voordat je de volgende verplaatsing uitvoert. 
+Bij elke stap verplaatst elk rood uiteinde zich één positie tegen de klok in, en elk blauw uiteinde twee posities met de klok mee langs de vijfpuntige ster. Een wit vakje betekent dat rood en blauw elkaar overlappen; scheid de kleuren voordat je de volgende verplaatsing uitvoert.
 
 [[K0264]]
-In de middelste afbeelding bevindt rood zich rechtsonder, terwijl blauw rechtsboven en linksboven staat. Bij de volgende verplaatsing komen rood en één blauw element rechtsboven samen, wat een wit vakje oplevert. Het andere blauwe element verplaatst zich naar linksonder. 
+In de middelste afbeelding bevindt rood zich rechtsonder, terwijl blauw rechtsboven en linksboven staat. Bij de volgende verplaatsing komen rood en één blauw element rechtsboven samen, wat een wit vakje oplevert. Het andere blauwe element verplaatst zich naar linksonder.
 
 [[K0265]]
 Verschuif twee kopieën in de richtingen van de sector
 
 [[K0266]]
-De twee zijden van de witte sector geven twee bewegingsrichtingen aan. Maak twee kopieën van het patroon met rode stippen en verschuif één kopie in elk van de aangegeven richtingen over het raster; bij de randen loopt het patroon door aan de andere kant. Een positie die door één kopie wordt bereikt, wordt rood; een positie die door beide kopieën wordt bereikt, wordt blauw. 
+De twee zijden van de witte sector geven twee bewegingsrichtingen aan. Maak twee kopieën van het patroon met rode stippen en verschuif één kopie in elk van de aangegeven richtingen over het raster; bij de randen loopt het patroon door aan de andere kant. Een positie die door één kopie wordt bereikt, wordt rood; een positie die door beide kopieën wordt bereikt, wordt blauw.
 
 [[K0267]]
-De uiteindelijke sector wijst naar linksonder en rechtsonder. Verschuif een kopie in elk van deze richtingen. Door de overlap worden de volledige bovenste rij en het midden blauw; de posities die slechts door één kopie worden bereikt, blijven rood, zoals in het antwoord te zien is. 
+De uiteindelijke sector wijst naar linksonder en rechtsonder. Verschuif een kopie in elk van deze richtingen. Door de overlap worden de volledige bovenste rij en het midden blauw; de posities die slechts door één kopie worden bereikt, blijven rood, zoals in het antwoord te zien is.
 
 [[K0268]]
 Verwijder kruisende lijnsegmenten
 
 [[K0269]]
-Leg beide tekeningen over elkaar heen. Beschouw elk recht stuk tussen opeenvolgende rasterpunten als een afzonderlijk lijnsegment. Wanneer een segment uit de ene tekening een segment uit de andere tekening tussen de rasterpunten kruist, moeten beide segmenten worden verwijderd. Segmenten die samenkomen op een rasterpunt blijven behouden. Behoud alle niet-doorgesneden segmenten uit beide tekeningen. 
+Leg beide tekeningen over elkaar heen. Beschouw elk recht stuk tussen opeenvolgende rasterpunten als een afzonderlijk lijnsegment. Wanneer een segment uit de ene tekening een segment uit de andere tekening tussen de rasterpunten kruist, moeten beide segmenten worden verwijderd. Segmenten die samenkomen op een rasterpunt blijven behouden. Behoud alle niet-doorgesneden segmenten uit beide tekeningen.
 
 [[K0270]]
-Verwijder de diagonale segmenten die tussen de rasterpunten zijn doorgesneden. De overgebleven stukken vormen een bovenste vork met een verticale steel, twee losse korte diagonalen nabij de bovenhoeken, en een onderste vork met een eigen verticale steel. 
+Verwijder de diagonale segmenten die tussen de rasterpunten zijn doorgesneden. De overgebleven stukken vormen een bovenste vork met een verticale steel, twee losse korte diagonalen nabij de bovenhoeken, en een onderste vork met een eigen verticale steel.
 
 [[K0271]]
 Schuif de stukken op en sorteer ze op grootte.
 
 [[K0272]]
-Schuif alle stukken in de richting van de pijl. Kleinere stukken passeren grotere stukken en bereiken als eerste de verst gelegen beschikbare ruimtes. De hoogte en verticale positie van elk stuk blijven behouden. Stukken mogen een kolom delen, mits ze elkaar verticaal niet overlappen; stukken van gelijke grootte behouden hun onderlinge volgorde. 
+Schuif alle stukken in de richting van de pijl. Kleinere stukken passeren grotere stukken en bereiken als eerste de verst gelegen beschikbare ruimtes. De hoogte en verticale positie van elk stuk blijven behouden. Stukken mogen een kolom delen, mits ze elkaar verticaal niet overlappen; stukken van gelijke grootte behouden hun onderlinge volgorde.
 
 [[K0273]]
-De pijl wijst naar rechts. Plaats de kortste stukken in de beschikbare ruimtes aan de rechterkant, gevolgd door de stukken van twee eenheden lang, en daarna de langere stukken aan de linkerzijde daarvan. Niets beweegt omhoog of omlaag, en de grootte van de stukken verandert niet. 
+De pijl wijst naar rechts. Plaats de kortste stukken in de beschikbare ruimtes aan de rechterkant, gevolgd door de stukken van twee eenheden lang, en daarna de langere stukken aan de linkerzijde daarvan. Niets beweegt omhoog of omlaag, en de grootte van de stukken verandert niet.
 
 [[K0274]]
 Verplaats de scheidingslijnen naar de vrije ruimtes.

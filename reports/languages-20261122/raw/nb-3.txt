@@ -1,96 +1,96 @@
 [[K0215]]
-Drei figuren 45 grader mot klokken for hvert trinn. Fargen veksler, slik at det tredje bildet får tilbake fargen fra det første bildet. 
+Drei figuren 45 grader mot klokken for hvert trinn. Fargen veksler, slik at det tredje bildet får tilbake fargen fra det første bildet.
 
 [[K0216]]
-Drei den hvite midtfiguren ytterligere 45 grader mot klokken, og sett den tilbake til den mørke fargen fra det første bildet. Velg den mørke, buede figuren i denne orienteringen. 
+Drei den hvite midtfiguren ytterligere 45 grader mot klokken, og sett den tilbake til den mørke fargen fra det første bildet. Velg den mørke, buede figuren i denne orienteringen.
 
 [[K0217]]
 Kombiner de svarte sirklene.
 
 [[K0218]]
-En sirkel blir svart i resultatet dersom den tilsvarende sirkelen er svart i en av inngangene. Den blir bare hvit dersom begge inngangene har en hvit sirkel på det stedet. 
+En sirkel blir svart i resultatet dersom den tilsvarende sirkelen er svart i en av inngangene. Den blir bare hvit dersom begge inngangene har en hvit sirkel på det stedet.
 
 [[K0219]]
-Den første inngangen bidrar med den svarte sirkelen nede til høyre; den andre bidrar med de to svarte sirklene øverst. Sirkelen i midten og den nede til venstre forblir hvite. 
+Den første inngangen bidrar med den svarte sirkelen nede til høyre; den andre bidrar med de to svarte sirklene øverst. Sirkelen i midten og den nede til venstre forblir hvite.
 
 [[K0220]]
 Utvid til nabocellene.
 
 [[K0221]]
-I hvert trinn forblir hver blå celle blå, samtidig som den farger sine nærmeste naboer – over, under, til venstre og til høyre – blå. Utvidelsen stopper ved rutenettets ytterkant. 
+I hvert trinn forblir hver blå celle blå, samtidig som den farger sine nærmeste naboer – over, under, til venstre og til høyre – blå. Utvidelsen stopper ved rutenettets ytterkant.
 
 [[K0222]]
-Utfør den samme utvidelsen (én celle) på det blå området i midten. Naboer på sidene som nå blir berørt, blir blå; celler lenger unna forblir en del av det grå og svarte sjakkbrettmønsteret. 
+Utfør den samme utvidelsen (én celle) på det blå området i midten. Naboer på sidene som nå blir berørt, blir blå; celler lenger unna forblir en del av det grå og svarte sjakkbrettmønsteret.
 
 [[K0223]]
 Fjern samsvarende brune posisjoner.
 
 [[K0224]]
-Sammenlign de to stripene (som hver består av fem celler) posisjon for posisjon. En celle blir brun i resultatet dersom nøyaktig én av inngangene er brun på det stedet. Hvis begge inngangene er brune, blir cellen blå. 
+Sammenlign de to stripene (som hver består av fem celler) posisjon for posisjon. En celle blir brun i resultatet dersom nøyaktig én av inngangene er brun på det stedet. Hvis begge inngangene er brune, blir cellen blå.
 
 [[K0225]]
-I den første stripen er posisjonene 2, 3, 4 og 5 brune, mens i den andre stripen er posisjonene 2, 3 og 5 brune. Bare posisjon 4 forblir brun. 
+I den første stripen er posisjonene 2, 3, 4 og 5 brune, mens i den andre stripen er posisjonene 2, 3 og 5 brune. Bare posisjon 4 forblir brun.
 
 [[K0226]]
 Fjern de nærmeste røde prikkene.
 
 [[K0227]]
 Finn den minste avstanden mellom to røde prikker. Fjern alle røde prikker som inngår i et par med denne avstanden. Beregn den minste avstanden på nytt for neste trinn. [[K0228]]
-I bildet i midten inngår de tre nederste røde prikkene i de nærmeste diagonale parene. Hvis man fjerner disse, står bare den røde prikken i øverste rad, fjerde kolonne, igjen. 
+I bildet i midten inngår de tre nederste røde prikkene i de nærmeste diagonale parene. Hvis man fjerner disse, står bare den røde prikken i øverste rad, fjerde kolonne, igjen.
 
 [[K0229]]
 Flytt de seks fargene rundt i en syklus.
 
 [[K0230]]
-Les nedover den venstre stabelen, og deretter nedover den høyre stabelen. Flytt hver farge ett hakk fremover i denne syklusen på seks posisjoner; fargen nederst til høyre flyttes til øverst til venstre. 
+Les nedover den venstre stabelen, og deretter nedover den høyre stabelen. Flytt hver farge ett hakk fremover i denne syklusen på seks posisjoner; fargen nederst til høyre flyttes til øverst til venstre.
 
 [[K0231]]
-I bildet i midten flyttes den brune sirkelen nederst til høyre til øverst til venstre. De endelige stablene er brun/rød/rød til venstre og svart/brun/blå til høyre. 
+I bildet i midten flyttes den brune sirkelen nederst til høyre til øverst til venstre. De endelige stablene er brun/rød/rød til venstre og svart/brun/blå til høyre.
 
 [[K0232]]
 Flytt hvitt og svart i motsatte retninger.
 
 [[K0233]]
-I hvert trinn flyttes hvite sirkler ett hjørne med klokken, mens svarte sirkler flyttes ett hjørne mot klokken. Grått betyr at en hvit og en svart sirkel befinner seg i samme hjørne; skill dem fra hverandre før neste forflytning. 
+I hvert trinn flyttes hvite sirkler ett hjørne med klokken, mens svarte sirkler flyttes ett hjørne mot klokken. Grått betyr at en hvit og en svart sirkel befinner seg i samme hjørne; skill dem fra hverandre før neste forflytning.
 
 [[K0234]]
-Bildet i midten viser hvite sirkler i de to venstre hjørnene, og svarte sirkler i de to venstre hjørnene samt nederst til høyre. Når disse flyttes, ender man opp med hvitt øverst til venstre, grått øverst til høyre, og svart i begge de nederste hjørnene. 
+Bildet i midten viser hvite sirkler i de to venstre hjørnene, og svarte sirkler i de to venstre hjørnene samt nederst til høyre. Når disse flyttes, ender man opp med hvitt øverst til venstre, grått øverst til høyre, og svart i begge de nederste hjørnene.
 
 [[K0235]]
 Forleng alle horisontale streker.
 
 [[K0236]]
-I hvert trinn forlenges hver svarte horisontale strek inn i de tilstøtende kapslene på begge sider. Eksisterende streker beholdes, og strekene stopper ved ytterkantene. 
+I hvert trinn forlenges hver svarte horisontale strek inn i de tilstøtende kapslene på begge sider. Eksisterende streker beholdes, og strekene stopper ved ytterkantene.
 
 [[K0237]]
-Forleng strekene i bildet i midten ytterligere én kapsel til venstre og høyre. Sørg for at de ulike høydene på strekene opprettholdes; svaret viser de resulterende lengre horisontale linjene som strekker seg over de fire kapslene. 
+Forleng strekene i bildet i midten ytterligere én kapsel til venstre og høyre. Sørg for at de ulike høydene på strekene opprettholdes; svaret viser de resulterende lengre horisontale linjene som strekker seg over de fire kapslene.
 
 [[K0238]]
 Utvid det trekantede gitteret.
 
 [[K0239]]
-Betrakt tegningen som en samling små trekanter. I hvert trinn legges det til en liten trekant rett utenfor hver eksponert kant, mens de eksisterende trekantene og forbindelseslinjene mellom dem beholdes. 
+Betrakt tegningen som en samling små trekanter. I hvert trinn legges det til en liten trekant rett utenfor hver eksponert kant, mens de eksisterende trekantene og forbindelseslinjene mellom dem beholdes.
 
 [[K0240]]
-Utvid den grønne klyngen i midten med enda et lag av tilstøtende trekanter. Svaret beholder det samme trekantede rutenettet og legger til trekanter langs ytterkantene. 
+Utvid den grønne klyngen i midten med enda et lag av tilstøtende trekanter. Svaret beholder det samme trekantede rutenettet og legger til trekanter langs ytterkantene.
 
 [[K0241]]
 Fjern de markerte hjørnepunktene
 
 [[K0242]]
-De brune prikkene markerer hjørnepunkter i den svarte polygonen som skal fjernes. Forbind de gjenværende hjørnepunktene i den opprinnelige rekkefølgen. To gjenværende hjørnepunkter danner et linjestykke. 
+De brune prikkene markerer hjørnepunkter i den svarte polygonen som skal fjernes. Forbind de gjenværende hjørnepunktene i den opprinnelige rekkefølgen. To gjenværende hjørnepunkter danner et linjestykke.
 
 [[K0243]]
-Fjern de øverste og venstre hjørnepunktene som er markert med brune prikker. Bare de to nederste hjørnepunktene blir stående igjen; svaret er derfor den korte, horisontale linjen nede til høyre. 
+Fjern de øverste og venstre hjørnepunktene som er markert med brune prikker. Bare de to nederste hjørnepunktene blir stående igjen; svaret er derfor den korte, horisontale linjen nede til høyre.
 
 [[K0244]]
 Endre tilstanden til prikkene i omrissets hjørner
 
 [[K0245]]
-Tilpass hjørnepunktene i den svarte omrisssfiguren til et 3x3-rutenett av prikker. Ved hvert hjørnepunkt skal en eksisterende blå prikk fjernes, eller en ny legges til hvis plassen er tom. De øvrige posisjonene forblir uendret. 
+Tilpass hjørnepunktene i den svarte omrisssfiguren til et 3x3-rutenett av prikker. Ved hvert hjørnepunkt skal en eksisterende blå prikk fjernes, eller en ny legges til hvis plassen er tom. De øvrige posisjonene forblir uendret.
 
 [[K0246]]
-Endre tilstanden til de fire hjørneposisjonene i den skråstilte figuren. Resultatet blir blå prikker øverst til venstre og i midten, i midten (både horisontalt og vertikalt) og til høyre, samt på alle de tre nederste posisjonene. 
+Endre tilstanden til de fire hjørneposisjonene i den skråstilte figuren. Resultatet blir blå prikker øverst til venstre og i midten, i midten (både horisontalt og vertikalt) og til høyre, samt på alle de tre nederste posisjonene.
 
 [[K0247]]
 Fjern den markerte mursteinen og dens naboer

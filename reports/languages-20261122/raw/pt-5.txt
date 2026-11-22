@@ -1,17 +1,17 @@
 [[K0275]]
-Todos os divisores pretos movem-se simultaneamente uma posição para a direita, caso a posição seguinte contenha uma conta amarela. Um divisor bloqueado por outro divisor permanece parado. A borda direita conecta-se à borda esquerda. 
+Todos os divisores pretos movem-se simultaneamente uma posição para a direita, caso a posição seguinte contenha uma conta amarela. Um divisor bloqueado por outro divisor permanece parado. A borda direita conecta-se à borda esquerda.
 
 [[K0276]]
-Aplique um movimento simultâneo à sequência central. A ordem final é: divisor, conta, divisor, conta, divisor, divisor, conta. 
+Aplique um movimento simultâneo à sequência central. A ordem final é: divisor, conta, divisor, conta, divisor, divisor, conta.
 
 [[K0277]]
 Expanda as cores e mantenha o maior grupo.
 
 [[K0278]]
-Substitua cada esfera colorida por quatro novas esferas da mesma cor, posicionadas acima, abaixo, à esquerda e à direita. Esferas que saem da grade desaparecem. Em cada posição, mantenha a cor que recebeu o maior número de esferas. Em caso de empate no número de esferas, deixe a posição vazia. Múltiplas esferas da mesma cor que chegam à mesma posição são representadas por um único marcador colorido. 
+Substitua cada esfera colorida por quatro novas esferas da mesma cor, posicionadas acima, abaixo, à esquerda e à direita. Esferas que saem da grade desaparecem. Em cada posição, mantenha a cor que recebeu o maior número de esferas. Em caso de empate no número de esferas, deixe a posição vazia. Múltiplas esferas da mesma cor que chegam à mesma posição são representadas por um único marcador colorido.
 
 [[K0279]]
-Ao expandir a imagem central exibida, obtêm-se: a cor verde no canto superior direito e na linha 2, coluna 3; a cor vermelha na linha 2, coluna 1; e a cor marrom na linha 2, coluna 2, na linha 3, coluna 3, e na linha 4, colunas 2, 3 e 4. Essas são exatamente as cores e posições presentes na resposta armazenada. 
+Ao expandir a imagem central exibida, obtêm-se: a cor verde no canto superior direito e na linha 2, coluna 3; a cor vermelha na linha 2, coluna 1; e a cor marrom na linha 2, coluna 2, na linha 3, coluna 3, e na linha 4, colunas 2, 3 e 4. Essas são exatamente as cores e posições presentes na resposta armazenada.
 
 [[K0280]]
 Escolha o idioma
@@ -29,17 +29,17 @@ Nenhum idioma encontrado
 Teste de QI gratuito para diversão | IQ Champion
 
 [[K0285]]
-Um teste gratuito no estilo QI para diversão: 36 desafios visuais, 40 minutos de duração, progresso salvo e uma estimativa de QI. Não é necessário criar conta. 
+Um teste gratuito no estilo QI para diversão: 36 desafios visuais, 40 minutos de duração, progresso salvo e uma estimativa de QI. Não é necessário criar conta.
 
 [[K0286]]
-Escolha o seu idioma de preferência. Suas respostas e o prazo original permanecem salvos. 
+Escolha o seu idioma de preferência. Suas respostas e o prazo original permanecem salvos.
 
 [[K0287]]
 Carregando idioma…
 
 [[K0288]]
 Não foi possível carregar o idioma. Seu teste e suas respostas permanecem inalterados. [[K0289]]
-O feedback está disponível em dinamarquês e inglês. 
+O feedback está disponível em dinamarquês e inglês.
 
 [[K0290]]
 Conquista compartilhada
@@ -48,10 +48,10 @@ Conquista compartilhada
 Resultado compartilhado
 
 [[K0292]]
-Resultados compartilhados são informados pelo próprio usuário. 
+Resultados compartilhados são informados pelo próprio usuário.
 
 [[K0293]]
-Conquistas compartilhadas são informadas pelo próprio usuário. Não são compartilhados dados como idade, país, respostas ou perfis pessoais. 
+Conquistas compartilhadas são informadas pelo próprio usuário. Não são compartilhados dados como idade, país, respostas ou perfis pessoais.
 
 [[K0294]]
 Experimente você mesmo os 36 quebra-cabeças
@@ -60,16 +60,16 @@ Experimente você mesmo os 36 quebra-cabeças
 Experimente o teste você mesmo
 
 [[K0296]]
-Um desafio visual no IQ Champion. Você também consegue identificar o padrão? 
+Um desafio visual no IQ Champion. Você também consegue identificar o padrão?
 
 [[K0297]]
-Um teste visual gratuito, apenas por diversão. Não se trata de uma medição de QI validada profissionalmente. 
+Um teste visual gratuito, apenas por diversão. Não se trata de uma medição de QI validada profissionalmente.
 
 [[K0298]]
 Página não encontrada
 
 [[K0299]]
-Você pode continuar em outro idioma. 
+Você pode continuar em outro idioma.
 
 [[K0300]]
 respondida
@@ -84,7 +84,7 @@ correta
 incorreta
 
 [[K0304]]
-Faixa mediana estimada: {0} ({1} respostas corretas com registro de tempo). 
+Faixa mediana estimada: {0} ({1} respostas corretas com registro de tempo).
 
 [[K0305]]
 Questão {0} · {1}
@@ -96,7 +96,7 @@ Questão {0} · {1}
 Tempo de atividade: {0}
 
 [[K0308]]
-Comparação: {0} tentativas voluntárias ao longo de {1} dias. 
+Comparação: {0} tentativas voluntárias ao longo de {1} dias.
 
 [[K0309]]
 Questão {0} / {1}
@@ -117,13 +117,13 @@ Questão {0}, {1}
 Revisar questão {0}, {1}
 
 [[K0315]]
-{0} corretas; {1} incorretas; {2} sem resposta. 
+{0} corretas; {1} incorretas; {2} sem resposta.
 
 [[K0316]]
-{0} respondidas; {1} sem resposta. 
+{0} respondidas; {1} sem resposta.
 
 [[K0317]]
-{0} respondidas; {1} sem resposta. Perguntas sem resposta contam como incorretas. Após finalizar, não é possível alterar as respostas. 
+{0} respondidas; {1} sem resposta. Perguntas sem resposta contam como incorretas. Após finalizar, não é possível alterar as respostas.
 
 [[K0318]]
 {0} / {1} corretas
@@ -132,10 +132,10 @@ Revisar questão {0}, {1}
 Percentil entre os participantes históricos: {0}
 
 [[K0320]]
-Participantes com pontuação inferior: {0}%. Participantes com a mesma pontuação: {1}%. 
+Participantes com pontuação inferior: {0}%. Participantes com a mesma pontuação: {1}%.
 
 [[K0321]]
-Grupo de referência: {0} tentativas históricas. Estão incluídas tentativas com duração registrada superior a um minuto e até 40 minutos. Pontuações iguais compartilham o ponto médio do seu grupo percentil. As estimativas são arredondadas para números inteiros e exibidas apenas na faixa de 55 a 145; fora desse intervalo, é exibido um indicador de limite. Trata-se de uma conversão de escala, não de uma medição de QI populacional validada de forma independente. A prática e as tentativas repetidas podem afetar o seu resultado. Algumas imagens de exemplo foram corrigidas desde a coleta dos dados históricos, o que limita a comparabilidade. 
+Grupo de referência: {0} tentativas históricas. Estão incluídas tentativas com duração registrada superior a um minuto e até 40 minutos. Pontuações iguais compartilham o ponto médio do seu grupo percentil. As estimativas são arredondadas para números inteiros e exibidas apenas na faixa de 55 a 145; fora desse intervalo, é exibido um indicador de limite. Trata-se de uma conversão de escala, não de uma medição de QI populacional validada de forma independente. A prática e as tentativas repetidas podem afetar o seu resultado. Algumas imagens de exemplo foram corrigidas desde a coleta dos dados históricos, o que limita a comparabilidade.
 
 [[K0322]]
 Meu QI estimado no IQ Champion: {0}. Apenas por diversão. Experimente: {1}

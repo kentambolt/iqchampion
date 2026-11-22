@@ -5,10 +5,10 @@ Condividi il test su Facebook
 QI stimato
 
 [[K0073]]
-Solo per divertimento. Un punteggio approssimativo, non una misurazione del QI con validazione professionale. 
+Solo per divertimento. Un punteggio approssimativo, non una misurazione del QI con validazione professionale.
 
 [[K0074]]
-Il tuo test è incompleto. Vengono mostrate le risposte corrette, ma per una stima del QI sono necessarie tutte le 36 risposte. 
+Il tuo test è incompleto. Vengono mostrate le risposte corrette, ma per una stima del QI sono necessarie tutte le 36 risposte.
 
 [[K0075]]
 Non disponibile
@@ -17,7 +17,7 @@ Non disponibile
 Test di ragionamento visivo gratuito | IQ Champion
 
 [[K0077]]
-36 enigmi di ragionamento visivo. Affronta una sfida gratuita di 40 minuti e scopri i tuoi risultati. 
+36 enigmi di ragionamento visivo. Affronta una sfida gratuita di 40 minuti e scopri i tuoi risultati.
 
 [[K0078]]
 Risposto
@@ -50,13 +50,13 @@ Informazioni sul test
 Una sfida di ragionamento visivo
 
 [[K0088]]
-Individua lo schema. 
+Individua lo schema.
 
 [[K0089]]
-Trova l'elemento mancante. 
+Trova l'elemento mancante.
 
 [[K0090]]
-36 enigmi visivi e una stima del QI. Solo per divertimento. 
+36 enigmi visivi e una stima del QI. Solo per divertimento.
 
 [[K0091]]
 Enigmi
@@ -71,23 +71,23 @@ Costo
 Gratuito
 
 [[K0095]]
-Non è richiesto alcun account. Il timer si avvia quando inizi. 
+Non è richiesto alcun account. Il timer si avvia quando inizi.
 
 [[K0096]]
 Come funziona il test
 
 [[K0097]]
-Scegli l'icona che completa ogni schema. 
+Scegli l'icona che completa ogni schema.
 
 [[K0098]]
-Salta le domande più complesse e torna a esse usando la panoramica. 
+Salta le domande più complesse e torna a esse usando la panoramica.
 
 [[K0099]]
 Rivedi o modifica le tue risposte prima di terminare. [[K0100]]
-Le tue risposte e l'orario di inizio vengono salvati in questo browser. Se ricarichi la pagina, la scadenza originale rimane invariata. 
+Le tue risposte e l'orario di inizio vengono salvati in questo browser. Se ricarichi la pagina, la scadenza originale rimane invariata.
 
 [[K0101]]
-Il timer di 40 minuti continua a scorrere anche se la pagina viene chiusa. Le domande senza risposta vengono considerate errate. 
+Il timer di 40 minuti continua a scorrere anche se la pagina viene chiusa. Le domande senza risposta vengono considerate errate.
 
 [[K0102]]
 Informazioni sul tuo risultato
@@ -96,13 +96,13 @@ Informazioni sul tuo risultato
 Il tuo QI stimato si basa sulla tua posizione rispetto a
 
 [[K0104]]
-tentativi effettuati in passato. 
+tentativi effettuati in passato.
 
 [[K0105]]
-Il confronto prende in considerazione i tentativi con una durata compresa tra un minuto e 40 minuti. Non è stato convalidato tramite un test del QI ufficiale né su un campione rappresentativo della popolazione. 
+Il confronto prende in considerazione i tentativi con una durata compresa tra un minuto e 40 minuti. Non è stato convalidato tramite un test del QI ufficiale né su un campione rappresentativo della popolazione.
 
 [[K0106]]
-Un test a scopo ricreativo. Il QI stimato è un'approssimazione e non un punteggio di QI convalidato a livello professionale. 
+Un test a scopo ricreativo. Il QI stimato è un'approssimazione e non un punteggio di QI convalidato a livello professionale.
 
 [[K0117]]
 Inizia il test di 40 minuti
@@ -165,16 +165,16 @@ Rivedi e termina
 Istruzioni e progressi salvati
 
 [[K0127]]
-Seleziona una risposta per passare alla domanda successiva ancora senza risposta. Puoi saltare le domande, tornare indietro e modificare le risposte prima di terminare. 
+Seleziona una risposta per passare alla domanda successiva ancora senza risposta. Puoi saltare le domande, tornare indietro e modificare le risposte prima di terminare.
 
 [[K0128]]
-Le risposte vengono salvate automaticamente in questo browser. Se ricarichi la pagina, riprenderai dalla stessa domanda; il timer continuerà a scorrere. 
+Le risposte vengono salvate automaticamente in questo browser. Se ricarichi la pagina, riprenderai dalla stessa domanda; il timer continuerà a scorrere.
 
 [[K0129]]
 Quando vuoi
 
 [[K0130]]
-Terminare il test? 
+Terminare il test?
 
 [[K0131]]
 Continua a lavorare
@@ -201,7 +201,7 @@ Informazioni sul test
 Come interpretare questo risultato
 
 [[K0139]]
-Il tuo percentile, calcolato rispetto ai tentativi precedenti, viene convertito nella scala del QI: valore centrale 100 e deviazione standard 15. Questo presuppone che il gruppo di confronto rispecchi l'intera popolazione, un aspetto che non è stato accertato. 
+Il tuo percentile, calcolato rispetto ai tentativi precedenti, viene convertito nella scala del QI: valore centrale 100 e deviazione standard 15. Questo presuppone che il gruppo di confronto rispecchi l'intera popolazione, un aspetto che non è stato accertato.
 
 [[K0140]]
 Spiegazione delle tue risposte
@@ -256,13 +256,13 @@ Feedback e contatti
 Invia un feedback o contattaci
 
 [[K0158]]
-Corretto. La tua risposta coincide con quella corretta. 
+Corretto. La tua risposta coincide con quella corretta.
 
 [[K0159]]
-Errato. La tua risposta è diversa da quella corretta. 
+Errato. La tua risposta è diversa da quella corretta.
 
 [[K0160]]
-Senza risposta. Non è stata fornita alcuna risposta a questa domanda. 
+Senza risposta. Non è stata fornita alcuna risposta a questa domanda.
 
 [[K0161]]
 Nessuna risposta fornita
@@ -274,28 +274,28 @@ La risposta che hai fornito
 Icona mancante
 
 [[K0164]]
-Tutte le domande hanno ricevuto una risposta. Puoi ancora rivedere e modificare le risposte, quindi concludere il test. 
+Tutte le domande hanno ricevuto una risposta. Puoi ancora rivedere e modificare le risposte, quindi concludere il test.
 
 [[K0165]]
-Mancano cinque minuti o meno. 
+Mancano cinque minuti o meno.
 
 [[K0166]]
-Tempo scaduto. Le tue risposte sono state valutate. 
+Tempo scaduto. Le tue risposte sono state valutate.
 
 [[K0167]]
-Test completato. 
+Test completato.
 
 [[K0168]]
-Confronto non disponibile. 
+Confronto non disponibile.
 
 [[K0169]]
-Il browser non è riuscito a salvare il tuo tentativo. Tieni aperta questa pagina: ricaricarla potrebbe comportare la perdita dei progressi o il ripristino di risposte precedenti. 
+Il browser non è riuscito a salvare il tuo tentativo. Tieni aperta questa pagina: ricaricarla potrebbe comportare la perdita dei progressi o il ripristino di risposte precedenti.
 
 [[K0170]]
-Il salvataggio locale non è disponibile in questo browser. Tieni aperta la pagina per evitare di perdere il tuo tentativo. 
+Il salvataggio locale non è disponibile in questo browser. Tieni aperta la pagina per evitare di perdere il tuo tentativo.
 
 [[K0171]]
-Non è stato possibile ripristinare il tentativo salvato. Inizia un nuovo test quando sei pronto. 
+Non è stato possibile ripristinare il tentativo salvato. Inizia un nuovo test quando sei pronto.
 
 [[K0172]]
 Mantieni la figura invariata

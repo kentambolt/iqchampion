@@ -2,13 +2,13 @@
 Geskatte mediaanreeks
 
 [[K0002]]
-Openbare vergelykings sluit alle bydraers in wat hierdie legkaartweergawe gebruik. Opsionele ouderdomsgroep en land word slegs in private saamgevoegde statistieke gebruik. 
+Openbare vergelykings sluit alle bydraers in wat hierdie legkaartweergawe gebruik. Opsionele ouderdomsgroep en land word slegs in private saamgevoegde statistieke gebruik.
 
 [[K0003]]
-Ek stem in om my anonieme vraagresultate, aktiewe tye en enige opsionele ouderdomsgroep of land tot saamgevoegde statistieke by te dra. 
+Ek stem in om my anonieme vraagresultate, aktiewe tye en enige opsionele ouderdomsgroep of land tot saamgevoegde statistieke by te dra.
 
 [[K0004]]
-Mediaanreekse word beraam vanaf tydhistogramme. Die vertoonde interval toon die tydresolusie; geen presiese mediaan- of spoedpersentiel word geëis nie. 
+Mediaanreekse word beraam vanaf tydhistogramme. Die vertoonde interval toon die tydresolusie; geen presiese mediaan- of spoedpersentiel word geëis nie.
 
 [[K0005]]
 Deel die uitdaging
@@ -17,37 +17,37 @@ Deel die uitdaging
 Vraagtyd
 
 [[K0007]]
-Jou blaaier se privaatheidsvoorkeure hou hierdie statistieke op jou toestel. 
+Jou blaaier se privaatheidsvoorkeure hou hierdie statistieke op jou toestel.
 
 [[K0008]]
 Alle vrywillige pogings
 
 [[K0009]]
-Dankie. Jou anonieme bydrae is gestoor. 
+Dankie. Jou anonieme bydrae is gestoor.
 
 [[K0010]]
-Daar is nog nie genoeg vergelykbare pogings in hierdie groep nie. Jou eie statistieke is altyd beskikbaar. 
+Daar is nog nie genoeg vergelykbare pogings in hierdie groep nie. Jou eie statistieke is altyd beskikbaar.
 
 [[K0011]]
-Vergelykings is tydelik nie beskikbaar nie. Jou eie statistieke en deling werk steeds. 
+Vergelykings is tydelik nie beskikbaar nie. Jou eie statistieke en deling werk steeds.
 
 [[K0012]]
-Hierdie ouer poging het geen volledige tydrekord nie. Jy kan steeds jou resultaat verken en deel. 
+Hierdie ouer poging het geen volledige tydrekord nie. Jy kan steeds jou resultaat verken en deel.
 
 [[K0013]]
-Kies of jy wil bydra voordat jy enige data stuur. 
+Kies of jy wil bydra voordat jy enige data stuur.
 
 [[K0014]]
-Hierdie poging het geen volledige tydrekord nie. Jou persoonlike resultate is onveranderd. 
+Hierdie poging het geen volledige tydrekord nie. Jou persoonlike resultate is onveranderd.
 
 [[K0015]]
-Jou bydrae kon nie in hierdie blaaier gestoor word nie. Niks is gestuur nie. 
+Jou bydrae kon nie in hierdie blaaier gestoor word nie. Niks is gestuur nie.
 
 [[K0016]]
-Hierdie bydrae moet hersien word en is nie weer getel nie. 
+Hierdie bydrae moet hersien word en is nie weer getel nie.
 
 [[K0017]]
-Jou bydrae is nie bevestig nie. Probeer weer met dieselfde gestoorde bydrae. 
+Jou bydrae is nie bevestig nie. Probeer weer met dieselfde gestoorde bydrae.
 
 [[K0018]]
 Geen rekening nodig nie
@@ -86,13 +86,13 @@ Patrone wat jy opgelos het
 'n Uitdaging wat die moeite werd is om te deel
 
 [[K0030]]
-36 legkaarte. Een uitdaging. 
+36 legkaarte. Een uitdaging.
 
 [[K0031]]
-Deel 'n uitdaging met iemand wat jy ken. 
+Deel 'n uitdaging met iemand wat jy ken.
 
 [[K0032]]
-Jou eie aktiewe tyd. Daar is nie genoeg vergelykingsdata om die spoed daarvan te rangskik nie. 
+Jou eie aktiewe tyd. Daar is nie genoeg vergelykingsdata om die spoed daarvan te rangskik nie.
 
 [[K0033]]
 Kies wat om te deel
@@ -119,22 +119,22 @@ Jou deelteks
 Kopieer teks
 
 [[K0041]]
-Facebook laat jou toe om jou eie onderskrif te skryf. Ons plaas nooit outomaties nie. 
+Facebook laat jou toe om jou eie onderskrif te skryf. Ons plaas nooit outomaties nie.
 
 [[K0042]]
-Gekopieer. Plak dit in jou plasing. 
+Gekopieer. Plak dit in jou plasing.
 
 [[K0043]]
-Kies en kopieer die teks hieronder. 
+Kies en kopieer die teks hieronder.
 
 [[K0044]]
 Jou vraagstatistieke
 
 [[K0045]]
-Vraagvergelykings is nog nie beskikbaar nie. Jou persoonlike statistieke word hieronder getoon. 
+Vraagvergelykings is nog nie beskikbaar nie. Jou persoonlike statistieke word hieronder getoon.
 
 [[K0046]]
-Tye tel sigbare, gefokusde vraagtyd tot jou laaste antwoord. Vir onbeantwoorde vrae word tyd spandeer getoon. Versteekte oortjies en geslote bladsye tel nie. Vroeëre pogings mag geen tydsberekening hê nie. 
+Tye tel sigbare, gefokusde vraagtyd tot jou laaste antwoord. Vir onbeantwoorde vrae word tyd spandeer getoon. Versteekte oortjies en geslote bladsye tel nie. Vroeëre pogings mag geen tydsberekening hê nie.
 
 [[K0047]]
 Al 36 vrae, insluitend oorgeslaande vrae
@@ -152,16 +152,16 @@ Mediaan van korrekte antwoord
 Ander korrek
 
 [[K0052]]
-Vergelyk met vrywillige pogings wat dieselfde legkaartweergawe gebruik. Ten minste 30 beantwoorde vrae is nodig vir 'n korrekte koers, en 30 tydsbeperkte korrekte antwoorde vir 'n mediaan. Dit is deelnemers, nie 'n verteenwoordigende bevolking nie. 
+Vergelyk met vrywillige pogings wat dieselfde legkaartweergawe gebruik. Ten minste 30 beantwoorde vrae is nodig vir 'n korrekte koers, en 30 tydsbeperkte korrekte antwoorde vir 'n mediaan. Dit is deelnemers, nie 'n verteenwoordigende bevolking nie.
 
 [[K0053]]
 Vergelyk en dra by
 
 [[K0054]]
-Help toekomstige deelnemers om hul resultate te vergelyk. Jy kan anonieme toetsstatistieke deel nadat jy klaar is, selfs al het jy vrae oorgeslaan. 
+Help toekomstige deelnemers om hul resultate te vergelyk. Jy kan anonieme toetsstatistieke deel nadat jy klaar is, selfs al het jy vrae oorgeslaan.
 
 [[K0055]]
-Anonieme vergelykings word voorberei. Jou persoonlike statistieke en deling werk sonder om by te dra. 
+Anonieme vergelykings word voorberei. Jou persoonlike statistieke en deling werk sonder om by te dra.
 
 [[K0056]]
 Ouderdomsgroep (opsioneel)
@@ -176,16 +176,16 @@ Verkies om nie te sê nie
 Onder 18
 
 [[K0060]]
-Ek stem in om my anonieme vraagresultate en aktiewe tye, tesame met enige ouderdomsgroep en land wat ek kies, tot vergelykingsstatistieke by te dra. 
+Ek stem in om my anonieme vraagresultate en aktiewe tye, tesame met enige ouderdomsgroep en land wat ek kies, tot vergelykingsstatistieke by te dra.
 
 [[K0061]]
-Geen naam, e-pos of presiese ouderdom nie. Die deel van jou statistieke is opsioneel en beïnvloed nie jou resultaat nie. Klein vergelykingsgroepe is versteek. 
+Geen naam, e-pos of presiese ouderdom nie. Die deel van jou statistieke is opsioneel en beïnvloed nie jou resultaat nie. Klein vergelykingsgroepe is versteek.
 
 [[K0062]]
 Dra anoniem by
 
 [[K0063]]
-Waarom hierdie antwoord? 
+Waarom hierdie antwoord?
 
 [[K0064]]
 Verduideliking
@@ -197,10 +197,10 @@ Die reël
 Toepassing van die reël
 
 [[K0067]]
-Jy hersien 'n ouer legkaartweergawe. Die voorbeelde bevat die voorheen geïdentifiseerde dubbelsinnigheid; jou gestoorde antwoord en telling is onveranderd. 
+Jy hersien 'n ouer legkaartweergawe. Die voorbeelde bevat die voorheen geïdentifiseerde dubbelsinnigheid; jou gestoorde antwoord en telling is onveranderd.
 
 [[K0068]]
-Jy hersien die oorspronklike weergawe, wat verkeerde voorbeeldmerkers bevat het. Jou gestoorde antwoord en telling is onveranderd. Nuwe pogings gebruik die gekorrigeerde weergawe. 
+Jy hersien die oorspronklike weergawe, wat verkeerde voorbeeldmerkers bevat het. Jou gestoorde antwoord en telling is onveranderd. Nuwe pogings gebruik die gekorrigeerde weergawe.
 
 [[K0069]]
 In hierdie oorspronklike weergawe brei die vertoonde middelste prentjie uit na groen regs bo en ry 2, kolom 3; rooi by ry 2, kolom 1; en bruin by ry 2, kolom 2, ry 3, kolom 3 en ry 4, kolom 3.

@@ -1,0 +1,35 @@
+TAP version 13
+# Subtest: 50 distinct languages have native names, local licensed SVG flags and explicit direction
+ok 1 - 50 distinct languages have native names, local licensed SVG flags and explicit direction
+  ---
+  duration_ms: 53.0976
+  ...
+# Subtest: translation compiler rejects missing, duplicate and altered template placeholders
+ok 2 - translation compiler rejects missing, duplicate and altered template placeholders
+  ---
+  duration_ms: 1.2791
+  ...
+# Subtest: ready packs include every English message and preserve every dynamic placeholder
+ok 3 - ready packs include every English message and preserve every dynamic placeholder
+  ---
+  duration_ms: 211.999
+  ...
+# Subtest: all 50 static routes provide localized titles, reciprocal language links and truthful schema
+ok 4 - all 50 static routes provide localized titles, reciprocal language links and truthful schema
+  ---
+  duration_ms: 369.4175
+  ...
+# Subtest: every localized use of the product name preserves IQ Champion
+ok 5 - every localized use of the product name preserves IQ Champion
+  ---
+  duration_ms: 152.9431
+  ...
+1..5
+# tests 5
+# suites 0
+# pass 5
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 930.5269

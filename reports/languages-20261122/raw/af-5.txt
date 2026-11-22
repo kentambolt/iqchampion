@@ -1,17 +1,17 @@
 [[K0275]]
-Alle swart verdelers beweeg gelyktydig een posisie na regs as die volgende posisie 'n geel kraal bevat. 'n Verdeler wat deur 'n ander verdeler geblokkeer word, wag. Die regterrand verbind met die linkerrand. 
+Alle swart verdelers beweeg gelyktydig een posisie na regs as die volgende posisie 'n geel kraal bevat. 'n Verdeler wat deur 'n ander verdeler geblokkeer word, wag. Die regterrand verbind met die linkerrand.
 
 [[K0276]]
-Pas een gelyktydige stap toe op die middelste volgorde. Die finale volgorde is verdeler, kraal, verdeler, kraal, verdeler, verdeler, kraal. 
+Pas een gelyktydige stap toe op die middelste volgorde. Die finale volgorde is verdeler, kraal, verdeler, kraal, verdeler, verdeler, kraal.
 
 [[K0277]]
 Brei die kleure uit en behou die grootste groep
 
 [[K0278]]
-Vervang elke gekleurde bal met vier nuwe balle van dieselfde kleur, een stap bo, onder, links en regs. Balle wat die rooster verlaat, verdwyn. By elke posisie, hou die kleur met die grootste aantal aankomende balle. As kleure gelykop is vir die grootste aantal, los die posisie leeg. Verskeie aankomste van dieselfde kleur verskyn as een gekleurde merker. 
+Vervang elke gekleurde bal met vier nuwe balle van dieselfde kleur, een stap bo, onder, links en regs. Balle wat die rooster verlaat, verdwyn. By elke posisie, hou die kleur met die grootste aantal aankomende balle. As kleure gelykop is vir die grootste aantal, los die posisie leeg. Verskeie aankomste van dieselfde kleur verskyn as een gekleurde merker.
 
 [[K0279]]
-As die vertoonde middelste prentjie uitgebrei word, word groen regs bo en by ry 2, kolom 3; rooi by ry 2, kolom 1; en bruin by ry 2, kolom 2, ry 3, kolom 3, en ry 4, kolomme 2, 3 en 4. Dit is presies die kleure en posisies in die gestoorde antwoord. 
+As die vertoonde middelste prentjie uitgebrei word, word groen regs bo en by ry 2, kolom 3; rooi by ry 2, kolom 1; en bruin by ry 2, kolom 2, ry 3, kolom 3, en ry 4, kolomme 2, 3 en 4. Dit is presies die kleure en posisies in die gestoorde antwoord.
 
 [[K0280]]
 Kies taal
@@ -29,19 +29,19 @@ Geen tale gevind nie
 Gratis IK-toets vir pret | IK Kampioen
 
 [[K0285]]
-'n Gratis IK-styl toets vir pret: 36 visuele legkaarte, 40 minute, gestoorde vordering en 'n geskatte IK-resultaat. Geen rekening nodig nie. 
+'n Gratis IK-styl toets vir pret: 36 visuele legkaarte, 40 minute, gestoorde vordering en 'n geskatte IK-resultaat. Geen rekening nodig nie.
 
 [[K0286]]
-Kies jou voorkeurtaal. Jou antwoorde en oorspronklike sperdatum bly gestoor. 
+Kies jou voorkeurtaal. Jou antwoorde en oorspronklike sperdatum bly gestoor.
 
 [[K0287]]
 Laai taal…
 
 [[K0288]]
-Die taal kon nie gelaai word nie. Jou toets en antwoorde is onveranderd. 
+Die taal kon nie gelaai word nie. Jou toets en antwoorde is onveranderd.
 
 [[K0289]]
-Terugvoer is beskikbaar in Deens en Engels. 
+Terugvoer is beskikbaar in Deens en Engels.
 
 [[K0290]]
 Gedeelde prestasie
@@ -50,10 +50,10 @@ Gedeelde prestasie
 Gedeelde resultaat
 
 [[K0292]]
-Gedeelde resultate word self gerapporteer. 
+Gedeelde resultate word self gerapporteer.
 
 [[K0293]]
-Gedeelde prestasies word self gerapporteer. Geen ouderdom, land, antwoorde of persoonlike profiele word gedeel nie. 
+Gedeelde prestasies word self gerapporteer. Geen ouderdom, land, antwoorde of persoonlike profiele word gedeel nie.
 
 [[K0294]]
 Probeer die 36 legkaarte self
@@ -62,16 +62,16 @@ Probeer die 36 legkaarte self
 Probeer die toets self
 
 [[K0296]]
-'n Visuele uitdaging in IQ Champion. Kan jy ook die patroon raaksien? 
+'n Visuele uitdaging in IQ Champion. Kan jy ook die patroon raaksien?
 
 [[K0297]]
-'n Gratis visuele legkaarttoets, net vir die pret. Nie 'n professioneel gevalideerde IK-meting nie. 
+'n Gratis visuele legkaarttoets, net vir die pret. Nie 'n professioneel gevalideerde IK-meting nie.
 
 [[K0298]]
 Bladsy nie gevind nie
 
 [[K0299]]
-Jy kan in 'n ander taal voortgaan. 
+Jy kan in 'n ander taal voortgaan.
 
 [[K0300]]
 beantwoord
@@ -86,7 +86,7 @@ korrek
 verkeerd
 
 [[K0304]]
-Geskatte mediaanreeks: {0} ({1} tydsbeperkte korrekte antwoorde). 
+Geskatte mediaanreeks: {0} ({1} tydsbeperkte korrekte antwoorde).
 
 [[K0305]]
 Vraag {0} · {1}
@@ -98,7 +98,7 @@ Vraag {0} · {1}
 Aktiewe tyd: {0}
 
 [[K0308]]
-Vergelyking: {0} vrywillige pogings oor {1} dae. 
+Vergelyking: {0} vrywillige pogings oor {1} dae.
 
 [[K0309]]
 Vraag {0} / {1}
@@ -119,13 +119,13 @@ Vraag {0}, {1}
 Hersien vraag {0}, {1}
 
 [[K0315]]
-{0} korrek; {1} verkeerd; {2} onbeantwoord. 
+{0} korrek; {1} verkeerd; {2} onbeantwoord.
 
 [[K0316]]
-{0} beantwoord; {1} onbeantwoord. 
+{0} beantwoord; {1} onbeantwoord.
 
 [[K0317]]
-{0} beantwoord; {1} onbeantwoord. Onbeantwoorde vrae tel as verkeerd. Sodra jy klaar is, kan jy nie antwoorde verander nie. 
+{0} beantwoord; {1} onbeantwoord. Onbeantwoorde vrae tel as verkeerd. Sodra jy klaar is, kan jy nie antwoorde verander nie.
 
 [[K0318]]
 {0} / {1} korrek
@@ -134,10 +134,10 @@ Hersien vraag {0}, {1}
 Persentiel onder historiese deelnemers: {0}
 
 [[K0320]]
-Deelnemers met laer puntetelling: {0}%. Deelnemers met dieselfde telling: {1}%. 
+Deelnemers met laer puntetelling: {0}%. Deelnemers met dieselfde telling: {1}%.
 
 [[K0321]]
-Verwysingsgroep: {0} historiese pogings. Pogings met aangetekende duur van meer as een minuut en tot 40 minute word ingesluit. Gelyke tellings deel die middelpunt van hul persentielgroep. Ramings word afgerond tot heelgetalle en word slegs binne 55–145 vertoon, met 'n limietaanwyser buite daardie reeks. Dit is 'n skaalomskakeling, nie 'n onafhanklik gevalideerde populasie-IK-meting nie. Oefening en herhaalde pogings kan jou resultaat beïnvloed. Sommige voorbeeldbeelde is reggestel sedert die historiese pogings versamel is, wat vergelyking beperk. 
+Verwysingsgroep: {0} historiese pogings. Pogings met aangetekende duur van meer as een minuut en tot 40 minute word ingesluit. Gelyke tellings deel die middelpunt van hul persentielgroep. Ramings word afgerond tot heelgetalle en word slegs binne 55–145 vertoon, met 'n limietaanwyser buite daardie reeks. Dit is 'n skaalomskakeling, nie 'n onafhanklik gevalideerde populasie-IK-meting nie. Oefening en herhaalde pogings kan jou resultaat beïnvloed. Sommige voorbeeldbeelde is reggestel sedert die historiese pogings versamel is, wat vergelyking beperk.
 
 [[K0322]]
 My geskatte IK in IK-kampioen: {0}. Net vir die pret. Probeer dit: {1}

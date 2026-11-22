@@ -1,75 +1,75 @@
 [[K0249]]
-Etter at den røde brikken er fjernet, danner de gjenværende brikkene trappen i midten. Når den gule brikken og dens naboer fjernes, blir den øverste blå brikken stående igjen, og den faller ned til bunnen. 
+Etter at den røde brikken er fjernet, danner de gjenværende brikkene trappen i midten. Når den gule brikken og dens naboer fjernes, blir den øverste blå brikken stående igjen, og den faller ned til bunnen.
 
 [[K0250]]
 Roter lagene og bruk fargemasken.
 
 [[K0251]]
-Følg de samme tre formene. I hvert trinn flyttes den fremste formen bakerst. I det siste bildet beholdes de grå eller svarte fyllfargene fra det midterste bildet, mens de hvite (ufylte) formene får tilbake fargene sine fra det første bildet. 
+Følg de samme tre formene. I hvert trinn flyttes den fremste formen bakerst. I det siste bildet beholdes de grå eller svarte fyllfargene fra det midterste bildet, mens de hvite (ufylte) formene får tilbake fargene sine fra det første bildet.
 
 [[K0252]]
-Den grå sekskanten havner forrest, den svarte horisontale kapselformen ligger bak den, og den vertikale kapselformen flyttes bakerst. Den hvite, vertikale kapselformen får tilbake sin opprinnelige gule farge. 
+Den grå sekskanten havner forrest, den svarte horisontale kapselformen ligger bak den, og den vertikale kapselformen flyttes bakerst. Den hvite, vertikale kapselformen får tilbake sin opprinnelige gule farge.
 
 [[K0253]]
 Bruk fargen på hver sirkel til å finne ut hvordan den beveger seg.
 
 [[K0254]]
-Følg hver sirkel i forhold til sirkelen som ligger rett rundt den. Den hvite beveger seg 90 grader med klokken, den svarte beveger seg 90 grader mot klokken, og den røde blir værende i samme relative posisjon. Den blå beveger seg ikke. Bruk disse bevegelsene på alle nivåer. 
+Følg hver sirkel i forhold til sirkelen som ligger rett rundt den. Den hvite beveger seg 90 grader med klokken, den svarte beveger seg 90 grader mot klokken, og den røde blir værende i samme relative posisjon. Den blå beveger seg ikke. Bruk disse bevegelsene på alle nivåer.
 
 [[K0255]]
-Den svarte sirkelen flytter seg fra å ligge over den blå sirkelen til å ligge til venstre for den. Den røde sirkelen blir værende til høyre, inne i den svarte. Den største hvite sirkelen flytter seg fra å ligge over den røde til å ligge til høyre for den; den minste hvite sirkelen flytter seg fra å ligge under den store hvite sirkelen til å ligge til venstre for den. 
+Den svarte sirkelen flytter seg fra å ligge over den blå sirkelen til å ligge til venstre for den. Den røde sirkelen blir værende til høyre, inne i den svarte. Den største hvite sirkelen flytter seg fra å ligge over den røde til å ligge til høyre for den; den minste hvite sirkelen flytter seg fra å ligge under den store hvite sirkelen til å ligge til venstre for den.
 
 [[K0256]]
 Flytt fargene langs de sammenkoblede banene.
 
 [[K0257]]
-De svarte forbindelsene angir banene fargene beveger seg langs. Følg hver sløyfe med klokken, og flytt hver farge til neste tilkoblede posisjon. En bane med to posisjoner bytter om fargene; punkter som ikke er koblet til noe, blir stående i ro. 
+De svarte forbindelsene angir banene fargene beveger seg langs. Følg hver sløyfe med klokken, og flytt hver farge til neste tilkoblede posisjon. En bane med to posisjoner bytter om fargene; punkter som ikke er koblet til noe, blir stående i ro.
 
 [[K0258]]
 Bytt om de to øverste fargene. I den nedre sløyfen flyttes den blå sirkelen (midt til venstre) til midten, og den røde sirkelen (midt til høyre) flyttes nederst til venstre. Den røde sirkelen nederst til høyre, som ikke er koblet til noe, blir værende uendret. [[K0259]]
 Flytt hver farge langs sin egen bane
 
 [[K0260]]
-Rød beveger seg nedover, grønn beveger seg mot høyre, og gul beveger seg mot venstre. Blå beveger seg oppover og – der det er mulig – én kolonne til venstre. Hvitt markerer farger som overlapper; skill disse fargene fra hverandre igjen før neste trekk utføres. Farger som beveger seg utenfor rutenettet, forsvinner. 
+Rød beveger seg nedover, grønn beveger seg mot høyre, og gul beveger seg mot venstre. Blå beveger seg oppover og – der det er mulig – én kolonne til venstre. Hvitt markerer farger som overlapper; skill disse fargene fra hverandre igjen før neste trekk utføres. Farger som beveger seg utenfor rutenettet, forsvinner.
 
 [[K0261]]
-Del den midterste hvite cellen opp i rød og grønn. Rød flyttes til midten nederst, grønn til midten til høyre, blå havner øverst til venstre, og gul forsvinner ut på venstre side. Disse tre fargede cellene utgjør svaret. 
+Del den midterste hvite cellen opp i rød og grønn. Rød flyttes til midten nederst, grønn til midten til høyre, blå havner øverst til venstre, og gul forsvinner ut på venstre side. Disse tre fargede cellene utgjør svaret.
 
 [[K0262]]
 Flytt de røde og blå spissene i motsatte retninger
 
 [[K0263]]
-I hvert trinn flyttes hver rød spiss ett hakk mot klokken, mens hver blå spiss flyttes to hakk med klokken rundt den femtakkede stjernen. Hvitt betyr at rød og blå overlapper; skill fargene fra hverandre før neste trekk. 
+I hvert trinn flyttes hver rød spiss ett hakk mot klokken, mens hver blå spiss flyttes to hakk med klokken rundt den femtakkede stjernen. Hvitt betyr at rød og blå overlapper; skill fargene fra hverandre før neste trekk.
 
 [[K0264]]
-I bildet i midten befinner rød seg nederst til høyre, mens blå befinner seg øverst til høyre og øverst til venstre. I neste trekk havner rød og en av de blå spissene på samme sted øverst til høyre, noe som skaper et hvitt felt. Den andre blå spissen flyttes nederst til venstre. 
+I bildet i midten befinner rød seg nederst til høyre, mens blå befinner seg øverst til høyre og øverst til venstre. I neste trekk havner rød og en av de blå spissene på samme sted øverst til høyre, noe som skaper et hvitt felt. Den andre blå spissen flyttes nederst til venstre.
 
 [[K0265]]
 Forskyv to kopier i retningene som angis av sektoren
 
 [[K0266]]
-De to kantene i den hvite sektoren angir to bevegelsesretninger. Lag to kopier av mønsteret med røde prikker, og forskyv hver kopi ett hakk i rutenettet i hver sin retning (la mønsteret «gå rundt» ved kantene). En posisjon som nås av én kopi, blir rød; en posisjon som nås av begge kopier, blir blå. 
+De to kantene i den hvite sektoren angir to bevegelsesretninger. Lag to kopier av mønsteret med røde prikker, og forskyv hver kopi ett hakk i rutenettet i hver sin retning (la mønsteret «gå rundt» ved kantene). En posisjon som nås av én kopi, blir rød; en posisjon som nås av begge kopier, blir blå.
 
 [[K0267]]
-Den siste sektoren peker nedover mot venstre og nedover mot høyre. Forskyv en kopi i hver av disse retningene. Der de overlapper, blir hele den øverste raden samt midten blå; posisjonene som kun dekkes av én kopi, forblir røde, slik det vises i svaret. 
+Den siste sektoren peker nedover mot venstre og nedover mot høyre. Forskyv en kopi i hver av disse retningene. Der de overlapper, blir hele den øverste raden samt midten blå; posisjonene som kun dekkes av én kopi, forblir røde, slik det vises i svaret.
 
 [[K0268]]
 Fjern trådsegmenter som krysser hverandre
 
 [[K0269]]
-Legg de to tegningene oppå hverandre. Betrakt hvert rette linjestykke mellom to påfølgende punkter i rutenettet som et eget trådsegment. Hvis et segment fra den ene tegningen krysser et segment fra den andre tegningen mellom to punkter, skal begge segmentene fjernes. Segmenter som møtes i et rutenettpunkt, blir værende. Behold alle segmenter som ikke er kuttet, fra begge tegningene. 
+Legg de to tegningene oppå hverandre. Betrakt hvert rette linjestykke mellom to påfølgende punkter i rutenettet som et eget trådsegment. Hvis et segment fra den ene tegningen krysser et segment fra den andre tegningen mellom to punkter, skal begge segmentene fjernes. Segmenter som møtes i et rutenettpunkt, blir værende. Behold alle segmenter som ikke er kuttet, fra begge tegningene.
 
 [[K0270]]
-Fjern de diagonale segmentene som er kuttet mellom rutenettpunktene. De gjenværende delene danner en øvre gaffel med en vertikal stamme, to frittliggende, korte diagonaler nær de øvre hjørnene, og en nedre gaffel med sin egen vertikale stamme. 
+Fjern de diagonale segmentene som er kuttet mellom rutenettpunktene. De gjenværende delene danner en øvre gaffel med en vertikal stamme, to frittliggende, korte diagonaler nær de øvre hjørnene, og en nedre gaffel med sin egen vertikale stamme.
 
 [[K0271]]
 Skyv og sorter delene etter størrelse.
 
 [[K0272]]
-Skyv alle delene i pilens retning. Mindre deler passerer større deler og når de ytterste ledige plassene først. Behold hver dels høyde og vertikale posisjon. Deler kan dele kolonne dersom de ikke overlapper vertikalt; deler av samme størrelse beholder sin innbyrdes rekkefølge. 
+Skyv alle delene i pilens retning. Mindre deler passerer større deler og når de ytterste ledige plassene først. Behold hver dels høyde og vertikale posisjon. Deler kan dele kolonne dersom de ikke overlapper vertikalt; deler av samme størrelse beholder sin innbyrdes rekkefølge.
 
 [[K0273]]
-Pilen peker mot høyre. Plasser de korteste delene på de ledige plassene til høyre, deretter delene som består av to enheter, og til slutt de høyere delene til venstre for disse. Ingenting flyttes opp eller ned, og ingen del endrer størrelse. 
+Pilen peker mot høyre. Plasser de korteste delene på de ledige plassene til høyre, deretter delene som består av to enheter, og til slutt de høyere delene til venstre for disse. Ingenting flyttes opp eller ned, og ingen del endrer størrelse.
 
 [[K0274]]
 Flytt skillelinjene til ledige plasser.

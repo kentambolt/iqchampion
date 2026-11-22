@@ -2,13 +2,13 @@
 Hinnanguline mediaanvahemik
 
 [[K0002]]
-Avalikud võrdlused hõlmavad kõiki osalejaid, kes kasutavad seda mõistatuse versiooni. Valikulist vanuserühma ja riiki kasutatakse ainult koondstatistika koostamisel. 
+Avalikud võrdlused hõlmavad kõiki osalejaid, kes kasutavad seda mõistatuse versiooni. Valikulist vanuserühma ja riiki kasutatakse ainult koondstatistika koostamisel.
 
 [[K0003]]
-Nõustun lisama oma anonüümsed tulemused, lahendusajad ning valikulise vanuserühma või riigi koondstatistikasse. 
+Nõustun lisama oma anonüümsed tulemused, lahendusajad ning valikulise vanuserühma või riigi koondstatistikasse.
 
 [[K0004]]
-Mediaanvahemikud on hinnatud ajajaotuse histogrammide põhjal. Kuvatud vahemik näitab ajamõõtmise täpsusastet; see ei väida täpset mediaani ega kiiruse protsentiili. 
+Mediaanvahemikud on hinnatud ajajaotuse histogrammide põhjal. Kuvatud vahemik näitab ajamõõtmise täpsusastet; see ei väida täpset mediaani ega kiiruse protsentiili.
 
 [[K0005]]
 Jaga väljakutset
@@ -17,34 +17,34 @@ Jaga väljakutset
 Lahendusaeg
 
 [[K0007]]
-Sinu veebilehitseja privaatsusseaded hoiavad seda statistikat sinu seadmes. 
+Sinu veebilehitseja privaatsusseaded hoiavad seda statistikat sinu seadmes.
 
 [[K0008]]
 Kõik vabatahtlikud katsed
 
 [[K0009]]
-Aitäh! Sinu anonüümne panus on salvestatud. 
+Aitäh! Sinu anonüümne panus on salvestatud.
 
 [[K0010]]
-Selles rühmas pole veel piisavalt võrreldavaid katseid. Sinu enda statistika on alati kättesaadav. 
+Selles rühmas pole veel piisavalt võrreldavaid katseid. Sinu enda statistika on alati kättesaadav.
 
 [[K0011]]
-Võrdlused pole ajutiselt kättesaadavad. Sinu enda statistika ja jagamisvõimalus toimivad endiselt. 
+Võrdlused pole ajutiselt kättesaadavad. Sinu enda statistika ja jagamisvõimalus toimivad endiselt.
 
 [[K0012]]
-Selle varasema katse puhul puuduvad täielikud andmed lahendusaja kohta. Siiski saad oma tulemust vaadata ja jagada. 
+Selle varasema katse puhul puuduvad täielikud andmed lahendusaja kohta. Siiski saad oma tulemust vaadata ja jagada.
 
 [[K0013]]
-Otsusta enne andmete saatmist, kas soovid oma tulemused statistikasse lisada. 
+Otsusta enne andmete saatmist, kas soovid oma tulemused statistikasse lisada.
 
 [[K0014]]
-Selle katse puhul puuduvad täielikud andmed lahendusaja kohta. Sinu isiklikud tulemused jäävad samaks. 
+Selle katse puhul puuduvad täielikud andmed lahendusaja kohta. Sinu isiklikud tulemused jäävad samaks.
 
 [[K0015]]
-Sinu tulemusi ei õnnestunud selles veebilehitsejas salvestada. Midagi ei saadetud. 
+Sinu tulemusi ei õnnestunud selles veebilehitsejas salvestada. Midagi ei saadetud.
 
 [[K0016]]
-See tulemus vajab ülevaatamist, mistõttu seda ei arvestatud uuesti. 
+See tulemus vajab ülevaatamist, mistõttu seda ei arvestatud uuesti.
 
 [[K0017]]
 Sinu tulemusi pole kinnitatud. Proovi uuesti, kasutades sama salvestatud tulemust. [[K0018]]
@@ -84,13 +84,13 @@ Lahendatud mustrid
 Väljakutse, mida tasub jagada
 
 [[K0030]]
-36 ülesannet. Üks väljakutse. 
+36 ülesannet. Üks väljakutse.
 
 [[K0031]]
-Jaga väljakutset kellegagi, keda tunned. 
+Jaga väljakutset kellegagi, keda tunned.
 
 [[K0032]]
-Sinu aktiivne aeg. Kiiruse hindamiseks pole veel piisavalt võrdlusandmeid. 
+Sinu aktiivne aeg. Kiiruse hindamiseks pole veel piisavalt võrdlusandmeid.
 
 [[K0033]]
 Vali, mida jagada
@@ -117,22 +117,22 @@ Sinu jagatav tekst
 Kopeeri tekst
 
 [[K0041]]
-Facebookis saad lisada oma teksti. Me ei postita kunagi automaatselt. 
+Facebookis saad lisada oma teksti. Me ei postita kunagi automaatselt.
 
 [[K0042]]
-Kopeeritud. Kleebi see oma postitusse. 
+Kopeeritud. Kleebi see oma postitusse.
 
 [[K0043]]
-Vali ja kopeeri allolev tekst. 
+Vali ja kopeeri allolev tekst.
 
 [[K0044]]
 Statistika küsimuste kohta
 
 [[K0045]]
-Küsimuste võrdlusandmed pole veel saadaval. Sinu isiklik statistika on toodud allpool. 
+Küsimuste võrdlusandmed pole veel saadaval. Sinu isiklik statistika on toodud allpool.
 
 [[K0046]]
-Aja arvestus hõlmab aega, mil küsimus oli nähtav ja fookuses, kuni viimase vastuseni. Vastamata küsimuste puhul kuvatakse neile kulutatud aeg. Peidetud vahekaardid ja suletud lehed arvesse ei lähe. Varasemate katsete puhul ei pruugi ajamõõtmisi olla. 
+Aja arvestus hõlmab aega, mil küsimus oli nähtav ja fookuses, kuni viimase vastuseni. Vastamata küsimuste puhul kuvatakse neile kulutatud aeg. Peidetud vahekaardid ja suletud lehed arvesse ei lähe. Varasemate katsete puhul ei pruugi ajamõõtmisi olla.
 
 [[K0047]]
 Kõik 36 küsimust, sealhulgas vahele jäetud küsimused
@@ -150,16 +150,16 @@ Sinu aeg
 Teiste õiged vastused
 
 [[K0052]]
-Võrdle vabatahtlike katsetega, kus kasutati sama ülesande versiooni. Õigete vastuste määra arvutamiseks on vaja vähemalt 30 vastatud küsimust ning mediaani leidmiseks vähemalt 30 ajaliselt mõõdetud õiget vastust. Tegemist on osalejatega, mitte rahvastiku esindusliku valimiga. 
+Võrdle vabatahtlike katsetega, kus kasutati sama ülesande versiooni. Õigete vastuste määra arvutamiseks on vaja vähemalt 30 vastatud küsimust ning mediaani leidmiseks vähemalt 30 ajaliselt mõõdetud õiget vastust. Tegemist on osalejatega, mitte rahvastiku esindusliku valimiga.
 
 [[K0053]]
 Võrdle ja panusta
 
 [[K0054]]
-Aita tulevastel osalejatel oma tulemusi võrrelda. Pärast lõpetamist saad jagada anonüümset statistikat, isegi kui jätsid mõned küsimused vahele. 
+Aita tulevastel osalejatel oma tulemusi võrrelda. Pärast lõpetamist saad jagada anonüümset statistikat, isegi kui jätsid mõned küsimused vahele.
 
 [[K0055]]
-Anonüümseid võrdlusi valmistatakse ette. Sinu isiklik statistika on nähtav ka ilma andmeid jagamata. 
+Anonüümseid võrdlusi valmistatakse ette. Sinu isiklik statistika on nähtav ka ilma andmeid jagamata.
 
 [[K0056]]
 Vanuserühm (valikuline)
@@ -174,16 +174,16 @@ Ei soovi avaldada
 Alla 18-aastane
 
 [[K0060]]
-Nõustun lisama oma anonüümsed vastused ja kulutatud aja (koos valitud vanuserühma ja riigiga) võrdlusstatistikasse. 
+Nõustun lisama oma anonüümsed vastused ja kulutatud aja (koos valitud vanuserühma ja riigiga) võrdlusstatistikasse.
 
 [[K0061]]
-Nime, e-posti aadressi ega täpset vanust ei küsita. Statistika jagamine on vabatahtlik ega mõjuta sinu tulemust. Väikesed võrdlusrühmad jäetakse näitamata. 
+Nime, e-posti aadressi ega täpset vanust ei küsita. Statistika jagamine on vabatahtlik ega mõjuta sinu tulemust. Väikesed võrdlusrühmad jäetakse näitamata.
 
 [[K0062]]
 Panusta anonüümselt
 
 [[K0063]]
-Miks just see vastus? 
+Miks just see vastus?
 
 [[K0064]]
 Selgitus
@@ -195,10 +195,10 @@ Reegel
 Reegli rakendamine
 
 [[K0067]]
-Vaatad ülesande varasemat versiooni. Selle näidetes esineb varem tuvastatud ebaselgus; sinu salvestatud vastus ja tulemus jäävad samaks. 
+Vaatad ülesande varasemat versiooni. Selle näidetes esineb varem tuvastatud ebaselgus; sinu salvestatud vastus ja tulemus jäävad samaks.
 
 [[K0068]]
-Vaatad algset versiooni, milles olid näidete tähistamisel vead. Sinu salvestatud vastus ja tulemus jäävad samaks. Uutes katsetes kasutatakse parandatud versiooni. 
+Vaatad algset versiooni, milles olid näidete tähistamisel vead. Sinu salvestatud vastus ja tulemus jäävad samaks. Uutes katsetes kasutatakse parandatud versiooni.
 
 [[K0069]]
 Selles algversioonis laieneb kuvatav keskmine pilt järgmiselt: paremas ülanurgas ning 2. rea 3. veerus muutub see roheliseks; 2. rea 1. veerus punaseks; ning 2. rea 2. veerus, 3. rea 3. veerus ja 4. rea 3. veerus pruuniks.

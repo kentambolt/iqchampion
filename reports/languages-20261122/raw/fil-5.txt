@@ -1,17 +1,17 @@
 [[K0275]]
-Sabay-sabay na gumagalaw ang lahat ng itim na divider sa isang posisyon pakanan kung ang susunod na posisyon ay naglalaman ng dilaw na bead. Maghihintay ang isang divider na hinaharangan ng isa pang divider. Ang kanang gilid ay kumokonekta sa kaliwang gilid. 
+Sabay-sabay na gumagalaw ang lahat ng itim na divider sa isang posisyon pakanan kung ang susunod na posisyon ay naglalaman ng dilaw na bead. Maghihintay ang isang divider na hinaharangan ng isa pang divider. Ang kanang gilid ay kumokonekta sa kaliwang gilid.
 
 [[K0276]]
-Maglagay ng isang sabay-sabay na hakbang sa gitnang pagkakasunod-sunod. Ang pangwakas na pagkakasunud-sunod ay divider, bead, divider, bead, divider, divider, bead. 
+Maglagay ng isang sabay-sabay na hakbang sa gitnang pagkakasunod-sunod. Ang pangwakas na pagkakasunud-sunod ay divider, bead, divider, bead, divider, divider, bead.
 
 [[K0277]]
 Palawakin ang mga kulay at panatilihin ang pinakamalaking grupo
 
 [[K0278]]
-Palitan ang bawat may kulay na bola ng apat na bagong bola na may parehong kulay, isang hakbang sa itaas, sa ibaba, kaliwa at kanan. Ang mga bolang umaalis sa grid ay mawawala. Sa bawat posisyon, panatilihin ang kulay na may pinakamalaking bilang ng mga dumarating na bola. Kung ang mga kulay ay tabla para sa pinakamalaking bilang, iwanang blangko ang posisyon. Maraming mga dumating na may parehong kulay ang lilitaw bilang isang may kulay na marker. 
+Palitan ang bawat may kulay na bola ng apat na bagong bola na may parehong kulay, isang hakbang sa itaas, sa ibaba, kaliwa at kanan. Ang mga bolang umaalis sa grid ay mawawala. Sa bawat posisyon, panatilihin ang kulay na may pinakamalaking bilang ng mga dumarating na bola. Kung ang mga kulay ay tabla para sa pinakamalaking bilang, iwanang blangko ang posisyon. Maraming mga dumating na may parehong kulay ang lilitaw bilang isang may kulay na marker.
 
 [[K0279]]
-Ang pagpapalawak ng ipinapakitang gitnang larawan ay nag-iiwan ng berde sa kanang itaas at sa hilera 2, haligi 3; pula sa hilera 2, haligi 1; at kayumanggi sa hilera 2, hanay 2, hanay 3, hanay 3, at hilera 4, mga hanay 2, 3 at 4. Iyon mismo ang mga kulay at posisyon sa nakaimbak na sagot. 
+Ang pagpapalawak ng ipinapakitang gitnang larawan ay nag-iiwan ng berde sa kanang itaas at sa hilera 2, haligi 3; pula sa hilera 2, haligi 1; at kayumanggi sa hilera 2, hanay 2, hanay 3, hanay 3, at hilera 4, mga hanay 2, 3 at 4. Iyon mismo ang mga kulay at posisyon sa nakaimbak na sagot.
 
 [[K0280]]
 Pumili ng wika
@@ -29,19 +29,19 @@ Walang natagpuang mga wika
 Libreng pagsusulit sa IQ para sa kasiyahan | IQ Champion
 
 [[K0285]]
-Isang libreng pagsusulit na istilo ng IQ para sa kasiyahan: 36 na visual puzzle, 40 minuto, naka-save na progreso at isang tinantyang resulta ng IQ. Hindi kailangan ng account. 
+Isang libreng pagsusulit na istilo ng IQ para sa kasiyahan: 36 na visual puzzle, 40 minuto, naka-save na progreso at isang tinantyang resulta ng IQ. Hindi kailangan ng account.
 
 [[K0286]]
-Piliin ang iyong ginustong wika. Ang iyong mga sagot at orihinal na deadline ay mananatiling naka-save. 
+Piliin ang iyong ginustong wika. Ang iyong mga sagot at orihinal na deadline ay mananatiling naka-save.
 
 [[K0287]]
 Naglo-load ng wika…
 
 [[K0288]]
-Hindi ma-load ang wika. Ang iyong pagsusulit at mga sagot ay hindi nagbabago. 
+Hindi ma-load ang wika. Ang iyong pagsusulit at mga sagot ay hindi nagbabago.
 
 [[K0289]]
-May makukuhang feedback sa Danish at English. 
+May makukuhang feedback sa Danish at English.
 
 [[K0290]]
 Ibinahaging nakamit
@@ -50,10 +50,10 @@ Ibinahaging nakamit
 Ibinahaging resulta
 
 [[K0292]]
-Ang mga ibinahaging resulta ay iniuulat ng sarili. 
+Ang mga ibinahaging resulta ay iniuulat ng sarili.
 
 [[K0293]]
-Ang mga ibinahaging nakamit ay iniuulat ng sarili. Walang edad, bansa, sagot o personal na profile ang ibinabahagi. 
+Ang mga ibinahaging nakamit ay iniuulat ng sarili. Walang edad, bansa, sagot o personal na profile ang ibinabahagi.
 
 [[K0294]]
 Subukan ang 36 na puzzle nang mag-isa
@@ -62,16 +62,16 @@ Subukan ang 36 na puzzle nang mag-isa
 Subukan ang pagsusulit nang mag-isa
 
 [[K0296]]
-Isang visual challenge sa IQ Champion. Nakikita mo rin ba ang pattern? 
+Isang visual challenge sa IQ Champion. Nakikita mo rin ba ang pattern?
 
 [[K0297]]
-Isang libreng visual puzzle test, para lang sa kasiyahan. Hindi isang propesyonal na napatunayang pagsukat ng IQ. 
+Isang libreng visual puzzle test, para lang sa kasiyahan. Hindi isang propesyonal na napatunayang pagsukat ng IQ.
 
 [[K0298]]
 Hindi natagpuan ang pahina
 
 [[K0299]]
-Maaari kang magpatuloy sa ibang wika. 
+Maaari kang magpatuloy sa ibang wika.
 
 [[K0300]]
 sinagot
@@ -86,7 +86,7 @@ tama
 hindi tama
 
 [[K0304]]
-Tinatayang median range: {0} ({1} mga tamang sagot na may takdang oras). 
+Tinatayang median range: {0} ({1} mga tamang sagot na may takdang oras).
 
 [[K0305]]
 Tanong {0} · {1}
@@ -98,7 +98,7 @@ Tanong {0} · {1}
 Aktibong oras: {0}
 
 [[K0308]]
-Paghahambing: {0} mga boluntaryong pagtatangka sa loob ng {1} araw. 
+Paghahambing: {0} mga boluntaryong pagtatangka sa loob ng {1} araw.
 
 [[K0309]]
 Tanong {0} / {1}
@@ -119,13 +119,13 @@ Tanong {0}, {1}
 Suriin ang tanong {0}, {1}
 
 [[K0315]]
-{0} tama; {1} mali; {2} hindi nasagot. 
+{0} tama; {1} mali; {2} hindi nasagot.
 
 [[K0316]]
-{0} nasagot; {1} hindi nasagot. 
+{0} nasagot; {1} hindi nasagot.
 
 [[K0317]]
-{0} nasagot; {1} hindi nasagot. Ang mga tanong na hindi nasagot ay itinuturing na mali. Kapag tapos na, hindi mo na mababago ang mga sagot. 
+{0} nasagot; {1} hindi nasagot. Ang mga tanong na hindi nasagot ay itinuturing na mali. Kapag tapos na, hindi mo na mababago ang mga sagot.
 
 [[K0318]]
 {0} / {1} tama
@@ -134,10 +134,10 @@ Suriin ang tanong {0}, {1}
 Persentil sa mga kalahok sa kasaysayan: {0}
 
 [[K0320]]
-Mga kalahok na nakakuha ng mas mababang marka: {0}%. Mga kalahok na may parehong marka: {1}%. 
+Mga kalahok na nakakuha ng mas mababang marka: {0}%. Mga kalahok na may parehong marka: {1}%.
 
 [[K0321]]
-Grupong sanggunian: {0} mga pagtatangka sa kasaysayan. Kasama ang mga pagtatangka na may naitalang tagal na higit sa isang minuto at hanggang 40 minuto. Ang mga markang tabla ay nagbabahagi ng kalagitnaan ng kanilang grupo ng persentil. Ang mga pagtatantya ay nira-round off sa mga buong numero at ipinapakita lamang sa loob ng 55–145, na may tagapagpahiwatig ng limitasyon sa labas ng saklaw na iyon. Ito ay isang conversion ng iskala, hindi isang independiyenteng napatunayang pagsukat ng IQ ng populasyon. Ang pagsasanay at paulit-ulit na mga pagtatangka ay maaaring makaapekto sa iyong resulta. Ang ilang halimbawang larawan ay naitama mula nang makolekta ang mga pagtatangka sa kasaysayan, na naglilimita sa paghahambing. 
+Grupong sanggunian: {0} mga pagtatangka sa kasaysayan. Kasama ang mga pagtatangka na may naitalang tagal na higit sa isang minuto at hanggang 40 minuto. Ang mga markang tabla ay nagbabahagi ng kalagitnaan ng kanilang grupo ng persentil. Ang mga pagtatantya ay nira-round off sa mga buong numero at ipinapakita lamang sa loob ng 55–145, na may tagapagpahiwatig ng limitasyon sa labas ng saklaw na iyon. Ito ay isang conversion ng iskala, hindi isang independiyenteng napatunayang pagsukat ng IQ ng populasyon. Ang pagsasanay at paulit-ulit na mga pagtatangka ay maaaring makaapekto sa iyong resulta. Ang ilang halimbawang larawan ay naitama mula nang makolekta ang mga pagtatangka sa kasaysayan, na naglilimita sa paghahambing.
 
 [[K0322]]
 Ang aking tinantyang IQ sa IQ Champion: {0}. Para lamang sa kasiyahan. Subukan ito: {1}

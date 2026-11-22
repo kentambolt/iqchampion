@@ -1,17 +1,17 @@
 [[K0275]]
-Kõik mustad eraldajad liiguvad üheaegselt ühe positsiooni võrra paremale, kui järgmisel positsioonil asub kollane pärl. Eraldaja, mille teekonna blokeerib teine ​​eraldaja, jääb ootele. Parem serv on ühendatud vasaku servaga. 
+Kõik mustad eraldajad liiguvad üheaegselt ühe positsiooni võrra paremale, kui järgmisel positsioonil asub kollane pärl. Eraldaja, mille teekonna blokeerib teine ​​eraldaja, jääb ootele. Parem serv on ühendatud vasaku servaga.
 
 [[K0276]]
-Rakenda keskmisele jadale üks üheaegne samm. Lõplik järjestus on: eraldaja, pärl, eraldaja, pärl, eraldaja, eraldaja, pärl. 
+Rakenda keskmisele jadale üks üheaegne samm. Lõplik järjestus on: eraldaja, pärl, eraldaja, pärl, eraldaja, eraldaja, pärl.
 
 [[K0277]]
 Laienda värve ja säilita suurim rühm.
 
 [[K0278]]
-Asenda iga värviline pall nelja sama värvi uue palliga, mis paiknevad vastavalt ühe sammu võrra ülal, all, vasakul ja paremal. Ruudustikust väljuvad pallid kaovad. Igal positsioonil säilita see värv, mida sinna saabus kõige rohkem. Kui suurima arvu puhul on viik, jäta positsioon tühjaks. Mitme sama värvi palli saabumine ühte kohta tähistatakse ühe värvilise märgiga. 
+Asenda iga värviline pall nelja sama värvi uue palliga, mis paiknevad vastavalt ühe sammu võrra ülal, all, vasakul ja paremal. Ruudustikust väljuvad pallid kaovad. Igal positsioonil säilita see värv, mida sinna saabus kõige rohkem. Kui suurima arvu puhul on viik, jäta positsioon tühjaks. Mitme sama värvi palli saabumine ühte kohta tähistatakse ühe värvilise märgiga.
 
 [[K0279]]
-Kuvatud keskmise pildi laiendamisel jäävad rohelised värvid paremasse ülanurka ning 2. rea 3. veergu; punane 2. rea 1. veergu; ning pruunid 2. rea 2. veergu, 3. rea 3. veergu ja 4. rea 2., 3. ja 4. veergu. Need on täpselt samad värvid ja asukohad, mis on toodud salvestatud vastuses. 
+Kuvatud keskmise pildi laiendamisel jäävad rohelised värvid paremasse ülanurka ning 2. rea 3. veergu; punane 2. rea 1. veergu; ning pruunid 2. rea 2. veergu, 3. rea 3. veergu ja 4. rea 2., 3. ja 4. veergu. Need on täpselt samad värvid ja asukohad, mis on toodud salvestatud vastuses.
 
 [[K0280]]
 Vali keel
@@ -29,17 +29,17 @@ Keeli ei leitud
 Tasuta IQ-test meelelahutuseks | IQ Champion
 
 [[K0285]]
-Tasuta IQ-laadne test meelelahutuseks: 36 visuaalset ülesannet, 40 minutit, salvestatud edenemine ja hinnanguline IQ-tulemus. Kontot pole vaja. 
+Tasuta IQ-laadne test meelelahutuseks: 36 visuaalset ülesannet, 40 minutit, salvestatud edenemine ja hinnanguline IQ-tulemus. Kontot pole vaja.
 
 [[K0286]]
-Vali endale sobiv keel. Sinu vastused ja algne tähtaeg jäävad alles. 
+Vali endale sobiv keel. Sinu vastused ja algne tähtaeg jäävad alles.
 
 [[K0287]]
 Laadin keelt…
 
 [[K0288]]
 Keelt ei õnnestunud laadida. Sinu test ja vastused jäävad muutmata. [[K0289]]
-Tagasiside on saadaval taani ja inglise keeles. 
+Tagasiside on saadaval taani ja inglise keeles.
 
 [[K0290]]
 Jagatud saavutus
@@ -48,10 +48,10 @@ Jagatud saavutus
 Jagatud tulemus
 
 [[K0292]]
-Jagatud tulemused põhinevad kasutaja enda sisestatud andmetel. 
+Jagatud tulemused põhinevad kasutaja enda sisestatud andmetel.
 
 [[K0293]]
-Jagatud saavutused põhinevad kasutaja enda sisestatud andmetel. Vanust, riiki, vastuseid ega isikuprofiile ei jagata. 
+Jagatud saavutused põhinevad kasutaja enda sisestatud andmetel. Vanust, riiki, vastuseid ega isikuprofiile ei jagata.
 
 [[K0294]]
 Proovi ise 36 mõistatust lahendada
@@ -60,16 +60,16 @@ Proovi ise 36 mõistatust lahendada
 Proovi ise testi teha
 
 [[K0296]]
-Visuaalne väljakutse mängus „IQ Champion“. Kas suudad ka sina mustri ära tunda? 
+Visuaalne väljakutse mängus „IQ Champion“. Kas suudad ka sina mustri ära tunda?
 
 [[K0297]]
-Tasuta visuaalne mõistatustest – lihtsalt lõbu pärast. See ei ole professionaalselt valideeritud IQ-mõõtmine. 
+Tasuta visuaalne mõistatustest – lihtsalt lõbu pärast. See ei ole professionaalselt valideeritud IQ-mõõtmine.
 
 [[K0298]]
 Lehekülge ei leitud
 
 [[K0299]]
-Võid jätkata mõnes teises keeles. 
+Võid jätkata mõnes teises keeles.
 
 [[K0300]]
 vastatud
@@ -84,7 +84,7 @@ vastamata
 vale
 
 [[K0304]]
-Hinnanguline mediaanvahemik: {0} ({1} õiget vastust ajapiiranguga). 
+Hinnanguline mediaanvahemik: {0} ({1} õiget vastust ajapiiranguga).
 
 [[K0305]]
 Küsimus {0} · {1}
@@ -96,7 +96,7 @@ Küsimus {0} · {1}
 Aktiivne aeg: {0}
 
 [[K0308]]
-Võrdlus: {0} vabatahtlikku katset {1} päeva jooksul. 
+Võrdlus: {0} vabatahtlikku katset {1} päeva jooksul.
 
 [[K0309]]
 Küsimus {0} / {1}
@@ -117,13 +117,13 @@ Küsimus {0}, {1}
 Vaata üle küsimus {0}, {1}
 
 [[K0315]]
-{0} õiget; {1} valet; {2} vastamata. 
+{0} õiget; {1} valet; {2} vastamata.
 
 [[K0316]]
-{0} vastatud; {1} vastamata. 
+{0} vastatud; {1} vastamata.
 
 [[K0317]]
-{0} vastatud; {1} vastamata. Vastamata küsimused loetakse valedeks. Kui oled lõpetanud, ei saa vastuseid enam muuta. 
+{0} vastatud; {1} vastamata. Vastamata küsimused loetakse valedeks. Kui oled lõpetanud, ei saa vastuseid enam muuta.
 
 [[K0318]]
 {0} / {1} õiget vastust
@@ -132,10 +132,10 @@ Vaata üle küsimus {0}, {1}
 Protsentiil varasemate osalejate seas: {0}
 
 [[K0320]]
-Osalejad, kelle tulemus oli madalam: {0}%. Osalejad, kelle tulemus oli sama: {1}%. 
+Osalejad, kelle tulemus oli madalam: {0}%. Osalejad, kelle tulemus oli sama: {1}%.
 
 [[K0321]]
-Võrdlusrühm: {0} varasemat katset. Arvesse on võetud katsed, mille kestus jäi vahemikku üle ühe minuti kuni 40 minutini. Võrdsete tulemuste korral määratakse protsentiil vastava rühma keskväärtuse järgi. Hinnangulised väärtused on ümardatud täisarvudeni ja kuvatakse vahemikus 55–145; sellest väljapoole jäävate tulemuste puhul kuvatakse vastav piirväärtuse tähis. Tegemist on skaala teisendusega, mitte sõltumatult valideeritud IQ-mõõtmisega kogu elanikkonna lõikes. Harjutamine ja korduvad katsed võivad tulemust mõjutada. Mõningaid näidispilte on pärast varasemate katsete andmete kogumist parandatud, mis piirab tulemuste võrreldavust. 
+Võrdlusrühm: {0} varasemat katset. Arvesse on võetud katsed, mille kestus jäi vahemikku üle ühe minuti kuni 40 minutini. Võrdsete tulemuste korral määratakse protsentiil vastava rühma keskväärtuse järgi. Hinnangulised väärtused on ümardatud täisarvudeni ja kuvatakse vahemikus 55–145; sellest väljapoole jäävate tulemuste puhul kuvatakse vastav piirväärtuse tähis. Tegemist on skaala teisendusega, mitte sõltumatult valideeritud IQ-mõõtmisega kogu elanikkonna lõikes. Harjutamine ja korduvad katsed võivad tulemust mõjutada. Mõningaid näidispilte on pärast varasemate katsete andmete kogumist parandatud, mis piirab tulemuste võrreldavust.
 
 [[K0322]]
 Minu hinnanguline IQ mängus IQ Champion: {0}. Lihtsalt lõbu pärast. Proovi ise: {1}

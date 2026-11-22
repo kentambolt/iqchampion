@@ -1,17 +1,17 @@
 [[K0275]]
-Všechny černé oddělovače se současně posunou o jednu pozici doprava, pokud se na následující pozici nachází žlutý korálek. Oddělovač, kterému v pohybu brání jiný oddělovač, zůstává na místě. Pravý okraj navazuje na levý okraj. 
+Všechny černé oddělovače se současně posunou o jednu pozici doprava, pokud se na následující pozici nachází žlutý korálek. Oddělovač, kterému v pohybu brání jiný oddělovač, zůstává na místě. Pravý okraj navazuje na levý okraj.
 
 [[K0276]]
-Proveďte jeden současný krok v prostřední sekvenci. Výsledné pořadí je: oddělovač, korálek, oddělovač, korálek, oddělovač, oddělovač, korálek. 
+Proveďte jeden současný krok v prostřední sekvenci. Výsledné pořadí je: oddělovač, korálek, oddělovač, korálek, oddělovač, oddělovač, korálek.
 
 [[K0277]]
 Rozšiřte barvy a ponechte si největší skupinu.
 
 [[K0278]]
-Nahraďte každou barevnou kuličku čtyřmi novými kuličkami stejné barvy – umístěnými o jedno pole výše, níže, vlevo a vpravo. Kuličky, které opustí mřížku, zmizí. Na každé pozici ponechte tu barvu, která je zastoupena největším počtem přicházejících kuliček. Pokud mají dvě či více barev stejný (nejvyšší) počet, ponechte danou pozici prázdnou. Více kuliček stejné barvy na jedné pozici se zobrazí jako jeden barevný prvek. 
+Nahraďte každou barevnou kuličku čtyřmi novými kuličkami stejné barvy – umístěnými o jedno pole výše, níže, vlevo a vpravo. Kuličky, které opustí mřížku, zmizí. Na každé pozici ponechte tu barvu, která je zastoupena největším počtem přicházejících kuliček. Pokud mají dvě či více barev stejný (nejvyšší) počet, ponechte danou pozici prázdnou. Více kuliček stejné barvy na jedné pozici se zobrazí jako jeden barevný prvek.
 
 [[K0279]]
-Po rozšíření zobrazeného prostředního obrázku zůstane zelená barva vpravo nahoře a na pozici (řádek 2, sloupec 3); červená na pozici (řádek 2, sloupec 1); a hnědá na pozicích (řádek 2, sloupec 2), (řádek 3, sloupec 3) a (řádek 4, sloupce 2, 3 a 4). Přesně tyto barvy a pozice odpovídají uloženému řešení. 
+Po rozšíření zobrazeného prostředního obrázku zůstane zelená barva vpravo nahoře a na pozici (řádek 2, sloupec 3); červená na pozici (řádek 2, sloupec 1); a hnědá na pozicích (řádek 2, sloupec 2), (řádek 3, sloupec 3) a (řádek 4, sloupce 2, 3 a 4). Přesně tyto barvy a pozice odpovídají uloženému řešení.
 
 [[K0280]]
 Vyberte jazyk
@@ -29,17 +29,17 @@ Nebyly nalezeny žádné jazyky
 Bezplatný IQ test pro zábavu | IQ Champion
 
 [[K0285]]
-Bezplatný test ve stylu IQ pro zábavu: 36 vizuálních úloh, 40 minut, možnost uložení postupu a odhad výsledného IQ. Není nutné vytvářet účet. 
+Bezplatný test ve stylu IQ pro zábavu: 36 vizuálních úloh, 40 minut, možnost uložení postupu a odhad výsledného IQ. Není nutné vytvářet účet.
 
 [[K0286]]
-Zvolte preferovaný jazyk. Vaše odpovědi i původní časový limit zůstanou zachovány. 
+Zvolte preferovaný jazyk. Vaše odpovědi i původní časový limit zůstanou zachovány.
 
 [[K0287]]
 Načítání jazyka…
 
 [[K0288]]
 Jazyk se nepodařilo načíst. Váš test a odpovědi zůstávají beze změny. [[K0289]]
-Zpětná vazba je k dispozici v dánštině a angličtině. 
+Zpětná vazba je k dispozici v dánštině a angličtině.
 
 [[K0290]]
 Sdílený úspěch
@@ -48,10 +48,10 @@ Sdílený úspěch
 Sdílený výsledek
 
 [[K0292]]
-Sdílené výsledky jsou založeny na vlastním nahlášení uživatelem. 
+Sdílené výsledky jsou založeny na vlastním nahlášení uživatelem.
 
 [[K0293]]
-Sdílené úspěchy jsou založeny na vlastním nahlášení uživatelem. Nesdílejí se žádné údaje o věku, zemi, odpovědích ani osobní profily. 
+Sdílené úspěchy jsou založeny na vlastním nahlášení uživatelem. Nesdílejí se žádné údaje o věku, zemi, odpovědích ani osobní profily.
 
 [[K0294]]
 Vyzkoušejte si 36 hlavolamů sami
@@ -60,16 +60,16 @@ Vyzkoušejte si 36 hlavolamů sami
 Vyzkoušejte si test sami
 
 [[K0296]]
-Vizuální výzva ve hře IQ Champion. Odhalíte ten vzorec také? 
+Vizuální výzva ve hře IQ Champion. Odhalíte ten vzorec také?
 
 [[K0297]]
-Bezplatný test s vizuálními hlavolamy – jen tak pro zábavu. Nejedná se o profesionálně ověřené měření IQ. 
+Bezplatný test s vizuálními hlavolamy – jen tak pro zábavu. Nejedná se o profesionálně ověřené měření IQ.
 
 [[K0298]]
 Stránka nenalezena
 
 [[K0299]]
-Můžete pokračovat v jiném jazyce. 
+Můžete pokračovat v jiném jazyce.
 
 [[K0300]]
 zodpovězeno
@@ -84,7 +84,7 @@ správně
 chybně
 
 [[K0304]]
-Odhadované rozmezí mediánu: {0} ({1} správných odpovědí v časovém limitu). 
+Odhadované rozmezí mediánu: {0} ({1} správných odpovědí v časovém limitu).
 
 [[K0305]]
 Otázka {0} · {1}
@@ -96,7 +96,7 @@ Otázka {0} · {1}
 Aktivní čas: {0}
 
 [[K0308]]
-Srovnání: {0} dobrovolných pokusů v průběhu {1} dnů. 
+Srovnání: {0} dobrovolných pokusů v průběhu {1} dnů.
 
 [[K0309]]
 Otázka {0} / {1}
@@ -117,13 +117,13 @@ Otázka {0}, {1}
 Kontrola otázky {0}, {1}
 
 [[K0315]]
-{0} správně; {1} chybně; {2} nezodpovězeno. 
+{0} správně; {1} chybně; {2} nezodpovězeno.
 
 [[K0316]]
-{0} zodpovězeno; {1} nezodpovězeno. 
+{0} zodpovězeno; {1} nezodpovězeno.
 
 [[K0317]]
-{0} zodpovězeno; {1} nezodpovězeno. Nezodpovězené otázky se počítají jako nesprávné. Po dokončení již nelze odpovědi změnit. 
+{0} zodpovězeno; {1} nezodpovězeno. Nezodpovězené otázky se počítají jako nesprávné. Po dokončení již nelze odpovědi změnit.
 
 [[K0318]]
 {0} / {1} správně
@@ -132,10 +132,10 @@ Kontrola otázky {0}, {1}
 Percentil mezi dosavadními účastníky: {0}
 
 [[K0320]]
-Účastníci s horším výsledkem: {0} %. Účastníci se stejným výsledkem: {1} %. 
+Účastníci s horším výsledkem: {0} %. Účastníci se stejným výsledkem: {1} %.
 
 [[K0321]]
-Referenční skupina: {0} dosavadních pokusů. Zahrnuty jsou pokusy, jejichž zaznamenaná doba trvání činila více než jednu minutu a až 40 minut. V případě shody ve výsledcích se uvažuje střed příslušné percentilové skupiny. Odhady jsou zaokrouhleny na celá čísla a zobrazují se pouze v rozmezí 55–145; mimo toto rozmezí je zobrazen indikátor limitu. Jedná se o přepočet na stupnici, nikoli o nezávisle validované měření IQ v populaci. Výsledek může být ovlivněn tréninkem a opakovanými pokusy. Některé příklady (obrázky) byly od doby sběru dat upraveny, což omezuje vzájemnou srovnatelnost. 
+Referenční skupina: {0} dosavadních pokusů. Zahrnuty jsou pokusy, jejichž zaznamenaná doba trvání činila více než jednu minutu a až 40 minut. V případě shody ve výsledcích se uvažuje střed příslušné percentilové skupiny. Odhady jsou zaokrouhleny na celá čísla a zobrazují se pouze v rozmezí 55–145; mimo toto rozmezí je zobrazen indikátor limitu. Jedná se o přepočet na stupnici, nikoli o nezávisle validované měření IQ v populaci. Výsledek může být ovlivněn tréninkem a opakovanými pokusy. Některé příklady (obrázky) byly od doby sběru dat upraveny, což omezuje vzájemnou srovnatelnost.
 
 [[K0322]]
 Mé odhadované IQ v IQ Champion: {0}. Jen tak pro zábavu. Zkuste to: {1}

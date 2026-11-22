@@ -1,74 +1,74 @@
 [[K0249]]
-Sau khi loại bỏ viên gạch đỏ, những viên gạch còn lại tạo thành bậc thang ở giữa. Loại bỏ viên gạch vàng và các viên gạch liền kề sẽ để lại viên gạch xanh ở trên cùng, viên gạch này sẽ rơi xuống dưới cùng. 
+Sau khi loại bỏ viên gạch đỏ, những viên gạch còn lại tạo thành bậc thang ở giữa. Loại bỏ viên gạch vàng và các viên gạch liền kề sẽ để lại viên gạch xanh ở trên cùng, viên gạch này sẽ rơi xuống dưới cùng.
 
 [[K0250]]
 Xoay vòng các lớp và áp dụng mặt nạ màu.
 
 [[K0251]]
-Theo dõi ba hình dạng giống nhau. Ở mỗi bước, hình dạng phía trước di chuyển ra phía sau. Đối với hình ảnh cuối cùng, giữ nguyên màu xám hoặc đen của hình ảnh ở giữa; các hình dạng màu trắng không được tô màu sẽ lấy lại màu sắc của chúng từ hình ảnh đầu tiên. 
+Theo dõi ba hình dạng giống nhau. Ở mỗi bước, hình dạng phía trước di chuyển ra phía sau. Đối với hình ảnh cuối cùng, giữ nguyên màu xám hoặc đen của hình ảnh ở giữa; các hình dạng màu trắng không được tô màu sẽ lấy lại màu sắc của chúng từ hình ảnh đầu tiên.
 
 [[K0252]]
-Hình lục giác màu xám di chuyển ra phía trước, hình trụ ngang màu đen nằm phía sau nó, và hình trụ dọc di chuyển ra phía sau. Hình trụ dọc màu trắng đó lấy lại màu vàng ban đầu của nó. 
+Hình lục giác màu xám di chuyển ra phía trước, hình trụ ngang màu đen nằm phía sau nó, và hình trụ dọc di chuyển ra phía sau. Hình trụ dọc màu trắng đó lấy lại màu vàng ban đầu của nó.
 
 [[K0253]]
 Sử dụng màu sắc của mỗi hình tròn để tìm chuyển động của nó.
 
 [[K0254]]
-Theo dõi mỗi hình tròn so với hình tròn ngay xung quanh nó. Màu trắng di chuyển 90 độ theo chiều kim đồng hồ, màu đen di chuyển 90 độ ngược chiều kim đồng hồ, và màu đỏ giữ nguyên vị trí tương đối. Màu xanh lam không di chuyển. Áp dụng các chuyển động này cho mọi cấp độ lồng nhau. 
+Theo dõi mỗi hình tròn so với hình tròn ngay xung quanh nó. Màu trắng di chuyển 90 độ theo chiều kim đồng hồ, màu đen di chuyển 90 độ ngược chiều kim đồng hồ, và màu đỏ giữ nguyên vị trí tương đối. Màu xanh lam không di chuyển. Áp dụng các chuyển động này cho mọi cấp độ lồng nhau.
 
 [[K0255]]
-Vòng tròn màu đen di chuyển từ phía trên vòng tròn màu xanh lam sang bên trái của nó. Màu đỏ giữ nguyên bên phải bên trong màu đen. Vòng tròn màu trắng lớn hơn di chuyển từ phía trên màu đỏ sang bên phải của nó; vòng tròn màu trắng nhỏ nhất di chuyển từ phía dưới vòng tròn màu trắng lớn hơn sang bên trái của nó. 
+Vòng tròn màu đen di chuyển từ phía trên vòng tròn màu xanh lam sang bên trái của nó. Màu đỏ giữ nguyên bên phải bên trong màu đen. Vòng tròn màu trắng lớn hơn di chuyển từ phía trên màu đỏ sang bên phải của nó; vòng tròn màu trắng nhỏ nhất di chuyển từ phía dưới vòng tròn màu trắng lớn hơn sang bên trái của nó.
 
 [[K0256]]
 Di chuyển các màu dọc theo các tuyến đường được kết nối
 
 [[K0257]]
-Các liên kết màu đen chỉ định các tuyến đường mà các màu di chuyển. Theo dõi từng vòng lặp theo chiều kim đồng hồ, di chuyển mỗi màu đến vị trí được kết nối tiếp theo. Một tuyến đường hai vị trí sẽ hoán đổi màu sắc của nó; các chấm không được kết nối sẽ giữ nguyên vị trí. 
+Các liên kết màu đen chỉ định các tuyến đường mà các màu di chuyển. Theo dõi từng vòng lặp theo chiều kim đồng hồ, di chuyển mỗi màu đến vị trí được kết nối tiếp theo. Một tuyến đường hai vị trí sẽ hoán đổi màu sắc của nó; các chấm không được kết nối sẽ giữ nguyên vị trí.
 
 [[K0258]]
 Hoán đổi hai màu trên cùng. Trên vòng lặp phía dưới, màu xanh lam ở giữa bên trái di chuyển đến trung tâm và màu đỏ ở giữa bên phải di chuyển đến phía dưới bên trái. Màu đỏ ở dưới cùng bên phải ... [[K0259]]
 Di chuyển mỗi màu theo đường đi riêng của nó
 
 [[K0260]]
-Màu đỏ di chuyển xuống, màu xanh lá cây di chuyển sang phải và màu vàng di chuyển sang trái. Màu xanh dương di chuyển lên trên và, nếu có thể, sang trái một cột. Màu trắng đánh dấu các màu chồng lên nhau; hãy tách các màu đó ra khi thực hiện bước di chuyển tiếp theo. Các màu di chuyển ra ngoài lưới sẽ biến mất. 
+Màu đỏ di chuyển xuống, màu xanh lá cây di chuyển sang phải và màu vàng di chuyển sang trái. Màu xanh dương di chuyển lên trên và, nếu có thể, sang trái một cột. Màu trắng đánh dấu các màu chồng lên nhau; hãy tách các màu đó ra khi thực hiện bước di chuyển tiếp theo. Các màu di chuyển ra ngoài lưới sẽ biến mất.
 
 [[K0261]]
-Tách ô trắng ở giữa thành màu đỏ và màu xanh lá cây. Màu đỏ di chuyển xuống giữa dưới, màu xanh lá cây xuống giữa bên phải, màu xanh dương lên đến góc trên bên trái và màu vàng ra ở bên trái. Ba ô màu đó tạo thành đáp án. 
+Tách ô trắng ở giữa thành màu đỏ và màu xanh lá cây. Màu đỏ di chuyển xuống giữa dưới, màu xanh lá cây xuống giữa bên phải, màu xanh dương lên đến góc trên bên trái và màu vàng ra ở bên trái. Ba ô màu đó tạo thành đáp án.
 
 [[K0262]]
 Di chuyển đầu nhọn màu đỏ và màu xanh dương theo hướng ngược nhau
 
 [[K0263]]
-Ở mỗi bước, mỗi đầu nhọn màu đỏ di chuyển một vị trí ngược chiều kim đồng hồ và mỗi đầu nhọn màu xanh dương di chuyển hai vị trí theo chiều kim đồng hồ xung quanh ngôi sao năm cánh. Màu trắng có nghĩa là màu đỏ và màu xanh dương chồng lên nhau; hãy tách cả hai màu trước khi di chuyển tiếp. 
+Ở mỗi bước, mỗi đầu nhọn màu đỏ di chuyển một vị trí ngược chiều kim đồng hồ và mỗi đầu nhọn màu xanh dương di chuyển hai vị trí theo chiều kim đồng hồ xung quanh ngôi sao năm cánh. Màu trắng có nghĩa là màu đỏ và màu xanh dương chồng lên nhau; hãy tách cả hai màu trước khi di chuyển tiếp.
 
 [[K0264]]
-Trong hình giữa, màu đỏ ở phía dưới bên phải và màu xanh lam ở phía trên bên phải và phía trên bên trái. Bước tiếp theo đặt màu đỏ và một màu xanh lam cạnh nhau ở phía trên bên phải, tạo thành màu trắng. Màu xanh lam còn lại di chuyển xuống phía dưới bên trái. 
+Trong hình giữa, màu đỏ ở phía dưới bên phải và màu xanh lam ở phía trên bên phải và phía trên bên trái. Bước tiếp theo đặt màu đỏ và một màu xanh lam cạnh nhau ở phía trên bên phải, tạo thành màu trắng. Màu xanh lam còn lại di chuyển xuống phía dưới bên trái.
 
 [[K0265]]
 Dịch chuyển hai bản sao theo hướng của hình quạt.
 
 [[K0266]]
-Hai cạnh của hình quạt màu trắng chỉ ra hai hướng di chuyển. Tạo hai bản sao của mẫu chấm đỏ và dịch chuyển một bản sao một bước lưới theo mỗi hướng, cuộn lại ở các cạnh. Vị trí đạt được một lần là màu đỏ; vị trí đạt được bởi cả hai bản sao là màu xanh lam. 
+Hai cạnh của hình quạt màu trắng chỉ ra hai hướng di chuyển. Tạo hai bản sao của mẫu chấm đỏ và dịch chuyển một bản sao một bước lưới theo mỗi hướng, cuộn lại ở các cạnh. Vị trí đạt được một lần là màu đỏ; vị trí đạt được bởi cả hai bản sao là màu xanh lam.
 
 [[K0267]]
-Hình quạt cuối cùng hướng xuống dưới bên trái và xuống dưới bên phải. Dịch chuyển một bản sao theo mỗi hướng. Sự chồng chéo của chúng làm cho toàn bộ hàng trên cùng và trung tâm có màu xanh lam; các vị trí chỉ có một bản sao vẫn có màu đỏ, như được hiển thị trong câu trả lời. 
+Hình quạt cuối cùng hướng xuống dưới bên trái và xuống dưới bên phải. Dịch chuyển một bản sao theo mỗi hướng. Sự chồng chéo của chúng làm cho toàn bộ hàng trên cùng và trung tâm có màu xanh lam; các vị trí chỉ có một bản sao vẫn có màu đỏ, như được hiển thị trong câu trả lời.
 
 [[K0268]]
 Loại bỏ các đoạn dây giao nhau.
 
 [[K0269]]
-Chồng hai hình vẽ lên nhau. Coi mỗi đoạn thẳng giữa các chấm lưới liên tiếp là một đoạn dây riêng biệt. Khi một đoạn từ hình vẽ này cắt một đoạn từ hình vẽ kia giữa các chấm, hãy loại bỏ cả hai đoạn. Các đoạn gặp nhau tại một chấm lưới vẫn giữ nguyên. Giữ lại tất cả các đoạn chưa cắt từ cả hai hình vẽ. 
+Chồng hai hình vẽ lên nhau. Coi mỗi đoạn thẳng giữa các chấm lưới liên tiếp là một đoạn dây riêng biệt. Khi một đoạn từ hình vẽ này cắt một đoạn từ hình vẽ kia giữa các chấm, hãy loại bỏ cả hai đoạn. Các đoạn gặp nhau tại một chấm lưới vẫn giữ nguyên. Giữ lại tất cả các đoạn chưa cắt từ cả hai hình vẽ.
 
 [[K0270]]
-Loại bỏ các đoạn chéo đã cắt giữa các chấm lưới. Các đoạn còn lại tạo thành một nhánh trên có thân thẳng đứng, hai đoạn chéo ngắn tách rời gần các góc trên cùng và một nhánh dưới có thân thẳng đứng riêng. 
+Loại bỏ các đoạn chéo đã cắt giữa các chấm lưới. Các đoạn còn lại tạo thành một nhánh trên có thân thẳng đứng, hai đoạn chéo ngắn tách rời gần các góc trên cùng và một nhánh dưới có thân thẳng đứng riêng.
 
 [[K0271]]
 Trượt và sắp xếp các mảnh theo kích thước
 
 [[K0272]]
-Đẩy tất cả các mảnh theo hướng mũi tên. Các mảnh nhỏ hơn sẽ vượt qua các mảnh lớn hơn và đến được các khoảng trống xa nhất có thể trước. Giữ nguyên chiều cao và vị trí thẳng đứng của mỗi mảnh. Các mảnh có thể cùng một cột nếu chúng không chồng lên nhau theo chiều dọc; các mảnh có kích thước bằng nhau giữ nguyên thứ tự tương đối của chúng. 
+Đẩy tất cả các mảnh theo hướng mũi tên. Các mảnh nhỏ hơn sẽ vượt qua các mảnh lớn hơn và đến được các khoảng trống xa nhất có thể trước. Giữ nguyên chiều cao và vị trí thẳng đứng của mỗi mảnh. Các mảnh có thể cùng một cột nếu chúng không chồng lên nhau theo chiều dọc; các mảnh có kích thước bằng nhau giữ nguyên thứ tự tương đối của chúng.
 
 [[K0273]]
-Mũi tên chỉ sang phải. Đặt các mảnh ngắn nhất vào các khoảng trống có sẵn bên phải, sau đó là các mảnh hai ô, rồi đến các mảnh dài hơn ở bên trái. Không có gì di chuyển lên hoặc xuống, và không có mảnh nào thay đổi kích thước. 
+Mũi tên chỉ sang phải. Đặt các mảnh ngắn nhất vào các khoảng trống có sẵn bên phải, sau đó là các mảnh hai ô, rồi đến các mảnh dài hơn ở bên trái. Không có gì di chuyển lên hoặc xuống, và không có mảnh nào thay đổi kích thước.
 
 [[K0274]] Di chuyển các vách ngăn vào các khoảng trống còn lại

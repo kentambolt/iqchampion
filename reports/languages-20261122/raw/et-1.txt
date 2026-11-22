@@ -5,10 +5,10 @@ Jaga testi Facebookis
 Hinnanguline IQ
 
 [[K0073]]
-Lihtsalt lõbu pärast. Tulemus on ligikaudne – see ei ole professionaalselt valideeritud IQ-mõõtmine. 
+Lihtsalt lõbu pärast. Tulemus on ligikaudne – see ei ole professionaalselt valideeritud IQ-mõõtmine.
 
 [[K0074]]
-Test on pooleli. Näed oma õigeid vastuseid, kuid IQ hindamiseks on vaja kõiki 36 vastust. 
+Test on pooleli. Näed oma õigeid vastuseid, kuid IQ hindamiseks on vaja kõiki 36 vastust.
 
 [[K0075]]
 Pole saadaval
@@ -17,7 +17,7 @@ Pole saadaval
 Tasuta visuaalse mõtlemise test | IQ Champion
 
 [[K0077]]
-36 visuaalset mõistatust. Võta vastu tasuta 40-minutiline väljakutse ja vaata oma tulemusi. 
+36 visuaalset mõistatust. Võta vastu tasuta 40-minutiline väljakutse ja vaata oma tulemusi.
 
 [[K0078]]
 Vastatud
@@ -50,13 +50,13 @@ Testist lähemalt
 Visuaalse mõtlemise väljakutse
 
 [[K0088]]
-Leia seaduspära. 
+Leia seaduspära.
 
 [[K0089]]
-Leia puuduv osa. 
+Leia puuduv osa.
 
 [[K0090]]
-36 visuaalset mõistatust ja hinnanguline IQ-tulemus. Lihtsalt lõbu pärast. 
+36 visuaalset mõistatust ja hinnanguline IQ-tulemus. Lihtsalt lõbu pärast.
 
 [[K0091]]
 Mõistatused
@@ -71,23 +71,23 @@ Hind
 Tasuta
 
 [[K0095]]
-Kontot pole vaja. Taimer käivitub, kui alustad. 
+Kontot pole vaja. Taimer käivitub, kui alustad.
 
 [[K0096]]
 Kuidas test toimib
 
 [[K0097]]
-Vali ikoon, mis täiendab vastavat seaduspära. 
+Vali ikoon, mis täiendab vastavat seaduspära.
 
 [[K0098]]
-Jäta keerulised küsimused vahele ja tule nende juurde tagasi ülevaate kaudu. 
+Jäta keerulised küsimused vahele ja tule nende juurde tagasi ülevaate kaudu.
 
 [[K0099]]
 Vaata vastused üle või muuda neid enne testi lõpetamist. [[K0100]]
-Sinu vastused ja algusaeg salvestatakse sellesse veebilehitsejasse. Lehe uuesti laadimisel jääb esialgne tähtaeg kehtima. 
+Sinu vastused ja algusaeg salvestatakse sellesse veebilehitsejasse. Lehe uuesti laadimisel jääb esialgne tähtaeg kehtima.
 
 [[K0101]]
-40-minutiline taimer jookseb edasi ka siis, kui leht on suletud. Vastamata küsimused loetakse valedeks. 
+40-minutiline taimer jookseb edasi ka siis, kui leht on suletud. Vastamata küsimused loetakse valedeks.
 
 [[K0102]]
 Sinu tulemusest
@@ -96,13 +96,13 @@ Sinu tulemusest
 Sinu hinnanguline IQ põhineb sinu positsioonil võrreldes
 
 [[K0104]]
-varasemate sooritustega. 
+varasemate sooritustega.
 
 [[K0105]]
-Võrdlusesse on kaasatud sooritused, mis kestsid kauem kui üks minut, kuid mitte kauem kui 40 minutit. Tulemust ei ole valideeritud ametliku IQ-testi ega rahvastiku representatiivse valimi põhjal. 
+Võrdlusesse on kaasatud sooritused, mis kestsid kauem kui üks minut, kuid mitte kauem kui 40 minutit. Tulemust ei ole valideeritud ametliku IQ-testi ega rahvastiku representatiivse valimi põhjal.
 
 [[K0106]]
-Test meelelahutuseks. Sinu hinnanguline IQ on ligikaudne näitaja, mitte professionaalselt valideeritud IQ-tulemus. 
+Test meelelahutuseks. Sinu hinnanguline IQ on ligikaudne näitaja, mitte professionaalselt valideeritud IQ-tulemus.
 
 [[K0107]]
 Alusta 40-minutilist testi
@@ -165,16 +165,16 @@ Vaata üle ja lõpeta
 Juhised ja salvestatud edenemine
 
 [[K0127]]
-Vali vastus, et liikuda järgmise vastamata küsimuse juurde. Enne lõpetamist võid küsimusi vahele jätta, nende juurde naasta ja vastuseid muuta. 
+Vali vastus, et liikuda järgmise vastamata küsimuse juurde. Enne lõpetamist võid küsimusi vahele jätta, nende juurde naasta ja vastuseid muuta.
 
 [[K0128]]
-Vastused salvestuvad selles brauseris automaatselt. Lehe uuesti laadimisel jätkad samast küsimusest; taimer jookseb edasi. 
+Vastused salvestuvad selles brauseris automaatselt. Lehe uuesti laadimisel jätkad samast küsimusest; taimer jookseb edasi.
 
 [[K0129]]
 Alustame, kui oled valmis
 
 [[K0130]]
-Kas lõpetada test? 
+Kas lõpetada test?
 
 [[K0131]]
 Jätka lahendamist
@@ -201,7 +201,7 @@ Teave testi kohta
 Kuidas tulemust tõlgendada
 
 [[K0139]]
-Sinu protsentiilikoht varasemate sooritajate seas on teisendatud tuntud IQ-skaalale, kus keskmine väärtus on 100 ja standardhälve 15. See eeldab, et võrdlusrühm esindab kogu elanikkonda, kuid seda pole tõestatud. 
+Sinu protsentiilikoht varasemate sooritajate seas on teisendatud tuntud IQ-skaalale, kus keskmine väärtus on 100 ja standardhälve 15. See eeldab, et võrdlusrühm esindab kogu elanikkonda, kuid seda pole tõestatud.
 
 [[K0140]]
 Sinu vastused ja selgitused
@@ -256,13 +256,13 @@ Tagasiside ja kontakt
 Saada tagasisidet või võta meiega ühendust
 
 [[K0158]]
-Õige. Sinu vastus kattub õige vastusega. 
+Õige. Sinu vastus kattub õige vastusega.
 
 [[K0159]]
-Vale. Sinu vastus erineb õigest vastusest. 
+Vale. Sinu vastus erineb õigest vastusest.
 
 [[K0160]]
-Vastamata. Sellele küsimusele ei esitatud vastust. 
+Vastamata. Sellele küsimusele ei esitatud vastust.
 
 [[K0161]]
 Vastust ei esitatud
@@ -274,28 +274,28 @@ Sinu esitatud vastus
 Puuduv ikoon
 
 [[K0164]]
-Kõikidele küsimustele on vastatud. Saad vastuseid veel üle vaadata ja muuta ning seejärel testi lõpetada. 
+Kõikidele küsimustele on vastatud. Saad vastuseid veel üle vaadata ja muuta ning seejärel testi lõpetada.
 
 [[K0165]]
-Jäänud on viis minutit või vähem. 
+Jäänud on viis minutit või vähem.
 
 [[K0166]]
-Aeg on läbi. Sinu vastused on hinnatud. 
+Aeg on läbi. Sinu vastused on hinnatud.
 
 [[K0167]]
-Test on lõpetatud. 
+Test on lõpetatud.
 
 [[K0168]]
-Võrdlus pole kättesaadav. 
+Võrdlus pole kättesaadav.
 
 [[K0169]]
-See veebilehitseja ei suutnud sinu katset salvestada. Hoia see leht avatuna: lehe uuesti laadimine võib kaasa tuua töö edenemise kaotsimineku või varasemate vastuste taastumise. 
+See veebilehitseja ei suutnud sinu katset salvestada. Hoia see leht avatuna: lehe uuesti laadimine võib kaasa tuua töö edenemise kaotsimineku või varasemate vastuste taastumise.
 
 [[K0170]]
-Kohalik salvestamine pole selles veebilehitsejas võimalik. Hoia leht avatuna, et vältida katse kaotsiminekut. 
+Kohalik salvestamine pole selles veebilehitsejas võimalik. Hoia leht avatuna, et vältida katse kaotsiminekut.
 
 [[K0171]]
-Salvestatud katset ei õnnestunud taastada. Alusta uut testi, kui oled valmis. 
+Salvestatud katset ei õnnestunud taastada. Alusta uut testi, kui oled valmis.
 
 [[K0172]]
 Jäta joonis muutmata

@@ -2,13 +2,13 @@
 Uppskattat medianintervall
 
 [[K0002]]
-Offentliga jämförelser inkluderar alla som bidragit med data för denna version av pusslet. Uppgifter om åldersgrupp och land – som är valfria – används endast i anonymiserad, sammanställd statistik. 
+Offentliga jämförelser inkluderar alla som bidragit med data för denna version av pusslet. Uppgifter om åldersgrupp och land – som är valfria – används endast i anonymiserad, sammanställd statistik.
 
 [[K0003]]
-Jag samtycker till att bidra med mina anonyma resultat, tidsåtgång samt eventuell information om åldersgrupp eller land till den sammanställda statistiken. 
+Jag samtycker till att bidra med mina anonyma resultat, tidsåtgång samt eventuell information om åldersgrupp eller land till den sammanställda statistiken.
 
 [[K0004]]
-Medianintervall uppskattas utifrån histogram över tidsåtgången. Det visade intervallet anger tidsupplösningen; det görs inga anspråk på att ange en exakt median eller hastighetspercentil. 
+Medianintervall uppskattas utifrån histogram över tidsåtgången. Det visade intervallet anger tidsupplösningen; det görs inga anspråk på att ange en exakt median eller hastighetspercentil.
 
 [[K0005]]
 Dela utmaningen
@@ -17,34 +17,34 @@ Dela utmaningen
 Tidsåtgång
 
 [[K0007]]
-På grund av integritetsinställningar i din webbläsare lagras denna statistik lokalt på din enhet. 
+På grund av integritetsinställningar i din webbläsare lagras denna statistik lokalt på din enhet.
 
 [[K0008]]
 Alla frivilliga försök
 
 [[K0009]]
-Tack! Ditt anonyma bidrag har sparats. 
+Tack! Ditt anonyma bidrag har sparats.
 
 [[K0010]]
-Det finns ännu inte tillräckligt många jämförbara försök i den här gruppen. Din egen statistik finns alltid tillgänglig. 
+Det finns ännu inte tillräckligt många jämförbara försök i den här gruppen. Din egen statistik finns alltid tillgänglig.
 
 [[K0011]]
-Jämförelser är tillfälligt otillgängliga. Du kan fortfarande se din egen statistik och dela dina resultat. 
+Jämförelser är tillfälligt otillgängliga. Du kan fortfarande se din egen statistik och dela dina resultat.
 
 [[K0012]]
-Detta äldre försök saknar fullständig tidsregistrering. Du kan ändå utforska och dela ditt resultat. 
+Detta äldre försök saknar fullständig tidsregistrering. Du kan ändå utforska och dela ditt resultat.
 
 [[K0013]]
-Välj om du vill bidra innan några data skickas. 
+Välj om du vill bidra innan några data skickas.
 
 [[K0014]]
-Detta försök saknar fullständig tidsregistrering. Dina personliga resultat förblir oförändrade. 
+Detta försök saknar fullständig tidsregistrering. Dina personliga resultat förblir oförändrade.
 
 [[K0015]]
-Ditt bidrag kunde inte sparas i den här webbläsaren. Ingen data skickades. 
+Ditt bidrag kunde inte sparas i den här webbläsaren. Ingen data skickades.
 
 [[K0016]]
-Detta bidrag behöver granskas och har därför inte räknats med på nytt. 
+Detta bidrag behöver granskas och har därför inte räknats med på nytt.
 
 [[K0017]]
 Ditt bidrag har inte bekräftats. Försök igen med samma sparade bidrag. [[K0018]]
@@ -84,13 +84,13 @@ Mönster du löst
 En utmaning värd att dela
 
 [[K0030]]
-36 pussel. En utmaning. 
+36 pussel. En utmaning.
 
 [[K0031]]
-Dela en utmaning med någon du känner. 
+Dela en utmaning med någon du känner.
 
 [[K0032]]
-Din egen aktiva tid. Det finns inte tillräckligt med jämförelsedata för att rangordna hastigheten. 
+Din egen aktiva tid. Det finns inte tillräckligt med jämförelsedata för att rangordna hastigheten.
 
 [[K0033]]
 Välj vad du vill dela
@@ -117,22 +117,22 @@ Din delningstext
 Kopiera text
 
 [[K0041]]
-På Facebook kan du skriva en egen text. Vi publicerar aldrig något automatiskt. 
+På Facebook kan du skriva en egen text. Vi publicerar aldrig något automatiskt.
 
 [[K0042]]
-Kopierat. Klistra in det i ditt inlägg. 
+Kopierat. Klistra in det i ditt inlägg.
 
 [[K0043]]
-Markera och kopiera texten nedan. 
+Markera och kopiera texten nedan.
 
 [[K0044]]
 Statistik för dina frågor
 
 [[K0045]]
-Jämförelser för frågor finns ännu inte tillgängliga. Din personliga statistik visas nedan. 
+Jämförelser för frågor finns ännu inte tillgängliga. Din personliga statistik visas nedan.
 
 [[K0046]]
-Tidsangivelserna avser den aktiva tid som lagts på en fråga fram till ditt sista svar. För obesvarade frågor visas den tid som lagts ner. Dolda flikar och stängda sidor räknas inte med. Tidigare försök saknar eventuellt tidsangivelser. 
+Tidsangivelserna avser den aktiva tid som lagts på en fråga fram till ditt sista svar. För obesvarade frågor visas den tid som lagts ner. Dolda flikar och stängda sidor räknas inte med. Tidigare försök saknar eventuellt tidsangivelser.
 
 [[K0047]]
 Samtliga 36 frågor, inklusive frågor som hoppats över
@@ -150,16 +150,16 @@ Medianvärde för korrekta svar
 Andras korrekta svar
 
 [[K0052]]
-Jämför med frivilliga försök som gjorts med samma version av pusslet. Det krävs minst 30 besvarade frågor för att beräkna en svarsfrekvens, och 30 korrekta svar med tidsregistrering för att beräkna ett medianvärde. Detta är deltagare, inte ett representativt urval av befolkningen. 
+Jämför med frivilliga försök som gjorts med samma version av pusslet. Det krävs minst 30 besvarade frågor för att beräkna en svarsfrekvens, och 30 korrekta svar med tidsregistrering för att beräkna ett medianvärde. Detta är deltagare, inte ett representativt urval av befolkningen.
 
 [[K0053]]
 Jämför och bidra
 
 [[K0054]]
-Hjälp framtida deltagare att jämföra sina resultat. Du kan dela anonym statistik efter att du har avslutat testet, även om du har hoppat över frågor. 
+Hjälp framtida deltagare att jämföra sina resultat. Du kan dela anonym statistik efter att du har avslutat testet, även om du har hoppat över frågor.
 
 [[K0055]]
-Anonyma jämförelser förbereds. Du kan se din egen statistik och dela den utan att själv bidra till datamängden. 
+Anonyma jämförelser förbereds. Du kan se din egen statistik och dela den utan att själv bidra till datamängden.
 
 [[K0056]]
 Åldersgrupp (valfritt)
@@ -174,16 +174,16 @@ Vill ej ange
 Under 18 år
 
 [[K0060]]
-Jag samtycker till att bidra med mina anonyma svar och tidsåtgång – tillsammans med den åldersgrupp och det land jag väljer att ange – till jämförelsestatistiken. 
+Jag samtycker till att bidra med mina anonyma svar och tidsåtgång – tillsammans med den åldersgrupp och det land jag väljer att ange – till jämförelsestatistiken.
 
 [[K0061]]
-Inga uppgifter om namn, e-post eller exakt ålder samlas in. Att dela din statistik är frivilligt och påverkar inte ditt resultat. Små jämförelsegrupper visas inte. 
+Inga uppgifter om namn, e-post eller exakt ålder samlas in. Att dela din statistik är frivilligt och påverkar inte ditt resultat. Små jämförelsegrupper visas inte.
 
 [[K0062]]
 Bidra anonymt
 
 [[K0063]]
-Varför detta svar? 
+Varför detta svar?
 
 [[K0064]]
 Förklaring
@@ -195,10 +195,10 @@ Regeln
 Tillämpning av regeln
 
 [[K0067]]
-Du granskar en äldre version av pusslet. Exemplen i denna version innehåller en tidigare identifierad oklarhet; ditt sparade svar och ditt resultat förblir oförändrade. 
+Du granskar en äldre version av pusslet. Exemplen i denna version innehåller en tidigare identifierad oklarhet; ditt sparade svar och ditt resultat förblir oförändrade.
 
 [[K0068]]
-Du granskar den ursprungliga versionen, som innehöll felaktiga markeringar i exemplen. Ditt sparade svar och ditt resultat förblir oförändrade. Nya försök använder den korrigerade versionen. 
+Du granskar den ursprungliga versionen, som innehöll felaktiga markeringar i exemplen. Ditt sparade svar och ditt resultat förblir oförändrade. Nya försök använder den korrigerade versionen.
 
 [[K0069]]
 I denna ursprungliga version utvidgas den visade mittbilden till grönt uppe till höger samt vid rad 2, kolumn 3; rött vid rad 2, kolumn 1; och brunt vid rad 2, kolumn 2, rad 3, kolumn 3 samt rad 4, kolumn 3.

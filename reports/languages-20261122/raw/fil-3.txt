@@ -1,50 +1,50 @@
 [[K0215]]
-Iikot ang hugis nang 45 degrees pakaliwa sa bawat hakbang. Ang kulay nito ay nagpapalit-palit, kaya ang ikatlong larawan ay babalik sa kulay ng unang larawan. 
+Iikot ang hugis nang 45 degrees pakaliwa sa bawat hakbang. Ang kulay nito ay nagpapalit-palit, kaya ang ikatlong larawan ay babalik sa kulay ng unang larawan.
 
 [[K0216]]
-Iikot ang puting gitnang hugis nang 45 degrees pakaliwa at ibalik ang madilim na kulay mula sa unang larawan. Piliin ang madilim na kurbadong hugis sa oryentasyong iyon. 
+Iikot ang puting gitnang hugis nang 45 degrees pakaliwa at ibalik ang madilim na kulay mula sa unang larawan. Piliin ang madilim na kurbadong hugis sa oryentasyong iyon.
 
 [[K0217]]
 Pagsamahin ang mga itim na bilog
 
 [[K0218]]
-Ang isang bilog ay itim sa resulta tuwing ang magkatugmang bilog ay itim sa alinmang input. Ito ay puti lamang kapag ang parehong input ay may puting bilog doon. 
+Ang isang bilog ay itim sa resulta tuwing ang magkatugmang bilog ay itim sa alinmang input. Ito ay puti lamang kapag ang parehong input ay may puting bilog doon.
 
 [[K0219]]
-Ang unang input ay nag-aambag sa itim na bilog sa ibabang kanan; ang pangalawa ay nag-aambag sa dalawang itim na bilog sa itaas. Ang gitna at ibabang kaliwang bilog ay mananatiling puti. 
+Ang unang input ay nag-aambag sa itim na bilog sa ibabang kanan; ang pangalawa ay nag-aambag sa dalawang itim na bilog sa itaas. Ang gitna at ibabang kaliwang bilog ay mananatiling puti.
 
 [[K0220]]
 Palawakin sa mga kalapit na cell
 
 [[K0221]]
-Sa bawat hakbang, ang bawat asul na cell ay nananatiling asul at kinukulayan din ang mga agarang kapitbahay nito sa itaas, ibaba, kaliwa at kanan. Huminto ang paglawak sa hangganan ng grid. 
+Sa bawat hakbang, ang bawat asul na cell ay nananatiling asul at kinukulayan din ang mga agarang kapitbahay nito sa itaas, ibaba, kaliwa at kanan. Huminto ang paglawak sa hangganan ng grid.
 
 [[K0222]]
-Ilapat ang parehong paglawak na may isang cell sa gitnang asul na rehiyon. Ang mga bagong abot na kalapit na bahagi ay nagiging asul; ang mga cell na mas malayo ay nananatili sa kulay abo at itim na checkerboard. 
+Ilapat ang parehong paglawak na may isang cell sa gitnang asul na rehiyon. Ang mga bagong abot na kalapit na bahagi ay nagiging asul; ang mga cell na mas malayo ay nananatili sa kulay abo at itim na checkerboard.
 
 [[K0223]]
 Kanselahin ang mga katugmang kayumangging posisyon
 
 [[K0224]]
-Paghambingin ang dalawang five-cell strips sa bawat posisyon. Ang isang cell ay magiging kayumanggi sa resulta kung eksaktong isang input ang kayumanggi doon. Ang mga magkatugmang brown cell ay magiging asul. 
+Paghambingin ang dalawang five-cell strips sa bawat posisyon. Ang isang cell ay magiging kayumanggi sa resulta kung eksaktong isang input ang kayumanggi doon. Ang mga magkatugmang brown cell ay magiging asul.
 
 [[K0225]]
-Ang kayumanggi ay nangyayari sa mga posisyon 2, 3, 4 at 5 sa unang strip at sa mga posisyon 2, 3 at 5 sa pangalawa. Ang posisyon 4 na lang ang mananatiling kayumanggi. 
+Ang kayumanggi ay nangyayari sa mga posisyon 2, 3, 4 at 5 sa unang strip at sa mga posisyon 2, 3 at 5 sa pangalawa. Ang posisyon 4 na lang ang mananatiling kayumanggi.
 
 [[K0226]]
 Alisin ang pinakamalapit na pulang tuldok
 
 [[K0227]]
-Hanapin ang pinakamaliit na distansya sa pagitan ng anumang dalawang pulang tuldok. Alisin ang bawat pulang tuldok na pagmamay-ari ng isang pares sa distansyang iyon. Muling kalkulahin ang pinakamalapit na distansya para sa susunod na hakbang. 
+Hanapin ang pinakamaliit na distansya sa pagitan ng anumang dalawang pulang tuldok. Alisin ang bawat pulang tuldok na pagmamay-ari ng isang pares sa distansyang iyon. Muling kalkulahin ang pinakamalapit na distansya para sa susunod na hakbang.
 
 [[K0228]]
-Sa gitnang larawan, ang tatlong mas mababang pulang tuldok ay kasali sa pinakamalapit na diagonal na pares. Ang pag-alis sa mga ito ay nag-iiwan lamang ng pulang tuldok sa itaas na hilera, ikaapat na hanay. 
+Sa gitnang larawan, ang tatlong mas mababang pulang tuldok ay kasali sa pinakamalapit na diagonal na pares. Ang pag-alis sa mga ito ay nag-iiwan lamang ng pulang tuldok sa itaas na hilera, ikaapat na hanay.
 
 [[K0229]]
 Ilipat ang anim na kulay sa isang siklo
 
 [[K0230]]
-Basahin pababa ang kaliwang stack, pagkatapos ay pababa sa kanang stack. Ilipat ang bawat kulay nang isang posisyon pasulong sa anim na posisyong siklong iyon; ang kulay sa ibabang kanan ay mapupunta sa kaliwang itaas. 
+Basahin pababa ang kaliwang stack, pagkatapos ay pababa sa kanang stack. Ilipat ang bawat kulay nang isang posisyon pasulong sa anim na posisyong siklong iyon; ang kulay sa ibabang kanan ay mapupunta sa kaliwang itaas.
 
 [[K0231]]
 Mula sa gitnang larawan, ang bilog na kayumanggi sa ibabang kanan ay mapupunta sa kaliwang itaas. Ang mga huling stack ay kayumanggi/pula/pula sa kaliwa at itim/kayumanggi/asul sa kanan.
@@ -53,46 +53,46 @@ Mula sa gitnang larawan, ang bilog na kayumanggi sa ibabang kanan ay mapupunta s
 Igalaw ang puti at itim sa magkabilang direksyon
 
 [[K0233]]
-Ang mga puting bilog ay gumagalaw sa isang sulok nang pakanan at ang mga itim na bilog ay gumagalaw sa isang sulok nang pakaliwa sa bawat hakbang. Ang kulay abo ay nangangahulugan na ang isang puti at isang itim na bilog ay sumasakop sa parehong sulok; paghiwalayin ang mga ito bago lumipat muli. 
+Ang mga puting bilog ay gumagalaw sa isang sulok nang pakanan at ang mga itim na bilog ay gumagalaw sa isang sulok nang pakaliwa sa bawat hakbang. Ang kulay abo ay nangangahulugan na ang isang puti at isang itim na bilog ay sumasakop sa parehong sulok; paghiwalayin ang mga ito bago lumipat muli.
 
 [[K0234]]
-Ang gitnang larawan ay naglalaman ng mga puting bilog sa dalawang kaliwang sulok at mga itim na bilog sa dalawang kaliwang sulok at kanang ibaba. Ang paggalaw sa mga ito ay nagbibigay ng puti sa kaliwang itaas, kulay abo sa kanang itaas, at itim sa magkabilang sulok sa ibaba. 
+Ang gitnang larawan ay naglalaman ng mga puting bilog sa dalawang kaliwang sulok at mga itim na bilog sa dalawang kaliwang sulok at kanang ibaba. Ang paggalaw sa mga ito ay nagbibigay ng puti sa kaliwang itaas, kulay abo sa kanang itaas, at itim sa magkabilang sulok sa ibaba.
 
 [[K0235]]
 Pahabain ang bawat pahalang na guhit
 
 [[K0236]]
-Sa bawat hakbang, pahabain ang bawat itim na pahalang na guhit papunta sa kalapit na kapsula sa magkabilang gilid. Ang mga umiiral na guhit ay nananatili, at ang mga guhit ay humihinto sa mga panlabas na gilid. 
+Sa bawat hakbang, pahabain ang bawat itim na pahalang na guhit papunta sa kalapit na kapsula sa magkabilang gilid. Ang mga umiiral na guhit ay nananatili, at ang mga guhit ay humihinto sa mga panlabas na gilid.
 
 [[K0237]]
-Pahabain ang mga guhit sa gitnang larawan ng isa pang kapsula pakaliwa at pakanan. Panatilihing magkaiba ang magkahiwalay na taas ng guhit; ang sagot ay nagpapakita ng nagreresultang mas mahahabang pahalang na linya sa apat na kapsula. 
+Pahabain ang mga guhit sa gitnang larawan ng isa pang kapsula pakaliwa at pakanan. Panatilihing magkaiba ang magkahiwalay na taas ng guhit; ang sagot ay nagpapakita ng nagreresultang mas mahahabang pahalang na linya sa apat na kapsula.
 
 [[K0238]]
 Palakihin ang tatsulok na sala-sala
 
 [[K0239]]
-Ituring ang drowing bilang isang grupo ng maliliit na tatsulok. Sa bawat hakbang, magdagdag ng isang maliit na tatsulok sa labas lamang ng bawat nakalantad na gilid, pinapanatili ang mga umiiral na tatsulok at ang kanilang mga linya ng pagdurugtong. 
+Ituring ang drowing bilang isang grupo ng maliliit na tatsulok. Sa bawat hakbang, magdagdag ng isang maliit na tatsulok sa labas lamang ng bawat nakalantad na gilid, pinapanatili ang mga umiiral na tatsulok at ang kanilang mga linya ng pagdurugtong.
 
 [[K0240]]
-Palakihin ang gitnang berdeng kumpol ng isa pang patong ng mga kalapit na tatsulok. Ang sagot ay nagpapanatili ng parehong tatsulok na grid at idinaragdag ang mga tatsulok sa mga panlabas na gilid nito. 
+Palakihin ang gitnang berdeng kumpol ng isa pang patong ng mga kalapit na tatsulok. Ang sagot ay nagpapanatili ng parehong tatsulok na grid at idinaragdag ang mga tatsulok sa mga panlabas na gilid nito.
 
 [[K0241]]
 Alisin ang mga markadong vertex
 
 [[K0242]]
-Ang mga brown na tuldok ay tumutukoy sa mga vertex ng itim na polygon na aalisin. Pagdugtungin ang mga natitirang vertex sa kanilang orihinal na pagkakasunud-sunod. Dalawang natitirang vertex ang bubuo ng isang line segment. 
+Ang mga brown na tuldok ay tumutukoy sa mga vertex ng itim na polygon na aalisin. Pagdugtungin ang mga natitirang vertex sa kanilang orihinal na pagkakasunud-sunod. Dalawang natitirang vertex ang bubuo ng isang line segment.
 
 [[K0243]]
-Alisin ang itaas at kaliwang vertex na minarkahan ng mga brown na tuldok. Tanging ang dalawang mas mababang vertex ang natitira, kaya ang sagot ay ang maikling pahalang na linya malapit sa kanang ibaba. 
+Alisin ang itaas at kaliwang vertex na minarkahan ng mga brown na tuldok. Tanging ang dalawang mas mababang vertex ang natitira, kaya ang sagot ay ang maikling pahalang na linya malapit sa kanang ibaba.
 
 [[K0244]]
 I-toggle ang mga tuldok sa mga sulok ng outline
 
 [[K0245]]
-Itugma ang mga vertex ng itim na outline sa mga posisyon ng 3-by-3 na tuldok. Sa bawat vertex, alisin ang isang umiiral na asul na tuldok o magdagdag ng isa kung walang laman ang posisyon. Ang iba pang mga posisyon ay mananatiling hindi nagbabago. 
+Itugma ang mga vertex ng itim na outline sa mga posisyon ng 3-by-3 na tuldok. Sa bawat vertex, alisin ang isang umiiral na asul na tuldok o magdagdag ng isa kung walang laman ang posisyon. Ang iba pang mga posisyon ay mananatiling hindi nagbabago.
 
 [[K0246]]
-I-toggle ang apat na posisyon sa sulok ng nakahilig na outline. Ang resulta ay may mga asul na tuldok sa kaliwang itaas at gitnang itaas, gitnang gitna at kanang gitna, at lahat ng tatlong posisyon sa ibaba. 
+I-toggle ang apat na posisyon sa sulok ng nakahilig na outline. Ang resulta ay may mga asul na tuldok sa kaliwang itaas at gitnang itaas, gitnang gitna at kanang gitna, at lahat ng tatlong posisyon sa ibaba.
 
 [[K0247]]
 Alisin ang minarkahang ladrilyo at ang mga kalapit nito

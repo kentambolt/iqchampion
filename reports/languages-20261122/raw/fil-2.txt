@@ -1,125 +1,125 @@
 [[K0173]]
-Bawat posisyon sa bawat halimbawang hilera ay naglalaman ng parehong asul na bilog. Hindi nagbabago ang hugis, kulay, o laki. 
+Bawat posisyon sa bawat halimbawang hilera ay naglalaman ng parehong asul na bilog. Hindi nagbabago ang hugis, kulay, o laki.
 
 [[K0174]]
-Ang huling hilera ay naglalaman na ng dalawang magkaparehong asul na bilog. Isa pang magkaparehong asul na bilog ang kumukumpleto nito. 
+Ang huling hilera ay naglalaman na ng dalawang magkaparehong asul na bilog. Isa pang magkaparehong asul na bilog ang kumukumpleto nito.
 
 [[K0175]]
 Magdagdag ng isang nested outline
 
 [[K0176]]
-Ang paggalaw pakanan ay magdadagdag ng mas maliit na outline na may parehong hugis sa loob ng nauna. Ang panlabas na hugis at ang kulay nito ay mananatiling hindi nagbabago. 
+Ang paggalaw pakanan ay magdadagdag ng mas maliit na outline na may parehong hugis sa loob ng nauna. Ang panlabas na hugis at ang kulay nito ay mananatiling hindi nagbabago.
 
 [[K0177]]
-Ang berdeng tatsulok ay may isang panloob na tatsulok sa gitnang posisyon. Magdagdag ng isa pa, mas maliit na panloob na tatsulok upang makuha ang sagot. 
+Ang berdeng tatsulok ay may isang panloob na tatsulok sa gitnang posisyon. Magdagdag ng isa pa, mas maliit na panloob na tatsulok upang makuha ang sagot.
 
 [[K0178]]
 Gamitin ang unang hugis bilang isang cut-out
 
 [[K0179]]
-Ang itim na hugis sa unang posisyon ay inaalis mula sa gitna ng may kulay na parisukat sa pangalawang posisyon. Ang butas ay puti. 
+Ang itim na hugis sa unang posisyon ay inaalis mula sa gitna ng may kulay na parisukat sa pangalawang posisyon. Ang butas ay puti.
 
 [[K0180]]
-Ang itim na parisukat ay lumilikha ng isang parisukat na butas sa berdeng parisukat. Piliin ang berdeng parisukat na may puting parisukat na bukana. 
+Ang itim na parisukat ay lumilikha ng isang parisukat na butas sa berdeng parisukat. Piliin ang berdeng parisukat na may puting parisukat na bukana.
 
 [[K0181]]
 Pagsamahin ang mga kulay sa itaas at ibaba
 
 [[K0182]]
-Ang resulta ay kumukuha ng pang-itaas na kalahati nito mula sa unang kapsula at ang pang-ibabang kalahati nito mula sa pangalawang kapsula. 
+Ang resulta ay kumukuha ng pang-itaas na kalahati nito mula sa unang kapsula at ang pang-ibabang kalahati nito mula sa pangalawang kapsula.
 
 [[K0183]]
-Ang unang kapsula ay puti at ang pangalawa ay asul, kaya ang resulta ay puti sa itaas at asul sa ibaba. 
+Ang unang kapsula ay puti at ang pangalawa ay asul, kaya ang resulta ay puti sa itaas at asul sa ibaba.
 
 [[K0184]]
 Iikot ang mga may kulay na lobe
 
 [[K0185]]
-Sa bawat hakbang, iikot ang buong pigura na may apat na lobe nang 90 degrees pakanan. Ang bawat pula at asul na lobe ay gumagalaw kasama ng pigura. 
+Sa bawat hakbang, iikot ang buong pigura na may apat na lobe nang 90 degrees pakanan. Ang bawat pula at asul na lobe ay gumagalaw kasama ng pigura.
 
 [[K0186]]
-Iikot ang gitnang pigura nang isa pang quarter-turn pakanan. Ang dalawang pulang lobe ay nagtatapos sa kanan at sa ibaba; ang pang-itaas at kaliwang lobe ay asul. 
+Iikot ang gitnang pigura nang isa pang quarter-turn pakanan. Ang dalawang pulang lobe ay nagtatapos sa kanan at sa ibaba; ang pang-itaas at kaliwang lobe ay asul.
 
 [[K0187]]
 Paunti-unting bilugan ang mga sulok
 
 [[K0188]]
-Ang kulay at pangkalahatang hugis ay nananatiling pareho habang ang mga sulok ay nagiging mas bilugan sa bawat hakbang. 
+Ang kulay at pangkalahatang hugis ay nananatiling pareho habang ang mga sulok ay nagiging mas bilugan sa bawat hakbang.
 
 [[K0189]]
-Ipagpatuloy ang pagbilog sa mga sulok ng kayumangging parihaba. Ang sagot ay ang kayumangging kapsula na may ganap na bilugan na mga dulo. 
+Ipagpatuloy ang pagbilog sa mga sulok ng kayumangging parihaba. Ang sagot ay ang kayumangging kapsula na may ganap na bilugan na mga dulo.
 
 [[K0190]]
 Ipagpatuloy ang paggalaw ng bilog
 
 [[K0191]]
-Sa loob ng bawat hilera, ang berdeng bilog ay gumagalaw sa parehong distansya sa parehong direksyon: pataas, pababa o pahalang. Ang laki nito ay nananatiling hindi nagbabago. 
+Sa loob ng bawat hilera, ang berdeng bilog ay gumagalaw sa parehong distansya sa parehong direksyon: pataas, pababa o pahalang. Ang laki nito ay nananatiling hindi nagbabago.
 
 [[K0192]]
-Sa huling hilera, ang bilog ay gumagalaw pakaliwa sa ilalim ng parisukat. Ang isa pang pantay na hakbang ay naglalagay nito sa ibabang kaliwa. 
+Sa huling hilera, ang bilog ay gumagalaw pakaliwa sa ilalim ng parisukat. Ang isa pang pantay na hakbang ay naglalagay nito sa ibabang kaliwa.
 
 [[K0193]]
 Ipihit ang buong pattern ng tuldok
 
 [[K0194]]
-Iikot ang parisukat at lahat ng tuldok nito nang 45 digri pakaliwa sa bawat hakbang. Ang parisukat ay magiging isang diyamante, pagkatapos ay isang parisukat muli. 
+Iikot ang parisukat at lahat ng tuldok nito nang 45 digri pakaliwa sa bawat hakbang. Ang parisukat ay magiging isang diyamante, pagkatapos ay isang parisukat muli.
 
 [[K0195]]
-Iikot ang gitnang berde-at-itim na diyamante nang 45 digri pakaliwa. Panatilihin ang mga berde at itim na tuldok sa kanilang mga naka-ikot na posisyon. 
+Iikot ang gitnang berde-at-itim na diyamante nang 45 digri pakaliwa. Panatilihin ang mga berde at itim na tuldok sa kanilang mga naka-ikot na posisyon.
 
 [[K0196]]
 Paikliin ang bawat bar mula sa itaas
 
 [[K0197]]
-Sa bawat hakbang, ang bawat patayong itim na bar ay nawawalan ng isang grid interval mula sa itaas na dulo nito. Ang ibabang dulo nito ay nananatili sa ilalim na linya. Ang isang bar ay nawawala kapag ang haba nito ay umabot sa zero. 
+Sa bawat hakbang, ang bawat patayong itim na bar ay nawawalan ng isang grid interval mula sa itaas na dulo nito. Ang ibabang dulo nito ay nananatili sa ilalim na linya. Ang isang bar ay nawawala kapag ang haba nito ay umabot sa zero.
 
 [[K0198]]
-Ang gitnang larawan ay may isang-interval na gitnang bar at isang dalawang-interval na kanang bar. Ang gitnang bar ay nawawala, na nag-iiwan ng isang-interval na bar sa kanan. 
+Ang gitnang larawan ay may isang-interval na gitnang bar at isang dalawang-interval na kanang bar. Ang gitnang bar ay nawawala, na nag-iiwan ng isang-interval na bar sa kanan.
 
 [[K0199]]
 Mag-reflect sa itim na linya
 
 [[K0200]]
-Ang gitnang linya ay isang mirror axis. I-reflect ang may kulay na hugis sa linyang iyon sa halip na iikot lamang ito. 
+Ang gitnang linya ay isang mirror axis. I-reflect ang may kulay na hugis sa linyang iyon sa halip na iikot lamang ito.
 
 [[K0201]]
-Ang huling linya ng salamin ay patayo, kaya ang dilaw na hugis ay iniikot pakaliwa pakanan. Ang kulay at laki nito ay nananatiling hindi nagbabago. 
+Ang huling linya ng salamin ay patayo, kaya ang dilaw na hugis ay iniikot pakaliwa pakanan. Ang kulay at laki nito ay nananatiling hindi nagbabago.
 
 [[K0202]]
 Ipatong ang mga hugis at gamitin ang unang kulay
 
 [[K0203]]
-Ilagay ang parehong hugis sa ibabaw ng isa't isa. Panatilihin ang pinagsamang silweta at ang nakikitang mga balangkas, ngunit kulayan ang resulta gamit ang kulay ng unang hugis. 
+Ilagay ang parehong hugis sa ibabaw ng isa't isa. Panatilihin ang pinagsamang silweta at ang nakikitang mga balangkas, ngunit kulayan ang resulta gamit ang kulay ng unang hugis.
 
 [[K0204]]
-Ipatong ang asul na pababang tatsulok at ang dilaw na heksagono, pagkatapos ay gamitin ang asul para sa pinagsamang pigura. Ang mga nakausling dulo ng tatsulok ay nananatiling nakikita sa paligid ng heksagono. 
+Ipatong ang asul na pababang tatsulok at ang dilaw na heksagono, pagkatapos ay gamitin ang asul para sa pinagsamang pigura. Ang mga nakausling dulo ng tatsulok ay nananatiling nakikita sa paligid ng heksagono.
 
 [[K0205]]
 Panatilihing berde sa eksaktong isang input
 
 [[K0206]]
-Paghambingin ang mga katumbas na lugar ng dalawang parisukat. Ang isang lugar ay berde kung ito ay berde sa eksaktong isang input. Ang berde sa pareho ay nagiging puti; ang puti sa pareho ay mananatiling puti. 
+Paghambingin ang mga katumbas na lugar ng dalawang parisukat. Ang isang lugar ay berde kung ito ay berde sa eksaktong isang input. Ang berde sa pareho ay nagiging puti; ang puti sa pareho ay mananatiling puti.
 
 [[K0207]]
-Ang unang parisukat ay ganap na berde at ang pangalawa ay mayroon lamang berdeng kaliwang bahagi sa ibaba. Ang pinagsasaluhang bahaging iyon ay nagiging puti; ang natitirang tatlong bahagi ay mananatiling berde. 
+Ang unang parisukat ay ganap na berde at ang pangalawa ay mayroon lamang berdeng kaliwang bahagi sa ibaba. Ang pinagsasaluhang bahaging iyon ay nagiging puti; ang natitirang tatlong bahagi ay mananatiling berde.
 
 [[K0208]]
 Maglakip ng kopya sa bawat sulok
 
 [[K0209]]
-Maglagay ng kopya ng maliit na itim na simbolo sa bawat tuktok ng malaking hugis. Ang mga idinagdag na kopya ay kukuha ng kulay ng malaking hugis. 
+Maglagay ng kopya ng maliit na itim na simbolo sa bawat tuktok ng malaking hugis. Ang mga idinagdag na kopya ay kukuha ng kulay ng malaking hugis.
 
 [[K0210]]
-Ang malaking asul na diyamante ay may apat na sulok. Magdagdag ng asul na pababang tatsulok sa bawat sulok, kasunod ng parehong tuntunin sa paglalagay gaya ng mga halimbawa. 
+Ang malaking asul na diyamante ay may apat na sulok. Magdagdag ng asul na pababang tatsulok sa bawat sulok, kasunod ng parehong tuntunin sa paglalagay gaya ng mga halimbawa.
 
 [[K0211]]
 Magdagdag ng katumbas na taas ng bar
 
 [[K0212]]
-Para sa bawat isa sa tatlong pahalang na posisyon, idagdag ang taas ng itim na bar sa unang larawan sa taas nito sa pangalawa. Sukatin pataas mula sa karaniwang linya sa ibaba. 
+Para sa bawat isa sa tatlong pahalang na posisyon, idagdag ang taas ng itim na bar sa unang larawan sa taas nito sa pangalawa. Sukatin pataas mula sa karaniwang linya sa ibaba.
 
 [[K0213]]
-Walang kaliwang bar ang alinman sa input. Ang dalawang gitnang bar ay nagdaragdag sa isang full-height bar, habang ang mga kanang bar ay nagdaragdag sa isang mas maikling bar. Ang sagot ay mayroon lamang mga gitnang at kanang bar. 
+Walang kaliwang bar ang alinman sa input. Ang dalawang gitnang bar ay nagdaragdag sa isang full-height bar, habang ang mga kanang bar ay nagdaragdag sa isang mas maikling bar. Ang sagot ay mayroon lamang mga gitnang at kanang bar.
 
 [[K0214]]
 I-rotate at palitan ang mga kulay

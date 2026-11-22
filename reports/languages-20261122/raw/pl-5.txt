@@ -1,17 +1,17 @@
 [[K0275]]
-Wszystkie czarne przegrody przesuwają się jednocześnie o jedną pozycję w prawo, jeśli na kolejnym miejscu znajduje się żółty koralik. Przegroda zablokowana przez inną przegrodę pozostaje w miejscu. Prawa krawędź łączy się z lewą. 
+Wszystkie czarne przegrody przesuwają się jednocześnie o jedną pozycję w prawo, jeśli na kolejnym miejscu znajduje się żółty koralik. Przegroda zablokowana przez inną przegrodę pozostaje w miejscu. Prawa krawędź łączy się z lewą.
 
 [[K0276]]
-Wykonaj jeden jednoczesny ruch w środkowym ciągu. Ostateczny układ to: przegroda, koralik, przegroda, koralik, przegroda, przegroda, koralik. 
+Wykonaj jeden jednoczesny ruch w środkowym ciągu. Ostateczny układ to: przegroda, koralik, przegroda, koralik, przegroda, przegroda, koralik.
 
 [[K0277]]
 Rozszerz kolory i zachowaj największą grupę.
 
 [[K0278]]
-Zastąp każdą kolorową kulkę czterema nowymi kulkami tego samego koloru, umieszczonymi powyżej, poniżej, po lewej i po prawej stronie. Kulki wychodzące poza siatkę znikają. Na każdym polu zachowaj kolor, którego dotarło tam najwięcej. Jeśli kilka kolorów ma taką samą, największą liczbę kulek, pozostaw pole puste. Kilka kulek tego samego koloru trafiających na to samo pole jest traktowanych jako jeden kolorowy znacznik. 
+Zastąp każdą kolorową kulkę czterema nowymi kulkami tego samego koloru, umieszczonymi powyżej, poniżej, po lewej i po prawej stronie. Kulki wychodzące poza siatkę znikają. Na każdym polu zachowaj kolor, którego dotarło tam najwięcej. Jeśli kilka kolorów ma taką samą, największą liczbę kulek, pozostaw pole puste. Kilka kulek tego samego koloru trafiających na to samo pole jest traktowanych jako jeden kolorowy znacznik.
 
 [[K0279]]
-Po rozszerzeniu przedstawionego środkowego obrazka, kolor zielony pozostaje w prawym górnym rogu oraz w 2. wierszu i 3. kolumnie; czerwony – w 2. wierszu i 1. kolumnie; a brązowy – w 2. wierszu (2. kolumna), 3. wierszu (3. kolumna) oraz 4. wierszu (kolumny 2, 3 i 4). Są to dokładnie te same kolory i pozycje, które znajdują się w zapisanej odpowiedzi. 
+Po rozszerzeniu przedstawionego środkowego obrazka, kolor zielony pozostaje w prawym górnym rogu oraz w 2. wierszu i 3. kolumnie; czerwony – w 2. wierszu i 1. kolumnie; a brązowy – w 2. wierszu (2. kolumna), 3. wierszu (3. kolumna) oraz 4. wierszu (kolumny 2, 3 i 4). Są to dokładnie te same kolory i pozycje, które znajdują się w zapisanej odpowiedzi.
 
 [[K0280]]
 Wybierz język
@@ -29,17 +29,17 @@ Nie znaleziono języków
 Darmowy test IQ dla zabawy | IQ Champion
 
 [[K0285]]
-Darmowy test w stylu IQ dla zabawy: 36 zagadek wizualnych, 40 minut czasu, zapisywanie postępów i szacowany wynik IQ. Konto nie jest wymagane. 
+Darmowy test w stylu IQ dla zabawy: 36 zagadek wizualnych, 40 minut czasu, zapisywanie postępów i szacowany wynik IQ. Konto nie jest wymagane.
 
 [[K0286]]
-Wybierz preferowany język. Twoje odpowiedzi oraz pierwotny limit czasu pozostaną zapisane. 
+Wybierz preferowany język. Twoje odpowiedzi oraz pierwotny limit czasu pozostaną zapisane.
 
 [[K0287]]
 Wczytywanie języka…
 
 [[K0288]]
 Nie udało się wczytać języka. Twój test i udzielone odpowiedzi pozostają bez zmian. [[K0289]]
-Informacje zwrotne dostępne są w języku duńskim i angielskim. 
+Informacje zwrotne dostępne są w języku duńskim i angielskim.
 
 [[K0290]]
 Udostępnione osiągnięcie
@@ -48,10 +48,10 @@ Udostępnione osiągnięcie
 Udostępniony wynik
 
 [[K0292]]
-Udostępnione wyniki opierają się na deklaracjach użytkowników. 
+Udostępnione wyniki opierają się na deklaracjach użytkowników.
 
 [[K0293]]
-Udostępnione osiągnięcia opierają się na deklaracjach użytkowników. Dane dotyczące wieku, kraju, udzielonych odpowiedzi czy profile osobiste nie są udostępniane. 
+Udostępnione osiągnięcia opierają się na deklaracjach użytkowników. Dane dotyczące wieku, kraju, udzielonych odpowiedzi czy profile osobiste nie są udostępniane.
 
 [[K0294]]
 Rozwiąż samodzielnie 36 zagadek
@@ -60,16 +60,16 @@ Rozwiąż samodzielnie 36 zagadek
 Wykonaj test samodzielnie
 
 [[K0296]]
-Wyzwanie wizualne w IQ Champion. Czy potrafisz dostrzec regułę? 
+Wyzwanie wizualne w IQ Champion. Czy potrafisz dostrzec regułę?
 
 [[K0297]]
-Bezpłatny test z zagadkami wizualnymi – dla zabawy. Nie jest to profesjonalnie zweryfikowany pomiar ilorazu inteligencji (IQ). 
+Bezpłatny test z zagadkami wizualnymi – dla zabawy. Nie jest to profesjonalnie zweryfikowany pomiar ilorazu inteligencji (IQ).
 
 [[K0298]]
 Nie znaleziono strony
 
 [[K0299]]
-Możesz kontynuować w innym języku. 
+Możesz kontynuować w innym języku.
 
 [[K0300]]
 udzielono odpowiedzi
@@ -84,7 +84,7 @@ poprawna
 niepoprawna
 
 [[K0304]]
-Szacowany zakres mediany: {0} ({1} poprawnych odpowiedzi udzielonych w określonym czasie). 
+Szacowany zakres mediany: {0} ({1} poprawnych odpowiedzi udzielonych w określonym czasie).
 
 [[K0305]]
 Pytanie {0} · {1}
@@ -96,7 +96,7 @@ Pytanie {0} · {1}
 Czas aktywności: {0}
 
 [[K0308]]
-Porównanie: {0} dobrowolnych prób w ciągu {1} dni. 
+Porównanie: {0} dobrowolnych prób w ciągu {1} dni.
 
 [[K0309]]
 Pytanie {0} / {1}
@@ -117,13 +117,13 @@ Pytanie {0}, {1}
 Przegląd pytania {0}, {1}
 
 [[K0315]]
-{0} poprawnych; {1} niepoprawnych; {2} bez odpowiedzi. 
+{0} poprawnych; {1} niepoprawnych; {2} bez odpowiedzi.
 
 [[K0316]]
-{0} z odpowiedziami; {1} bez odpowiedzi. 
+{0} z odpowiedziami; {1} bez odpowiedzi.
 
 [[K0317]]
-{0} z odpowiedziami; {1} bez odpowiedzi. Pytania bez odpowiedzi są traktowane jako błędne. Po zakończeniu testu nie można zmienić udzielonych odpowiedzi. 
+{0} z odpowiedziami; {1} bez odpowiedzi. Pytania bez odpowiedzi są traktowane jako błędne. Po zakończeniu testu nie można zmienić udzielonych odpowiedzi.
 
 [[K0318]]
 {0} / {1} poprawnych
@@ -132,10 +132,10 @@ Przegląd pytania {0}, {1}
 Percentyl na tle wcześniejszych uczestników: {0}
 
 [[K0320]]
-Uczestnicy z niższym wynikiem: {0}%. Uczestnicy z takim samym wynikiem: {1}%. 
+Uczestnicy z niższym wynikiem: {0}%. Uczestnicy z takim samym wynikiem: {1}%.
 
 [[K0321]]
-Grupa odniesienia: {0} wcześniejszych prób. Uwzględniono próby, których czas trwania wyniósł od ponad minuty do 40 minut. W przypadku uzyskania takich samych wyników, przypisuje im się wartość środkową odpowiadającego im przedziału percentylowego. Szacunkowe wartości są zaokrąglane do liczb całkowitych i prezentowane w zakresie 55–145; wyniki wykraczające poza ten przedział są odpowiednio oznaczone. Jest to przeliczenie na skalę, a nie niezależnie zweryfikowany pomiar ilorazu inteligencji (IQ) w populacji. Wynik może zależeć od wcześniejszej praktyki oraz liczby podjętych prób. Niektóre przykładowe obrazy zostały poprawione po zebraniu danych od wcześniejszych uczestników, co ogranicza możliwość porównywania wyników. 
+Grupa odniesienia: {0} wcześniejszych prób. Uwzględniono próby, których czas trwania wyniósł od ponad minuty do 40 minut. W przypadku uzyskania takich samych wyników, przypisuje im się wartość środkową odpowiadającego im przedziału percentylowego. Szacunkowe wartości są zaokrąglane do liczb całkowitych i prezentowane w zakresie 55–145; wyniki wykraczające poza ten przedział są odpowiednio oznaczone. Jest to przeliczenie na skalę, a nie niezależnie zweryfikowany pomiar ilorazu inteligencji (IQ) w populacji. Wynik może zależeć od wcześniejszej praktyki oraz liczby podjętych prób. Niektóre przykładowe obrazy zostały poprawione po zebraniu danych od wcześniejszych uczestników, co ogranicza możliwość porównywania wyników.
 
 [[K0322]]
 Mój szacowany wynik IQ w IQ Champion: {0}. Dla zabawy. Spróbuj: {1}

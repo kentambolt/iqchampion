@@ -5,10 +5,10 @@ Sdílet test na Facebooku
 Odhadované IQ
 
 [[K0073]]
-Jen pro zábavu. Jde o přibližný výsledek, nikoli o profesionálně ověřené měření IQ. 
+Jen pro zábavu. Jde o přibližný výsledek, nikoli o profesionálně ověřené měření IQ.
 
 [[K0074]]
-Váš test není dokončen. Zobrazují se vaše správné odpovědi, ale pro odhad IQ je třeba zodpovědět všech 36 otázek. 
+Váš test není dokončen. Zobrazují se vaše správné odpovědi, ale pro odhad IQ je třeba zodpovědět všech 36 otázek.
 
 [[K0075]]
 Nedostupné
@@ -17,7 +17,7 @@ Nedostupné
 Bezplatný test vizuálního uvažování | IQ Champion
 
 [[K0077]]
-36 úloh zaměřených na vizuální uvažování. Vyzkoušejte si bezplatnou 40minutovou výzvu a podívejte se na své výsledky. 
+36 úloh zaměřených na vizuální uvažování. Vyzkoušejte si bezplatnou 40minutovou výzvu a podívejte se na své výsledky.
 
 [[K0078]]
 Zodpovězeno
@@ -50,13 +50,13 @@ O testu
 Výzva v oblasti vizuálního uvažování
 
 [[K0088]]
-Odhalte vzorec. 
+Odhalte vzorec.
 
 [[K0089]]
-Najděte chybějící část. 
+Najděte chybějící část.
 
 [[K0090]]
-36 vizuálních úloh a odhad IQ. Jen pro zábavu. 
+36 vizuálních úloh a odhad IQ. Jen pro zábavu.
 
 [[K0091]]
 Úlohy
@@ -71,23 +71,23 @@ Cena
 Zdarma
 
 [[K0095]]
-Není potřeba žádný účet. Časomíra se spustí, jakmile začnete. 
+Není potřeba žádný účet. Časomíra se spustí, jakmile začnete.
 
 [[K0096]]
 Jak test funguje
 
 [[K0097]]
-Vyberte ikonu, která doplňuje daný vzorec. 
+Vyberte ikonu, která doplňuje daný vzorec.
 
 [[K0098]]
-Složité otázky můžete přeskočit a vrátit se k nim později pomocí přehledu. 
+Složité otázky můžete přeskočit a vrátit se k nim později pomocí přehledu.
 
 [[K0099]]
 Před dokončením testu si můžete své odpovědi zkontrolovat nebo změnit. [[K0100]]
-Vaše odpovědi a čas zahájení jsou uloženy v tomto prohlížeči. Při opětovném načtení stránky zůstává zachován původní časový limit. 
+Vaše odpovědi a čas zahájení jsou uloženy v tomto prohlížeči. Při opětovném načtení stránky zůstává zachován původní časový limit.
 
 [[K0101]]
-Časový limit 40 minut běží dál, i když je stránka zavřená. Nezodpovězené otázky se počítají jako nesprávné. 
+Časový limit 40 minut běží dál, i když je stránka zavřená. Nezodpovězené otázky se počítají jako nesprávné.
 
 [[K0102]]
 O vašem výsledku
@@ -96,13 +96,13 @@ O vašem výsledku
 Vaše odhadované IQ vychází z vašeho umístění mezi
 
 [[K0104]]
-dosavadními pokusy. 
+dosavadními pokusy.
 
 [[K0105]]
-Srovnání zahrnuje pokusy, které trvaly déle než jednu minutu a maximálně 40 minut. Výsledek nebyl ověřen v porovnání s oficiálním IQ testem ani s reprezentativním vzorkem populace. 
+Srovnání zahrnuje pokusy, které trvaly déle než jednu minutu a maximálně 40 minut. Výsledek nebyl ověřen v porovnání s oficiálním IQ testem ani s reprezentativním vzorkem populace.
 
 [[K0106]]
-Test pro zábavu. Vaše odhadované IQ je pouze přibližné; nejedná se o profesionálně ověřené skóre IQ. 
+Test pro zábavu. Vaše odhadované IQ je pouze přibližné; nejedná se o profesionálně ověřené skóre IQ.
 
 [[K0107]]
 Spustit 40minutový test
@@ -165,16 +165,16 @@ Zkontrolovat a dokončit
 Pokyny a uložený postup
 
 [[K0127]]
-Vyberte odpověď a přejděte na další nezodpovězenou otázku. Před dokončením můžete otázky přeskakovat, vracet se k nim a měnit své odpovědi. 
+Vyberte odpověď a přejděte na další nezodpovězenou otázku. Před dokončením můžete otázky přeskakovat, vracet se k nim a měnit své odpovědi.
 
 [[K0128]]
-Odpovědi se v tomto prohlížeči ukládají automaticky. Po obnovení stránky budete pokračovat tam, kde jste skončili; časomíra běží dál. 
+Odpovědi se v tomto prohlížeči ukládají automaticky. Po obnovení stránky budete pokračovat tam, kde jste skončili; časomíra běží dál.
 
 [[K0129]]
 Můžeme začít, kdykoli budete připraveni
 
 [[K0130]]
-Dokončit test? 
+Dokončit test?
 
 [[K0131]]
 Pokračovat v řešení
@@ -201,7 +201,7 @@ O tomto testu
 Jak interpretovat tento výsledek
 
 [[K0139]]
-Váš percentil v porovnání s předchozími pokusy je převeden na běžnou IQ škálu: střední hodnota 100 a směrodatná odchylka 15. Tento výpočet předpokládá, že srovnávací skupina odpovídá běžné populaci, což však nebylo ověřeno. 
+Váš percentil v porovnání s předchozími pokusy je převeden na běžnou IQ škálu: střední hodnota 100 a směrodatná odchylka 15. Tento výpočet předpokládá, že srovnávací skupina odpovídá běžné populaci, což však nebylo ověřeno.
 
 [[K0140]]
 Vysvětlení vašich odpovědí
@@ -256,13 +256,13 @@ Zpětná vazba a kontakt
 Pošlete nám zpětnou vazbu nebo nás kontaktujte
 
 [[K0158]]
-Správně. Vaše odpověď se shoduje se správnou odpovědí. 
+Správně. Vaše odpověď se shoduje se správnou odpovědí.
 
 [[K0159]]
-Nesprávně. Vaše odpověď se liší od správné odpovědi. 
+Nesprávně. Vaše odpověď se liší od správné odpovědi.
 
 [[K0160]]
-Nezodpovězeno. K této otázce nebyla odeslána žádná odpověď. 
+Nezodpovězeno. K této otázce nebyla odeslána žádná odpověď.
 
 [[K0161]]
 Nebyla odeslána žádná odpověď
@@ -274,28 +274,28 @@ Vaše odeslaná odpověď
 Chybějící ikona
 
 [[K0164]]
-Všechny otázky jsou zodpovězeny. Odpovědi si stále můžete projít, změnit je a poté test dokončit. 
+Všechny otázky jsou zodpovězeny. Odpovědi si stále můžete projít, změnit je a poté test dokončit.
 
 [[K0165]]
-Zbývá pět minut nebo méně. 
+Zbývá pět minut nebo méně.
 
 [[K0166]]
-Čas vypršel. Vaše odpovědi byly vyhodnoceny. 
+Čas vypršel. Vaše odpovědi byly vyhodnoceny.
 
 [[K0167]]
-Test dokončen. 
+Test dokončen.
 
 [[K0168]]
-Porovnání není k dispozici. 
+Porovnání není k dispozici.
 
 [[K0169]]
-Tento prohlížeč nedokázal uložit váš pokus. Ponechte tuto stránku otevřenou: při obnovení stránky může dojít ke ztrátě rozpracované práce nebo k obnovení starších odpovědí. 
+Tento prohlížeč nedokázal uložit váš pokus. Ponechte tuto stránku otevřenou: při obnovení stránky může dojít ke ztrátě rozpracované práce nebo k obnovení starších odpovědí.
 
 [[K0170]]
-V tomto prohlížeči není k dispozici místní ukládání. Ponechte tuto stránku otevřenou, abyste o svůj pokus nepřišli. 
+V tomto prohlížeči není k dispozici místní ukládání. Ponechte tuto stránku otevřenou, abyste o svůj pokus nepřišli.
 
 [[K0171]]
-Uložený pokus se nepodařilo obnovit. Až budete připraveni, začněte nový test. 
+Uložený pokus se nepodařilo obnovit. Až budete připraveni, začněte nový test.
 
 [[K0172]]
 Ponechte obrázek beze změny

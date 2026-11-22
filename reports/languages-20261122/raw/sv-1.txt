@@ -5,10 +5,10 @@ Dela testet på Facebook
 Uppskattad IQ
 
 [[K0073]]
-Bara för skojs skull. Ett ungefärligt resultat, inte en professionellt validerad IQ-mätning. 
+Bara för skojs skull. Ett ungefärligt resultat, inte en professionellt validerad IQ-mätning.
 
 [[K0074]]
-Ditt test är ofullständigt. Dina korrekta svar visas, men för en IQ-uppskattning krävs alla 36 svar. 
+Ditt test är ofullständigt. Dina korrekta svar visas, men för en IQ-uppskattning krävs alla 36 svar.
 
 [[K0075]]
 Ej tillgänglig
@@ -17,7 +17,7 @@ Ej tillgänglig
 Gratis test i visuellt resonemang | IQ Champion
 
 [[K0077]]
-36 uppgifter inom visuellt resonemang. Ta dig an en gratis 40-minutersutmaning och se dina resultat. 
+36 uppgifter inom visuellt resonemang. Ta dig an en gratis 40-minutersutmaning och se dina resultat.
 
 [[K0078]]
 Besvarad
@@ -50,13 +50,13 @@ Om testet
 En utmaning i visuellt resonemang
 
 [[K0088]]
-Hitta mönstret. 
+Hitta mönstret.
 
 [[K0089]]
-Hitta den saknade biten. 
+Hitta den saknade biten.
 
 [[K0090]]
-36 visuella uppgifter och en uppskattad IQ-nivå. Bara för skojs skull. 
+36 visuella uppgifter och en uppskattad IQ-nivå. Bara för skojs skull.
 
 [[K0091]]
 Uppgifter
@@ -71,23 +71,23 @@ Kostnad
 Gratis
 
 [[K0095]]
-Inget konto krävs. Tidtagningen startar när du sätter igång. 
+Inget konto krävs. Tidtagningen startar när du sätter igång.
 
 [[K0096]]
 Så fungerar testet
 
 [[K0097]]
-Välj den symbol som fullbordar varje mönster. 
+Välj den symbol som fullbordar varje mönster.
 
 [[K0098]]
-Hoppa över kluriga frågor och återvänd till dem via översikten. 
+Hoppa över kluriga frågor och återvänd till dem via översikten.
 
 [[K0099]]
 Gå igenom eller ändra dina svar innan du avslutar. [[K0100]]
-Dina svar och din starttid sparas i den här webbläsaren. Om du laddar om sidan behålls din ursprungliga tidsgräns. 
+Dina svar och din starttid sparas i den här webbläsaren. Om du laddar om sidan behålls din ursprungliga tidsgräns.
 
 [[K0101]]
-Nedräkningen på 40 minuter fortsätter även om sidan stängs. Frågor som lämnas obesvarade räknas som felaktiga. 
+Nedräkningen på 40 minuter fortsätter även om sidan stängs. Frågor som lämnas obesvarade räknas som felaktiga.
 
 [[K0102]]
 Om ditt resultat
@@ -96,13 +96,13 @@ Om ditt resultat
 Ditt uppskattade IQ baseras på din placering bland
 
 [[K0104]]
-tidigare genomförda test. 
+tidigare genomförda test.
 
 [[K0105]]
-Jämförelsen baseras på test som tagit mellan en och 40 minuter att genomföra. Resultatet har inte validerats mot ett officiellt IQ-test eller ett representativt urval av befolkningen. 
+Jämförelsen baseras på test som tagit mellan en och 40 minuter att genomföra. Resultatet har inte validerats mot ett officiellt IQ-test eller ett representativt urval av befolkningen.
 
 [[K0106]]
-Ett test för nöjes skull. Ditt uppskattade IQ är en ungefärlig siffra, inte ett professionellt validerat IQ-värde. 
+Ett test för nöjes skull. Ditt uppskattade IQ är en ungefärlig siffra, inte ett professionellt validerat IQ-värde.
 
 [[K0107]]
 Starta 40-minuterstestet
@@ -165,16 +165,16 @@ Granska och avsluta
 Instruktioner och sparade framsteg
 
 [[K0127]]
-Välj ett svar för att gå vidare till nästa obesvarade fråga. Du kan hoppa över frågor, gå tillbaka och ändra dina svar innan du avslutar. 
+Välj ett svar för att gå vidare till nästa obesvarade fråga. Du kan hoppa över frågor, gå tillbaka och ändra dina svar innan du avslutar.
 
 [[K0128]]
-Svaren sparas automatiskt i den här webbläsaren. Om du laddar om sidan kommer du tillbaka till samma fråga; tidtagningen fortsätter. 
+Svaren sparas automatiskt i den här webbläsaren. Om du laddar om sidan kommer du tillbaka till samma fråga; tidtagningen fortsätter.
 
 [[K0129]]
 Vi kör när du är redo
 
 [[K0130]]
-Vill du avsluta testet? 
+Vill du avsluta testet?
 
 [[K0131]]
 Fortsätt
@@ -201,7 +201,7 @@ Om det här testet
 Så tolkar du resultatet
 
 [[K0139]]
-Din percentilplacering bland tidigare genomförda test har räknats om till den välkända IQ-skalan: medelvärde 100 och standardavvikelse 15. Detta förutsätter att jämförelsegruppen är representativ för hela befolkningen, vilket inte har fastställts. 
+Din percentilplacering bland tidigare genomförda test har räknats om till den välkända IQ-skalan: medelvärde 100 och standardavvikelse 15. Detta förutsätter att jämförelsegruppen är representativ för hela befolkningen, vilket inte har fastställts.
 
 [[K0140]]
 Dina svar – förklaringar
@@ -256,13 +256,13 @@ Feedback och kontakt
 Lämna feedback eller kontakta oss
 
 [[K0158]]
-Rätt. Ditt svar stämmer överens med det rätta svaret. 
+Rätt. Ditt svar stämmer överens med det rätta svaret.
 
 [[K0159]]
-Fel. Ditt svar skiljer sig från det rätta svaret. 
+Fel. Ditt svar skiljer sig från det rätta svaret.
 
 [[K0160]]
-Obesvarad. Inget svar lämnades för denna fråga. 
+Obesvarad. Inget svar lämnades för denna fråga.
 
 [[K0161]]
 Inget svar lämnat
@@ -274,28 +274,28 @@ Ditt inskickade svar
 Ikon saknas
 
 [[K0164]]
-Alla frågor är besvarade. Du kan fortfarande granska och ändra dina svar, och därefter avsluta testet. 
+Alla frågor är besvarade. Du kan fortfarande granska och ändra dina svar, och därefter avsluta testet.
 
 [[K0165]]
-Fem minuter eller mindre återstår. 
+Fem minuter eller mindre återstår.
 
 [[K0166]]
-Tiden är ute. Dina svar har rättats. 
+Tiden är ute. Dina svar har rättats.
 
 [[K0167]]
-Testet är avslutat. 
+Testet är avslutat.
 
 [[K0168]]
-Jämförelse ej tillgänglig. 
+Jämförelse ej tillgänglig.
 
 [[K0169]]
-Denna webbläsare kunde inte spara ditt försök. Låt sidan vara öppen: om du laddar om sidan kan framsteg gå förlorade eller äldre svar återställas. 
+Denna webbläsare kunde inte spara ditt försök. Låt sidan vara öppen: om du laddar om sidan kan framsteg gå förlorade eller äldre svar återställas.
 
 [[K0170]]
-Lokal lagring är inte tillgänglig i denna webbläsare. Låt sidan vara öppen för att undvika att förlora ditt försök. 
+Lokal lagring är inte tillgänglig i denna webbläsare. Låt sidan vara öppen för att undvika att förlora ditt försök.
 
 [[K0171]]
-Det sparade försöket kunde inte återställas. Starta ett nytt test när du är redo. 
+Det sparade försöket kunde inte återställas. Starta ett nytt test när du är redo.
 
 [[K0172]]
 Låt figuren vara oförändrad

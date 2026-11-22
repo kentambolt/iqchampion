@@ -1,17 +1,17 @@
 [[K0275]]
-Visi juodi skirtukai vienu metu pasislenka per vieną poziciją į dešinę, jei kitoje pozicijoje yra geltonas rutuliukas. Skirtukas, kuriam kelią pastoja kitas skirtukas, lieka vietoje. Dešinysis kraštas jungiasi su kairiuoju kraštu. 
+Visi juodi skirtukai vienu metu pasislenka per vieną poziciją į dešinę, jei kitoje pozicijoje yra geltonas rutuliukas. Skirtukas, kuriam kelią pastoja kitas skirtukas, lieka vietoje. Dešinysis kraštas jungiasi su kairiuoju kraštu.
 
 [[K0276]]
-Atlikite vieną vienalaikį veiksmą su vidurine seka. Galutinė tvarka: skirtukas, rutuliukas, skirtukas, rutuliukas, skirtukas, skirtukas, rutuliukas. 
+Atlikite vieną vienalaikį veiksmą su vidurine seka. Galutinė tvarka: skirtukas, rutuliukas, skirtukas, rutuliukas, skirtukas, skirtukas, rutuliukas.
 
 [[K0277]]
 Išplėskite spalvas ir palikite didžiausią grupę.
 
 [[K0278]]
-Kiekvieną spalvotą rutuliuką pakeiskite keturiais naujais tos pačios spalvos rutuliukais: po vieną viršuje, apačioje, kairėje ir dešinėje. Už tinklelio ribų patenkantys rutuliukai dingsta. Kiekvienoje pozicijoje palikite tą spalvą, kurios rutuliukų į ją atkeliavo daugiausia. Jei kelios spalvos turi vienodą didžiausią rutuliukų skaičių, palikite poziciją tuščią. Keli tos pačios spalvos rutuliukai vienoje vietoje žymimi kaip vienas spalvotas elementas. 
+Kiekvieną spalvotą rutuliuką pakeiskite keturiais naujais tos pačios spalvos rutuliukais: po vieną viršuje, apačioje, kairėje ir dešinėje. Už tinklelio ribų patenkantys rutuliukai dingsta. Kiekvienoje pozicijoje palikite tą spalvą, kurios rutuliukų į ją atkeliavo daugiausia. Jei kelios spalvos turi vienodą didžiausią rutuliukų skaičių, palikite poziciją tuščią. Keli tos pačios spalvos rutuliukai vienoje vietoje žymimi kaip vienas spalvotas elementas.
 
 [[K0279]]
-Išplėtus pavaizduotą vidurinį paveikslėlį, žalios spalvos lieka viršutiniame dešiniajame kampe bei 2-oje eilutėje, 3-iame stulpelyje; raudonos – 2-oje eilutėje, 1-ame stulpelyje; o rudos – 2-oje eilutėje, 2-ame stulpelyje, 3-ioje eilutėje, 3-iame stulpelyje bei 4-oje eilutėje, 2-ame, 3-iame ir 4-ame stulpeliuose. Tai tiksliai atitinka spalvas ir pozicijas, nurodytas pateiktame atsakyme. 
+Išplėtus pavaizduotą vidurinį paveikslėlį, žalios spalvos lieka viršutiniame dešiniajame kampe bei 2-oje eilutėje, 3-iame stulpelyje; raudonos – 2-oje eilutėje, 1-ame stulpelyje; o rudos – 2-oje eilutėje, 2-ame stulpelyje, 3-ioje eilutėje, 3-iame stulpelyje bei 4-oje eilutėje, 2-ame, 3-iame ir 4-ame stulpeliuose. Tai tiksliai atitinka spalvas ir pozicijas, nurodytas pateiktame atsakyme.
 
 [[K0280]]
 Pasirinkite kalbą
@@ -29,17 +29,17 @@ Kalbos nerastos
 Nemokamas IQ testas pramogai | „IQ Champion“
 
 [[K0285]]
-Nemokamas IQ tipo testas pramogai: 36 vizualinės užduotys, 40 minučių, išsaugoma eiga ir apytikslis IQ rezultatas. Paskyros nereikia. 
+Nemokamas IQ tipo testas pramogai: 36 vizualinės užduotys, 40 minučių, išsaugoma eiga ir apytikslis IQ rezultatas. Paskyros nereikia.
 
 [[K0286]]
-Pasirinkite norimą kalbą. Jūsų atsakymai ir pradinis terminas išliks išsaugoti. 
+Pasirinkite norimą kalbą. Jūsų atsakymai ir pradinis terminas išliks išsaugoti.
 
 [[K0287]]
 Įkeliama kalba...
 
 [[K0288]]
 Nepavyko įkelti kalbos. Jūsų testas ir atsakymai liko nepakitę. [[K0289]]
-Atsiliepimai pateikiami danų ir anglų kalbomis. 
+Atsiliepimai pateikiami danų ir anglų kalbomis.
 
 [[K0290]]
 Pasidalytas pasiekimas
@@ -48,10 +48,10 @@ Pasidalytas pasiekimas
 Pasidalytas rezultatas
 
 [[K0292]]
-Pasidalyti rezultatai yra nurodyti pačių vartotojų. 
+Pasidalyti rezultatai yra nurodyti pačių vartotojų.
 
 [[K0293]]
-Pasidalyti pasiekimai yra nurodyti pačių vartotojų. Amžius, šalis, atsakymai ar asmeniniai profiliai nėra viešinami. 
+Pasidalyti pasiekimai yra nurodyti pačių vartotojų. Amžius, šalis, atsakymai ar asmeniniai profiliai nėra viešinami.
 
 [[K0294]]
 Išbandykite 36 galvosūkius patys
@@ -60,16 +60,16 @@ Išbandykite 36 galvosūkius patys
 Atlikite testą patys
 
 [[K0296]]
-Vizualinis iššūkis žaidime „IQ Champion“. Ar pavyks ir jums įžvelgti dėsningumą? 
+Vizualinis iššūkis žaidime „IQ Champion“. Ar pavyks ir jums įžvelgti dėsningumą?
 
 [[K0297]]
-Nemokamas vizualinių galvosūkių testas – tiesiog pramogai. Tai nėra profesionaliai patvirtintas IQ matavimo įrankis. 
+Nemokamas vizualinių galvosūkių testas – tiesiog pramogai. Tai nėra profesionaliai patvirtintas IQ matavimo įrankis.
 
 [[K0298]]
 Puslapis nerastas
 
 [[K0299]]
-Galite tęsti kita kalba. 
+Galite tęsti kita kalba.
 
 [[K0300]]
 atsakyta
@@ -84,7 +84,7 @@ teisingai
 neteisingai
 
 [[K0304]]
-Apytikslis medianos intervalas: {0} ({1} teisingi atsakymai, fiksuojant laiką). 
+Apytikslis medianos intervalas: {0} ({1} teisingi atsakymai, fiksuojant laiką).
 
 [[K0305]]
 Klausimas {0} · {1}
@@ -96,7 +96,7 @@ Klausimas {0} · {1}
 Aktyvus laikas: {0}
 
 [[K0308]]
-Palyginimas: {0} savanoriški bandymai per {1} dienų. 
+Palyginimas: {0} savanoriški bandymai per {1} dienų.
 
 [[K0309]]
 Klausimas {0} / {1}
@@ -117,13 +117,13 @@ Klausimas {0}, {1}
 Peržiūrėti klausimą {0}, {1}
 
 [[K0315]]
-{0} teisingai; {1} neteisingai; {2} neatsakyta. 
+{0} teisingai; {1} neteisingai; {2} neatsakyta.
 
 [[K0316]]
-{0} atsakyta; {1} neatsakyta. 
+{0} atsakyta; {1} neatsakyta.
 
 [[K0317]]
-{0} atsakyta; {1} neatsakyta. Neatsakyti klausimai laikomi neteisingais. Baigus testą, atsakymų pakeisti nebegalima. 
+{0} atsakyta; {1} neatsakyta. Neatsakyti klausimai laikomi neteisingais. Baigus testą, atsakymų pakeisti nebegalima.
 
 [[K0318]]
 {0} / {1} teisingai
@@ -132,10 +132,10 @@ Peržiūrėti klausimą {0}, {1}
 Procentilė, palyginti su ankstesniais dalyviais: {0}
 
 [[K0320]]
-Dalyvių, surinkusių mažiau taškų: {0} %. Dalyvių, surinkusių tiek pat taškų: {1} %. 
+Dalyvių, surinkusių mažiau taškų: {0} %. Dalyvių, surinkusių tiek pat taškų: {1} %.
 
 [[K0321]]
-Lyginamoji grupė: {0} ankstesnių bandymų. Įtraukti bandymai, kurių trukmė – nuo ​​daugiau nei vienos minutės iki 40 minučių. Jei surinktas taškų skaičius sutampa, priskiriama procentilinės grupės vidurio reikšmė. Įverčiai suapvalinami iki sveikųjų skaičių ir rodomi tik intervale nuo 55 iki 145; už šio intervalo ribų rodomas atitinkamas indikatorius. Tai – skalės transformacija, o ne nepriklausomai patvirtintas populiacijos IQ matavimas. Rezultatui įtakos gali turėti treniravimasis ir pakartotiniai bandymai. Kai kurie pavyzdiniai paveikslėliai buvo pakoreguoti jau po to, kai buvo surinkti ankstesnių bandymų duomenys, todėl palyginamumas yra ribotas. 
+Lyginamoji grupė: {0} ankstesnių bandymų. Įtraukti bandymai, kurių trukmė – nuo ​​daugiau nei vienos minutės iki 40 minučių. Jei surinktas taškų skaičius sutampa, priskiriama procentilinės grupės vidurio reikšmė. Įverčiai suapvalinami iki sveikųjų skaičių ir rodomi tik intervale nuo 55 iki 145; už šio intervalo ribų rodomas atitinkamas indikatorius. Tai – skalės transformacija, o ne nepriklausomai patvirtintas populiacijos IQ matavimas. Rezultatui įtakos gali turėti treniravimasis ir pakartotiniai bandymai. Kai kurie pavyzdiniai paveikslėliai buvo pakoreguoti jau po to, kai buvo surinkti ankstesnių bandymų duomenys, todėl palyginamumas yra ribotas.
 
 [[K0322]]
 Mano IQ įvertis „IQ Champion“: {0}. Tiesiog pramogai. Išbandykite: {1}

@@ -1,17 +1,17 @@
 [[K0275]]
-Alle svarte skillevegger flytter seg samtidig ett hakk til høyre, forutsatt at neste posisjon inneholder en gul kule. En skillevegg som blokkeres av en annen skillevegg, blir stående. Den høyre kanten henger sammen med den venstre kanten. 
+Alle svarte skillevegger flytter seg samtidig ett hakk til høyre, forutsatt at neste posisjon inneholder en gul kule. En skillevegg som blokkeres av en annen skillevegg, blir stående. Den høyre kanten henger sammen med den venstre kanten.
 
 [[K0276]]
-Utfør ett samtidig steg på den midterste sekvensen. Sluttresultatet blir: skillevegg, kule, skillevegg, kule, skillevegg, skillevegg, kule. 
+Utfør ett samtidig steg på den midterste sekvensen. Sluttresultatet blir: skillevegg, kule, skillevegg, kule, skillevegg, skillevegg, kule.
 
 [[K0277]]
 Utvid fargene, og behold den største gruppen.
 
 [[K0278]]
-Erstatt hver farget kule med fire nye kuler i samme farge – én plassert over, én under, én til venstre og én til høyre. Kuler som havner utenfor rutenettet, forsvinner. I hver posisjon beholder du fargen som har flest ankommende kuler. Hvis flere farger har like mange kuler, skal posisjonen stå tom. Flere kuler av samme farge som havner i samme rute, telles som én markør i den aktuelle fargen. 
+Erstatt hver farget kule med fire nye kuler i samme farge – én plassert over, én under, én til venstre og én til høyre. Kuler som havner utenfor rutenettet, forsvinner. I hver posisjon beholder du fargen som har flest ankommende kuler. Hvis flere farger har like mange kuler, skal posisjonen stå tom. Flere kuler av samme farge som havner i samme rute, telles som én markør i den aktuelle fargen.
 
 [[K0279]]
-Ved å utvide det viste bildet i midten, ender vi opp med grønt øverst til høyre samt i rad 2, kolonne 3; rødt i rad 2, kolonne 1; og brunt i rad 2, kolonne 2, rad 3, kolonne 3, samt rad 4, kolonnene 2, 3 og 4. Dette samsvarer nøyaktig med fargene og posisjonene i det lagrede svaret. 
+Ved å utvide det viste bildet i midten, ender vi opp med grønt øverst til høyre samt i rad 2, kolonne 3; rødt i rad 2, kolonne 1; og brunt i rad 2, kolonne 2, rad 3, kolonne 3, samt rad 4, kolonnene 2, 3 og 4. Dette samsvarer nøyaktig med fargene og posisjonene i det lagrede svaret.
 
 [[K0280]]
 Velg språk
@@ -29,17 +29,17 @@ Ingen språk funnet
 Gratis IQ-test for moro skyld | IQ Champion
 
 [[K0285]]
-En gratis IQ-test for moro skyld: 36 visuelle oppgaver, 40 minutter, lagret fremdrift og et estimert IQ-resultat. Ingen konto nødvendig. 
+En gratis IQ-test for moro skyld: 36 visuelle oppgaver, 40 minutter, lagret fremdrift og et estimert IQ-resultat. Ingen konto nødvendig.
 
 [[K0286]]
-Velg ønsket språk. Svarene dine og den opprinnelige tidsfristen forblir lagret. 
+Velg ønsket språk. Svarene dine og den opprinnelige tidsfristen forblir lagret.
 
 [[K0287]]
 Laster inn språk…
 
 [[K0288]]
 Språket kunne ikke lastes inn. Testen og svarene dine forblir uendret. [[K0289]]
-Tilbakemelding er tilgjengelig på dansk og engelsk. 
+Tilbakemelding er tilgjengelig på dansk og engelsk.
 
 [[K0290]]
 Delt prestasjon
@@ -48,10 +48,10 @@ Delt prestasjon
 Delt resultat
 
 [[K0292]]
-Delte resultater er selvrapporterte. 
+Delte resultater er selvrapporterte.
 
 [[K0293]]
-Delte prestasjoner er selvrapporterte. Ingen opplysninger om alder, land, svar eller personlige profiler deles. 
+Delte prestasjoner er selvrapporterte. Ingen opplysninger om alder, land, svar eller personlige profiler deles.
 
 [[K0294]]
 Prøv de 36 oppgavene selv
@@ -60,16 +60,16 @@ Prøv de 36 oppgavene selv
 Prøv testen selv
 
 [[K0296]]
-En visuell utfordring i IQ Champion. Klarer du også å se mønsteret? 
+En visuell utfordring i IQ Champion. Klarer du også å se mønsteret?
 
 [[K0297]]
-En gratis visuell oppgavetest, kun for moro skyld. Dette er ikke en profesjonelt validert IQ-måling. 
+En gratis visuell oppgavetest, kun for moro skyld. Dette er ikke en profesjonelt validert IQ-måling.
 
 [[K0298]]
 Siden ble ikke funnet
 
 [[K0299]]
-Du kan fortsette på et annet språk. 
+Du kan fortsette på et annet språk.
 
 [[K0300]]
 besvart
@@ -84,7 +84,7 @@ riktig
 feil
 
 [[K0304]]
-Estimert medianområde: {0} ({1} riktige svar innen tidsfristen). 
+Estimert medianområde: {0} ({1} riktige svar innen tidsfristen).
 
 [[K0305]]
 Spørsmål {0} · {1}
@@ -96,7 +96,7 @@ Spørsmål {0} · {1}
 Aktiv tid: {0}
 
 [[K0308]]
-Sammenligning: {0} frivillige forsøk over {1} dager. 
+Sammenligning: {0} frivillige forsøk over {1} dager.
 
 [[K0309]]
 Spørsmål {0} / {1}
@@ -117,13 +117,13 @@ Spørsmål {0}, {1}
 Gå gjennom spørsmål {0}, {1}
 
 [[K0315]]
-{0} riktige; {1} feil; {2} ubesvart. 
+{0} riktige; {1} feil; {2} ubesvart.
 
 [[K0316]]
-{0} besvart; {1} ubesvart. 
+{0} besvart; {1} ubesvart.
 
 [[K0317]]
-{0} besvart; {1} ubesvart. Ubesvarte spørsmål regnes som feil. Når du er ferdig, kan du ikke endre svarene. 
+{0} besvart; {1} ubesvart. Ubesvarte spørsmål regnes som feil. Når du er ferdig, kan du ikke endre svarene.
 
 [[K0318]]
 {0} / {1} riktige
@@ -132,10 +132,10 @@ Gå gjennom spørsmål {0}, {1}
 Persentil blant tidligere deltakere: {0}
 
 [[K0320]]
-Deltakere med lavere skåre: {0} %. Deltakere med samme skåre: {1} %. 
+Deltakere med lavere skåre: {0} %. Deltakere med samme skåre: {1} %.
 
 [[K0321]]
-Referansegruppe: {0} tidligere forsøk. Forsøk med en registrert varighet på over ett minutt og opptil 40 minutter er inkludert. Ved lik skåre brukes midtpunktet i den aktuelle persentilgruppen. Estimater rundes av til hele tall og vises kun innenfor intervallet 55–145; verdier utenfor dette området markeres med en indikator. Dette er en skalakonvertering, ikke en uavhengig validert IQ-måling for en hel befolkning. Øvelse og gjentatte forsøk kan påvirke resultatet ditt. Enkelte eksempler/bilder har blitt korrigert etter at dataene fra de tidligere forsøkene ble samlet inn, noe som begrenser sammenlignbarheten. 
+Referansegruppe: {0} tidligere forsøk. Forsøk med en registrert varighet på over ett minutt og opptil 40 minutter er inkludert. Ved lik skåre brukes midtpunktet i den aktuelle persentilgruppen. Estimater rundes av til hele tall og vises kun innenfor intervallet 55–145; verdier utenfor dette området markeres med en indikator. Dette er en skalakonvertering, ikke en uavhengig validert IQ-måling for en hel befolkning. Øvelse og gjentatte forsøk kan påvirke resultatet ditt. Enkelte eksempler/bilder har blitt korrigert etter at dataene fra de tidligere forsøkene ble samlet inn, noe som begrenser sammenlignbarheten.
 
 [[K0322]]
 Min estimerte IQ i IQ Champion: {0}. Bare for gøy. Prøv selv: {1}

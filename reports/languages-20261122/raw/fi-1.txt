@@ -5,10 +5,10 @@ Jaa testi Facebookissa
 Arvioitu älykkyysosamäärä (ÄO)
 
 [[K0073]]
-Vain huvin vuoksi. Kyseessä on suuntaa-antava tulos, ei ammatillisesti validoitu älykkyysosamäärän mittaus. 
+Vain huvin vuoksi. Kyseessä on suuntaa-antava tulos, ei ammatillisesti validoitu älykkyysosamäärän mittaus.
 
 [[K0074]]
-Testisi on kesken. Oikeat vastauksesi näkyvät, mutta ÄO-arvion saaminen edellyttää kaikkia 36 vastausta. 
+Testisi on kesken. Oikeat vastauksesi näkyvät, mutta ÄO-arvion saaminen edellyttää kaikkia 36 vastausta.
 
 [[K0075]]
 Ei saatavilla
@@ -17,7 +17,7 @@ Ei saatavilla
 Ilmainen visuaalisen päättelyn testi | IQ Champion
 
 [[K0077]]
-36 visuaalista päättelytehtävää. Suorita ilmainen 40 minuutin haaste ja tarkastele tuloksiasi. 
+36 visuaalista päättelytehtävää. Suorita ilmainen 40 minuutin haaste ja tarkastele tuloksiasi.
 
 [[K0078]]
 Vastattu
@@ -50,13 +50,13 @@ Tietoa testistä
 Visuaalisen päättelyn haaste
 
 [[K0088]]
-Havaitse säännönmukaisuus. 
+Havaitse säännönmukaisuus.
 
 [[K0089]]
-Etsi puuttuva osa. 
+Etsi puuttuva osa.
 
 [[K0090]]
-36 visuaalista tehtävää ja arvioitu älykkyysosamäärä. Vain huvin vuoksi. 
+36 visuaalista tehtävää ja arvioitu älykkyysosamäärä. Vain huvin vuoksi.
 
 [[K0091]]
 Tehtävät
@@ -71,23 +71,23 @@ Hinta
 Ilmainen
 
 [[K0095]]
-Tiliä ei tarvita. Ajastin käynnistyy, kun aloitat. 
+Tiliä ei tarvita. Ajastin käynnistyy, kun aloitat.
 
 [[K0096]]
 Näin testi toimii
 
 [[K0097]]
-Valitse kuvake, joka täydentää kunkin sarjan. 
+Valitse kuvake, joka täydentää kunkin sarjan.
 
 [[K0098]]
-Voit ohittaa vaikeat kysymykset ja palata niihin myöhemmin yleisnäkymän kautta. 
+Voit ohittaa vaikeat kysymykset ja palata niihin myöhemmin yleisnäkymän kautta.
 
 [[K0099]]
 Tarkista tai muuta vastauksiasi ennen testin päättämistä. [[K0100]]
-Vastauksesi ja aloitusaikasi tallennetaan tähän selaimeen. Sivun päivittäminen ei muuta alkuperäistä määräaikaasi. 
+Vastauksesi ja aloitusaikasi tallennetaan tähän selaimeen. Sivun päivittäminen ei muuta alkuperäistä määräaikaasi.
 
 [[K0101]]
-40 minuutin ajastin jatkaa kulumistaan, vaikka sivu suljettaisiin. Vastaamattomat kysymykset lasketaan vääriksi vastauksiksi. 
+40 minuutin ajastin jatkaa kulumistaan, vaikka sivu suljettaisiin. Vastaamattomat kysymykset lasketaan vääriksi vastauksiksi.
 
 [[K0102]]
 Tietoa tuloksestasi
@@ -96,13 +96,13 @@ Tietoa tuloksestasi
 Arvioitu älykkyysosamääräsi (ÄO) perustuu sijoitukseesi
 
 [[K0104]]
-aiempien suoritusten joukossa. 
+aiempien suoritusten joukossa.
 
 [[K0105]]
-Vertailussa huomioidaan suoritukset, jotka ovat kestäneet yli minuutin mutta enintään 40 minuuttia. Tulosta ei ole validoitu virallista älykkyystestiä tai väestöä edustavaa otosta vasten. 
+Vertailussa huomioidaan suoritukset, jotka ovat kestäneet yli minuutin mutta enintään 40 minuuttia. Tulosta ei ole validoitu virallista älykkyystestiä tai väestöä edustavaa otosta vasten.
 
 [[K0106]]
-Testi on tarkoitettu viihteeksi. Arvioitu ÄO on suuntaa-antava luku, ei ammatillisesti validoitu älykkyysosamäärä. 
+Testi on tarkoitettu viihteeksi. Arvioitu ÄO on suuntaa-antava luku, ei ammatillisesti validoitu älykkyysosamäärä.
 
 [[K0107]]
 Aloita 40 minuutin testi
@@ -165,16 +165,16 @@ Tarkista ja lopeta
 Ohjeet ja tallennettu edistyminen
 
 [[K0127]]
-Valitse vastaus siirtyäksesi seuraavaan vastaamattomaan kysymykseen. Voit ohittaa kysymyksiä, palata aiempiin ja muuttaa vastauksiasi ennen testin päättämistä. 
+Valitse vastaus siirtyäksesi seuraavaan vastaamattomaan kysymykseen. Voit ohittaa kysymyksiä, palata aiempiin ja muuttaa vastauksiasi ennen testin päättämistä.
 
 [[K0128]]
-Vastaukset tallentuvat automaattisesti tähän selaimeen. Sivun päivittäminen palauttaa sinut samaan kysymykseen; ajastin jatkaa käymistään. 
+Vastaukset tallentuvat automaattisesti tähän selaimeen. Sivun päivittäminen palauttaa sinut samaan kysymykseen; ajastin jatkaa käymistään.
 
 [[K0129]]
 Valmiina, kun sinäkin olet
 
 [[K0130]]
-Lopetetaanko testi? 
+Lopetetaanko testi?
 
 [[K0131]]
 Jatka suorittamista
@@ -201,7 +201,7 @@ Tietoa tästä testistä
 Tuloksen tulkinta
 
 [[K0139]]
-Sijoituksesi (persentiilisi) aiempien suoritusten joukossa on muunnettu tutulle älykkyysosamääräasteikolle, jossa keskiarvo on 100 ja keskihajonta 15. Tämä olettaa vertailuryhmän vastaavan koko väestöä, mitä ei ole varmistettu. 
+Sijoituksesi (persentiilisi) aiempien suoritusten joukossa on muunnettu tutulle älykkyysosamääräasteikolle, jossa keskiarvo on 100 ja keskihajonta 15. Tämä olettaa vertailuryhmän vastaavan koko väestöä, mitä ei ole varmistettu.
 
 [[K0140]]
 Vastauksesi selityksineen
@@ -256,13 +256,13 @@ Palaute ja yhteystiedot
 Lähetä palautetta tai ota meihin yhteyttä
 
 [[K0158]]
-Oikein. Vastauksesi vastaa oikeaa vastausta. 
+Oikein. Vastauksesi vastaa oikeaa vastausta.
 
 [[K0159]]
-Väärin. Vastauksesi poikkeaa oikeasta vastauksesta. 
+Väärin. Vastauksesi poikkeaa oikeasta vastauksesta.
 
 [[K0160]]
-Vastaamatta. Tähän kysymykseen ei annettu vastausta. 
+Vastaamatta. Tähän kysymykseen ei annettu vastausta.
 
 [[K0161]]
 Ei vastausta
@@ -274,28 +274,28 @@ Antamasi vastaus
 Kuvake puuttuu
 
 [[K0164]]
-Kaikkiin kysymyksiin on vastattu. Voit vielä tarkistaa ja muuttaa vastauksia ennen testin päättämistä. 
+Kaikkiin kysymyksiin on vastattu. Voit vielä tarkistaa ja muuttaa vastauksia ennen testin päättämistä.
 
 [[K0165]]
-Aikaa jäljellä enintään viisi minuuttia. 
+Aikaa jäljellä enintään viisi minuuttia.
 
 [[K0166]]
-Aika on loppu. Vastauksesi on arvosteltu. 
+Aika on loppu. Vastauksesi on arvosteltu.
 
 [[K0167]]
-Testi suoritettu. 
+Testi suoritettu.
 
 [[K0168]]
-Vertailu ei ole käytettävissä. 
+Vertailu ei ole käytettävissä.
 
 [[K0169]]
-Tämä selain ei voinut tallentaa suoritustasi. Pidä tämä sivu auki: sivun lataaminen uudelleen voi johtaa edistymisen menettämiseen tai vanhempien vastausten palautumiseen. 
+Tämä selain ei voinut tallentaa suoritustasi. Pidä tämä sivu auki: sivun lataaminen uudelleen voi johtaa edistymisen menettämiseen tai vanhempien vastausten palautumiseen.
 
 [[K0170]]
-Paikallinen tallennus ei ole käytettävissä tässä selaimessa. Pidä sivu auki, jotta et menetä suoritustasi. 
+Paikallinen tallennus ei ole käytettävissä tässä selaimessa. Pidä sivu auki, jotta et menetä suoritustasi.
 
 [[K0171]]
-Tallennettua suoritusta ei voitu palauttaa. Aloita uusi testi, kun olet valmis. 
+Tallennettua suoritusta ei voitu palauttaa. Aloita uusi testi, kun olet valmis.
 
 [[K0172]]
 Pidä kuvio muuttumattomana

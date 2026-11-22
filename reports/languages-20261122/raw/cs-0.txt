@@ -2,13 +2,13 @@
 Odhadované rozmezí mediánu
 
 [[K0002]]
-Veřejná srovnání zahrnují všechny uživatele, kteří přispěli svými daty u této verze hlavolamu. Údaje o věkové skupině a zemi (pokud je zadáte) se používají pouze v rámci anonymních souhrnných statistik. 
+Veřejná srovnání zahrnují všechny uživatele, kteří přispěli svými daty u této verze hlavolamu. Údaje o věkové skupině a zemi (pokud je zadáte) se používají pouze v rámci anonymních souhrnných statistik.
 
 [[K0003]]
-Souhlasím s tím, aby byly mé anonymní výsledky, časy řešení a případně i věková skupina či země zahrnuty do souhrnných statistik. 
+Souhlasím s tím, aby byly mé anonymní výsledky, časy řešení a případně i věková skupina či země zahrnuty do souhrnných statistik.
 
 [[K0004]]
-Rozmezí mediánu jsou odhadována na základě histogramů časů řešení. Zobrazený interval vyjadřuje rozlišení měření času; nejedná se o přesný medián ani o konkrétní percentil rychlosti. 
+Rozmezí mediánu jsou odhadována na základě histogramů časů řešení. Zobrazený interval vyjadřuje rozlišení měření času; nejedná se o přesný medián ani o konkrétní percentil rychlosti.
 
 [[K0005]]
 Sdílet výzvu
@@ -17,34 +17,34 @@ Sdílet výzvu
 Čas řešení
 
 [[K0007]]
-Nastavení soukromí ve vašem prohlížeči zajišťuje, že tyto statistiky zůstanou uloženy pouze ve vašem zařízení. 
+Nastavení soukromí ve vašem prohlížeči zajišťuje, že tyto statistiky zůstanou uloženy pouze ve vašem zařízení.
 
 [[K0008]]
 Všechny dobrovolné pokusy
 
 [[K0009]]
-Děkujeme. Váš anonymní příspěvek byl uložen. 
+Děkujeme. Váš anonymní příspěvek byl uložen.
 
 [[K0010]]
-V této skupině zatím není dostatek srovnatelných pokusů. Vaše vlastní statistiky jsou však vždy k dispozici. 
+V této skupině zatím není dostatek srovnatelných pokusů. Vaše vlastní statistiky jsou však vždy k dispozici.
 
 [[K0011]]
-Srovnání jsou dočasně nedostupná. Vaše vlastní statistiky a možnost sdílení nadále fungují. 
+Srovnání jsou dočasně nedostupná. Vaše vlastní statistiky a možnost sdílení nadále fungují.
 
 [[K0012]]
-Tento starší pokus neobsahuje kompletní záznam o čase řešení. Svůj výsledek si přesto můžete prohlédnout a sdílet. 
+Tento starší pokus neobsahuje kompletní záznam o čase řešení. Svůj výsledek si přesto můžete prohlédnout a sdílet.
 
 [[K0013]]
-Před odesláním jakýchkoli dat se rozhodněte, zda chcete přispět do statistik. 
+Před odesláním jakýchkoli dat se rozhodněte, zda chcete přispět do statistik.
 
 [[K0014]]
-Tento pokus neobsahuje kompletní záznam o čase řešení. Vaše osobní výsledky zůstávají beze změny. 
+Tento pokus neobsahuje kompletní záznam o čase řešení. Vaše osobní výsledky zůstávají beze změny.
 
 [[K0015]]
-Váš příspěvek se v tomto prohlížeči nepodařilo uložit. Žádná data nebyla odeslána. 
+Váš příspěvek se v tomto prohlížeči nepodařilo uložit. Žádná data nebyla odeslána.
 
 [[K0016]]
-Tento příspěvek vyžaduje kontrolu, a proto nebyl znovu započítán. 
+Tento příspěvek vyžaduje kontrolu, a proto nebyl znovu započítán.
 
 [[K0017]]
 Váš příspěvek nebyl potvrzen. Zkuste to prosím znovu se stejnými uloženými údaji. [[K0018]]
@@ -84,13 +84,13 @@ Vyřešené vzorce
 Výzva, o kterou stojí za to se podělit
 
 [[K0030]]
-36 hlavolamů. Jedna výzva. 
+36 hlavolamů. Jedna výzva.
 
 [[K0031]]
-Sdílejte výzvu s někým, koho znáte. 
+Sdílejte výzvu s někým, koho znáte.
 
 [[K0032]]
-Váš vlastní aktivní čas. K určení rychlosti zatím není k dispozici dostatek srovnávacích dat. 
+Váš vlastní aktivní čas. K určení rychlosti zatím není k dispozici dostatek srovnávacích dat.
 
 [[K0033]]
 Vyberte, co chcete sdílet
@@ -117,22 +117,22 @@ Text ke sdílení
 Zkopírovat text
 
 [[K0041]]
-Na Facebooku můžete napsat vlastní popisek. Nikdy nic nezveřejňujeme automaticky. 
+Na Facebooku můžete napsat vlastní popisek. Nikdy nic nezveřejňujeme automaticky.
 
 [[K0042]]
-Zkopírováno. Vložte text do svého příspěvku. 
+Zkopírováno. Vložte text do svého příspěvku.
 
 [[K0043]]
-Vyberte a zkopírujte text níže. 
+Vyberte a zkopírujte text níže.
 
 [[K0044]]
 Statistiky vašich odpovědí
 
 [[K0045]]
-Srovnání otázek zatím nejsou k dispozici. Vaše osobní statistiky jsou uvedeny níže. 
+Srovnání otázek zatím nejsou k dispozici. Vaše osobní statistiky jsou uvedeny níže.
 
 [[K0046]]
-Čas zahrnuje dobu, kdy jste se aktivně věnovali otázce, až do okamžiku vaší poslední odpovědi. U nezodpovězených otázek se zobrazuje celkový strávený čas. Čas strávený na skrytých kartách nebo zavřených stránkách se nezapočítává. U dřívějších pokusů nemusí být zaznamenány časy. 
+Čas zahrnuje dobu, kdy jste se aktivně věnovali otázce, až do okamžiku vaší poslední odpovědi. U nezodpovězených otázek se zobrazuje celkový strávený čas. Čas strávený na skrytých kartách nebo zavřených stránkách se nezapočítává. U dřívějších pokusů nemusí být zaznamenány časy.
 
 [[K0047]]
 Všech 36 otázek, včetně vynechaných
@@ -150,16 +150,16 @@ Medián času u správných odpovědí
 Správné odpovědi ostatních
 
 [[K0052]]
-Porovnejte své výsledky s dobrovolnými pokusy u stejné verze úlohy. Pro výpočet úspěšnosti je potřeba alespoň 30 zodpovězených otázek, pro určení mediánu pak 30 správných odpovědí s měřeným časem. Jedná se o účastníky, nikoli o reprezentativní vzorek populace. 
+Porovnejte své výsledky s dobrovolnými pokusy u stejné verze úlohy. Pro výpočet úspěšnosti je potřeba alespoň 30 zodpovězených otázek, pro určení mediánu pak 30 správných odpovědí s měřeným časem. Jedná se o účastníky, nikoli o reprezentativní vzorek populace.
 
 [[K0053]]
 Porovnejte a přispějte
 
 [[K0054]]
-Pomozte dalším účastníkům porovnat jejich výsledky. Po dokončení můžete sdílet anonymní statistiky testu, a to i v případě, že jste některé otázky vynechali. 
+Pomozte dalším účastníkům porovnat jejich výsledky. Po dokončení můžete sdílet anonymní statistiky testu, a to i v případě, že jste některé otázky vynechali.
 
 [[K0055]]
-Připravují se anonymní srovnání. Vaše osobní statistiky a možnost sdílení jsou k dispozici, i když se rozhodnete do databáze nepřispět. 
+Připravují se anonymní srovnání. Vaše osobní statistiky a možnost sdílení jsou k dispozici, i když se rozhodnete do databáze nepřispět.
 
 [[K0056]]
 Věková skupina (nepovinné)
@@ -174,16 +174,16 @@ Nechci uvést
 Méně než 18 let
 
 [[K0060]]
-Souhlasím s tím, aby byly mé anonymní výsledky u jednotlivých otázek a časy řešení – spolu s věkovou skupinou a zemí, které případně uvedu – zahrnuty do srovnávacích statistik. 
+Souhlasím s tím, aby byly mé anonymní výsledky u jednotlivých otázek a časy řešení – spolu s věkovou skupinou a zemí, které případně uvedu – zahrnuty do srovnávacích statistik.
 
 [[K0061]]
-Neuvádí se jméno, e-mail ani přesný věk. Sdílení statistik je dobrovolné a nemá vliv na váš výsledek. Příliš malé srovnávací skupiny se nezobrazují. 
+Neuvádí se jméno, e-mail ani přesný věk. Sdílení statistik je dobrovolné a nemá vliv na váš výsledek. Příliš malé srovnávací skupiny se nezobrazují.
 
 [[K0062]]
 Přispět anonymně
 
 [[K0063]]
-Proč právě tato odpověď? 
+Proč právě tato odpověď?
 
 [[K0064]]
 Vysvětlení
@@ -195,10 +195,10 @@ Pravidlo
 Aplikace pravidla
 
 [[K0067]]
-Prohlížíte si starší verzi úlohy. Její příklady obsahují dříve zjištěnou nejednoznačnost; vaše uložená odpověď ani skóre se nemění. 
+Prohlížíte si starší verzi úlohy. Její příklady obsahují dříve zjištěnou nejednoznačnost; vaše uložená odpověď ani skóre se nemění.
 
 [[K0068]]
-Prohlížíte si původní verzi, která obsahovala nesprávné označení příkladů. Vaše uložená odpověď ani skóre se nemění. Nové pokusy využívají opravenou verzi. 
+Prohlížíte si původní verzi, která obsahovala nesprávné označení příkladů. Vaše uložená odpověď ani skóre se nemění. Nové pokusy využívají opravenou verzi.
 
 [[K0069]]
 V této původní verzi se zobrazený prostřední obrázek rozšiřuje na zelenou barvu vpravo nahoře (řádek 2, sloupec 3), na červenou na řádku 2, ve sloupci 1 a na hnědou na řádku 2 ve sloupci 2, na řádku 3 ve sloupci 3 a na řádku 4 ve sloupci 3.

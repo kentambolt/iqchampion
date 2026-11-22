@@ -5,10 +5,10 @@ Compartilhar teste no Facebook
 QI estimado
 
 [[K0073]]
-Apenas por diversão. Uma pontuação aproximada; não se trata de uma medição de QI validada profissionalmente. 
+Apenas por diversão. Uma pontuação aproximada; não se trata de uma medição de QI validada profissionalmente.
 
 [[K0074]]
-Seu teste está incompleto. Suas respostas corretas são exibidas, mas uma estimativa de QI requer todas as 36 respostas. 
+Seu teste está incompleto. Suas respostas corretas são exibidas, mas uma estimativa de QI requer todas as 36 respostas.
 
 [[K0075]]
 Indisponível
@@ -17,7 +17,7 @@ Indisponível
 Teste de raciocínio visual gratuito | IQ Champion
 
 [[K0077]]
-36 desafios de raciocínio visual. Participe de um desafio gratuito de 40 minutos e confira seus resultados. 
+36 desafios de raciocínio visual. Participe de um desafio gratuito de 40 minutos e confira seus resultados.
 
 [[K0078]]
 Respondida
@@ -50,13 +50,13 @@ Sobre o teste
 Um desafio de raciocínio visual
 
 [[K0088]]
-Identifique o padrão. 
+Identifique o padrão.
 
 [[K0089]]
-Encontre a peça que falta. 
+Encontre a peça que falta.
 
 [[K0090]]
-36 desafios visuais e uma estimativa de QI. Apenas por diversão. 
+36 desafios visuais e uma estimativa de QI. Apenas por diversão.
 
 [[K0091]]
 Desafios
@@ -71,23 +71,23 @@ Custo
 Gratuito
 
 [[K0095]]
-Não é necessário criar uma conta. O cronômetro começa assim que você inicia. 
+Não é necessário criar uma conta. O cronômetro começa assim que você inicia.
 
 [[K0096]]
 Como o teste funciona
 
 [[K0097]]
-Escolha o ícone que completa cada padrão. 
+Escolha o ícone que completa cada padrão.
 
 [[K0098]]
-Pule questões difíceis e retorne a elas usando a visão geral. 
+Pule questões difíceis e retorne a elas usando a visão geral.
 
 [[K0099]]
 Revise ou altere suas respostas antes de finalizar. [[K0100]]
-Suas respostas e o horário de início são salvos neste navegador. Recarregar a página não altera o seu prazo original. 
+Suas respostas e o horário de início são salvos neste navegador. Recarregar a página não altera o seu prazo original.
 
 [[K0101]]
-O cronômetro de 40 minutos continua correndo mesmo com a página fechada. Perguntas não respondidas são consideradas incorretas. 
+O cronômetro de 40 minutos continua correndo mesmo com a página fechada. Perguntas não respondidas são consideradas incorretas.
 
 [[K0102]]
 Sobre o seu resultado
@@ -96,13 +96,13 @@ Sobre o seu resultado
 Seu QI estimado baseia-se na sua posição entre
 
 [[K0104]]
-tentativas realizadas anteriormente. 
+tentativas realizadas anteriormente.
 
 [[K0105]]
-A comparação considera tentativas com duração entre um minuto e 40 minutos. Este teste não foi validado em relação a um teste de QI oficial nem a uma amostra representativa da população. 
+A comparação considera tentativas com duração entre um minuto e 40 minutos. Este teste não foi validado em relação a um teste de QI oficial nem a uma amostra representativa da população.
 
 [[K0106]]
-Um teste para fins de entretenimento. Seu QI estimado é uma aproximação, não uma pontuação de QI validada profissionalmente. 
+Um teste para fins de entretenimento. Seu QI estimado é uma aproximação, não uma pontuação de QI validada profissionalmente.
 
 [[K0107]]
 Iniciar teste de 40 minutos
@@ -165,16 +165,16 @@ Revisar e finalizar
 Instruções e progresso salvo
 
 [[K0127]]
-Selecione uma resposta para avançar para a próxima questão não respondida. Você pode pular, voltar e alterar as respostas antes de finalizar. 
+Selecione uma resposta para avançar para a próxima questão não respondida. Você pode pular, voltar e alterar as respostas antes de finalizar.
 
 [[K0128]]
-As respostas são salvas automaticamente neste navegador. Ao recarregar a página, você retoma a mesma questão; o cronômetro continua correndo. 
+As respostas são salvas automaticamente neste navegador. Ao recarregar a página, você retoma a mesma questão; o cronômetro continua correndo.
 
 [[K0129]]
 Pronto quando você estiver
 
 [[K0130]]
-Finalizar este teste? 
+Finalizar este teste?
 
 [[K0131]]
 Continuar
@@ -201,7 +201,7 @@ Sobre este teste
 Como interpretar este resultado
 
 [[K0139]]
-Seu percentil em relação a tentativas anteriores é convertido para a escala de QI padrão: média 100 e desvio padrão 15. Isso pressupõe que o grupo de comparação reflita a população geral, o que ainda não foi comprovado. 
+Seu percentil em relação a tentativas anteriores é convertido para a escala de QI padrão: média 100 e desvio padrão 15. Isso pressupõe que o grupo de comparação reflita a população geral, o que ainda não foi comprovado.
 
 [[K0140]]
 Explicação das suas respostas
@@ -256,13 +256,13 @@ Feedback e contato
 Envie um feedback ou entre em contato conosco
 
 [[K0158]]
-Correto. Sua resposta coincide com a resposta correta. 
+Correto. Sua resposta coincide com a resposta correta.
 
 [[K0159]]
-Incorreto. Sua resposta difere da resposta correta. 
+Incorreto. Sua resposta difere da resposta correta.
 
 [[K0160]]
-Sem resposta. Nenhuma resposta foi enviada para esta questão. 
+Sem resposta. Nenhuma resposta foi enviada para esta questão.
 
 [[K0161]]
 Nenhuma resposta enviada
@@ -274,28 +274,28 @@ Sua resposta enviada
 Ícone ausente
 
 [[K0164]]
-Todas as questões foram respondidas. Você ainda pode revisar e alterar as respostas e, em seguida, finalizar o teste. 
+Todas as questões foram respondidas. Você ainda pode revisar e alterar as respostas e, em seguida, finalizar o teste.
 
 [[K0165]]
-Restam cinco minutos ou menos. 
+Restam cinco minutos ou menos.
 
 [[K0166]]
-O tempo acabou. Suas respostas foram avaliadas. 
+O tempo acabou. Suas respostas foram avaliadas.
 
 [[K0167]]
-Teste concluído. 
+Teste concluído.
 
 [[K0168]]
-Comparação indisponível. 
+Comparação indisponível.
 
 [[K0169]]
-Este navegador não conseguiu salvar sua tentativa. Mantenha esta página aberta: recarregá-la pode fazer com que você perca o progresso ou que respostas anteriores sejam restauradas. 
+Este navegador não conseguiu salvar sua tentativa. Mantenha esta página aberta: recarregá-la pode fazer com que você perca o progresso ou que respostas anteriores sejam restauradas.
 
 [[K0170]]
-O salvamento local não está disponível neste navegador. Mantenha esta página aberta para evitar a perda da sua tentativa. 
+O salvamento local não está disponível neste navegador. Mantenha esta página aberta para evitar a perda da sua tentativa.
 
 [[K0171]]
-Não foi possível restaurar a tentativa salva. Inicie um novo teste quando estiver pronto. 
+Não foi possível restaurar a tentativa salva. Inicie um novo teste quando estiver pronto.
 
 [[K0172]]
 Mantenha a figura inalterada

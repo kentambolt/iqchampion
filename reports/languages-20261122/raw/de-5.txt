@@ -1,17 +1,17 @@
 [[K0275]]
-Alle schwarzen Trennelemente bewegen sich gleichzeitig um eine Position nach rechts, sofern sich an der nächsten Position eine gelbe Perle befindet. Ein Trennelement, das durch ein anderes blockiert wird, bleibt stehen. Der rechte Rand ist mit dem linken Rand verbunden. 
+Alle schwarzen Trennelemente bewegen sich gleichzeitig um eine Position nach rechts, sofern sich an der nächsten Position eine gelbe Perle befindet. Ein Trennelement, das durch ein anderes blockiert wird, bleibt stehen. Der rechte Rand ist mit dem linken Rand verbunden.
 
 [[K0276]]
-Führe einen gleichzeitigen Schritt für die mittlere Sequenz aus. Die endgültige Anordnung lautet: Trennelement, Perle, Trennelement, Perle, Trennelement, Trennelement, Perle. 
+Führe einen gleichzeitigen Schritt für die mittlere Sequenz aus. Die endgültige Anordnung lautet: Trennelement, Perle, Trennelement, Perle, Trennelement, Trennelement, Perle.
 
 [[K0277]]
 Erweitere die Farben und behalte die größte Gruppe bei.
 
 [[K0278]]
-Ersetze jede farbige Kugel durch vier neue Kugeln derselben Farbe – jeweils eine Position darüber, darunter, links und rechts davon. Kugeln, die das Raster verlassen, verschwinden. An jeder Position bleibt die Farbe erhalten, von der die meisten Kugeln eintreffen. Bei einem Gleichstand zwischen mehreren Farben bleibt die Position leer. Mehrere eintreffende Kugeln derselben Farbe werden als ein einzelnes farbiges Element dargestellt. 
+Ersetze jede farbige Kugel durch vier neue Kugeln derselben Farbe – jeweils eine Position darüber, darunter, links und rechts davon. Kugeln, die das Raster verlassen, verschwinden. An jeder Position bleibt die Farbe erhalten, von der die meisten Kugeln eintreffen. Bei einem Gleichstand zwischen mehreren Farben bleibt die Position leer. Mehrere eintreffende Kugeln derselben Farbe werden als ein einzelnes farbiges Element dargestellt.
 
 [[K0279]]
-Durch die Erweiterung des dargestellten mittleren Bildes ergeben sich folgende Positionen: Grün befindet sich oben rechts sowie in Zeile 2, Spalte 3; Rot in Zeile 2, Spalte 1; und Braun in Zeile 2, Spalte 2, in Zeile 3, Spalte 3 sowie in Zeile 4, Spalten 2, 3 und 4. Dies entspricht exakt den Farben und Positionen in der gespeicherten Antwort. 
+Durch die Erweiterung des dargestellten mittleren Bildes ergeben sich folgende Positionen: Grün befindet sich oben rechts sowie in Zeile 2, Spalte 3; Rot in Zeile 2, Spalte 1; und Braun in Zeile 2, Spalte 2, in Zeile 3, Spalte 3 sowie in Zeile 4, Spalten 2, 3 und 4. Dies entspricht exakt den Farben und Positionen in der gespeicherten Antwort.
 
 [[K0280]]
 Sprache auswählen
@@ -29,17 +29,17 @@ Keine Sprachen gefunden
 Kostenloser IQ-Test zum Spaß | IQ Champion
 
 [[K0285]]
-Ein kostenloser IQ-Test zum Spaß: 36 visuelle Rätsel, 40 Minuten Zeit, gespeicherter Fortschritt und ein geschätztes IQ-Ergebnis. Kein Konto erforderlich. 
+Ein kostenloser IQ-Test zum Spaß: 36 visuelle Rätsel, 40 Minuten Zeit, gespeicherter Fortschritt und ein geschätztes IQ-Ergebnis. Kein Konto erforderlich.
 
 [[K0286]]
-Wähle deine bevorzugte Sprache aus. Deine Antworten und die ursprüngliche Zeitvorgabe bleiben gespeichert. 
+Wähle deine bevorzugte Sprache aus. Deine Antworten und die ursprüngliche Zeitvorgabe bleiben gespeichert.
 
 [[K0287]]
 Sprache wird geladen…
 
 [[K0288]]
 Die Sprache konnte nicht geladen werden. Dein Test und deine Antworten bleiben unverändert. [[K0289]]
-Feedback ist auf Dänisch und Englisch verfügbar. 
+Feedback ist auf Dänisch und Englisch verfügbar.
 
 [[K0290]]
 Geteiltes Ergebnis (Leistung)
@@ -48,10 +48,10 @@ Geteiltes Ergebnis (Leistung)
 Geteiltes Ergebnis
 
 [[K0292]]
-Geteilte Ergebnisse basieren auf eigenen Angaben. 
+Geteilte Ergebnisse basieren auf eigenen Angaben.
 
 [[K0293]]
-Geteilte Ergebnisse basieren auf eigenen Angaben. Alter, Land, Antworten oder persönliche Profile werden nicht geteilt. 
+Geteilte Ergebnisse basieren auf eigenen Angaben. Alter, Land, Antworten oder persönliche Profile werden nicht geteilt.
 
 [[K0294]]
 Versuchen Sie sich selbst an den 36 Rätseln
@@ -60,16 +60,16 @@ Versuchen Sie sich selbst an den 36 Rätseln
 Versuchen Sie sich selbst an dem Test
 
 [[K0296]]
-Eine visuelle Herausforderung bei „IQ Champion“. Erkennen Sie das Muster auch? 
+Eine visuelle Herausforderung bei „IQ Champion“. Erkennen Sie das Muster auch?
 
 [[K0297]]
-Ein kostenloser visueller Rätseltest – einfach zum Spaß. Es handelt sich nicht um eine professionell validierte IQ-Messung. 
+Ein kostenloser visueller Rätseltest – einfach zum Spaß. Es handelt sich nicht um eine professionell validierte IQ-Messung.
 
 [[K0298]]
 Seite nicht gefunden
 
 [[K0299]]
-Sie können in einer anderen Sprache fortfahren. 
+Sie können in einer anderen Sprache fortfahren.
 
 [[K0300]]
 beantwortet
@@ -84,7 +84,7 @@ richtig
 falsch
 
 [[K0304]]
-Geschätzter Medianbereich: {0} ({1} korrekt beantwortete Fragen innerhalb der Zeit). 
+Geschätzter Medianbereich: {0} ({1} korrekt beantwortete Fragen innerhalb der Zeit).
 
 [[K0305]]
 Frage {0} · {1}
@@ -96,7 +96,7 @@ Frage {0} · {1}
 Aktive Zeit: {0}
 
 [[K0308]]
-Vergleich: {0} freiwillige Versuche über {1} Tage. 
+Vergleich: {0} freiwillige Versuche über {1} Tage.
 
 [[K0309]]
 Frage {0} / {1}
@@ -117,13 +117,13 @@ Frage {0}, {1}
 Frage {0}, {1} überprüfen
 
 [[K0315]]
-{0} richtig; {1} falsch; {2} unbeantwortet. 
+{0} richtig; {1} falsch; {2} unbeantwortet.
 
 [[K0316]]
-{0} beantwortet; {1} unbeantwortet. 
+{0} beantwortet; {1} unbeantwortet.
 
 [[K0317]]
-{0} beantwortet; {1} unbeantwortet. Unbeantwortete Fragen werden als falsch gewertet. Nach Abschluss können die Antworten nicht mehr geändert werden. 
+{0} beantwortet; {1} unbeantwortet. Unbeantwortete Fragen werden als falsch gewertet. Nach Abschluss können die Antworten nicht mehr geändert werden.
 
 [[K0318]]
 {0} / {1} richtig
@@ -132,10 +132,10 @@ Frage {0}, {1} überprüfen
 Perzentil im Vergleich zu früheren Teilnehmern: {0}
 
 [[K0320]]
-Teilnehmer mit einem niedrigeren Ergebnis: {0} %. Teilnehmer mit demselben Ergebnis: {1} %. 
+Teilnehmer mit einem niedrigeren Ergebnis: {0} %. Teilnehmer mit demselben Ergebnis: {1} %.
 
 [[K0321]]
-Referenzgruppe: {0} frühere Durchgänge. Berücksichtigt werden Durchgänge mit einer aufgezeichneten Dauer von mehr als einer Minute bis zu 40 Minuten. Bei gleichen Ergebnissen wird der Mittelwert der jeweiligen Perzentilgruppe angesetzt. Die Schätzwerte werden auf ganze Zahlen gerundet und nur im Bereich von 55 bis 145 angezeigt; außerhalb dieses Bereichs erfolgt ein entsprechender Hinweis. Es handelt sich hierbei um eine Skalenumrechnung, nicht um eine unabhängig validierte IQ-Messung für die Gesamtbevölkerung. Übung und wiederholte Versuche können das Ergebnis beeinflussen. Einige Beispielbilder wurden seit der Erfassung der früheren Durchgänge korrigiert, was die Vergleichbarkeit einschränkt. 
+Referenzgruppe: {0} frühere Durchgänge. Berücksichtigt werden Durchgänge mit einer aufgezeichneten Dauer von mehr als einer Minute bis zu 40 Minuten. Bei gleichen Ergebnissen wird der Mittelwert der jeweiligen Perzentilgruppe angesetzt. Die Schätzwerte werden auf ganze Zahlen gerundet und nur im Bereich von 55 bis 145 angezeigt; außerhalb dieses Bereichs erfolgt ein entsprechender Hinweis. Es handelt sich hierbei um eine Skalenumrechnung, nicht um eine unabhängig validierte IQ-Messung für die Gesamtbevölkerung. Übung und wiederholte Versuche können das Ergebnis beeinflussen. Einige Beispielbilder wurden seit der Erfassung der früheren Durchgänge korrigiert, was die Vergleichbarkeit einschränkt.
 
 [[K0322]]
 Mein geschätzter IQ bei „IQ Champion“: {0}. Nur zum Spaß. Probier es aus: {1}
