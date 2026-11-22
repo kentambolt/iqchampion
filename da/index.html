@@ -15,19 +15,25 @@
 <meta property="og:description" content="36 visuelle logikopgaver. Prøv en gratis test på 40 minutter, og se dit resultat.">
 <meta property="og:url" content="https://iqchampion.com/da/">
 <meta property="og:locale" content="da_DK">
+<meta property="og:image" content="https://iqchampion.com/images/share-da.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
 <script id="site-schema" type="application/ld+json">{"@context":"https://schema.org","@type":"WebPage","name":"Gratis logiktest med figurer | IQ Champion","description":"36 visuelle logikopgaver. Prøv en gratis test på 40 minutter, og se dit resultat.","url":"https://iqchampion.com/da/","inLanguage":"da","isAccessibleForFree":true,"isPartOf":{"@type":"WebSite","name":"IQ Champion","url":"https://iqchampion.com/"}}</script>
 <meta name="description" content="36 visuelle logikopgaver. Prøv en gratis test på 40 minutter, og se dit resultat.">
-<link href="assets/styles.css?v=20261122-1" rel="stylesheet">
+<link href="assets/styles.css?v=20261122-stats1" rel="stylesheet">
 <script src="assets/time_and_scores.js?v=20261113-1" defer></script>
 <script src="assets/percentiles.js?v=20261114-1" defer></script>
 <script src="assets/md5.js?v=20261113-1" defer></script>
 <script src="assets/explanations.js?v=20261114-1" defer></script>
-<script src="assets/i18n.js?v=20261122-1" defer></script>
+<script src="assets/i18n.js?v=20261122-stats1" defer></script>
 <script src="assets/iq-score.js?v=20261114-1" defer></script>
 <script src="assets/test-start-notifications.js?v=20261119-live1" defer></script>
-<script src="assets/app.js?v=20261122-1" defer></script>
+<script src="assets/attempt-statistics.js?v=20261122-stats1" defer></script>
+<script src="assets/comparisons.js?v=20261122-stats1" defer></script>
+<script src="assets/result-statistics.js?v=20261122-stats1" defer></script>
+<script src="assets/app.js?v=20261122-stats1" defer></script>
 <script src="https://munthesystems.dk/systems/tracker.894a456da1305558.js" integrity="sha384-oGiw7CoaEVI+Ck8QDz70VAKJIosxw7zK9HTPC2p1LL6VwZ0wXtDArQS3qZxiHey8" crossorigin="anonymous" data-project="iqchampion" data-page="test" data-feedback="false" async></script>
-<script src="assets/layout.js?v=20261114-5" defer></script>
+<script src="assets/layout.js?v=20261122-stats1" defer></script>
 </head>
 <body>
 <main>
@@ -109,6 +115,7 @@
   </section>
 
   <section id="result" class="screen result" hidden aria-labelledby="result-title">
+    <div class="result-layout">
     <div class="panel result-card">
       <h1 id="result-title" tabindex="-1">Dit resultat</h1>
       <p id="result-reason" class="action-note"></p>
@@ -120,6 +127,31 @@
       <p id="answered-count" class="result-progress"></p>
       <div class="result-actions"><button id="answer-review-link" class="primary" type="button">Gennemgå svar <svg class="ui-icon" viewBox="0 0 16 16" aria-hidden="true" focusable="false" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M2 8h11m-4-4 4 4-4 4"/></svg></button><button id="restart-link" class="secondary" type="button">Prøv igen</button></div>
     </div>
+    <section class="panel result-spotlight" aria-labelledby="highlight-title">
+      <p class="eyebrow">Noget at dele</p><h2 id="highlight-title">Dit stærkeste øjeblik</h2>
+      <p id="highlight-label" class="highlight-label"></p><p id="highlight-value" class="highlight-value"></p><p id="highlight-note" class="small"></p>
+      <div class="share-choices" role="group" aria-label="Vælg, hvad du vil dele"><button id="share-best-choice" type="button" class="text-button">Bedste øjeblik</button><button id="share-iq-choice" type="button" class="text-button">IQ-estimat</button><button id="share-score-choice" type="button" class="text-button">Rigtige mønstre</button></div>
+      <a id="highlight-facebook" class="primary share-primary" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fiqchampion.com%2Fen%2F" target="_blank" rel="noopener noreferrer">Del på Facebook <svg class="ui-icon" viewBox="0 0 16 16" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M6 3h7v7M13 3 3 13"/></svg></a>
+      <details class="copy-share"><summary>Kopiér en personlig tekst</summary><label for="share-copy-text">Din delingstekst</label><textarea id="share-copy-text" rows="4" readonly></textarea><button id="copy-highlight" type="button" class="secondary">Kopiér tekst</button><p id="copy-status" role="status" class="small"></p><p class="small">På Facebook kan du skrive din egen tekst. Vi slår aldrig noget op automatisk.</p></details>
+    </section></div>
+    <div class="result-tools">
+    <details class="disclosure result-statistics" data-sheet-title="Your question statistics"><summary>Din opgavestatistik</summary>
+      <p id="stats-total-time"></p><p id="stats-comparison-note" class="small"></p>
+      <p class="small">Tiderne måler aktiv tid i en synlig opgave med fokus frem til dit sidste svar. Ved ubesvarede opgaver vises den brugte tid. Skjulte faner og lukkede sider tæller ikke med. Ældre forsøg kan mangle tider.</p>
+      <div class="statistics-table-wrap"><table class="statistics-table"><caption>Alle 36 opgaver, også dem du sprang over</caption><thead><tr><th scope="col">Opgave</th><th scope="col">Dit svar</th><th scope="col">Din tid</th><th scope="col">Median for korrekte svar</th><th scope="col">Andre med korrekt svar</th></tr></thead><tbody id="statistics-rows"></tbody></table></div>
+      <p class="small">Sammenlign med frivillige forsøg på samme opgaveversion. En korrektandel kræver mindst 30 besvarelser, og en median kræver 30 korrekte svar med tidsmåling. Deltagerne er ikke et repræsentativt udsnit af befolkningen.</p>
+    </details>
+    <details class="disclosure contribution-panel" data-sheet-title="Compare and contribute"><summary>Sammenlign og bidrag</summary>
+      <p>Hjælp fremtidige deltagere med at sammenligne deres resultater. Du kan dele anonym teststatistik efter afslutning, også hvis du sprang opgaver over.</p>
+      <p id="contribution-pending" class="feedback-note">Anonyme sammenligninger er på vej. Din egen statistik og deling fungerer uden et bidrag.</p>
+      <form id="contribution-form" hidden>
+        <label for="stats-age">Aldersgruppe (valgfrit)</label><select id="stats-age"><option value="">Ønsker ikke at oplyse</option><option value="under18">Under 18</option><option value="18-24">18–24</option><option value="25-34">25–34</option><option value="35-44">35–44</option><option value="45-54">45–54</option><option value="55-64">55–64</option><option value="65plus">65+</option></select>
+        <label for="stats-country">Land (valgfrit)</label><select id="stats-country"><option value="">Ønsker ikke at oplyse</option></select>
+        <label class="statistics-consent"><input id="stats-consent" type="checkbox" required><span>Jeg accepterer, at mine anonyme opgaveresultater og aktive tider samt eventuelt valgt aldersgruppe og land indgår i sammenligningsstatistik.</span></label>
+        <p class="small">Intet navn, e-mail eller præcis alder. Det er frivilligt at dele statistik og ændrer ikke dit resultat. Små sammenligningsgrupper skjules.</p>
+        <button id="contribute-statistics" class="primary" type="submit">Bidrag anonymt</button><p id="contribution-status" class="feedback-note" role="status"></p>
+      </form>
+    </details></div>
     <div class="about-action"><button id="about-test-link" class="text-button" type="button">Om denne test</button><a id="share-result-link" class="text-button" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fiqchampion.com%2Fen%2F" target="_blank" rel="noopener noreferrer" hidden>Del resultat på Facebook</a></div>
     <details class="disclosure result-method" data-sheet-title="How to read this result"><summary>Sådan læser du resultatet</summary>
       <p>Din percentil blandt historiske forsøg omregnes til den velkendte IQ-skala med midtpunkt 100 og standardafvigelse 15. Det forudsætter, at sammenligningsgruppen afspejler befolkningen, hvilket ikke er dokumenteret.</p>

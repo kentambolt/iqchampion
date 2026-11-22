@@ -62,3 +62,9 @@ test('anonymous share pages have localized score metadata, noindex and no attemp
   assert.doesNotMatch(html,/<script|localStorage|startedAt|tracker\./);
  }
 });
+test('question and pattern shares use static bilingual metadata without demographic or timing URLs',()=>{
+ for(const lang of ['da','en'])for(const kind of ['question','patterns'])for(let n=kind==='question'?1:0;n<=36;n++){
+  const html=read('share/'+lang+'/'+kind+'/'+n+'/index.html');assert.match(html,/name="robots" content="noindex,follow"/);assert.ok(html.includes('https://iqchampion.com/share/'+lang+'/'+kind+'/'+n+'/'));assert.ok(html.includes('images/share-'+lang+'.png'));assert.doesNotMatch(html,/<script|localStorage|startedAt|tracker\.|age_group|duration_ms|statisticsId/);assert.ok(html.includes('href="/'+lang+'/"'));
+ }
+ for(const lang of ['da','en']){const bytes=fs.readFileSync(path.join(__dirname,'../images/share-'+lang+'.png'));assert.equal(bytes.readUInt32BE(16),1200);assert.equal(bytes.readUInt32BE(20),630);}
+});

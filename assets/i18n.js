@@ -3,6 +3,47 @@
 // Product-owned copy only. No user data is sent to a translation service.
 const i18n = (() => {
   const da = {
+    "Something to share": "Noget at dele",
+    "Your strongest moment": "Dit stærkeste øjeblik",
+    "Your estimated IQ": "Din estimerede IQ",
+    "A tricky puzzle, solved quickly": "En svær opgave, løst hurtigt",
+    "Quicker than the typical correct answer": "Hurtigere end det typiske korrekte svar",
+    "Your quickest correct answer": "Dit hurtigste korrekte svar",
+    "Patterns you solved": "Mønstre, du løste",
+    "A challenge worth sharing": "En udfordring at dele",
+    "36 puzzles. One challenge.": "36 opgaver. Én udfordring.",
+    "Share a challenge with someone you know.": "Del udfordringen med en, du kender.",
+    "Your own active time. There is not enough comparison data to rank its speed.": "Din egen aktive tid. Der er endnu ikke nok sammenligningsdata til at vurdere hastigheden.",
+    "Choose what to share": "Vælg, hvad du vil dele",
+    "Best moment": "Bedste øjeblik",
+    "IQ estimate": "IQ-estimat",
+    "Correct patterns": "Rigtige mønstre",
+    "Share on Facebook": "Del på Facebook",
+    "Copy a personal caption": "Kopiér en personlig tekst",
+    "Your share text": "Din delingstekst",
+    "Copy text": "Kopiér tekst",
+    "Facebook lets you write your own caption. We never post automatically.": "På Facebook kan du skrive din egen tekst. Vi slår aldrig noget op automatisk.",
+    "Copied. Paste it into your post.": "Kopieret. Indsæt teksten i dit opslag.",
+    "Select and copy the text below.": "Markér og kopiér teksten herunder.",
+    "Your question statistics": "Din opgavestatistik",
+    "Question comparisons are not available yet. Your personal statistics are shown below.": "Opgavesammenligninger er endnu ikke tilgængelige. Du kan se din egen statistik herunder.",
+    "Times count visible, focused question time up to your last answer. For unanswered questions, time spent is shown. Hidden tabs and closed pages do not count. Earlier attempts may have no timings.": "Tiderne måler aktiv tid i en synlig opgave med fokus frem til dit sidste svar. Ved ubesvarede opgaver vises den brugte tid. Skjulte faner og lukkede sider tæller ikke med. Ældre forsøg kan mangle tider.",
+    "All 36 questions, including skipped questions": "Alle 36 opgaver, også dem du sprang over",
+    "Question": "Opgave",
+    "Your time": "Din tid",
+    "Correct-answer median": "Median for korrekte svar",
+    "Others correct": "Andre med korrekt svar",
+    "Compare with voluntary attempts using the same puzzle version. At least 30 answered questions are needed for a correct rate, and 30 timed correct answers for a median. These are participants, not a representative population.": "Sammenlign med frivillige forsøg på samme opgaveversion. En korrektandel kræver mindst 30 besvarelser, og en median kræver 30 korrekte svar med tidsmåling. Deltagerne er ikke et repræsentativt udsnit af befolkningen.",
+    "Compare and contribute": "Sammenlign og bidrag",
+    "Help future participants compare their results. You can share anonymous test statistics after finishing, even if you skipped questions.": "Hjælp fremtidige deltagere med at sammenligne deres resultater. Du kan dele anonym teststatistik efter afslutning, også hvis du sprang opgaver over.",
+    "Anonymous comparisons are being prepared. Your personal statistics and sharing work without contributing.": "Anonyme sammenligninger er på vej. Din egen statistik og deling fungerer uden et bidrag.",
+    "Age group (optional)": "Aldersgruppe (valgfrit)",
+    "Country (optional)": "Land (valgfrit)",
+    "Prefer not to say": "Ønsker ikke at oplyse",
+    "Under 18": "Under 18",
+    "I agree to contribute my anonymous question results and active times, together with any age group and country I choose, to comparison statistics.": "Jeg accepterer, at mine anonyme opgaveresultater og aktive tider samt eventuelt valgt aldersgruppe og land indgår i sammenligningsstatistik.",
+    "No name, email or exact age. Sharing your statistics is optional and does not affect your result. Small comparison groups are hidden.": "Intet navn, e-mail eller præcis alder. Det er frivilligt at dele statistik og ændrer ikke dit resultat. Små sammenligningsgrupper skjules.",
+    "Contribute anonymously": "Bidrag anonymt",
     'Why this answer?': 'Hvorfor dette svar?',
     'Explanation': 'Forklaring',
     'The rule': 'Reglen',
@@ -75,6 +116,11 @@ const i18n = (() => {
   const count = (n, singular, plural) => `${n} ${Number(n) === 1 ? singular : plural}`;
   const number = value => String(value).replace('.', ',');
   const patterns = [
+    [/^Question (\d+) · (.+)$/, (_,q,time) => 'Opgave '+q+' · '+time],
+    [/^(\d+) correct patterns$/, (_,n) => n+' rigtige mønstre'],
+    [/^Correct-answer median: (.+) \((\d+) timed correct answers\)\.$/, (_,time,n) => 'Median for korrekte svar: '+time+' ('+n+' korrekte svar med tidsmåling).'],
+    [/^Active time: (.+)$/, (_,time) => 'Aktiv tid: '+time],
+    [/^Comparison: (\d+) voluntary attempts over (\d+) days\.$/, (_,n,days) => 'Sammenligning: '+n+' frivillige forsøg over '+days+' dage.'],
     [/^Question (\d+) \/ (\d+)$/, (_,a,b) => `Opgave ${a} / ${b}`],
     [/^Review question (\d+) \/ (\d+)$/, (_,a,b) => `Gennemgå opgave ${a} / ${b}`],
     [/^Row (\d+), icon (\d+)$/, (_,a,b) => `Række ${a}, figur ${b}`],
@@ -132,6 +178,7 @@ const i18n = (() => {
     const link = document.getElementById('feedback-link');
     if (link) link.setAttribute('href', 'https://munthesystems.dk/systems/feedback/iqchampion?lang='+language);
     if (typeof update_share_links === 'function') update_share_links();
+    if (typeof render_result_statistics === 'function') render_result_statistics();
     const canonical = 'https://iqchampion.com/'+language+'/';
     document.title = translate('Free visual reasoning test | IQ Champion');
     document.querySelector?.('link[rel="canonical"]')?.setAttribute('href',canonical);

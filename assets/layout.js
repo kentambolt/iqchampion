@@ -47,6 +47,7 @@ function openSheet(origin, nodes, title, trigger) {
   i18n.text(document.getElementById('sheet-title'), title);
   sheetContent.replaceChildren(...nodes);
   infoSheet.showModal();
+  if (typeof statistics_visibility === 'function') statistics_visibility();
 }
 for (const details of document.querySelectorAll('details.disclosure')) {
   const summary = details.querySelector('summary');
@@ -65,6 +66,7 @@ infoSheet.addEventListener('close', () => {
   if (sheetOrigin) sheetOrigin.append(...sheetNodes);
   if (sheetOrigin === document.getElementById('test')) document.getElementById('finish-review').hidden = true;
   sheetOrigin = null; sheetNodes = [];
+  if (typeof statistics_visibility === 'function') statistics_visibility();
   if (sheetTrigger?.isConnected && sheetTrigger.closest('.screen')?.hidden !== true) sheetTrigger.focus({preventScroll:true});
   else if (!document.getElementById('result').hidden) document.getElementById('result-title').focus({preventScroll:true});
   sheetTrigger = null;
