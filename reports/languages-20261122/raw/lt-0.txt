@@ -1,0 +1,207 @@
+[[K0001]]
+Apytikslis medianos intervalas
+
+[[K0002]]
+Vieši palyginimai apima visus dalyvius, sprendžiančius šią galvosūkio versiją. Pasirinktinai nurodyti amžiaus grupė ir šalis naudojami tik bendroje statistikoje. 
+
+[[K0003]]
+Sutinku, kad mano anoniminiai užduoties rezultatai, sprendimo laikas bei pasirinktinai nurodyti amžiaus grupė ar šalis būtų įtraukti į bendrą statistiką. 
+
+[[K0004]]
+Medianų intervalai apskaičiuojami remiantis laiko histogramomis. Rodomas intervalas atspindi laiko matavimo tikslumą; tiksli mediana ar greičio procentilis nėra nurodomi. 
+
+[[K0005]]
+Pasidalinkite iššūkiu
+
+[[K0006]]
+Užduoties sprendimo laikas
+
+[[K0007]]
+Dėl jūsų naršyklės privatumo nustatymų ši statistika saugoma jūsų įrenginyje. 
+
+[[K0008]]
+Visi savanoriški bandymai
+
+[[K0009]]
+Ačiū. Jūsų anoniminiai duomenys buvo išsaugoti. 
+
+[[K0010]]
+Šioje grupėje dar nėra pakankamai palyginamų bandymų. Jūsų asmeninė statistika visada prieinama. 
+
+[[K0011]]
+Palyginimai laikinai neprieinami. Jūsų asmeninė statistika ir dalijimosi funkcija veikia toliau. 
+
+[[K0012]]
+Šiame senesniame bandyme nėra išsamaus laiko įrašo. Vis tiek galite peržiūrėti ir pasidalyti savo rezultatu. 
+
+[[K0013]]
+Prieš siųsdami duomenis, pasirinkite, ar norite prisidėti prie statistikos. 
+
+[[K0014]]
+Šiame bandyme nėra išsamaus laiko įrašo. Jūsų asmeniniai rezultatai lieka nepakitę. 
+
+[[K0015]]
+Šioje naršyklėje nepavyko išsaugoti jūsų duomenų. Nieko nebuvo išsiųsta. 
+
+[[K0016]]
+Šie duomenys turi būti peržiūrėti, todėl jie nebuvo pakartotinai įtraukti į statistiką. 
+
+[[K0017]]
+Jūsų duomenys nebuvo patvirtinti. Bandykite dar kartą, naudodami tuos pačius išsaugotus duomenis. [[K0018]]
+Paskyra nereikalinga
+
+[[K0019]]
+Testas prasideda, kai būsite pasiruošę
+
+[[K0020]]
+Testas
+
+[[K0021]]
+Atsakyti klausimai
+
+[[K0022]]
+Kuo galima pasidalinti
+
+[[K0023]]
+Jūsų sėkmingiausias momentas
+
+[[K0024]]
+Apytikslis jūsų IQ
+
+[[K0025]]
+Sudėtinga užduotis, išspręsta greitai
+
+[[K0026]]
+Greičiau nei vidutinis teisingas atsakymas
+
+[[K0027]]
+Jūsų greičiausias teisingas atsakymas
+
+[[K0028]]
+Teisingai išspręstos užduotys
+
+[[K0029]]
+Iššūkis, kuriuo verta pasidalinti
+
+[[K0030]]
+36 užduotys. Vienas iššūkis. 
+
+[[K0031]]
+Pasidalinkite iššūkiu su pažįstamu žmogumi. 
+
+[[K0032]]
+Jūsų aktyvaus darbo laikas. Nepakanka palyginamųjų duomenų, kad būtų galima įvertinti greitį. 
+
+[[K0033]]
+Pasirinkite, kuo norite pasidalinti
+
+[[K0034]]
+Geriausias momentas
+
+[[K0035]]
+IQ įvertinimas
+
+[[K0036]]
+Teisingai išspręstos užduotys
+
+[[K0037]]
+Dalintis „Facebook“ tinkle
+
+[[K0038]]
+Nukopijuoti asmeninį tekstą
+
+[[K0039]]
+Tekstas dalinimuisi
+
+[[K0040]]
+Nukopijuoti tekstą
+
+[[K0041]]
+„Facebook“ leidžia įrašyti savo tekstą. Mes niekada nieko neskelbiame automatiškai. 
+
+[[K0042]]
+Nukopijuota. Įklijuokite į savo įrašą. 
+
+[[K0043]]
+Pasirinkite ir nukopijuokite žemiau esantį tekstą. 
+
+[[K0044]]
+Jūsų klausimų statistika
+
+[[K0045]]
+Klausimų palyginimo duomenų dar nėra. Žemiau pateikiama jūsų asmeninė statistika. 
+
+[[K0046]]
+Skaičiuojamas laikas, praleistas aktyviai sprendžiant klausimą – iki pat paskutinio jūsų atsakymo. Jei klausimas liko neatsakytas, rodomas jam skirtas laikas. Laikas, kai skirtukas buvo paslėptas arba puslapis uždarytas, nėra skaičiuojamas. Ankstesniuose bandymuose laiko duomenų gali nebūti. 
+
+[[K0047]]
+Visi 36 klausimai, įskaitant praleistus
+
+[[K0048]]
+Klausimas
+
+[[K0049]]
+Jūsų sugaištas laikas
+
+[[K0050]]
+Teisingų atsakymų mediana
+
+[[K0051]]
+Kitų teisingi atsakymai
+
+[[K0052]]
+Palyginkite su savanoriškais bandymais, kuriuose spręsta ta pati užduoties versija. Kad būtų galima apskaičiuoti teisingų atsakymų dalį, reikia bent 30 atsakytų klausimų, o medianai – 30 teisingų atsakymų, kuriems fiksuotas laikas. Tai – tik dalyviai, o ne reprezentatyvi populiacijos imtis. 
+
+[[K0053]]
+Palyginkite ir prisidėkite
+
+[[K0054]]
+Padėkite būsimiems dalyviams palyginti savo rezultatus. Baigę spręsti, galite pasidalyti anonimine statistika – net jei praleidote klausimų. 
+
+[[K0055]]
+Ruošiami anoniminiai palyginimai. Jūsų asmeninė statistika bus rodoma, tačiau duomenys nebus įtraukti į bendrą statistiką. 
+
+[[K0056]]
+Amžiaus grupė (nebūtina)
+
+[[K0057]]
+Šalis (nebūtina)
+
+[[K0058]]
+Nenoriu nurodyti
+
+[[K0059]]
+Jaunesni nei 18 m.
+
+[[K0060]]
+Sutinku, kad mano anoniminiai atsakymai į klausimus ir sugaištas laikas (kartu su pasirinkta amžiaus grupe bei šalimi) būtų įtraukti į palyginamąją statistiką. 
+
+[[K0061]]
+Jokio vardo, el. pašto adreso ar tikslaus amžiaus. Dalytis statistika nėra privaloma – tai neturi įtakos jūsų rezultatui. Mažos palyginimo grupės nerodomos. 
+
+[[K0062]]
+Prisidėti anonimiškai
+
+[[K0063]]
+Kodėl būtent toks atsakymas? 
+
+[[K0064]]
+Paaiškinimas
+
+[[K0065]]
+Taisyklė
+
+[[K0066]]
+Taisyklės taikymas
+
+[[K0067]]
+Peržiūrite senesnę užduoties versiją. Jos pavyzdžiuose yra anksčiau pastebėtas neaiškumas; jūsų išsaugotas atsakymas ir rezultatas lieka nepakitę. 
+
+[[K0068]]
+Peržiūrite pradinę versiją, kurioje buvo neteisingų pavyzdžių žymėjimų. Jūsų išsaugotas atsakymas ir rezultatas lieka nepakitę. Naujuose bandymuose naudojama pakoreguota versija. 
+
+[[K0069]]
+Šioje pradinėje versijoje rodomas vidurinis paveikslėlis išsiplečia: viršutiniame dešiniajame kampe bei 2-oje eilutėje, 3-iame stulpelyje – į žalią spalvą; 2-oje eilutėje, 1-ame stulpelyje – į raudoną; o 2-oje eilutėje, 2-ame stulpelyje, 3-ioje eilutėje, 3-iame stulpelyje bei 4-oje eilutėje, 3-iame stulpelyje – į rudą.
+
+[[K0070]]
+Pasidalinkite rezultatu „Facebook“ tinkle

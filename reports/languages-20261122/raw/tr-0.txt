@@ -1,0 +1,207 @@
+[[K0001]]
+Tahmini medyan aralığı
+
+[[K0002]]
+Genel karşılaştırmalar, bu bulmaca sürümünü kullanan tüm katılımcıları içerir. İsteğe bağlı olarak belirtilen yaş grubu ve ülke bilgileri, yalnızca anonimleştirilmiş toplu istatistiklerde kullanılır. 
+
+[[K0003]]
+Anonim soru sonuçlarımı, aktif sürelerimi ve (isteğe bağlıysa) yaş grubu veya ülke bilgilerimi, toplu istatistiklere dahil edilmek üzere paylaşmayı kabul ediyorum. 
+
+[[K0004]]
+Medyan aralıkları, süre histogramlarından tahmin edilmiştir. Gösterilen aralık, zamanlama çözünürlüğünü yansıtır; kesin bir medyan değer veya hız yüzdelik dilimi iddia edilmemektedir. 
+
+[[K0005]]
+Meydan okumayı paylaş
+
+[[K0006]]
+Soru süresi
+
+[[K0007]]
+Tarayıcınızın gizlilik tercihleri ​​nedeniyle bu istatistikler cihazınızda tutulur. 
+
+[[K0008]]
+Tüm gönüllü denemeler
+
+[[K0009]]
+Teşekkürler. Anonim katkınız kaydedildi. 
+
+[[K0010]]
+Bu grupta henüz karşılaştırma yapılabilecek yeterli sayıda deneme bulunmuyor. Kendi istatistiklerinize her zaman erişebilirsiniz. 
+
+[[K0011]]
+Karşılaştırmalar geçici olarak kullanılamıyor. Kendi istatistiklerinizi görüntülemeye ve paylaşmaya devam edebilirsiniz. 
+
+[[K0012]]
+Bu eski denemeye ait eksiksiz bir zamanlama kaydı bulunmuyor. Yine de sonucunuzu inceleyebilir ve paylaşabilirsiniz. 
+
+[[K0013]]
+Veri göndermeden önce katkıda bulunup bulunmayacağınıza karar verin. 
+
+[[K0014]]
+Bu denemeye ait eksiksiz bir zamanlama kaydı bulunmuyor. Kişisel sonuçlarınızda bir değişiklik olmayacaktır. 
+
+[[K0015]]
+Katkınız bu tarayıcıda kaydedilemedi. Herhangi bir veri gönderilmedi. 
+
+[[K0016]]
+Bu katkı inceleme gerektiriyor; bu nedenle tekrar hesaba katılmadı. 
+
+[[K0017]]
+Katkınız henüz onaylanmadı. Aynı kayıtlı katkı verisiyle tekrar deneyin. [[K0018]]
+Hesap gerekmez
+
+[[K0019]]
+Hazır olduğunuzda test başlar
+
+[[K0020]]
+Test
+
+[[K0021]]
+Yanıtlanan sorular
+
+[[K0022]]
+Paylaşılacak bir şey
+
+[[K0023]]
+En güçlü anınız
+
+[[K0024]]
+Tahmini IQ değeriniz
+
+[[K0025]]
+Hızla çözülen zorlu bir bulmaca
+
+[[K0026]]
+Ortalama doğru yanıt süresinden daha hızlı
+
+[[K0027]]
+En hızlı doğru yanıtınız
+
+[[K0028]]
+Çözdüğünüz örüntüler
+
+[[K0029]]
+Paylaşmaya değer bir meydan okuma
+
+[[K0030]]
+36 bulmaca. Tek bir meydan okuma. 
+
+[[K0031]]
+Tanıdığınız biriyle bir meydan okuma paylaşın. 
+
+[[K0032]]
+Kendi aktif süreniz. Hızınızı sıralamak için yeterli karşılaştırma verisi bulunmuyor. 
+
+[[K0033]]
+Neyi paylaşacağınızı seçin
+
+[[K0034]]
+En iyi an
+
+[[K0035]]
+Tahmini IQ
+
+[[K0036]]
+Doğru çözülen örüntüler
+
+[[K0037]]
+Facebook'ta paylaş
+
+[[K0038]]
+Kişisel bir açıklama metni kopyala
+
+[[K0039]]
+Paylaşım metniniz
+
+[[K0040]]
+Metni kopyala
+
+[[K0041]]
+Facebook, kendi açıklama metninizi yazmanıza olanak tanır. Otomatik olarak hiçbir şey paylaşmayız. 
+
+[[K0042]]
+Kopyalandı. Paylaşımınıza yapıştırın. 
+
+[[K0043]]
+Aşağıdaki metni seçin ve kopyalayın. 
+
+[[K0044]]
+Soru istatistikleriniz
+
+[[K0045]]
+Soru karşılaştırmaları henüz mevcut değil. Kişisel istatistikleriniz aşağıda gösterilmiştir. 
+
+[[K0046]]
+Süreler, son yanıtınıza kadar soru üzerinde aktif olarak geçirdiğiniz zamanı kapsar. Yanıtlanmamış sorular için harcanan süre gösterilir. Gizli sekmeler ve kapatılmış sayfalar hesaba katılmaz. Daha önceki denemelerde süre bilgisi bulunmayabilir. 
+
+[[K0047]]
+Atlanan sorular dahil toplam 36 soru
+
+[[K0048]]
+Soru
+
+[[K0049]]
+Süreniz
+
+[[K0050]]
+Doğru yanıtlar için medyan (ortanca değer)
+
+[[K0051]]
+Diğerlerinin doğru yanıtları
+
+[[K0052]]
+Aynı bulmaca sürümüyle yapılan gönüllü denemelerle karşılaştırın. Doğru yanıt oranının hesaplanabilmesi için en az 30 sorunun yanıtlanmış olması, medyan değerinin hesaplanabilmesi için ise en az 30 doğru yanıtın süre bilgisinin bulunması gerekir. Buradaki veriler, genel nüfusu temsil eden bir örneklem değil, katılımcılardan elde edilen verilerdir. 
+
+[[K0053]]
+Karşılaştırın ve katkıda bulunun
+
+[[K0054]]
+Gelecekteki katılımcıların sonuçlarını karşılaştırmalarına yardımcı olun. Soruları atlamış olsanız bile, testi bitirdikten sonra anonim test istatistiklerinizi paylaşabilirsiniz. 
+
+[[K0055]]
+Anonim karşılaştırmalar hazırlanıyor. Kişisel istatistiklerinizi görebilir ve veri paylaşımına katkıda bulunmadan da sonuçlarınızı inceleyebilirsiniz. 
+
+[[K0056]]
+Yaş grubu (isteğe bağlı)
+
+[[K0057]]
+Ülke (isteğe bağlı)
+
+[[K0058]]
+Belirtmek istemiyorum
+
+[[K0059]]
+18 yaş altı
+
+[[K0060]]
+Sorulara verdiğim anonim yanıtları, bu yanıtlar için harcadığım süreleri ve (tercih edersem) yaş grubu ve ülke bilgilerimi, karşılaştırma istatistiklerine dahil edilmek üzere paylaşmayı kabul ediyorum. 
+
+[[K0061]]
+İsim, e-posta adresi veya tam yaş bilgisi istenmez. İstatistiklerinizi paylaşmak isteğe bağlıdır ve sonucunuzu etkilemez. Çok küçük gruplara ait karşılaştırma verileri gizli tutulur. 
+
+[[K0062]]
+Anonim olarak katkıda bulunun
+
+[[K0063]]
+Neden bu cevap? 
+
+[[K0064]]
+Açıklama
+
+[[K0065]]
+Kural
+
+[[K0066]]
+Kuralın uygulanması
+
+[[K0067]]
+Bulmacanın eski bir sürümünü inceliyorsunuz. Bu sürümdeki örnekler, daha önce tespit edilmiş bir belirsizlik içermektedir; kaydettiğiniz yanıt ve puanınız değişmeden kalır. 
+
+[[K0068]]
+Hatalı örnek işaretleri içeren orijinal sürümü inceliyorsunuz. Kaydettiğiniz yanıt ve puanınız değişmeden kalır. Yeni denemeler, düzeltilmiş sürümü kullanır. 
+
+[[K0069]]
+Bu orijinal sürümde, gösterilen orta resim; sağ üst köşede ve 2. satır, 3. sütunda yeşil; 2. satır, 1. sütunda kırmızı; 2. satır, 2. sütunda, 3. satır, 3. sütunda ve 4. satır, 3. sütunda ise kahverengi olacak şekilde genişler.
+
+[[K0070]]
+Sonucu Facebook'ta paylaş

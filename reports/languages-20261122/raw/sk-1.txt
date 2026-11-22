@@ -1,0 +1,301 @@
+[[K0071]]
+Zdieľať test na Facebooku
+
+[[K0072]]
+Odhadované IQ
+
+[[K0073]]
+Len pre zábavu. Ide o približné skóre, nie o profesionálne overené meranie IQ. 
+
+[[K0074]]
+Váš test nie je dokončený. Zobrazujú sa vaše správne odpovede, ale na odhad IQ je potrebných všetkých 36 odpovedí. 
+
+[[K0075]]
+Nedostupné
+
+[[K0076]]
+Bezplatný test vizuálneho uvažovania | IQ Champion
+
+[[K0077]]
+36 úloh zameraných na vizuálne uvažovanie. Zapojte sa do bezplatnej 40-minútovej výzvy a pozrite si svoje výsledky. 
+
+[[K0078]]
+Zodpovedané
+
+[[K0079]]
+Nezodpovedané
+
+[[K0080]]
+Správne
+
+[[K0081]]
+Nesprávne
+
+[[K0082]]
+Zavrieť
+
+[[K0083]]
+Pomoc
+
+[[K0084]]
+40 min
+
+[[K0085]]
+Jazyk
+
+[[K0086]]
+O teste
+
+[[K0087]]
+Výzva v oblasti vizuálneho uvažovania
+
+[[K0088]]
+Odhaľte vzorec. 
+
+[[K0089]]
+Nájdite chýbajúcu časť. 
+
+[[K0090]]
+36 vizuálnych úloh a odhadované IQ. Len pre zábavu. 
+
+[[K0091]]
+Úlohy
+
+[[K0092]]
+Časový limit
+
+[[K0093]]
+Cena
+
+[[K0094]]
+Zadarmo
+
+[[K0095]]
+Nevyžaduje sa žiadny účet. Časomiera sa spustí, keď začnete. 
+
+[[K0096]]
+Ako test funguje
+
+[[K0097]]
+Vyberte ikonu, ktorá dopĺňa daný vzorec. 
+
+[[K0098]]
+Náročné otázky môžete preskočiť a vrátiť sa k nim cez prehľad. 
+
+[[K0099]]
+Pred dokončením si skontrolujte alebo zmeňte svoje odpovede. [[K0100]]
+Vaše odpovede a čas začiatku sú uložené v tomto prehliadači. Pri obnovení stránky zostáva zachovaný pôvodný časový limit. 
+
+[[K0101]]
+40-minútový časovač beží ďalej, aj keď je stránka zatvorená. Nezodpovedané otázky sa považujú za nesprávne. 
+
+[[K0102]]
+O vašom výsledku
+
+[[K0103]]
+Váš odhadovaný IQ je založený na vašom umiestnení medzi
+
+[[K0104]]
+historickými pokusmi. 
+
+[[K0105]]
+Porovnanie zahŕňa pokusy, ktoré trvali dlhšie ako jednu minútu a maximálne 40 minút. Výsledok nebol overený v porovnaní s oficiálnym IQ testom ani s reprezentatívnou vzorkou populácie. 
+
+[[K0106]]
+Test pre zábavu. Váš odhadovaný IQ je len približný údaj, nejde o profesionálne overené skóre IQ. 
+
+[[K0107]]
+Spustiť 40-minútový test
+
+[[K0108]]
+Test logického myslenia
+
+[[K0109]]
+Vaša výzva
+
+[[K0110]]
+Zostávajúci čas
+
+[[K0111]]
+zostáva
+
+[[K0112]]
+Vzor otázky
+
+[[K0113]]
+Nájdite vzor
+
+[[K0114]]
+Štyri riadky vizuálnych vzorov; doplňte posledný riadok
+
+[[K0115]]
+Vyberte odpoveď
+
+[[K0116]]
+Navigácia v otázkach
+
+[[K0117]]
+Predchádzajúca otázka
+
+[[K0118]]
+Zatiaľ preskočiť
+
+[[K0119]]
+Nasledujúca otázka
+
+[[K0120]]
+Prehľad otázok
+
+[[K0121]]
+✓ Zodpovedané
+
+[[K0122]]
+○ Nezodpovedané
+
+[[K0123]]
+Zvýraznené = aktuálna otázka
+
+[[K0124]]
+Prejsť na otázku
+
+[[K0125]]
+Skontrolovať a dokončiť
+
+[[K0126]]
+Pokyny a uložený postup
+
+[[K0127]]
+Vyberte odpoveď a prejdite na ďalšiu nezodpovedanú otázku. Pred dokončením môžete otázky preskakovať, vracať sa k nim a meniť svoje odpovede. 
+
+[[K0128]]
+Odpovede sa v tomto prehliadači ukladajú automaticky. Po obnovení stránky budete pokračovať tam, kde ste skončili; časovač beží ďalej. 
+
+[[K0129]]
+Môžeme začať, keď budete pripravení
+
+[[K0130]]
+Ukončiť test? 
+
+[[K0131]]
+Pokračovať v práci
+
+[[K0132]]
+Ukončiť a zobraziť výsledok
+
+[[K0133]]
+Výzva dokončená
+
+[[K0134]]
+Váš výsledok
+
+[[K0135]]
+Skontrolovať odpovede
+
+[[K0136]]
+Skúsiť znova
+
+[[K0137]]
+O tomto teste
+
+[[K0138]]
+Ako čítať tento výsledok
+
+[[K0139]]
+Váš percentil v porovnaní s predchádzajúcimi pokusmi je prepočítaný na bežnú IQ škálu: stredná hodnota je 100 a smerodajná odchýlka 15. Tento výpočet predpokladá, že porovnávacia skupina zodpovedá celej populácii, čo však nebolo potvrdené. 
+
+[[K0140]]
+Vysvetlenie vašich odpovedí
+
+[[K0141]]
+Prehľad vašich odpovedí
+
+[[K0142]]
+Späť k výsledku
+
+[[K0143]]
+Vzor
+
+[[K0144]]
+Porovnať odpovede
+
+[[K0145]]
+Vaša odpoveď
+
+[[K0146]]
+Správna odpoveď
+
+[[K0147]]
+Predchádzajúca otázka v prehľade
+
+[[K0148]]
+Nasledujúca otázka v prehľade
+
+[[K0149]]
+Výsledky podľa jednotlivých otázok
+
+[[K0150]]
+Prezrite si všetkých 36 úloh
+
+[[K0151]]
+✓ Správne
+
+[[K0152]]
+× Nesprávne
+
+[[K0153]]
+Skontrolovať otázku
+
+[[K0154]]
+Vaše odoslané odpovede a konečné skóre zostávajú nezmenené. [[K0155]]
+Kontakt
+
+[[K0156]]
+Spätná väzba a kontakt
+
+[[K0157]]
+Pošlite nám spätnú väzbu alebo nás kontaktujte
+
+[[K0158]]
+Správne. Vaša odpoveď sa zhoduje so správnou odpoveďou. 
+
+[[K0159]]
+Nesprávne. Vaša odpoveď sa líši od správnej odpovede. 
+
+[[K0160]]
+Nezodpovedané. K tejto otázke nebola odoslaná žiadna odpoveď. 
+
+[[K0161]]
+Nebola odoslaná žiadna odpoveď
+
+[[K0162]]
+Vami odoslaná odpoveď
+
+[[K0163]]
+Chýbajúca ikona
+
+[[K0164]]
+Všetky otázky sú zodpovedané. Stále môžete skontrolovať a zmeniť svoje odpovede a následne test ukončiť. 
+
+[[K0165]]
+Zostáva päť minút alebo menej. 
+
+[[K0166]]
+Čas vypršal. Vaše odpovede boli vyhodnotené. 
+
+[[K0167]]
+Test dokončený. 
+
+[[K0168]]
+Porovnanie nie je k dispozícii. 
+
+[[K0169]]
+Tento prehliadač nedokázal uložiť váš pokus. Ponechajte túto stránku otvorenú: pri obnovení stránky môžete prísť o rozpracovanú časť alebo sa môžu obnoviť staršie odpovede. 
+
+[[K0170]]
+Lokálne ukladanie v tomto prehliadači nie je k dispozícii. Ponechajte túto stránku otvorenú, aby ste neprišli o svoj pokus. 
+
+[[K0171]]
+Uložený pokus sa nepodarilo obnoviť. Keď budete pripravení, začnite nový test. 
+
+[[K0172]]
+Ponechajte obrázok nezmenený

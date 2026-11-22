@@ -1,0 +1,165 @@
+[[K0275]]
+Alla svarta avdelare flyttar sig samtidigt ett steg åt höger, förutsatt att nästa position innehåller en gul kula. En avdelare som blockeras av en annan avdelare stannar kvar. Den högra kanten hänger ihop med den vänstra kanten. 
+
+[[K0276]]
+Utför ett simultant steg på den mellersta sekvensen. Den slutgiltiga ordningsföljden blir: avdelare, kula, avdelare, kula, avdelare, avdelare, kula. 
+
+[[K0277]]
+Expandera färgerna och behåll den största gruppen.
+
+[[K0278]]
+Ersätt varje färgad kula med fyra nya kulor av samma färg – en kula placeras ovanför, en nedanför, en till vänster och en till höger om den ursprungliga positionen. Kulor som hamnar utanför rutnätet försvinner. För varje position gäller att den färg som har flest ankommande kulor får stanna kvar. Om flera färger har lika många kulor lämnas positionen tom. Om flera kulor av samma färg anländer till samma position räknas de som en enda markör i den färgen. 
+
+[[K0279]]
+När den visade bilden i mitten expanderas hamnar grönt uppe till höger samt på rad 2, kolumn 3; rött hamnar på rad 2, kolumn 1; och brunt hamnar på rad 2, kolumn 2, rad 3, kolumn 3 samt rad 4, kolumnerna 2, 3 och 4. Detta stämmer exakt överens med färgerna och positionerna i det sparade svaret. 
+
+[[K0280]]
+Välj språk
+
+[[K0281]]
+Sök efter språk
+
+[[K0282]]
+Stäng språkmenyn
+
+[[K0283]]
+Inga språk hittades
+
+[[K0284]]
+Gratis IQ-test för nöjes skull | IQ Champion
+
+[[K0285]]
+Ett gratis IQ-test för nöjes skull: 36 visuella gåtor, 40 minuters tidsgräns, sparat framsteg och ett uppskattat IQ-resultat. Inget konto krävs. 
+
+[[K0286]]
+Välj önskat språk. Dina svar och den ursprungliga tidsgränsen finns kvar. 
+
+[[K0287]]
+Laddar språk…
+
+[[K0288]]
+Språket kunde inte laddas. Ditt test och dina svar är oförändrade. [[K0289]]
+Feedback finns tillgänglig på danska och engelska. 
+
+[[K0290]]
+Delad prestation
+
+[[K0291]]
+Delat resultat
+
+[[K0292]]
+Delade resultat är självrapporterade. 
+
+[[K0293]]
+Delade prestationer är självrapporterade. Ingen information om ålder, land, svar eller personliga profiler delas. 
+
+[[K0294]]
+Prova de 36 pusslen själv
+
+[[K0295]]
+Prova testet själv
+
+[[K0296]]
+En visuell utmaning i IQ Champion. Kan du också se mönstret? 
+
+[[K0297]]
+Ett kostnadsfritt visuellt pusseltest, bara för skojs skull. Det är inte ett professionellt validerat IQ-test. 
+
+[[K0298]]
+Sidan hittades inte
+
+[[K0299]]
+Du kan fortsätta på ett annat språk. 
+
+[[K0300]]
+besvarad
+
+[[K0301]]
+obesvarad
+
+[[K0302]]
+korrekt
+
+[[K0303]]
+felaktig
+
+[[K0304]]
+Uppskattat medianintervall: {0} ({1} korrekta svar med tidsmätning). 
+
+[[K0305]]
+Fråga {0} · {1}
+
+[[K0306]]
+{0} korrekta mönster
+
+[[K0307]]
+Aktiv tid: {0}
+
+[[K0308]]
+Jämförelse: {0} frivilliga försök under {1} dagar. 
+
+[[K0309]]
+Fråga {0} / {1}
+
+[[K0310]]
+Granska fråga {0} / {1}
+
+[[K0311]]
+Rad {0}, ikon {1}
+
+[[K0312]]
+Svar {0}
+
+[[K0313]]
+Fråga {0}, {1}
+
+[[K0314]]
+Granska fråga {0}, {1}
+
+[[K0315]]
+{0} korrekta; {1} felaktiga; {2} obesvarade. 
+
+[[K0316]]
+{0} besvarade; {1} obesvarade. 
+
+[[K0317]]
+{0} besvarade; {1} obesvarade. Obesvarade frågor räknas som felaktiga. När du väl är klar kan du inte ändra dina svar. 
+
+[[K0318]]
+{0} / {1} rätt
+
+[[K0319]]
+Percentil bland tidigare deltagare: {0}
+
+[[K0320]]
+Deltagare med lägre poäng: {0} %. Deltagare med samma poäng: {1} %. 
+
+[[K0321]]
+Referensgrupp: {0} tidigare genomförda test. Testomgångar med en registrerad tidsåtgång på över en minut och upp till 40 minuter inkluderas. Vid samma poäng tilldelas deltagarna mittpunkten i sin percentilgrupp. Uppskattningarna avrundas till heltal och visas endast inom intervallet 55–145; utanför detta intervall visas en indikator. Detta är en skalomvandling, inte ett oberoende validerat IQ-mått för en hel population. Övning och upprepade försök kan påverka ditt resultat. Vissa exempelbilder har korrigerats sedan de tidigare testomgångarna samlades in, vilket begränsar jämförbarheten. 
+
+[[K0322]]
+Mitt uppskattade IQ i IQ Champion: {0}. Bara för skojs skull. Prova själv: {1}
+
+[[K0323]]
+Jag löste fråga {0} rätt på {1}. Klarar du det också? {2}
+
+[[K0324]]
+Jag löste fråga {0} rätt på {1} (uppskattat medianvärde bland korrekta svar: {2}). Klarar du det också? {3}
+
+[[K0325]]
+Jag hittade {0} korrekta mönster i IQ Champion. Prova själv: {1}
+
+[[K0326]]
+Kan du hitta de saknade mönstren i IQ Champion? {0}
+
+[[K0327]]
+Fråga {0} löst
+
+[[K0328]]
+{0} mönster lösta
+
+[[K0329]]
+{0} / 36 rätt. {1}
+
+[[K0330]]
+Uppskattad IQ {0} | IQ-mästare

@@ -20,3 +20,22 @@ test('ready packs include every English message and preserve every dynamic place
  const templates=require('../assets/locale-templates.js');
  for(const l of catalog){const file=path.join(root,'assets/locales',l.code+'.js');if(!fs.existsSync(file))continue;const ctx={};vm.runInNewContext(fs.readFileSync(file,'utf8'),ctx);const pack=ctx.IQLocalePacks[l.code];for(const key of Object.keys(en.messages))assert.ok(pack.messages[key]?.trim(),l.code+': '+key);for(const source of templates.sources)assert.ok(templates.valid(source,pack.templates[source]),l.code+': '+source);}
 });
+
+test('all 50 static routes provide localized titles, reciprocal language links and truthful schema',()=>{
+ for(const language of catalog){
+  const file=path.join(root,language.code,'index.html');assert.ok(fs.existsSync(file),language.code);
+  const html=fs.readFileSync(file,'utf8'),ctx={};vm.runInNewContext(fs.readFileSync(path.join(root,'assets/locales',language.code+'.js'),'utf8'),ctx);
+  const pack=ctx.IQLocalePacks[language.code],decode=text=>text.replaceAll('&amp;','&').replaceAll('&quot;','"').replaceAll('&#39;',"'");
+  assert.ok(html.includes('<html lang="'+language.code+'" dir="'+language.dir+'">'));
+  assert.equal(decode(html.match(/<title>([^<]+)<\/title>/)[1]),pack.messages['Free IQ test for fun | IQ Champion']);
+  assert.ok(html.includes('assets/locales/'+language.code+'.js'));
+  for(const alternate of catalog)assert.ok(html.includes('hreflang="'+alternate.code+'" href="https://iqchampion.com/'+alternate.code+'/"'));
+  const schema=JSON.parse(html.match(/<script id="site-schema"[^>]*>([\s\S]*?)<\/script>/)[1]);
+  assert.equal(schema.inLanguage,language.code);assert.equal(schema.url,'https://iqchampion.com/'+language.code+'/');assert.equal(schema.aggregateRating,undefined);
+  for(const route of ['0','question/36','patterns/36']){const share=fs.readFileSync(path.join(root,'share',language.code,route,'index.html'),'utf8');assert.ok(share.includes('noindex,follow'));assert.ok(share.includes('href="/'+language.code+'/"'));assert.doesNotMatch(share,/<script|localStorage|statisticsId|age_group|duration_ms/);}
+ }
+});
+
+test('every localized use of the product name preserves IQ Champion',()=>{
+ for(const language of catalog){const ctx={};vm.runInNewContext(fs.readFileSync(path.join(root,'assets/locales',language.code+'.js'),'utf8'),ctx);const pack=ctx.IQLocalePacks[language.code];for(const [source,target] of [...Object.entries(pack.messages),...Object.entries(pack.templates)])if(source.includes('IQ Champion'))assert.ok(target.includes('IQ Champion'),language.code+': '+source);}
+});

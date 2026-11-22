@@ -1,0 +1,75 @@
+[[K0249]]
+Kırmızı tuğla kaldırıldığında, geriye kalan tuğlalar orta merdiveni oluşturur. Sarı tuğla ve ona temas eden komşuları kaldırıldığında, üstteki mavi tuğla açığa çıkar ve en alta düşer. 
+
+[[K0250]]
+Katmanları döngüsel olarak kaydırın ve renk maskesini uygulayın.
+
+[[K0251]]
+Aynı üç şekli takip edin. Her adımda öndeki şekil en arkaya geçer. Son resimde, orta resimdeki gri veya siyah dolguları koruyun; içi boş (beyaz) şekiller ise ilk resimdeki renklerini geri kazanır. 
+
+[[K0252]]
+Gri altıgen öne gelir, siyah yatay kapsül onun arkasında kalır ve dikey kapsül en arkaya geçer. Beyaz dikey kapsül ise orijinal sarı rengini geri kazanır. 
+
+[[K0253]]
+Her bir dairenin hareketini belirlemek için onun rengini kullanın.
+
+[[K0254]]
+Her daireyi, onu çevreleyen bir sonraki daireye göre takip edin. Beyaz daire saat yönünde 90 derece, siyah daire saat yönünün tersine 90 derece hareket eder; kırmızı daire ise bulunduğu göreceli konumda kalır. Mavi daire hareket etmez. Bu hareketleri iç içe geçmiş tüm seviyelere uygulayın. 
+
+[[K0255]]
+Siyah daire, mavi dairenin üzerindeyken soluna geçer. Kırmızı daire, siyah dairenin içinde sağ tarafta kalır. Daha büyük olan beyaz daire, kırmızı dairenin üzerindeyken sağına geçer; en küçük beyaz daire ise büyük beyaz dairenin altındayken soluna geçer. 
+
+[[K0256]]
+Renkleri, birbirine bağlı yollar boyunca hareket ettirin.
+
+[[K0257]]
+Siyah bağlantılar, renklerin izleyeceği yolları gösterir. Her bir döngüyü saat yönünde takip ederek renkleri bir sonraki bağlantılı konuma taşıyın. İki konumlu bir yolda renkler kendi aralarında yer değiştirir; herhangi bir bağlantısı olmayan noktalar ise yerinde kalır. 
+
+[[K0258]]
+En üstteki iki rengin yerini değiştirin. Alt döngüde, orta soldaki mavi renk merkeze, orta sağdaki kırmızı renk ise sol alta hareket eder. Bağlantısı olmayan, sağ alttaki kırmızı renk ise değişmeden kalır. [[K0259]]
+Her rengi kendi yolu boyunca hareket ettirin
+
+[[K0260]]
+Kırmızı aşağı, yeşil sağa, sarı ise sola hareket eder. Mavi yukarı ve mümkün olan durumlarda bir sütun sola kayar. Beyaz renk, üst üste binen renkleri gösterir; bir sonraki hamleyi yapmadan önce bu renkleri birbirinden ayırın. Izgaranın dışına çıkan renkler kaybolur. 
+
+[[K0261]]
+Ortadaki beyaz hücreyi kırmızı ve yeşile ayırın. Kırmızı alt ortaya, yeşil orta sağa hareket eder; mavi sol üst köşeye ulaşır, sarı ise sol taraftan çıkar. Bu üç renkli hücre, cevabı oluşturur. 
+
+[[K0262]]
+Kırmızı ve mavi uçları zıt yönlerde hareket ettirin
+
+[[K0263]]
+Her adımda, tüm kırmızı uçlar beş köşeli yıldız etrafında saat yönünün tersine bir konum, tüm mavi uçlar ise saat yönünde iki konum ilerler. Beyaz renk, kırmızı ve mavinin üst üste bindiğini gösterir; bir sonraki hamleden önce bu renkleri birbirinden ayırın. 
+
+[[K0264]]
+Ortadaki resimde kırmızı sağ altta; mavi ise sağ üstte ve sol üstte bulunur. Bir sonraki hamlede kırmızı ve mavilerden biri sağ üstte bir araya gelerek beyaz rengi oluşturur. Diğer mavi ise sol alta geçer. 
+
+[[K0265]]
+İki kopyayı, sektörün gösterdiği yönlerde kaydırın
+
+[[K0266]]
+Beyaz sektörün iki kenarı, iki hareket yönünü belirtir. Kırmızı noktalardan oluşan desenin iki kopyasını oluşturun ve her bir kopyayı, kenarlardan diğer tarafa geçecek şekilde (döngüsel olarak) belirtilen yönlerde birer birim kaydırın. Yalnızca bir kopyanın ulaştığı konumlar kırmızı; her iki kopyanın da ulaştığı konumlar ise mavi olur. 
+
+[[K0267]]
+Son sektör, sol aşağı ve sağ aşağı yönlerini gösterir. Birer kopyayı bu yönlerde kaydırın. Üst üste geldikleri bölgeler (en üst satırın tamamı ve merkez) maviye dönüşür; yalnızca tek bir kopyanın denk geldiği konumlar ise cevapta gösterildiği gibi kırmızı kalır. 
+
+[[K0268]]
+Birbiriyle kesişen çizgi parçalarını kaldırın
+
+[[K0269]]
+Her iki çizimi üst üste getirin. Ardışık ızgara noktaları arasındaki her bir düz çizgiyi ayrı bir parça olarak ele alın. Bir çizimdeki parça, diğer çizimdeki bir parçayla noktalar arasında kesiştiğinde, her iki parçayı da kaldırın. Izgara noktalarında birleşen parçalar yerinde kalır. Her iki çizimdeki kesilmemiş tüm parçaları muhafaza edin. 
+
+[[K0270]]
+Izgara noktaları arasında kesilmiş olan çapraz parçaları kaldırın. Geriye kalan parçalar; dikey bir gövdesi olan üst bir çatal, üst köşelere yakın iki ayrı kısa çapraz parça ve yine kendi dikey gövdesi olan alt bir çatal oluşturur. 
+
+[[K0271]]
+Parçaları kaydırın ve boyutlarına göre sıralayın.
+
+[[K0272]]
+Tüm parçaları ok yönünde itin. Daha küçük parçalar, daha büyük parçaların yanından geçerek en uçtaki boşluklara ilk ulaşanlar olur. Her bir parçanın yüksekliğini ve dikey konumunu koruyun. Parçalar, dikey olarak üst üste gelmedikleri sürece aynı sütunu paylaşabilirler; aynı boyuttaki parçalar ise birbirlerine göre olan sıralarını korurlar. 
+
+[[K0273]]
+Ok sağ tarafı işaret etmektedir. En kısa parçaları sağdaki boşluklara, ardından iki birimlik parçaları, en son da daha uzun parçaları bunların soluna yerleştirin. Hiçbir parça yukarı veya aşağı hareket etmez ve hiçbir parçanın boyutu değişmez. 
+
+[[K0274]]
+Ayırıcıları boş alanlara taşıyın.

@@ -1,0 +1,99 @@
+[[K0215]]
+V každém kroku otočte tvar o 45 stupňů proti směru hodinových ručiček. Jeho barva se střídá, takže ve třetím obrázku má tvar opět stejnou barvu jako v prvním. 
+
+[[K0216]]
+Otočte bílý středový tvar o dalších 45 stupňů proti směru hodinových ručiček a vraťte mu tmavou barvu z prvního obrázku. Vyberte tmavý zakřivený tvar v této orientaci. 
+
+[[K0217]]
+Zkombinujte černé kruhy.
+
+[[K0218]]
+Kruh je ve výsledku černý, pokud je odpovídající kruh černý alespoň v jednom ze vstupů. Bílý je pouze tehdy, když je na daném místě bílý kruh v obou vstupech. 
+
+[[K0219]]
+První vstup přispívá černým kruhem vpravo dole; druhý vstup přispívá dvěma černými kruhy v horní části. Kruh uprostřed a vlevo dole zůstávají bílé. 
+
+[[K0220]]
+Rozšiřte do sousedních políček.
+
+[[K0221]]
+V každém kroku zůstane každé modré políčko modré a zároveň obarví své bezprostřední sousedy – nad, pod, vlevo i vpravo. Rozšiřování končí na okraji mřížky. 
+
+[[K0222]]
+Aplikujte stejné rozšíření o jedno políčko na modrou oblast uprostřed. Nově zasažená sousední políčka zmodrají; vzdálenější políčka zůstanou součástí šedo-černé šachovnice. 
+
+[[K0223]]
+Vyrušte shodné hnědé pozice.
+
+[[K0224]]
+Porovnejte dva pásy o pěti políčkách, pozici po pozici. Políčko je ve výsledku hnědé, pokud je hnědé právě v jednom ze vstupů. Shodná hnědá políčka se vyruší a změní na modrá. 
+
+[[K0225]]
+V prvním pásu je hnědá barva na pozicích 2, 3, 4 a 5, ve druhém pásu na pozicích 2, 3 a 5. Pouze pozice 4 zůstává hnědá. 
+
+[[K0226]]
+Odstraňte nejbližší červené tečky.
+
+[[K0227]]
+Najděte nejmenší vzdálenost mezi kterýmikoli dvěma červenými tečkami. Odstraňte všechny červené tečky, které tvoří dvojici s touto vzdáleností. Pro další krok znovu vypočítejte nejmenší vzdálenost. [[K0228]]
+Na prostředním obrázku se tři spodní červené tečky podílejí na nejbližších diagonálních dvojicích. Jejich odstraněním zbude pouze červená tečka v horní řadě, ve čtvrtém sloupci. 
+
+[[K0229]]
+Posuňte šest barev v cyklu.
+
+[[K0230]]
+Čtěte směrem dolů v levém sloupci a poté v pravém sloupci. Posuňte každou barvu o jednu pozici vpřed v tomto šestipozičním cyklu; barva vpravo dole se přesune na pozici vlevo nahoře. 
+
+[[K0231]]
+Na prostředním obrázku se hnědý kroužek vpravo dole přesune na pozici vlevo nahoře. Výsledné sloupce jsou: vlevo hnědá/červená/červená a vpravo černá/hnědá/modrá. 
+
+[[K0232]]
+Posuňte bílou a černou barvu opačnými směry.
+
+[[K0233]]
+V každém kroku se bílé kroužky posunou o jeden roh ve směru hodinových ručiček a černé kroužky o jeden roh proti směru hodinových ručiček. Šedá barva značí, že bílý a černý kroužek zaujímají stejný roh; před dalším pohybem je od sebe oddělte. 
+
+[[K0234]]
+Na prostředním obrázku jsou bílé kroužky ve dvou levých rozích a černé kroužky ve dvou levých rozích a v pravém dolním rohu. Po posunu je bílý kroužek vlevo nahoře, šedý vpravo nahoře a černé kroužky jsou v obou dolních rozích. 
+
+[[K0235]]
+Prodlužte každou vodorovnou čáru.
+
+[[K0236]]
+V každém kroku prodlužte každou černou vodorovnou čáru do bezprostředně sousedících kapslí na obou stranách. Stávající čáry zůstávají zachovány a čáry končí na vnějších okrajích. 
+
+[[K0237]]
+Prodlužte čáry na prostředním obrázku o další kapsli směrem doleva a doprava. Zachovejte rozdílné výšky čar; řešení ukazuje výsledné delší vodorovné čáry procházející čtyřmi kapslemi. 
+
+[[K0238]]
+Rozšiřte trojúhelníkovou mřížku.
+
+[[K0239]]
+Považujte kresbu za soubor malých trojúhelníků. V každém kroku přidejte malý trojúhelník těsně za každou volnou hranu, přičemž zachovejte stávající trojúhelníky i spojnice mezi nimi. 
+
+[[K0240]]
+Rozšiřte zelený shluk na prostředním obrázku o další vrstvu sousedních trojúhelníků. Řešení zachovává původní trojúhelníkovou síť a přidává trojúhelníky podél jejích vnějších okrajů. 
+
+[[K0241]]
+Odstraňte označené vrcholy.
+
+[[K0242]]
+Hnědé tečky označují vrcholy černého mnohoúhelníku, které je třeba odstranit. Zbývající vrcholy spojte v původním pořadí. Ze dvou zbývajících vrcholů vznikne úsečka. 
+
+[[K0243]]
+Odstraňte horní a levý vrchol označené hnědými tečkami. Zůstanou pouze dva spodní vrcholy, takže výsledkem je krátká vodorovná úsečka v pravé dolní části. 
+
+[[K0244]]
+Změňte stav teček v rozích obrysu.
+
+[[K0245]]
+Přiřaďte vrcholy černého obrysu k pozicím v mřížce 3×3. Na každém vrcholu odstraňte existující modrou tečku, nebo ji přidejte, pokud je pozice prázdná. Ostatní pozice zůstávají beze změny. 
+
+[[K0246]]
+Změňte stav teček na čtyřech rohových pozicích šikmého obrysu. Výsledkem jsou modré tečky vlevo nahoře, uprostřed nahoře, uprostřed, vpravo uprostřed a na všech třech spodních pozicích. 
+
+[[K0247]]
+Odstraňte označený dílek a jeho sousedy.
+
+[[K0248]]
+Nejprve odstraňte červený dílek a všechny dílky, které s ním sdílejí hranu; poté nechte dílky, které ztratily oporu, spadnout přímo dolů. Stejný postup zopakujte u žlutého dílku.

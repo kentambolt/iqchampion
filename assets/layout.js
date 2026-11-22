@@ -89,3 +89,46 @@ function updateIndexingState() {
 }
 new MutationObserver(updateIndexingState).observe(document.getElementById('front'),{attributes:true,attributeFilter:['hidden']});
 updateIndexingState();
+
+// Translated controls and font metrics vary. Reserve their actual height before sizing
+// the four puzzle rows on laptops/tablets; mobile keeps the larger readable figures.
+const fittedTest=document.getElementById('test');
+let fitFrame=null;
+function fitTestViewport(){
+  fitFrame=null;
+  fitIntroViewport();
+  fittedTest.style.removeProperty('--tile');
+  if(fittedTest.hidden||window.innerWidth<600)return;
+  for(let pass=0;pass<3;pass++){
+    const overflow=document.documentElement.scrollHeight-document.documentElement.clientHeight;
+    if(overflow<=1)break;
+    const tile=fittedTest.querySelector('.test-left .icon');
+    if(!tile)break;
+    const size=tile.getBoundingClientRect().width;
+    const next=Math.max(40,Math.floor(size-(overflow+4)/4));
+    if(next>=size)break;
+    fittedTest.style.setProperty('--tile',next+'px');
+  }
+}
+function scheduleTestFit(){if(fitFrame===null)fitFrame=requestAnimationFrame(fitTestViewport);}
+window.addEventListener('resize',scheduleTestFit);
+new MutationObserver(scheduleTestFit).observe(document.documentElement,{attributes:true,attributeFilter:['lang']});
+new MutationObserver(scheduleTestFit).observe(fittedTest,{attributes:true,attributeFilter:['hidden']});
+new MutationObserver(scheduleTestFit).observe(document.getElementById('front'),{attributes:true,attributeFilter:['hidden']});
+new MutationObserver(scheduleTestFit).observe(document.getElementById('question-number'),{childList:true});
+scheduleTestFit();
+
+function fitIntroViewport(){
+  const main=document.querySelector('main'),front=document.getElementById('front'),heading=front.querySelector('h1');
+  main.classList.remove('intro-compact');heading.style.removeProperty('font-size');
+  if(front.hidden||window.innerWidth<600)return;
+  if(document.documentElement.scrollHeight-document.documentElement.clientHeight>1)main.classList.add('intro-compact');
+  for(let pass=0;pass<5;pass++){
+    const overflow=document.documentElement.scrollHeight-document.documentElement.clientHeight;
+    if(overflow<=1)break;
+    const style=getComputedStyle(heading),size=Number.parseFloat(style.fontSize),lines=Math.max(1,heading.getBoundingClientRect().height/Number.parseFloat(style.lineHeight));
+    const next=Math.max(26,Math.floor(size-Math.max(1,(overflow+4)/lines)));
+    if(next>=size)break;
+    heading.style.fontSize=next+'px';
+  }
+}

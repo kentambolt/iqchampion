@@ -1,0 +1,205 @@
+[[K0001]]
+Geschätzter Medianbereich
+
+[[K0002]]
+Öffentliche Vergleiche umfassen alle Teilnehmenden, die diese Version des Rätsels genutzt haben. Angaben zu Altersgruppe und Land sind optional und werden ausschließlich für anonyme Gesamtstatistiken verwendet. 
+
+[[K0003]]
+Ich stimme zu, meine anonymisierten Ergebnisse, die benötigte Zeit sowie (optional) meine Altersgruppe und mein Land für Gesamtstatistiken zur Verfügung zu stellen. 
+
+[[K0004]]
+Medianbereiche werden auf Basis von Zeit-Histogrammen geschätzt. Das angezeigte Intervall verdeutlicht die zeitliche Auflösung; es wird kein exakter Medianwert oder ein präzises Geschwindigkeits-Perzentil beansprucht. 
+
+[[K0005]]
+Herausforderung teilen
+
+[[K0006]]
+Zeitaufwand für die Frage
+
+[[K0007]]
+Aufgrund Ihrer Datenschutzeinstellungen im Browser werden diese Statistiken lokal auf Ihrem Gerät gespeichert. 
+
+[[K0008]]
+Alle freiwilligen Versuche
+
+[[K0009]]
+Vielen Dank. Ihr anonymisierter Beitrag wurde gespeichert. 
+
+[[K0010]]
+In dieser Gruppe liegen noch nicht genügend vergleichbare Versuche vor. Ihre eigenen Statistiken sind jederzeit einsehbar. 
+
+[[K0011]]
+Vergleiche sind vorübergehend nicht verfügbar. Ihre eigenen Statistiken können weiterhin eingesehen und geteilt werden. 
+
+[[K0012]]
+Für diesen älteren Versuch liegt keine vollständige Zeitaufzeichnung vor. Sie können Ihr Ergebnis dennoch einsehen und teilen. 
+
+[[K0013]]
+Entscheiden Sie vor dem Übermitteln von Daten, ob Sie einen Beitrag leisten möchten. 
+
+[[K0014]]
+Für diesen Versuch liegt keine vollständige Zeitaufzeichnung vor. Ihre persönlichen Ergebnisse bleiben davon unberührt. 
+
+[[K0015]]
+Ihr Beitrag konnte in diesem Browser nicht gespeichert werden. Es wurden keine Daten übertragen. 
+
+[[K0016]]
+Dieser Beitrag muss überprüft werden und wurde daher nicht erneut in die Statistik aufgenommen. 
+
+[[K0017]]
+Ihr Beitrag wurde noch nicht bestätigt. Bitte versuchen Sie es erneut mit demselben gespeicherten Beitrag. [[K0018]]
+Kein Konto erforderlich
+
+[[K0019]]
+Der Test beginnt, sobald du bereit bist
+
+[[K0020]]
+Test
+
+[[K0021]]
+Beantwortete Fragen
+
+[[K0022]]
+Etwas zum Teilen
+
+[[K0023]]
+Dein stärkster Moment
+
+[[K0024]]
+Dein geschätzter IQ
+
+[[K0025]]
+Ein kniffliges Rätsel – schnell gelöst
+
+[[K0026]]
+Schneller als die durchschnittliche richtige Antwort
+
+[[K0027]]
+Deine schnellste richtige Antwort
+
+[[K0028]]
+Gelöste Muster
+
+[[K0029]]
+Eine Herausforderung, die es wert ist, geteilt zu werden
+
+[[K0030]]
+36 Rätsel. Eine Herausforderung. 
+
+[[K0031]]
+Teile eine Herausforderung mit jemandem, den du kennst. 
+
+[[K0032]]
+Deine eigene aktive Zeit. Es liegen nicht genügend Vergleichsdaten vor, um die Geschwindigkeit einzuordnen. 
+
+[[K0033]]
+Wähle aus, was du teilen möchtest
+
+[[K0034]]
+Bester Moment
+
+[[K0035]]
+IQ-Schätzung
+
+[[K0036]]
+Korrekte Muster
+
+[[K0037]]
+Auf Facebook teilen
+
+[[K0038]]
+Persönlichen Begleittext kopieren
+
+[[K0039]]
+Dein Text zum Teilen
+
+[[K0040]]
+Text kopieren
+
+[[K0041]]
+Bei Facebook kannst du deinen eigenen Begleittext verfassen. Wir veröffentlichen niemals automatisch Beiträge. 
+
+[[K0042]]
+Kopiert. Füge den Text in deinen Beitrag ein. 
+
+[[K0043]]
+Markiere den untenstehenden Text und kopiere ihn. 
+
+[[K0044]]
+Deine Fragen-Statistik
+
+[[K0045]]
+Vergleiche zu den Fragen sind noch nicht verfügbar. Deine persönlichen Statistiken werden unten angezeigt. 
+
+[[K0046]]
+Die Zeitmessung umfasst die Dauer, in der die Frage aktiv im Fokus stand – bis zu dem Zeitpunkt, an dem du deine letzte Antwort gegeben hast. Bei unbeantworteten Fragen wird die aufgewendete Zeit angezeigt. Ausgeblendete Tabs oder geschlossene Seiten werden nicht mitgezählt. Für frühere Versuche liegen möglicherweise keine Zeitangaben vor. 
+
+[[K0047]]
+Alle 36 Fragen, einschließlich der übersprungenen Fragen
+
+[[K0048]]
+Frage
+
+[[K0049]]
+Deine Zeit
+
+[[K0050]]
+Median der Zeit bei korrekten Antworten
+
+[[K0051]]
+Korrekte Antworten anderer
+
+[[K0052]]
+Vergleiche deine Ergebnisse mit freiwilligen Teilnehmern, die dieselbe Version des Rätsels gelöst haben. Für die Berechnung einer Erfolgsquote sind mindestens 30 beantwortete Fragen erforderlich; für den Median werden 30 korrekt beantwortete Fragen mit Zeitmessung benötigt. Es handelt sich hierbei um Teilnehmer, nicht um eine repräsentative Stichprobe der Gesamtbevölkerung. 
+
+[[K0053]]
+Vergleichen und einen Beitrag leisten
+
+[[K0054]]
+Hilf zukünftigen Teilnehmern dabei, ihre Ergebnisse einzuordnen. Nach Abschluss des Tests kannst du anonyme Statistiken teilen – auch wenn du Fragen übersprungen hast. 
+
+[[K0055]]
+Anonyme Vergleiche werden derzeit vorbereitet. Deine persönlichen Statistiken kannst du auch ohne die Bereitstellung deiner Daten für den Vergleich teilen. [[K0056]]
+Altersgruppe (optional)
+
+[[K0057]]
+Land (optional)
+
+[[K0070]]
+Keine Angabe
+
+[[K0059]]
+Unter 18
+
+[[K0060]]
+Ich stimme zu, meine anonymen Frageergebnisse sowie Angaben zu meinen aktiven Zeiten – zusammen mit der von mir gewählten Altersgruppe und dem Land – für Vergleichsstatistiken zur Verfügung zu stellen. 
+
+[[K0061]]
+Kein Name, keine E-Mail-Adresse, kein genaues Alter. Die Freigabe deiner Statistiken ist freiwillig und hat keinen Einfluss auf dein Ergebnis. Kleine Vergleichsgruppen werden ausgeblendet. 
+
+[[K0062]]
+Anonym beitragen
+
+[[K0063]]
+Warum diese Antwort? 
+
+[[K0064]]
+Erklärung
+
+[[K0065]]
+Die Regel
+
+[[K0066]]
+Anwendung der Regel
+
+[[K0067]]
+Du siehst dir eine ältere Version des Rätsels an. Die darin enthaltenen Beispiele weisen die bereits erkannte Mehrdeutigkeit auf; deine gespeicherte Antwort und dein Punktestand bleiben unverändert. 
+
+[[K0068]]
+Du siehst dir die ursprüngliche Version an, die fehlerhafte Beispielmarkierungen enthielt. Deine gespeicherte Antwort und dein Punktestand bleiben unverändert. Neue Versuche basieren auf der korrigierten Version. 
+
+[[K0069]]
+In dieser ursprünglichen Version erweitert sich das mittlere Bild: Es wird grün oben rechts sowie in Zeile 2, Spalte 3; rot in Zeile 2, Spalte 1; und braun in Zeile 2, Spalte 2, Zeile 3, Spalte 3 sowie Zeile 4, Spalte 3.
+
+[[K0070]]
+Ergebnis auf Facebook teilen

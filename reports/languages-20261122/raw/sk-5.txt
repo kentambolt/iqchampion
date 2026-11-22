@@ -1,0 +1,165 @@
+[[K0275]]
+Všetky čierne oddeľovače sa súčasne posunú o jednu pozíciu doprava, ak sa na nasledujúcej pozícii nachádza žltý korálik. Oddeľovač, ktorému v pohybe bráni iný oddeľovač, zostáva na mieste. Pravý okraj je prepojený s ľavým okrajom. 
+
+[[K0276]]
+Vykonajte jeden súčasný krok v strednej postupnosti. Konečné poradie je: oddeľovač, korálik, oddeľovač, korálik, oddeľovač, oddeľovač, korálik. 
+
+[[K0277]]
+Rozšírte farby a ponechajte najväčšiu skupinu.
+
+[[K0278]]
+Nahraďte každú farebnú guľôčku štyrmi novými guľôčkami rovnakej farby – umiestnenými o jedno políčko vyššie, nižšie, vľavo a vpravo. Guľôčky, ktoré opustia mriežku, zmiznú. Na každej pozícii ponechajte tú farbu, ktorej tam dorazil najväčší počet guľôčok. Ak majú viaceré farby rovnaký najvyšší počet, ponechajte danú pozíciu prázdnu. Viaceré guľôčky rovnakej farby na jednej pozícii sa zobrazia ako jeden farebný prvok. 
+
+[[K0279]]
+Po rozšírení zobrazeného stredného obrázka zostane zelená farba vpravo hore a na 2. riadku v 3. stĺpci; červená na 2. riadku v 1. stĺpci; a hnedá na 2. riadku v 2. stĺpci, na 3. riadku v 3. stĺpci a na 4. riadku v 2., 3. a 4. stĺpci. Presne tieto farby a pozície sú uvedené v uloženej odpovedi. 
+
+[[K0280]]
+Vyberte jazyk
+
+[[K0281]]
+Vyhľadať jazyky
+
+[[K0282]]
+Zavrieť výber jazyka
+
+[[K0283]]
+Nenašli sa žiadne jazyky
+
+[[K0284]]
+Bezplatný IQ test pre zábavu | IQ Champion
+
+[[K0285]]
+Bezplatný test v štýle IQ na zábavu: 36 vizuálnych hlavolamov, 40 minút, uložený postup a odhadovaný výsledok IQ. Nevyžaduje sa žiadny účet. 
+
+[[K0286]]
+Vyberte si preferovaný jazyk. Vaše odpovede a pôvodný časový limit zostanú zachované. 
+
+[[K0287]]
+Načítava sa jazyk…
+
+[[K0288]]
+Jazyk sa nepodarilo načítať. Váš test a odpovede zostávajú nezmenené. [[K0289]]
+Spätná väzba je k dispozícii v dánčine a angličtine. 
+
+[[K0290]]
+Zdieľaný úspech
+
+[[K0291]]
+Zdieľaný výsledok
+
+[[K0292]]
+Zdieľané výsledky sú založené na vlastnom oznámení používateľa. 
+
+[[K0293]]
+Zdieľané úspechy sú založené na vlastnom oznámení používateľa. Nezdieľajú sa žiadne údaje o veku, krajine, odpovediach ani osobné profily. 
+
+[[K0294]]
+Vyskúšajte si týchto 36 hlavolamov sami
+
+[[K0295]]
+Vyskúšajte si test sami
+
+[[K0296]]
+Vizuálna výzva v hre IQ Champion. Dokážete aj vy odhaliť daný vzorec? 
+
+[[K0297]]
+Bezplatný test s vizuálnymi hlavolamami – len tak pre zábavu. Nejde o profesionálne overené meranie IQ. 
+
+[[K0298]]
+Stránka sa nenašla
+
+[[K0299]]
+Môžete pokračovať v inom jazyku. 
+
+[[K0300]]
+zodpovedané
+
+[[K0301]]
+nezodpovedané
+
+[[K0302]]
+správne
+
+[[K0303]]
+nesprávne
+
+[[K0304]]
+Odhadovaný mediánový rozsah: {0} ({1} správnych odpovedí v časovom limite). 
+
+[[K0305]]
+Otázka {0} · {1}
+
+[[K0306]]
+{0} správnych vzorcov
+
+[[K0307]]
+Aktívny čas: {0}
+
+[[K0308]]
+Porovnanie: {0} dobrovoľných pokusov v priebehu {1} dní. 
+
+[[K0309]]
+Otázka {0} / {1}
+
+[[K0310]]
+Kontrola otázky {0} / {1}
+
+[[K0311]]
+Riadok {0}, ikona {1}
+
+[[K0312]]
+Odpoveď {0}
+
+[[K0313]]
+Otázka {0}, {1}
+
+[[K0314]]
+Kontrola otázky {0}, {1}
+
+[[K0315]]
+{0} správne; {1} nesprávne; {2} nezodpovedaných. 
+
+[[K0316]]
+{0} zodpovedaných; {1} nezodpovedaných. 
+
+[[K0317]]
+{0} zodpovedaných; {1} nezodpovedaných. Nezodpovedané otázky sa počítajú ako nesprávne. Po dokončení už nie je možné zmeniť odpovede. 
+
+[[K0318]]
+{0} / {1} správne
+
+[[K0319]]
+Percentil v porovnaní s predchádzajúcimi účastníkmi: {0}
+
+[[K0320]]
+Účastníci s nižším skóre: {0} %. Účastníci s rovnakým skóre: {1} %. 
+
+[[K0321]]
+Referenčná skupina: {0} predchádzajúcich pokusov. Zahrnuté sú pokusy, ktorých zaznamenané trvanie bolo dlhšie ako jedna minúta a zároveň nepresiahlo 40 minút. V prípade rovnakého skóre sa priraďuje stredná hodnota danej percentilovej skupiny. Odhady sú zaokrúhlené na celé čísla a zobrazujú sa len v rozmedzí 55 – 145; mimo tohto rozsahu sa zobrazí indikátor limitu. Ide o prepočet na stupnicu, nie o nezávisle validované meranie IQ v populácii. Výsledok môže byť ovplyvnený tréningom alebo opakovanými pokusmi. Niektoré príklady obrázkov boli od času zberu údajov z predchádzajúcich pokusov upravené, čo obmedzuje možnosť porovnania. 
+
+[[K0322]]
+Moje odhadované IQ v IQ Champion: {0}. Len tak pre zábavu. Vyskúšaj to: {1}
+
+[[K0323]]
+Správne som vyriešil otázku {0} za {1}. Zvládneš to aj ty? {2}
+
+[[K0324]]
+Správne som vyriešil otázku {0} za {1} (odhadovaný medián medzi správnymi odpoveďami: {2}). Zvládneš to aj ty? {3}
+
+[[K0325]]
+V IQ Champion som našiel {0} správnych vzorcov. Vyskúšaj to: {1}
+
+[[K0326]]
+Dokážeš v IQ Champion nájsť chýbajúce vzorce? {0}
+
+[[K0327]]
+Otázka {0} vyriešená
+
+[[K0328]]
+{0} vyriešených vzorcov
+
+[[K0329]]
+{0} / 36 správne. {1}
+
+[[K0330]]
+Odhadované IQ {0} | Šampión v IQ

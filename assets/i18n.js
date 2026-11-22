@@ -166,9 +166,10 @@ const i18n = (() => {
   packs.da={code:'da',messages:da,templates:danishTemplates};packs.en??={code:'en',messages:{},templates:{}};
   const routeCode=typeof location!=='undefined'?location.pathname.match(/^\/([^/]+)(?:\/|\/index\.html)?$/)?.[1]:null;
   const route=supported(routeCode)?routeCode:null;
-  function preferred(code){const base=String(code||'').toLowerCase().split('-')[0];return supported(base)?base:base==='no'?'nb':null;}
+  function preferred(code){const base=String(code||'').toLowerCase().split('-')[0];return supported(base)?base:({no:'nb',tl:'fil',iw:'he'}[base]||null);}
   let language=route||'en';
   if(!route){let saved;try{saved=localStorage.getItem('iqchampion.language');}catch{}language=preferred(saved)||Array.from(navigator.languages||[navigator.language]).map(preferred).find(Boolean)||'en';}
+  const desiredLanguage=language;
   if(language!=='en'&&language!=='da'&&!packs[language])language='en';
   const englishSources=new Map();
   for(const p of Object.values(packs))for(const [english,target] of Object.entries(p.messages||{}))englishSources.set(target,english);
@@ -259,5 +260,6 @@ const i18n = (() => {
     Promise.resolve(setLanguage(code)).then(ok=>{const dialog=document.getElementById('language-dialog');if(ok&&dialog?.open)dialog.close();});
   });
   setLanguage(language, false);
+  if(desiredLanguage!==language)setLanguage(desiredLanguage,false);
   return { clear:el=>bindings.delete(el), text:(el,value)=>bind(el,'text',value), html:(el,value)=>bind(el,'html',value), attribute:(el,name,value)=>bind(el,name,value), setLanguage, translate, format, catalog, get language(){return language;}, missing };
 })();

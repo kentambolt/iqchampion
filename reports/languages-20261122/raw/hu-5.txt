@@ -1,0 +1,165 @@
+[[K0275]]
+Az összes fekete elválasztó egyszerre egy pozícióval jobbra mozdul, ha a következő pozícióban sárga golyó található. Ha egy elválasztót egy másik elválasztó blokkol, az várakozik. A jobb szél a bal szélhez kapcsolódik. 
+
+[[K0276]]
+Hajts végre egy egyidejű lépést a középső sorozaton. A végső sorrend: elválasztó, golyó, elválasztó, golyó, elválasztó, elválasztó, golyó. 
+
+[[K0277]]
+Terjeszd ki a színeket, és tartsd meg a legnagyobb csoportot.
+
+[[K0278]]
+Cserélj le minden színes golyót négy új, azonos színű golyóra: egyet-egyet helyezz el tőlük felül, alul, balra és jobbra. A rácsról kikerülő golyók eltűnnek. Minden pozícióban azt a színt tartsd meg, amelyből a legtöbb golyó érkezett az adott helyre. Ha holtverseny alakul ki a legtöbb golyót adó színek között, hagyd üresen a pozíciót. Ha ugyanabból a színből több golyó is érkezik egy helyre, az egyetlen színes jelölésként jelenik meg. 
+
+[[K0279]]
+A középső ábra kiterjesztése után a következő színek maradnak: zöld a jobb felső sarokban, valamint a 2. sor 3. oszlopában; piros a 2. sor 1. oszlopában; barna pedig a 2. sor 2. oszlopában, a 3. sor 3. oszlopában, valamint a 4. sor 2., 3. és 4. oszlopában. Ezek pontosan megegyeznek a tárolt válaszban szereplő színekkel és pozíciókkal. 
+
+[[K0280]]
+Nyelv kiválasztása
+
+[[K0281]]
+Nyelvek keresése
+
+[[K0282]]
+Nyelvválasztó bezárása
+
+[[K0283]]
+Nem található nyelv
+
+[[K0284]]
+Ingyenes IQ-teszt szórakozásból | IQ Champion
+
+[[K0285]]
+Ingyenes, IQ-típusú teszt szórakozásból: 36 vizuális feladvány, 40 perc, mentett előrehaladás és becsült IQ-eredmény. Fiók létrehozása nem szükséges. 
+
+[[K0286]]
+Válaszd ki a kívánt nyelvet. A válaszaid és az eredeti határidő megmaradnak. 
+
+[[K0287]]
+Nyelv betöltése…
+
+[[K0288]]
+A nyelv betöltése sikertelen. A teszted és a válaszaid változatlanok maradtak. [[K0289]]
+A visszajelzés dán és angol nyelven érhető el. 
+
+[[K0290]]
+Megosztott teljesítmény
+
+[[K0291]]
+Megosztott eredmény
+
+[[K0292]]
+A megosztott eredmények a felhasználó saját bevallásán alapulnak. 
+
+[[K0293]]
+A megosztott teljesítmények a felhasználó saját bevallásán alapulnak. Életkor, ország, válaszok vagy személyes profilok nem kerülnek megosztásra. 
+
+[[K0294]]
+Próbáld ki te is a 36 feladványt!
+
+[[K0295]]
+Próbáld ki te is a tesztet!
+
+[[K0296]]
+Vizuális kihívás az IQ Championban. Te is észreveszed a mintát? 
+
+[[K0297]]
+Ingyenes vizuális feladványteszt – csak szórakozásból. Nem minősül szakmailag hitelesített IQ-mérésnek. 
+
+[[K0298]]
+Az oldal nem található
+
+[[K0299]]
+Folytathatod egy másik nyelven. 
+
+[[K0300]]
+megválaszolva
+
+[[K0301]]
+megválaszolatlan
+
+[[K0302]]
+helyes
+
+[[K0303]]
+helytelen
+
+[[K0304]]
+Becsült medián tartomány: {0} ({1} időre adott helyes válasz). 
+
+[[K0305]]
+{0}. kérdés · {1}
+
+[[K0306]]
+{0} helyes minta
+
+[[K0307]]
+Aktív idő: {0}
+
+[[K0308]]
+Összehasonlítás: {0} önkéntes próbálkozás {1} nap alatt. 
+
+[[K0309]]
+{0}. kérdés / {1}
+
+[[K0310]]
+{0}. kérdés áttekintése / {1}
+
+[[K0311]]
+{0}. sor, {1}. ikon
+
+[[K0312]]
+{0}. válasz
+
+[[K0313]]
+{0}. kérdés, {1}
+
+[[K0314]]
+{0}. kérdés áttekintése, {1}
+
+[[K0315]]
+{0} helyes; {1} helytelen; {2} megválaszolatlan. 
+
+[[K0316]]
+{0} megválaszolva; {1} megválaszolatlan. 
+
+[[K0317]]
+{0} megválaszolva; {1} megválaszolatlan. A megválaszolatlan kérdések helytelennek számítanak. A befejezés után a válaszok már nem módosíthatók. 
+
+[[K0318]]
+{0} / {1} helyes
+
+[[K0319]]
+Percentilis érték a korábbi résztvevők körében: {0}
+
+[[K0320]]
+Alacsonyabb pontszámot elérő résztvevők: {0}%. Azonos pontszámot elérő résztvevők: {1}%. 
+
+[[K0321]]
+Referenciacsoport: {0} korábbi próbálkozás. A mérésbe azok a próbálkozások tartoznak bele, amelyek időtartama egy percnél hosszabb, de legfeljebb 40 perc. Azonos pontszámok esetén a résztvevők a percentilis tartományuk középpontját kapják meg. A becslések egész számra vannak kerekítve, és csak az 55–145 közötti tartományban jelennek meg; ezen kívül egy határérték-jelző látható. Ez egy skálaátalakítás, nem pedig egy függetlenül hitelesített, népességalapú IQ-mérés. A gyakorlás és az ismételt próbálkozások befolyásolhatják az eredményt. Néhány példakép korrekción esett át a korábbi adatok gyűjtése óta, ami korlátozza az összehasonlíthatóságot. 
+
+[[K0322]]
+Becsült IQ-m az IQ Championban: {0}. Csak szórakozásból. Próbáld ki te is: {1}
+
+[[K0323]]
+A(z) {0}. kérdést {1} alatt oldottam meg helyesen. Neked sikerül? {2}
+
+[[K0324]]
+A(z) {0}. kérdést {1} alatt oldottam meg helyesen (a helyes válaszok becsült mediánja: {2}). Neked sikerül? {3}
+
+[[K0325]]
+{0} helyes mintát találtam az IQ Championban. Próbáld ki te is: {1}
+
+[[K0326]]
+Megtalálod a hiányzó mintákat az IQ Championban? {0}
+
+[[K0327]]
+{0}. kérdés megoldva
+
+[[K0328]]
+{0} minta megoldva
+
+[[K0329]]
+{0} / 36 helyes. {1}
+
+[[K0330]]
+Becsült IQ {0} | IQ-bajnok

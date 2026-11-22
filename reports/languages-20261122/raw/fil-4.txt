@@ -1,0 +1,77 @@
+[[K0249]]
+Pagkatapos ng pulang pag-alis, ang mga natitirang ladrilyo ay bubuo sa gitnang hagdanan. Ang pag-alis ng dilaw na ladrilyo at ang mga magkakadikit na kalapit nito ay mag-iiwan ng pang-itaas na asul na ladrilyo, na babagsak sa ibaba. 
+
+[[K0250]]
+Paulit-ulit ang mga layer at ilapat ang color mask
+
+[[K0251]]
+Subaybayan ang parehong tatlong hugis. Sa bawat hakbang, ang hugis sa harap ay mapupunta sa likod. Para sa huling larawan, panatilihin ang kulay abo o itim na mga palaman ng gitnang larawan; ang mga hindi pa napupunong puting hugis nito ay babalik sa kanilang mga kulay mula sa unang larawan. 
+
+[[K0252]]
+Ang kulay abong heksagono ay babalik sa harap, ang itim na pahalang na kapsula ay nasa likod nito, at ang patayong kapsula ay lilipat sa likod. Ang puting patayong kapsula na iyon ay babalik sa orihinal nitong dilaw na kulay. 
+
+[[K0253]]
+Gamitin ang kulay ng bawat bilog upang mahanap ang paggalaw nito
+
+[[K0254]]
+Subaybayan ang bawat bilog kaugnay ng bilog sa paligid nito. Ang puti ay gumagalaw nang 90 degrees pakanan, ang itim ay gumagalaw nang 90 degrees pakaliwa, at ang pula ay nananatili sa parehong relatibong posisyon. Ang asul ay hindi gumagalaw. Ilapat ang mga paggalaw na ito sa bawat nested level. 
+
+[[K0255]]
+Ang itim na bilog ay gumagalaw mula sa itaas ng asul na bilog patungo sa kaliwa nito. Ang pula ay nananatili sa kanan sa loob ng itim. Ang mas malaking puting bilog ay gumagalaw mula sa itaas ng pula patungo sa kanan nito; ang pinakamaliit na puting bilog ay gumagalaw mula sa ibaba ng mas malaking puting bilog patungo sa kaliwa nito. 
+
+[[K0256]]
+Ilipat ang mga kulay sa mga konektadong ruta
+
+[[K0257]]
+Tinutukoy ng mga itim na link ang mga ruta kung saan gumagalaw ang mga kulay. Sundan ang bawat loop pakanan, inililipat ang bawat kulay sa susunod na konektadong posisyon. Ang isang two-position route ay nagpapalit ng mga kulay nito; ang mga hindi konektadong tuldok ay nananatili sa lugar. 
+
+[[K0258]]
+Palitan ang dalawang kulay sa itaas. Sa ibabang loop, ang kaliwa-gitnang asul ay gumagalaw patungo sa gitna at ang kanan-gitnang pula ay gumagalaw patungo sa ibabang kaliwa. Ang hindi konektadong ibabang-kanang pula ay nananatiling hindi nagbabago. 
+
+[[K0259]]
+Igalaw ang bawat kulay sa sarili nitong landas
+
+[[K0260]]
+Ang pula ay bumababa, ang berde ay pakanan at ang dilaw ay pakaliwa. Ang asul ay pataas at, kung maaari, isang hanay ang pakaliwa. Ang puti ay nagmamarka ng mga magkakapatong na kulay; paghiwalayin muli ang mga kulay na iyon kapag inilalapat ang susunod na galaw. Ang mga kulay na lumilipat lampas sa grid ay nawawala. 
+
+[[K0261]]
+Paghiwalayin ang gitnang puting selula sa pula at berde. Ang pula ay lumilipat sa ibabang gitna, ang berde ay pakanan sa gitna, ang asul ay umaabot sa itaas na kaliwa at ang dilaw ay lumalabas sa kaliwa. Ang tatlong may kulay na selulang iyon ang bumubuo sa sagot. 
+
+[[K0262]]
+Igalaw ang pula at asul na mga dulo sa magkabilang direksyon
+
+[[K0263]]
+Sa bawat hakbang, ang bawat pulang dulo ay gumagalaw nang isang posisyon nang pakaliwa at ang bawat asul na dulo ay gumagalaw nang dalawang posisyon nang pakanan sa paligid ng limang-tulis na bituin. Ang puti ay nangangahulugan na ang pula at asul ay nagsasapawan; paghiwalayin ang parehong kulay bago muling gumalaw. 
+
+[[K0264]]
+Sa gitnang larawan, ang pula ay nasa ibabang kanan at ang asul ay nasa itaas na kanan at itaas na kaliwa. Ang susunod na galaw ay magsasama ng pula at isang asul sa kanang itaas, na gagawin itong puti. Ang isa pang asul ay lilipat sa kaliwang ibaba. 
+
+[[K0265]]
+Maglipat ng dalawang kopya sa mga direksyon ng sektor
+
+[[K0266]]
+Ang dalawang gilid ng puting sektor ay nagpapahiwatig ng dalawang direksyon ng paggalaw. Gumawa ng dalawang kopya ng pattern na may pulang tuldok at ilipat ang isang kopya nang isang hakbang sa bawat direksyon, na bumabalot sa mga gilid. Ang posisyong naabot nang isang beses ay pula; ang posisyong naabot ng parehong kopya ay asul. 
+
+[[K0267]]
+Ang panghuling sektor ay nakaturo pababa-kaliwa at pababa-kanan. Maglipat ng isang kopya sa bawat direksyon. Ang kanilang pagsasanib ay ginagawang asul ang buong hilera sa itaas at ang gitna; ang mga posisyon ng single-copy ay mananatiling pula, tulad ng ipinapakita sa sagot. 
+
+[[K0268]]
+Alisin ang mga nagkikislap na segment ng string
+
+[[K0269]]
+I-overlay ang parehong mga guhit. Ituring ang bawat tuwid na piraso sa pagitan ng magkakasunod na mga tuldok ng grid bilang isang hiwalay na segment ng string. Kapag ang isang segment mula sa isang guhit ay tumawid sa isang segment mula sa isa pa sa pagitan ng mga tuldok, alisin ang parehong mga segment. Mga segment na nagtatagpo sa isang grid dot stay. Panatilihin ang lahat ng hindi pinutol na segment mula sa parehong mga guhit. 
+
+[[K0270]]
+Alisin ang mga diagonal na segment na pinutol sa pagitan ng mga grid dots. Ang mga natitirang piraso ay bumubuo ng isang pang-itaas na tinidor na may patayong tangkay, dalawang hiwalay na maiikling diagonal malapit sa mga sulok sa itaas, at isang pang-ibabang tinidor na may sarili nitong patayong tangkay. 
+
+[[K0271]]
+I-slide at ayusin ang mga piraso ayon sa laki
+
+[[K0272]]
+Itulak ang lahat ng piraso sa direksyon ng palaso. Ang mas maliliit na piraso ay dumadaan sa mas malalaking piraso at nauuna ang pinakamalayong magagamit na mga espasyo. Panatilihin ang taas at patayong posisyon ng bawat piraso. Ang mga piraso ay maaaring magbahagi ng isang haligi kung hindi sila magkakapatong nang patayo; ang mga piraso na may pantay na laki ay nagpapanatili ng kanilang relatibong pagkakasunud-sunod. 
+
+[[K0273]]
+Ang palaso ay nakaturo sa kanan. Pagkasyahin ang pinakamaikling piraso sa mga magagamit na espasyo sa kanan, pagkatapos ay ang mga piraso na may dalawang selula, pagkatapos ay ang mas matataas na piraso sa kanilang kaliwa. Walang gumagalaw pataas o pababa, at walang piraso ang nagbabago ng laki. 
+
+[[K0274]]
+Ilipat ang mga divider sa mga libreng espasyo

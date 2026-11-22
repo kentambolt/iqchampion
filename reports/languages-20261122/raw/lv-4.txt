@@ -1,0 +1,75 @@
+[[K0249]]
+Pēc sarkano ķieģeļu noņemšanas atlikušie ķieģeļi veido vidējās kāpnes. Noņemot dzelteno ķieģeli un tam blakus esošos ķieģeļus, paliek augšējais zilais ķieģelis, kas nokrīt uz leju. 
+
+[[K0250]]
+Mainiet slāņu secību un uzlieciet krāsu masku.
+
+[[K0251]]
+Sekojiet līdzi trim konkrētajām formām. Katrā solī priekšējā forma pārvietojas uz aizmuguri. Gala attēlā saglabājiet vidējā attēla pelēkos vai melnos aizpildījumus, savukārt neaizpildītās baltās formas atgūst krāsas no pirmā attēla. 
+
+[[K0252]]
+Pelēkais sešstūris nonāk priekšplānā, melnā horizontālā kapsula atrodas aiz tā, bet vertikālā kapsula pārvietojas uz aizmuguri. Baltā vertikālā kapsula atgūst savu sākotnējo dzelteno krāsu. 
+
+[[K0253]]
+Izmantojiet katra apļa krāsu, lai noteiktu tā pārvietošanos.
+
+[[K0254]]
+Sekojiet katram aplim attiecībā pret to apli, kas atrodas tam tieši apkārt. Baltais aplis pārvietojas par 90 grādiem pulksteņrādītāja virzienā, melnais — par 90 grādiem pretēji pulksteņrādītāja virzienam, bet sarkanais paliek tajā pašā relatīvajā pozīcijā. Zilais aplis nepārvietojas. Piemērojiet šīs kustības katrā iekļautajā līmenī. 
+
+[[K0255]]
+Melnais aplis pārvietojas no pozīcijas virs zilā apļa uz tā kreiso pusi. Sarkanais aplis paliek melnā apļa iekšpusē, labajā pusē. Lielākais baltais aplis pārvietojas no pozīcijas virs sarkanā apļa uz tā labo pusi; mazākais baltais aplis pārvietojas no pozīcijas zem lielākā baltā apļa uz tā kreiso pusi. 
+
+[[K0256]]
+Pārvietojiet krāsas pa savienotajiem maršrutiem.
+
+[[K0257]]
+Melnās līnijas norāda maršrutus, pa kuriem pārvietojas krāsas. Sekojiet katrai cilpai pulksteņrādītāja virzienā, pārvietojot katru krāsu uz nākamo savienoto pozīciju. Maršrutā, kas savieno divas pozīcijas, krāsas tiek samainītas vietām; punkti, kas nav savienoti ar citām līnijām, paliek savās vietās. 
+
+[[K0258]]
+Samainiet vietām divas augšējās krāsas. Apakšējā cilpā zilā krāsa no vidus kreisās puses pārvietojas uz centru, bet sarkanā krāsa no vidus labās puses pārvietojas uz apakšējo kreiso stūri. Sarkanais punkts apakšējā labajā stūrī, kas nav savienots ar citām līnijām, paliek nemainīgs. [[K0259]]
+Pārvietojiet katru krāsu pa tās ceļu
+
+[[K0260]]
+Sarkanā krāsa pārvietojas uz leju, zaļā — pa labi, bet dzeltenā — pa kreisi. Zilā krāsa pārvietojas uz augšu un, ja iespējams, par vienu kolonnu pa kreisi. Baltā krāsa norāda uz vietu, kur krāsas pārklājas; veicot nākamo gājienu, šīs krāsas atkal jāatdala. Krāsas, kas iziet ārpus režģa robežām, pazūd. 
+
+[[K0261]]
+Sadaliet vidējo balto lauciņu sarkanā un zaļā krāsā. Sarkanā krāsa nonāk apakšējā vidusdaļā, zaļā — vidējā labajā daļā, zilā — augšējā kreisajā stūrī, bet dzeltenā iziet ārpusē kreisajā pusē. Šie trīs krāsainie lauciņi veido atbildi. 
+
+[[K0262]]
+Pārvietojiet sarkanos un zilos galus pretējos virzienos
+
+[[K0263]]
+Katrā solī visi sarkanie gali pārvietojas par vienu pozīciju pretēji pulksteņrādītāja virzienam, bet visi zilie gali — par divām pozīcijām pulksteņrādītāja virzienā ap piecstaru zvaigzni. Baltā krāsa norāda, ka sarkanais un zilais gals pārklājas; pirms nākamā gājiena šīs krāsas ir jāatdala. 
+
+[[K0264]]
+Vidējā attēlā sarkanā krāsa atrodas apakšējā labajā stūrī, bet zilā — augšējā labajā un augšējā kreisajā stūrī. Nākamajā solī sarkanā un viena no zilajām krāsām nonāk augšējā labajā stūrī, veidojot baltu laukumu. Otra zilā krāsa pārvietojas uz apakšējo kreiso stūri. 
+
+[[K0265]]
+Pārvietojiet divas kopijas sektora norādītajos virzienos
+
+[[K0266]]
+Baltā sektora divas malas norāda divus pārvietošanās virzienus. Izveidojiet divas kopijas rakstam ar sarkanajiem punktiem un pārvietojiet katru kopiju par vienu režģa soli attiecīgajā virzienā (ja kopija sasniedz malu, tā turpinās no pretējās puses). Pozīcija, kuru sasniedz viena kopija, kļūst sarkana; pozīcija, kuru sasniedz abas kopijas, kļūst zila. 
+
+[[K0267]]
+Pēdējais sektors ir vērsts uz leju pa kreisi un uz leju pa labi. Pārvietojiet kopiju katrā no šiem virzieniem. Vietās, kur tās pārklājas, visa augšējā rinda un centrs kļūst zili; pozīcijas, kurās atrodas tikai viena kopija, paliek sarkanas, kā redzams atbildē. 
+
+[[K0268]]
+Noņemiet krustojošos līniju posmus
+
+[[K0269]]
+Uzlieciet abus zīmējumus vienu uz otra. Uzskatiet katru taisno nogriezni starp blakus esošajiem režģa punktiem par atsevišķu līnijas posmu. Ja posms no viena zīmējuma krustojas ar posmu no otra zīmējuma (starp punktiem), noņemiet abus šos posmus. Segmenti, kas savienojas režģa punktā, paliek savās vietās. Saglabājiet visus nesagrieztos segmentus no abiem zīmējumiem. 
+
+[[K0270]]
+Noņemiet diagonālos segmentus, kas ir pārgriezti starp režģa punktiem. Atlikušās daļas veido augšējo dakšveida formu ar vertikālu kātu, divus atsevišķus īsus diagonālus fragmentus pie augšējiem stūriem, kā arī apakšējo dakšveida formu ar savu vertikālo kātu. 
+
+[[K0271]]
+Pārvietojiet un sakārtojiet daļas pēc to izmēra.
+
+[[K0272]]
+Pabīdiet visas daļas bultiņas norādītajā virzienā. Mazākās daļas pārvietojas garām lielākajām un pirmās nonāk tālākajās brīvajās vietās. Saglabājiet katras daļas augstumu un vertikālo novietojumu. Daļas var atrasties vienā kolonnā, ja tās vertikāli nepārklājas; vienāda izmēra daļas saglabā savstarpējo secību. 
+
+[[K0273]]
+Bultiņa ir vērsta pa labi. Ievietojiet īsākās daļas brīvajās vietās labajā pusē, pēc tam – divu vienību garās daļas, bet garākās daļas – pa kreisi no tām. Neviena daļa nepārvietojas augšup vai lejup, un nevienai daļai nemainās izmērs. 
+
+[[K0274]]
+Pārvietojiet atdalītājus uz brīvajām vietām.

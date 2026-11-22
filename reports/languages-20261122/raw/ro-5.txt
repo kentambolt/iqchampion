@@ -1,0 +1,165 @@
+[[K0275]]
+Toți separatorii negri se deplasează simultan o poziție spre dreapta, dacă următoarea poziție conține o bilă galbenă. Un separator blocat de un alt separator așteaptă. Marginea din dreapta se conectează cu marginea din stânga. 
+
+[[K0276]]
+Efectuează o mișcare simultană asupra secvenței din mijloc. Ordinea finală este: separator, bilă, separator, bilă, separator, separator, bilă. 
+
+[[K0277]]
+Extinde culorile și păstrează grupul cel mai mare.
+
+[[K0278]]
+Înlocuiește fiecare bilă colorată cu patru bile noi de aceeași culoare, plasate câte una deasupra, dedesubt, în stânga și în dreapta. Bilele care ies din grilă dispar. În fiecare poziție, păstrează culoarea care are cel mai mare număr de bile care ajung acolo. Dacă există o egalitate între culori în ceea ce privește numărul de bile, lasă poziția goală. Mai multe bile de aceeași culoare care ajung în același loc sunt reprezentate printr-un singur marcaj colorat. 
+
+[[K0279]]
+Extinderea imaginii din mijloc duce la următoarea configurație: culoarea verde apare în dreapta sus și la rândul 2, coloana 3; roșu apare la rândul 2, coloana 1; iar maro apare la rândul 2, coloana 2, la rândul 3, coloana 3 și la rândul 4, coloanele 2, 3 și 4. Acestea sunt exact culorile și pozițiile din răspunsul salvat. 
+
+[[K0280]]
+Alege limba
+
+[[K0281]]
+Caută limbi
+
+[[K0282]]
+Închide selectorul de limbă
+
+[[K0283]]
+Nu a fost găsită nicio limbă
+
+[[K0284]]
+Test IQ gratuit, de divertisment | IQ Champion
+
+[[K0285]]
+Un test gratuit de tip IQ, pentru divertisment: 36 de puzzle-uri vizuale, 40 de minute, progres salvat și o estimare a coeficientului IQ. Nu este necesar un cont. 
+
+[[K0286]]
+Alege limba preferată. Răspunsurile tale și termenul limită inițial rămân salvate. 
+
+[[K0287]]
+Se încarcă limba…
+
+[[K0288]]
+Limba nu a putut fi încărcată. Testul și răspunsurile tale rămân neschimbate. [[K0289]]
+Feedback-ul este disponibil în daneză și engleză. 
+
+[[K0290]]
+Realizare partajată
+
+[[K0291]]
+Rezultat partajat
+
+[[K0292]]
+Rezultatele partajate sunt raportate de utilizatori. 
+
+[[K0293]]
+Realizările partajate sunt raportate de utilizatori. Nu sunt partajate informații despre vârstă, țară, răspunsuri sau profiluri personale. 
+
+[[K0294]]
+Încearcă și tu cele 36 de puzzle-uri
+
+[[K0295]]
+Încearcă și tu testul
+
+[[K0296]]
+O provocare vizuală în IQ Champion. Poți să observi și tu tiparul? 
+
+[[K0297]]
+Un test vizual gratuit, doar pentru distracție. Nu reprezintă o măsurare a IQ-ului validată profesional. 
+
+[[K0298]]
+Pagina nu a fost găsită
+
+[[K0299]]
+Poți continua într-o altă limbă. 
+
+[[K0300]]
+răspuns
+
+[[K0301]]
+nerăspuns
+
+[[K0302]]
+corect
+
+[[K0303]]
+incorect
+
+[[K0304]]
+Interval median estimat: {0} ({1} răspunsuri corecte cronometrate). 
+
+[[K0305]]
+Întrebarea {0} · {1}
+
+[[K0306]]
+{0} tipare corecte
+
+[[K0307]]
+Timp activ: {0}
+
+[[K0308]]
+Comparație: {0} încercări voluntare pe parcursul a {1} zile. 
+
+[[K0309]]
+Întrebarea {0} / {1}
+
+[[K0310]]
+Revizuire întrebarea {0} / {1}
+
+[[K0311]]
+Rândul {0}, pictograma {1}
+
+[[K0312]]
+Răspunsul {0}
+
+[[K0313]]
+Întrebarea {0}, {1}
+
+[[K0314]]
+Revizuire întrebarea {0}, {1}
+
+[[K0315]]
+{0} corecte; {1} incorecte; {2} fără răspuns. 
+
+[[K0316]]
+{0} cu răspuns; {1} fără răspuns. 
+
+[[K0317]]
+{0} cu răspuns; {1} fără răspuns. Întrebările fără răspuns sunt considerate incorecte. Odată finalizat testul, nu mai poți modifica răspunsurile. 
+
+[[K0318]]
+{0} / {1} corecte
+
+[[K0319]]
+Percentila în rândul participanților anteriori: {0}
+
+[[K0320]]
+Participanți cu un scor mai mic: {0}%. Participanți cu același scor: {1}%. 
+
+[[K0321]]
+Grup de referință: {0} încercări anterioare. Sunt incluse încercările cu o durată înregistrată de peste un minut și până la 40 de minute. În cazul scorurilor egale, se ia în considerare punctul median al intervalului percentilei respective. Estimările sunt rotunjite la numere întregi și afișate doar în intervalul 55–145; în afara acestui interval, este afișat un indicator de limită. Aceasta este o conversie de scală, nu o măsurare a IQ-ului populației validată independent. Exersarea și încercările repetate pot influența rezultatul. Unele imagini din exemple au fost corectate după colectarea datelor de la participanții anteriori, ceea ce limitează comparabilitatea. 
+
+[[K0322]]
+IQ-ul meu estimat în IQ Champion: {0}. Doar de distracție. Încearcă și tu: {1}
+
+[[K0323]]
+Am rezolvat corect întrebarea {0} în {1}. Poți și tu? {2}
+
+[[K0324]]
+Am rezolvat corect întrebarea {0} în {1} (mediana estimată în rândul răspunsurilor corecte: {2}). Poți și tu? {3}
+
+[[K0325]]
+Am găsit {0} tipare corecte în IQ Champion. Încearcă și tu: {1}
+
+[[K0326]]
+Poți găsi tiparele lipsă în IQ Champion? {0}
+
+[[K0327]]
+Întrebarea {0} a fost rezolvată
+
+[[K0328]]
+{0} tipare rezolvate
+
+[[K0329]]
+{0} / 36 corecte. {1}
+
+[[K0330]]
+IQ estimat {0} | Campion la IQ

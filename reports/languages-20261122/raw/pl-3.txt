@@ -1,0 +1,99 @@
+[[K0215]]
+W każdym kroku obracaj kształt o 45 stopni w kierunku przeciwnym do ruchu wskazówek zegara. Jego kolor zmienia się naprzemiennie, więc w trzecim obrazku powraca kolor z pierwszego obrazka. 
+
+[[K0216]]
+Obróć biały kształt znajdujący się pośrodku o kolejne 45 stopni w kierunku przeciwnym do ruchu wskazówek zegara i przywróć ciemny kolor z pierwszego obrazka. Wybierz ciemny, zakrzywiony kształt w tej orientacji. 
+
+[[K0217]]
+Połącz czarne koła.
+
+[[K0218]]
+W wyniku końcowym koło jest czarne, jeśli w którymkolwiek z danych wejściowych odpowiadające mu koło jest czarne. Koło pozostaje białe tylko wtedy, gdy w obu danych wejściowych jest ono białe. 
+
+[[K0219]]
+Z pierwszego zestawu danych pochodzi czarne koło w prawym dolnym rogu, a z drugiego – dwa czarne koła w górnej części. Koła w środku oraz w lewym dolnym rogu pozostają białe. 
+
+[[K0220]]
+Rozszerz obszar na sąsiednie komórki.
+
+[[K0221]]
+W każdym kroku każda niebieska komórka pozostaje niebieska i dodatkowo zmienia kolor swoich bezpośrednich sąsiadów – powyżej, poniżej, z lewej i z prawej strony – na niebieski. Rozszerzanie kończy się na krawędzi siatki. 
+
+[[K0222]]
+Zastosuj to samo rozszerzenie o jedną komórkę do niebieskiego obszaru znajdującego się pośrodku. Nowo objęte sąsiednie komórki stają się niebieskie, natomiast komórki położone dalej pozostają częścią szaro-czarnej szachownicy. 
+
+[[K0223]]
+Usuń odpowiadające sobie brązowe pola.
+
+[[K0224]]
+Porównaj dwa pięciopolowe paski, sprawdzając każde pole po kolei. W wyniku końcowym pole jest brązowe, jeśli w jednym z zestawów danych jest ono brązowe, a w drugim nie. Jeśli w obu zestawach pole jest brązowe, zmienia kolor na niebieski. 
+
+[[K0225]]
+W pierwszym pasku kolor brązowy występuje na pozycjach 2, 3, 4 i 5, a w drugim – na pozycjach 2, 3 i 5. Jedynie pozycja 4 pozostaje brązowa. 
+
+[[K0226]]
+Usuń najbliżej położone czerwone kropki.
+
+[[K0227]]
+Znajdź najmniejszą odległość między dwiema czerwonymi kropkami. Usuń wszystkie czerwone kropki, które tworzą pary w tej odległości. Następnie wyznacz na nowo najmniejszą odległość dla kolejnego kroku. [[K0228]]
+Na środkowym obrazku trzy dolne czerwone kropki tworzą najbliższe pary po przekątnej. Ich usunięcie pozostawia jedynie czerwoną kropkę w górnym rzędzie, w czwartej kolumnie. 
+
+[[K0229]]
+Przesuń sześć kolorów wzdłuż cyklu.
+
+[[K0230]]
+Odczytaj kolory, idąc w dół lewego stosu, a następnie prawego. Przesuń każdy kolor o jedną pozycję do przodu w tym sześciostopniowym cyklu; kolor znajdujący się na dole po prawej stronie przechodzi na samą górę po lewej. 
+
+[[K0231]]
+Na środkowym obrazku brązowe koło z prawego dolnego rogu przechodzi na górę po lewej stronie. Ostateczne układy to: brązowy/czerwony/czerwony po lewej oraz czarny/brązowy/niebieski po prawej. 
+
+[[K0232]]
+Przesuń białe i czarne elementy w przeciwnych kierunkach.
+
+[[K0233]]
+W każdym kroku białe koła przesuwają się o jeden narożnik zgodnie z ruchem wskazówek zegara, a czarne koła – o jeden narożnik w kierunku przeciwnym do ruchu wskazówek zegara. Kolor szary oznacza, że ​​białe i czarne koło znajdują się w tym samym narożniku; przed kolejnym ruchem należy je rozdzielić. 
+
+[[K0234]]
+Na środkowym obrazku białe koła znajdują się w dwóch lewych narożnikach, a czarne – w dwóch lewych narożnikach oraz w prawym dolnym rogu. Po wykonaniu ruchu białe koło znajduje się w lewym górnym rogu, szare w prawym górnym, a czarne – w obu dolnych narożnikach. 
+
+[[K0235]]
+Wydłuż każdą poziomą kreskę.
+
+[[K0236]]
+W każdym kroku wydłuż każdą czarną poziomą kreskę tak, aby objęła sąsiadujące z nią kapsuły po obu stronach. Istniejące kreski pozostają na swoim miejscu, a ich zasięg kończy się na zewnętrznych krawędziach. 
+
+[[K0237]]
+Wydłuż kreski ze środkowego obrazka o jeszcze jedną kapsułę w lewo i w prawo. Zachowaj rozróżnienie między kreskami o różnych wysokościach; rozwiązanie przedstawia wydłużone linie poziome rozciągające się przez cztery kapsuły. 
+
+[[K0238]]
+Rozbuduj trójkątną siatkę.
+
+[[K0239]]
+Potraktuj rysunek jako zbiór małych trójkątów. W każdym kroku dodaj mały trójkąt na zewnątrz każdej odsłoniętej krawędzi, zachowując przy tym istniejące trójkąty oraz łączące je linie. 
+
+[[K0240]]
+Powiększ środkowy zielony układ o jeszcze jedną warstwę sąsiadujących trójkątów. Rozwiązanie zachowuje tę samą trójkątną siatkę i dodaje trójkąty wzdłuż jej zewnętrznych krawędzi. 
+
+[[K0241]]
+Usuń zaznaczone wierzchołki.
+
+[[K0242]]
+Brązowe kropki wskazują wierzchołki czarnego wielokąta, które należy usunąć. Połącz pozostałe wierzchołki w ich pierwotnej kolejności. Dwa pozostałe wierzchołki tworzą odcinek linii. 
+
+[[K0243]]
+Usuń górny i lewy wierzchołek zaznaczone brązowymi kropkami. Pozostają tylko dwa dolne wierzchołki, więc rozwiązaniem jest krótki poziomy odcinek w prawym dolnym obszarze. 
+
+[[K0244]]
+Zmień stan kropek w narożnikach obrysu.
+
+[[K0245]]
+Dopasuj wierzchołki czarnego obrysu do punktów w siatce 3x3. W miejscu każdego wierzchołka usuń istniejącą niebieską kropkę lub dodaj ją, jeśli dane miejsce jest puste. Pozostałe punkty pozostają bez zmian. 
+
+[[K0246]]
+Zmień stan czterech narożnych punktów ukośnego obrysu. W rezultacie niebieskie kropki znajdą się w następujących miejscach: lewy górny i środkowy górny, środkowy oraz środkowy prawy, a także we wszystkich trzech dolnych punktach. 
+
+[[K0247]]
+Usuń zaznaczony klocek oraz jego sąsiadów.
+
+[[K0248]]
+Najpierw usuń czerwony klocek oraz wszystkie klocki, które stykają się z nim krawędzią, a następnie pozwól klockom pozbawionym podparcia opaść pionowo w dół. Powtórz tę samą procedurę dla żółtego klocka.

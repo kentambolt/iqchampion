@@ -1,0 +1,207 @@
+[[K0001]]
+Interval median estimat
+
+[[K0002]]
+Comparațiile publice includ toți participanții care utilizează această versiune a puzzle-ului. Informațiile opționale privind grupa de vârstă și țara sunt utilizate exclusiv în statistici agregate private. 
+
+[[K0003]]
+Sunt de acord să contribui cu rezultatele mele anonime la întrebări, timpii de rezolvare și, opțional, grupa de vârstă sau țara, pentru a fi incluse în statistici agregate. 
+
+[[K0004]]
+Intervalele mediane sunt estimate pe baza histogramelor de timp. Intervalul afișat indică rezoluția măsurătorii temporale; nu se pretinde o valoare mediană exactă sau o percentilă precisă a vitezei. 
+
+[[K0005]]
+Distribuie provocarea
+
+[[K0006]]
+Timp de rezolvare
+
+[[K0007]]
+Setările de confidențialitate ale browserului tău păstrează aceste statistici pe dispozitivul tău. 
+
+[[K0008]]
+Toate încercările voluntare
+
+[[K0009]]
+Mulțumim. Contribuția ta anonimă a fost salvată. 
+
+[[K0010]]
+Nu există încă suficiente încercări comparabile în acest grup. Statisticile tale personale rămân întotdeauna disponibile. 
+
+[[K0011]]
+Comparațiile sunt temporar indisponibile. Statisticile tale personale și funcția de distribuire rămân active. 
+
+[[K0012]]
+Această încercare mai veche nu dispune de o înregistrare completă a timpilor. Poți totuși să explorezi și să distribui rezultatul tău. 
+
+[[K0013]]
+Alege dacă dorești să contribui înainte de a trimite orice date. 
+
+[[K0014]]
+Această încercare nu dispune de o înregistrare completă a timpilor. Rezultatele tale personale rămân neschimbate. 
+
+[[K0015]]
+Contribuția ta nu a putut fi salvată în acest browser. Nu au fost trimise date. 
+
+[[K0016]]
+Această contribuție necesită verificare și nu a fost inclusă din nou în statistici. 
+
+[[K0017]]
+Contribuția ta nu a fost confirmată. Încearcă din nou folosind aceeași contribuție salvată. [[K0018]]
+Nu este necesar un cont
+
+[[K0019]]
+Testul începe când ești pregătit
+
+[[K0020]]
+Test
+
+[[K0021]]
+Întrebări la care ai răspuns
+
+[[K0022]]
+Ceva de împărtășit
+
+[[K0023]]
+Cel mai bun moment al tău
+
+[[K0024]]
+IQ-ul tău estimat
+
+[[K0025]]
+O problemă dificilă, rezolvată rapid
+
+[[K0026]]
+Mai rapid decât timpul mediu pentru un răspuns corect
+
+[[K0027]]
+Cel mai rapid răspuns corect al tău
+
+[[K0028]]
+Modele rezolvate corect
+
+[[K0029]]
+O provocare care merită împărtășită
+
+[[K0030]]
+36 de probleme. O singură provocare. 
+
+[[K0031]]
+Împărtășește o provocare cu cineva cunoscut. 
+
+[[K0032]]
+Timpul tău efectiv de lucru. Nu există suficiente date comparative pentru a stabili o clasificare a vitezei. 
+
+[[K0033]]
+Alege ce dorești să împărtășești
+
+[[K0034]]
+Cel mai bun moment
+
+[[K0035]]
+Estimare IQ
+
+[[K0036]]
+Modele rezolvate corect
+
+[[K0037]]
+Distribuie pe Facebook
+
+[[K0038]]
+Copiază un text personalizat
+
+[[K0039]]
+Textul tău pentru distribuire
+
+[[K0040]]
+Copiază textul
+
+[[K0041]]
+Facebook îți permite să scrii propriul text. Noi nu postăm niciodată automat. 
+
+[[K0042]]
+Copiat. Lipește-l în postarea ta. 
+
+[[K0043]]
+Selectează și copiază textul de mai jos. 
+
+[[K0044]]
+Statisticile tale pentru întrebări
+
+[[K0045]]
+Comparațiile între întrebări nu sunt încă disponibile. Statisticile tale personale sunt afișate mai jos. 
+
+[[K0046]]
+Timpul calculat reprezintă durata în care te-ai concentrat asupra unei întrebări, până la momentul ultimului tău răspuns. Pentru întrebările la care nu ai răspuns, este afișat timpul petrecut asupra lor. Filele ascunse și paginile închise nu sunt luate în calcul. Încercările anterioare ar putea să nu conțină înregistrări ale timpului. 
+
+[[K0047]]
+Toate cele 36 de întrebări, inclusiv cele omise
+
+[[K0048]]
+Întrebare
+
+[[K0049]]
+Timpul tău
+
+[[K0050]]
+Mediana timpului pentru răspunsurile corecte
+
+[[K0051]]
+Răspunsuri corecte ale altora
+
+[[K0052]]
+Compară cu încercările voluntare care au folosit aceeași versiune a puzzle-ului. Este nevoie de cel puțin 30 de întrebări la care s-a răspuns pentru a calcula o rată de succes și de 30 de răspunsuri corecte cronometrate pentru a determina mediana. Aceștia sunt participanți, nu un eșantion reprezentativ al populației. 
+
+[[K0053]]
+Compară și contribuie
+
+[[K0054]]
+Ajută-i pe viitorii participanți să-și compare rezultatele. Poți partaja statistici anonime ale testului după finalizare, chiar dacă ai omis unele întrebări. 
+
+[[K0055]]
+Se pregătesc comparații anonime. Statisticile tale personale pot fi partajate fără a contribui la setul de date general. 
+
+[[K0056]]
+Grupa de vârstă (opțional)
+
+[[K0057]]
+Țara (opțional)
+
+[[K0058]]
+Prefer să nu precizez
+
+[[K0059]]
+Sub 18 ani
+
+[[K0060]]
+Sunt de acord să contribui cu rezultatele mele anonime la întrebări și cu timpii de lucru, împreună cu grupa de vârstă și țara pe care aleg să le indic, la statisticile de comparație. 
+
+[[K0061]]
+Fără nume, adresă de e-mail sau vârstă exactă. Partajarea statisticilor este opțională și nu îți afectează rezultatul. Grupurile de comparație prea mici sunt ascunse. 
+
+[[K0062]]
+Contribuie anonim
+
+[[K0063]]
+De ce acest răspuns? 
+
+[[K0064]]
+Explicație
+
+[[K0065]]
+Regula
+
+[[K0066]]
+Aplicarea regulii
+
+[[K0067]]
+Analizezi o versiune mai veche a puzzle-ului. Exemplele din aceasta conțin ambiguitatea identificată anterior; răspunsul și scorul tău salvate rămân neschimbate. 
+
+[[K0068]]
+Analizezi versiunea originală, care conținea marcaje incorecte în exemple. Răspunsul și scorul tău salvate rămân neschimbate. Încercările noi folosesc versiunea corectată. 
+
+[[K0069]]
+În această versiune originală, imaginea centrală afișată se extinde spre culoarea verde în partea dreaptă sus, precum și la rândul 2, coloana 3; spre roșu la rândul 2, coloana 1; și spre maro la rândul 2, coloana 2, rândul 3, coloana 3 și rândul 4, coloana 3.
+
+[[K0070]]
+Distribuie rezultatul pe Facebook

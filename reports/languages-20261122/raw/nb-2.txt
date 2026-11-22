@@ -1,0 +1,121 @@
+[[K0173]]
+Hver posisjon i hver eksempelrad inneholder den samme blå sirkelen. Verken formen, fargen eller størrelsen endres. 
+
+[[K0174]]
+Den siste raden inneholder allerede to identiske blå sirkler. En tredje, identisk blå sirkel fullfører raden. 
+
+[[K0175]]
+Legg til en innvendig kontur
+
+[[K0176]]
+Når man beveger seg mot høyre, legges en mindre kontur med samme form til på innsiden av den forrige. Den ytre formen og fargen forblir uendret. 
+
+[[K0177]]
+Den grønne trekanten har en indre trekant i den midterste posisjonen. Legg til enda en, mindre indre trekant for å finne svaret. 
+
+[[K0178]]
+Bruk den første figuren som en utskjæring
+
+[[K0179]]
+Den svarte figuren i den første posisjonen fjernes fra midten av det fargede kvadratet i den andre posisjonen. Hullet er hvitt. 
+
+[[K0180]]
+Det svarte kvadratet lager et kvadratisk hull i det grønne kvadratet. Velg det grønne kvadratet med den hvite, kvadratiske åpningen. 
+
+[[K0181]]
+Kombiner fargene fra den øvre og nedre delen
+
+[[K0182]]
+Resultatet består av den øvre halvdelen fra den første kapselen og den nedre halvdelen fra den andre kapselen. 
+
+[[K0183]]
+Den første kapselen er hvit og den andre er blå; resultatet er derfor hvitt øverst og blått nederst. 
+
+[[K0184]]
+Roter de fargede delene
+
+[[K0185]]
+I hvert trinn roteres hele figuren – som består av fire deler – 90 grader med klokken. Alle de røde og blå delene følger med i rotasjonen. 
+
+[[K0186]]
+Roter den midterste figuren ytterligere en kvart omdreining med klokken. De to røde delene havner til høyre og nederst, mens delene øverst og til venstre er blå. 
+
+[[K0187]]
+Gjør hjørnene gradvis rundere
+
+[[K0188]]
+Fargen og den overordnede formen forblir uendret, mens hjørnene blir stadig rundere for hvert trinn. [[K0189]]
+Fortsett å avrunde hjørnene på det brune rektangelet. Svaret er den brune kapselen med helt avrundede ender. 
+
+[[K0190]]
+Fortsett sirkelens bevegelse
+
+[[K0191]]
+I hver rad beveger den grønne sirkelen seg like langt i samme retning: oppover, nedover eller horisontalt. Størrelsen forblir uendret. 
+
+[[K0192]]
+I den siste raden beveger sirkelen seg mot venstre langs bunnen av kvadratet. Ett skritt til i samme lengde plasserer den nederst til venstre. 
+
+[[K0193]]
+Drei hele prikkmønsteret
+
+[[K0194]]
+Roter kvadratet og alle prikkene i det 45 grader mot klokken for hvert trinn. Kvadratet blir til en rombe, og deretter til et kvadrat igjen. 
+
+[[K0195]]
+Drei den midterste grønn-og-svarte romben ytterligere 45 grader mot klokken. Behold de grønne og svarte prikkene i deres roterte posisjoner. 
+
+[[K0196]]
+Forkort hver stolpe ovenfra
+
+[[K0197]]
+For hvert trinn blir hver vertikale, svarte stolpe én rutenhet kortere i den øvre enden. Den nedre enden forblir på den nederste linjen. En stolpe forsvinner når lengden når null. 
+
+[[K0198]]
+I bildet i midten er stolpen i midten én enhet lang, mens stolpen til høyre er to enheter lang. Stolpen i midten forsvinner, slik at bare stolpen til høyre (på én enhet) står igjen. 
+
+[[K0199]]
+Speil om den svarte linjen
+
+[[K0200]]
+Linjen i midten fungerer som en speilakse. Speil den fargede figuren om denne linjen, i stedet for bare å rotere den. 
+
+[[K0201]]
+Den siste speillinjen er vertikal, så den gule figuren speiles horisontalt (fra venstre til høyre). Fargen og størrelsen forblir uendret. 
+
+[[K0202]]
+Legg figurene oppå hverandre, og bruk den første fargen
+
+[[K0203]]
+Plasser begge figurene oppå hverandre. Behold den sammensatte silhuetten og de synlige omrissene, men fargelegg resultatet med fargen fra den første figuren. [[K0204]]
+Legg den blå, nedovervendte trekanten oppå den gule sekskanten, og bruk blå farge for den sammensatte figuren. Trekantens spisser stikker frem rundt sekskanten. 
+
+[[K0205]]
+Behold grønn farge der den finnes i nøyaktig ett av inngangsbildene
+
+[[K0206]]
+Sammenlign tilsvarende områder i de to kvadratene. Et område blir grønt hvis det er grønt i nøyaktig ett av inngangsbildene. Hvis et område er grønt i begge, blir det hvitt; hvis det er hvitt i begge, forblir det hvitt. 
+
+[[K0207]]
+Det første kvadratet er helt grønt, mens det andre bare har en grønn kvadrant nederst til venstre. Denne felles kvadranten blir hvit, mens de tre andre kvadrantene forblir grønne. 
+
+[[K0208]]
+Plasser en kopi i hvert hjørne
+
+[[K0209]]
+Plasser en kopi av det lille, svarte symbolet i hvert hjørne av den store figuren. Kopiene som legges til, får samme farge som den store figuren. 
+
+[[K0210]]
+Den store, blå romben har fire hjørner. Legg til en blå, nedovervendt trekant i hvert hjørne, etter samme plasseringsregel som i eksemplene. 
+
+[[K0211]]
+Legg sammen høyden på de tilsvarende stolpene
+
+[[K0212]]
+For hver av de tre horisontale posisjonene, legg sammen høyden på den svarte stolpen i det første bildet med høyden i det andre bildet. Mål oppover fra den felles grunnlinjen. 
+
+[[K0213]]
+Ingen av inngangsbildene har en stolpe til venstre. De to midterste stolpene blir til én stolpe med full høyde, mens stolpene til høyre blir til en kortere stolpe. Resultatet består kun av disse midterste og høyre stolpene. 
+
+[[K0214]]
+Roter og veksle mellom farger

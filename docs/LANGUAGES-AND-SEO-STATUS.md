@@ -1,25 +1,28 @@
-# Languages and SEO — local draft, 22 November 2026
+# Languages and SEO — 22 November 2026
 
-Production remains PR #12 / `150d549`. Nothing in this iteration has been deployed.
+The local PR #13 iteration now contains **50 complete language packs**. Production is still PR #12 until the normal product release is performed. The separate statistics collector remains disabled.
 
-The draft supports a registry of 50 distinct primary languages, selected for broad international coverage and the product's European audience. This is an editorial selection, not a measured ranking of the world's top 50 languages. Native names are primary; a local SVG flag represents one associated country variant. Flags come from MIT-licensed flag-icons 7.6.0, with the license retained in images/flags.
+The catalog selects 50 distinct primary languages for broad international reach and the European audience; it is an editorial selection, not a measured global ranking. Each choice displays its native name and one associated country flag. MIT-licensed flag-icons 7.6.0 SVGs are self-hosted with their license; no flag CDN or translation service is called by visitors.
 
-**Complete packs: English and Danish (2/50). The other 48 translations remain pending.** The search dialog currently displays the planned catalog for local review. Do not publish it before all packs are complete. No English-only shells have been generated for the missing languages.
+Kent specifically approved Google Translate for the approximately 27,000 characters of product UI and explanations, including unpublished draft copy. Translations were captured from the normal Google Translate UI; no participant data, age, country, answer, account credential or new paid subscription was involved. English/Danish remain maintained originals. The other 48 packs are machine translated with structural checks and targeted corrections, **not professionally proofread by native speakers in all 48 languages**.
 
-The frozen source corpus is reports/languages-20261122/source.json: 330 entries, including dynamic templates and all puzzle explanations, approximately 27,000 characters with stable markers. The automatic approval review rejected sending this unpublished product copy to Google Translate without specific permission. A question requesting that permission is pending. No product corpus has been sent. A short test used only already published phrases. No participant data is involved, and no new service account or paid subscription is proposed.
+The frozen corpus has 330 entries, including all 36 puzzle explanations and 27 dynamic templates. The importer requires complete ordered blocks, logs marker spelling repairs, preserves dynamic placeholders and product naming, and applies four explicit copy corrections (Bulgarian/Hausa missing braces, an omitted Telugu fragment and a Korean variable converted to a fixed number). Brand inflections are corrected for Tamil/Malayalam. Raw captures, import audit and correction sources remain reproducible. Numerical-copy differences were inspected: non-Latin translations may spell numbers out, and the existing Danish explanation already spells out the 3-by-3 grid. No puzzle assets, answer keys or norm data changed.
 
-Local source infrastructure includes lazy-loaded self-hosted language packs, placeholder validation, preserved attempt/deadline state, language search, explicit RTL direction for Arabic/Hebrew/Persian/Urdu, and fixed LTR puzzle geometry. Feedback remains the existing Danish/English shared form, with a localized explanatory note for other languages.
+The introduction shows the historical attempt count as a separate short phrase, avoiding word-order problems from translating a sentence around an inserted number. Cohort size/filter and methodological qualifications are unchanged.
 
-SEO builds use real localized HTML routes, self-canonical URLs, reciprocal hreflang plus x-default, localized title/description/social metadata, truthful WebPage structured data and sitemap language alternates. Result/achievement share pages remain anonymous and noindex. No new tracking service or origin is added. Search ranking/indexing is not verified or promised.
+Runtime: self-hosted lazy packs; validated messages/templates before applying; native searchable picker; restored saved/browser preference even from the root URL; explicit RTL for Arabic/Hebrew/Persian/Urdu; LTR pattern rows and answer grids. Answers and original deadline survive language switches/reloads. Failed loads leave the current test intact. Feedback remains the existing da/en form with an explicit localized note for other languages.
 
-Commands:
+SEO: all 50 real localized HTML routes have self-canonical URLs, reciprocal hreflang/x-default, localized title/description/social metadata, truthful WebPage schema and sitemap alternates. Anonymous score/question/pattern share routes are localized and noindex. The 404 is noindex. Indexing/ranking has not been measured or promised. Existing tracker pin/SRI, origin, DNT/GPC/bot/QA handling and neutral product branding are preserved.
 
-- `npm test`: functional/development checks, including the existing two complete routes.
-- `node tools/Build-Language-Pages.cjs --ready-only --check`: check complete packs only during development.
-- `npm run build:languages`: full 50-language build; fails if any pack is absent/incomplete.
-- `npm run check:release`: strict full-catalog release gate. Currently fails deliberately at the missing Spanish pack.
-- `node tools/Compile-Language-Pack.cjs <code> <source.json> <chunk.txt>...`: offline compiler; rejects missing/duplicate markers or changed placeholders.
+Validation:
 
-Browser proof: desktop 1280×720 and mobile 390×844 language picker screenshots in reports/languages-20261122. Native search, Danish/English switch, retained finished result and dialog focus were verified. No real production attempt or notification was generated.
+- 110 automated tests pass, including all-pack coverage/placeholders, product naming, 50 static routes/metadata/share privacy, RTL, state preservation and failed-load recovery.
+- Full 50-language release generation/check passes. Ready-only mode exists solely for incomplete development work.
+- Browser: all 50 test layouts at 1280×720 fit without horizontal/vertical scroll; all 50 home and test layouts at 1024×600 fit. Active attempt stayed on question 2 during all language switches with its original running timer.
+- Initial desktop home check exposed overflow in Bengali/Tamil; content-aware compact spacing/font sizing resolves longer translations. Test tile sizing reserves the actual translated controls' height on laptops/tablets. Mobile retains readable figures and may scroll vertically.
+- Nine mobile languages checked on home/test at 390×844 with no horizontal overflow. Arabic finish/partial-result/share/review/explanation flow and root-language restoration were checked without console errors. This is browser viewport testing, not a new physical Android test.
+- Screenshots and JSON measurements are in reports/languages-20261122. No real production test-start notification or statistics contribution was generated.
 
-The independent statistics collector remains disabled pending the central receiver/staging/owner-portal agreement. Language routes only extend exact path validation on the existing origin; no demographic comparisons or collector activation are included.
+Commands: npm test; npm run build:languages; npm run check:release. Offline tooling: tools/Compile-Language-Pack.cjs, tools/Import-Captured-Translations.cjs and tools/Translation-Corrections.json.
+
+Release work still required: publish the completed product PR through its existing gates, verify public routes/assets/feedback, update company status as live only after evidence, and refresh the public portfolio from the actual published light design. Central statistics collection/benchmarks remain a separate disabled integration pending receiver/staging/owner-portal agreement.

@@ -1,0 +1,305 @@
+[[K0071]]
+Bagikan tes di Facebook
+
+[[K0072]]
+Perkiraan IQ
+
+[[K0073]]
+Hanya untuk bersenang-senang. Skor perkiraan, bukan pengukuran IQ yang divalidasi secara profesional. 
+
+[[K0074]]
+Tes Anda belum lengkap. Jawaban Anda yang benar ditampilkan, tetapi perkiraan IQ membutuhkan semua 36 jawaban. 
+
+[[K0075]]
+Tidak tersedia
+
+[[K0076]]
+Tes penalaran visual gratis | Juara IQ
+
+[[K0077]]
+36 teka-teki penalaran visual. Ikuti tantangan gratis selama 40 menit dan jelajahi hasilnya. 
+
+[[K0078]]
+Terjawab
+
+[[K0079]]
+Belum terjawab
+
+[[K0080]]
+Benar
+
+[[K0081]]
+Salah
+
+[[K0082]]
+Tutup
+
+[[K0083]]
+Bantuan
+
+[[K0084]]
+40 menit
+
+[[K0085]]
+Bahasa
+
+[[K0086]]
+Tentang tes
+
+[[K0087]]
+Tantangan dalam penalaran visual
+
+[[K0088]]
+Temukan polanya. 
+
+[[K0089]]
+Temukan bagian yang hilang. 
+
+[[K0090]]
+36 teka-teki visual dan perkiraan skor IQ. Hanya untuk bersenang-senang. 
+
+[[K0091]]
+Teka-teki
+
+[[K0092]]
+Batas waktu
+
+[[K0093]]
+Biaya
+
+[[K0094]]
+Gratis
+
+[[K0095]]
+Tidak perlu akun. Timer dimulai saat Anda memulai. 
+
+[[K0096]]
+Cara kerja tes
+
+[[K0097]]
+Pilih ikon yang melengkapi setiap pola. 
+
+[[K0098]]
+Lewati pertanyaan yang sulit dan kembali menggunakan ringkasan. 
+
+[[K0099]]
+Tinjau atau ubah jawaban Anda sebelum selesai. 
+
+[[K0100]]
+Jawaban dan waktu mulai Anda disimpan di browser ini. Memuat ulang akan mempertahankan batas waktu awal Anda. 
+
+[[K0101]]
+Timer 40 menit terus berjalan meskipun halaman ditutup. Pertanyaan yang tidak dijawab dihitung sebagai salah. 
+
+[[K0102]]
+Tentang hasil Anda
+
+[[K0103]]
+Perkiraan IQ Anda didasarkan pada posisi Anda di antara
+
+[[K0104]]
+upaya historis. 
+
+[[K0105]]
+Perbandingan ini menggunakan upaya yang berlangsung lebih dari satu menit hingga 40 menit. Hasil ini belum divalidasi terhadap tes IQ resmi atau sampel populasi yang representatif. 
+
+[[K0106]]
+Tes untuk bersenang-senang. Perkiraan IQ Anda adalah perkiraan, bukan skor IQ yang divalidasi secara profesional. 
+
+[[K0107]]
+Mulai tes 40 menit
+
+[[K0108]]
+Tes penalaran
+
+[[K0109]]
+Tantangan Anda
+
+[[K0110]]
+Waktu tersisa
+
+[[K0111]]
+tersisa
+
+[[K0112]]
+Pola pertanyaan
+
+[[K0113]]
+Temukan polanya
+
+[[K0114]]
+Empat baris pola visual; Lengkapi baris terakhir
+
+[[K0115]]
+Pilih jawaban Anda
+
+[[K0116]]
+Navigasi pertanyaan
+
+[[K0117]]
+Pertanyaan sebelumnya
+
+[[K0118]]
+Lewati untuk sementara
+
+[[K0119]]
+Pertanyaan berikutnya
+
+[[K0120]]
+Ikhtisar pertanyaan
+
+[[K0121]]
+✓ Terjawab
+
+[[K0122]]
+○ Belum terjawab
+
+[[K0123]]
+Garis besar = saat ini
+
+[[K0124]]
+Lompat ke pertanyaan
+
+[[K0125]]
+Tinjau dan selesaikan
+
+[[K0126]]
+Instruksi & kemajuan yang tersimpan
+
+[[K0127]]
+Pilih jawaban untuk pindah ke pertanyaan yang belum terjawab berikutnya. Anda dapat melewati, kembali, dan mengubah jawaban sebelum menyelesaikan. 
+
+[[K0128]]
+Jawaban tersimpan secara otomatis di browser ini. Memuat ulang akan melanjutkan pertanyaan yang sama; penghitung waktu Anda tetap berjalan. 
+
+[[K0129]]
+Siap kapan pun Anda siap
+
+[[K0130]]
+Selesaikan tes ini? 
+
+[[K0131]]
+Lanjutkan mengerjakan
+
+[[K0132]]
+Selesaikan dan lihat hasilnya
+
+[[K0133]]
+Tantangan selesai
+
+[[K0134]]
+Hasil Anda
+
+[[K0135]]
+Tinjau jawaban
+
+[[K0136]]
+Coba lagi
+
+[[K0137]]
+Tentang tes ini
+
+[[K0138]]
+Cara membaca hasil ini
+
+[[K0139]]
+Persentil Anda di antara upaya sebelumnya dikonversi ke skala IQ yang umum: titik tengah 100 dan deviasi standar 15. Ini mengasumsikan kelompok perbandingan mencerminkan populasi, yang belum ditetapkan. 
+
+[[K0140]]
+Jawaban Anda, dijelaskan
+
+[[K0141]]
+Tinjau jawaban Anda
+
+[[K0142]]
+Kembali ke hasil
+
+[[K0143]]
+Pola
+
+[[K0144]]
+Bandingkan jawaban
+
+[[K0145]]
+Jawaban Anda
+
+[[K0146]]
+Jawaban yang benar
+
+[[K0147]]
+Pertanyaan tinjauan sebelumnya
+
+[[K0148]]
+Pertanyaan tinjauan berikutnya
+
+[[K0149]]
+Hasil berdasarkan pertanyaan
+
+[[K0150]]
+Jelajahi semua 36 teka-teki
+
+[[K0151]]
+✓ Benar
+
+[[K0152]]
+× Salah
+
+[[K0153]]
+Tinjau pertanyaan
+
+[[K0154]]
+Jawaban yang Anda kirimkan dan skor akhir tetap tidak berubah. 
+
+[[K0155]]
+Hubungi Kami
+
+[[K0156]]
+Umpan Balik & Hubungi Kami
+
+[[K0157]]
+Kirim umpan balik atau hubungi kami
+
+[[K0158]]
+Benar. Jawaban Anda sesuai dengan jawaban yang benar. 
+
+[[K0159]]
+Salah. Jawaban Anda berbeda dari jawaban yang benar. 
+
+[[K0160]]
+Belum Terjawab. Tidak ada jawaban yang dikirimkan untuk pertanyaan ini. 
+
+[[K0161]]
+Tidak ada jawaban yang dikirimkan
+
+[[K0162]]
+Jawaban yang Anda kirimkan
+
+[[K0163]]
+Ikon hilang
+
+[[K0164]]
+Semua pertanyaan telah dijawab. Anda masih dapat meninjau dan mengubah jawaban, lalu menyelesaikan tes. 
+
+[[K0165]]
+Sisa waktu lima menit atau kurang. 
+
+[[K0166]]
+Waktu habis. Jawaban Anda telah dinilai. 
+
+[[K0167]]
+Tes selesai. 
+
+[[K0168]]
+Perbandingan tidak tersedia. 
+
+[[K0169]]
+Browser ini tidak dapat menyimpan percobaan Anda. Biarkan halaman ini tetap terbuka: memuat ulang dapat menyebabkan hilangnya kemajuan atau mengembalikan jawaban yang lebih lama. 
+
+[[K0170]]
+Penyimpanan lokal tidak tersedia di browser ini. Biarkan halaman ini tetap terbuka untuk menghindari kehilangan percobaan Anda. 
+
+[[K0171]]
+Percobaan yang tersimpan tidak dapat dipulihkan. Mulailah tes baru saat Anda siap. 
+
+[[K0172]]
+Biarkan gambar tidak berubah

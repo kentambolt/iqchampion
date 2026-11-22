@@ -1,0 +1,75 @@
+[[K0249]]
+Après le retrait des briques rouges, les briques restantes forment l'escalier central. Le retrait de la brique jaune et de ses voisines immédiates laisse place à la brique bleue supérieure, qui tombe alors tout en bas. 
+
+[[K0250]]
+Faites défiler les couches et appliquez le masque de couleur.
+
+[[K0251]]
+Suivez les trois mêmes formes. À chaque étape, la forme située au premier plan passe à l'arrière-plan. Pour l'image finale, conservez les remplissages gris ou noirs de l'image intermédiaire ; les formes blanches (non remplies) retrouvent, quant à elles, les couleurs qu'elles avaient dans la première image. 
+
+[[K0252]]
+L'hexagone gris passe au premier plan, la capsule horizontale noire se place derrière lui, et la capsule verticale bascule à l'arrière-plan. Cette capsule verticale blanche retrouve sa couleur jaune d'origine. 
+
+[[K0253]]
+Utilisez la couleur de chaque cercle pour déterminer son mouvement.
+
+[[K0254]]
+Suivez chaque cercle par rapport à celui qui l'entoure immédiatement. Le cercle blanc se déplace de 90 degrés dans le sens des aiguilles d'une montre, le noir de 90 degrés dans le sens inverse, tandis que le rouge conserve sa position relative. Le bleu, lui, ne bouge pas. Appliquez ces déplacements à chaque niveau d'imbrication. 
+
+[[K0255]]
+Le cercle noir passe de la position « au-dessus du cercle bleu » à celle « à gauche du cercle bleu ». Le cercle rouge reste à droite, à l'intérieur du cercle noir. Le grand cercle blanc passe de la position « au-dessus du cercle rouge » à celle « à droite du cercle rouge » ; le plus petit cercle blanc passe de la position « en dessous du grand cercle blanc » à celle « à gauche du grand cercle blanc ». 
+
+[[K0256]]
+Déplacez les couleurs le long des parcours connectés.
+
+[[K0257]]
+Les liaisons noires définissent les parcours que suivent les couleurs. Suivez chaque boucle dans le sens des aiguilles d'une montre en déplaçant chaque couleur vers la position connectée suivante. Sur un parcours reliant deux positions, les couleurs s'échangent ; les points isolés, quant à eux, restent immobiles. 
+
+[[K0258]]
+Inversez les deux couleurs situées en haut. Sur la boucle inférieure, le cercle bleu (au milieu à gauche) se déplace vers le centre, et le cercle rouge (au milieu à droite) se déplace vers la position en bas à gauche. Le cercle rouge situé en bas à droite, n'étant relié à rien, reste inchangé. [[K0259]]
+Déplacez chaque couleur le long de son propre trajet.
+
+[[K0260]]
+Le rouge se déplace vers le bas, le vert vers la droite et le jaune vers la gauche. Le bleu se déplace vers le haut et, si possible, d'une colonne vers la gauche. Le blanc indique une superposition de couleurs ; séparez ces couleurs lors du déplacement suivant. Les couleurs qui sortent de la grille disparaissent. 
+
+[[K0261]]
+Séparez la case blanche centrale en rouge et vert. Le rouge se déplace vers le bas au centre, le vert vers la droite au centre, le bleu atteint le haut à gauche et le jaune sort par la gauche. Ces trois cases colorées constituent la solution. 
+
+[[K0262]]
+Déplacez les extrémités rouges et bleues dans des directions opposées.
+
+[[K0263]]
+À chaque étape, chaque extrémité rouge se déplace d'une position dans le sens inverse des aiguilles d'une montre, et chaque extrémité bleue se déplace de deux positions dans le sens des aiguilles d'une montre, autour de l'étoile à cinq branches. Le blanc indique que le rouge et le bleu se superposent ; séparez les deux couleurs avant d'effectuer le déplacement suivant. 
+
+[[K0264]]
+Dans l'image du milieu, le rouge se trouve en bas à droite, tandis que le bleu est présent en haut à droite et en haut à gauche. Le déplacement suivant réunit le rouge et l'un des éléments bleus en haut à droite, créant ainsi du blanc. L'autre élément bleu se déplace en bas à gauche. 
+
+[[K0265]]
+Déplacez deux copies selon les directions indiquées par le secteur.
+
+[[K0266]]
+Les deux bords du secteur blanc indiquent deux directions de déplacement. Créez deux copies du motif composé de points rouges et déplacez chaque copie d'un pas de grille dans l'une des deux directions, en effectuant un retour à l'opposé si un bord est atteint. Une position atteinte par une seule copie devient rouge ; une position atteinte par les deux copies devient bleue. 
+
+[[K0267]]
+Le secteur final est orienté vers le bas-gauche et le bas-droite. Déplacez une copie dans chacune de ces directions. Leur superposition colore en bleu toute la rangée supérieure ainsi que le centre ; les positions atteintes par une seule copie restent rouges, comme illustré dans la solution. 
+
+[[K0268]]
+Supprimez les segments de ligne qui se croisent.
+
+[[K0269]]
+Superposez les deux dessins. Considérez chaque segment rectiligne reliant deux points consécutifs de la grille comme un segment distinct. Si un segment issu de l'un des dessins croise un segment issu de l'autre entre deux points, supprimez les deux segments. Les segments qui se rejoignent au niveau d’un point de la grille sont conservés. Gardez tous les segments non coupés provenant des deux dessins. 
+
+[[K0270]]
+Supprimez les segments diagonaux coupés entre les points de la grille. Les éléments restants forment une fourche supérieure dotée d’une tige verticale, deux segments diagonaux courts et isolés près des coins supérieurs, ainsi qu’une fourche inférieure avec sa propre tige verticale. 
+
+[[K0271]]
+Déplacez et triez les éléments par taille.
+
+[[K0272]]
+Poussez tous les éléments dans la direction indiquée par la flèche. Les éléments plus petits dépassent les plus grands et atteignent en premier les emplacements disponibles les plus éloignés. La hauteur et la position verticale de chaque élément sont préservées. Plusieurs éléments peuvent occuper une même colonne, à condition qu’ils ne se chevauchent pas verticalement ; les éléments de même taille conservent leur ordre relatif. 
+
+[[K0273]]
+La flèche pointe vers la droite. Placez les éléments les plus courts dans les espaces disponibles sur la droite, suivis des éléments occupant deux cases, puis des éléments plus hauts sur leur gauche. Aucun élément ne se déplace verticalement (vers le haut ou le bas) et leur taille reste inchangée. 
+
+[[K0274]]
+Déplacez les séparateurs vers les espaces libres.

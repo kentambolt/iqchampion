@@ -1,0 +1,101 @@
+[[K0215]]
+Xoay hình dạng 45 độ ngược chiều kim đồng hồ ở mỗi bước. Màu sắc của nó sẽ thay đổi, vì vậy hình thứ ba sẽ trở lại màu của hình đầu tiên. 
+
+[[K0216]]
+Xoay hình dạng màu trắng ở giữa thêm 45 độ ngược chiều kim đồng hồ và khôi phục màu tối từ hình đầu tiên. Chọn hình dạng cong màu tối theo hướng đó. 
+
+[[K0217]]
+Kết hợp các hình tròn màu đen
+
+[[K0218]]
+Một hình tròn sẽ có màu đen trong kết quả bất cứ khi nào hình tròn tương ứng có màu đen trong một trong hai đầu vào. Nó chỉ có màu trắng khi cả hai đầu vào đều có một hình tròn màu trắng ở đó. 
+
+[[K0219]]
+Đầu vào đầu tiên đóng góp hình tròn màu đen phía dưới bên phải; đầu vào thứ hai đóng góp hai hình tròn màu đen phía trên. Hình tròn ở giữa và hình tròn phía dưới bên trái vẫn giữ màu trắng. 
+
+[[K0220]]
+Mở rộng sang các ô lân cận
+
+[[K0221]]
+Ở mỗi bước, mỗi ô màu xanh lam vẫn giữ màu xanh lam và cũng tô màu các ô lân cận ngay phía trên, phía dưới, bên trái và bên phải. Quá trình mở rộng dừng lại ở ranh giới lưới. 
+
+[[K0222]]
+Áp dụng cùng một thao tác mở rộng một ô cho vùng màu xanh ở giữa. Các ô lân cận mới đạt được sẽ trở thành màu xanh; các ô ở xa hơn vẫn nằm trong ô bàn cờ màu xám và đen. 
+
+[[K0223]]
+Hủy bỏ các vị trí màu nâu trùng khớp
+
+[[K0224]]
+So sánh hai dải năm ô theo từng vị trí. Một ô có màu nâu trong kết quả nếu chính xác một ô đầu vào có màu nâu ở đó. Các ô màu nâu trùng khớp sẽ bị hủy thành màu xanh. 
+
+[[K0225]]
+Màu nâu xuất hiện ở các vị trí 2, 3, 4 và 5 trong dải đầu tiên và ở các vị trí 2, 3 và 5 trong dải thứ hai. Chỉ có vị trí 4 vẫn giữ màu nâu. 
+
+[[K0226]]
+Loại bỏ các chấm đỏ gần nhất
+
+[[K0227]]
+Tìm khoảng cách nhỏ nhất giữa hai chấm đỏ bất kỳ. Loại bỏ mọi chấm đỏ thuộc một cặp ở khoảng cách đó. Tính toán lại khoảng cách gần nhất cho bước tiếp theo. 
+
+[[K0228]]
+Trong hình giữa, ba chấm đỏ phía dưới tham gia vào các cặp chéo gần nhất. Loại bỏ chúng chỉ còn lại chấm đỏ ở hàng trên cùng, cột thứ tư. 
+
+[[K0229]]
+Di chuyển sáu màu xung quanh một vòng tròn
+
+[[K0230]]
+Đọc xuống chồng bên trái, sau đó xuống chồng bên phải. Di chuyển mỗi màu tiến lên một vị trí trong vòng tròn sáu vị trí đó; màu dưới cùng bên phải vòng lên trên cùng bên trái. 
+
+[[K0231]]
+Từ hình giữa, vòng tròn màu nâu dưới cùng bên phải vòng lên trên cùng bên trái. Các chồng cuối cùng là nâu/đỏ/đỏ ở bên trái và đen/nâu/xanh lam ở bên phải.
+
+[[K0232]]
+Di chuyển các hình tròn trắng và đen theo hướng ngược nhau
+
+[[K0233]]
+Các hình tròn trắng di chuyển một góc theo chiều kim đồng hồ và các hình tròn đen di chuyển một góc ngược chiều kim đồng hồ ở mỗi bước. Màu xám có nghĩa là một hình tròn trắng và một hình tròn đen nằm cùng một góc; hãy tách chúng ra trước khi di chuyển tiếp. 
+
+[[K0234]]
+Hình ở giữa chứa các hình tròn trắng ở hai góc bên trái và các hình tròn đen ở hai góc bên trái và góc dưới bên phải. Di chuyển chúng sẽ cho ra hình tròn trắng ở góc trên bên trái, hình tròn xám ở góc trên bên phải và hình tròn đen ở cả hai góc dưới. 
+
+[[K0235]]
+Mở rộng mọi nét ngang
+
+[[K0236]]
+Ở mỗi bước, hãy mở rộng mỗi nét ngang màu đen vào hình trụ liền kề ở cả hai bên. Các nét hiện có vẫn giữ nguyên, và các nét dừng lại ở các cạnh ngoài. 
+
+[[K0237]]
+Mở rộng các nét trong hình ở giữa thêm một hình trụ sang trái và sang phải. Giữ cho chiều cao của các nét riêng biệt; kết quả sẽ hiển thị các đường ngang dài hơn trên bốn hình trụ. 
+
+[[K0238]]
+Mở rộng lưới tam giác
+
+[[K0239]]
+Coi hình vẽ như một nhóm các tam giác nhỏ. Ở mỗi bước, thêm một tam giác nhỏ ngay bên ngoài mỗi cạnh lộ ra, giữ nguyên các tam giác hiện có và các đường nối của chúng. 
+
+[[K0240]]
+Mở rộng cụm màu xanh lá cây ở giữa bằng một lớp tam giác lân cận nữa. Câu trả lời giữ nguyên lưới tam giác và thêm các tam giác dọc theo các cạnh bên ngoài của nó.
+
+[[K0241]]
+Xóa các đỉnh được đánh dấu
+
+[[K0242]]
+Các chấm màu nâu xác định các đỉnh của đa giác màu đen cần xóa. Nối các đỉnh còn lại theo thứ tự ban đầu. Hai đỉnh còn lại tạo thành một đoạn thẳng. 
+
+[[K0243]]
+Xóa các đỉnh trên cùng và bên trái được đánh dấu bằng các chấm màu nâu. Chỉ còn lại hai đỉnh phía dưới, vì vậy đáp án là đoạn thẳng nằm ngang ngắn gần phía dưới bên phải. 
+
+[[K0244]]
+Bật/tắt các chấm ở các góc của đường viền
+
+[[K0245]]
+Ghép các đỉnh của đường viền màu đen với các vị trí chấm 3x3. Tại mỗi đỉnh, xóa một chấm màu xanh lam hiện có hoặc thêm một chấm nếu vị trí đó trống. Các vị trí khác không thay đổi. 
+
+[[K0246]]
+Bật/tắt bốn vị trí góc của đường viền nghiêng. Kết quả có các chấm màu xanh ở góc trên bên trái và giữa trên, giữa giữa và giữa bên phải, và cả ba vị trí dưới cùng. 
+
+[[K0247]]
+Loại bỏ viên gạch được đánh dấu và các viên gạch lân cận của nó
+
+[[K0248]]
+Trước tiên, loại bỏ viên gạch màu đỏ và tất cả các viên gạch chung cạnh với nó, sau đó thả các viên gạch không được đỡ rơi thẳng xuống. Lặp lại quy trình tương tự với viên gạch màu vàng.

@@ -1,0 +1,77 @@
+[[K0249]]
+Selepas penyingkiran merah, bata yang tinggal membentuk tangga tengah. Dengan membuang bata kuning dan batu bata bersebelahan yang bersentuhan, bata biru atas akan jatuh ke bawah. 
+
+[[K0250]]
+Kitar lapisan dan gunakan topeng warna
+
+[[K0251]]
+Jejaki tiga bentuk yang sama. Pada setiap langkah, bentuk hadapan akan ke belakang. Untuk gambar terakhir, kekalkan warna kelabu atau hitam gambar tengah; bentuk putihnya yang tidak diisi akan mendapatkan semula warnanya daripada gambar pertama. 
+
+[[K0252]]
+Heksagon kelabu akan ke hadapan, kapsul mendatar hitam terletak di belakangnya, dan kapsul menegak akan bergerak ke belakang. Kapsul menegak putih itu akan mendapatkan semula warna kuning asalnya. 
+
+[[K0253]]
+Gunakan warna setiap bulatan untuk mencari pergerakannya
+
+[[K0254]]
+Jejaki setiap bulatan relatif kepada bulatan di sekelilingnya. Putih bergerak 90 darjah mengikut arah jam, hitam bergerak 90 darjah lawan arah jam, dan merah kekal pada kedudukan relatif yang sama. Biru tidak bergerak. Gunakan pergerakan ini pada setiap aras bersarang. 
+
+[[K0255]]
+Bulatan hitam bergerak dari atas bulatan biru ke kirinya. Merah kekal ke kanan di dalam hitam. Bulatan putih yang lebih besar bergerak dari atas merah ke kanannya; bulatan putih terkecil bergerak dari bawah bulatan putih yang lebih besar ke kirinya. 
+
+[[K0256]]
+Gerakkan warna di sepanjang laluan yang disambungkan
+
+[[K0257]]
+Pautan hitam menentukan laluan di mana warna bergerak. Ikuti setiap gelung mengikut arah jam, gerakkan setiap warna ke kedudukan yang disambungkan seterusnya. Laluan dua kedudukan menukar warnanya; titik yang tidak disambungkan kekal di tempatnya. 
+
+[[K0258]]
+Tukar dua warna atas. Pada gelung bawah, biru kiri-tengah bergerak ke tengah dan merah kanan-tengah bergerak ke kiri bawah. Merah bawah-kanan yang tidak disambungkan kekal tidak berubah. 
+
+[[K0259]]
+Gerakkan setiap warna di sepanjang laluannya sendiri
+
+[[K0260]]
+Merah bergerak ke bawah, hijau bergerak ke kanan dan kuning bergerak ke kiri. Biru bergerak ke atas dan, jika boleh, satu lajur ke kiri. Putih menandakan warna yang bertindih; asingkan warna-warna tersebut sekali lagi apabila menggunakan langkah seterusnya. Warna yang bergerak melepasi grid hilang. 
+
+[[K0261]]
+Pisahkan sel putih tengah kepada merah dan hijau. Merah bergerak ke tengah bawah, hijau ke tengah kanan, biru sampai ke kiri atas dan kuning keluar di sebelah kiri. Tiga sel berwarna tersebut membentuk jawapannya. 
+
+[[K0262]]
+Gerakkan hujung merah dan biru ke arah yang bertentangan
+
+[[K0263]]
+Pada setiap langkah, setiap hujung merah bergerak satu kedudukan lawan arah jam dan setiap hujung biru bergerak dua kedudukan mengikut arah jam di sekitar bintang berbucu lima. Putih bermaksud merah dan biru bertindih; asingkan kedua-dua warna sebelum bergerak semula. 
+
+[[K0264]]
+Dalam gambar tengah, merah berada di bahagian bawah kanan dan biru berada di bahagian atas kanan dan kiri atas. Langkah seterusnya menggabungkan warna merah dan satu biru di bahagian atas kanan, menjadikannya putih. Warna biru yang satu lagi bergerak ke bahagian bawah kiri. 
+
+[[K0265]]
+Anjak dua salinan mengikut arah sektor
+
+[[K0266]]
+Dua tepi sektor putih menunjukkan dua arah pergerakan. Buat dua salinan corak titik merah dan anjak satu salinan satu langkah grid dalam setiap arah, membaluti tepi. Kedudukan yang dicapai sekali adalah merah; kedudukan yang dicapai oleh kedua-dua salinan adalah biru. 
+
+[[K0267]]
+Sektor terakhir menghala ke bawah kiri dan ke bawah kanan. Anjak satu salinan pada setiap arah. Pertindihannya menjadikan keseluruhan baris atas dan tengah biru; kedudukan salinan tunggal kekal merah, seperti yang ditunjukkan dalam jawapan. 
+
+[[K0268]]
+Alih keluar segmen rentetan bersilang
+
+[[K0269]]
+Tindan kedua-dua lukisan. Anggap setiap bahagian lurus antara titik grid berturut-turut sebagai segmen rentetan yang berasingan. Apabila segmen daripada satu lukisan melintasi segmen daripada yang lain antara titik, alih keluar kedua-dua segmen. Segmen bertemu pada titik grid kekal. Pastikan semua segmen yang tidak dipotong daripada kedua-dua lukisan. 
+
+[[K0270]]
+Keluarkan segmen pepenjuru yang dipotong di antara titik grid. Kepingan yang tinggal membentuk cabang atas dengan batang menegak, dua pepenjuru pendek yang terpisah berhampiran sudut atas, dan cabang bawah dengan batang menegaknya sendiri. 
+
+[[K0271]]
+Luncurkan dan susun kepingan mengikut saiz
+
+[[K0272]]
+Tolak semua kepingan mengikut arah anak panah. Kepingan yang lebih kecil melepasi kepingan yang lebih besar dan mencapai ruang terjauh yang tersedia terlebih dahulu. Kekalkan ketinggian dan kedudukan menegak setiap kepingan. Kepingan mungkin berkongsi lajur jika ia tidak bertindih secara menegak; kepingan bersaiz sama mengekalkan susunan relatifnya. 
+
+[[K0273]]
+Anak panah menghala ke kanan. Pasangkan kepingan terpendek ke dalam ruang yang tersedia di sebelah kanan, kemudian kepingan dua sel, kemudian kepingan yang lebih tinggi di sebelah kiri. Tiada apa yang bergerak ke atas atau ke bawah, dan tiada kepingan yang berubah saiz. 
+
+[[K0274]]
+Alihkan pembahagi ke dalam ruang kosong

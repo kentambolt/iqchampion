@@ -1,0 +1,207 @@
+[[K0001]]
+Plage médiane estimée
+
+[[K0002]]
+Les comparaisons publiques incluent tous les participants ayant utilisé cette version du casse-tête. Les informations facultatives, telles que la tranche d'âge et le pays, ne sont utilisées que dans le cadre de statistiques globales anonymes. 
+
+[[K0003]]
+J'accepte de contribuer aux statistiques globales en fournissant, de manière anonyme, les résultats de mes tentatives, la durée de réflexion, ainsi que ma tranche d'âge et mon pays (si je choisis de les indiquer). 
+
+[[K0004]]
+Les plages médianes sont estimées à partir d'histogrammes de temps. L'intervalle affiché reflète la résolution temporelle ; aucune valeur médiane exacte ni aucun percentile de vitesse précis ne sont revendiqués. 
+
+[[K0005]]
+Partager le défi
+
+[[K0006]]
+Temps de réflexion
+
+[[K0007]]
+En raison des paramètres de confidentialité de votre navigateur, ces statistiques sont conservées uniquement sur votre appareil. 
+
+[[K0008]]
+Toutes les tentatives volontaires
+
+[[K0009]]
+Merci. Votre contribution anonyme a été enregistrée. 
+
+[[K0010]]
+Il n'y a pas encore suffisamment de tentatives comparables dans ce groupe. Vos propres statistiques restent toutefois accessibles. 
+
+[[K0011]]
+Les comparaisons sont temporairement indisponibles. Vos statistiques personnelles et les fonctionnalités de partage restent opérationnelles. 
+
+[[K0012]]
+Cette ancienne tentative ne dispose pas d'un historique temporel complet. Vous pouvez néanmoins consulter et partager votre résultat. 
+
+[[K0013]]
+Veuillez choisir si vous souhaitez contribuer avant l'envoi de toute donnée. 
+
+[[K0014]]
+Cette tentative ne dispose pas d'un historique temporel complet. Vos résultats personnels demeurent inchangés. 
+
+[[K0015]]
+Votre contribution n'a pas pu être enregistrée dans ce navigateur. Aucune donnée n'a été transmise. 
+
+[[K0016]]
+Cette contribution nécessite une vérification et n'a pas été comptabilisée à nouveau. 
+
+[[K0017]]
+Votre contribution n'a pas été confirmée. Veuillez réessayer en utilisant la même contribution enregistrée. [[K0018]]
+Aucun compte requis
+
+[[K0019]]
+Le test commence quand vous êtes prêt(e)
+
+[[K0020]]
+Test
+
+[[K0021]]
+Questions traitées
+
+[[K0022]]
+Quelque chose à partager
+
+[[K0023]]
+Votre meilleure performance
+
+[[K0024]]
+Votre QI estimé
+
+[[K0025]]
+Une énigme complexe, résolue rapidement
+
+[[K0026]]
+Plus rapide que la moyenne des bonnes réponses
+
+[[K0027]]
+Votre bonne réponse la plus rapide
+
+[[K0028]]
+Énigmes résolues
+
+[[K0029]]
+Un défi qui mérite d'être partagé
+
+[[K0030]]
+36 énigmes. Un seul défi. 
+
+[[K0031]]
+Partagez ce défi avec quelqu'un de votre entourage. 
+
+[[K0032]]
+Votre temps de réflexion. Données insuffisantes pour établir un classement par rapport aux autres. 
+
+[[K0033]]
+Choisissez ce que vous souhaitez partager
+
+[[K0034]]
+Meilleure performance
+
+[[K0035]]
+Estimation du QI
+
+[[K0036]]
+Énigmes résolues correctement
+
+[[K0037]]
+Partager sur Facebook
+
+[[K0038]]
+Copier un message personnalisé
+
+[[K0039]]
+Votre texte à partager
+
+[[K0040]]
+Copier le texte
+
+[[K0041]]
+Facebook vous permet de rédiger votre propre message. Nous ne publions jamais rien automatiquement. 
+
+[[K0042]]
+Copié. Collez-le dans votre publication. 
+
+[[K0043]]
+Sélectionnez et copiez le texte ci-dessous. 
+
+[[K0044]]
+Statistiques par question
+
+[[K0045]]
+Les comparaisons par question ne sont pas encore disponibles. Vos statistiques personnelles sont affichées ci-dessous. 
+
+[[K0046]]
+Le temps comptabilisé correspond à la durée pendant laquelle vous êtes resté(e) concentré(e) sur une question, jusqu'à votre dernière réponse. Pour les questions sans réponse, le temps passé est indiqué. Les onglets masqués et les pages fermées ne sont pas pris en compte. Les tentatives précédentes peuvent ne pas comporter de données temporelles. 
+
+[[K0047]]
+L'ensemble des 36 questions, y compris celles qui ont été ignorées
+
+[[K0048]]
+Question
+
+[[K0049]]
+Votre temps
+
+[[K0050]]
+Médiane des temps pour les bonnes réponses
+
+[[K0051]]
+Bonnes réponses des autres participants
+
+[[K0052]]
+Comparez vos résultats avec ceux d'autres participants ayant résolu la même version du casse-tête. Un minimum de 30 questions répondues est requis pour calculer un taux de réussite, et 30 bonnes réponses chronométrées sont nécessaires pour établir une médiane. Il s'agit de participants volontaires, et non d'un échantillon représentatif de la population. 
+
+[[K0053]]
+Comparer et contribuer
+
+[[K0054]]
+Aidez les futurs participants à comparer leurs résultats. Une fois le test terminé, vous pouvez partager des statistiques anonymes, même si vous avez ignoré certaines questions. 
+
+[[K0055]]
+Des comparaisons anonymes sont en cours de préparation. Vous pouvez consulter vos statistiques personnelles sans pour autant contribuer aux données globales. 
+
+[[K0056]]
+Tranche d'âge (facultatif)
+
+[[K0057]]
+Pays (facultatif)
+
+[[K0058]]
+Je préfère ne pas le préciser
+
+[[K0059]]
+Moins de 18 ans
+
+[[K0060]]
+J'accepte de contribuer aux statistiques comparatives en partageant, de manière anonyme, mes résultats aux questions, le temps passé à y répondre, ainsi que ma tranche d'âge et mon pays (si je choisis de les indiquer). 
+
+[[K0061]]
+Aucun nom, adresse e-mail ou âge précis ne sera collecté. Le partage de vos statistiques est facultatif et n'a aucune incidence sur votre résultat. Les groupes de comparaison trop restreints ne sont pas affichés. 
+
+[[K0062]]
+Contribuer anonymement
+
+[[K0063]]
+Pourquoi cette réponse ? 
+
+[[K0064]]
+Explication
+
+[[K0065]]
+La règle
+
+[[K0066]]
+Application de la règle
+
+[[K0067]]
+Vous consultez une ancienne version du casse-tête. Ses exemples contiennent une ambiguïté précédemment identifiée ; votre réponse et votre score enregistrés restent inchangés. 
+
+[[K0068]]
+Vous consultez la version originale, qui comportait des exemples mal étiquetés. Votre réponse et votre score enregistrés restent inchangés. Les nouvelles tentatives utilisent la version corrigée. 
+
+[[K0069]]
+Dans cette version originale, l'image centrale affichée s'étend en vert en haut à droite, ainsi qu'à la ligne 2, colonne 3 ; en rouge à la ligne 2, colonne 1 ; et en brun à la ligne 2, colonne 2, à la ligne 3, colonne 3 et à la ligne 4, colonne 3.
+
+[[K0070]]
+Partager le résultat sur Facebook

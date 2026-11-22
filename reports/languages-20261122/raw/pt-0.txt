@@ -1,0 +1,207 @@
+[[K0001]]
+Faixa mediana estimada
+
+[[K0002]]
+As comparações públicas incluem todos os participantes que utilizaram esta versão do quebra-cabeça. Informações opcionais, como faixa etária e país, são utilizadas apenas em estatísticas agregadas. 
+
+[[K0003]]
+Concordo em contribuir com os resultados anônimos da minha resolução, o tempo gasto e, opcionalmente, minha faixa etária ou país, para fins de estatísticas agregadas. 
+
+[[K0004]]
+As faixas medianas são estimadas a partir de histogramas de tempo. O intervalo exibido reflete a resolução da medição de tempo; não se afirma um valor exato para a mediana ou para o percentil de velocidade. 
+
+[[K0005]]
+Compartilhe o desafio
+
+[[K0006]]
+Tempo de resolução
+
+[[K0007]]
+As configurações de privacidade do seu navegador mantêm essas estatísticas armazenadas no seu dispositivo. 
+
+[[K0008]]
+Todas as tentativas voluntárias
+
+[[K0009]]
+Obrigado. Sua contribuição anônima foi salva. 
+
+[[K0010]]
+Ainda não há tentativas suficientes neste grupo para fins de comparação. Suas próprias estatísticas permanecem sempre disponíveis. 
+
+[[K0011]]
+As comparações estão temporariamente indisponíveis. Suas próprias estatísticas e a opção de compartilhamento continuam funcionando. 
+
+[[K0012]]
+Esta tentativa mais antiga não possui um registro completo de tempo. Você ainda pode explorar e compartilhar seu resultado. 
+
+[[K0013]]
+Decida se deseja contribuir antes de enviar quaisquer dados. 
+
+[[K0014]]
+Esta tentativa não possui um registro completo de tempo. Seus resultados pessoais permanecem inalterados. 
+
+[[K0015]]
+Não foi possível salvar sua contribuição neste navegador. Nenhum dado foi enviado. 
+
+[[K0016]]
+Esta contribuição requer revisão e não foi contabilizada novamente. 
+
+[[K0017]]
+Sua contribuição não foi confirmada. Tente novamente utilizando a mesma contribuição salva. [[K0018]]
+Não é necessário criar uma conta
+
+[[K0019]]
+O teste começa quando você estiver pronto
+
+[[K0020]]
+Teste
+
+[[K0021]]
+Perguntas respondidas
+
+[[K0022]]
+Algo para compartilhar
+
+[[K0023]]
+Seu melhor momento
+
+[[K0024]]
+Seu QI estimado
+
+[[K0025]]
+Um desafio complexo, resolvido rapidamente
+
+[[K0026]]
+Mais rápido do que a média das respostas corretas
+
+[[K0027]]
+Sua resposta correta mais rápida
+
+[[K0028]]
+Padrões que você resolveu
+
+[[K0029]]
+Um desafio que vale a pena compartilhar
+
+[[K0030]]
+36 desafios. Um único teste. 
+
+[[K0031]]
+Compartilhe um desafio com alguém que você conhece. 
+
+[[K0032]]
+Seu tempo de atividade. Não há dados comparativos suficientes para classificar sua velocidade. 
+
+[[K0033]]
+Escolha o que compartilhar
+
+[[K0034]]
+Melhor momento
+
+[[K0035]]
+Estimativa de QI
+
+[[K0036]]
+Padrões resolvidos corretamente
+
+[[K0037]]
+Compartilhar no Facebook
+
+[[K0038]]
+Copiar uma legenda personalizada
+
+[[K0039]]
+Seu texto para compartilhamento
+
+[[K0040]]
+Copiar texto
+
+[[K0041]]
+O Facebook permite que você escreva sua própria legenda. Nós nunca publicamos nada automaticamente. 
+
+[[K0042]]
+Copiado. Cole na sua publicação. 
+
+[[K0043]]
+Selecione e copie o texto abaixo. 
+
+[[K0044]]
+Suas estatísticas por pergunta
+
+[[K0045]]
+Ainda não há comparações disponíveis para as perguntas. Suas estatísticas pessoais são exibidas abaixo. 
+
+[[K0046]]
+O tempo contabilizado refere-se ao período em que a pergunta esteve em foco, até o momento da sua última resposta. Para perguntas não respondidas, é exibido o tempo gasto nelas. Abas ocultas ou páginas fechadas não são contabilizadas. Tentativas anteriores podem não conter registros de tempo. 
+
+[[K0047]]
+Todas as 36 perguntas, incluindo as que foram puladas
+
+[[K0048]]
+Pergunta
+
+[[K0069]]
+Seu tempo
+
+[[K0050]]
+Mediana de acertos
+
+[[K0051]]
+Acertos de outros participantes
+
+[[K0052]]
+Compare com tentativas voluntárias que utilizaram a mesma versão do desafio. É necessário um mínimo de 30 perguntas respondidas para calcular a taxa de acertos, e 30 respostas corretas com registro de tempo para determinar a mediana. Estes dados referem-se aos participantes, não a uma amostra representativa da população. 
+
+[[K0053]]
+Compare e contribua
+
+[[K0054]]
+Ajude futuros participantes a comparar seus resultados. Após concluir o desafio, você pode compartilhar estatísticas anônimas, mesmo que tenha pulado algumas perguntas. 
+
+[[K0055]]
+Comparações anônimas estão sendo preparadas. Você pode visualizar suas estatísticas pessoais sem precisar contribuir com os dados. 
+
+[[K0056]]
+Faixa etária (opcional)
+
+[[K0057]]
+País (opcional)
+
+[[K0058]]
+Prefiro não informar
+
+[[K0059]]
+Menos de 18 anos
+
+[[K0060]]
+Concordo em contribuir com meus resultados (respostas e tempo gasto) — incluindo a faixa etária e o país que eu optar por informar — para as estatísticas de comparação. 
+
+[[K0061]]
+Não são coletados nome, e-mail ou idade exata. O compartilhamento de estatísticas é opcional e não afeta o seu resultado. Grupos de comparação muito pequenos não são exibidos. 
+
+[[K0062]]
+Contribuir anonimamente
+
+[[K0063]]
+Por que esta resposta? 
+
+[[K0064]]
+Explicação
+
+[[K0065]]
+A regra
+
+[[K0066]]
+Aplicando a regra
+
+[[K0067]]
+Você está revisando uma versão anterior do desafio. Os exemplos nela contidos apresentam uma ambiguidade identificada anteriormente; sua resposta e pontuação permanecem inalteradas. 
+
+[[K0068]]
+Você está revisando a versão original, que continha marcadores de exemplo incorretos. Sua resposta e pontuação permanecem inalteradas. Novas tentativas utilizam a versão corrigida. 
+
+[[K0069]]
+Nesta versão original, a imagem central exibida expande-se para a cor verde no canto superior direito, na linha 2, coluna 3; para a cor vermelha na linha 2, coluna 1; e para a cor marrom na linha 2, coluna 2, na linha 3, coluna 3 e na linha 4, coluna 3.
+
+[[K0070]]
+Compartilhar resultado no Facebook

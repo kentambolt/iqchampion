@@ -1,0 +1,75 @@
+[[K0249]]
+Tras retirar los elementos rojos, los bloques restantes forman la escalera central. Al eliminar el bloque amarillo y sus vecinos adyacentes, el bloque azul superior queda libre y cae hasta la base. 
+
+[[K0250]]
+Rota las capas y aplica la máscara de color.
+
+[[K0251]]
+Sigue la trayectoria de las tres formas. En cada paso, la forma que está al frente pasa a la parte posterior. Para la imagen final, conserva los rellenos grises o negros de la imagen intermedia; las formas blancas (sin relleno) recuperan los colores que tenían en la primera imagen. 
+
+[[K0252]]
+El hexágono gris pasa al frente, la cápsula horizontal negra queda detrás de él y la cápsula vertical se desplaza a la parte posterior. Dicha cápsula vertical blanca recupera su color amarillo original. 
+
+[[K0253]]
+Utiliza el color de cada círculo para determinar su movimiento.
+
+[[K0254]]
+Analiza el movimiento de cada círculo en relación con el que lo rodea inmediatamente. El círculo blanco se desplaza 90 grados en sentido horario, el negro 90 grados en sentido antihorario, y el rojo permanece en la misma posición relativa. El azul no se mueve. Aplica estos desplazamientos a todos los niveles anidados. 
+
+[[K0255]]
+El círculo negro se desplaza desde una posición situada sobre el círculo azul hacia la izquierda de este. El rojo permanece a la derecha, dentro del círculo negro. El círculo blanco más grande se mueve desde una posición sobre el rojo hacia la derecha de este; el círculo blanco más pequeño se desplaza desde una posición debajo del círculo blanco más grande hacia la izquierda de este. 
+
+[[K0256]]
+Desplaza los colores a lo largo de las rutas conectadas.
+
+[[K0257]]
+Los enlaces negros definen las rutas por las que se desplazan los colores. Sigue cada bucle en sentido horario, moviendo cada color a la siguiente posición conectada. En una ruta de dos posiciones, los colores se intercambian; los puntos que no están conectados permanecen donde están. 
+
+[[K0258]]
+Intercambia los dos colores superiores. En el bucle inferior, el color azul situado en la parte central izquierda se desplaza al centro, mientras que el rojo situado en la parte central derecha se mueve a la parte inferior izquierda. El color rojo de la parte inferior derecha, al no estar conectado, permanece sin cambios. [[K0259]]
+Mueve cada color a lo largo de su propia trayectoria.
+
+[[K0260]]
+El rojo se desplaza hacia abajo, el verde hacia la derecha y el amarillo hacia la izquierda. El azul se desplaza hacia arriba y, siempre que sea posible, una columna hacia la izquierda. El color blanco indica una superposición de colores; separa dichos colores antes de realizar el siguiente movimiento. Los colores que salen de la cuadrícula desaparecen. 
+
+[[K0261]]
+Divide la celda blanca central en rojo y verde. El rojo se desplaza a la parte inferior central, el verde a la parte central derecha, el azul llega a la parte superior izquierda y el amarillo sale por la izquierda. Esas tres celdas coloreadas constituyen la solución. 
+
+[[K0262]]
+Mueve los extremos rojos y azules en direcciones opuestas.
+
+[[K0263]]
+En cada paso, todos los extremos rojos se desplazan una posición en sentido contrario a las agujas del reloj, mientras que todos los extremos azules se desplazan dos posiciones en el sentido de las agujas del reloj alrededor de la estrella de cinco puntas. El color blanco indica que el rojo y el azul se superponen; separa ambos colores antes de realizar el siguiente movimiento. 
+
+[[K0264]]
+En la imagen central, el rojo se encuentra en la parte inferior derecha, y el azul, en las partes superior derecha y superior izquierda. El siguiente movimiento sitúa el rojo y uno de los azules en la parte superior derecha, lo que da lugar al color blanco. El otro azul se desplaza a la parte inferior izquierda. 
+
+[[K0265]]
+Desplaza dos copias siguiendo las direcciones indicadas por el sector.
+
+[[K0266]]
+Los dos bordes del sector blanco indican dos direcciones de movimiento. Crea dos copias del patrón de puntos rojos y desplaza cada copia un paso de la cuadrícula en una de las direcciones, permitiendo que el movimiento continúe por el lado opuesto al llegar a los bordes. Una posición alcanzada por una sola copia se vuelve roja; una posición alcanzada por ambas copias se vuelve azul. 
+
+[[K0267]]
+El sector final apunta hacia abajo a la izquierda y hacia abajo a la derecha. Desplaza una copia en cada una de estas direcciones. Su superposición hace que toda la fila superior y el centro se vuelvan azules; las posiciones alcanzadas por una sola copia permanecen rojas, tal como se muestra en la solución. 
+
+[[K0268]]
+Elimina los segmentos de línea que se cruzan.
+
+[[K0269]]
+Superpón ambos dibujos. Considera cada segmento recto situado entre dos puntos consecutivos de la cuadrícula como un segmento de línea independiente. Si un segmento de un dibujo se cruza con un segmento del otro entre dos puntos, elimina ambos segmentos. Los segmentos que se encuentran en un punto de la cuadrícula permanecen en su lugar. Conserva todos los segmentos que no hayan sido cortados, provenientes de ambos dibujos. 
+
+[[K0270]]
+Elimina los segmentos diagonales que fueron cortados entre los puntos de la cuadrícula. Las piezas restantes forman una bifurcación superior con un eje vertical, dos segmentos diagonales cortos y separados cerca de las esquinas superiores, y una bifurcación inferior con su propio eje vertical. 
+
+[[K0271]]
+Desplaza y ordena las piezas según su tamaño.
+
+[[K0272]]
+Desplaza todas las piezas en la dirección que indica la flecha. Las piezas más pequeñas pasan por delante de las más grandes y alcanzan primero los espacios disponibles más lejanos. Mantén la altura y la posición vertical de cada pieza. Las piezas pueden compartir una columna siempre que no se superpongan verticalmente; las piezas del mismo tamaño conservan su orden relativo. 
+
+[[K0273]]
+La flecha apunta hacia la derecha. Coloca las piezas más cortas en los espacios disponibles a la derecha; luego, las piezas que ocupan dos celdas y, finalmente, las piezas más altas a su izquierda. Ninguna pieza se desplaza hacia arriba o hacia abajo, y ninguna cambia de tamaño. 
+
+[[K0274]]
+Mueve los divisores hacia los espacios libres.

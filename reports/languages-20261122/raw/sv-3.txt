@@ -1,0 +1,99 @@
+[[K0215]]
+Vrid figuren 45 grader moturs i varje steg. Dess färg växlar, vilket innebär att den tredje bilden återgår till samma färg som den första bilden. 
+
+[[K0216]]
+Vrid den vita mittfiguren ytterligare 45 grader moturs och återställ den mörka färgen från den första bilden. Välj den mörka, böjda figuren i det läget. 
+
+[[K0217]]
+Kombinera de svarta cirklarna.
+
+[[K0218]]
+En cirkel blir svart i resultatet om motsvarande cirkel är svart i någon av de ingående figurerna. Den blir vit endast om båda figurerna har en vit cirkel på den platsen. 
+
+[[K0219]]
+Den första figuren bidrar med den svarta cirkeln längst ner till höger; den andra bidrar med de två svarta cirklarna högst upp. Cirklarna i mitten och längst ner till vänster förblir vita. 
+
+[[K0220]]
+Utvidga till angränsande celler.
+
+[[K0221]]
+I varje steg förblir varje blå cell blå, samtidigt som den färgar sina omedelbara grannar ovanför, nedanför, till vänster och till höger. Utvidgningen stannar vid rutnätets kant. 
+
+[[K0222]]
+Utför samma utvidgning (ett steg i taget) på det blå området i mitten. De närliggande celler som nu nås blir blå; celler längre bort förblir en del av det gråsvarta rutmönstret. 
+
+[[K0223]]
+Ta bort matchande bruna positioner.
+
+[[K0224]]
+Jämför de två raderna (som vardera består av fem celler) position för position. En cell blir brun i resultatet om exakt en av de ingående figurerna har en brun cell på den platsen. Om båda har en brun cell på samma plats tar de ut varandra och blir blå. 
+
+[[K0225]]
+I den första raden är positionerna 2, 3, 4 och 5 bruna, och i den andra raden är positionerna 2, 3 och 5 bruna. Endast position 4 förblir brun. 
+
+[[K0226]]
+Ta bort de röda prickar som ligger närmast varandra.
+
+[[K0227]]
+Hitta det minsta avståndet mellan två röda prickar. Ta bort alla röda prickar som ingår i ett par med detta avstånd. Beräkna det minsta avståndet på nytt inför nästa steg. [[K0228]]
+I den mellersta bilden ingår de tre nedre röda prickarna i de närmaste diagonala paren. Om man tar bort dem återstår endast den röda pricken i den översta raden, fjärde kolumnen. 
+
+[[K0229]]
+Flytta de sex färgerna längs en cykel
+
+[[K0230]]
+Läs uppifrån och ned i den vänstra stapeln, och därefter i den högra stapeln. Flytta varje färg ett steg framåt i denna cykel på sex positioner; färgen längst ned till höger flyttas till positionen längst upp till vänster. 
+
+[[K0231]]
+Utifrån den mellersta bilden flyttas den bruna cirkeln längst ned till höger till positionen längst upp till vänster. De slutgiltiga staplarna blir brun/röd/röd till vänster och svart/brun/blå till höger. 
+
+[[K0232]]
+Flytta vitt och svart i motsatta riktningar
+
+[[K0233]]
+Vita cirklar flyttas ett hörn medurs, och svarta cirklar flyttas ett hörn moturs vid varje steg. Grått innebär att en vit och en svart cirkel befinner sig i samma hörn; separera dem innan nästa förflyttning. 
+
+[[K0234]]
+I den mellersta bilden finns vita cirklar i de två vänstra hörnen, och svarta cirklar i de två vänstra hörnen samt i hörnet längst ned till höger. Efter förflyttningen hamnar en vit cirkel längst upp till vänster, en grå cirkel längst upp till höger, och svarta cirklar i båda de nedre hörnen. 
+
+[[K0235]]
+Förläng varje horisontellt streck
+
+[[K0236]]
+Vid varje steg förlängs varje svart horisontellt streck in i de intilliggande kapslarna på båda sidor. Befintliga streck finns kvar, och strecken stannar vid de yttre kanterna. 
+
+[[K0237]]
+Förläng strecken i den mellersta bilden ytterligare en kapsel åt vänster och höger. Behåll de olika höjderna på strecken; svaret visar de resulterande längre horisontella linjerna som sträcker sig över de fyra kapslarna. 
+
+[[K0238]]
+Utöka det triangulära rutnätet
+
+[[K0239]]
+Betrakta teckningen som en samling små trianglar. Vid varje steg läggs en liten triangel till precis utanför varje frilagd kant, samtidigt som de befintliga trianglarna och deras förbindelselinjer behålls. 
+
+[[K0240]]
+Utöka det mellersta gröna klustret med ytterligare ett lager av intilliggande trianglar. Svaret behåller samma triangelnät och lägger till trianglar längs dess ytterkanter. 
+
+[[K0241]]
+Ta bort de markerade hörnen
+
+[[K0242]]
+De bruna prickarna markerar hörn i den svarta polygonen som ska tas bort. Förbind de återstående hörnen i deras ursprungliga ordning. Om två hörn återstår bildas en linjesträcka. 
+
+[[K0243]]
+Ta bort de övre och vänstra hörnen som är markerade med bruna prickar. Endast de två nedre hörnen återstår, så svaret är den korta horisontella linjen nere till höger. 
+
+[[K0244]]
+Växla prickarna i konturens hörn
+
+[[K0245]]
+Matcha hörnen i den svarta konturen mot prickpositionerna i ett 3x3-rutnät. Vid varje hörn: ta bort en befintlig blå prick, eller lägg till en om positionen är tom. Övriga positioner förblir oförändrade. 
+
+[[K0246]]
+Växla de fyra hörnen i den sneda konturen. Resultatet blir blå prickar uppe till vänster och i mitten, i mitten (både i mitten och till höger), samt på alla tre positionerna längst ner. 
+
+[[K0247]]
+Ta bort den markerade tegelstenen och dess grannar
+
+[[K0248]]
+Ta först bort den röda tegelstenen och alla tegelstenar som delar en sida med den. Låt sedan tegelstenar som saknar stöd falla rakt nedåt. Upprepa samma procedur med den gula tegelstenen.

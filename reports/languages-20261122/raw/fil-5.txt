@@ -1,0 +1,167 @@
+[[K0275]]
+Sabay-sabay na gumagalaw ang lahat ng itim na divider sa isang posisyon pakanan kung ang susunod na posisyon ay naglalaman ng dilaw na bead. Maghihintay ang isang divider na hinaharangan ng isa pang divider. Ang kanang gilid ay kumokonekta sa kaliwang gilid. 
+
+[[K0276]]
+Maglagay ng isang sabay-sabay na hakbang sa gitnang pagkakasunod-sunod. Ang pangwakas na pagkakasunud-sunod ay divider, bead, divider, bead, divider, divider, bead. 
+
+[[K0277]]
+Palawakin ang mga kulay at panatilihin ang pinakamalaking grupo
+
+[[K0278]]
+Palitan ang bawat may kulay na bola ng apat na bagong bola na may parehong kulay, isang hakbang sa itaas, sa ibaba, kaliwa at kanan. Ang mga bolang umaalis sa grid ay mawawala. Sa bawat posisyon, panatilihin ang kulay na may pinakamalaking bilang ng mga dumarating na bola. Kung ang mga kulay ay tabla para sa pinakamalaking bilang, iwanang blangko ang posisyon. Maraming mga dumating na may parehong kulay ang lilitaw bilang isang may kulay na marker. 
+
+[[K0279]]
+Ang pagpapalawak ng ipinapakitang gitnang larawan ay nag-iiwan ng berde sa kanang itaas at sa hilera 2, haligi 3; pula sa hilera 2, haligi 1; at kayumanggi sa hilera 2, hanay 2, hanay 3, hanay 3, at hilera 4, mga hanay 2, 3 at 4. Iyon mismo ang mga kulay at posisyon sa nakaimbak na sagot. 
+
+[[K0280]]
+Pumili ng wika
+
+[[K0281]]
+Maghanap ng mga wika
+
+[[K0282]]
+Isara ang tagapili ng wika
+
+[[K0283]]
+Walang natagpuang mga wika
+
+[[K0284]]
+Libreng pagsusulit sa IQ para sa kasiyahan | IQ Champion
+
+[[K0285]]
+Isang libreng pagsusulit na istilo ng IQ para sa kasiyahan: 36 na visual puzzle, 40 minuto, naka-save na progreso at isang tinantyang resulta ng IQ. Hindi kailangan ng account. 
+
+[[K0286]]
+Piliin ang iyong ginustong wika. Ang iyong mga sagot at orihinal na deadline ay mananatiling naka-save. 
+
+[[K0287]]
+Naglo-load ng wika…
+
+[[K0288]]
+Hindi ma-load ang wika. Ang iyong pagsusulit at mga sagot ay hindi nagbabago. 
+
+[[K0289]]
+May makukuhang feedback sa Danish at English. 
+
+[[K0290]]
+Ibinahaging nakamit
+
+[[K0291]]
+Ibinahaging resulta
+
+[[K0292]]
+Ang mga ibinahaging resulta ay iniuulat ng sarili. 
+
+[[K0293]]
+Ang mga ibinahaging nakamit ay iniuulat ng sarili. Walang edad, bansa, sagot o personal na profile ang ibinabahagi. 
+
+[[K0294]]
+Subukan ang 36 na puzzle nang mag-isa
+
+[[K0295]]
+Subukan ang pagsusulit nang mag-isa
+
+[[K0296]]
+Isang visual challenge sa IQ Champion. Nakikita mo rin ba ang pattern? 
+
+[[K0297]]
+Isang libreng visual puzzle test, para lang sa kasiyahan. Hindi isang propesyonal na napatunayang pagsukat ng IQ. 
+
+[[K0298]]
+Hindi natagpuan ang pahina
+
+[[K0299]]
+Maaari kang magpatuloy sa ibang wika. 
+
+[[K0300]]
+sinagot
+
+[[K0301]]
+hindi nasasagot
+
+[[K0302]]
+tama
+
+[[K0303]]
+hindi tama
+
+[[K0304]]
+Tinatayang median range: {0} ({1} mga tamang sagot na may takdang oras). 
+
+[[K0305]]
+Tanong {0} · {1}
+
+[[K0306]]
+{0} mga tamang pattern
+
+[[K0307]]
+Aktibong oras: {0}
+
+[[K0308]]
+Paghahambing: {0} mga boluntaryong pagtatangka sa loob ng {1} araw. 
+
+[[K0309]]
+Tanong {0} / {1}
+
+[[K0310]]
+Suriin ang tanong {0} / {1}
+
+[[K0311]]
+Hilera {0}, icon {1}
+
+[[K0312]]
+Sagot {0}
+
+[[K0313]]
+Tanong {0}, {1}
+
+[[K0314]]
+Suriin ang tanong {0}, {1}
+
+[[K0315]]
+{0} tama; {1} mali; {2} hindi nasagot. 
+
+[[K0316]]
+{0} nasagot; {1} hindi nasagot. 
+
+[[K0317]]
+{0} nasagot; {1} hindi nasagot. Ang mga tanong na hindi nasagot ay itinuturing na mali. Kapag tapos na, hindi mo na mababago ang mga sagot. 
+
+[[K0318]]
+{0} / {1} tama
+
+[[K0319]]
+Persentil sa mga kalahok sa kasaysayan: {0}
+
+[[K0320]]
+Mga kalahok na nakakuha ng mas mababang marka: {0}%. Mga kalahok na may parehong marka: {1}%. 
+
+[[K0321]]
+Grupong sanggunian: {0} mga pagtatangka sa kasaysayan. Kasama ang mga pagtatangka na may naitalang tagal na higit sa isang minuto at hanggang 40 minuto. Ang mga markang tabla ay nagbabahagi ng kalagitnaan ng kanilang grupo ng persentil. Ang mga pagtatantya ay nira-round off sa mga buong numero at ipinapakita lamang sa loob ng 55–145, na may tagapagpahiwatig ng limitasyon sa labas ng saklaw na iyon. Ito ay isang conversion ng iskala, hindi isang independiyenteng napatunayang pagsukat ng IQ ng populasyon. Ang pagsasanay at paulit-ulit na mga pagtatangka ay maaaring makaapekto sa iyong resulta. Ang ilang halimbawang larawan ay naitama mula nang makolekta ang mga pagtatangka sa kasaysayan, na naglilimita sa paghahambing. 
+
+[[K0322]]
+Ang aking tinantyang IQ sa IQ Champion: {0}. Para lamang sa kasiyahan. Subukan ito: {1}
+
+[[K0323]]
+Nalutas ko nang tama ang tanong na {0} sa {1}. Magagawa mo rin ba ito? {2}
+
+[[K0324]]
+Nalutas ko nang tama ang tanong na {0} sa {1} (tinatayang median sa mga tamang sagot: {2}). Magagawa mo rin ba ito? {3}
+
+[[K0325]]
+Nakakita ako ng {0} tamang mga pattern sa IQ Champion. Subukan ito: {1}
+
+[[K0326]]
+Mahahanap mo ba ang mga nawawalang pattern sa IQ Champion? {0}
+
+[[K0327]]
+Nalutas na ang tanong na {0}
+
+[[K0328]]
+{0} nalutas na ang mga pattern
+
+[[K0329]]
+{0} / 36 tama. {1}
+
+[[K0330]]
+Tinatayang IQ {0} | IQ Champion

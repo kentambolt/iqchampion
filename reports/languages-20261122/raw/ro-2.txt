@@ -1,0 +1,121 @@
+[[K0173]]
+Fiecare poziție din fiecare rând de exemplu conține același cerc albastru. Nici forma, nici culoarea, nici dimensiunea nu se modifică. 
+
+[[K0174]]
+Ultimul rând conține deja două cercuri albastre identice. Un alt cerc albastru identic îl completează. 
+
+[[K0175]]
+Adaugă un contur inclus
+
+[[K0176]]
+Deplasarea spre dreapta adaugă un contur mai mic, de aceeași formă, în interiorul celui anterior. Forma exterioară și culoarea acesteia rămân neschimbate. 
+
+[[K0177]]
+Triunghiul verde are un triunghi interior în poziția din mijloc. Adaugă încă un triunghi interior, mai mic, pentru a obține răspunsul. 
+
+[[K0178]]
+Folosește prima formă ca decupaj
+
+[[K0179]]
+Forma neagră din prima poziție este eliminată din centrul pătratului colorat din a doua poziție. Golul rezultat este alb. 
+
+[[K0180]]
+Pătratul negru creează un gol pătrat în pătratul verde. Alege pătratul verde care are o deschidere pătrată albă. 
+
+[[K0181]]
+Combină culorile de sus și de jos
+
+[[K0182]]
+Rezultatul preia jumătatea superioară de la prima capsulă și jumătatea inferioară de la a doua capsulă. 
+
+[[K0183]]
+Prima capsulă este albă, iar a doua este albastră; prin urmare, rezultatul este alb în partea de sus și albastru în partea de jos. 
+
+[[K0184]]
+Rotește lobii colorați
+
+[[K0185]]
+La fiecare pas, rotește întreaga figură cu patru lobi la 90 de grade în sensul acelor de ceasornic. Fiecare lob roșu sau albastru se deplasează odată cu figura. 
+
+[[K0186]]
+Rotește figura din mijloc încă un sfert de tură în sensul acelor de ceasornic. Cei doi lobi roșii ajung în partea dreaptă și în partea de jos; lobii de sus și din stânga sunt albaștri. 
+
+[[K0187]]
+Rotunjește colțurile progresiv
+
+[[K0188]]
+Culoarea și forma generală rămân aceleași, în timp ce colțurile devin tot mai rotunjite la fiecare pas. [[K0189]]
+Continuă rotunjirea colțurilor dreptunghiului maro. Rezultatul este forma de capsulă maro, cu capetele complet rotunjite. 
+
+[[K0190]]
+Continuă deplasarea cercului.
+
+[[K0191]]
+În fiecare rând, cercul verde se deplasează pe aceeași distanță și în aceeași direcție: în sus, în jos sau pe orizontală. Dimensiunea sa rămâne neschimbată. 
+
+[[K0192]]
+În ultimul rând, cercul se deplasează spre stânga, de-a lungul laturii inferioare a pătratului. Încă un pas de aceeași lungime îl plasează în colțul din stânga jos. 
+
+[[K0193]]
+Rotește întregul model de puncte.
+
+[[K0194]]
+Rotește pătratul și toate punctele din interiorul său cu 45 de grade în sens invers acelor de ceasornic, la fiecare pas. Pătratul devine un romb, apoi revine la forma de pătrat. 
+
+[[K0195]]
+Rotește rombul din mijloc (verde-negru) cu încă 45 de grade în sens invers acelor de ceasornic. Păstrează punctele verzi și negre în noile lor poziții, rezultate în urma rotației. 
+
+[[K0196]]
+Scurtează fiecare bară, începând de sus.
+
+[[K0197]]
+La fiecare pas, fiecare bară verticală neagră pierde un interval (o unitate a grilei) din capătul superior. Capătul inferior rămâne fixat pe linia de jos. O bară dispare complet atunci când lungimea sa ajunge la zero. 
+
+[[K0198]]
+În imaginea din mijloc, bara centrală are o lungime de un interval, iar bara din dreapta are o lungime de două intervale. Bara centrală dispare, rămânând doar bara din dreapta, cu o lungime de un interval. 
+
+[[K0199]]
+Reflectă față de linia neagră.
+
+[[K0200]]
+Linia din mijloc servește drept axă de simetrie (oglindă). Reflectă forma colorată față de această linie, în loc să o rotești pur și simplu. 
+
+[[K0201]]
+Ultima axă de simetrie este verticală, astfel încât forma galbenă este inversată stânga-dreapta. Culoarea și dimensiunea sa rămân neschimbate. 
+
+[[K0202]]
+Suprapune formele și folosește prima culoare.
+
+[[K0203]]
+Așază cele două forme una peste alta. Păstrează conturul combinat (silueta rezultată) și liniile vizibile, dar colorează totul folosind culoarea primei forme. [[K0204]]
+Suprapune triunghiul albastru orientat în jos peste hexagonul galben, apoi folosește culoarea albastră pentru figura rezultată. Vârfurile triunghiului care ies în afară rămân vizibile în jurul hexagonului. 
+
+[[K0205]]
+Păstrează culoarea verde în exact una dintre intrări.
+
+[[K0206]]
+Compară zonele corespondente ale celor două pătrate. O zonă devine verde dacă este verde în exact una dintre intrări. Dacă o zonă este verde în ambele, aceasta devine albă; dacă este albă în ambele, rămâne albă. 
+
+[[K0207]]
+Primul pătrat este complet verde, iar al doilea are verde doar sfertul din stânga jos. Acest sfert comun devine alb, în ​​timp ce celelalte trei sferturi rămân verzi. 
+
+[[K0208]]
+Adaugă câte o copie în fiecare colț.
+
+[[K0209]]
+Plasează o copie a simbolului negru mic în fiecare vârf al formei mari. Copiile adăugate preiau culoarea formei mari. 
+
+[[K0210]]
+Rombul albastru mare are patru colțuri. Adaugă un triunghi albastru orientat în jos în fiecare colț, respectând aceeași regulă de plasare ca în exemple. 
+
+[[K0211]]
+Adună înălțimile barelor corespondente.
+
+[[K0212]]
+Pentru fiecare dintre cele trei poziții orizontale, adună înălțimea barei negre din prima imagine cu înălțimea barei corespondente din a doua imagine. Măsoară înălțimea pornind de jos, de la linia de bază comună. 
+
+[[K0213]]
+Niciuna dintre intrări nu are o bară în partea stângă. Cele două bare din mijloc, adunate, formează o bară cu înălțime maximă, în timp ce barele din dreapta formează o bară mai scurtă. Rezultatul conține doar aceste bare din mijloc și din dreapta. 
+
+[[K0214]]
+Rotește și alternează culorile.

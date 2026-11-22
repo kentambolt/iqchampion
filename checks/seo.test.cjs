@@ -4,10 +4,11 @@ const fs=require('node:fs');
 const path=require('node:path');
 const {spawnSync}=require('node:child_process');
 const root=path.resolve(__dirname,'..');
+const catalog=require('../assets/languages.js');
 const read=name=>fs.readFileSync(path.join(root,name),'utf8');
 
 test('generated language pages are reproducible and current',()=>{
- const result=spawnSync(process.execPath,['tools/Build-Language-Pages.cjs','--ready-only','--check'],{cwd:root,encoding:'utf8'});
+ const result=spawnSync(process.execPath,['tools/Build-Language-Pages.cjs','--check'],{cwd:root,encoding:'utf8'});
  assert.equal(result.status,0,result.stderr||result.stdout);
 });
 
@@ -37,10 +38,10 @@ test('both real HTML routes expose localized content before JavaScript and recip
  }
 });
 
-test('sitemap contains only the two real canonical public pages; 404 is noindex and has no test state',()=>{
+test('sitemap contains the 50 real canonical public pages; 404 is noindex and has no test state',()=>{
  const sitemap=read('sitemap.xml');
  const urls=[...sitemap.matchAll(/<loc>([^<]+)<\/loc>/g)].map(m=>m[1]);
- assert.deepEqual(urls,['https://iqchampion.com/da/','https://iqchampion.com/en/']);
+ assert.deepEqual(urls,catalog.map(l=>'https://iqchampion.com/'+l.code+'/'));
  assert.match(read('robots.txt'),/Sitemap: https:\/\/iqchampion\.com\/sitemap\.xml/);
  assert.doesNotMatch(sitemap,/feedback|admin|login|result|preview|report|tests/);
  const notFound=read('404.html');

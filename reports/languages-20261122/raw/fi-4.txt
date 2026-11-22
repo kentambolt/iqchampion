@@ -1,0 +1,75 @@
+[[K0249]]
+Kun punainen palikka on poistettu, jäljelle jäävistä palikoista muodostuu keskimmäinen porras. Kun keltainen palikka ja sen koskettamat naapuripalikat poistetaan, ylin sininen palikka jää jäljelle ja putoaa alimmas. 
+
+[[K0250]]
+Kierrätä kerroksia ja käytä värisuodatinta.
+
+[[K0251]]
+Seuraa samoja kolmea muotoa. Jokaisessa vaiheessa etummainen muoto siirtyy taakse. Lopullisessa kuvassa säilytetään keskimmäisen kuvan harmaat tai mustat täytöt, kun taas täyttämättömät valkoiset muodot saavat takaisin värinsä ensimmäisestä kuvasta. 
+
+[[K0252]]
+Harmaa kuusikulmio siirtyy eteen, musta vaakasuuntainen kapseli jää sen taakse ja pystysuuntainen kapseli siirtyy taaimmaiseksi. Valkoinen pystysuuntainen kapseli saa takaisin alkuperäisen keltaisen värinsä. 
+
+[[K0253]]
+Päättele kunkin ympyrän liike sen värin perusteella.
+
+[[K0254]]
+Seuraa kunkin ympyrän liikettä suhteessa sitä ympäröivään ympyrään. Valkoinen liikkuu 90 astetta myötäpäivään, musta 90 astetta vastapäivään, ja punainen pysyy samassa suhteellisessa sijainnissa. Sininen ei liiku. Sovella näitä liikkeitä kaikilla sisäkkäisillä tasoilla. 
+
+[[K0255]]
+Musta ympyrä siirtyy sinisen ympyrän yläpuolelta sen vasemmalle puolelle. Punainen pysyy mustan sisällä oikealla puolella. Suurempi valkoinen ympyrä siirtyy punaisen yläpuolelta sen oikealle puolelle; pienin valkoinen ympyrä siirtyy suuremman valkoisen ympyrän alapuolelta sen vasemmalle puolelle. 
+
+[[K0256]]
+Siirrä värejä yhdistäviä reittejä pitkin.
+
+[[K0257]]
+Mustat viivat määrittävät reitit, joita pitkin värit liikkuvat. Seuraa jokaista silmukkaa myötäpäivään ja siirrä kukin väri seuraavaan yhdistettyyn kohtaan. Kahden pisteen reitillä värit vaihtavat paikkaa keskenään; irralliset pisteet pysyvät paikoillaan. 
+
+[[K0258]]
+Vaihda kahden ylimmän värin paikkaa. Alemmassa silmukassa keskellä vasemmalla oleva sininen siirtyy keskelle, ja keskellä oikealla oleva punainen siirtyy vasempaan alakulmaan. Oikeassa alakulmassa oleva irrallinen punainen pysyy ennallaan. [[K0259]]
+Siirrä kutakin väriä sen omaa reittiä pitkin
+
+[[K0260]]
+Punainen liikkuu alas, vihreä oikealle ja keltainen vasemmalle. Sininen liikkuu ylös ja mahdollisuuksien mukaan yhden sarakkeen verran vasemmalle. Valkoinen väri merkitsee päällekkäisiä värejä; erota nämä värit toisistaan ​​ennen seuraavaa siirtoa. Ruudukon ulkopuolelle siirtyvät värit katoavat. 
+
+[[K0261]]
+Jaa keskellä oleva valkoinen ruutu punaiseksi ja vihreäksi. Punainen siirtyy alareunan keskelle, vihreä oikean reunan keskelle, sininen päätyy vasempaan yläkulmaan ja keltainen poistuu vasemmalta. Nämä kolme värillistä ruutua muodostavat vastauksen. 
+
+[[K0262]]
+Siirrä punaisia ​​ja sinisiä kärkiä vastakkaisiin suuntiin
+
+[[K0263]]
+Jokaisessa vaiheessa jokainen punainen kärki siirtyy yhden askeleen vastapäivään ja jokainen sininen kärki kaksi askelta myötäpäivään viisisakaraista tähteä pitkin. Valkoinen väri tarkoittaa, että punainen ja sininen ovat päällekkäin; erota värit toisistaan ​​ennen seuraavaa siirtoa. 
+
+[[K0264]]
+Keskimmäisessä kuvassa punainen on oikeassa alakulmassa, ja sininen on sekä oikeassa että vasemmassa yläkulmassa. Seuraavassa siirrossa punainen ja toinen sinisistä päätyvät samaan kohtaan oikeaan yläkulmaan, jolloin väriksi tulee valkoinen. Toinen sinisistä siirtyy vasempaan alakulmaan. 
+
+[[K0265]]
+Siirrä kahta kopiota sektorin osoittamiin suuntiin
+
+[[K0266]]
+Valkoisen sektorin kaksi reunaa osoittavat kaksi liikesuuntaa. Tee punaisista pisteistä koostuvasta kuviosta kaksi kopiota ja siirrä kumpaakin kopiota yhden ruudukkoaskeleen verran kumpaankin suuntaan (reunojen yli jatkuen). Kohta, johon päätyy yksi kopio, muuttuu punaiseksi; kohta, johon päätyvät molemmat kopiot, muuttuu siniseksi. 
+
+[[K0267]]
+Viimeinen sektori osoittaa alas vasemmalle ja alas oikealle. Siirrä kopiota kumpaankin suuntaan. Niiden päällekkäisyys värjää koko ylimmän rivin sekä keskiosan siniseksi; kohdat, joihin päätyy vain yksi kopio, jäävät punaisiksi, kuten vastauksessa näkyy. 
+
+[[K0268]]
+Poista toistensa yli kulkevat viivaosuudet
+
+[[K0269]]
+Aseta molemmat piirrokset päällekkäin. Tarkastele jokaista peräkkäisten ruudukkopisteiden välistä suoraa viivaa erillisenä viivaosuutena. Jos pisteiden välillä toisen piirroksen viivaosuus leikkaa toisen piirroksen viivaosuuden, poista molemmat osuudet. Ruudukon pisteissä kohtaavat janat säilytetään. Säilytä kaikki leikkaamattomat janat molemmista piirroksista. 
+
+[[K0270]]
+Poista ruudukon pisteiden väliltä katkaistut vinot janat. Jäljelle jäävät osat muodostavat ylemmän haarukan, jossa on pystysuora varsi; kaksi erillistä lyhyttä vinoa janaa yläkulmien lähellä; sekä alemman haarukan, jolla on oma pystysuora vartensa. 
+
+[[K0271]]
+Siirrä ja lajittele osat koon mukaan.
+
+[[K0272]]
+Työnnä kaikkia osia nuolen osoittamaan suuntaan. Pienemmät osat ohittavat suuremmat ja saavuttavat ensimmäisinä kauimmaiset vapaat paikat. Säilytä kunkin osan korkeus ja pystysuora sijainti. Osat voivat sijaita samassa sarakkeessa, jos ne eivät ole päällekkäin pystysuunnassa; samankokoisten osien keskinäinen järjestys säilyy. 
+
+[[K0273]]
+Nuoli osoittaa oikealle. Aseta lyhimmät osat oikealla oleviin vapaisiin paikkoihin, sen jälkeen kahden ruudun kokoiset osat ja lopuksi korkeammat osat niiden vasemmalle puolelle. Mikään osa ei liiku ylös tai alas, eikä mikään osa muuta kokoaan. 
+
+[[K0274]]
+Siirrä jakajat vapaisiin paikkoihin.

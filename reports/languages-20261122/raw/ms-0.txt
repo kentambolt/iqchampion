@@ -1,0 +1,210 @@
+[[K0001]]
+Julat median anggaran
+
+[[K0002]]
+Perbandingan awam merangkumi semua penyumbang yang menggunakan versi teka-teki ini. Kumpulan umur dan negara pilihan hanya digunakan dalam statistik agregat peribadi. 
+
+[[K0003]]
+Saya bersetuju untuk menyumbangkan keputusan soalan tanpa nama saya, masa aktif dan mana-mana kumpulan umur atau negara pilihan kepada statistik agregat. 
+
+[[K0004]]
+Julat median dianggarkan daripada histogram masa. Selang masa yang dipaparkan menunjukkan resolusi masa; tiada persentil median atau kelajuan yang tepat dituntut. 
+
+[[K0005]]
+Kongsi cabaran
+
+[[K0006]]
+Masa soalan
+
+[[K0007]]
+Keutamaan privasi pelayar anda menyimpan statistik ini pada peranti anda. 
+
+[[K0008]]
+Semua percubaan sukarela
+
+[[K0009]]
+Terima kasih. Sumbangan tanpa nama anda telah disimpan. 
+
+[[K0010]]
+
+Tiada percubaan setanding yang mencukupi dalam kumpulan ini lagi. Statistik anda sendiri sentiasa tersedia. 
+
+[[K0011]]
+Perbandingan buat sementara waktu tidak tersedia. Statistik dan perkongsian anda sendiri masih berfungsi. 
+
+[[K0012]]
+Percubaan lama ini tidak mempunyai rekod masa yang lengkap. Anda masih boleh meneroka dan berkongsi hasil anda. 
+
+[[K0013]]
+Pilih sama ada untuk menyumbang sebelum menghantar sebarang data. 
+
+[[K0014]]
+Percubaan ini tidak mempunyai rekod masa yang lengkap. Hasil peribadi anda tidak berubah. 
+
+[[K0015]]
+Sumbangan anda tidak dapat disimpan dalam pelayar ini. Tiada apa yang dihantar. 
+
+[[K0016]]
+Sumbangan ini perlu disemak semula dan tidak dikira lagi. 
+
+[[K0017]]
+Sumbangan anda belum disahkan. Cuba lagi dengan sumbangan yang disimpan sama. 
+
+[[K0018]]
+Tiada akaun diperlukan
+
+[[K0019]]
+Ujian bermula apabila anda bersedia
+
+[[K0020]]
+Ujian
+
+[[K0021]]
+Soalan terjawab
+
+[[K0022]]
+Sesuatu untuk dikongsi
+
+[[K0023]]
+Detik terkuat anda
+
+[[K0024]]
+Anggaran IQ anda
+
+[[K0025]]
+Teka-teki yang rumit, diselesaikan dengan cepat
+
+[[K0026]]
+Lebih pantas daripada jawapan betul biasa
+
+[[K0027]]
+Jawapan betul terpantas anda
+
+[[K0028]]
+Corak yang anda selesaikan
+
+[[K0029]]
+Cabaran yang patut dikongsi
+
+[[K0030]]
+36 teka-teki. Satu cabaran. 
+
+[[K0031]]
+Kongsikan cabaran dengan seseorang yang anda kenali. 
+
+[[K0032]]
+Masa aktif anda sendiri. Data perbandingan tidak mencukupi untuk menilai kelajuannya. 
+
+[[K0033]]
+Pilih apa yang hendak dikongsi
+
+[[K0034]]
+Detik terbaik
+
+[[K0035]]
+Anggaran IQ
+
+[[K0036]]
+Corak yang betul
+
+[[K0037]]
+Kongsi di Facebook
+
+[[K0038]]
+Salin kapsyen peribadi
+
+[[K0039]]
+Teks perkongsian anda
+
+[[K0040]]
+Salin teks
+
+[[K0041]]
+Facebook membolehkan anda menulis kapsyen anda sendiri. Kami tidak pernah menyiarkan secara automatik. 
+
+[[K0042]]
+Disalin. Tampalkannya ke dalam siaran anda. 
+
+[[K0043]]
+Pilih dan salin teks di bawah. 
+
+[[K0044]]
+Statistik soalan anda
+
+[[K0045]]
+Perbandingan soalan belum tersedia lagi. Statistik peribadi anda ditunjukkan di bawah. 
+
+[[K0046]]
+Masa mengira masa soalan yang boleh dilihat dan tertumpu sehingga jawapan terakhir anda. Untuk soalan yang tidak dijawab, masa yang digunakan akan ditunjukkan. Tab tersembunyi dan halaman tertutup tidak dikira. Percubaan terdahulu mungkin tidak mempunyai masa. 
+
+[[K0047]]
+Kesemua 36 soalan, termasuk soalan yang dilangkau
+
+[[K0048]]
+Soalan
+
+[[K0049]]
+Masa anda
+
+[[K0050]]
+Median jawapan betul
+
+[[K0051]]
+Lain-lain betul
+
+[[K0052]]
+Bandingkan dengan percubaan sukarela yang menggunakan versi teka-teki yang sama. Sekurang-kurangnya 30 soalan yang dijawab diperlukan untuk kadar yang betul, dan 30 jawapan betul bermasa untuk median. Ini adalah peserta, bukan populasi yang mewakili. 
+
+[[K0053]]
+Bandingkan dan sumbang
+
+[[K0054]]
+Bantu peserta akan datang membandingkan keputusan mereka. Anda boleh berkongsi statistik ujian tanpa nama selepas selesai, walaupun anda melangkau soalan. 
+
+[[K0055]]
+Perbandingan tanpa nama sedang disediakan. Statistik peribadi dan perkongsian anda berfungsi tanpa menyumbang. 
+
+[[K0056]]
+Kumpulan umur (pilihan)
+
+[[K0057]]
+Negara (pilihan)
+
+[[K0058]]
+Lebih suka tidak menyebut
+
+[[K0059]]
+Bawah 18 tahun
+
+[[K0060]]
+Saya bersetuju untuk menyumbang keputusan soalan tanpa nama saya dan masa aktif, bersama-sama dengan mana-mana kumpulan umur dan negara yang saya pilih, kepada statistik perbandingan. 
+
+[[K0061]]
+Tiada nama, e-mel atau umur yang tepat. Perkongsian statistik anda adalah pilihan dan tidak menjejaskan keputusan anda. Kumpulan perbandingan kecil disembunyikan. 
+
+[[K0062]]
+Sumbang tanpa nama
+
+[[K0063]]
+Mengapa jawapan ini? 
+
+[[K0064]]
+Penjelasan
+
+[[K0065]]
+Peraturan
+
+[[K0066]]
+Menggunakan peraturan
+
+[[K0067]]
+Anda sedang menyemak versi teka-teki yang lebih lama. Contohnya mengandungi kekaburan yang dikenal pasti sebelum ini; jawapan dan skor anda yang disimpan tidak berubah. 
+
+[[K0068]]
+Anda sedang menyemak versi asal, yang mengandungi penanda contoh yang salah. Jawapan dan skor anda yang disimpan tidak berubah. Percubaan baharu menggunakan versi yang telah dibetulkan. 
+
+[[K0069]]
+Dalam versi asal ini, gambar tengah yang dipaparkan mengembang kepada hijau di bahagian atas sebelah kanan dan baris 2, lajur 3; merah pada baris 2, lajur 1; dan coklat pada baris 2, lajur 2, baris 3, lajur 3 dan baris 4, lajur 3.
+
+[[K0070]]
+Kongsi hasil di Facebook

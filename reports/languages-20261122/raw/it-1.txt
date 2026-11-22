@@ -1,0 +1,301 @@
+[[K0071]]
+Condividi il test su Facebook
+
+[[K0072]]
+QI stimato
+
+[[K0073]]
+Solo per divertimento. Un punteggio approssimativo, non una misurazione del QI con validazione professionale. 
+
+[[K0074]]
+Il tuo test è incompleto. Vengono mostrate le risposte corrette, ma per una stima del QI sono necessarie tutte le 36 risposte. 
+
+[[K0075]]
+Non disponibile
+
+[[K0076]]
+Test di ragionamento visivo gratuito | IQ Champion
+
+[[K0077]]
+36 enigmi di ragionamento visivo. Affronta una sfida gratuita di 40 minuti e scopri i tuoi risultati. 
+
+[[K0078]]
+Risposto
+
+[[K0079]]
+Senza risposta
+
+[[K0080]]
+Corretto
+
+[[K0081]]
+Errato
+
+[[K0082]]
+Chiudi
+
+[[K0083]]
+Aiuto
+
+[[K0084]]
+40 min
+
+[[K0085]]
+Lingua
+
+[[K0086]]
+Informazioni sul test
+
+[[K0087]]
+Una sfida di ragionamento visivo
+
+[[K0088]]
+Individua lo schema. 
+
+[[K0089]]
+Trova l'elemento mancante. 
+
+[[K0090]]
+36 enigmi visivi e una stima del QI. Solo per divertimento. 
+
+[[K0091]]
+Enigmi
+
+[[K0092]]
+Limite di tempo
+
+[[K0093]]
+Costo
+
+[[K0094]]
+Gratuito
+
+[[K0095]]
+Non è richiesto alcun account. Il timer si avvia quando inizi. 
+
+[[K0096]]
+Come funziona il test
+
+[[K0097]]
+Scegli l'icona che completa ogni schema. 
+
+[[K0098]]
+Salta le domande più complesse e torna a esse usando la panoramica. 
+
+[[K0099]]
+Rivedi o modifica le tue risposte prima di terminare. [[K0100]]
+Le tue risposte e l'orario di inizio vengono salvati in questo browser. Se ricarichi la pagina, la scadenza originale rimane invariata. 
+
+[[K0101]]
+Il timer di 40 minuti continua a scorrere anche se la pagina viene chiusa. Le domande senza risposta vengono considerate errate. 
+
+[[K0102]]
+Informazioni sul tuo risultato
+
+[[K0103]]
+Il tuo QI stimato si basa sulla tua posizione rispetto a
+
+[[K0104]]
+tentativi effettuati in passato. 
+
+[[K0105]]
+Il confronto prende in considerazione i tentativi con una durata compresa tra un minuto e 40 minuti. Non è stato convalidato tramite un test del QI ufficiale né su un campione rappresentativo della popolazione. 
+
+[[K0106]]
+Un test a scopo ricreativo. Il QI stimato è un'approssimazione e non un punteggio di QI convalidato a livello professionale. 
+
+[[K0117]]
+Inizia il test di 40 minuti
+
+[[K0108]]
+Test di ragionamento
+
+[[K0109]]
+La tua sfida
+
+[[K0110]]
+Tempo rimanente
+
+[[K0111]]
+rimanente
+
+[[K0112]]
+Schema della domanda
+
+[[K0113]]
+Individua lo schema
+
+[[K0114]]
+Quattro righe di schemi visivi; completa l'ultima riga
+
+[[K0115]]
+Scegli la tua risposta
+
+[[K0116]]
+Navigazione tra le domande
+
+[[K0117]]
+Domanda precedente
+
+[[K0118]]
+Salta per ora
+
+[[K0119]]
+Domanda successiva
+
+[[K0120]]
+Panoramica delle domande
+
+[[K0121]]
+✓ Risposta data
+
+[[K0122]]
+○ Senza risposta
+
+[[K0123]]
+Bordo evidenziato = domanda corrente
+
+[[K0124]]
+Vai a una domanda specifica
+
+[[K0125]]
+Rivedi e termina
+
+[[K0126]]
+Istruzioni e progressi salvati
+
+[[K0127]]
+Seleziona una risposta per passare alla domanda successiva ancora senza risposta. Puoi saltare le domande, tornare indietro e modificare le risposte prima di terminare. 
+
+[[K0128]]
+Le risposte vengono salvate automaticamente in questo browser. Se ricarichi la pagina, riprenderai dalla stessa domanda; il timer continuerà a scorrere. 
+
+[[K0129]]
+Quando vuoi
+
+[[K0130]]
+Terminare il test? 
+
+[[K0131]]
+Continua a lavorare
+
+[[K0132]]
+Termina e visualizza il risultato
+
+[[K0133]]
+Sfida completata
+
+[[K0134]]
+Il tuo risultato
+
+[[K0135]]
+Rivedi le risposte
+
+[[K0136]]
+Riprova
+
+[[K0137]]
+Informazioni sul test
+
+[[K0138]]
+Come interpretare questo risultato
+
+[[K0139]]
+Il tuo percentile, calcolato rispetto ai tentativi precedenti, viene convertito nella scala del QI: valore centrale 100 e deviazione standard 15. Questo presuppone che il gruppo di confronto rispecchi l'intera popolazione, un aspetto che non è stato accertato. 
+
+[[K0140]]
+Spiegazione delle tue risposte
+
+[[K0141]]
+Controlla le tue risposte
+
+[[K0142]]
+Torna al risultato
+
+[[K0143]]
+Lo schema
+
+[[K0144]]
+Confronta le risposte
+
+[[K0145]]
+La tua risposta
+
+[[K0146]]
+Risposta corretta
+
+[[K0147]]
+Domanda precedente
+
+[[K0148]]
+Domanda successiva
+
+[[K0149]]
+Risultati per singola domanda
+
+[[K0150]]
+Esplora tutti i 36 quesiti
+
+[[K0151]]
+✓ Corretto
+
+[[K0152]]
+× Errato
+
+[[K0153]]
+Rivedi una domanda
+
+[[K0154]]
+Le risposte inviate e il punteggio finale rimangono invariati. [[K0155]]
+Contatti
+
+[[K0156]]
+Feedback e contatti
+
+[[K0157]]
+Invia un feedback o contattaci
+
+[[K0158]]
+Corretto. La tua risposta coincide con quella corretta. 
+
+[[K0159]]
+Errato. La tua risposta è diversa da quella corretta. 
+
+[[K0160]]
+Senza risposta. Non è stata fornita alcuna risposta a questa domanda. 
+
+[[K0161]]
+Nessuna risposta fornita
+
+[[K0162]]
+La risposta che hai fornito
+
+[[K0163]]
+Icona mancante
+
+[[K0164]]
+Tutte le domande hanno ricevuto una risposta. Puoi ancora rivedere e modificare le risposte, quindi concludere il test. 
+
+[[K0165]]
+Mancano cinque minuti o meno. 
+
+[[K0166]]
+Tempo scaduto. Le tue risposte sono state valutate. 
+
+[[K0167]]
+Test completato. 
+
+[[K0168]]
+Confronto non disponibile. 
+
+[[K0169]]
+Il browser non è riuscito a salvare il tuo tentativo. Tieni aperta questa pagina: ricaricarla potrebbe comportare la perdita dei progressi o il ripristino di risposte precedenti. 
+
+[[K0170]]
+Il salvataggio locale non è disponibile in questo browser. Tieni aperta la pagina per evitare di perdere il tuo tentativo. 
+
+[[K0171]]
+Non è stato possibile ripristinare il tentativo salvato. Inizia un nuovo test quando sei pronto. 
+
+[[K0172]]
+Mantieni la figura invariata

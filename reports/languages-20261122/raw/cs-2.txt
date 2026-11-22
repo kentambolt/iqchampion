@@ -1,0 +1,121 @@
+[[K0173]]
+Na každé pozici v každém příkladovém řádku je stejný modrý kruh. Tvar, barva ani velikost se nemění. 
+
+[[K0174]]
+Poslední řádek již obsahuje dva shodné modré kruhy. Další shodný modrý kruh jej doplňuje. 
+
+[[K0175]]
+Přidejte jeden vnořený obrys
+
+[[K0176]]
+Při posunu doprava se uvnitř předchozího tvaru objeví menší obrys stejného tvaru. Vnější tvar i jeho barva zůstávají nezměněny. 
+
+[[K0177]]
+Zelený trojúhelník má na prostřední pozici jeden vnitřní trojúhelník. Přidejte další, menší vnitřní trojúhelník a získáte správné řešení. 
+
+[[K0178]]
+Použijte první tvar jako výřez
+
+[[K0179]]
+Černý tvar na první pozici je vyjmut ze středu barevného čtverce na druhé pozici. Vzniklý otvor je bílý. 
+
+[[K0180]]
+Černý čtverec vytvoří čtvercový otvor v zeleném čtverci. Vyberte zelený čtverec s bílým čtvercovým otvorem. 
+
+[[K0181]]
+Zkombinujte horní a dolní barvy
+
+[[K0182]]
+Výsledný tvar přebírá horní polovinu z první kapsle a dolní polovinu z druhé kapsle. 
+
+[[K0183]]
+První kapsle je bílá a druhá modrá, takže výsledek je nahoře bílý a dole modrý. 
+
+[[K0184]]
+Otočte barevné části
+
+[[K0185]]
+V každém kroku otočte celý útvar se čtyřmi částmi o 90 stupňů po směru hodinových ručiček. Všechny červené a modré části se otáčejí společně s útvarem. 
+
+[[K0186]]
+Otočte prostřední útvar o další čtvrtotáčku po směru hodinových ručiček. Dvě červené části skončí vpravo a dole; horní a levá část jsou modré. 
+
+[[K0187]]
+Postupně zaoblete rohy
+
+[[K0188]]
+Barva i celkový tvar zůstávají stejné, zatímco rohy se v každém kroku stávají více zaoblenými. [[K0189]]
+Pokračujte v zaoblování rohů hnědého obdélníku. Výsledkem je hnědý útvar připomínající kapsli se zcela zaoblenými konci. 
+
+[[K0190]]
+Pokračujte v pohybu kruhu.
+
+[[K0191]]
+V každém řádku se zelený kruh posouvá o stejnou vzdálenost stejným směrem: nahoru, dolů nebo vodorovně. Jeho velikost zůstává neměnná. 
+
+[[K0192]]
+V posledním řádku se kruh posouvá doleva podél spodní strany čtverce. Další stejně velký krok jej umístí do levého dolního rohu. 
+
+[[K0193]]
+Otočte celý vzor tvořený tečkami.
+
+[[K0194]]
+V každém kroku otočte čtverec i všechny tečky v něm o 45 stupňů proti směru hodinových ručiček. Čtverec se změní na kosočtverec a poté opět na čtverec. 
+
+[[K0195]]
+Otočte prostřední zeleno-černý kosočtverec o dalších 45 stupňů proti směru hodinových ručiček. Zelené a černé tečky ponechte v jejich otočených polohách. 
+
+[[K0196]]
+Zkraťte každý pruh shora.
+
+[[K0197]]
+V každém kroku se každý svislý černý pruh zkrátí o jeden dílek mřížky, a to od horního konce. Spodní konec zůstává na spodní čáře. Jakmile délka pruhu dosáhne nuly, pruh zmizí. 
+
+[[K0198]]
+Na prostředním obrázku je uprostřed pruh o délce jednoho dílku a vpravo pruh o délce dvou dílků. Prostřední pruh zmizí a vpravo zůstane pruh o délce jednoho dílku. 
+
+[[K0199]]
+Proveďte zrcadlení podle černé čáry.
+
+[[K0200]]
+Prostřední čára slouží jako osa zrcadlení. Barevný útvar podle této osy zrcadlově převraťte – nejedná se tedy o pouhé otočení. 
+
+[[K0201]]
+Poslední osa zrcadlení je svislá, takže žlutý útvar se převrací zleva doprava. Jeho barva i velikost zůstávají beze změny. 
+
+[[K0202]]
+Překryjte útvary a použijte barvu prvního z nich.
+
+[[K0203]]
+Umístěte oba útvary přes sebe. Zachovejte výslednou siluetu i viditelné obrysy, ale celý útvar vybarvěte barvou, kterou měl první útvar. [[K0204]]
+Překryjte modrý trojúhelník (špičkou dolů) a žlutý šestiúhelník; výsledný útvar vybarvěte modře. Vyčnívající vrcholy trojúhelníku zůstanou kolem šestiúhelníku viditelné. 
+
+[[K0205]]
+Zelená barva zůstane zachována, pokud se vyskytuje právě v jednom ze vstupů.
+
+[[K0206]]
+Porovnejte odpovídající části obou čtverců. Část je zelená, pokud je zelená právě v jednom ze vstupů. Pokud je zelená v obou, změní se na bílou; pokud je v obou bílá, zůstane bílá. 
+
+[[K0207]]
+První čtverec je celý zelený, zatímco ve druhém je zelená pouze levá dolní čtvrtina. Tato společná čtvrtina se změní na bílou, zbývající tři čtvrtiny zůstanou zelené. 
+
+[[K0208]]
+Ke každému rohu přidejte kopii.
+
+[[K0209]]
+Ke každému vrcholu velkého útvaru přidejte kopii malého černého symbolu. Přidané kopie přebírají barvu velkého útvaru. 
+
+[[K0210]]
+Velký modrý kosočtverec má čtyři rohy. Ke každému rohu přidejte modrý trojúhelník (špičkou dolů) podle stejného pravidla umístění, jaké je uvedeno v příkladech. 
+
+[[K0211]]
+Sečtěte výšky odpovídajících sloupců.
+
+[[K0212]]
+Pro každou ze tří vodorovných pozic sečtěte výšku černého sloupce z prvního obrázku s výškou sloupce na stejné pozici ve druhém obrázku. Výšky měřte směrem nahoru od společné spodní linie. 
+
+[[K0213]]
+Ani v jednom ze vstupů není levý sloupec. Dva prostřední sloupce po sečtení vytvoří sloupec plné výšky, zatímco pravé sloupce vytvoří sloupec kratší. Výsledný obrazec obsahuje pouze tyto prostřední a pravé sloupce. 
+
+[[K0214]]
+Otočte a střídejte barvy.

@@ -1,0 +1,121 @@
+[[K0173]]
+Varje position i varje exempelrad innehåller samma blå cirkel. Varken formen, färgen eller storleken förändras. 
+
+[[K0174]]
+Den sista raden innehåller redan två identiska blå cirklar. Ytterligare en identisk blå cirkel kompletterar raden. 
+
+[[K0175]]
+Lägg till en innesluten kontur
+
+[[K0176]]
+När man rör sig åt höger läggs en mindre kontur med samma form till inuti den föregående. Den yttre formen och dess färg förblir oförändrade. 
+
+[[K0177]]
+Den gröna triangeln har en inre triangel i den mellersta positionen. Lägg till ytterligare en, mindre inre triangel för att få fram svaret. 
+
+[[K0178]]
+Använd den första formen som en utskärning
+
+[[K0179]]
+Den svarta formen i den första positionen tas bort från mitten av den färgade kvadraten i den andra positionen. Hålet är vitt. 
+
+[[K0180]]
+Den svarta kvadraten skapar ett kvadratiskt hål i den gröna kvadraten. Välj den gröna kvadraten med den vita kvadratiska öppningen. 
+
+[[K0181]]
+Kombinera färgerna från den övre och nedre delen
+
+[[K0182]]
+Resultatet får sin övre hälft från den första kapseln och sin nedre hälft från den andra kapseln. 
+
+[[K0183]]
+Den första kapseln är vit och den andra är blå, så resultatet är vitt upptill och blått nedtill. 
+
+[[K0184]]
+Rotera de färgade flikarna
+
+[[K0185]]
+I varje steg vrids hela figuren – som består av fyra flikar – 90 grader medurs. Alla röda och blå flikar följer med i vridningen. 
+
+[[K0186]]
+Vrid den mellersta figuren ytterligare ett kvarts varv medurs. De två röda flikarna hamnar till höger och längst ner; flikarna upptill och till vänster är blå. 
+
+[[K0187]]
+Runda av hörnen stegvis
+
+[[K0188]]
+Färgen och den övergripande formen förblir desamma, medan hörnen blir alltmer rundade för varje steg. [[K0189]]
+Fortsätt att runda hörnen på den bruna rektangeln. Svaret är den bruna kapselformen med helt rundade ändar. 
+
+[[K0190]]
+Fortsätt cirkelns rörelse
+
+[[K0191]]
+I varje rad förflyttar sig den gröna cirkeln lika långt i samma riktning: uppåt, nedåt eller horisontellt. Dess storlek förblir oförändrad. 
+
+[[K0192]]
+I den sista raden rör sig cirkeln åt vänster längs kvadratens nederkant. Ytterligare ett likadant steg placerar den längst ner till vänster. 
+
+[[K0193]]
+Vrid hela prickmönstret
+
+[[K0194]]
+Rotera kvadraten och alla dess prickar 45 grader moturs i varje steg. Kvadraten blir en romb, och sedan en kvadrat igen. 
+
+[[K0195]]
+Vrid den mellersta grön-svarta romben ytterligare 45 grader moturs. Behåll de gröna och svarta prickarna i deras roterade positioner. 
+
+[[K0196]]
+Korta av varje stapel uppifrån
+
+[[K0197]]
+I varje steg förkortas varje vertikal svart stapel med ett rutsteg uppifrån. Den nedre änden ligger kvar på den nedersta linjen. En stapel försvinner när dess längd når noll. 
+
+[[K0198]]
+I den mellersta bilden finns en mittersta stapel som är ett steg lång, och en stapel till höger som är två steg lång. Den mittersta stapeln försvinner, och kvar blir en stapel till höger som är ett steg lång. 
+
+[[K0199]]
+Spegla längs den svarta linjen
+
+[[K0200]]
+Den mittersta linjen fungerar som en spegelaxel. Spegla den färgade figuren i denna linje, istället för att bara rotera den. 
+
+[[K0201]]
+Den sista spegellinjen är vertikal, vilket innebär att den gula figuren speglas horisontellt (från vänster till höger). Dess färg och storlek förblir oförändrade. 
+
+[[K0202]]
+Lägg figurerna ovanpå varandra och använd den första färgen
+
+[[K0203]]
+Placera de två figurerna ovanpå varandra. Behåll den sammanslagna silhuetten och de synliga konturerna, men färglägg resultatet med den första figurens färg. [[K0204]]
+Lägg den blå nedåtriktade triangeln ovanpå den gula hexagonen, och använd sedan blå färg för den sammansatta figuren. Triangelns utstickande spetsar förblir synliga runt hexagonen. 
+
+[[K0205]]
+Behåll grönt i exakt en av ingångsfigurerna
+
+[[K0206]]
+Jämför motsvarande ytor i de två kvadraterna. En yta blir grön om den är grön i exakt en av ingångsfigurerna. Om en yta är grön i båda blir den vit; om den är vit i båda förblir den vit. 
+
+[[K0207]]
+Den första kvadraten är helt grön, medan den andra bara har en grön fjärdedel längst ner till vänster. Denna gemensamma fjärdedel blir vit, medan de övriga tre fjärdedelarna förblir gröna. 
+
+[[K0208]]
+Placera en kopia i varje hörn
+
+[[K0209]]
+Placera en kopia av den lilla svarta symbolen i varje hörn av den stora figuren. De tillagda kopiorna övertar den stora figurens färg. 
+
+[[K0210]]
+Den stora blå romben har fyra hörn. Lägg till en blå nedåtriktad triangel i varje hörn, enligt samma placeringsregel som i exemplen. 
+
+[[K0211]]
+Addera höjderna på motsvarande staplar
+
+[[K0212]]
+För vart och ett av de tre horisontella lägena, addera höjden på den svarta stapeln i den första bilden till höjden i den andra bilden. Mät uppåt från den gemensamma baslinjen. 
+
+[[K0213]]
+Ingen av ingångsfigurerna har någon stapel till vänster. De två mittersta staplarna bildar tillsammans en stapel med full höjd, medan staplarna till höger bildar en kortare stapel. Resultatet består alltså endast av dessa mittersta och högra staplar. 
+
+[[K0214]]
+Rotera och växla färger

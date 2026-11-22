@@ -1,0 +1,207 @@
+[[K0001]]
+Intervallo mediano stimato
+
+[[K0002]]
+I confronti pubblici includono tutti i partecipanti che hanno utilizzato questa versione dell'enigma. Le informazioni facoltative su fascia d'età e paese vengono utilizzate esclusivamente per statistiche aggregate. 
+
+[[K0003]]
+Accetto di contribuire con i risultati anonimi dei miei tentativi, i tempi di esecuzione e, facoltativamente, la mia fascia d'età o il mio paese, ai fini delle statistiche aggregate. 
+
+[[K0004]]
+Gli intervalli mediani sono stimati a partire dagli istogrammi dei tempi. L'intervallo visualizzato indica la risoluzione della misurazione; non viene dichiarata una mediana esatta né un percentile di velocità preciso. 
+
+[[K0005]]
+Condividi la sfida
+
+[[K0006]]
+Tempo impiegato
+
+[[K0007]]
+Le impostazioni sulla privacy del tuo browser mantengono queste statistiche memorizzate sul tuo dispositivo. 
+
+[[K0008]]
+Tutti i tentativi effettuati volontariamente
+
+[[K0009]]
+Grazie. Il tuo contributo anonimo è stato salvato. 
+
+[[K0010]]
+Non ci sono ancora abbastanza tentativi confrontabili in questo gruppo. Le tue statistiche personali rimangono comunque sempre disponibili. 
+
+[[K0011]]
+I confronti non sono temporaneamente disponibili. Le tue statistiche personali e la funzione di condivisione continuano a funzionare. 
+
+[[K0012]]
+Questo tentativo, risalente a tempo fa, non dispone di una registrazione completa dei tempi. Puoi comunque consultare e condividere il tuo risultato. 
+
+[[K0013]]
+Scegli se contribuire prima di inviare qualsiasi dato. 
+
+[[K0014]]
+Questo tentativo non dispone di una registrazione completa dei tempi. I tuoi risultati personali rimangono invariati. 
+
+[[K0015]]
+Non è stato possibile salvare il tuo contributo in questo browser. Non è stato inviato alcun dato. 
+
+[[K0016]]
+Questo contributo richiede una revisione e non è stato conteggiato nuovamente. 
+
+[[K0017]]
+Il tuo contributo non è stato confermato. Riprova utilizzando lo stesso contributo salvato. [[K0018]]
+Nessun account richiesto
+
+[[K0019]]
+Il test inizia quando sei pronto
+
+[[K0020]]
+Test
+
+[[K0021]]
+Domande a cui hai risposto
+
+[[K0022]]
+Qualcosa da condividere
+
+[[K0023]]
+Il tuo momento migliore
+
+[[K0024]]
+Il tuo QI stimato
+
+[[K0025]]
+Un enigma complesso, risolto rapidamente
+
+[[K0026]]
+Più veloce della media delle risposte corrette
+
+[[K0027]]
+La tua risposta corretta più veloce
+
+[[K0028]]
+Schemi risolti
+
+[[K0029]]
+Una sfida che vale la pena condividere
+
+[[K0030]]
+36 enigmi. Un'unica sfida. 
+
+[[K0031]]
+Condividi una sfida con qualcuno che conosci. 
+
+[[K0032]]
+Il tuo tempo di attività. Non ci sono abbastanza dati di confronto per stabilire una classifica in base alla velocità. 
+
+[[K0033]]
+Scegli cosa condividere
+
+[[K0034]]
+Momento migliore
+
+[[K0035]]
+Stima del QI
+
+[[K0036]]
+Schemi risolti correttamente
+
+[[K0037]]
+Condividi su Facebook
+
+[[K0038]]
+Copia una didascalia personalizzata
+
+[[K0039]]
+Il tuo testo da condividere
+
+[[K0040]]
+Copia testo
+
+[[K0041]]
+Facebook ti permette di scrivere la tua didascalia. Non pubblichiamo mai nulla automaticamente. 
+
+[[K0042]]
+Copiato. Incollalo nel tuo post. 
+
+[[K0043]]
+Seleziona e copia il testo qui sotto. 
+
+[[K0044]]
+Statistiche sulle tue risposte
+
+[[K0045]]
+I confronti tra le risposte non sono ancora disponibili. Di seguito trovi le tue statistiche personali. 
+
+[[K0046]]
+Il conteggio del tempo include solo i periodi in cui la scheda era attiva e in primo piano, fino all'ultima risposta fornita. Per le domande a cui non è stata data risposta, viene indicato il tempo trascorso. Le schede nascoste e le pagine chiuse non vengono conteggiate. I tentativi precedenti potrebbero non includere la misurazione dei tempi. 
+
+[[K0047]]
+Tutte le 36 domande, incluse quelle saltate
+
+[[K0048]]
+Domanda
+
+[[K0049]]
+Il tuo tempo
+
+[[K0050]]
+Mediana dei tempi per le risposte corrette
+
+[[K0051]]
+Risposte corrette di altri utenti
+
+[[K0052]]
+Confronta i tuoi risultati con quelli di altri utenti che hanno affrontato volontariamente la stessa versione dell'enigma. Per calcolare la percentuale di risposte corrette sono necessarie almeno 30 domande completate, mentre per determinare la mediana servono almeno 30 risposte corrette di cui sia stato registrato il tempo. Si tratta di partecipanti volontari, non di un campione rappresentativo della popolazione. 
+
+[[K0053]]
+Confronta e contribuisci
+
+[[K0054]]
+Aiuta i futuri partecipanti a confrontare i propri risultati. Al termine del test, puoi scegliere di condividere statistiche anonime, anche se hai saltato alcune domande. 
+
+[[K0055]]
+Stiamo preparando i confronti anonimi. Puoi visualizzare le tue statistiche personali e condividerle senza necessariamente contribuire al database collettivo. 
+
+[[K0056]]
+Fascia d'età (facoltativo)
+
+[[K0057]]
+Paese (facoltativo)
+
+[[K0058]]
+Preferisco non specificare
+
+[[K0059]]
+Sotto i 18 anni
+
+[[K0060]]
+Acconsento a contribuire alle statistiche di confronto fornendo i miei risultati anonimi (risposte e tempi di esecuzione), insieme alla fascia d'età e al Paese che ho scelto di indicare. 
+
+[[K0061]]
+Non vengono richiesti nome, indirizzo e-mail o età precisa. La condivisione delle statistiche è facoltativa e non influisce sul tuo risultato. I gruppi di confronto troppo piccoli non vengono mostrati. 
+
+[[K0062]]
+Contribuisci in modo anonimo
+
+[[K0063]]
+Perché questa risposta? 
+
+[[K0064]]
+Spiegazione
+
+[[K0065]]
+La regola
+
+[[K0066]]
+Applicazione della regola
+
+[[K0067]]
+Stai consultando una versione precedente dell'enigma. Gli esempi in essa contenuti presentano l'ambiguità già individuata in precedenza; la risposta e il punteggio che hai salvato rimangono invariati. 
+
+[[K0068]]
+Stai consultando la versione originale, che conteneva indicatori errati negli esempi. La risposta e il punteggio che hai salvato rimangono invariati. I nuovi tentativi utilizzano la versione corretta. 
+
+[[K0069]]
+In questa versione originale, l'immagine centrale visualizzata si espande diventando verde in alto a destra, alla riga 2 colonna 3; rossa alla riga 2 colonna 1; e marrone alla riga 2 colonna 2, alla riga 3 colonna 3 e alla riga 4 colonna 3.
+
+[[K0070]]
+Condividi il risultato su Facebook

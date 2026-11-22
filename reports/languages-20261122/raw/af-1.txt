@@ -1,0 +1,305 @@
+[[K0071]]
+Deel toets op Facebook
+
+[[K0072]]
+Geskatte IK
+
+[[K0073]]
+Net vir die pret. 'n Benaderde telling, nie 'n professioneel gevalideerde IK-meting nie. 
+
+[[K0074]]
+Jou toets is onvolledig. Jou korrekte antwoorde word getoon, maar 'n IK-skatting benodig al 36 antwoorde. 
+
+[[K0075]]
+Onbeskikbaar
+
+[[K0076]]
+Gratis visuele redenasietoets | IK-kampioen
+
+[[K0077]]
+36 visuele redenasieraaisels. Neem 'n gratis 40-minuut-uitdaging en verken jou resultate. 
+
+[[K0078]]
+Beantwoord
+
+[[K0079]]
+Onbeantwoord
+
+[[K0080]]
+Korrek
+
+[[K0081]]
+Verkeerd
+
+[[K0082]]
+Maak toe
+
+[[K0083]]
+Hulp
+
+[[K0084]]
+40 min
+
+[[K0085]]
+Taal
+
+[[K0086]]
+Oor die toets
+
+[[K0087]]
+'n Uitdaging in visuele redenasie
+
+[[K0088]]
+Soek die patroon. 
+
+[[K0089]]
+Vind die ontbrekende stuk. 
+
+[[K0090]]
+36 visuele legkaarte en 'n geskatte IK-telling. Net vir die pret. 
+
+[[K0091]]
+Raaisels
+
+[[K0092]]
+Tydsbeperking
+
+[[K0093]]
+Koste
+
+[[K0094]]
+Gratis
+
+[[K0095]]
+Geen rekening nodig nie. Die timer begin wanneer jy begin. 
+
+[[K0096]]
+Hoe die toets werk
+
+[[K0097]]
+Kies die ikoon wat elke patroon voltooi. 
+
+[[K0098]]
+Slaan moeilike vrae oor en keer terug met behulp van die oorsig. 
+
+[[K0099]]
+Hersien of verander jou antwoorde voordat jy klaar is. 
+
+[[K0100]]
+Jou antwoorde en begintyd word in hierdie blaaier gestoor. Herlaai behou jou oorspronklike sperdatum. 
+
+[[K0101]]
+Die 40-minuut timer duur voort terwyl die bladsy gesluit is. Onbeantwoorde vrae tel as verkeerd. 
+
+[[K0102]]
+Oor jou resultaat
+
+[[K0103]]
+Jou geskatte IK is gebaseer op jou posisie onder
+
+[[K0104]]
+historiese pogings. 
+
+[[K0105]]
+Die vergelyking gebruik pogings wat langer as een minuut en tot 40 minute duur. Dit is nie teen 'n amptelike IK-toets of 'n verteenwoordigende bevolkingsteekproef gevalideer nie. 
+
+[[K0106]]
+'n Toets vir die pret. Jou geskatte IK is 'n benadering, nie 'n professioneel gevalideerde IK-telling nie. 
+
+[[K0107]]
+Begin 40-minuut toets
+
+[[K0108]]
+Redeneringstoets
+
+[[K0109]]
+Jou uitdaging
+
+[[K0110]]
+Oorblywende tyd
+
+[[K0111]]
+oorblywende tyd
+
+[[K0112]]
+Vraagpatroon
+
+[[K0113]]
+Vind die patroon
+
+[[K0114]]
+Vier rye visuele patrone; voltooi die laaste ry
+
+[[K0115]]
+Kies jou antwoord
+
+[[K0116]]
+Vraagnavigasie
+
+[[K0117]]
+Vorige vraag
+
+[[K0118]]
+Slaan vir nou oor
+
+[[K0119]]
+Volgende vraag
+
+[[K0120]]
+Oorsig van vrae
+
+[[K0121]]
+✓ Beantwoord
+
+[[K0122]]
+○ Onbeantwoord
+
+[[K0123]]
+Oorsig = huidige
+
+[[K0124]]
+Spring na 'n vraag
+
+[[K0125]]
+Hersien en voltooi
+
+[[K0126]]
+Instruksies en gestoorde vordering
+
+[[K0127]]
+Kies 'n antwoord om na die volgende onbeantwoorde vraag te beweeg. Jy kan antwoorde oorslaan, terugkeer en verander voordat jy klaar is. 
+
+[[K0128]]
+Antwoorde word outomaties in hierdie blaaier gestoor. Herlaai hervat dieselfde vraag; jou timer hou aan loop. 
+
+[[K0129]]
+Gereed wanneer jy is
+
+[[K0130]]
+Voltooi hierdie toets? 
+
+[[K0131]]
+Hou aan werk
+
+[[K0132]]
+Voltooi en sien resultaat
+
+[[K0133]]
+Uitdaging voltooi
+
+[[K0134]]
+Jou resultaat
+
+[[K0135]]
+Hersien antwoorde
+
+[[K0136]]
+Probeer weer
+
+[[K0137]]
+Oor hierdie toets
+
+[[K0138]]
+Hoe om hierdie resultaat te lees
+
+[[K0139]]
+Jou persentiel onder historiese pogings word omgeskakel na die bekende IK-skaal: middelpunt 100 en standaardafwyking 15. Dit neem aan dat die vergelykingsgroep die populasie weerspieël, wat nog nie vasgestel is nie. 
+
+[[K0140]]
+Jou antwoorde, verduidelik
+
+[[K0141]]
+Hersien jou antwoorde
+
+[[K0142]]
+Terug na resultaat
+
+[[K0143]]
+Die patroon
+
+[[K0144]]
+Vergelyk die antwoorde
+
+[[K0145]]
+Jou antwoord
+
+[[K0146]]
+Korrekte antwoord
+
+[[K0147]]
+Vorige hersieningsvraag
+
+[[K0148]]
+Volgende hersieningsvraag
+
+[[K0149]]
+Resultate per vraag
+
+[[K0150]]
+Verken al 36 legkaarte
+
+[[K0151]]
+✓ Korrek
+
+[[K0152]]
+× Verkeerd
+
+[[K0153]]
+Hersien 'n vraag
+
+[[K0154]]
+Jou ingediende antwoorde en finale telling bly onveranderd. 
+
+[[K0155]]
+Kontak
+
+[[K0156]]
+Terugvoer en kontak
+
+[[K0157]]
+Stuur terugvoer of kontak ons
+
+[[K0158]]
+Korrek. Jou antwoord stem ooreen met die korrekte antwoord. 
+
+[[K0159]]
+Verkeerd. Jou antwoord verskil van die korrekte antwoord. 
+
+[[K0160]]
+Onbeantwoord. Geen antwoord is vir hierdie vraag ingedien nie. 
+
+[[K0161]]
+Geen antwoord ingedien nie
+
+[[K0162]]
+Jou ingediende antwoord
+
+[[K0163]]
+Ikoon ontbreek
+
+[[K0164]]
+Alle vrae is beantwoord. Jy kan steeds antwoorde hersien en verander, en dan die toets voltooi. 
+
+[[K0165]]
+Vyf minute of minder oor. 
+
+[[K0166]]
+Tyd is verstryk. Jou antwoorde is gepunt. 
+
+[[K0167]]
+Toets voltooi. 
+
+[[K0168]]
+Vergelyking nie beskikbaar nie. 
+
+[[K0169]]
+Hierdie blaaier kon nie jou poging stoor nie. Hou hierdie bladsy oop: herlaai kan vordering verloor of ouer antwoorde herstel. 
+
+[[K0170]]
+Plaaslike stoor is nie beskikbaar in hierdie blaaier nie. Hou hierdie bladsy oop om te verhoed dat jy jou poging verloor. 
+
+[[K0171]]
+Die gestoorde poging kon nie herstel word nie. Begin 'n nuwe toets wanneer jy gereed is. 
+
+[[K0172]]
+Hou die syfer onveranderd.

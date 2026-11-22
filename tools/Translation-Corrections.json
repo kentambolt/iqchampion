@@ -1,0 +1,14 @@
+{
+  "bg": {
+    "I found {0} correct patterns in IQ Champion. Try it: {1}": "Открих {0} верни закономерности в IQ Champion. Опитайте и вие: {1}"
+  },
+  "te": {
+    "historical attempts.": "గత ప్రయత్నాలు."
+  },
+  "ko": {
+    "Estimated median range: {0} ({1} timed correct answers).": "중앙값 추정 범위: {0} (시간이 기록된 정답 {1}개)."
+  },
+  "ha": {
+    "I solved question {0} correctly in {1}. Can you do it too? {2}": "Na amsa tambaya {0} daidai a cikin {1}. Shin za ku iya yin hakan ma? {2}"
+  }
+}

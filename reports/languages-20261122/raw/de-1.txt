@@ -1,0 +1,301 @@
+[[K0071]]
+Test auf Facebook teilen
+
+[[K0072]]
+Geschätzter IQ
+
+[[K0073]]
+Nur zum Spaß. Ein ungefährer Wert, keine professionell validierte IQ-Messung. 
+
+[[K0074]]
+Dein Test ist unvollständig. Deine richtigen Antworten werden angezeigt, aber für eine IQ-Schätzung sind alle 36 Antworten erforderlich. 
+
+[[K0075]]
+Nicht verfügbar
+
+[[K0076]]
+Kostenloser Test zum visuellen Denken | IQ Champion
+
+[[K0077]]
+36 Rätsel zum visuellen Denken. Stelle dich einer kostenlosen 40-minütigen Herausforderung und entdecke deine Ergebnisse. 
+
+[[K0078]]
+Beantwortet
+
+[[K0079]]
+Nicht beantwortet
+
+[[K0080]]
+Richtig
+
+[[K0081]]
+Falsch
+
+[[K0082]]
+Schließen
+
+[[K0083]]
+Hilfe
+
+[[K0084]]
+40 Min.
+
+[[K0085]]
+Sprache
+
+[[K0086]]
+Über den Test
+
+[[K0087]]
+Eine Herausforderung für das visuelle Denken
+
+[[K0088]]
+Erkenne das Muster. 
+
+[[K0089]]
+Finde das fehlende Teil. 
+
+[[K0090]]
+36 visuelle Rätsel und ein geschätzter IQ-Wert. Nur zum Spaß. 
+
+[[K0091]]
+Rätsel
+
+[[K0092]]
+Zeitlimit
+
+[[K0093]]
+Kosten
+
+[[K0094]]
+Kostenlos
+
+[[K0095]]
+Kein Konto erforderlich. Der Timer startet, sobald du beginnst. 
+
+[[K0096]]
+So funktioniert der Test
+
+[[K0097]]
+Wähle das Symbol aus, das das jeweilige Muster vervollständigt. 
+
+[[K0098]]
+Überspringe schwierige Fragen und kehre über die Übersicht zu ihnen zurück. 
+
+[[K0099]]
+Überprüfe oder ändere deine Antworten, bevor du den Test abschließt. [[K0100]]
+Ihre Antworten und der Startzeitpunkt werden in diesem Browser gespeichert. Auch nach einem Neuladen der Seite bleibt die ursprüngliche Zeitvorgabe erhalten. 
+
+[[K0101]]
+Der 40-minütige Timer läuft auch dann weiter, wenn die Seite geschlossen wird. Unbeantwortete Fragen werden als falsch gewertet. 
+
+[[K0102]]
+Über Ihr Ergebnis
+
+[[K0103]]
+Ihr geschätzter IQ basiert auf Ihrer Platzierung im Vergleich zu
+
+[[K0104]]
+früheren Testdurchläufen. 
+
+[[K0105]]
+Der Vergleich bezieht sich auf Testdurchläufe mit einer Dauer von mehr als einer Minute bis zu maximal 40 Minuten. Er wurde nicht anhand eines offiziellen IQ-Tests oder einer repräsentativen Bevölkerungsstichprobe validiert. 
+
+[[K0106]]
+Ein Test zur Unterhaltung. Ihr geschätzter IQ ist ein Näherungswert und kein professionell validierter IQ-Wert. 
+
+[[K0107]]
+40-Minuten-Test starten
+
+[[K0108]]
+Test zum logischen Denken
+
+[[K0109]]
+Ihre Herausforderung
+
+[[K0110]]
+Verbleibende Zeit
+
+[[K0111]]
+verbleibend
+
+[[K0112]]
+Muster in der Frage
+
+[[K0113]]
+Erkennen Sie das Muster
+
+[[K0114]]
+Vier Reihen mit visuellen Mustern; vervollständigen Sie die letzte Reihe
+
+[[K0115]]
+Wählen Sie Ihre Antwort
+
+[[K0116]]
+Fragen-Navigation
+
+[[K0117]]
+Vorherige Frage
+
+[[K0118]]
+Vorerst überspringen
+
+[[K0119]]
+Nächste Frage
+
+[[K0120]]
+Fragenübersicht
+
+[[K0121]]
+✓ Beantwortet
+
+[[K0122]]
+○ Unbeantwortet
+
+[[K0123]]
+Umrandung = aktuell
+
+[[K0124]]
+Zu einer Frage springen
+
+[[K0125]]
+Überprüfen und abschließen
+
+[[K0126]]
+Anleitung & gespeicherter Fortschritt
+
+[[K0127]]
+Wählen Sie eine Antwort aus, um zur nächsten unbeantworteten Frage zu gelangen. Du kannst Fragen überspringen, zu ihnen zurückkehren und deine Antworten ändern, bevor du den Test abschließt. 
+
+[[K0128]]
+Deine Antworten werden in diesem Browser automatisch gespeichert. Wenn du die Seite neu lädst, landest du wieder bei derselben Frage; der Timer läuft währenddessen weiter. 
+
+[[K0129]]
+Bereit, wenn du es bist
+
+[[K0130]]
+Test abschließen? 
+
+[[K0131]]
+Weiterarbeiten
+
+[[K0132]]
+Abschließen und Ergebnis ansehen
+
+[[K0133]]
+Herausforderung abgeschlossen
+
+[[K0134]]
+Dein Ergebnis
+
+[[K0135]]
+Antworten überprüfen
+
+[[K0136]]
+Nochmal versuchen
+
+[[K0137]]
+Über diesen Test
+
+[[K0138]]
+So ist dieses Ergebnis zu verstehen
+
+[[K0139]]
+Dein Perzentilwert im Vergleich zu früheren Durchgängen wird in die bekannte IQ-Skala umgerechnet: Mittelwert 100, Standardabweichung 15. Dies setzt voraus, dass die Vergleichsgruppe die Gesamtbevölkerung repräsentiert – was jedoch nicht nachgewiesen ist. 
+
+[[K0140]]
+Deine Antworten – Erklärungen
+
+[[K0141]]
+Überprüfe deine Antworten
+
+[[K0142]]
+Zurück zum Ergebnis
+
+[[K0143]]
+Das Muster
+
+[[K0144]]
+Antworten vergleichen
+
+[[K0145]]
+Deine Antwort
+
+[[K0146]]
+Richtige Antwort
+
+[[K0147]]
+Vorherige Frage ansehen
+
+[[K0148]]
+Nächste Frage ansehen
+
+[[K0149]]
+Ergebnisse nach Fragen
+
+[[K0150]]
+Alle 36 Rätsel ansehen
+
+[[K0151]]
+✓ Richtig
+
+[[K0152]]
+× Falsch
+
+[[K0153]]
+Frage überprüfen
+
+[[K0154]]
+Deine abgegebenen Antworten und dein Endergebnis bleiben unverändert. [[K0155]]
+Kontakt
+
+[[K0156]]
+Feedback & Kontakt
+
+[[K0157]]
+Feedback geben oder Kontakt aufnehmen
+
+[[K0158]]
+Richtig. Ihre Antwort stimmt mit der korrekten Antwort überein. 
+
+[[K0159]]
+Falsch. Ihre Antwort weicht von der korrekten Antwort ab. 
+
+[[K0160]]
+Nicht beantwortet. Für diese Frage wurde keine Antwort eingereicht. 
+
+[[K0161]]
+Keine Antwort eingereicht
+
+[[K0162]]
+Ihre eingereichte Antwort
+
+[[K0163]]
+Fehlendes Symbol
+
+[[K0164]]
+Alle Fragen wurden beantwortet. Sie können Ihre Antworten noch einmal überprüfen und ändern, bevor Sie den Test abschließen. 
+
+[[K0165]]
+Es verbleiben fünf Minuten oder weniger. 
+
+[[K0166]]
+Die Zeit ist abgelaufen. Ihre Antworten wurden ausgewertet. 
+
+[[K0167]]
+Test abgeschlossen. 
+
+[[K0168]]
+Vergleich nicht verfügbar. 
+
+[[K0169]]
+Dieser Browser konnte Ihren Testversuch nicht speichern. Lassen Sie diese Seite geöffnet: Ein Neuladen der Seite kann dazu führen, dass Fortschritte verloren gehen oder ältere Antworten wiederhergestellt werden. 
+
+[[K0170]]
+Lokales Speichern ist in diesem Browser nicht möglich. Lassen Sie diese Seite geöffnet, damit Ihr Testversuch nicht verloren geht. 
+
+[[K0171]]
+Der gespeicherte Testversuch konnte nicht wiederhergestellt werden. Starten Sie einen neuen Test, sobald Sie bereit sind. 
+
+[[K0172]]
+Die Abbildung unverändert lassen

@@ -1,0 +1,99 @@
+[[K0215]]
+Rotește forma cu 45 de grade în sens invers acelor de ceasornic la fiecare pas. Culoarea acesteia alternează, astfel încât a treia imagine revine la culoarea din prima imagine. 
+
+[[K0216]]
+Rotește forma albă din centru cu încă 45 de grade în sens invers acelor de ceasornic și redă-i culoarea închisă din prima imagine. Alege forma curbată de culoare închisă, orientată astfel. 
+
+[[K0217]]
+Combină cercurile negre.
+
+[[K0218]]
+Un cerc este negru în rezultatul final dacă cercul corespondent este negru în oricare dintre cele două imagini de intrare. Acesta este alb doar atunci când ambele imagini de intrare au un cerc alb în acea poziție. 
+
+[[K0219]]
+Prima imagine de intrare contribuie cu cercul negru din dreapta jos; a doua contribuie cu cele două cercuri negre de sus. Cercul din centru și cel din stânga jos rămân albe. 
+
+[[K0220]]
+Extinde în celulele vecine.
+
+[[K0221]]
+La fiecare pas, fiecare celulă albastră rămâne albastră și colorează, de asemenea, celulele vecine imediate – deasupra, dedesubt, la stânga și la dreapta. Extinderea se oprește la marginea grilei. 
+
+[[K0222]]
+Aplică aceeași extindere pe o distanță de o celulă zonei albastre din mijloc. Celulele vecine laterale nou atinse devin albastre; celulele aflate mai departe rămân parte din modelul de tablă de șah gri-negru. 
+
+[[K0223]]
+Elimină pozițiile maro care coincid.
+
+[[K0224]]
+Compară cele două șiruri de câte cinci celule, poziție cu poziție. O celulă este maro în rezultatul final dacă, în acea poziție, culoarea maro apare în exact una dintre imaginile de intrare. Celulele maro care coincid se transformă în albastru. 
+
+[[K0225]]
+Culoarea maro apare în pozițiile 2, 3, 4 și 5 în primul șir, și în pozițiile 2, 3 și 5 în al doilea. Doar poziția 4 rămâne maro. 
+
+[[K0226]]
+Elimină punctele roșii cele mai apropiate.
+
+[[K0227]]
+Determină cea mai mică distanță dintre oricare două puncte roșii. Elimină toate punctele roșii care fac parte dintr-o pereche aflată la această distanță. Recalculează distanța minimă pentru pasul următor. [[K0228]]
+În imaginea din mijloc, cele trei puncte roșii de jos fac parte din perechile diagonale cele mai apropiate. Dacă le eliminăm, rămâne doar punctul roșu din rândul de sus, coloana a patra. 
+
+[[K0229]]
+Deplasați cele șase culori de-a lungul unui ciclu.
+
+[[K0230]]
+Parcurgeți coloana din stânga de sus în jos, apoi pe cea din dreapta, tot de sus în jos. Deplasați fiecare culoare cu o poziție înainte în acest ciclu de șase elemente; culoarea din dreapta jos trece în poziția din stânga sus. 
+
+[[K0231]]
+În imaginea din mijloc, cercul maro din dreapta jos trece în poziția din stânga sus. Configurația finală a coloanelor este: maro/roșu/roșu în stânga și negru/maro/albastru în dreapta. 
+
+[[K0232]]
+Deplasați culorile alb și negru în direcții opuse.
+
+[[K0233]]
+La fiecare pas, cercurile albe se deplasează cu un colț în sensul acelor de ceasornic, iar cele negre cu un colț în sens invers acelor de ceasornic. Culoarea gri indică faptul că un cerc alb și unul negru ocupă același colț; separați-le înainte de următoarea deplasare. 
+
+[[K0234]]
+În imaginea din mijloc, există cercuri albe în cele două colțuri din stânga, iar cercuri negre în cele două colțuri din stânga și în cel din dreapta jos. După deplasare, obținem un cerc alb în stânga sus, unul gri în dreapta sus și cercuri negre în ambele colțuri de jos. 
+
+[[K0235]]
+Prelungiți fiecare linie orizontală.
+
+[[K0236]]
+La fiecare pas, prelungiți fiecare linie orizontală neagră în capsulele imediat învecinate, de ambele părți. Liniile existente se păstrează, iar prelungirea se oprește la marginile exterioare. 
+
+[[K0237]]
+Prelungiți liniile din imaginea din mijloc cu încă o capsulă spre stânga și spre dreapta. Mențineți distincția între liniile de înălțimi diferite; rezultatul final prezintă linii orizontale mai lungi, care traversează cele patru capsule. 
+
+[[K0238]]
+Extindeți rețeaua triunghiulară.
+
+[[K0239]]
+Considerați desenul ca fiind alcătuit dintr-un grup de triunghiuri mici. La fiecare pas, adăugați un triunghi mic imediat lângă fiecare latură expusă, păstrând în același timp triunghiurile existente și liniile care le unesc. 
+
+[[K0240]]
+Extindeți grupul verde din mijloc, adăugând încă un strat de triunghiuri adiacente. Răspunsul păstrează aceeași grilă triunghiulară și adaugă triunghiuri de-a lungul marginilor sale exterioare. 
+
+[[K0241]]
+Elimină vârfurile marcate
+
+[[K0242]]
+Punctele maro indică vârfurile poligonului negru care trebuie eliminate. Unește vârfurile rămase în ordinea lor inițială. Două vârfuri rămase formează un segment de dreaptă. 
+
+[[K0243]]
+Elimină vârfurile de sus și din stânga, marcate cu puncte maro. Rămân doar cele două vârfuri de jos, astfel încât răspunsul este segmentul orizontal scurt din zona dreaptă inferioară. 
+
+[[K0244]]
+Inversează starea punctelor din colțurile conturului
+
+[[K0245]]
+Corelează vârfurile conturului negru cu pozițiile punctelor dintr-o grilă de 3x3. În dreptul fiecărui vârf, elimină un punct albastru existent sau adaugă unul, dacă poziția este liberă. Celelalte poziții rămân neschimbate. 
+
+[[K0246]]
+Inversează starea punctelor din cele patru colțuri ale conturului înclinat. Rezultatul constă în puncte albastre în colțul stânga-sus și în mijlocul laturii de sus, în centrul grilei și în dreapta centrului, precum și în toate cele trei poziții de jos. 
+
+[[K0247]]
+Elimină cărămida marcată și pe vecinii acesteia
+
+[[K0248]]
+Mai întâi, elimină cărămida roșie și toate cărămizile care au o latură comună cu aceasta, apoi lasă cărămizile rămase fără susținere să cadă vertical în jos. Repetă același proces pentru cărămida galbenă.

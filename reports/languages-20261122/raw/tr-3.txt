@@ -1,0 +1,99 @@
+[[K0215]]
+Şekli her adımda saat yönünün tersine 45 derece döndürün. Rengi değişerek ilerler; bu nedenle üçüncü resim, ilk resimdeki renge geri döner. 
+
+[[K0216]]
+Ortadaki beyaz şekli saat yönünün tersine 45 derece daha döndürün ve ilk resimdeki koyu rengi tekrar uygulayın. Bu yönelimdeki koyu renkli, kavisli şekli seçin. 
+
+[[K0217]]
+Siyah daireleri birleştirin.
+
+[[K0218]]
+Girişlerden herhangi birinde ilgili daire siyahsa, sonuçtaki daire de siyah olur. Yalnızca her iki girişte de beyaz olan daireler, sonuçta beyaz kalır. 
+
+[[K0219]]
+İlk giriş, sağ alt köşedeki siyah daireyi; ikinci giriş ise üst kısımdaki iki siyah daireyi sağlar. Merkezdeki ve sol alt köşedeki daireler beyaz kalır. 
+
+[[K0220]]
+Komşu hücrelere doğru genişletin.
+
+[[K0221]]
+Her adımda, mevcut mavi hücreler mavi kalmaya devam eder ve ayrıca üst, alt, sol ve sağ taraflarındaki komşu hücreleri de maviye boyar. Genişleme, ızgara sınırında durur. 
+
+[[K0222]]
+Aynı tek hücrelik genişletme işlemini, ortadaki mavi bölgeye uygulayın. Yeni ulaşılan yan komşu hücreler maviye döner; daha uzaktaki hücreler ise gri-siyah damalı desenlerinde kalır. 
+
+[[K0223]]
+Eşleşen kahverengi konumları kaldırın.
+
+[[K0224]]
+Beş hücreden oluşan iki şeridi, konum bazında karşılaştırın. Eğer girişlerden tam olarak birinde o konum kahverengiyse, sonuçta o hücre kahverengi olur. Birbiriyle eşleşen kahverengi hücreler ise maviye dönüşür (yok olur). 
+
+[[K0225]]
+İlk şeritte 2, 3, 4 ve 5 numaralı konumlar; ikinci şeritte ise 2, 3 ve 5 numaralı konumlar kahverengidir. Sonuçta yalnızca 4 numaralı konum kahverengi kalır. 
+
+[[K0226]]
+Birbirine en yakın kırmızı noktaları kaldırın.
+
+[[K0227]]
+Herhangi iki kırmızı nokta arasındaki en kısa mesafeyi bulun. Bu mesafeye sahip bir çiftin parçası olan tüm kırmızı noktaları kaldırın. Bir sonraki adım için en kısa mesafeyi yeniden hesaplayın. [[K0228]]
+Ortadaki resimde, alttaki üç kırmızı nokta, birbirine en yakın çapraz çiftleri oluşturur. Bunlar kaldırıldığında, geriye yalnızca en üst satırın dördüncü sütunundaki kırmızı nokta kalır. 
+
+[[K0229]]
+Altı rengi bir döngü boyunca hareket ettirin.
+
+[[K0230]]
+Önce sol sütundaki, ardından sağ sütundaki renkleri yukarıdan aşağıya doğru okuyun. Her bir rengi, altı konumlu bu döngüde bir adım ileri kaydırın; sağ alt köşedeki renk, döngünün başına, yani sol üst köşeye geçer. 
+
+[[K0231]]
+Ortadaki resimde, sağ alt köşedeki kahverengi daire sol üst köşeye geçer. Sonuçta sol tarafta kahverengi/kırmızı/kırmızı, sağ tarafta ise siyah/kahverengi/mavi renkli daireler oluşur. 
+
+[[K0232]]
+Beyaz ve siyah renkleri zıt yönlerde hareket ettirin.
+
+[[K0233]]
+Beyaz daireler her adımda bir köşe saat yönünde, siyah daireler ise bir köşe saat yönünün tersine hareket eder. Gri renk, bir beyaz ve bir siyah dairenin aynı köşede bulunduğunu gösterir; bir sonraki adıma geçmeden önce bunları birbirinden ayırın. 
+
+[[K0234]]
+Ortadaki resimde, sol taraftaki iki köşede beyaz daireler; sol taraftaki iki köşede ve sağ alt köşede ise siyah daireler bulunur. Bunlar hareket ettirildiğinde, sol üst köşede beyaz, sağ üst köşede gri, her iki alt köşede ise siyah daireler oluşur. 
+
+[[K0235]]
+Tüm yatay çizgileri uzatın.
+
+[[K0236]]
+Her adımda, her bir siyah yatay çizgiyi her iki yöndeki komşu kapsüllere doğru uzatın. Mevcut çizgiler korunur ve çizgiler dış kenarlarda son bulur. 
+
+[[K0237]]
+Ortadaki resimdeki çizgileri, her iki yönde birer kapsül daha uzatın. Farklı yükseklikteki çizgileri birbirinden ayrı tutun; cevap, dört kapsül boyunca uzanan daha uzun yatay çizgileri göstermektedir. 
+
+[[K0238]]
+Üçgen ızgarayı genişletin.
+
+[[K0239]]
+Çizimi küçük üçgenlerden oluşan bir grup olarak ele alın. Her adımda, dışa açık her kenarın hemen dışına yeni bir küçük üçgen ekleyin; mevcut üçgenleri ve bunları birbirine bağlayan çizgileri koruyun. 
+
+[[K0240]]
+Ortadaki yeşil kümeyi, komşu üçgenlerden oluşan bir katman daha ekleyerek genişletin. Cevap, aynı üçgen ızgarayı korur ve dış kenarlarına üçgenler ekler. 
+
+[[K0241]]
+İşaretli köşeleri kaldırın
+
+[[K0242]]
+Kahverengi noktalar, siyah çokgenin kaldırılacak köşelerini gösterir. Kalan köşeleri orijinal sıralarına göre birleştirin. Geriye kalan iki köşe bir doğru parçası oluşturur. 
+
+[[K0243]]
+Kahverengi noktalarla işaretlenmiş üst ve sol köşeleri kaldırın. Geriye yalnızca alt kısımdaki iki köşe kalır; dolayısıyla cevap, sağ alt kısma yakın olan kısa yatay çizgidir. 
+
+[[K0244]]
+Anahattın köşelerindeki noktaların durumunu değiştirin (mevcutsa kaldırın, yoksa ekleyin)
+
+[[K0245]]
+Siyah anahattın köşelerini 3x3'lük nokta konumlarıyla eşleştirin. Her köşede, eğer orada bir mavi nokta varsa onu kaldırın; eğer konum boşsa bir mavi nokta ekleyin. Diğer konumlarda bir değişiklik yapmayın. 
+
+[[K0246]]
+Eğik anahattın dört köşe konumundaki noktaların durumunu değiştirin. Sonuç olarak; sol üst, üst orta, orta orta, sağ orta ve alt kısımdaki üç konumun tamamında mavi noktalar oluşacaktır. 
+
+[[K0247]]
+İşaretli tuğlayı ve komşularını kaldırın
+
+[[K0248]]
+Önce kırmızı tuğlayı ve onunla kenarı ortak olan tüm tuğlaları kaldırın; ardından desteklenmeyen tuğlaların doğrudan aşağı düşmesini sağlayın. Aynı işlemi sarı tuğla için de tekrarlayın.

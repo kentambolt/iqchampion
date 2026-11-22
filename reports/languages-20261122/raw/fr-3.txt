@@ -1,0 +1,99 @@
+[[K0215]]
+À chaque étape, faites pivoter la forme de 45 degrés dans le sens inverse des aiguilles d'une montre. Sa couleur alterne ; ainsi, la troisième image retrouve la couleur de la première. 
+
+[[K0216]]
+Faites pivoter la forme centrale blanche de 45 degrés supplémentaires dans le sens inverse des aiguilles d'une montre et rétablissez la couleur sombre présente dans la première image. Choisissez la forme courbe sombre correspondant à cette orientation. 
+
+[[K0217]]
+Combinez les cercles noirs.
+
+[[K0218]]
+Dans le résultat, un cercle est noir si le cercle correspondant est noir dans l'une ou l'autre des entrées. Il n'est blanc que si les deux entrées présentent un cercle blanc à cet emplacement. 
+
+[[K0219]]
+La première entrée fournit le cercle noir situé en bas à droite ; la seconde fournit les deux cercles noirs situés en haut. Les cercles situés au centre et en bas à gauche restent blancs. 
+
+[[K0220]]
+Étendez aux cellules voisines.
+
+[[K0221]]
+À chaque étape, chaque cellule bleue reste bleue et colore également ses voisines immédiates (au-dessus, en dessous, à gauche et à droite). L'expansion s'arrête aux limites de la grille. 
+
+[[K0222]]
+Appliquez cette même expansion d'une cellule à la zone bleue centrale. Les cellules voisines ainsi atteintes deviennent bleues ; les cellules plus éloignées conservent leur aspect en damier gris et noir. 
+
+[[K0223]]
+Supprimez les positions brunes correspondantes.
+
+[[K0224]]
+Comparez les deux bandes de cinq cellules, position par position. Dans le résultat, une cellule est brune si elle est brune dans exactement l'une des deux entrées. Les cellules brunes qui correspondent entre elles deviennent bleues. 
+
+[[K0225]]
+La couleur brune est présente aux positions 2, 3, 4 et 5 dans la première bande, et aux positions 2, 3 et 5 dans la seconde. Seule la position 4 reste brune. 
+
+[[K0226]]
+Supprimez les points rouges les plus proches.
+
+[[K0227]]
+Déterminez la distance minimale entre deux points rouges. Supprimez tous les points rouges faisant partie d'une paire séparée par cette distance. Recalculez la distance minimale pour l'étape suivante. [[K0228]]
+Dans l'image centrale, les trois points rouges situés en bas font partie des paires diagonales les plus proches. Si on les retire, il ne reste que le point rouge situé sur la ligne supérieure, dans la quatrième colonne. 
+
+[[K0229]]
+Déplacez les six couleurs le long d'un cycle.
+
+[[K0230]]
+Parcourez la pile de gauche de haut en bas, puis celle de droite. Décalez chaque couleur d'une position vers l'avant dans ce cycle à six éléments ; la couleur située en bas à droite passe en haut à gauche. 
+
+[[K0231]]
+Dans l'image centrale, le cercle brun situé en bas à droite se déplace vers la position en haut à gauche. Les piles finales sont : brun/rouge/rouge à gauche, et noir/brun/bleu à droite. 
+
+[[K0232]]
+Déplacez les éléments blancs et noirs dans des directions opposées.
+
+[[K0233]]
+À chaque étape, les cercles blancs se déplacent d'un coin dans le sens des aiguilles d'une montre, tandis que les cercles noirs se déplacent d'un coin dans le sens inverse. La couleur grise indique qu'un cercle blanc et un cercle noir occupent le même coin ; séparez-les avant d'effectuer le déplacement suivant. 
+
+[[K0234]]
+Dans l'image centrale, on trouve des cercles blancs dans les deux coins de gauche, et des cercles noirs dans les deux coins de gauche ainsi que dans le coin en bas à droite. Après déplacement, on obtient un cercle blanc en haut à gauche, un cercle gris en haut à droite, et des cercles noirs dans les deux coins inférieurs. 
+
+[[K0235]]
+Prolongez chaque trait horizontal.
+
+[[K0236]]
+À chaque étape, prolongez chaque trait horizontal noir vers les capsules immédiatement adjacentes, de chaque côté. Les traits existants sont conservés, et les traits s'arrêtent aux bords extérieurs. 
+
+[[K0237]]
+Prolongez les traits de l'image centrale d'une capsule supplémentaire vers la gauche et vers la droite. Maintenez la distinction entre les différentes hauteurs de traits ; la solution montre les lignes horizontales allongées qui en résultent, s'étendant sur les quatre capsules. 
+
+[[K0238]]
+Développez le réseau triangulaire.
+
+[[K0239]]
+Considérez le dessin comme un ensemble de petits triangles. À chaque étape, ajoutez un petit triangle juste à l'extérieur de chaque arête exposée, tout en conservant les triangles existants et leurs lignes de connexion. 
+
+[[K0240]]
+Agrandissez le groupe vert central en ajoutant une couche supplémentaire de triangles adjacents. La solution conserve la même grille triangulaire et y ajoute des triangles le long de ses bords extérieurs. 
+
+[[K0241]]
+Supprimez les sommets indiqués.
+
+[[K0242]]
+Les points bruns indiquent les sommets du polygone noir à supprimer. Reliez les sommets restants dans leur ordre initial. Deux sommets restants forment un segment de droite. 
+
+[[K0243]]
+Supprimez les sommets situés en haut et à gauche, indiqués par les points bruns. Il ne reste que les deux sommets inférieurs ; la solution est donc le petit segment horizontal situé près du coin inférieur droit. 
+
+[[K0244]]
+Inversez l'état des points situés aux angles du contour.
+
+[[K0245]]
+Faites correspondre les sommets du contour noir aux positions des points dans la grille 3x3. À chaque sommet, supprimez un point bleu s'il est présent, ou ajoutez-en un s'il n'y en a pas. Les autres positions restent inchangées. 
+
+[[K0246]]
+Inversez l'état des points situés aux quatre angles du contour incliné. Le résultat présente des points bleus en haut à gauche et en haut au centre, au centre et au centre à droite, ainsi qu'aux trois positions de la rangée inférieure. 
+
+[[K0247]]
+Supprimez la brique indiquée ainsi que ses voisines.
+
+[[K0248]]
+Commencez par supprimer la brique rouge et toutes les briques qui partagent un côté avec elle, puis laissez les briques qui ne sont plus soutenues tomber verticalement. Répétez la même opération avec la brique jaune.

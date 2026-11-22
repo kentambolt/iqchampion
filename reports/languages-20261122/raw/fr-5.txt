@@ -1,0 +1,165 @@
+[[K0275]]
+Tous les séparateurs noirs se déplacent simultanément d'une position vers la droite si la position suivante contient une perle jaune. Un séparateur bloqué par un autre séparateur reste immobile. Le bord droit est relié au bord gauche. 
+
+[[K0276]]
+Appliquez une étape simultanée à la séquence centrale. L'ordre final est : séparateur, perle, séparateur, perle, séparateur, séparateur, perle. 
+
+[[K0277]]
+Étendez les couleurs et conservez le groupe le plus important.
+
+[[K0278]]
+Remplacez chaque bille colorée par quatre nouvelles billes de la même couleur, placées respectivement au-dessus, en dessous, à gauche et à droite. Les billes qui sortent de la grille disparaissent. À chaque emplacement, conservez la couleur associée au plus grand nombre de billes arrivantes. En cas d'égalité entre plusieurs couleurs, laissez l'emplacement vide. Plusieurs billes de la même couleur arrivant au même endroit sont représentées par un seul marqueur coloré. 
+
+[[K0279]]
+L'extension de l'image centrale affichée donne le résultat suivant : du vert en haut à droite et à la ligne 2, colonne 3 ; du rouge à la ligne 2, colonne 1 ; et du brun à la ligne 2, colonne 2, à la ligne 3, colonne 3, ainsi qu'à la ligne 4, colonnes 2, 3 et 4. Il s'agit exactement des couleurs et des positions indiquées dans la réponse enregistrée. 
+
+[[K0280]]
+Choisir la langue
+
+[[K0281]]
+Rechercher des langues
+
+[[K0282]]
+Fermer le sélecteur de langue
+
+[[K0283]]
+Aucune langue trouvée
+
+[[K0284]]
+Test de QI gratuit pour le plaisir | IQ Champion
+
+[[K0285]]
+Un test de type QI gratuit pour le plaisir : 36 énigmes visuelles, 40 minutes, progression sauvegardée et estimation de votre QI. Aucun compte requis. 
+
+[[K0286]]
+Choisissez votre langue préférée. Vos réponses et le délai initial restent sauvegardés. 
+
+[[K0287]]
+Chargement de la langue…
+
+[[K0288]]
+La langue n'a pas pu être chargée. Votre test et vos réponses restent inchangés. [[K0289]]
+Les retours sont disponibles en danois et en anglais. 
+
+[[K0290]]
+Réussite partagée
+
+[[K0291]]
+Résultat partagé
+
+[[K0292]]
+Les résultats partagés sont déclarés par les utilisateurs eux-mêmes. 
+
+[[K0293]]
+Les réussites partagées sont déclarées par les utilisateurs eux-mêmes. Aucune information concernant l'âge, le pays, les réponses ou les profils personnels n'est partagée. 
+
+[[K0294]]
+Essayez vous-même les 36 énigmes
+
+[[K0295]]
+Essayez le test vous-même
+
+[[K0296]]
+Un défi visuel dans IQ Champion. Parviendrez-vous, vous aussi, à repérer la logique ? 
+
+[[K0297]]
+Un test visuel gratuit, pour le plaisir. Il ne s'agit pas d'une mesure de QI validée par des professionnels. 
+
+[[K0298]]
+Page introuvable
+
+[[K0299]]
+Vous pouvez continuer dans une autre langue. 
+
+[[K0300]]
+répondu
+
+[[K0301]]
+sans réponse
+
+[[K0302]]
+correct
+
+[[K0303]]
+incorrect
+
+[[K0304]]
+Plage médiane estimée : {0} ({1} bonnes réponses chronométrées). 
+
+[[K0305]]
+Question {0} · {1}
+
+[[K0306]]
+{0} logiques trouvées
+
+[[K0307]]
+Temps actif : {0}
+
+[[K0308]]
+Comparaison : {0} tentatives volontaires sur {1} jours. 
+
+[[K0309]]
+Question {0} / {1}
+
+[[K0310]]
+Revoir la question {0} / {1}
+
+[[K0311]]
+Ligne {0}, icône {1}
+
+[[K0312]]
+Réponse {0}
+
+[[K0313]]
+Question {0}, {1}
+
+[[K0314]]
+Revoir la question {0}, {1}
+
+[[K0315]]
+{0} correct(es) ; {1} incorrect(es) ; {2} sans réponse. 
+
+[[K0316]]
+{0} avec réponse ; {1} sans réponse. 
+
+[[K0317]]
+{0} avec réponse ; {1} sans réponse. Les questions sans réponse sont comptées comme incorrectes. Une fois terminé, vous ne pouvez plus modifier vos réponses. 
+
+[[K0318]]
+{0} / {1} bonnes réponses
+
+[[K0319]]
+Position relative (percentile) parmi les participants précédents : {0}
+
+[[K0320]]
+Participants ayant obtenu un score inférieur : {0} %. Participants ayant obtenu le même score : {1} %. 
+
+[[K0321]]
+Groupe de référence : {0} tentatives enregistrées précédemment. Sont incluses les tentatives dont la durée est comprise entre une minute et 40 minutes. En cas d'égalité, le score se situe au milieu du groupe correspondant. Les estimations sont arrondies à l'entier le plus proche et affichées uniquement dans une fourchette de 55 à 145 ; un indicateur signale si le résultat se situe en dehors de cet intervalle. Il s'agit d'une conversion d'échelle, et non d'une mesure du QI validée indépendamment sur l'ensemble de la population. L'entraînement et la répétition des tentatives peuvent influencer votre résultat. Certaines images servant d'exemples ont été corrigées depuis la collecte des données initiales, ce qui limite la comparabilité. 
+
+[[K0322]]
+Mon QI estimé sur IQ Champion : {0}. Juste pour le plaisir. Essayez vous aussi : {1}
+
+[[K0323]]
+J'ai résolu correctement la question {0} en {1}. Pouvez-vous faire de même ? {2}
+
+[[K0324]]
+J'ai résolu correctement la question {0} en {1} (médiane estimée parmi les bonnes réponses : {2}). Pouvez-vous faire de même ? {3}
+
+[[K0325]]
+J'ai trouvé {0} séquences correctes sur IQ Champion. Essayez vous aussi : {1}
+
+[[K0326]]
+Saurez-vous trouver les séquences manquantes sur IQ Champion ? {0}
+
+[[K0327]]
+Question {0} résolue
+
+[[K0328]]
+{0} séquences résolues
+
+[[K0329]]
+{0} / 36 bonnes réponses. {1}
+
+[[K0330]]
+QI estimé {0} | Champion du QI

@@ -1,0 +1,218 @@
+[[K0001]]
+Tinatayang median range
+
+[[K0002]]
+Kabilang sa mga pampublikong paghahambing ang lahat ng kontribyutor na gumagamit ng bersyong puzzle na ito. Ang opsyonal na pangkat ng edad at bansa ay ginagamit lamang sa mga pribadong pinagsama-samang istatistika. 
+
+[[K0003]]
+Sumasang-ayon akong mag-ambag ng aking mga hindi nagpapakilalang resulta ng tanong, mga aktibong oras at anumang opsyonal na pangkat ng edad o bansa sa pinagsama-samang istatistika. 
+
+[[K0004]]
+Ang mga median range ay tinatantya mula sa mga time histogram. Ang ipinapakitang interval ay nagpapakita ng resolution ng timing; walang eksaktong median o speed percentile na inaangkin. 
+
+[[K0005]]
+Ibahagi ang hamon
+
+[[K0006]]
+Oras ng tanong
+
+[[K0007]]
+Ang iyong mga kagustuhan sa privacy ng browser ay nagpapanatili ng mga istatistikang ito sa iyong device. 
+
+[[K0008]]
+Lahat ng boluntaryong pagtatangka
+
+[[K0009]]
+Salamat. Na-save ang iyong hindi nagpapakilalang kontribusyon. 
+
+[[K0010]]
+
+Wala pang sapat na maihahambing na mga pagtatangka sa grupong ito. Ang sarili mong mga istatistika ay laging available. 
+
+[[K0011]]
+
+Pansamantalang hindi magagamit ang mga paghahambing. Gumagana pa rin ang sarili mong mga istatistika at pagbabahagi. 
+
+[[K0012]]
+
+Ang mas lumang pagtatangkang ito ay walang kumpletong talaan ng oras. Maaari mo pa ring tuklasin at ibahagi ang iyong resulta. 
+
+[[K0013]]
+
+Piliin kung mag-aambag bago magpadala ng anumang data. 
+
+[[K0014]]
+
+Ang pagtatangkang ito ay walang kumpletong talaan ng oras. Ang iyong mga personal na resulta ay hindi nagbabago. 
+
+[[K0015]]
+
+Hindi ma-save ang iyong kontribusyon sa browser na ito. Walang naipadala. 
+
+[[K0016]]
+
+Kailangang suriin ang kontribusyong ito at hindi na muling binilang. 
+
+[[K0017]]
+
+Hindi pa nakumpirma ang iyong kontribusyon. Subukan muli gamit ang parehong naka-save na kontribusyon. 
+
+[[K0018]]
+Hindi kailangan ng account
+
+[[K0019]]
+Magsisimula ang pagsusulit kapag handa ka na
+
+[[K0020]]
+
+Pagsusulit
+
+[[K0021]]
+Mga nasagot na tanong
+
+[[K0022]]
+Isang bagay na maibabahagi
+
+[[K0023]]
+Ang iyong pinakamalakas na sandali
+
+[[K0024]]
+Ang iyong tinantyang IQ
+
+[[K0025]]
+Isang mahirap na palaisipan, mabilis na nalutas
+
+[[K0026]]
+Mas mabilis kaysa sa karaniwang tamang sagot
+
+[[K0027]]
+Ang iyong pinakamabilis na tamang sagot
+
+[[K0028]]
+Mga pattern na nalutas mo
+
+[[K0029]]
+Isang hamon na sulit ibahagi
+
+[[K0030]]
+36 na palaisipan. Isang hamon. 
+
+[[K0031]]
+Ibahagi ang isang hamon sa isang taong kakilala mo. 
+
+[[K0032]]
+Ang iyong sariling aktibong oras. Walang sapat na datos ng paghahambing upang i-ranggo ang bilis nito. 
+
+[[K0033]]
+Piliin kung ano ang ibabahagi
+
+[[K0034]]
+Pinakamagandang sandali
+
+[[K0035]]
+Tinatayang IQ
+
+[[K0036]]
+Mga tamang pattern
+
+[[K0037]]
+Ibahagi sa Facebook
+
+[[K0038]]
+Kopyahin ang isang personal na caption
+
+[[K0039]]
+Ang iyong teksto ng pagbabahagi
+
+[[K0040]]
+Kopyahin ang teksto
+
+[[K0041]]
+Pinapayagan ka ng Facebook na magsulat ng iyong sariling caption. Hindi kami awtomatikong nagpo-post. 
+
+[[K0042]]
+Kinopya na. I-paste ito sa iyong post. 
+
+[[K0043]]
+Piliin at kopyahin ang teksto sa ibaba. 
+
+[[K0044]]
+Mga istatistika ng iyong tanong
+
+[[K0045]]
+Hindi pa available ang mga paghahambing ng tanong. Ang iyong mga personal na istatistika ay ipinapakita sa ibaba. 
+
+[[K0046]]
+Binibilang ng mga oras ang nakikita at naka-pokus na oras ng tanong hanggang sa iyong huling sagot. Para sa mga hindi nasagot na tanong, ipinapakita ang oras na ginugol. Hindi binibilang ang mga nakatagong tab at mga saradong pahina. Maaaring walang timing ang mga naunang pagtatangka. 
+
+[[K0047]]
+Lahat ng 36 na tanong, kabilang ang mga nilaktawan na tanong
+
+[[K0048]]
+Tanong
+
+[[K0049]]
+Iyong oras
+
+[[K0050]]
+Median ng tamang sagot
+
+[[K0051]]
+Iba pa ang tama
+
+[[K0052]]
+Ihambing sa mga boluntaryong pagtatangka gamit ang parehong bersyon ng puzzle. Hindi bababa sa 30 nasagot na tanong ang kailangan para sa tamang rate, at 30 tamang sagot na may oras para sa isang median. Ito ay mga kalahok, hindi isang kinatawan na populasyon. 
+
+[[K0053]]
+Paghambingin at mag-ambag
+
+[[K0054]]
+Tulungan ang mga susunod na kalahok na ihambing ang kanilang mga resulta. Maaari kang magbahagi ng mga hindi nagpapakilalang istatistika ng pagsusulit pagkatapos matapos, kahit na nilaktawan mo ang mga tanong. 
+
+[[K0055]]
+Inihahanda ang mga hindi nagpapakilalang paghahambing. Ang iyong mga personal na istatistika at pagbabahagi ay gagana nang walang kontribusyon. 
+
+[[K0056]]
+Pangkat ng edad (opsyonal)
+
+[[K0057]]
+Bansa (opsyonal)
+
+[[K0058]]
+Mas gustong huwag sabihin
+
+[[K0059]]
+Wala pang 18 taong gulang
+
+[[K0060]]
+Sumasang-ayon akong mag-ambag ng aking mga hindi nagpapakilalang resulta ng tanong at mga aktibong oras, kasama ang anumang pangkat ng edad at bansang pipiliin ko, sa mga istatistika ng paghahambing. 
+
+[[K0061]]
+Walang pangalan, email o eksaktong edad. Ang pagbabahagi ng iyong mga istatistika ay opsyonal at hindi nakakaapekto sa iyong resulta. Nakatago ang maliliit na pangkat ng paghahambing. 
+
+[[K0062]]
+Mag-ambag nang hindi nagpapakilala
+
+[[K0063]]
+Bakit ganito ang sagot? 
+
+[[K0064]]
+Paliwanag
+
+[[K0065]]
+Ang tuntunin
+
+[[K0066]]
+Paglalapat ng tuntunin
+
+[[K0067]]
+Sinusuri mo ang isang mas lumang bersyon ng palaisipan. Ang mga halimbawa nito ay naglalaman ng dating natukoy na kalabuan; ang iyong naka-save na sagot at iskor ay hindi nagbabago. 
+
+[[K0068]]
+Sinusuri mo ang orihinal na bersyon, na naglalaman ng mga maling halimbawang marker. Ang iyong naka-save na sagot at iskor ay hindi nagbabago. Ang mga bagong pagtatangka ay gumagamit ng naitama na bersyon. 
+
+[[K0069]]
+Sa orihinal na bersyong ito, ang ipinapakitang gitnang larawan ay lumalawak sa berde sa kanang itaas at hilera 2, hanay 3; pula sa hilera 2, hanay 1; at kulay kayumanggi sa hilera 2, hanay 2, hanay 3, hanay 3 at hilera 4, hanay 3.
+
+[[K0070]]
+Ibahagi ang resulta sa Facebook

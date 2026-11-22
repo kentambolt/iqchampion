@@ -1,0 +1,301 @@
+[[K0071]]
+Pasidalinkite testu „Facebook“ tinkle
+
+[[K0072]]
+Apytikslis IQ
+
+[[K0073]]
+Tik pramogai. Tai apytikslis rezultatas, o ne profesionaliai patvirtintas IQ matavimas. 
+
+[[K0074]]
+Testas neužbaigtas. Rodomi jūsų teisingi atsakymai, tačiau norint apskaičiuoti apytikslį IQ, reikia pateikti visus 36 atsakymus. 
+
+[[K0075]]
+Neprieinama
+
+[[K0076]]
+Nemokamas vizualinio mąstymo testas | „IQ Champion“
+
+[[K0077]]
+36 vizualinio mąstymo užduotys. Priimkite nemokamą 40 minučių iššūkį ir sužinokite savo rezultatus. 
+
+[[K0078]]
+Atsakyta
+
+[[K0079]]
+Neatsakyta
+
+[[K0080]]
+Teisingai
+
+[[K0081]]
+Neteisingai
+
+[[K0082]]
+Uždaryti
+
+[[K0083]]
+Pagalba
+
+[[K0084]]
+40 min.
+
+[[K0085]]
+Kalba
+
+[[K0086]]
+Apie testą
+
+[[K0087]]
+Vizualinio mąstymo iššūkis
+
+[[K0088]]
+Pastebėkite dėsningumą. 
+
+[[K0089]]
+Raskite trūkstamą dalį. 
+
+[[K0090]]
+36 vizualinės užduotys ir apytikslis IQ įvertinimas. Tik pramogai. 
+
+[[K0091]]
+Užduotys
+
+[[K0092]]
+Laiko limitas
+
+[[K0093]]
+Kaina
+
+[[K0094]]
+Nemokamai
+
+[[K0095]]
+Paskyros nereikia. Laikmatis įsijungia, kai pradedate. 
+
+[[K0096]]
+Kaip veikia testas
+
+[[K0097]]
+Pasirinkite simbolį, kuris užbaigia kiekvieną dėsningumą. 
+
+[[K0098]]
+Praleiskite sudėtingus klausimus ir grįžkite prie jų naudodamiesi apžvalgos funkcija. 
+
+[[K0099]]
+Prieš baigdami testą, peržiūrėkite arba pakeiskite savo atsakymus. [[K0100]]
+Jūsų atsakymai ir pradžios laikas išsaugomi šioje naršyklėje. Puslapio perkrovimas nepakeičia pradinio termino. 
+
+[[K0101]]
+40 minučių laikmatis veikia ir uždarius puslapį. Neatsakyti klausimai laikomi neteisingais. 
+
+[[K0102]]
+Apie jūsų rezultatą
+
+[[K0103]]
+Jūsų apytikslis IQ nustatomas pagal jūsų vietą tarp
+
+[[K0104]]
+ankstesnių bandymų. 
+
+[[K0105]]
+Palyginimui naudojami bandymai, trukę nuo vienos iki 40 minučių. Rezultatas nėra patikrintas lyginant su oficialiu IQ testu ar reprezentatyvia populiacijos imtimi. 
+
+[[K0106]]
+Tai testas pramogai. Jūsų nustatytas IQ yra tik apytikslis įvertinimas, o ne profesionaliai patvirtintas IQ rodiklis. 
+
+[[K0107]]
+Pradėti 40 minučių testą
+
+[[K0108]]
+Mąstymo testas
+
+[[K0109]]
+Jūsų iššūkis
+
+[[K0110]]
+Likęs laikas
+
+[[K0111]]
+likę
+
+[[K0112]]
+Klausimo dėsningumas
+
+[[K0113]]
+Raskite dėsningumą
+
+[[K0114]]
+Keturios vizualinių dėsningumų eilutės; užbaikite paskutinę eilutę
+
+[[K0115]]
+Pasirinkite atsakymą
+
+[[K0116]]
+Navigacija tarp klausimų
+
+[[K0117]]
+Ankstesnis klausimas
+
+[[K0118]]
+Kol kas praleisti
+
+[[K0119]]
+Kitas klausimas
+
+[[K0120]]
+Klausimų apžvalga
+
+[[K0121]]
+✓ Atsakyta
+
+[[K0122]]
+○ Neatsakyta
+
+[[K0123]]
+Apvestas = dabartinis
+
+[[K0124]]
+Pereiti prie klausimo
+
+[[K0125]]
+Peržiūrėti ir baigti
+
+[[K0126]]
+Instrukcijos ir išsaugota eiga
+
+[[K0127]]
+Pasirinkite atsakymą, kad pereitumėte prie kito neatsakyto klausimo. Prieš baigdami testą, galite praleisti klausimus, grįžti prie jų ir keisti atsakymus. 
+
+[[K0128]]
+Atsakymai šioje naršyklėje išsaugomi automatiškai. Atnaujinus puslapį, grįšite prie to paties klausimo; laikas ir toliau skaičiuojamas. 
+
+[[K0129]]
+Galite pradėti, kai būsite pasiruošę
+
+[[K0130]]
+Baigti šį testą? 
+
+[[K0131]]
+Tęsti darbą
+
+[[K0132]]
+Baigti ir pamatyti rezultatą
+
+[[K0133]]
+Užduotis baigta
+
+[[K0134]]
+Jūsų rezultatas
+
+[[K0135]]
+Peržiūrėti atsakymus
+
+[[K0136]]
+Bandyti dar kartą
+
+[[K0137]]
+Apie šį testą
+
+[[K0138]]
+Kaip suprasti šį rezultatą
+
+[[K0139]]
+Jūsų procentilė (vieta tarp ankstesnių bandymų) yra konvertuota į įprastą IQ skalę: vidurkis – 100, standartinis nuokrypis – 15. Tai daroma darant prielaidą, kad lyginamoji grupė atspindi visą populiaciją, tačiau tai nėra patvirtinta. 
+
+[[K0140]]
+Atsakymų paaiškinimai
+
+[[K0141]]
+Peržiūrėkite savo atsakymus
+
+[[K0142]]
+Grįžti prie rezultato
+
+[[K0143]]
+Dėsningumas
+
+[[K0144]]
+Palyginti atsakymus
+
+[[K0145]]
+Jūsų atsakymas
+
+[[K0146]]
+Teisingas atsakymas
+
+[[K0147]]
+Ankstesnis klausimas peržiūroje
+
+[[K0148]]
+Kitas klausimas peržiūroje
+
+[[K0149]]
+Rezultatai pagal klausimus
+
+[[K0150]]
+Peržiūrėkite visas 36 užduotis
+
+[[K0151]]
+✓ Teisingai
+
+[[K0152]]
+× Neteisingai
+
+[[K0153]]
+Peržiūrėti klausimą
+
+[[K0154]]
+Jūsų pateikti atsakymai ir galutinis įvertinimas išlieka nepakitę. [[K0155]]
+Kontaktai
+
+[[K0156]]
+Atsiliepimai ir kontaktai
+
+[[K0157]]
+Pateikite atsiliepimą arba susisiekite su mumis
+
+[[K0158]]
+Teisingai. Jūsų atsakymas sutampa su teisingu atsakymu. 
+
+[[K0159]]
+Neteisingai. Jūsų atsakymas skiriasi nuo teisingo atsakymo. 
+
+[[K0160]]
+Neatsakyta. Į šį klausimą atsakymas nepateiktas. 
+
+[[K0161]]
+Atsakymas nepateiktas
+
+[[K0162]]
+Jūsų pateiktas atsakymas
+
+[[K0163]]
+Trūksta piktogramos
+
+[[K0164]]
+Į visus klausimus atsakyta. Vis dar galite peržiūrėti ir pakeisti atsakymus, o tada baigti testą. 
+
+[[K0165]]
+Liko penkios minutės arba mažiau. 
+
+[[K0166]]
+Laikas baigėsi. Jūsų atsakymai įvertinti. 
+
+[[K0167]]
+Testas baigtas. 
+
+[[K0168]]
+Palyginimas negalimas. 
+
+[[K0169]]
+Ši naršyklė negalėjo išsaugoti jūsų bandymo. Palikite šį puslapį atvirą: perkrovus puslapį, galima prarasti pažangą arba gali būti atkurti senesni atsakymai. 
+
+[[K0170]]
+Šioje naršyklėje duomenų išsaugojimas vietoje negalimas. Palikite šį puslapį atvirą, kad neprarastumėte savo bandymo. 
+
+[[K0171]]
+Išsaugoto bandymo nepavyko atkurti. Kai būsite pasiruošę, pradėkite naują testą. 
+
+[[K0172]]
+Palikite figūrą nepakeistą

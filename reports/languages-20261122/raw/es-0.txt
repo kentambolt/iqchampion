@@ -1,0 +1,207 @@
+[[K0001]]
+Rango mediano estimado
+
+[[K0002]]
+Las comparaciones públicas incluyen a todos los participantes que han contribuido usando esta versión del rompecabezas. Los datos opcionales sobre el grupo de edad y el país solo se utilizan en estadísticas agregadas.
+
+[[K0003]]
+Acepto contribuir con los resultados anónimos de mis intentos, los tiempos registrados y, de forma opcional, mi grupo de edad o país, para su inclusión en estadísticas agregadas.
+
+[[K0004]]
+Los rangos medianos se estiman a partir de histogramas de tiempo. El intervalo mostrado indica la resolución temporal; no se pretende establecer una mediana exacta ni un percentil de velocidad preciso.
+
+[[K0005]]
+Compartir el desafío
+
+[[K0006]]
+Tiempo empleado
+
+[[K0007]]
+Debido a la configuración de privacidad de tu navegador, estas estadísticas se almacenan únicamente en tu dispositivo.
+
+[[K0008]]
+Todos los intentos realizados voluntariamente
+
+[[K0009]]
+Gracias. Tu contribución anónima ha sido guardada.
+
+[[K0010]]
+Aún no hay suficientes intentos comparables en este grupo. Tus propias estadísticas siempre están disponibles.
+
+[[K0011]]
+Las comparaciones no están disponibles temporalmente. Tus propias estadísticas y la opción de compartir siguen funcionando.
+
+[[K0012]]
+Este intento antiguo no cuenta con un registro de tiempo completo. Aun así, puedes explorar y compartir tu resultado.
+
+[[K0013]]
+Decide si deseas contribuir antes de enviar cualquier dato.
+
+[[K0014]]
+Este intento no tiene un registro de tiempo completo. Tus resultados personales permanecen sin cambios.
+
+[[K0015]]
+No ha sido posible guardar tu contribución en este navegador. No se ha enviado ningún dato.
+
+[[K0016]]
+Esta contribución requiere revisión y no ha sido contabilizada nuevamente.
+
+[[K0017]]
+Tu contribución no ha sido confirmada. Inténtalo de nuevo utilizando la misma contribución guardada. [[K0018]]
+No es necesario crear una cuenta
+
+[[K0019]]
+La prueba comienza cuando estés listo
+
+[[K0020]]
+Prueba
+
+[[K0021]]
+Preguntas respondidas
+
+[[K0022]]
+Algo para compartir
+
+[[K0023]]
+Tu mejor momento
+
+[[K0024]]
+Tu coeficiente intelectual (CI) estimado
+
+[[K0025]]
+Un acertijo complejo, resuelto rápidamente
+
+[[K0026]]
+Más rápido que el tiempo promedio para una respuesta correcta
+
+[[K0027]]
+Tu respuesta correcta más rápida
+
+[[K0028]]
+Patrones que resolviste
+
+[[K0029]]
+Un desafío que vale la pena compartir
+
+[[K0030]]
+36 acertijos. Un solo desafío.
+
+[[K0031]]
+Comparte un desafío con alguien que conozcas.
+
+[[K0032]]
+Tu tiempo de actividad. No hay suficientes datos comparativos para clasificar tu velocidad.
+
+[[K0033]]
+Elige qué compartir
+
+[[K0034]]
+Mejor momento
+
+[[K0035]]
+Estimación de CI
+
+[[K0036]]
+Patrones resueltos correctamente
+
+[[K0037]]
+Compartir en Facebook
+
+[[K0038]]
+Copiar un texto personalizado
+
+[[K0039]]
+Tu texto para compartir
+
+[[K0040]]
+Copiar texto
+
+[[K0041]]
+Facebook te permite escribir tu propio texto. Nunca publicamos nada automáticamente.
+
+[[K0042]]
+Copiado. Pégalo en tu publicación.
+
+[[K0043]]
+Selecciona y copia el texto a continuación.
+
+[[K0044]]
+Estadísticas de tus respuestas
+
+[[K0045]]
+Aún no hay comparativas disponibles para las preguntas. A continuación, se muestran tus estadísticas personales.
+
+[[K0046]]
+El tiempo contabilizado corresponde al tiempo que pasaste concentrado en la pregunta hasta el momento de tu última respuesta. En el caso de las preguntas no respondidas, se muestra el tiempo dedicado a ellas. No se contabiliza el tiempo con pestañas ocultas o páginas cerradas. Es posible que los intentos anteriores no tengan registros de tiempo.
+
+[[K0047]]
+Las 36 preguntas, incluidas las que se omitieron
+
+[[K0048]]
+Pregunta
+
+[[K0049]]
+Tu tiempo
+
+[[K0050]]
+Mediana de tiempo en respuestas correctas
+
+[[K0051]]
+Aciertos de otros participantes
+
+[[K0052]]
+Compara tus resultados con los de otros participantes que realizaron la misma versión del acertijo. Se requiere un mínimo de 30 preguntas respondidas para calcular la tasa de aciertos, y 30 respuestas correctas con registro de tiempo para determinar la mediana. Estos datos provienen de participantes voluntarios, no de una muestra representativa de la población.
+
+[[K0053]]
+Compara y contribuye
+
+[[K0054]]
+Ayuda a otros participantes a comparar sus resultados. Al finalizar, puedes compartir estadísticas anónimas de la prueba, incluso si omitiste algunas preguntas.
+
+[[K0055]]
+Se están preparando comparaciones anónimas. Puedes consultar tus estadísticas personales sin necesidad de contribuir con tus datos.
+
+[[K0056]]
+Grupo de edad (opcional)
+
+[[K0057]]
+País (opcional)
+
+[[K0058]]
+Prefiero no decirlo
+
+[[K0059]]
+Menor de 18 años
+
+[[K0060]]
+Acepto contribuir con mis resultados anónimos (incluyendo los tiempos de respuesta, el grupo de edad y el país que decida indicar) para las estadísticas comparativas.
+
+[[K0061]]
+No se recopilan nombres, correos electrónicos ni la edad exacta. Compartir tus estadísticas es opcional y no afecta a tu resultado. Los grupos de comparación demasiado pequeños no se muestran.
+
+[[K0062]]
+Contribuir de forma anónima
+
+[[K0063]]
+¿Por qué esta respuesta?
+
+[[K0064]]
+Explicación
+
+[[K0065]]
+La regla
+
+[[K0066]]
+Aplicación de la regla
+
+[[K0067]]
+Estás revisando una versión anterior del acertijo. Sus ejemplos contienen una ambigüedad que ya ha sido identificada; tu respuesta guardada y tu puntuación permanecen sin cambios.
+
+[[K0068]]
+Estás revisando la versión original, la cual contenía marcadores de ejemplo incorrectos. Tu respuesta guardada y tu puntuación permanecen sin cambios. Los nuevos intentos utilizan la versión corregida.
+
+[[K0069]]
+En esta versión original, la imagen central que se muestra se expande hacia el verde en la parte superior derecha, en la fila 2, columna 3; hacia el rojo en la fila 2, columna 1; y hacia el marrón en la fila 2, columna 2, en la fila 3, columna 3 y en la fila 4, columna 3.
+
+[[K0070]]
+Compartir el resultado en Facebook

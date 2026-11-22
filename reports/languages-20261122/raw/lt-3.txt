@@ -1,0 +1,99 @@
+[[K0215]]
+Kiekviename žingsnyje pasukite figūrą 45 laipsnių kampu prieš laikrodžio rodyklę. Jos spalva kinta, todėl trečiajame paveikslėlyje ji vėl tampa tokia pati, kaip ir pirmajame. 
+
+[[K0216]]
+Pasukite baltą vidurinę figūrą dar 45 laipsnių kampu prieš laikrodžio rodyklę ir grąžinkite jai tamsią spalvą, kuri buvo pirmajame paveikslėlyje. Pasirinkite tamsią lenktą figūrą, esančią tokioje padėtyje. 
+
+[[K0217]]
+Sujunkite juodus apskritimus.
+
+[[K0218]]
+Gautame variante apskritimas yra juodas, jei bent viename iš pradinių variantų atitinkamas apskritimas yra juodas. Jis lieka baltas tik tada, kai abiejuose pradiniuose variantuose toje vietoje yra baltas apskritimas. 
+
+[[K0219]]
+Iš pirmojo varianto gaunamas apatinis dešinysis juodas apskritimas, o iš antrojo – du viršutiniai juodi apskritimai. Centrinis ir apatinis kairysis apskritimai lieka balti. 
+
+[[K0220]]
+Išplėskite į gretimus langelius.
+
+[[K0221]]
+Kiekviename žingsnyje visi mėlyni langeliai išlieka mėlyni ir nudažo mėlynai savo tiesioginius kaimynus – esančius viršuje, apačioje, kairėje ir dešinėje. Plėtimasis sustoja ties tinklelio kraštais. 
+
+[[K0222]]
+Taikykite tą patį vieno langelio plėtimąsi vidurinei mėlynai sričiai. Naujai pasiekti šoniniai kaimynai tampa mėlyni, o toliau esantys langeliai išlaiko pilkai juodą šachmatinį raštą. 
+
+[[K0223]]
+Panaikinkite sutampančias rudas pozicijas.
+
+[[K0224]]
+Palyginkite dvi penkių langelių juostas, tikrindami kiekvieną poziciją. Gautame variante langelis yra rudas, jei tik viename iš pradinių variantų toje vietoje yra ruda spalva. Sutampantys rudi langeliai virsta mėlynais. 
+
+[[K0225]]
+Pirmojoje juostoje ruda spalva yra 2, 3, 4 ir 5 pozicijose, o antrojoje – 2, 3 ir 5 pozicijose. Tik 4 pozicija išlieka ruda. 
+
+[[K0226]]
+Pašalinkite arčiausiai vienas kito esančius raudonus taškus.
+
+[[K0227]]
+Raskite mažiausią atstumą tarp bet kurių dviejų raudonų taškų. Pašalinkite visus raudonus taškus, kurie sudaro porą tokiu atstumu. Kitam žingsniui iš naujo apskaičiuokite mažiausią atstumą. [[K0228]]
+Viduriniame paveikslėlyje trys apatiniai raudoni taškai sudaro artimiausias įstrižines poras. Jas pašalinus, lieka tik vienas raudonas taškas – viršutinėje eilėje, ketvirtame stulpelyje. 
+
+[[K0229]]
+Perkelkite šešias spalvas ciklu
+
+[[K0230]]
+Skaitykite elementus iš viršaus į apačią kairiajame stulpelyje, o tada – dešiniajame. Paslinkite kiekvieną spalvą per vieną poziciją į priekį šiame šešių pozicijų cikle; spalva, buvusi apačioje dešinėje, persikelia į viršų kairėje. 
+
+[[K0231]]
+Viduriniame paveikslėlyje rudas apskritimas, esantis apačioje dešinėje, persikelia į viršų kairėje. Galutinėje būsenoje kairėje stulpelyje yra spalvos: ruda / raudona / raudona, o dešinėje – juoda / ruda / mėlyna. 
+
+[[K0232]]
+Judinkite baltą ir juodą spalvas priešingomis kryptimis
+
+[[K0233]]
+Kiekviename žingsnyje balti apskritimai pasislenka per vieną kampą pagal laikrodžio rodyklę, o juodi apskritimai – per vieną kampą prieš laikrodžio rodyklę. Pilka spalva rodo, kad tame pačiame kampe atsidūrė baltas ir juodas apskritimai; prieš atliekant kitą ėjimą, juos reikia atskirti. 
+
+[[K0234]]
+Viduriniame paveikslėlyje balti apskritimai yra dviejuose kairiuosiuose kampuose, o juodi – dviejuose kairiuosiuose kampuose bei apačioje dešinėje. Atlikus judesius, baltas apskritimas atsiduria viršuje kairėje, pilkas – viršuje dešinėje, o juodi – abiejuose apatiniuose kampuose. 
+
+[[K0235]]
+Prailginkite kiekvieną horizontalų brūkšnį
+
+[[K0236]]
+Kiekviename žingsnyje pratęskite kiekvieną juodą horizontalų brūkšnį į gretimas kapsules abiejose pusėse. Esami brūkšniai išlieka, o brūkšnių ilgėjimas sustoja ties išoriniais kraštais. 
+
+[[K0237]]
+Viduriniame paveikslėlyje esančius brūkšnius pratęskite dar per vieną kapsulę į kairę ir į dešinę. Išsaugokite skirtingus brūkšnių aukščius; atsakyme matomos ilgesnės horizontalios linijos, nusidriekiančios per keturias kapsules. 
+
+[[K0238]]
+Išplėskite trikampį tinklelį
+
+[[K0239]]
+Žiūrėkite į piešinį kaip į mažų trikampių visumą. Kiekviename žingsnyje prie kiekvieno atviro krašto pridėkite po mažą trikampį, išlaikydami jau esamus trikampius ir juos jungiančias linijas. 
+
+[[K0240]]
+Išplėskite vidurinę žalią grupę, pridėdami dar vieną gretimų trikampių sluoksnį. Atsakyme išlaikomas tas pats trikampis tinklelis, o išoriniuose jo kraštuose pridedama trikampių. 
+
+[[K0241]]
+Pašalinkite pažymėtas viršūnes.
+
+[[K0242]]
+Rudi taškai nurodo juodo daugiakampio viršūnes, kurias reikia pašalinti. Sujunkite likusias viršūnes ta pačia tvarka, kokia jos buvo išdėstytos iš pradžių. Dvi likusios viršūnės sudaro atkarpą. 
+
+[[K0243]]
+Pašalinkite viršutinę ir kairiąją viršūnes, pažymėtas rudais taškais. Lieka tik dvi apatinės viršūnės, todėl atsakymas – trumpa horizontali atkarpa apatinėje dešinėje dalyje. 
+
+[[K0244]]
+Pakeiskite taškų būseną kontūro kampuose.
+
+[[K0245]]
+Sulygiuokite juodo kontūro viršūnes su 3x3 taškų tinkleliu. Kiekvienoje viršūnėje pašalinkite esamą mėlyną tašką arba pridėkite naują, jei vieta tuščia. Kitos pozicijos lieka nepakitusios. 
+
+[[K0246]]
+Pakeiskite taškų būseną keturiuose pasvirusio kontūro kampuose. Rezultate mėlyni taškai bus viršutiniame kairiajame ir viršutiniame viduriniame kampuose, viduriniame centre ir viduriniame dešiniajame krašte, taip pat visose trijose apatinėse pozicijose. 
+
+[[K0247]]
+Pašalinkite pažymėtą plytą ir gretimas plytas.
+
+[[K0248]]
+Pirmiausia pašalinkite raudoną plytą ir visas plytas, kurios liečiasi su ja bent viena kraštine; tada leiskite plytoms, kurios prarado atramą, nukristi tiesiai žemyn. Tą patį veiksmą pakartokite su geltona plyta.

@@ -1,0 +1,77 @@
+[[K0249]]
+Setelah penghapusan bata merah, bata yang tersisa membentuk tangga tengah. Menghapus bata kuning dan bata-bata di sekitarnya menyisakan bata biru atas, yang jatuh ke bawah. 
+
+[[K0250]]
+Ulangi lapisan dan terapkan masker warna
+
+[[K0251]]
+Lacak tiga bentuk yang sama. Pada setiap langkah, bentuk depan bergerak ke belakang. Untuk gambar akhir, pertahankan isian abu-abu atau hitam pada gambar tengah; bentuk putih yang tidak terisi mendapatkan kembali warnanya dari gambar pertama. 
+
+[[K0252]]
+Heksagon abu-abu bergerak ke depan, kapsul horizontal hitam berada di belakangnya, dan kapsul vertikal bergerak ke belakang. Kapsul vertikal putih itu mendapatkan kembali warna kuning aslinya. 
+
+[[K0253]]
+Gunakan warna setiap lingkaran untuk menemukan pergerakannya
+
+[[K0254]]
+Lacak setiap lingkaran relatif terhadap lingkaran di sekitarnya. Putih bergerak 90 derajat searah jarum jam, hitam bergerak 90 derajat berlawanan arah jarum jam, dan merah tetap pada posisi relatif yang sama. Biru tidak bergerak. Terapkan gerakan ini ke setiap level bersarang. 
+
+[[K0255]]
+Lingkaran hitam bergerak dari atas lingkaran biru ke kirinya. Merah tetap di kanan di dalam hitam. Lingkaran putih yang lebih besar bergerak dari atas merah ke kanannya; lingkaran putih terkecil bergerak dari bawah lingkaran putih yang lebih besar ke kirinya. 
+
+[[K0256]]
+Pindahkan warna di sepanjang jalur yang terhubung
+
+[[K0257]]
+Tautan hitam menentukan jalur yang dilalui warna. Ikuti setiap putaran searah jarum jam, pindahkan setiap warna ke posisi terhubung berikutnya. Jalur dua posisi menukar warnanya; titik yang tidak terhubung tetap di tempatnya. 
+
+[[K0258]]
+Tukar dua warna teratas. Pada putaran bawah, biru tengah kiri bergerak ke tengah dan merah tengah kanan bergerak ke kiri bawah. Merah kanan bawah yang tidak terhubung tetap tidak berubah. 
+
+[[K0259]]
+Gerakkan setiap warna di sepanjang jalurnya masing-masing
+
+[[K0260]]
+Merah bergerak ke bawah, hijau bergerak ke kanan, dan kuning bergerak ke kiri. Biru bergerak ke atas dan, jika memungkinkan, satu kolom ke kiri. Putih menandai warna yang tumpang tindih; pisahkan warna-warna tersebut lagi saat menerapkan langkah selanjutnya. Warna yang bergerak di luar grid akan hilang. 
+
+[[K0261]]
+Pisahkan sel putih tengah menjadi merah dan hijau. Merah bergerak ke tengah bawah, hijau ke kanan tengah, biru mencapai kiri atas, dan kuning keluar di sebelah kiri. Ketiga sel berwarna tersebut membentuk jawabannya. 
+
+[[K0262]]
+Gerakkan ujung merah dan biru ke arah yang berlawanan
+
+[[K0263]]
+Pada setiap langkah, setiap ujung merah bergerak satu posisi berlawanan arah jarum jam dan setiap ujung biru bergerak dua posisi searah jarum jam di sekitar bintang berujung lima. Putih berarti merah dan biru tumpang tindih; pisahkan kedua warna tersebut sebelum bergerak lagi. 
+
+[[K0264]]
+Pada gambar tengah, warna merah berada di kanan bawah dan warna biru berada di kanan atas dan kiri atas. Langkah selanjutnya menempatkan warna merah dan satu warna biru bersama-sama di kanan atas, sehingga menjadi putih. Warna biru lainnya bergerak ke kiri bawah. 
+
+[[K0265]]
+Geser dua salinan ke arah sektor
+
+[[K0266]]
+Kedua tepi sektor putih menunjukkan dua arah pergerakan. Buat dua salinan pola titik merah dan geser satu salinan satu langkah grid ke setiap arah, melingkari tepinya. Posisi yang dicapai sekali berwarna merah; posisi yang dicapai oleh kedua salinan berwarna biru. 
+
+[[K0267]]
+Sektor terakhir mengarah ke kiri bawah dan kanan bawah. Geser satu salinan ke setiap arah. Tumpang tindihnya membuat seluruh baris atas dan tengah menjadi biru; posisi salinan tunggal tetap merah, seperti yang ditunjukkan pada jawaban. 
+
+[[K0268]]
+Hapus segmen tali yang bersilangan
+
+[[K0269]]
+Tumpangkan kedua gambar. Perlakukan setiap potongan lurus di antara titik-titik grid yang berurutan sebagai segmen tali yang terpisah. Ketika sebuah segmen dari satu gambar melintasi segmen dari gambar lainnya di antara titik-titik, hapus kedua segmen tersebut. Segmen yang bertemu di titik grid tetap ada. Simpan semua segmen yang tidak terpotong dari kedua gambar. 
+
+[[K0270]]
+Hapus segmen diagonal yang terpotong di antara titik-titik grid. Potongan yang tersisa membentuk garpu atas dengan batang vertikal, dua diagonal pendek yang terpisah di dekat sudut atas, dan garpu bawah dengan batang vertikalnya sendiri. 
+
+[[K0271]]
+Geser dan urutkan potongan berdasarkan ukuran
+
+[[K0272]]
+Dorong semua potongan ke arah panah. Potongan yang lebih kecil melewati potongan yang lebih besar dan mencapai ruang terjauh yang tersedia terlebih dahulu. Pertahankan tinggi dan posisi vertikal setiap potongan. Potongan dapat berbagi kolom jika tidak tumpang tindih secara vertikal; potongan berukuran sama mempertahankan urutan relatifnya. 
+
+[[K0273]]
+Panah menunjuk ke kanan. Masukkan potongan terpendek ke dalam ruang yang tersedia di sebelah kanan, lalu potongan dua sel, kemudian potongan yang lebih tinggi di sebelah kirinya. Tidak ada yang bergerak ke atas atau ke bawah, dan tidak ada potongan yang berubah ukuran. 
+
+[[K0274]]
+Pindahkan pembatas ke ruang kosong

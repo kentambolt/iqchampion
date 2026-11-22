@@ -1,0 +1,75 @@
+[[K0249]]
+Pašalinus raudoną elementą, likusios plytos sudaro vidurinius laiptus. Pašalinus geltoną plytą ir su ja besiliečiančius elementus, viršutinė mėlyna plyta lieka laisva ir nukrenta į apačią. 
+
+[[K0250]]
+Pasukite sluoksnius ir pritaikykite spalvų šabloną.
+
+[[K0251]]
+Sekite tas pačias tris figūras. Kiekviename žingsnyje priekyje esanti figūra persikelia į galą. Galutiniame paveikslėlyje palikite vidurinio paveikslėlio pilkus arba juodus užpildus, o neužpildytoms (baltoms) figūroms grąžinkite spalvas iš pirmojo paveikslėlio. 
+
+[[K0252]]
+Pilkas šešiakampis atsiduria priekyje, juoda horizontali kapsulė – už jo, o vertikali kapsulė – pačiame gale. Balta vertikali kapsulė vėl įgauna savo pradinę geltoną spalvą. 
+
+[[K0253]]
+Pagal kiekvieno apskritimo spalvą nustatykite jo judėjimą.
+
+[[K0254]]
+Sekite kiekvieną apskritimą, atsižvelgdami į jį supantį apskritimą. Baltas apskritimas juda 90 laipsnių kampu pagal laikrodžio rodyklę, juodas – 90 laipsnių kampu prieš laikrodžio rodyklę, o raudonas išlieka toje pačioje santykinėje padėtyje. Mėlynas apskritimas nejuda. Taikykite šiuos judėjimus kiekviename įdėtame lygmenyje. 
+
+[[K0255]]
+Juodas apskritimas iš vietos virš mėlyno apskritimo persikelia į kairę nuo jo. Raudonas apskritimas lieka dešinėje, juodo apskritimo viduje. Didesnis baltas apskritimas iš vietos virš raudono apskritimo persikelia į dešinę nuo jo; mažiausias baltas apskritimas iš vietos po didesniu baltu apskritimu persikelia į kairę nuo jo. 
+
+[[K0256]]
+Perkelkite spalvas nurodytais maršrutais.
+
+[[K0257]]
+Juodos jungtys nurodo maršrutus, kuriais juda spalvos. Sekite kiekvieną ciklą pagal laikrodžio rodyklę, perkeldami kiekvieną spalvą į kitą sujungtą poziciją. Maršrute, jungiančiame dvi pozicijas, spalvos tiesiog susikeičia vietomis; nesujungti taškai lieka savo vietose. 
+
+[[K0258]]
+Sukeiskite dvi viršutines spalvas. Apatiniame cikle mėlyna spalva (iš kairės vidurinės dalies) persikelia į centrą, o raudona spalva (iš dešinės vidurinės dalies) – į apatinę kairę pusę. Raudona spalva apatinėje dešinėje pusėje, kuri nėra sujungta su kitais elementais, lieka nepakitusi. [[K0259]]
+Perkelkite kiekvieną spalvą jos keliu
+
+[[K0260]]
+Raudona juda žemyn, žalia – dešinėn, o geltona – kairėn. Mėlyna juda aukštyn ir, jei įmanoma, vienu stulpeliu į kairę. Balta spalva žymi persidengiančias spalvas; kitą kartą atlikdami veiksmą, šias spalvas dar kartą atskirkite. Spalvos, peržengiančios tinklelio ribas, išnyksta. 
+
+[[K0261]]
+Vidurinę baltą langelį padalinkite į raudoną ir žalią. Raudona juda į apačią per vidurį, žalia – į vidurį dešinėje, mėlyna pasiekia viršutinį kairįjį kampą, o geltona išeina kairėje. Šios trys spalvotos langeliai sudaro atsakymą. 
+
+[[K0262]]
+Perkelkite raudoną ir mėlyną galiukus priešingomis kryptimis
+
+[[K0263]]
+Kiekviename žingsnyje kiekvienas raudonas galiukas pasislenka viena pozicija prieš laikrodžio rodyklę, o kiekvienas mėlynas galiukas pasislenka dviem pozicijomis pagal laikrodžio rodyklę aplink penkiakampę žvaigždę. Balta reiškia, kad raudona ir mėlyna persidengia; prieš vėl judėdami, atskirkite abi spalvas. 
+
+[[K0264]]
+Viduriniame paveikslėlyje raudona yra apatiniame dešiniajame kampe, o mėlyna – viršutiniame dešiniajame ir viršutiniame kairiajame kampe. Kitas judesys sujungia raudoną ir vieną mėlyną spalvas viršuje dešinėje, paversdamas jas baltais. Kita mėlyna spalva pasislenka į apatinį kairįjį. 
+
+[[K0265]]
+Pastumkite dvi kopijas sektoriaus kryptimis
+
+[[K0266]]
+Du balto sektoriaus kraštai rodo dvi judėjimo kryptis. Padarykite dvi raudonų taškų rašto kopijas ir pastumkite vieną kopiją vienu tinklelio žingsniu kiekviena kryptimi, apvyniodami kraštus. Vieną kartą pasiekta pozicija yra raudona; abiejų kopijų pasiekta pozicija yra mėlyna. 
+
+[[K0267]]
+Paskutinis sektorius rodo į kairę žemyn ir į dešinę žemyn. Pastumkite kopiją į kiekvieną pusę. Jų persidengimas padaro visą viršutinę eilutę ir centrą mėlynus; vienos kopijos pozicijos lieka raudonos, kaip parodyta atsakyme. 
+
+[[K0268]]
+Pašalinkite susikertančius stygų segmentus
+
+[[K0269]]
+Uždenkite abu piešinius. Kiekvieną tiesų dalį tarp iš eilės einančių tinklelio taškų traktuokite kaip atskirą stygų segmentą. Kai segmentas iš vieno piešinio kerta segmentą iš kito tarp taškų, pašalinkite abu segmentus. Atkarpos, susitinkančios tinklelio taške, lieka savo vietose. Išsaugokite visas nepjautas atkarpas iš abiejų brėžinių. 
+
+[[K0270]]
+Pašalinkite įstrižas atkarpas, kurios buvo perpjautos tarp tinklelio taškų. Likusios dalys sudaro viršutinę šakutę su vertikaliu kotu, dvi atskiras trumpas įstrižas atkarpas ties viršutiniais kampais bei apatinę šakutę su jai priklausančiu vertikaliu kotu. 
+
+[[K0271]]
+Perkelkite dalis ir surūšiuokite jas pagal dydį.
+
+[[K0272]]
+Pastumkite visas dalis rodyklės nurodyta kryptimi. Mažesnės dalys pralenkia didesnes ir pirmosios pasiekia tolimiausias laisvas vietas. Išsaugokite kiekvienos dalies aukštį ir vertikalią padėtį. Dalys gali būti tame pačiame stulpelyje, jei jos nesidengia vertikaliai; vienodo dydžio dalys išlaiko savo tarpusavio eiliškumą. 
+
+[[K0273]]
+Rodyklė nukreipta į dešinę. Trumpiausias dalis įstatykite į laisvas vietas dešinėje, tada – dviejų langelių dydžio dalis, o aukštesnes dalis – į kairę nuo jų. Niekas nejuda aukštyn ar žemyn, o dalys nekeičia savo dydžio. 
+
+[[K0274]]
+Perkelkite skirtukus į laisvas vietas.

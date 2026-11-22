@@ -1,0 +1,209 @@
+[[K0001]]
+Khoảng trung vị ước tính
+
+[[K0002]]
+Các so sánh công khai bao gồm tất cả những người đóng góp sử dụng phiên bản câu đố này. Nhóm tuổi và quốc gia tùy chọn chỉ được sử dụng trong thống kê tổng hợp riêng tư. 
+
+[[K0003]]
+Tôi đồng ý đóng góp kết quả câu hỏi ẩn danh, thời gian hoạt động và bất kỳ nhóm tuổi hoặc quốc gia tùy chọn nào vào thống kê tổng hợp. 
+
+[[K0004]]
+Khoảng trung vị được ước tính từ biểu đồ thời gian. Khoảng hiển thị cho thấy độ phân giải thời gian; không có giá trị trung vị chính xác hoặc phần trăm tốc độ nào được khẳng định. 
+
+[[K0005]]
+Chia sẻ thử thách
+
+[[K0006]]
+Thời gian đặt câu hỏi
+
+[[K0007]]
+Tùy chọn quyền riêng tư của trình duyệt của bạn giữ các số liệu thống kê này trên thiết bị của bạn. 
+
+[[K0008]]
+Tất cả các nỗ lực tự nguyện
+
+[[K0009]]
+Cảm ơn bạn. Đóng góp ẩn danh của bạn đã được lưu lại.
+
+[[K0010]]
+Hiện chưa có đủ lượt thử tương đương trong nhóm này. Số liệu thống kê của riêng bạn luôn có sẵn. 
+
+[[K0011]]
+Tính năng so sánh tạm thời không khả dụng. Số liệu thống kê và chia sẻ của riêng bạn vẫn hoạt động. 
+
+[[K0012]]
+Lượt thử cũ này không có bản ghi thời gian đầy đủ. Bạn vẫn có thể xem và chia sẻ kết quả của mình. 
+
+[[K0013]]
+Chọn xem bạn có muốn đóng góp trước khi gửi bất kỳ dữ liệu nào. 
+
+[[K0014]]
+Lượt thử này không có bản ghi thời gian đầy đủ. Kết quả cá nhân của bạn không thay đổi. 
+
+[[K0015]]
+Đóng góp của bạn không thể được lưu trong trình duyệt này. Không có gì được gửi. 
+
+[[K0016]]
+Đóng góp này cần được xem xét và không được tính lại. 
+
+[[K0017]]
+Đóng góp của bạn chưa được xác nhận. Hãy thử lại với cùng một đóng góp đã lưu. 
+
+[[K0018]]
+Không cần tài khoản
+
+[[K0019]]
+Bài kiểm tra bắt đầu khi bạn sẵn sàng
+
+[[K0020]]
+Bài kiểm tra
+
+[[K0021]]
+Câu hỏi đã trả lời
+
+[[K0022]]
+Điều muốn chia sẻ
+
+[[K0023]]
+Khoảnh khắc mạnh mẽ nhất của bạn
+
+[[K0024]]
+Chỉ số IQ ước tính của bạn
+
+[[K0025]]
+Một câu đố hóc búa, được giải nhanh chóng
+
+[[K0026]]
+Nhanh hơn câu trả lời đúng thông thường
+
+[[K0027]]
+Câu trả lời đúng nhanh nhất của bạn
+
+[[K0028]]
+Các mẫu bạn đã giải
+
+[[K0029]]
+Một thử thách đáng để chia sẻ
+
+[[K0030]]
+36 câu đố. Một thử thách. 
+
+[[K0031]]
+Chia sẻ thử thách với người bạn quen biết. 
+
+[[K0032]]
+Thời gian hoạt động của riêng bạn. Không có đủ dữ liệu so sánh để xếp hạng tốc độ của nó. 
+
+[[K0033]]
+Chọn những gì bạn muốn chia sẻ
+
+[[K0034]]
+Khoảnh khắc tuyệt vời nhất
+
+[[K0035]]
+Ước tính IQ
+
+[[K0036]]
+Sửa mẫu câu
+
+[[K0037]]
+Chia sẻ lên Facebook
+
+[[K0038]]
+Sao chép chú thích cá nhân
+
+[[K0039]]
+Văn bản chia sẻ của bạn
+
+[[K0040]]
+Sao chép văn bản
+
+[[K0041]]
+Facebook cho phép bạn tự viết chú thích. Chúng tôi không bao giờ đăng tự động. 
+
+[[K0042]]
+Đã sao chép. Dán vào bài đăng của bạn. 
+
+[[K0043]]
+Chọn và sao chép văn bản bên dưới. 
+
+[[K0044]]
+Thống kê câu hỏi của bạn
+
+[[K0045]]
+Tính năng so sánh câu hỏi chưa khả dụng. Thống kê cá nhân của bạn được hiển thị bên dưới. 
+
+[[K0046]]
+Số lần được tính hiển thị, thời gian tập trung vào câu hỏi cho đến câu trả lời cuối cùng của bạn. Đối với các câu hỏi chưa được trả lời, thời gian đã dành sẽ được hiển thị. Các tab ẩn và các trang đã đóng không được tính. Các lần thử trước đó có thể không có thời gian. 
+
+[[K0047]]
+Tất cả 36 câu hỏi, bao gồm cả những câu hỏi đã bỏ qua
+
+[[K0048]]
+Câu hỏi
+
+[[K0049]]
+Thời gian của bạn
+
+[[K0050]]
+Trung vị số câu trả lời đúng
+
+[[K0051]]
+Số câu trả lời đúng khác
+
+[[K0052]]
+So sánh với các lần làm bài tự nguyện sử dụng cùng một phiên bản câu đố. Cần ít nhất 30 câu hỏi được trả lời để có tỷ lệ đúng và 30 câu trả lời đúng trong thời gian quy định để có trung vị. Đây là những người tham gia, không phải là một quần thể đại diện. 
+
+[[K0053]]
+So sánh và đóng góp
+
+[[K0054]]
+Giúp những người tham gia trong tương lai so sánh kết quả của họ. Bạn có thể chia sẻ số liệu thống kê bài kiểm tra ẩn danh sau khi hoàn thành, ngay cả khi bạn đã bỏ qua câu hỏi. 
+
+[[K0055]]
+Các so sánh ẩn danh đang được chuẩn bị. Số liệu thống kê cá nhân và việc chia sẻ của bạn vẫn hoạt động mà không cần đóng góp. 
+
+[[K0056]]
+Nhóm tuổi (tùy chọn)
+
+[[K0057]]
+Quốc gia (tùy chọn)
+
+[[K0058]]
+Không muốn tiết lộ
+
+[[K0059]]
+Dưới 18 tuổi
+
+[[K0060]]
+Tôi đồng ý đóng góp kết quả câu hỏi ẩn danh và thời gian hoạt động của mình, cùng với bất kỳ nhóm tuổi và quốc gia nào tôi chọn, vào thống kê so sánh. 
+
+[[K0061]]
+Không có tên, email hoặc tuổi chính xác. Việc chia sẻ thống kê của bạn là tùy chọn và không ảnh hưởng đến kết quả của bạn. Các nhóm so sánh nhỏ được ẩn đi. 
+
+[[K0062]]
+Đóng góp ẩn danh
+
+[[K0063]]
+Tại sao lại trả lời này? 
+
+[[K0064]]
+Giải thích
+
+[[K0065]]
+Quy tắc
+
+[[K0066]]
+Áp dụng quy tắc
+
+[[K0067]]
+Bạn đang xem lại phiên bản câu đố cũ hơn. Các ví dụ của nó chứa sự mơ hồ đã được xác định trước đó; câu trả lời và điểm số đã lưu của bạn không thay đổi. 
+
+[[K0068]]
+Bạn đang xem lại phiên bản gốc, phiên bản này có chứa các dấu hiệu ví dụ không chính xác. Câu trả lời và điểm số đã lưu của bạn không thay đổi. Các lần thử tiếp theo sẽ sử dụng phiên bản đã được sửa. 
+
+[[K0069]]
+Trong phiên bản gốc này, hình ảnh ở giữa được hiển thị mở rộng thành màu xanh lá cây ở góc trên bên phải và hàng 2, cột 3; màu đỏ ở hàng 2, cột 1; và màu nâu ở hàng 2, cột 2, hàng 3, cột 3 và hàng 4, cột 3.
+
+[[K0070]]
+Chia sẻ kết quả trên Facebook

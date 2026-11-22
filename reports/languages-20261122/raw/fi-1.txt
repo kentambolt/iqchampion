@@ -1,0 +1,301 @@
+[[K0071]]
+Jaa testi Facebookissa
+
+[[K0072]]
+Arvioitu älykkyysosamäärä (ÄO)
+
+[[K0073]]
+Vain huvin vuoksi. Kyseessä on suuntaa-antava tulos, ei ammatillisesti validoitu älykkyysosamäärän mittaus. 
+
+[[K0074]]
+Testisi on kesken. Oikeat vastauksesi näkyvät, mutta ÄO-arvion saaminen edellyttää kaikkia 36 vastausta. 
+
+[[K0075]]
+Ei saatavilla
+
+[[K0076]]
+Ilmainen visuaalisen päättelyn testi | IQ Champion
+
+[[K0077]]
+36 visuaalista päättelytehtävää. Suorita ilmainen 40 minuutin haaste ja tarkastele tuloksiasi. 
+
+[[K0078]]
+Vastattu
+
+[[K0079]]
+Vastaamatta
+
+[[K0080]]
+Oikein
+
+[[K0081]]
+Väärin
+
+[[K0082]]
+Sulje
+
+[[K0083]]
+Ohje
+
+[[K0084]]
+40 min
+
+[[K0085]]
+Kieli
+
+[[K0086]]
+Tietoa testistä
+
+[[K0087]]
+Visuaalisen päättelyn haaste
+
+[[K0088]]
+Havaitse säännönmukaisuus. 
+
+[[K0089]]
+Etsi puuttuva osa. 
+
+[[K0090]]
+36 visuaalista tehtävää ja arvioitu älykkyysosamäärä. Vain huvin vuoksi. 
+
+[[K0091]]
+Tehtävät
+
+[[K0092]]
+Aikaraja
+
+[[K0093]]
+Hinta
+
+[[K0094]]
+Ilmainen
+
+[[K0095]]
+Tiliä ei tarvita. Ajastin käynnistyy, kun aloitat. 
+
+[[K0096]]
+Näin testi toimii
+
+[[K0097]]
+Valitse kuvake, joka täydentää kunkin sarjan. 
+
+[[K0098]]
+Voit ohittaa vaikeat kysymykset ja palata niihin myöhemmin yleisnäkymän kautta. 
+
+[[K0099]]
+Tarkista tai muuta vastauksiasi ennen testin päättämistä. [[K0100]]
+Vastauksesi ja aloitusaikasi tallennetaan tähän selaimeen. Sivun päivittäminen ei muuta alkuperäistä määräaikaasi. 
+
+[[K0101]]
+40 minuutin ajastin jatkaa kulumistaan, vaikka sivu suljettaisiin. Vastaamattomat kysymykset lasketaan vääriksi vastauksiksi. 
+
+[[K0102]]
+Tietoa tuloksestasi
+
+[[K0103]]
+Arvioitu älykkyysosamääräsi (ÄO) perustuu sijoitukseesi
+
+[[K0104]]
+aiempien suoritusten joukossa. 
+
+[[K0105]]
+Vertailussa huomioidaan suoritukset, jotka ovat kestäneet yli minuutin mutta enintään 40 minuuttia. Tulosta ei ole validoitu virallista älykkyystestiä tai väestöä edustavaa otosta vasten. 
+
+[[K0106]]
+Testi on tarkoitettu viihteeksi. Arvioitu ÄO on suuntaa-antava luku, ei ammatillisesti validoitu älykkyysosamäärä. 
+
+[[K0107]]
+Aloita 40 minuutin testi
+
+[[K0108]]
+Päättelytesti
+
+[[K0109]]
+Haasteesi
+
+[[K0110]]
+Aikaa jäljellä
+
+[[K0111]]
+jäljellä
+
+[[K0112]]
+Kysymyksen kaava
+
+[[K0113]]
+Etsi kaava
+
+[[K0114]]
+Neljä riviä visuaalisia kuvioita; täydennä viimeinen rivi
+
+[[K0115]]
+Valitse vastauksesi
+
+[[K0116]]
+Kysymysten selaus
+
+[[K0117]]
+Edellinen kysymys
+
+[[K0118]]
+Ohita toistaiseksi
+
+[[K0119]]
+Seuraava kysymys
+
+[[K0120]]
+Yleiskatsaus kysymyksiin
+
+[[K0121]]
+✓ Vastattu
+
+[[K0122]]
+○ Vastaamatta
+
+[[K0123]]
+Korostettu = nykyinen
+
+[[K0124]]
+Siirry kysymykseen
+
+[[K0125]]
+Tarkista ja lopeta
+
+[[K0126]]
+Ohjeet ja tallennettu edistyminen
+
+[[K0127]]
+Valitse vastaus siirtyäksesi seuraavaan vastaamattomaan kysymykseen. Voit ohittaa kysymyksiä, palata aiempiin ja muuttaa vastauksiasi ennen testin päättämistä. 
+
+[[K0128]]
+Vastaukset tallentuvat automaattisesti tähän selaimeen. Sivun päivittäminen palauttaa sinut samaan kysymykseen; ajastin jatkaa käymistään. 
+
+[[K0129]]
+Valmiina, kun sinäkin olet
+
+[[K0130]]
+Lopetetaanko testi? 
+
+[[K0131]]
+Jatka suorittamista
+
+[[K0132]]
+Lopeta ja katso tulos
+
+[[K0133]]
+Haaste suoritettu
+
+[[K0134]]
+Tuloksesi
+
+[[K0135]]
+Tarkastele vastauksia
+
+[[K0136]]
+Yritä uudelleen
+
+[[K0137]]
+Tietoa tästä testistä
+
+[[K0138]]
+Tuloksen tulkinta
+
+[[K0139]]
+Sijoituksesi (persentiilisi) aiempien suoritusten joukossa on muunnettu tutulle älykkyysosamääräasteikolle, jossa keskiarvo on 100 ja keskihajonta 15. Tämä olettaa vertailuryhmän vastaavan koko väestöä, mitä ei ole varmistettu. 
+
+[[K0140]]
+Vastauksesi selityksineen
+
+[[K0141]]
+Tarkista vastauksesi
+
+[[K0142]]
+Takaisin tulokseen
+
+[[K0143]]
+Kuvio
+
+[[K0144]]
+Vertaa vastauksia
+
+[[K0145]]
+Vastauksesi
+
+[[K0146]]
+Oikea vastaus
+
+[[K0147]]
+Edellinen kysymys tarkastelussa
+
+[[K0148]]
+Seuraava kysymys tarkastelussa
+
+[[K0149]]
+Tulokset kysymyksittäin
+
+[[K0150]]
+Tutustu kaikkiin 36 tehtävään
+
+[[K0151]]
+✓ Oikein
+
+[[K0152]]
+× Väärin
+
+[[K0153]]
+Tarkastele kysymystä
+
+[[K0154]]
+Antamasi vastaukset ja lopullinen pistemäärä pysyvät ennallaan. [[K0155]]
+Yhteystiedot
+
+[[K0156]]
+Palaute ja yhteystiedot
+
+[[K0157]]
+Lähetä palautetta tai ota meihin yhteyttä
+
+[[K0158]]
+Oikein. Vastauksesi vastaa oikeaa vastausta. 
+
+[[K0159]]
+Väärin. Vastauksesi poikkeaa oikeasta vastauksesta. 
+
+[[K0160]]
+Vastaamatta. Tähän kysymykseen ei annettu vastausta. 
+
+[[K0161]]
+Ei vastausta
+
+[[K0162]]
+Antamasi vastaus
+
+[[K0163]]
+Kuvake puuttuu
+
+[[K0164]]
+Kaikkiin kysymyksiin on vastattu. Voit vielä tarkistaa ja muuttaa vastauksia ennen testin päättämistä. 
+
+[[K0165]]
+Aikaa jäljellä enintään viisi minuuttia. 
+
+[[K0166]]
+Aika on loppu. Vastauksesi on arvosteltu. 
+
+[[K0167]]
+Testi suoritettu. 
+
+[[K0168]]
+Vertailu ei ole käytettävissä. 
+
+[[K0169]]
+Tämä selain ei voinut tallentaa suoritustasi. Pidä tämä sivu auki: sivun lataaminen uudelleen voi johtaa edistymisen menettämiseen tai vanhempien vastausten palautumiseen. 
+
+[[K0170]]
+Paikallinen tallennus ei ole käytettävissä tässä selaimessa. Pidä sivu auki, jotta et menetä suoritustasi. 
+
+[[K0171]]
+Tallennettua suoritusta ei voitu palauttaa. Aloita uusi testi, kun olet valmis. 
+
+[[K0172]]
+Pidä kuvio muuttumattomana

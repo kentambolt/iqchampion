@@ -1,0 +1,101 @@
+[[K0215]]
+Putar bentuk 45 darjah lawan arah jam pada setiap langkah. Warnanya berselang-seli, jadi gambar ketiga kembali kepada warna gambar pertama. 
+
+[[K0216]]
+Putar bentuk tengah putih 45 darjah lawan arah jam lagi dan kembalikan warna gelap daripada gambar pertama. Pilih bentuk melengkung gelap dalam orientasi tersebut. 
+
+[[K0217]]
+Gabungkan bulatan hitam
+
+[[K0218]]
+Bulatan berwarna hitam dalam hasil apabila bulatan yang sepadan berwarna hitam dalam mana-mana input. Ia berwarna putih hanya apabila kedua-dua input mempunyai bulatan putih di sana. 
+
+[[K0219]]
+Input pertama menyumbang bulatan hitam bawah kanan; yang kedua menyumbang dua bulatan hitam atas. Bulatan tengah dan bawah kiri kekal putih. 
+
+[[K0220]]
+Kembangkan ke dalam sel bersebelahan
+
+[[K0221]]
+Pada setiap langkah, setiap sel biru kekal biru dan juga mewarnakan jiran terdekatnya di atas, bawah, kiri dan kanan. Pengembangan berhenti di sempadan grid. 
+
+[[K0222]]
+Gunakan pengembangan satu sel yang sama pada kawasan biru tengah. Jiran sisi yang baru dicapai menjadi biru; sel yang lebih jauh kekal di papan dam kelabu dan hitam. 
+
+[[K0223]]
+Batalkan kedudukan coklat yang sepadan
+
+[[K0224]]
+Bandingkan dua jalur lima sel kedudukan demi kedudukan. Sel berwarna coklat dalam hasilnya jika tepat satu input berwarna coklat di sana. Sel coklat yang sepadan dibatalkan kepada biru. 
+
+[[K0225]]
+Warna coklat berlaku di kedudukan 2, 3, 4 dan 5 di jalur pertama dan di kedudukan 2, 3 dan 5 di kedua. Hanya kedudukan 4 yang kekal berwarna coklat. 
+
+[[K0226]]
+Keluarkan titik merah terdekat
+
+[[K0227]]
+Cari jarak terkecil antara mana-mana dua titik merah. Keluarkan setiap titik merah milik pasangan pada jarak itu. Kira semula jarak terdekat untuk langkah seterusnya. 
+
+[[K0228]]
+Dalam gambar tengah, tiga titik merah bawah mengambil bahagian dalam pasangan pepenjuru terdekat. Mengalihkannya hanya meninggalkan titik merah di baris atas, lajur keempat. 
+
+[[K0229]]
+Gerakkan enam warna di sekitar kitaran
+
+[[K0230]]
+Baca ke bawah susunan kiri, kemudian ke bawah susunan kanan. Anjak setiap warna satu kedudukan ke hadapan dalam kitaran enam kedudukan itu; warna kanan bawah melilit ke kiri atas. 
+
+[[K0231]]
+Dari gambar tengah, bulatan coklat kanan bawah melilit ke kiri atas. Susunan terakhir berwarna coklat/merah/merah di sebelah kiri dan hitam/coklat/biru di sebelah kanan. 
+
+[[K0232]]
+Gerakkan putih dan hitam ke arah yang bertentangan
+
+[[K0233]]
+Bulatan putih bergerak satu sudut mengikut arah jam dan bulatan hitam bergerak satu sudut mengikut arah lawan jam pada setiap langkah. Kelabu bermaksud bulatan putih dan hitam menempati sudut yang sama; pisahkan mereka sebelum bergerak lagi. 
+
+[[K0234]]
+Gambar tengah mengandungi bulatan putih di dua sudut kiri dan bulatan hitam di dua sudut kiri dan kanan bawah. Menggerakkannya akan menghasilkan putih di kiri atas, kelabu di kanan atas, dan hitam di kedua-dua sudut bawah. 
+
+[[K0235]]
+Panjangkan setiap coretan mendatar
+
+[[K0236]]
+Pada setiap langkah, panjangkan setiap coretan mendatar hitam ke dalam kapsul bersebelahan di kedua-dua belah pihak. Coretan sedia ada kekal, dan coretan berhenti di tepi luar. 
+
+[[K0237]]
+Panjangkan coretan dalam gambar tengah satu lagi kapsul ke kiri dan kanan. Pastikan ketinggian coretan berasingan berbeza; jawapannya menunjukkan garisan mendatar yang lebih panjang yang terhasil merentasi empat kapsul. 
+
+[[K0238]]
+Tinggikan kekisi segi tiga
+
+[[K0239]]
+Anggap lukisan itu sebagai sekumpulan segi tiga kecil. Pada setiap langkah, tambahkan segi tiga kecil di luar setiap tepi yang terdedah, kekalkan segi tiga sedia ada dan garisan penghubungnya. 
+
+[[K0240]]
+Tumbuhkan gugusan hijau tengah sebanyak satu lapisan lagi segi tiga bersebelahan. Jawapannya mengekalkan grid segi tiga yang sama dan menambah segi tiga di sepanjang tepi luarnya. 
+
+[[K0241]]
+Keluarkan bucu yang ditanda
+
+[[K0242]]
+Titik-titik coklat mengenal pasti bucu poligon hitam yang hendak dialih keluar. Sambungkan bucu yang tinggal dalam susunan asalnya. Dua bucu yang tinggal menghasilkan segmen garis. 
+
+[[K0243]]
+Keluarkan bucu atas dan kiri yang ditanda oleh titik coklat. Hanya dua bucu bawah yang tinggal, jadi jawapannya ialah garis mendatar pendek berhampiran bahagian bawah kanan. 
+
+[[K0244]]
+Togol titik di sudut garis luar
+
+[[K0245]]
+Padankan bucu garis luar hitam dengan kedudukan titik 3 kali 3. Pada setiap bucu, keluarkan titik biru sedia ada atau tambahkan satu jika kedudukannya kosong. Kedudukan lain kekal tidak berubah. 
+
+[[K0246]]
+Togol empat kedudukan sudut garis condong. Hasilnya mempunyai titik biru di bahagian atas kiri dan atas tengah, tengah tengah dan tengah kanan, dan ketiga-tiga kedudukan bawah. 
+
+[[K0247]]
+Keluarkan bata yang ditanda dan jirannya
+
+[[K0248]]
+Mula-mula keluarkan bata merah dan setiap bata yang berkongsi tepi dengannya, kemudian biarkan bata yang tidak disokong jatuh terus ke bawah. Ulangi proses yang sama dengan bata kuning.

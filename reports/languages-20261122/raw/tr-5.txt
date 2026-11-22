@@ -1,0 +1,165 @@
+[[K0275]]
+Tüm siyah ayırıcılar, bir sonraki konumda sarı bir boncuk bulunması durumunda eş zamanlı olarak bir pozisyon sağa kayar. Başka bir ayırıcı tarafından engellenen bir ayırıcı ise olduğu yerde bekler. Sağ kenar, sol kenara bağlanır. 
+
+[[K0276]]
+Orta kısımdaki diziye eş zamanlı bir adım uygulayın. Nihai sıralama şu şekilde olacaktır: ayırıcı, boncuk, ayırıcı, boncuk, ayırıcı, ayırıcı, boncuk. 
+
+[[K0277]]
+Renkleri genişletin ve en büyük grubu koruyun.
+
+[[K0278]]
+Her renkli topu, aynı renkte dört yeni topla değiştirin; bu yeni toplar orijinal konumun bir adım yukarısında, aşağısında, solunda ve sağında yer almalıdır. Izgaranın dışına çıkan toplar kaybolur. Her bir konumda, kendisine en çok sayıda topun ulaştığı rengi koruyun. Eğer en yüksek sayıya ulaşan renkler arasında eşitlik varsa, o konumu boş bırakın. Aynı renkten birden fazla topun ulaşması, tek bir renkli işaretleyici olarak kabul edilir. 
+
+[[K0289]]
+Gösterilen orta resim genişletildiğinde; yeşil renk sağ üst köşede ve 2. satır 3. sütunda; kırmızı renk 2. satır 1. sütunda; kahverengi renk ise 2. satır 2. sütunda, 3. satır 3. sütunda ve 4. satır 2, 3 ve 4. sütunlarda kalır. Bunlar, kayıtlı cevapta yer alan renkler ve konumlarla birebir aynıdır. 
+
+[[K0280]]
+Dil seçin
+
+[[K0281]]
+Dillerde ara
+
+[[K0282]]
+Dil seçiciyi kapat
+
+[[K0283]]
+Dil bulunamadı
+
+[[K0284]]
+Eğlence amaçlı ücretsiz IQ testi | IQ Champion
+
+[[K0285]]
+Eğlence amaçlı, IQ testi tarzında ücretsiz bir test: 36 görsel bulmaca, 40 dakika süre, kaydedilen ilerleme ve tahmini bir IQ sonucu. Hesap oluşturmanız gerekmez. 
+
+[[K0286]]
+Tercih ettiğiniz dili seçin. Cevaplarınız ve orijinal süre sınırınız kayıtlı kalacaktır. 
+
+[[K0287]]
+Dil yükleniyor…
+
+[[K0288]]
+Dil yüklenemedi. Testiniz ve cevaplarınız değişmeden kalmıştır. [[K0289]]
+Geri bildirim Danca ve İngilizce dillerinde mevcuttur. 
+
+[[K0290]]
+Paylaşılan başarı
+
+[[K0291]]
+Paylaşılan sonuç
+
+[[K0292]]
+Paylaşılan sonuçlar, kullanıcıların kendi beyanlarına dayanır. 
+
+[[K0293]]
+Paylaşılan başarılar, kullanıcıların kendi beyanlarına dayanır. Yaş, ülke, verilen yanıtlar veya kişisel profiller paylaşılmaz. 
+
+[[K0294]]
+36 bulmacayı kendiniz deneyin
+
+[[K0295]]
+Testi kendiniz deneyin
+
+[[K0296]]
+IQ Champion'da görsel bir meydan okuma. Siz de örüntüyü fark edebilecek misiniz? 
+
+[[K0297]]
+Tamamen eğlence amaçlı, ücretsiz bir görsel bulmaca testi. Profesyonel olarak doğrulanmış bir IQ ölçümü değildir. 
+
+[[K0298]]
+Sayfa bulunamadı
+
+[[K0299]]
+Başka bir dilde devam edebilirsiniz. 
+
+[[K0300]]
+yanıtlandı
+
+[[K0301]]
+yanıtlanmadı
+
+[[K0302]]
+doğru
+
+[[K0303]]
+yanlış
+
+[[K0304]]
+Tahmini medyan aralığı: {0} ({1} adet süreli doğru yanıt). 
+
+[[K0305]]
+Soru {0} · {1}
+
+[[K0306]]
+{0} doğru örüntü
+
+[[K0307]]
+Aktif süre: {0}
+
+[[K0308]]
+Karşılaştırma: {1} gün içinde {0} gönüllü deneme. 
+
+[[K0309]]
+Soru {0} / {1}
+
+[[K0310]]
+Soru {0} / {1} gözden geçiriliyor
+
+[[K0311]]
+Satır {0}, simge {1}
+
+[[K0312]]
+Yanıt {0}
+
+[[K0313]]
+Soru {0}, {1}
+
+[[K0314]]
+Soru {0}, {1} gözden geçiriliyor
+
+[[K0315]]
+{0} doğru; {1} yanlış; {2} yanıtlanmamış. 
+
+[[K0316]]
+{0} yanıtlanmış; {1} yanıtlanmamış. 
+
+[[K0317]]
+{0} yanıtlanmış; {1} yanıtlanmamış. Yanıtlanmamış sorular yanlış kabul edilir. Testi bitirdikten sonra yanıtlarınızı değiştiremezsiniz. 
+
+[[K0318]]
+{0} / {1} doğru
+
+[[K0319]]
+Geçmiş katılımcılar arasındaki yüzdelik diliminiz: {0}
+
+[[K0320]]
+Daha düşük puan alan katılımcılar: %{0}. Aynı puanı alan katılımcılar: %{1}. 
+
+[[K0321]]
+Referans grubu: {0} geçmiş deneme. Kayıtlı süresi bir dakikadan uzun ve 40 dakikaya kadar olan denemeler dahil edilmiştir. Eşit puanlar, bulundukları yüzdelik dilim aralığının orta noktasını paylaşır. Tahminler tam sayılara yuvarlanır ve yalnızca 55–145 aralığında gösterilir; bu aralığın dışındaki değerler için bir sınır göstergesi kullanılır. Bu bir ölçek dönüşümüdür, bağımsız olarak doğrulanmış bir popülasyon IQ ölçümü değildir. Pratik yapmak ve testi tekrar denemek sonucunuzu etkileyebilir. Geçmiş denemelerin toplandığı dönemden bu yana bazı örnek görseller düzeltilmiştir; bu durum karşılaştırılabilirliği kısıtlayabilir. 
+
+[[K0322]]
+IQ Champion'daki tahmini IQ değerim: {0}. Sadece eğlence amaçlı. Deneyin: {1}
+
+[[K0323]]
+{0}. soruyu {1} sürede doğru çözdüm. Sen de yapabilir misin? {2}
+
+[[K0324]]
+{0}. soruyu {1} sürede doğru çözdüm (doğru yanıtlar arasındaki tahmini medyan süre: {2}). Sen de yapabilir misin? {3}
+
+[[K0325]]
+IQ Champion'da {0} doğru örüntü buldum. Deneyin: {1}
+
+[[K0326]]
+IQ Champion'daki eksik örüntüleri bulabilir misin? {0}
+
+[[K0327]]
+{0}. soru çözüldü
+
+[[K0328]]
+{0} örüntü çözüldü
+
+[[K0329]]
+{0} / 36 doğru. {1}
+
+[[K0330]]
+Tahmini IQ {0} | IQ Şampiyonu
