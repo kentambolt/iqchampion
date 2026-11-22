@@ -1,1 +1,13 @@
-{"name":"iqchampion","private":true,"scripts":{"test":"node --test checks/*.test.cjs"},"devDependencies":{"fake-indexeddb":"6.2.8"}}
+{
+  "name": "iqchampion",
+  "private": true,
+  "scripts": {
+    "test": "node --test checks/*.test.cjs",
+    "check:release": "node tools/Build-Language-Pages.cjs --check",
+    "build:languages": "node tools/Build-Language-Pages.cjs"
+  },
+  "devDependencies": {
+    "fake-indexeddb": "6.2.8",
+    "flag-icons": "7.6.0"
+  }
+}

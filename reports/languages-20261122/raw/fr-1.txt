@@ -1,0 +1,301 @@
+[[K0071]]
+Partager le test sur Facebook
+
+[[K0072]]
+QI estimé
+
+[[K0073]]
+Juste pour le plaisir. Il s'agit d'un score approximatif, et non d'une mesure du QI validée par des professionnels.
+
+[[K0074]]
+Votre test est incomplet. Vos bonnes réponses sont affichées, mais une estimation du QI nécessite l'ensemble des 36 réponses.
+
+[[K0075]]
+Indisponible
+
+[[K0076]]
+Test de raisonnement visuel gratuit | IQ Champion
+
+[[K0077]]
+36 énigmes de raisonnement visuel. Relevez un défi gratuit de 40 minutes et découvrez vos résultats.
+
+[[K0078]]
+Répondu
+
+[[K0079]]
+Sans réponse
+
+[[K0080]]
+Correct
+
+[[K0081]]
+Incorrect
+
+[[K0082]]
+Fermer
+
+[[K0083]]
+Aide
+
+[[K0084]]
+40 min
+
+[[K0085]]
+Langue
+
+[[K0086]]
+À propos du test
+
+[[K0087]]
+Un défi de raisonnement visuel
+
+[[K0088]]
+Identifiez la logique.
+
+[[K0089]]
+Trouvez l'élément manquant.
+
+[[K0090]]
+36 énigmes visuelles et une estimation de votre QI. Juste pour le plaisir.
+
+[[K0091]]
+Énigmes
+
+[[K0092]]
+Limite de temps
+
+[[K0093]]
+Coût
+
+[[K0094]]
+Gratuit
+
+[[K0095]]
+Aucun compte requis. Le chronomètre démarre dès que vous commencez.
+
+[[K0096]]
+Comment fonctionne le test
+
+[[K0097]]
+Choisissez l'icône qui complète chaque séquence.
+
+[[K0098]]
+Passez les questions difficiles et revenez-y plus tard via la vue d'ensemble.
+
+[[K0099]]
+Vérifiez ou modifiez vos réponses avant de terminer. [[K0100]]
+Vos réponses et votre heure de début sont enregistrées dans ce navigateur. Le rechargement de la page n'affecte pas votre délai initial.
+
+[[K0101]]
+Le compte à rebours de 40 minutes continue même si la page est fermée. Les questions sans réponse sont considérées comme incorrectes.
+
+[[K0102]]
+À propos de votre résultat
+
+[[K0103]]
+Votre QI estimé est basé sur votre position parmi
+
+[[K0104]]
+les tentatives effectuées précédemment.
+
+[[K0105]]
+La comparaison prend en compte les tentatives d'une durée comprise entre une minute et 40 minutes. Ce résultat n'a pas été validé par rapport à un test de QI officiel ni auprès d'un échantillon représentatif de la population.
+
+[[K0106]]
+Un test réalisé pour le plaisir. Votre QI estimé est une approximation et non un score de QI validé par des professionnels.
+
+[[K0107]]
+Commencer le test de 40 minutes
+
+[[K0108]]
+Test de raisonnement
+
+[[K0109]]
+Votre défi
+
+[[K0110]]
+Temps restant
+
+[[K0111]]
+restant
+
+[[K0112]]
+Modèle de question
+
+[[K0113]]
+Trouvez la logique
+
+[[K0114]]
+Quatre lignes de motifs visuels ; complétez la dernière ligne
+
+[[K0115]]
+Choisissez votre réponse
+
+[[K0116]]
+Navigation entre les questions
+
+[[K0117]]
+Question précédente
+
+[[K0118]]
+Passer pour l'instant
+
+[[K0119]]
+Question suivante
+
+[[K0120]]
+Aperçu des questions
+
+[[K0121]]
+✓ Répondu
+
+[[K0122]]
+○ Sans réponse
+
+[[K0123]]
+Contour = question actuelle
+
+[[K0124]]
+Aller à une question
+
+[[K0125]]
+Revoir et terminer
+
+[[K0126]]
+Instructions et progression enregistrée
+
+[[K0127]]
+Sélectionnez une réponse pour passer à la question suivante non traitée. Vous pouvez passer des questions, y revenir et modifier vos réponses avant de terminer.
+
+[[K0128]]
+Vos réponses sont enregistrées automatiquement dans ce navigateur. Si vous rechargez la page, vous reprendrez là où vous en étiez ; le chronomètre, lui, continue de tourner.
+
+[[K0129]]
+Prêt(e) quand vous voulez
+
+[[K0130]]
+Terminer ce test ?
+
+[[K0131]]
+Continuer
+
+[[K0132]]
+Terminer et voir le résultat
+
+[[K0133]]
+Défi terminé
+
+[[K0134]]
+Votre résultat
+
+[[K0135]]
+Revoir les réponses
+
+[[K0136]]
+Réessayer
+
+[[K0137]]
+À propos de ce test
+
+[[K0138]]
+Comment interpréter ce résultat
+
+[[K0139]]
+Votre rang centile, calculé par rapport aux tentatives précédentes, est converti selon l'échelle de QI classique : une moyenne de 100 et un écart-type de 15. Cette conversion suppose que le groupe de comparaison est représentatif de la population générale, ce qui n'a pas été formellement établi.
+
+[[K0140]]
+Explication de vos réponses
+
+[[K0141]]
+Passer en revue vos réponses
+
+[[K0142]]
+Retour au résultat
+
+[[K0143]]
+La logique
+
+[[K0144]]
+Comparer les réponses
+
+[[K0145]]
+Votre réponse
+
+[[K0146]]
+Bonne réponse
+
+[[K0147]]
+Question précédente
+
+[[K0148]]
+Question suivante
+
+[[K0149]]
+Résultats par question
+
+[[K0150]]
+Explorer les 36 énigmes
+
+[[K0151]]
+✓ Correct
+
+[[K0152]]
+× Incorrect
+
+[[K0153]]
+Revoir une question
+
+[[K0154]]
+Vos réponses soumises et votre score final restent inchangés. [[K0155]]
+Contact
+
+[[K0156]]
+Commentaires et contact
+
+[[K0157]]
+Envoyez-nous vos commentaires ou contactez-nous
+
+[[K0158]]
+Correct. Votre réponse correspond à la bonne réponse.
+
+[[K0159]]
+Incorrect. Votre réponse diffère de la bonne réponse.
+
+[[K0160]]
+Sans réponse. Aucune réponse n'a été soumise pour cette question.
+
+[[K0161]]
+Aucune réponse soumise
+
+[[K0162]]
+Votre réponse soumise
+
+[[K0163]]
+Icône manquante
+
+[[K0164]]
+Toutes les questions ont reçu une réponse. Vous pouvez encore revoir et modifier vos réponses, puis terminer le test.
+
+[[K0165]]
+Il reste cinq minutes ou moins.
+
+[[K0166]]
+Le temps est écoulé. Vos réponses ont été évaluées.
+
+[[K0167]]
+Test terminé.
+
+[[K0168]]
+Comparaison indisponible.
+
+[[K0169]]
+Ce navigateur n'a pas pu enregistrer votre tentative. Laissez cette page ouverte : le rechargement de la page pourrait entraîner la perte de votre progression ou restaurer des réponses antérieures.
+
+[[K0170]]
+L'enregistrement local n'est pas disponible dans ce navigateur. Laissez cette page ouverte pour éviter de perdre votre tentative.
+
+[[K0171]]
+La tentative enregistrée n'a pas pu être restaurée. Commencez un nouveau test lorsque vous serez prêt(e).
+
+[[K0172]]
+Ne modifiez pas la figure

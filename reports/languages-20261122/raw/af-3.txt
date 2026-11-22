@@ -1,0 +1,101 @@
+[[K0215]]
+Draai die vorm 45 grade antikloksgewys by elke stap. Die kleur wissel af, sodat die derde prentjie terugkeer na die eerste prentjie se kleur.
+
+[[K0216]]
+Draai die wit middelvorm nog 45 grade antikloksgewys en herstel die donker kleur van die eerste prentjie. Kies die donker geboë vorm in daardie oriëntasie.
+
+[[K0217]]
+Kombineer die swart sirkels
+
+[[K0218]]
+'n Sirkel is swart in die resultaat wanneer die ooreenstemmende sirkel swart is in enige invoer. Dit is slegs wit wanneer beide invoere 'n wit sirkel daar het.
+
+[[K0219]]
+Die eerste invoer dra die onderste regterkantse swart sirkel by; die tweede dra die twee boonste swart sirkels by. Die middelste en onderste linker sirkel bly wit.
+
+[[K0220]]
+Brei uit na aangrensende selle
+
+[[K0221]]
+By elke stap bly elke blou sel blou en kleur ook sy onmiddellike bure bo, onder, links en regs. Uitbreiding stop by die roostergrens.
+
+[[K0222]]
+Pas dieselfde eensel-uitbreiding toe op die middelste blou gebied. Nuut bereikte sybure word blou; selle verder weg bly in die grys-en-swart skaakbord.
+
+[[K0223]]
+Kanselleer ooreenstemmende bruin posisies
+
+[[K0224]]
+Vergelyk die twee vyfselstroke posisie vir posisie. 'n Sel is bruin in die resultaat as presies een invoer daar bruin is. Ooreenstemmende bruin selle kanselleer na blou.
+
+[[K0225]]
+Bruin kom voor in posisies 2, 3, 4 en 5 in die eerste strook en in posisies 2, 3 en 5 in die tweede. Slegs posisie 4 bly bruin.
+
+[[K0226]]
+Verwyder die naaste rooi kolletjies
+
+[[K0227]]
+Vind die kleinste afstand tussen enige twee rooi kolletjies. Verwyder elke rooi kolletjie wat aan 'n paar op daardie afstand behoort. Herbereken die naaste afstand vir die volgende stap.
+
+[[K0228]]
+In die middelste prentjie neem die drie onderste rooi kolletjies deel aan die naaste diagonale pare. As hulle verwyder word, bly slegs die rooi kolletjie in die boonste ry, vierde kolom, oor.
+
+[[K0229]]
+Beweeg die ses kleure om 'n siklus
+
+[[K0230]]
+Lees die linkerstapel af, dan die regterstapel af. Skuif elke kleur een posisie vorentoe in daardie sesposisie-siklus; die onderste regterkantse kleur draai na links bo.
+
+[[K0231]]
+Van die middelste prentjie af draai die onderste regterkantse bruin sirkel na links bo. Die laaste stapels is bruin/rooi/rooi aan die linkerkant en swart/bruin/blou aan die regterkant.
+
+[[K0232]]
+Beweeg wit en swart in teenoorgestelde rigtings
+
+[[K0233]]
+Wit sirkels beweeg een hoek kloksgewys en swart sirkels beweeg een hoek antikloksgewys by elke stap. Grys beteken dat 'n wit en 'n swart sirkel dieselfde hoek beset; skei hulle voordat jy weer beweeg.
+
+[[K0234]]
+Die middelste prentjie bevat wit sirkels by die twee linkerhoeke en swart sirkels by die twee linkerhoeke en regs onder. Deur hulle te skuif, kry jy wit links bo, grys regs bo en swart by beide onderste hoeke.
+
+[[K0235]]
+Verleng elke horisontale streep
+
+[[K0236]]
+By elke stap, verleng elke swart horisontale streep na die direk aangrensende kapsule aan beide kante. Bestaande strepe bly, en strepe stop by die buitekante.
+
+[[K0237]]
+Verleng die strepe in die middelste prentjie nog een kapsule links en regs. Hou afsonderlike streephoogtes onderskeibaar; die antwoord wys die gevolglike langer horisontale lyne oor die vier kapsules.
+
+[[K0238]]
+Groot die driehoekige rooster
+
+[[K0239]]
+Behandel die tekening as 'n groep klein driehoeke. By elke stap, voeg 'n klein driehoek net buite elke blootgestelde rand by, terwyl jy die bestaande driehoeke en hul verbindingslyne behou.
+
+[[K0240]]
+Vergroot die middelste groen groep met nog een laag aangrensende driehoeke. Die antwoord behou dieselfde driehoekige rooster en voeg die driehoeke langs die buitekante by.
+
+[[K0241]]
+Verwyder die gemerkte hoekpunte
+
+[[K0242]]
+Die bruin kolletjies identifiseer hoekpunte van die swart veelhoek wat verwyder moet word. Verbind die oorblywende hoekpunte in hul oorspronklike volgorde. Twee oorblywende hoekpunte produseer 'n lynsegment.
+
+[[K0243]]
+Verwyder die boonste en linker hoekpunte wat deur die bruin kolletjies gemerk is. Slegs die twee onderste hoekpunte bly oor, so die antwoord is die kort horisontale lyn naby die onderste regterkant.
+
+[[K0244]]
+Wissel die kolletjies by die hoeke van die buitelyn
+
+[[K0245]]
+Pas die swart buitelyn se hoekpunte by die 3-by-3-kolposisies. Verwyder by elke hoekpunt 'n bestaande blou kol of voeg een by as die posisie leeg is. Ander posisies bly onveranderd.
+
+[[K0246]]
+Wissel die vier hoekposisies van die skuins buitelyn. Die resultaat het blou kolletjies links bo en bo in die middel, middel middel en middel regs, en al drie onderste posisies.
+
+[[K0247]]
+Verwyder die gemerkte baksteen en sy bure
+
+[[K0248]]
+Verwyder eers die rooi baksteen en elke baksteen wat 'n rand daarmee deel, laat dan die onondersteunde baksteen reguit afval. Herhaal dieselfde proses met die geel baksteen.

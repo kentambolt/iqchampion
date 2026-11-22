@@ -1,0 +1,77 @@
+[[K0249]]
+Po odstranění červené cihly tvoří zbývající cihly prostřední schodiště. Odstraněním žluté cihly a jejích dotýkajících se sousedů zůstane horní modrá cihla, která spadne dolů.
+
+[[K0250]]
+Procházejte vrstvami a aplikujte barevnou masku
+
+[[K0251]]
+Sledujte stejné tři tvary. V každém kroku se přední tvar přesouvá dozadu. Pro finální obrázek ponechte šedou nebo černou výplň prostředního obrázku; jeho nevyplněné bílé tvary znovu získají své barvy z prvního obrázku.
+
+[[K0252]]
+Šedý šestiúhelník se přesune dopředu, černá vodorovná kapsle leží za ním a svislá kapsle se přesune dozadu. Tato bílá svislá kapsle znovu získá svou původní žlutou barvu.
+
+[[K0253]]
+Použijte barvu každého kruhu k nalezení jeho pohybu
+
+[[K0254]]
+Sledujte každý kruh vzhledem ke kruhu bezprostředně kolem něj. Bílá se pohybuje o 90 stupňů ve směru hodinových ručiček, černá se pohybuje o 90 stupňů proti směru hodinových ručiček a červená zůstává ve stejné relativní pozici. Modrá se nepohybuje. Tyto pohyby aplikujte na každou vnořenou úroveň.
+
+[[K0255]]
+Černý kruh se pohybuje shora nad modrým kruhem doleva. Červená zůstává vpravo uvnitř černé. Větší bílý kruh se pohybuje shora nad červeným doprava; nejmenší bílý kruh se pohybuje zdola pod větším bílým kruhem doleva.
+
+[[K0256]]
+Přesun barev podél propojených tras
+
+[[K0257]]
+Černé spoje určují trasy, po kterých se barvy pohybují. Sledujte každou smyčku ve směru hodinových ručiček a posouvejte každou barvu na další propojenou pozici. Trasa se dvěma pozicemi prohodí své barvy; nepropojené tečky zůstanou na místě.
+
+[[K0258]]
+Prohodte dvě horní barvy. V dolní smyčce se levá prostřední modrá přesune do středu a pravá prostřední červená se přesune doleva. Nepropojená pravá dolní červená zůstává nezměněna.
+
+[[K0259]]
+Posuňte každou barvu po její vlastní dráze.
+
+[[K0260]]
+Červená se posouvá dolů, zelená doprava a žlutá doleva. Modrá se posouvá nahoru a – je-li to možné – o jeden sloupec doleva. Bílá barva značí překrytí barev; při dalším kroku tyto barvy opět oddělte. Barvy, které se posunou mimo mřížku, zmizí.
+
+[[K0261]]
+Rozdělte prostřední bílé políčko na červenou a zelenou. Červená se přesune do spodní střední části, zelená doprostřed vpravo, modrá do levého horního rohu a žlutá opustí mřížku na levé straně. Tyto tři barevné dílky tvoří řešení.
+
+[[K0262]]
+Posouvejte červené a modré hroty opačnými směry.
+
+[[K0263]]
+V každém kroku se všechny červené hroty posunou o jednu pozici proti směru hodinových ručiček a všechny modré hroty o dvě pozice po směru hodinových ručiček podél pěticípé hvězdy. Bílá barva znamená, že se červená a modrá překrývají; před dalším pohybem je od sebe oddělte.
+
+[[K0264]]
+Na prostředním obrázku se červená nachází vpravo dole, zatímco modrá je vpravo nahoře a vlevo nahoře. V dalším kroku se červená a jedna z modrých ocitnou společně v pravém horním rohu, čímž vznikne bílá barva. Druhá modrá se přesune do levého dolního rohu.
+
+[[K0265]]
+Posuňte dvě kopie ve směrech určených výsečí.
+
+[[K0266]]
+Dvě strany bílé výseče určují dva směry pohybu. Vytvořte dvě kopie vzoru s červenými tečkami a každou z nich posuňte o jeden krok mřížky v příslušném směru (přičemž na okrajích dochází k přechodu na opačnou stranu). Pozice, na kterou dopadne jedna kopie, bude červená; pozice, na kterou dopadnou obě kopie, bude modrá.
+
+[[K0267]]
+Výsledná výseč směřuje dolů doleva a dolů doprava. Posuňte kopii vzoru v obou těchto směrech. Jejich překrytím vznikne modrá barva v celé horní řadě a uprostřed; pozice, kam dopadla pouze jedna kopie, zůstávají červené, jak je znázorněno v řešení.
+
+[[K0268]]
+Odstraňte křížící se úseky čar.
+
+[[K0269]]
+Položte oba obrázky přes sebe. Každou přímou úsečku mezi sousedními body mřížky považujte za samostatný úsek čáry. Pokud se úsek z jednoho obrázku kříží s úsekem z druhého obrázku (v prostoru mezi body), odstraňte oba tyto úseky. Úsečky, které se setkávají v bodě mřížky, zůstávají zachovány. Ponechte si všechny neprotnuté úsečky z obou nákresů.
+
+[[K0270]]
+Odstraňte diagonální úsečky protnuté mezi body mřížky. Zbývající části tvoří horní vidlici se svislým dříkem, dvě oddělené krátké diagonály poblíž horních rohů a spodní vidlici s vlastním svislým dříkem.
+
+[[K0271]]
+Posuňte a seřaďte dílky podle velikosti.
+
+[[K0272]]
+Posuňte všechny dílky ve směru šipky. Menší dílky předstihnou větší a zaplní nejdříve nejvzdálenější dostupná místa. Zachovejte výšku a svislou polohu každého dílku. Dílky mohou sdílet jeden sloupec, pokud se svisle nepřekrývají; dílky stejné velikosti si zachovávají své vzájemné pořadí.
+
+[[K0273]]
+Šipka ukazuje doprava. Umístěte nejkratší dílky do volných prostorů vpravo, poté dílky o délce dvou políček a nakonec vyšší dílky nalevo od nich. Žádný dílek se nepohybuje nahoru ani dolů a žádný nemění svou velikost.
+
+[[K0274]]
+Přesuňte oddělovače do volných prostorů.

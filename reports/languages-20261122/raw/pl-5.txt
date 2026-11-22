@@ -1,0 +1,165 @@
+[[K0275]]
+Wszystkie czarne przegrody przesuwają się jednocześnie o jedną pozycję w prawo, jeśli na kolejnym miejscu znajduje się żółty koralik. Przegroda zablokowana przez inną przegrodę pozostaje w miejscu. Prawa krawędź łączy się z lewą.
+
+[[K0276]]
+Wykonaj jeden jednoczesny ruch w środkowym ciągu. Ostateczny układ to: przegroda, koralik, przegroda, koralik, przegroda, przegroda, koralik.
+
+[[K0277]]
+Rozszerz kolory i zachowaj największą grupę.
+
+[[K0278]]
+Zastąp każdą kolorową kulkę czterema nowymi kulkami tego samego koloru, umieszczonymi powyżej, poniżej, po lewej i po prawej stronie. Kulki wychodzące poza siatkę znikają. Na każdym polu zachowaj kolor, którego dotarło tam najwięcej. Jeśli kilka kolorów ma taką samą, największą liczbę kulek, pozostaw pole puste. Kilka kulek tego samego koloru trafiających na to samo pole jest traktowanych jako jeden kolorowy znacznik.
+
+[[K0279]]
+Po rozszerzeniu przedstawionego środkowego obrazka, kolor zielony pozostaje w prawym górnym rogu oraz w 2. wierszu i 3. kolumnie; czerwony – w 2. wierszu i 1. kolumnie; a brązowy – w 2. wierszu (2. kolumna), 3. wierszu (3. kolumna) oraz 4. wierszu (kolumny 2, 3 i 4). Są to dokładnie te same kolory i pozycje, które znajdują się w zapisanej odpowiedzi.
+
+[[K0280]]
+Wybierz język
+
+[[K0281]]
+Szukaj języków
+
+[[K0282]]
+Zamknij wybór języka
+
+[[K0283]]
+Nie znaleziono języków
+
+[[K0284]]
+Darmowy test IQ dla zabawy | IQ Champion
+
+[[K0285]]
+Darmowy test w stylu IQ dla zabawy: 36 zagadek wizualnych, 40 minut czasu, zapisywanie postępów i szacowany wynik IQ. Konto nie jest wymagane.
+
+[[K0286]]
+Wybierz preferowany język. Twoje odpowiedzi oraz pierwotny limit czasu pozostaną zapisane.
+
+[[K0287]]
+Wczytywanie języka…
+
+[[K0288]]
+Nie udało się wczytać języka. Twój test i udzielone odpowiedzi pozostają bez zmian. [[K0289]]
+Informacje zwrotne dostępne są w języku duńskim i angielskim.
+
+[[K0290]]
+Udostępnione osiągnięcie
+
+[[K0291]]
+Udostępniony wynik
+
+[[K0292]]
+Udostępnione wyniki opierają się na deklaracjach użytkowników.
+
+[[K0293]]
+Udostępnione osiągnięcia opierają się na deklaracjach użytkowników. Dane dotyczące wieku, kraju, udzielonych odpowiedzi czy profile osobiste nie są udostępniane.
+
+[[K0294]]
+Rozwiąż samodzielnie 36 zagadek
+
+[[K0295]]
+Wykonaj test samodzielnie
+
+[[K0296]]
+Wyzwanie wizualne w IQ Champion. Czy potrafisz dostrzec regułę?
+
+[[K0297]]
+Bezpłatny test z zagadkami wizualnymi – dla zabawy. Nie jest to profesjonalnie zweryfikowany pomiar ilorazu inteligencji (IQ).
+
+[[K0298]]
+Nie znaleziono strony
+
+[[K0299]]
+Możesz kontynuować w innym języku.
+
+[[K0300]]
+udzielono odpowiedzi
+
+[[K0301]]
+brak odpowiedzi
+
+[[K0302]]
+poprawna
+
+[[K0303]]
+niepoprawna
+
+[[K0304]]
+Szacowany zakres mediany: {0} ({1} poprawnych odpowiedzi udzielonych w określonym czasie).
+
+[[K0305]]
+Pytanie {0} · {1}
+
+[[K0306]]
+{0} poprawnych wzorców
+
+[[K0307]]
+Czas aktywności: {0}
+
+[[K0308]]
+Porównanie: {0} dobrowolnych prób w ciągu {1} dni.
+
+[[K0309]]
+Pytanie {0} / {1}
+
+[[K0310]]
+Przegląd pytania {0} / {1}
+
+[[K0311]]
+Wiersz {0}, ikona {1}
+
+[[K0312]]
+Odpowiedź {0}
+
+[[K0313]]
+Pytanie {0}, {1}
+
+[[K0314]]
+Przegląd pytania {0}, {1}
+
+[[K0315]]
+{0} poprawnych; {1} niepoprawnych; {2} bez odpowiedzi.
+
+[[K0316]]
+{0} z odpowiedziami; {1} bez odpowiedzi.
+
+[[K0317]]
+{0} z odpowiedziami; {1} bez odpowiedzi. Pytania bez odpowiedzi są traktowane jako błędne. Po zakończeniu testu nie można zmienić udzielonych odpowiedzi.
+
+[[K0318]]
+{0} / {1} poprawnych
+
+[[K0319]]
+Percentyl na tle wcześniejszych uczestników: {0}
+
+[[K0320]]
+Uczestnicy z niższym wynikiem: {0}%. Uczestnicy z takim samym wynikiem: {1}%.
+
+[[K0321]]
+Grupa odniesienia: {0} wcześniejszych prób. Uwzględniono próby, których czas trwania wyniósł od ponad minuty do 40 minut. W przypadku uzyskania takich samych wyników, przypisuje im się wartość środkową odpowiadającego im przedziału percentylowego. Szacunkowe wartości są zaokrąglane do liczb całkowitych i prezentowane w zakresie 55–145; wyniki wykraczające poza ten przedział są odpowiednio oznaczone. Jest to przeliczenie na skalę, a nie niezależnie zweryfikowany pomiar ilorazu inteligencji (IQ) w populacji. Wynik może zależeć od wcześniejszej praktyki oraz liczby podjętych prób. Niektóre przykładowe obrazy zostały poprawione po zebraniu danych od wcześniejszych uczestników, co ogranicza możliwość porównywania wyników.
+
+[[K0322]]
+Mój szacowany wynik IQ w IQ Champion: {0}. Dla zabawy. Spróbuj: {1}
+
+[[K0323]]
+Poprawnie rozwiązałem(-am) pytanie {0} w czasie {1}. Czy Tobie też się uda? {2}
+
+[[K0324]]
+Poprawnie rozwiązałem(-am) pytanie {0} w czasie {1} (szacowana mediana czasu dla poprawnych odpowiedzi: {2}). Czy Tobie też się uda? {3}
+
+[[K0325]]
+W IQ Champion udało mi się znaleźć {0} poprawnych wzorców. Spróbuj: {1}
+
+[[K0326]]
+Czy potrafisz znaleźć brakujące wzorce w IQ Champion? {0}
+
+[[K0327]]
+Pytanie {0} rozwiązane
+
+[[K0328]]
+Rozwiązano {0} wzorców
+
+[[K0329]]
+{0} / 36 poprawnych. {1}
+
+[[K0330]]
+Szacowane IQ {0} | Mistrz IQ

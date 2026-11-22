@@ -1,0 +1,207 @@
+[[K0001]]
+Szacowany przedział mediany
+
+[[K0002]]
+Porównania publiczne obejmują wszystkich użytkowników, którzy wzięli udział w tej wersji zagadki. Opcjonalne dane dotyczące grupy wiekowej oraz kraju są wykorzystywane wyłącznie w zbiorczych statystykach.
+
+[[K0003]]
+Wyrażam zgodę na udostępnienie anonimowych wyników, czasu rozwiązywania oraz – opcjonalnie – informacji o grupie wiekowej i kraju do celów statystyk zbiorczych.
+
+[[K0004]]
+Przedziały mediany są szacowane na podstawie histogramów czasu. Wyświetlany zakres odzwierciedla rozdzielczość pomiaru czasu; nie jest to dokładna mediana ani percentyl prędkości.
+
+[[K0005]]
+Udostępnij wyzwanie
+
+[[K0016]]
+Czas rozwiązywania
+
+[[K0007]]
+Zgodnie z ustawieniami prywatności Twojej przeglądarki, statystyki te są przechowywane lokalnie na Twoim urządzeniu.
+
+[[K0008]]
+Wszystkie dobrowolne próby
+
+[[K0009]]
+Dziękujemy. Twój anonimowy wynik został zapisany.
+
+[[K0010]]
+W tej grupie nie ma jeszcze wystarczającej liczby porównywalnych wyników. Twoje własne statystyki są zawsze dostępne.
+
+[[K0011]]
+Funkcja porównywania jest chwilowo niedostępna. Możesz nadal przeglądać własne statystyki i udostępniać wyniki.
+
+[[K0012]]
+Ta wcześniejsza próba nie zawiera pełnego zapisu czasu. Nadal możesz przeglądać i udostępniać swój wynik.
+
+[[K0013]]
+Zdecyduj, czy chcesz przekazać swoje dane, zanim zostaną one wysłane.
+
+[[K0014]]
+Ta próba nie zawiera pełnego zapisu czasu. Twoje indywidualne wyniki pozostają bez zmian.
+
+[[K0015]]
+Nie udało się zapisać Twojego wyniku w tej przeglądarce. Żadne dane nie zostały wysłane.
+
+[[K0016]]
+Ten wynik wymaga weryfikacji i nie został ponownie uwzględniony w statystykach.
+
+[[K0017]]
+Twój wynik nie został potwierdzony. Spróbuj ponownie, używając tego samego zapisanego wyniku. [[K0018]]
+Konto nie jest wymagane
+
+[[K0019]]
+Test rozpocznie się, gdy będziesz gotowy
+
+[[K0020]]
+Test
+
+[[K0021]]
+Udzielone odpowiedzi
+
+[[K0022]]
+Czymś warto się podzielić
+
+[[K0023]]
+Twój najlepszy moment
+
+[[K0024]]
+Szacowany poziom IQ
+
+[[K0025]]
+Trudna zagadka rozwiązana błyskawicznie
+
+[[K0026]]
+Szybciej niż w przypadku typowej poprawnej odpowiedzi
+
+[[K0027]]
+Twoja najszybsza poprawna odpowiedź
+
+[[K0028]]
+Rozwiązane wzorce
+
+[[K0029]]
+Wyzwanie, którym warto się podzielić
+
+[[K0030]]
+36 zagadek. Jedno wyzwanie.
+
+[[K0031]]
+Podziel się wyzwaniem z kimś znajomym.
+
+[[K0032]]
+Twój czas aktywności. Brak wystarczających danych porównawczych, aby ocenić jego szybkość.
+
+[[K0033]]
+Wybierz, czym chcesz się podzielić
+
+[[K0034]]
+Najlepszy moment
+
+[[K0035]]
+Szacowane IQ
+
+[[K0036]]
+Poprawnie rozwiązane wzorce
+
+[[K0037]]
+Udostępnij na Facebooku
+
+[[K0038]]
+Skopiuj własny opis
+
+[[K0039]]
+Twój tekst do udostępnienia
+
+[[K0040]]
+Skopiuj tekst
+
+[[K0041]]
+Facebook pozwala na dodanie własnego opisu. Nigdy nie publikujemy treści automatycznie.
+
+[[K0042]]
+Skopiowano. Wklej tekst w swoim wpisie.
+
+[[K0043]]
+Zaznacz i skopiuj poniższy tekst.
+
+[[K0044]]
+Statystyki pytań
+
+[[K0045]]
+Porównania wyników dla poszczególnych pytań nie są jeszcze dostępne. Poniżej przedstawiono Twoje indywidualne statystyki.
+
+[[K0046]]
+Czas liczony jest jako okres aktywnej pracy nad pytaniem, aż do momentu udzielenia odpowiedzi. W przypadku pytań, na które nie udzielono odpowiedzi, wyświetlany jest czas poświęcony na próbę ich rozwiązania. Czas spędzony w ukrytych kartach przeglądarki lub na zamkniętych stronach nie jest wliczany. Wcześniejsze próby mogą nie zawierać danych o czasie rozwiązywania.
+
+[[K0047]]
+Wszystkie 36 pytań, w tym pytania pominięte
+
+[[K0048]]
+Pytanie
+
+[[K0049]]
+Twój czas
+
+[[K0050]]
+Mediana czasu dla poprawnych odpowiedzi
+
+[[K0051]]
+Poprawne odpowiedzi innych osób
+
+[[K0052]]
+Porównaj swoje wyniki z wynikami innych osób, które rozwiązywały tę samą wersję zadania. Do obliczenia wskaźnika poprawności wymagane jest udzielenie odpowiedzi na co najmniej 30 pytań, a do wyznaczenia mediany – uzyskanie co najmniej 30 poprawnych odpowiedzi z zarejestrowanym czasem. Dane pochodzą od uczestników badania, a nie z reprezentatywnej próby populacji.
+
+[[K0053]]
+Porównaj i udostępnij
+
+[[K0054]]
+Pomóż innym uczestnikom w porównaniu ich wyników. Po zakończeniu testu możesz udostępnić anonimowe statystyki – nawet jeśli pominąłeś niektóre pytania.
+
+[[K0055]]
+Trwa przygotowywanie anonimowych zestawień. Możesz przeglądać własne statystyki bez udostępniania swoich danych innym.
+
+[[K0056]]
+Grupa wiekowa (opcjonalnie)
+
+[[K0057]]
+Kraj (opcjonalnie)
+
+[[K0058]]
+Wolę nie podawać
+
+[[K0059]]
+Poniżej 18 lat
+
+[[K0060]]
+Wyrażam zgodę na włączenie moich anonimowych wyników (w tym czasu rozwiązywania oraz – opcjonalnie – grupy wiekowej i kraju) do statystyk porównawczych.
+
+[[K0061]]
+Nie zbieramy imion, adresów e-mail ani dokładnego wieku. Udostępnienie statystyk jest dobrowolne i nie wpływa na Twój wynik. Zestawienia dla zbyt małych grup nie są wyświetlane.
+
+[[K0062]]
+Udostępnij anonimowo
+
+[[K0063]]
+Dlaczego taka odpowiedź?
+
+[[K0064]]
+Wyjaśnienie
+
+[[K0065]]
+Zasada
+
+[[K0066]]
+Zastosowanie zasady
+
+[[K0067]]
+Przeglądasz starszą wersję zadania. Zawarte w niej przykłady zawierają niejednoznaczność, która została już zidentyfikowana; Twoja odpowiedź oraz wynik pozostają bez zmian.
+
+[[K0068]]
+Przeglądasz oryginalną wersję zadania, w której błędnie oznaczono przykłady. Twoja odpowiedź oraz wynik pozostają bez zmian. W nowych próbach wykorzystywana jest poprawiona wersja.
+
+[[K0069]]
+W tej pierwotnej wersji wyświetlany środkowy obraz rozszerza się, przyjmując kolor zielony w prawym górnym rogu oraz w wierszu 2, kolumnie 3; kolor czerwony w wierszu 2, kolumnie 1; oraz kolor brązowy w wierszu 2, kolumnie 2, a także w wierszu 3, kolumnie 3 i wierszu 4, kolumnie 3.
+
+[[K0070]]
+Udostępnij wynik na Facebooku

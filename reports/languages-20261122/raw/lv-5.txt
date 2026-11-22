@@ -1,0 +1,165 @@
+[[K0275]]
+Visas melnās starpsienas vienlaikus pārvietojas par vienu pozīciju pa labi, ja nākamajā pozīcijā atrodas dzeltena lodīte. Starpsiena, kuru bloķē cita starpsiena, paliek uz vietas. Labā mala ir savienota ar kreiso malu.
+
+[[K0276]]
+Veiciet vienu vienlaicīgu soli vidējā secībā. Gala secība ir: starpsiena, lodīte, starpsiena, lodīte, starpsiena, starpsiena, lodīte.
+
+[[K0277]]
+Izvērsiet krāsas un saglabājiet lielāko grupu.
+
+[[K0278]]
+Aizstājiet katru krāsaino lodīti ar četrām jaunām tādas pašas krāsas lodītēm — pa vienai augšpusē, apakšpusē, kreisajā un labajā pusē. Lodītes, kas iziet ārpus režģa, pazūd. Katrā pozīcijā saglabājiet to krāsu, kuras lodīšu skaits ir vislielākais. Ja vairākām krāsām ir vienāds lodīšu skaits, atstājiet pozīciju tukšu. Vairākas vienas krāsas lodītes, kas nonāk vienā pozīcijā, tiek attēlotas kā viena krāsaina atzīme.
+
+[[K0279]]
+Izvēršot attēloto vidējo shēmu, zaļā krāsa paliek augšējā labajā stūrī un 2. rindas 3. kolonnā; sarkanā — 2. rindas 1. kolonnā; brūnā — 2. rindas 2. kolonnā, 3. rindas 3. kolonnā, kā arī 4. rindas 2., 3. un 4. kolonnā. Tieši šīs krāsas un pozīcijas ir norādītas saglabātajā atbildē.
+
+[[K0280]]
+Izvēlieties valodu
+
+[[K0281]]
+Meklēt valodas
+
+[[K0282]]
+Aizvērt valodu izvēlni
+
+[[K0283]]
+Valodas nav atrastas
+
+[[K0284]]
+Bezmaksas IQ tests izklaidei | IQ Champion
+
+[[K0285]]
+Bezmaksas IQ tipa tests izklaidei: 36 vizuāli uzdevumi, 40 minūtes, saglabāts progress un aptuvens IQ rezultāts. Konts nav nepieciešams.
+
+[[K0286]]
+Izvēlieties sev vēlamo valodu. Jūsu sniegtās atbildes un sākotnējais izpildes termiņš tiks saglabāti.
+
+[[K0287]]
+Notiek valodas ielāde…
+
+[[K0288]]
+Valodu neizdevās ielādēt. Jūsu tests un atbildes ir palikušas nemainīgas. [[K0289]]
+Atsauksmes ir pieejamas dāņu un angļu valodā.
+
+[[K0290]]
+Kopīgs sasniegums
+
+[[K0291]]
+Kopīgs rezultāts
+
+[[K0292]]
+Kopīgotie rezultāti ir balstīti uz paša lietotāja sniegtajām ziņām.
+
+[[K0293]]
+Kopīgotie sasniegumi ir balstīti uz paša lietotāja sniegtajām ziņām. Netiek kopīgota informācija par vecumu, valsti, sniegtajām atbildēm vai personīgajiem profiliem.
+
+[[K0294]]
+Izmēģiniet 36 mīklas paši
+
+[[K0295]]
+Izmēģiniet testu paši
+
+[[K0296]]
+Vizuāls izaicinājums spēlē "IQ Champion". Vai arī jūs spējat saskatīt likumsakarību?
+
+[[K0297]]
+Bezmaksas vizuālo mīklu tests — izklaidei. Tas nav profesionāli apstiprināts IQ mērījums.
+
+[[K0298]]
+Lapa nav atrasta
+
+[[K0299]]
+Varat turpināt citā valodā.
+
+[[K0300]]
+atbildēts
+
+[[K0301]]
+neatbildēts
+
+[[K0302]]
+pareizi
+
+[[K0303]]
+nepareizi
+
+[[K0304]]
+Aplēstais mediānas diapazons: {0} ({1} pareizas atbildes, kas sniegtas noteiktā laikā).
+
+[[K0305]]
+Jautājums {0} · {1}
+
+[[K0306]]
+{0} pareizas likumsakarības
+
+[[K0307]]
+Aktīvais laiks: {0}
+
+[[K0308]]
+Salīdzinājums: {0} brīvprātīgi mēģinājumi {1} dienu laikā.
+
+[[K0309]]
+Jautājums {0} / {1}
+
+[[K0310]]
+Pārskatīt jautājumu {0} / {1}
+
+[[K0311]]
+Rinda {0}, ikona {1}
+
+[[K0312]]
+Atbilde {0}
+
+[[K0313]]
+Jautājums {0}, {1}
+
+[[K0314]]
+Pārskatīt jautājumu {0}, {1}
+
+[[K0315]]
+{0} pareizi; {1} nepareizi; {2} neatbildēti.
+
+[[K0316]]
+{0} atbildēti; {1} neatbildēti.
+
+[[K0317]]
+{0} atbildēti; {1} neatbildēti. Neatbildētie jautājumi tiek uzskatīti par nepareiziem. Kad tests pabeigts, atbildes vairs nevar mainīt.
+
+[[K0318]]
+{0} / {1} pareizi
+
+[[K0319]]
+Percentile starp iepriekšējiem dalībniekiem: {0}
+
+[[K0320]]
+Dalībnieki ar zemāku rezultātu: {0}%. Dalībnieki ar tādu pašu rezultātu: {1}%.
+
+[[K0321]]
+Atsauces grupa: {0} iepriekšējie mēģinājumi. Iekļauti mēģinājumi, kuru ilgums ir no vienas minūtes līdz 40 minūtēm. Ja rezultāti ir vienādi, tiek ņemts vērā attiecīgās percentiles grupas viduspunkts. Aprēķinātie rādītāji tiek noapaļoti līdz veseliem skaitļiem un attēloti diapazonā no 55 līdz 145; ja vērtība ir ārpus šī diapazona, tiek parādīts robežvērtības indikators. Šī ir skalas konversija, nevis neatkarīgi validēts IQ mērījums populācijā. Rezultātu var ietekmēt treniņi un atkārtoti mēģinājumi. Daži piemēru attēli ir tikuši laboti kopš brīža, kad tika iegūti iepriekšējie dati, kas ierobežo rezultātu salīdzināmību.
+
+[[K0322]]
+Mans aptuvenais IQ spēlē "IQ Champion": {0}. Tikai izklaidei. Izmēģini arī tu: {1}
+
+[[K0323]]
+Es pareizi atrisināju {0}. jautājumu {1} laikā. Vai spēsi to arī tu? {2}
+
+[[K0324]]
+Es pareizi atrisināju {0}. jautājumu {1} laikā (aprēķinātā mediāna starp pareizajām atbildēm: {2}). Vai spēsi to arī tu? {3}
+
+[[K0325]]
+Es atradu {0} pareizus likumsakarību risinājumus spēlē "IQ Champion". Izmēģini arī tu: {1}
+
+[[K0326]]
+Vai spēsi atrast trūkstošās likumsakarības spēlē "IQ Champion"? {0}
+
+[[K0327]]
+{0}. jautājums atrisināts
+
+[[K0328]]
+Atrisinātas {0} likumsakarības
+
+[[K0329]]
+{0} / 36 pareizi. {1}
+
+[[K0330]]
+Aprēķinātais IQ {0} | IQ čempions

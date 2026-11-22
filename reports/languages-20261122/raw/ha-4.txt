@@ -1,0 +1,75 @@
+[[K0249]]
+Bayan cire tubalin ja, tubalan da suka rage sun samar da matakalar tsakiya. Cire tubalin rawaya da makwabtansa da ke taba shi, zai bar tubalin shudi na sama, wanda zai fado zuwa kasa.
+
+[[K0250]]
+Juya matakan (layers) sannan a sanya tsarin launuka a kai.
+
+[[K0251]]
+Bi sawun siffofi uku guda daya. A kowane mataki, siffar da ke gaba tana komawa baya. Ga hoton karshe, a rike launin toka ko baki na hoton tsakiya; siffofin fari da ba su da launi a ciki za su dawo da launukansu na asali daga hoton farko.
+
+[[K0252]]
+Siffar kusurwa shida (hexagon) mai launin toka tana zuwa gaba, siffar dogo mai lankwasa (capsule) mai launin baki tana kwance a bayanta, yayin da siffar dogo mai lankwasa a tsaye take komawa baya. Wannan siffar dogo mai lankwasa a tsaye mai launin fari tana komawa launinta na asali, wato rawaya.
+
+[[K0253]]
+Yi amfani da launin kowane da'ira don gano yadda take motsi.
+
+[[K0254]]
+Bi motsin kowane da'ira dangane da da'irar da ke kewaye da shi kai tsaye. Da'ira mai launin fari tana motsi digiri 90 ta hanyar agogo, mai launin baki tana motsi digiri 90 akasin hanyar agogo, yayin da mai launin ja ta tsaya a inda take. Mai launin shudi ba ta motsi ba. A yi amfani da wadannan motsi a kowane mataki na siffofi da ke ciki-ciki.
+
+[[K0255]]
+Da'ira mai launin baki tana motsi daga saman da'ira mai launin shudi zuwa hagunta. Mai launin ja tana nan a dama, a cikin mai launin baki. Babbar da'ira mai launin fari tana motsi daga saman mai launin ja zuwa damanta; karamar da'ira mai launin fari tana motsi daga kasan babbar da'ira mai launin fari zuwa hagunta.
+
+[[K0256]]
+Motsa launuka tare da hanyoyin da ke hade da juna.
+
+[[K0257]]
+Layukan baki suna nuna hanyoyin da launuka ke bi wajen motsi. Bi kowane zagaye ta hanyar agogo, tare da matsar da kowane launi zuwa matsayi na gaba da ke da alaka da shi. Hanyar da ke da wurare biyu kawai tana musanya launukanta; yayin da dige-dige da ba su da alaka da wasu ba sa canza wurinsu.
+
+[[K0258]]
+Musanya launuka biyu na sama. A zagayen kasa, launin shudi da ke tsakiya-hagu yana komawa tsakiya, yayin da launin ja da ke tsakiya-dama yana komawa kasa-hagu. Launin ja da ke kasa-dama, wanda ba shi da alaka da wasu, yana nan yadda yake. [[K0259]]
+Matsar da kowace launi a kan hanyarsa
+
+[[K0260]]
+Ja tana motsawa ƙasa, kore tana motsawa dama da rawaya tana motsawa hagu. Shuɗi tana motsawa sama, kuma, inda zai yiwu, shafi ɗaya a hagu. Farin yana nuna launuka; sake raba waɗannan launukan lokacin amfani da motsi na gaba. Launuka da ke wucewa ta hanyar grid suna ɓacewa.
+
+[[K0261]]
+Raba tsakiyar farin tantanin halitta zuwa ja da kore. Ja yana motsawa zuwa ƙasan tsakiya, kore zuwa tsakiya dama, shuɗi yana kaiwa sama hagu da rawaya yana fita a hagu. Waɗannan ƙwayoyin halitta masu launi uku suna samar da amsar.
+
+[[K0262]]
+Matsar da ja da shuɗi a cikin kwatance daban-daban
+
+[[K0263]]
+A kowane mataki, kowane ja yana motsawa matsayi ɗaya a akasin agogo kuma kowane ja yana motsawa matsayi biyu a kusa da tauraro mai maki biyar. Fari yana nufin ja da shuɗi suna haɗuwa; raba launuka biyu kafin sake motsawa.
+
+[[K0264]]
+A hoto na tsakiya, ja yana ƙasan dama kuma shuɗi yana sama da hagu na sama. Mataki na gaba yana sanya ja da shuɗi ɗaya a saman dama, yana mai da shi fari. Ɗayan shuɗin yana motsawa zuwa ƙasan hagu.
+
+[[K0265]]
+Canja kwafi biyu a cikin alkiblar ɓangaren
+
+[[K0266]]
+Gefuna biyu na ɓangaren fari suna nuna alkiblar motsi guda biyu. Yi kwafi biyu na tsarin ja-dogo kuma canza kwafi ɗaya mataki ɗaya na grid a kowane alkibla, yana naɗewa a gefuna. Matsayin da aka isa sau ɗaya ja ne; matsayin da kwafi biyu suka isa shine shuɗi.
+
+[[K0267]]
+Sashen ƙarshe yana nuna ƙasa-hagu da ƙasa-dama. Canja kwafi kowane hanya. Haɗakar su yana sa duk layin sama da tsakiyar shuɗi; matsayin kwafi ɗaya ya kasance ja, kamar yadda aka nuna a cikin amsar.
+
+[[K0268]]
+Cire sassan igiyoyin da suka ketare
+
+[[[K0269]]
+A rufe zane-zanen biyu. Yi wa kowane yanki madaidaiciya tsakanin ɗigon grid a jere a matsayin ɓangaren igiya daban. Idan wani ɓangare daga zane ɗaya ya haɗu da wani sashe daga ɗayan tsakanin ɗigo, cire duka sassan. Sassan da suka haɗu a kan maki na grid suna tsayawa. A ajiye duk sassan da ba a yanke ba daga zane-zanen biyu.
+
+[[K0270]]
+Cire sassan diagonal da aka yanke tsakanin maki na grid. Sauran sassan suna samar da cokali mai yatsu na sama tare da tushe a tsaye, gajerun diagonal guda biyu da aka raba kusa da kusurwoyin sama, da kuma cokali mai yatsu na ƙasa tare da tushe a tsaye.
+
+[[K0271]]
+Zamewa kuma a tsara sassan bisa girman
+
+[[K0272]]
+A tura dukkan sassan a alkiblar kibiya. Ƙananan sassan suna wucewa manyan sassan kuma suna isa ga wurare mafi nisa da ake da su da farko. A riƙe tsayin kowane yanki da matsayinsa a tsaye. Guda-guda na iya raba ginshiƙi idan ba su haɗu a tsaye ba; gundarin daidai gwargwado suna kiyaye tsarinsu na dangi.
+
+[[K0273]]
+Kibiyar tana nuna dama. Sanya gundarin sassan a cikin wuraren da ake da su a dama, sannan gundarin sassan sel biyu, sannan gundarin sassan da ke hagunsu. Babu abin da ke motsawa sama ko ƙasa, kuma babu wani gundarin da ya canza girma.
+
+[[K0274]]
+Matsar da masu rabawa zuwa wurare masu 'yanci

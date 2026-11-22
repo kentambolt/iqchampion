@@ -1,0 +1,123 @@
+[[K0173]]
+Každá pozícia v každom príkladovom riadku obsahuje ten istý modrý kruh. Tvar, farba ani veľkosť sa nemenia.
+
+[[K0174]]
+Posledný riadok už obsahuje dva zhodné modré kruhy. Ďalší zhodný modrý kruh ho dopĺňa.
+
+[[K0175]]
+Pridajte jeden vnorený obrys
+
+[[K0176]]
+Pri posune doprava sa do predchádzajúceho tvaru pridá menší obrys rovnakého tvaru. Vonkajší tvar a jeho farba zostávajú nezmenené.
+
+[[K0177]]
+Zelený trojuholník má v strednej pozícii jeden vnútorný trojuholník. Pridajte ďalší, menší vnútorný trojuholník a získate správnu odpoveď.
+
+[[K0178]]
+Použite prvý tvar ako výrez
+
+[[K0179]]
+Čierny tvar na prvej pozícii je odstránený zo stredu farebného štvorca na druhej pozícii. Vzniknutý otvor je biely.
+
+[[K0180]]
+Čierny štvorec vytvára štvorcový otvor v zelenom štvorci. Vyberte zelený štvorec s bielym štvorcovým otvorom.
+
+[[K0181]]
+Skombinujte hornú a dolnú farbu
+
+[[K0182]]
+Výsledný tvar preberá svoju hornú polovicu z prvého útvaru (kapsuly) a dolnú polovicu z druhého útvaru.
+
+[[K0183]]
+Prvý útvar je biely a druhý modrý, takže výsledok je hore biely a dole modrý.
+
+[[K0184]]
+Otočte farebné časti (laloky)
+
+[[K0185]]
+V každom kroku otočte celý štvorlalokový útvar o 90 stupňov v smere hodinových ručičiek. Všetky červené a modré časti sa otáčajú spolu s útvarom.
+
+[[K0186]]
+Otočte stredný útvar o ďalšiu štvrtinu otáčky v smere hodinových ručičiek. Dve červené časti skončia na pravej strane a v spodnej časti; horná a ľavá časť sú modré.
+
+[[K0187]]
+Postupne zaobľujte rohy
+
+[[K0188]]
+Farba a celkový tvar zostávajú rovnaké, zatiaľ čo rohy sa v každom kroku stávajú viac zaoblenými. [[K0189]]
+Pokračujte v zaobľovaní rohov hnedého obdĺžnika. Výsledkom je hnedý útvar v tvare kapsuly s úplne zaoblenými koncami.
+
+[[K0190]]
+Pokračujte v pohybe kruhu
+
+[[K0191]]
+V každom riadku sa zelený kruh posúva o rovnakú vzdialenosť v rovnakom smere: nahor, nadol alebo horizontálne. Jeho veľkosť zostáva nezmenená.
+
+[[K0192]]
+V poslednom riadku sa kruh posúva doľava pozdĺž spodnej strany štvorca. Ďalší rovnaký krok ho umiestni do ľavého dolného rohu.
+
+[[K0193]]
+Otočte celý vzor bodiek
+
+[[K0194]]
+V každom kroku otočte štvorec a všetky bodky v ňom o 45 stupňov proti smeru hodinových ručičiek. Štvorec sa zmení na kosoštvorec a následne opäť na štvorec.
+
+[[K0195]]
+Otočte stredný zeleno-čierny kosoštvorec o ďalších 45 stupňov proti smeru hodinových ručičiek. Zelené a čierne bodky ponechajte v ich otočených polohách.
+
+[[K0196]]
+Skráťte každý pruh z hornej strany
+
+[[K0197]]
+V každom kroku sa každý zvislý čierny pruh skráti o jeden dielik mriežky z hornej strany. Jeho spodný koniec zostáva na spodnej čiare. Keď dĺžka pruhu klesne na nulu, pruh zmizne.
+
+[[K0198]]
+Na strednom obrázku má stredný pruh dĺžku jedného dielika a pravý pruh dĺžku dvoch dielikov. Stredný pruh zmizne, pričom na pravej strane zostane pruh s dĺžkou jedného dielika.
+
+[[K0199]]
+Vykonajte zrkadlenie podľa čiernej čiary
+
+[[K0200]]
+Stredná čiara predstavuje os zrkadlenia. Farebný útvar podľa tejto čiary zrkadlovo preklopte – nejde teda len o jednoduché otočenie.
+
+[[K0201]]
+Posledná os zrkadlenia je zvislá, takže žltý útvar sa preklopí zľava doprava. Jeho farba a veľkosť zostávajú nezmenené.
+
+[[K0202]]
+Prekryte útvary a použite prvú farbu
+
+[[K0203]]
+Umiestnite oba útvary na seba. Zachovajte výslednú siluetu a viditeľné obrysy, no celý útvar vyfarbite farbou prvého útvaru.
+
+[[K0204]]
+Prekryte modrý trojuholník smerujúci nadol a žltý šesťuholník a potom použite modrú farbu pre kombinovaný obrázok. Vyčnievajúce hroty trojuholníka zostanú viditeľné okolo šesťuholníka.
+
+[[K0205]]
+Ponechajte zelenú farbu presne v jednom vstupe
+
+[[K0206]]
+Porovnajte zodpovedajúce plochy dvoch štvorcov. Plocha je zelená, ak je zelená presne v jednom vstupe. Zelená v oboch sa zruší na bielu; biela v oboch zostáva biela.
+
+[[K0207]]
+Prvý štvorec je celý zelený a druhý má iba zelenú ľavú dolnú štvrtinu. Táto spoločná štvrtina sa zmení na bielu; ostatné tri štvrtiny zostanú zelené.
+
+[[K0208]]
+Pripojte kópiu do každého rohu
+
+[[K0209]]
+Umiestnite kópiu malého čierneho symbolu do každého vrcholu veľkého tvaru. Pridané kópie prevezmú farbu veľkého tvaru.
+
+[[K0210]]
+Veľký modrý diamant má štyri rohy. Pridajte modrý trojuholník smerujúci nadol do každého rohu podľa rovnakého pravidla umiestnenia ako v príkladoch.
+
+[[K0211]]
+Pridajte zodpovedajúce výšky pruhov
+
+[[K0212]]
+Pre každú z troch horizontálnych polôh pripočítajte výšku čierneho pruhu na prvom obrázku k jeho výške na druhom. Merajte smerom nahor od spoločnej spodnej čiary.
+
+[[K0213]]
+Ani jeden vstup nemá ľavý pruh. Dva stredné pruhy sa sčítajú do pruhu s plnou výškou, zatiaľ čo pravé pruhy sa sčítajú do kratšieho pruhu. Výsledok obsahuje iba stredný a pravý pruh.
+
+[[K0214]]
+Otáčajte a striedajte farby

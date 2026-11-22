@@ -1,0 +1,165 @@
+[[K0275]]
+Kaikki mustat jakajat siirtyvät samanaikaisesti yhden askeleen oikealle, jos seuraavassa kohdassa on keltainen helmi. Jos toinen jakaja estää siirtymisen, jakaja pysyy paikallaan. Oikea reuna yhdistyy vasempaan reunaan.
+
+[[K0276]]
+Suorita yksi samanaikainen siirto keskimmäiselle jonolle. Lopullinen järjestys on: jakaja, helmi, jakaja, helmi, jakaja, jakaja, helmi.
+
+[[K0277]]
+Laajenna värejä ja säilytä suurin ryhmä.
+
+[[K0278]]
+Korvaa jokainen värillinen pallo neljällä uudella samanvärisellä pallolla, jotka sijoittuvat yhden askeleen päähän ylös, alas, vasemmalle ja oikealle. Ruudukon ulkopuolelle päätyvät pallot katoavat. Kussakin kohdassa säilytetään se väri, jota saapui paikalle eniten. Jos usealla värillä on sama suurin määrä, kohta jätetään tyhjäksi. Useat samanväriset pallot, jotka päätyvät samaan kohtaan, näkyvät yhtenä kyseisen värisenä merkkinä.
+
+[[K0279]]
+Kun keskimmäistä kuvaa laajennetaan, vihreää jää oikeaan yläkulmaan sekä riville 2 sarakkeeseen 3; punaista riville 2 sarakkeeseen 1; ja ruskeaa riville 2 sarakkeeseen 2, riville 3 sarakkeeseen 3 sekä riville 4 sarakkeisiin 2, 3 ja 4. Nämä vastaavat täsmälleen tallennetussa vastauksessa olevia värejä ja sijainteja.
+
+[[K0280]]
+Valitse kieli
+
+[[K0281]]
+Etsi kieliä
+
+[[K0282]]
+Sulje kielivalikko
+
+[[K0283]]
+Kieliä ei löytynyt
+
+[[K0284]]
+Ilmainen älykkyystesti huvin vuoksi | IQ Champion
+
+[[K0285]]
+Ilmainen, älykkyystestin tyyppinen testi huvin vuoksi: 36 visuaalista tehtävää, 40 minuuttia aikaa, tallentuva edistyminen ja arvioitu älykkyysosamäärä. Tiliä ei tarvita.
+
+[[K0286]]
+Valitse haluamasi kieli. Vastauksesi ja alkuperäinen aikaraja säilyvät tallennettuina.
+
+[[K0287]]
+Ladataan kieltä…
+
+[[K0288]]
+Kielen lataaminen epäonnistui. Testisi ja vastauksesi pysyvät ennallaan. [[K0289]]
+Palaute on saatavilla tanskaksi ja englanniksi.
+
+[[K0290]]
+Jaettu saavutus
+
+[[K0291]]
+Jaettu tulos
+
+[[K0292]]
+Jaetut tulokset perustuvat käyttäjän omaan ilmoitukseen.
+
+[[K0293]]
+Jaetut saavutukset perustuvat käyttäjän omaan ilmoitukseen. Ikää, maata, vastauksia tai henkilökohtaisia ​​profiileja ei jaeta.
+
+[[K0294]]
+Kokeile 36:ta tehtävää itse
+
+[[K0295]]
+Kokeile testiä itse
+
+[[K0296]]
+Visuaalinen haaste IQ Championissa. Huomaatko sinäkin säännönmukaisuuden?
+
+[[K0297]]
+Ilmainen visuaalinen tehtävätesti – vain huvin vuoksi. Ei ole ammatillisesti validoitu älykkyysosamäärämittaus.
+
+[[K0298]]
+Sivua ei löytynyt
+
+[[K0299]]
+Voit jatkaa toisella kielellä.
+
+[[K0300]]
+vastattu
+
+[[K0301]]
+vastaamaton
+
+[[K0302]]
+oikein
+
+[[K0303]]
+väärin
+
+[[K0304]]
+Arvioitu mediaanialue: {0} ({1} oikeaa vastausta aikarajan puitteissa).
+
+[[K0305]]
+Kysymys {0} · {1}
+
+[[K0306]]
+{0} oikeaa säännönmukaisuutta
+
+[[K0307]]
+Aktiivinen aika: {0}
+
+[[K0308]]
+Vertailu: {0} vapaaehtoista suoritusta {1} päivän aikana.
+
+[[K0309]]
+Kysymys {0} / {1}
+
+[[K0310]]
+Tarkastele kysymystä {0} / {1}
+
+[[K0311]]
+Rivi {0}, kuvake {1}
+
+[[K0312]]
+Vastaus {0}
+
+[[K0313]]
+Kysymys {0}, {1}
+
+[[K0314]]
+Tarkastele kysymystä {0}, {1}
+
+[[K0315]]
+{0} oikein; {1} väärin; {2} vastaamatonta.
+
+[[K0316]]
+{0} vastattu; {1} vastaamatonta.
+
+[[K0317]]
+{0} vastattu; {1} vastaamatonta. Vastaamattomat kysymykset lasketaan vääriksi. Kun olet valmis, vastauksia ei voi enää muuttaa.
+
+[[K0318]]
+{0} / {1} oikein
+
+[[K0319]]
+Persentiili aiempien osallistujien joukossa: {0}
+
+[[K0320]]
+Osallistujia, jotka saivat heikomman tuloksen: {0} %. Osallistujia, jotka saivat saman tuloksen: {1} %.
+
+[[K0321]]
+Vertailuryhmä: {0} aiempaa suoritusta. Mukaan on otettu suoritukset, joiden kesto on yli minuutti mutta enintään 40 minuuttia. Jos tulokset ovat samat, sijoitus lasketaan kyseisen persentiiliryhmän keskikohdan mukaan. Arviot pyöristetään kokonaisluvuiksi ja näytetään vain välillä 55–145; tämän välin ulkopuolella näkyy raja-arvoa osoittava merkintä. Kyseessä on asteikon muunnos, ei itsenäisesti validoitu väestön älykkyysosamäärän mittaus. Harjoittelu ja toistuvat yritykset voivat vaikuttaa tulokseesi. Joitakin esimerkkikuvia on korjattu sen jälkeen, kun aiemmat suoritukset kerättiin, mikä rajoittaa tulosten vertailukelpoisuutta.
+
+[[K0322]]
+Arvioitu älykkyysosamääräni IQ Championissa: {0}. Ihan vain huvin vuoksi. Kokeile itse: {1}
+
+[[K0323]]
+Ratkaisin kysymyksen {0} oikein ajassa {1}. Pystytkö samaan? {2}
+
+[[K0324]]
+Ratkaisin kysymyksen {0} oikein ajassa {1} (oikeiden vastausten arvioitu mediaani: {2}). Pystytkö samaan? {3}
+
+[[K0325]]
+Löysin {0} oikeaa kaavaa IQ Championissa. Kokeile itse: {1}
+
+[[K0326]]
+Löydätkö puuttuvat kaavat IQ Championissa? {0}
+
+[[K0327]]
+Kysymys {0} ratkaistu
+
+[[K0328]]
+{0} kaavaa ratkaistu
+
+[[K0329]]
+{0} / 36 oikein. {1}
+
+[[K0330]]
+Arvioitu älykkyysosamäärä {0} | Älykkyysosamäärä-mestari

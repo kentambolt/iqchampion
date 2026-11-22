@@ -355,3 +355,40 @@ main { padding: 12px 24px; }
 
 
 
+
+/* Results stay compact; detailed rows and voluntary contribution open in the existing sheet. */
+.result { max-width:1000px; }
+.result-layout { display:grid; grid-template-columns:minmax(0,1fr) minmax(0,1fr); gap:20px; align-items:stretch; }
+.result-layout > .panel { min-width:0; padding:26px; }
+.result-spotlight { display:flex; flex-direction:column; align-items:flex-start; }
+.result-spotlight h2 { font-size:24px; line-height:1.25; }
+.result-spotlight .eyebrow { margin-bottom:10px; }
+.highlight-label { margin-top:20px; color:var(--muted); font-size:14px; }
+.highlight-value { margin:8px 0 12px; font-size:clamp(25px,3vw,34px); font-weight:700; letter-spacing:-.025em; line-height:1.2; }
+.result-spotlight .small { line-height:1.55; }
+.share-choices { display:flex; flex-wrap:wrap; gap:4px 14px; margin:16px 0 12px; }
+.share-choices button { min-height:40px; padding:6px 0; font-size:13px; }
+.share-primary { display:inline-flex; align-items:center; justify-content:center; gap:12px; text-decoration:none; width:100%; margin-top:auto; padding:12px 16px; }
+.copy-share { width:100%; margin-top:12px; font-size:13px; }
+.copy-share summary { cursor:pointer; color:var(--accent); padding:8px 0; }
+.copy-share label { display:block; margin:10px 0 6px; }
+.copy-share textarea { width:100%; min-height:100px; padding:12px; background:#0b1829; border:1px solid var(--border); border-radius:8px; color:var(--text); font:inherit; line-height:1.5; resize:vertical; }
+.copy-share button { margin:8px 0; min-height:40px; padding:8px 14px; }
+.result-tools { display:grid; grid-template-columns:1fr 1fr; gap:16px; margin-top:16px; }
+.result-tools summary { font-size:14px; }
+.statistics-table-wrap { overflow-x:auto; margin-top:18px; }
+.statistics-table { width:100%; border-collapse:collapse; text-align:left; font-size:13px; }
+.statistics-table caption { text-align:left; margin-bottom:14px; color:var(--muted); }
+.statistics-table th,.statistics-table td { padding:10px 8px; border-bottom:1px solid var(--border); vertical-align:middle; }
+.statistics-table thead th { color:var(--muted); font-weight:500; }
+.statistics-table td { white-space:nowrap; }
+.stats-review { width:42px; min-height:38px; background:transparent; }
+.stats-status.correct { color:#a5dfc5; }.stats-status.incorrect { color:#f3bfba; }.stats-status.unanswered { color:var(--muted); }
+.contribution-panel label { display:block; margin-top:18px; font-size:14px; }
+.contribution-panel select { width:100%; margin-top:8px; padding:12px; border:1px solid var(--border); border-radius:8px; background:#102137; color:var(--text); font:inherit; }
+.contribution-panel .statistics-consent { display:flex; align-items:flex-start; gap:12px; line-height:1.6; margin:22px 0 14px; }
+.statistics-consent input { margin-top:5px; min-width:18px; min-height:18px; }
+.contribution-panel form .primary { margin-top:18px; }
+.result-method { margin-top:8px; }
+@media (min-width:600px) and (max-height:740px) { .result { padding-top:4px; }.result-layout { gap:14px; }.result-layout > .panel { padding:18px 22px; }.result-spotlight h2 { font-size:22px; }.highlight-label { margin-top:12px; }.highlight-value { font-size:28px; }.share-choices { margin:8px 0; }.result-tools { margin-top:8px; }.result .about-action { margin-top:4px; } }
+@media (max-width:599px) { .result-layout { grid-template-columns:1fr; gap:16px; }.result-layout > .panel { padding:22px; }.result-tools { grid-template-columns:1fr; gap:4px; }.result-spotlight .share-primary { margin-top:8px; } }

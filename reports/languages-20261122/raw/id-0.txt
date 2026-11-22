@@ -1,0 +1,209 @@
+[[K0001]]
+Perkiraan rentang median
+
+[[K0002]]
+Perbandingan publik mencakup semua kontributor yang menggunakan versi teka-teki ini. Kelompok usia dan negara opsional hanya digunakan dalam statistik agregat pribadi.
+
+[[K0003]]
+Saya setuju untuk menyumbangkan hasil pertanyaan anonim saya, waktu aktif, dan kelompok usia atau negara opsional apa pun ke statistik agregat.
+
+[[K0004]]
+Rentang median diperkirakan dari histogram waktu. Interval yang ditampilkan menunjukkan resolusi waktu; tidak ada median atau persentil kecepatan yang tepat yang diklaim.
+
+[[K0005]]
+Bagikan tantangan
+
+[[K0006]]
+Waktu pertanyaan
+
+[[K0007]]
+Preferensi privasi peramban Anda menyimpan statistik ini di perangkat Anda.
+
+[[K0008]]
+Semua upaya sukarela
+
+[[K0009]]
+Terima kasih. Kontribusi anonim Anda telah disimpan.
+
+[[K0010]]
+Belum ada cukup upaya yang sebanding dalam grup ini. Statistik Anda sendiri selalu tersedia.
+
+[[K0011]]
+Perbandingan sementara tidak tersedia. Statistik dan berbagi Anda sendiri masih berfungsi.
+
+[[K0012]]
+Upaya lama ini tidak memiliki catatan waktu yang lengkap. Anda masih dapat menjelajahi dan membagikan hasil Anda.
+
+[[K0013]]
+Pilih apakah akan berkontribusi sebelum mengirim data apa pun.
+
+[[K0014]]
+Upaya ini tidak memiliki catatan waktu yang lengkap. Hasil pribadi Anda tidak berubah.
+
+[[K0015]]
+Kontribusi Anda tidak dapat disimpan di browser ini. Tidak ada yang dikirim.
+
+[[K0016]]
+Kontribusi ini perlu ditinjau dan tidak dihitung lagi.
+
+[[K0017]]
+Kontribusi Anda belum dikonfirmasi. Coba lagi dengan kontribusi yang sama yang telah disimpan.
+
+[[K0018]]
+Tidak perlu akun
+
+[[K0019]]
+Tes dimulai saat Anda siap
+
+[[K0020]]
+Tes
+
+[[K0021]]
+Pertanyaan yang dijawab
+
+[[K0022]]
+Sesuatu untuk dibagikan
+
+[[K0023]]
+Momen terkuat Anda
+
+[[K0024]]
+Perkiraan IQ Anda
+
+[[K0025]]
+Teka-teki rumit, diselesaikan dengan cepat
+
+[[K0026]]
+Lebih cepat dari jawaban benar biasanya
+
+[[K0027]]
+Jawaban benar tercepat Anda
+
+[[K0028]]
+Pola yang Anda selesaikan
+
+[[K0029]]
+Tantangan yang layak dibagikan
+
+[[K0030]]
+36 teka-teki. Satu tantangan.
+
+[[K0031]]
+Bagikan tantangan dengan seseorang yang Anda kenal.
+
+[[K0032]]
+Waktu aktif Anda sendiri. Tidak ada cukup data perbandingan untuk menentukan kecepatannya.
+
+[[K0033]]
+Pilih apa yang ingin dibagikan
+
+[[K0034]]
+Momen terbaik
+
+[[K0035]]
+Perkiraan IQ
+
+[[K0036]]
+Pola yang benar
+
+[[K0037]]
+Bagikan di Facebook
+
+[[K0038]]
+Salin keterangan pribadi
+
+[[K0039]]
+Teks yang ingin Anda bagikan
+
+[[K0040]]
+Salin teks
+
+[[K0041]]
+Facebook memungkinkan Anda menulis keterangan sendiri. Kami tidak pernah memposting secara otomatis.
+
+[[K0042]]
+Disalin. Tempelkan ke postingan Anda.
+
+[[K0043]]
+Pilih dan salin teks di bawah ini.
+
+[[K0044]]
+Statistik pertanyaan Anda
+
+[[K0045]]
+Perbandingan pertanyaan belum tersedia. Statistik pribadi Anda ditampilkan di bawah ini.
+
+[[K0046]]
+Waktu yang dihitung adalah waktu yang terlihat dan terfokus pada pertanyaan hingga jawaban terakhir Anda. Untuk pertanyaan yang tidak dijawab, waktu yang dihabiskan akan ditampilkan. Tab yang disembunyikan dan halaman yang ditutup tidak dihitung. Upaya sebelumnya mungkin tidak memiliki waktu.
+
+[[K0047]]
+Semua 36 pertanyaan, termasuk pertanyaan yang dilewati
+
+[[K0048]]
+Pertanyaan
+
+[[K0049]]
+Waktu Anda
+
+[[K0050]]
+Median jawaban benar
+
+[[K0051]]
+Jawaban benar lainnya
+
+[[K0052]]
+Bandingkan dengan upaya sukarela menggunakan versi teka-teki yang sama. Setidaknya 30 pertanyaan yang dijawab diperlukan untuk tingkat kebenaran, dan 30 jawaban benar yang dihitung waktunya untuk median. Ini adalah peserta, bukan populasi yang representatif.
+
+[[K0053]]
+Bandingkan dan berkontribusi
+
+[[K0054]]
+Bantu peserta di masa mendatang membandingkan hasil mereka. Anda dapat membagikan statistik tes anonim setelah selesai, bahkan jika Anda melewatkan beberapa pertanyaan.
+
+[[K0055]]
+Perbandingan anonim sedang dipersiapkan. Statistik pribadi Anda dan berbagi data dapat dilakukan tanpa perlu berkontribusi.
+
+[[K0056]]
+Kelompok usia (opsional)
+
+[[K0057]]
+Negara (opsional)
+
+[[K0058]]
+Lebih suka tidak menyebutkan
+
+[[K0059]]
+Di bawah 18 tahun
+
+[[K0060]]
+Saya setuju untuk menyumbangkan hasil pertanyaan anonim dan waktu aktif saya, bersama dengan kelompok usia dan negara yang saya pilih, ke statistik perbandingan.
+
+[[K0061]]
+Tidak ada nama, email, atau usia pasti. Berbagi statistik Anda bersifat opsional dan tidak memengaruhi hasil Anda. Kelompok perbandingan kecil disembunyikan.
+
+[[K0062]]
+Berikan kontribusi secara anonim
+
+[[K0063]]
+Mengapa jawaban ini?
+
+[[K0064]]
+Penjelasan
+
+[[K0065]]
+Aturan
+
+[[K0066]]
+Menerapkan aturan
+
+[[K0067]]
+Anda sedang meninjau versi teka-teki yang lebih lama. Contoh-contohnya mengandung ambiguitas yang telah diidentifikasi sebelumnya; jawaban dan skor yang Anda simpan tidak berubah.
+
+[[K0068]]
+Anda sedang meninjau versi asli, yang berisi penanda contoh yang salah. Jawaban dan skor yang Anda simpan tidak berubah. Upaya baru menggunakan versi yang telah diperbaiki.
+
+[[K0069]]
+Dalam versi asli ini, gambar tengah yang ditampilkan meluas menjadi hijau di kanan atas dan baris 2, kolom 3; merah di baris 2, kolom 1; dan cokelat di baris 2, kolom 2, baris 3, kolom 3 dan baris 4, kolom 3.
+
+[[K0070]]
+Bagikan hasil di Facebook

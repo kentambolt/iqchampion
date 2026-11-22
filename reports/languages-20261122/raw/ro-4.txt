@@ -1,0 +1,75 @@
+[[K0249]]
+După eliminarea cărămizilor roșii, cărămizile rămase formează scara din mijloc. Eliminarea cărămizii galbene și a vecinilor săi adiacenți lasă liberă cărămida albastră de sus, care cade la bază.
+
+[[K0250]]
+Rotește straturile și aplică masca de culoare.
+
+[[K0251]]
+Urmărește aceleași trei forme. La fiecare pas, forma din față trece în spate. Pentru imaginea finală, păstrează umpluturile gri sau negre din imaginea din mijloc; formele albe (fără umplutură) își recapătă culorile din prima imagine.
+
+[[K0252]]
+Hexagonul gri ajunge în față, capsula orizontală neagră se așază în spatele lui, iar capsula verticală trece în spate. Acea capsulă verticală albă își recapătă culoarea galbenă inițială.
+
+[[K0253]]
+Folosește culoarea fiecărui cerc pentru a determina mișcarea acestuia.
+
+[[K0254]]
+Urmărește fiecare cerc în raport cu cercul care îl înconjoară imediat. Cercul alb se deplasează cu 90 de grade în sensul acelor de ceasornic, cel negru cu 90 de grade în sens invers acelor de ceasornic, iar cel roșu rămâne în aceeași poziție relativă. Cercul albastru rămâne pe loc. Aplică aceste mișcări la fiecare nivel inclus.
+
+[[K0255]]
+Cercul negru se mută de deasupra cercului albastru în partea stângă a acestuia. Cercul roșu rămâne în interiorul cercului negru, în partea dreaptă. Cercul alb mai mare se mută de deasupra cercului roșu în partea dreaptă a acestuia; cel mai mic cerc alb se mută de sub cercul alb mai mare în partea stângă a acestuia.
+
+[[K0256]]
+Deplasează culorile de-a lungul traseelor ​​conectate.
+
+[[K0257]]
+Legăturile negre indică traseele pe care se deplasează culorile. Urmărește fiecare buclă în sensul acelor de ceasornic, mutând fiecare culoare în următoarea poziție conectată. Un traseu format din două poziții duce la inversarea culorilor dintre acestea; punctele neconectate rămân pe loc.
+
+[[K0258]]
+Inversează cele două culori de sus. Pe bucla inferioară, cercul albastru din stânga-mijloc se mută în centru, iar cercul roșu din dreapta-mijloc se mută în stânga-jos. Cercul roșu din dreapta-jos, nefiind conectat, rămâne neschimbat. [[K0259]]
+Deplasează fiecare culoare de-a lungul propriului său traseu
+
+[[K0260]]
+Culoarea roșie se deplasează în jos, cea verde spre dreapta, iar cea galbenă spre stânga. Culoarea albastră se deplasează în sus și, acolo unde este posibil, o coloană spre stânga. Culoarea albă indică suprapunerea culorilor; separă din nou aceste culori înainte de a efectua următoarea mișcare. Culorile care ies din grilă dispar.
+
+[[K0261]]
+Desparte celula albă din mijloc în culorile roșu și verde. Roșul se deplasează în partea de jos, la mijloc; verdele ajunge în partea dreaptă, la mijloc; albastrul ajunge în stânga sus, iar galbenul iese prin partea stângă. Cele trei celule colorate formează răspunsul.
+
+[[K0262]]
+Deplasează vârfurile roșii și albastre în direcții opuse
+
+[[K0263]]
+La fiecare pas, fiecare vârf roșu se deplasează o poziție în sens invers acelor de ceasornic, iar fiecare vârf albastru se deplasează două poziții în sensul acelor de ceasornic, de-a lungul stelei cu cinci colțuri. Culoarea albă indică faptul că roșul și albastrul se suprapun; separă cele două culori înainte de a efectua o nouă mișcare.
+
+[[K0264]]
+În imaginea din mijloc, roșul se află în dreapta jos, iar albastrul se află în dreapta sus și în stânga sus. Următoarea mișcare aduce roșul și unul dintre elementele albastre în dreapta sus, rezultând culoarea albă. Celălalt element albastru se deplasează în stânga jos.
+
+[[K0265]]
+Deplasează două copii în direcțiile indicate de sector
+
+[[K0266]]
+Cele două laturi ale sectorului alb indică două direcții de deplasare. Creează două copii ale modelului cu puncte roșii și deplasează fiecare copie cu un pas în grilă, pe direcția corespunzătoare, permițând trecerea de la o margine la alta (efect de „înfășurare”). O poziție atinsă de o singură copie devine roșie; o poziție atinsă de ambele copii devine albastră.
+
+[[K0267]]
+Sectorul final este orientat spre stânga-jos și dreapta-jos. Deplasează câte o copie în fiecare direcție. Suprapunerea lor face ca întregul rând de sus și zona centrală să devină albastre; pozițiile atinse de o singură copie rămân roșii, așa cum se arată în răspuns.
+
+[[K0268]]
+Elimină segmentele de linie care se intersectează
+
+[[K0269]]
+Suprapune cele două desene. Consideră fiecare segment drept dintre două puncte consecutive ale grilei ca fiind un segment de linie distinct. Dacă un segment dintr-un desen intersectează un segment din celălalt desen (între punctele grilei), elimină ambele segmente. Segmentele care se întâlnesc într-un punct al grilei rămân pe loc. Păstrează toate segmentele netăiate din ambele desene.
+
+[[K0270]]
+Elimină segmentele diagonale tăiate între punctele grilei. Piesele rămase formează o ramificație superioară cu o tijă verticală, două segmente diagonale scurte și separate, situate lângă colțurile de sus, și o ramificație inferioară, prevăzută cu propria sa tijă verticală.
+
+[[K0271]]
+Deplasează și sortează piesele în funcție de dimensiune.
+
+[[K0272]]
+Împinge toate piesele în direcția indicată de săgeată. Piesele mai mici trec pe lângă cele mai mari și ajung primele în spațiile libere cele mai îndepărtate. Păstrează înălțimea și poziția verticală a fiecărei piese. Piesele pot ocupa aceeași coloană, cu condiția să nu se suprapună pe verticală; piesele de aceeași dimensiune își păstrează ordinea relativă.
+
+[[K0273]]
+Săgeata indică spre dreapta. Așază piesele cele mai scurte în spațiile libere din partea dreaptă, apoi piesele formate din două celule, iar în final, piesele mai înalte, în partea stângă a acestora. Nicio piesă nu se deplasează în sus sau în jos și nicio piesă nu își modifică dimensiunea.
+
+[[K0274]]
+Deplasează elementele de separare în spațiile libere.

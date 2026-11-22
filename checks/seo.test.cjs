@@ -4,6 +4,7 @@ const fs=require('node:fs');
 const path=require('node:path');
 const {spawnSync}=require('node:child_process');
 const root=path.resolve(__dirname,'..');
+const catalog=require('../assets/languages.js');
 const read=name=>fs.readFileSync(path.join(root,name),'utf8');
 
 test('generated language pages are reproducible and current',()=>{
@@ -14,14 +15,14 @@ test('generated language pages are reproducible and current',()=>{
 test('both real HTML routes expose localized content before JavaScript and reciprocal language metadata',()=>{
  for(const lang of ['da','en']) {
   const h=read(lang+'/index.html');
-  assert.match(h,new RegExp('<html lang="'+lang+'">'));
+  assert.match(h,new RegExp('<html lang="'+lang+'" dir="ltr">'));
   assert.ok(h.includes('<base href="/">'));
   assert.ok(h.includes('rel="canonical" href="https://iqchampion.com/'+lang+'/"'));
   for(const other of ['da','en'])assert.ok(h.includes('hreflang="'+other+'" href="https://iqchampion.com/'+other+'/"'));
   assert.ok(h.includes('hreflang="x-default" href="https://iqchampion.com/"'));
   const plain=h.replace(/<script[^>]*>[\s\S]*?<\/script>/g,'').replace(/<[^>]+>/g,' ');
   assert.ok(plain.includes(lang==='da'?'Find den manglende brik.':'Find the missing piece.'));
-  assert.ok(plain.includes(lang==='da'?'Start testen på 40 minutter':'Start 40-minute test'));
+  assert.ok(plain.includes(lang==='da'?'Start 40-minutters test':'Start 40-minute test'));
   assert.ok(plain.includes(lang==='da'?'10.216':'10,216'));
   assert.ok(h.includes('?lang='+lang));
   for(const m of h.matchAll(/<(?:script|img|link)\b[^>]*(?:src|href)="([^"#]+)"/g)) {
@@ -37,10 +38,10 @@ test('both real HTML routes expose localized content before JavaScript and recip
  }
 });
 
-test('sitemap contains only the two real canonical public pages; 404 is noindex and has no test state',()=>{
+test('sitemap contains the 50 real canonical public pages; 404 is noindex and has no test state',()=>{
  const sitemap=read('sitemap.xml');
  const urls=[...sitemap.matchAll(/<loc>([^<]+)<\/loc>/g)].map(m=>m[1]);
- assert.deepEqual(urls,['https://iqchampion.com/da/','https://iqchampion.com/en/']);
+ assert.deepEqual(urls,catalog.map(l=>'https://iqchampion.com/'+l.code+'/'));
  assert.match(read('robots.txt'),/Sitemap: https:\/\/iqchampion\.com\/sitemap\.xml/);
  assert.doesNotMatch(sitemap,/feedback|admin|login|result|preview|report|tests/);
  const notFound=read('404.html');
@@ -61,4 +62,10 @@ test('anonymous share pages have localized score metadata, noindex and no attemp
   assert.match(html,/property="og:image"/);
   assert.doesNotMatch(html,/<script|localStorage|startedAt|tracker\./);
  }
+});
+test('question and pattern shares use static bilingual metadata without demographic or timing URLs',()=>{
+ for(const lang of ['da','en'])for(const kind of ['question','patterns'])for(let n=kind==='question'?1:0;n<=36;n++){
+  const html=read('share/'+lang+'/'+kind+'/'+n+'/index.html');assert.match(html,/name="robots" content="noindex,follow"/);assert.ok(html.includes('https://iqchampion.com/share/'+lang+'/'+kind+'/'+n+'/'));assert.ok(html.includes('images/share-'+lang+'.png'));assert.doesNotMatch(html,/<script|localStorage|startedAt|tracker\.|age_group|duration_ms|statisticsId/);assert.ok(html.includes('href="/'+lang+'/"'));
+ }
+ for(const lang of ['da','en']){const bytes=fs.readFileSync(path.join(__dirname,'../images/share-'+lang+'.png'));assert.equal(bytes.readUInt32BE(16),1200);assert.equal(bytes.readUInt32BE(20),630);}
 });

@@ -1,0 +1,5 @@
+
+> check:release
+> node tools/Build-Language-Pages.cjs --check
+
+Verified 50 full language routes, localized anonymous shares, reciprocal hreflang and sitemap.

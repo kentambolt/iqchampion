@@ -1,0 +1,165 @@
+[[K0275]]
+Kõik mustad eraldajad liiguvad üheaegselt ühe positsiooni võrra paremale, kui järgmisel positsioonil asub kollane pärl. Eraldaja, mille teekonna blokeerib teine ​​eraldaja, jääb ootele. Parem serv on ühendatud vasaku servaga.
+
+[[K0276]]
+Rakenda keskmisele jadale üks üheaegne samm. Lõplik järjestus on: eraldaja, pärl, eraldaja, pärl, eraldaja, eraldaja, pärl.
+
+[[K0277]]
+Laienda värve ja säilita suurim rühm.
+
+[[K0278]]
+Asenda iga värviline pall nelja sama värvi uue palliga, mis paiknevad vastavalt ühe sammu võrra ülal, all, vasakul ja paremal. Ruudustikust väljuvad pallid kaovad. Igal positsioonil säilita see värv, mida sinna saabus kõige rohkem. Kui suurima arvu puhul on viik, jäta positsioon tühjaks. Mitme sama värvi palli saabumine ühte kohta tähistatakse ühe värvilise märgiga.
+
+[[K0279]]
+Kuvatud keskmise pildi laiendamisel jäävad rohelised värvid paremasse ülanurka ning 2. rea 3. veergu; punane 2. rea 1. veergu; ning pruunid 2. rea 2. veergu, 3. rea 3. veergu ja 4. rea 2., 3. ja 4. veergu. Need on täpselt samad värvid ja asukohad, mis on toodud salvestatud vastuses.
+
+[[K0280]]
+Vali keel
+
+[[K0281]]
+Otsi keeli
+
+[[K0282]]
+Sulge keelevalik
+
+[[K0283]]
+Keeli ei leitud
+
+[[K0284]]
+Tasuta IQ-test meelelahutuseks | IQ Champion
+
+[[K0285]]
+Tasuta IQ-laadne test meelelahutuseks: 36 visuaalset ülesannet, 40 minutit, salvestatud edenemine ja hinnanguline IQ-tulemus. Kontot pole vaja.
+
+[[K0286]]
+Vali endale sobiv keel. Sinu vastused ja algne tähtaeg jäävad alles.
+
+[[K0287]]
+Laadin keelt…
+
+[[K0288]]
+Keelt ei õnnestunud laadida. Sinu test ja vastused jäävad muutmata. [[K0289]]
+Tagasiside on saadaval taani ja inglise keeles.
+
+[[K0290]]
+Jagatud saavutus
+
+[[K0291]]
+Jagatud tulemus
+
+[[K0292]]
+Jagatud tulemused põhinevad kasutaja enda sisestatud andmetel.
+
+[[K0293]]
+Jagatud saavutused põhinevad kasutaja enda sisestatud andmetel. Vanust, riiki, vastuseid ega isikuprofiile ei jagata.
+
+[[K0294]]
+Proovi ise 36 mõistatust lahendada
+
+[[K0295]]
+Proovi ise testi teha
+
+[[K0296]]
+Visuaalne väljakutse mängus „IQ Champion“. Kas suudad ka sina mustri ära tunda?
+
+[[K0297]]
+Tasuta visuaalne mõistatustest – lihtsalt lõbu pärast. See ei ole professionaalselt valideeritud IQ-mõõtmine.
+
+[[K0298]]
+Lehekülge ei leitud
+
+[[K0299]]
+Võid jätkata mõnes teises keeles.
+
+[[K0300]]
+vastatud
+
+[[K0301]]
+vastamata
+
+[[K0302]]
+õige
+
+[[K0303]]
+vale
+
+[[K0304]]
+Hinnanguline mediaanvahemik: {0} ({1} õiget vastust ajapiiranguga).
+
+[[K0305]]
+Küsimus {0} · {1}
+
+[[K0306]]
+{0} õiget mustrit
+
+[[K0307]]
+Aktiivne aeg: {0}
+
+[[K0308]]
+Võrdlus: {0} vabatahtlikku katset {1} päeva jooksul.
+
+[[K0309]]
+Küsimus {0} / {1}
+
+[[K0310]]
+Vaata üle küsimus {0} / {1}
+
+[[K0311]]
+Rida {0}, ikoon {1}
+
+[[K0312]]
+Vastus {0}
+
+[[K0313]]
+Küsimus {0}, {1}
+
+[[K0314]]
+Vaata üle küsimus {0}, {1}
+
+[[K0315]]
+{0} õiget; {1} valet; {2} vastamata.
+
+[[K0316]]
+{0} vastatud; {1} vastamata.
+
+[[K0317]]
+{0} vastatud; {1} vastamata. Vastamata küsimused loetakse valedeks. Kui oled lõpetanud, ei saa vastuseid enam muuta.
+
+[[K0318]]
+{0} / {1} õiget vastust
+
+[[K0319]]
+Protsentiil varasemate osalejate seas: {0}
+
+[[K0320]]
+Osalejad, kelle tulemus oli madalam: {0}%. Osalejad, kelle tulemus oli sama: {1}%.
+
+[[K0321]]
+Võrdlusrühm: {0} varasemat katset. Arvesse on võetud katsed, mille kestus jäi vahemikku üle ühe minuti kuni 40 minutini. Võrdsete tulemuste korral määratakse protsentiil vastava rühma keskväärtuse järgi. Hinnangulised väärtused on ümardatud täisarvudeni ja kuvatakse vahemikus 55–145; sellest väljapoole jäävate tulemuste puhul kuvatakse vastav piirväärtuse tähis. Tegemist on skaala teisendusega, mitte sõltumatult valideeritud IQ-mõõtmisega kogu elanikkonna lõikes. Harjutamine ja korduvad katsed võivad tulemust mõjutada. Mõningaid näidispilte on pärast varasemate katsete andmete kogumist parandatud, mis piirab tulemuste võrreldavust.
+
+[[K0322]]
+Minu hinnanguline IQ mängus IQ Champion: {0}. Lihtsalt lõbu pärast. Proovi ise: {1}
+
+[[K0323]]
+Lahendasin küsimuse {0} õigesti ajaga {1}. Kas suudad sama? {2}
+
+[[K0324]]
+Lahendasin küsimuse {0} õigesti ajaga {1} (hinnanguline mediaan õigete vastuste seas: {2}). Kas suudad sama? {3}
+
+[[K0325]]
+Leidsin mängus IQ Champion {0} õiget mustrit. Proovi ise: {1}
+
+[[K0326]]
+Kas suudad mängus IQ Champion puuduvad mustrid üles leida? {0}
+
+[[K0327]]
+Küsimus {0} lahendatud
+
+[[K0328]]
+{0} mustrit lahendatud
+
+[[K0329]]
+{0} / 36 õiget vastust. {1}
+
+[[K0330]]
+Hinnanguline IQ {0} | IQ-tšempion

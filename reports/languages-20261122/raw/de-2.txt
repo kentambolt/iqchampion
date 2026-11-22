@@ -1,0 +1,121 @@
+[[K0173]]
+An jeder Position in den Beispielreihen befindet sich derselbe blaue Kreis. Weder Form noch Farbe oder Größe ändern sich.
+
+[[K0174]]
+Die letzte Reihe enthält bereits zwei identische blaue Kreise. Ein weiterer, identischer blauer Kreis vervollständigt sie.
+
+[[K0175]]
+Eine ineinanderliegende Kontur hinzufügen
+
+[[K0176]]
+Bei einer Bewegung nach rechts wird eine kleinere Kontur derselben Form in die bereits vorhandene Kontur eingefügt. Die äußere Form und deren Farbe bleiben unverändert.
+
+[[K0177]]
+Das grüne Dreieck weist in der mittleren Position ein inneres Dreieck auf. Fügen Sie ein weiteres, kleineres inneres Dreieck hinzu, um zur Lösung zu gelangen.
+
+[[K0178]]
+Die erste Form als Aussparung verwenden
+
+[[K0179]]
+Die schwarze Form an der ersten Position wird aus der Mitte des farbigen Quadrats an der zweiten Position entfernt. Die dadurch entstehende Aussparung ist weiß.
+
+[[K0180]]
+Das schwarze Quadrat erzeugt eine quadratische Aussparung im grünen Quadrat. Wählen Sie das grüne Quadrat mit der weißen quadratischen Öffnung.
+
+[[K0181]]
+Die obere und untere Farbe kombinieren
+
+[[K0182]]
+Das Ergebnis setzt sich aus der oberen Hälfte der ersten Kapsel und der unteren Hälfte der zweiten Kapsel zusammen.
+
+[[K0183]]
+Die erste Kapsel ist weiß und die zweite ist blau; das Ergebnis ist daher oben weiß und unten blau.
+
+[[K0184]]
+Die farbigen Segmente drehen
+
+[[K0185]]
+Bei jedem Schritt wird die gesamte viersegmentige Figur um 90 Grad im Uhrzeigersinn gedreht. Alle roten und blauen Segmente bewegen sich dabei mit der Figur mit.
+
+[[K0186]]
+Drehen Sie die mittlere Figur um eine weitere Vierteldrehung im Uhrzeigersinn. Die beiden roten Segmente befinden sich anschließend rechts und unten; die Segmente oben und links sind blau.
+
+[[K0187]]
+Die Ecken schrittweise abrunden
+
+[[K0188]]
+Farbe und Grundform bleiben gleich, während die Ecken bei jedem Schritt stärker abgerundet werden. [[K0189]]
+Setze das Abrunden der Ecken des braunen Rechtecks ​​fort. Das Ergebnis ist die braune Kapselform mit vollständig abgerundeten Enden.
+
+[[K0190]]
+Setze die Bewegung des Kreises fort.
+
+[[K0191]]
+Innerhalb jeder Reihe bewegt sich der grüne Kreis um die gleiche Strecke in dieselbe Richtung: nach oben, nach unten oder horizontal. Seine Größe bleibt unverändert.
+
+[[K0192]]
+In der letzten Reihe bewegt sich der Kreis entlang der Unterseite des Quadrats nach links. Ein weiterer gleich großer Schritt bringt ihn in die untere linke Ecke.
+
+[[K0193]]
+Drehe das gesamte Punktmuster.
+
+[[K0194]]
+Drehe das Quadrat samt aller Punkte bei jedem Schritt um 45 Grad gegen den Uhrzeigersinn. Das Quadrat wird zu einer Raute und anschließend wieder zu einem Quadrat.
+
+[[K0195]]
+Drehe die mittlere grün-schwarze Raute um weitere 45 Grad gegen den Uhrzeigersinn. Behalte dabei die gedrehten Positionen der grünen und schwarzen Punkte bei.
+
+[[K0196]]
+Verkürze jeden Balken von oben her.
+
+[[K0197]]
+Bei jedem Schritt verliert jeder vertikale schwarze Balken an seinem oberen Ende ein Rastersegment. Das untere Ende bleibt auf der Grundlinie. Ein Balken verschwindet, sobald seine Länge null erreicht.
+
+[[K0198]]
+Im mittleren Bild gibt es einen Balken in der Mitte (Länge: ein Rastersegment) und einen Balken rechts (Länge: zwei Rastersegmente). Der mittlere Balken verschwindet, sodass nur noch der Balken auf der rechten Seite (Länge: ein Rastersegment) übrig bleibt.
+
+[[K0199]]
+Spiegle an der schwarzen Linie.
+
+[[K0200]]
+Die mittlere Linie dient als Spiegelachse. Spiegle die farbige Form an dieser Linie, anstatt sie lediglich zu drehen.
+
+[[K0201]]
+Die letzte Spiegelachse verläuft vertikal; die gelbe Form wird also horizontal gespiegelt (von links nach rechts). Ihre Farbe und Größe bleiben dabei unverändert.
+
+[[K0202]]
+Lege die Formen übereinander und verwende die Farbe der ersten Form.
+
+[[K0203]]
+Platziere beide Formen übereinander. Behalte die kombinierte Silhouette sowie die sichtbaren Umrisse bei, färbe das Ergebnis jedoch in der Farbe der ersten Form ein. [[K0204]]
+Lege das blaue, nach unten zeigende Dreieck über das gelbe Sechseck und verwende für die resultierende Gesamtfigur die Farbe Blau. Die Spitzen des Dreiecks, die über das Sechseck hinausragen, bleiben sichtbar.
+
+[[K0205]]
+Behalte die Farbe Grün bei, wenn sie in genau einer der Ausgangsfiguren vorkommt.
+
+[[K0206]]
+Vergleiche die entsprechenden Bereiche der beiden Quadrate. Ein Bereich ist grün, wenn er in genau einer der Ausgangsfiguren grün ist. Ist ein Bereich in beiden Figuren grün, wird er weiß; ist er in beiden weiß, bleibt er weiß.
+
+[[K0207]]
+Das erste Quadrat ist vollständig grün, beim zweiten ist nur das untere linke Viertel grün. Dieses gemeinsame Viertel wird weiß; die anderen drei Viertel bleiben grün.
+
+[[K0208]]
+Füge an jeder Ecke eine Kopie hinzu.
+
+[[K0209]]
+Platziere an jedem Eckpunkt der großen Form eine Kopie des kleinen schwarzen Symbols. Die hinzugefügten Kopien übernehmen die Farbe der großen Form.
+
+[[K0210]]
+Die große blaue Raute hat vier Ecken. Füge an jeder Ecke ein blaues, nach unten zeigendes Dreieck hinzu; befolge dabei dieselbe Platzierungsregel wie in den Beispielen.
+
+[[K0211]]
+Addiere die Höhen der entsprechenden Balken.
+
+[[K0212]]
+Addiere für jede der drei horizontalen Positionen die Höhe des schwarzen Balkens aus dem ersten Bild zu dessen Höhe im zweiten Bild. Miss dabei von der gemeinsamen Grundlinie aus nach oben.
+
+[[K0213]]
+In keiner der beiden Ausgangsfiguren gibt es einen Balken auf der linken Seite. Die beiden mittleren Balken ergeben zusammen einen Balken voller Höhe, während die rechten Balken einen kürzeren Balken bilden. Das Ergebnis besteht nur aus diesen mittleren und rechten Balken.
+
+[[K0214]]
+Drehe die Formen und wechsle die Farben ab.

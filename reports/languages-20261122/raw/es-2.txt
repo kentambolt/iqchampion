@@ -1,0 +1,121 @@
+[[K0173]]
+Cada posición en cada fila de ejemplo contiene el mismo círculo azul. Ni la forma, ni el color, ni el tamaño cambian.
+
+[[K0174]]
+La última fila ya contiene dos círculos azules idénticos. Otro círculo azul idéntico la completa.
+
+[[K0175]]
+Añadir un contorno anidado
+
+[[K0176]]
+Al avanzar hacia la derecha, se añade un contorno más pequeño de la misma forma dentro del anterior. La forma exterior y su color permanecen inalterados.
+
+[[K0177]]
+El triángulo verde tiene un triángulo interior en la posición central. Añade otro triángulo interior más pequeño para obtener la respuesta.
+
+[[K0178]]
+Utilizar la primera forma como un recorte
+
+[[K0179]]
+La forma negra de la primera posición se extrae del centro del cuadrado coloreado de la segunda posición. El hueco resultante es de color blanco.
+
+[[K0180]]
+El cuadrado negro crea un hueco cuadrado en el cuadrado verde. Elige el cuadrado verde que presenta una abertura cuadrada blanca.
+
+[[K0181]]
+Combinar los colores superior e inferior
+
+[[K0182]]
+El resultado toma su mitad superior de la primera cápsula y su mitad inferior de la segunda cápsula.
+
+[[K0183]]
+La primera cápsula es blanca y la segunda es azul; por tanto, el resultado es blanco en la parte superior y azul en la inferior.
+
+[[K0184]]
+Girar los lóbulos coloreados
+
+[[K0185]]
+En cada paso, la figura completa de cuatro lóbulos gira 90 grados en el sentido de las agujas del reloj. Todos los lóbulos rojos y azules se desplazan junto con la figura.
+
+[[K0186]]
+Gira la figura central otro cuarto de vuelta en el sentido de las agujas del reloj. Los dos lóbulos rojos quedan situados a la derecha y en la parte inferior; los lóbulos superior e izquierdo son azules.
+
+[[K0187]]
+Redondear las esquinas progresivamente
+
+[[K0188]]
+El color y la forma general permanecen iguales, mientras que las esquinas se vuelven más redondeadas en cada paso. [[K0189]]
+Continúa redondeando las esquinas del rectángulo marrón. El resultado es la cápsula marrón con los extremos totalmente redondeados.
+
+[[K0190]]
+Continúa el movimiento del círculo.
+
+[[K0191]]
+En cada fila, el círculo verde se desplaza la misma distancia en la misma dirección: hacia arriba, hacia abajo u horizontalmente. Su tamaño permanece constante.
+
+[[K0192]]
+En la última fila, el círculo se desplaza hacia la izquierda a lo largo de la parte inferior del cuadrado. Un paso más de la misma longitud lo sitúa en la esquina inferior izquierda.
+
+[[K0193]]
+Gira todo el patrón de puntos.
+
+[[K0194]]
+Gira el cuadrado y todos sus puntos 45 grados en sentido contrario a las agujas del reloj en cada paso. El cuadrado se transforma en un rombo y, posteriormente, vuelve a ser un cuadrado.
+
+[[K0195]]
+Gira el rombo central (verde y negro) otros 45 grados en sentido contrario a las agujas del reloj. Mantén los puntos verdes y negros en sus posiciones tras la rotación.
+
+[[K0196]]
+Acorta cada barra desde la parte superior.
+
+[[K0197]]
+En cada paso, cada barra vertical negra pierde un intervalo de la cuadrícula desde su extremo superior. Su extremo inferior permanece en la línea de base. Una barra desaparece cuando su longitud llega a cero.
+
+[[K0198]]
+La imagen central presenta una barra intermedia de un intervalo de longitud y una barra a la derecha de dos intervalos. La barra intermedia desaparece, dejando únicamente la barra de un intervalo a la derecha.
+
+[[K0199]]
+Refleja respecto a la línea negra.
+
+[[K0200]]
+La línea central actúa como eje de simetría (espejo). Refleja la figura coloreada respecto a dicha línea, en lugar de simplemente rotarla.
+
+[[K0201]]
+La última línea de simetría es vertical, por lo que la figura amarilla se invierte de izquierda a derecha. Su color y tamaño permanecen inalterados.
+
+[[K0202]]
+Superpon las figuras y utiliza el primer color.
+
+[[K0203]]
+Coloca ambas figuras una sobre otra. Conserva la silueta resultante y los contornos visibles, pero aplica a todo el conjunto el color de la primera figura. [[K0204]]
+Superpón el triángulo azul orientado hacia abajo y el hexágono amarillo; luego, utiliza el color azul para la figura resultante. Las puntas del triángulo que sobresalen permanecen visibles alrededor del hexágono.
+
+[[K0205]]
+Conserva el color verde en exactamente una de las entradas.
+
+[[K0206]]
+Compara las áreas correspondientes de los dos cuadrados. Un área es verde si aparece como verde en exactamente una de las entradas. Si un área es verde en ambas, se convierte en blanca; si es blanca en ambas, permanece blanca.
+
+[[K0207]]
+El primer cuadrado es totalmente verde, mientras que el segundo solo tiene verde el cuarto inferior izquierdo. Ese cuarto compartido se vuelve blanco; los otros tres cuartos permanecen verdes.
+
+[[K0208]]
+Añade una copia en cada esquina.
+
+[[K0209]]
+Coloca una copia del pequeño símbolo negro en cada vértice de la figura grande. Las copias añadidas adoptan el color de la figura grande.
+
+[[K0210]]
+El rombo azul grande tiene cuatro esquinas. Añade un triángulo azul orientado hacia abajo en cada esquina, siguiendo la misma regla de colocación que en los ejemplos.
+
+[[K0211]]
+Suma las alturas correspondientes de las barras.
+
+[[K0212]]
+Para cada una de las tres posiciones horizontales, suma la altura de la barra negra de la primera imagen a la de la segunda. Mide hacia arriba desde la línea base común.
+
+[[K0213]]
+Ninguna de las entradas tiene una barra a la izquierda. Las dos barras centrales, al sumarse, forman una barra de altura completa, mientras que las barras de la derecha dan lugar a una barra más corta. El resultado contiene únicamente esas barras centrales y derechas.
+
+[[K0214]]
+Rota y alterna los colores.

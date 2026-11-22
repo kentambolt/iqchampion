@@ -1,0 +1,121 @@
+[[K0173]]
+Na każdej pozycji w każdym z przykładowych rzędów znajduje się ten sam niebieski okrąg. Nie zmienia się ani kształt, ani kolor, ani rozmiar.
+
+[[K0174]]
+Ostatni rząd zawiera już dwa identyczne niebieskie okręgi. Trzeci, taki sam okrąg, dopełnia całość.
+
+[[K0175]]
+Dodaj kolejny zagnieżdżony kontur.
+
+[[K0176]]
+Przesunięcie w prawo powoduje dodanie mniejszego konturu o tym samym kształcie wewnątrz poprzedniego. Kształt zewnętrzny oraz jego kolor pozostają niezmienione.
+
+[[K0177]]
+Zielony trójkąt ma jeden wewnętrzny trójkąt (w środkowej pozycji). Dodaj jeszcze jeden, mniejszy trójkąt wewnątrz, aby uzyskać rozwiązanie.
+
+[[K0178]]
+Potraktuj pierwszy kształt jako wycięcie.
+
+[[K0179]]
+Czarny kształt z pierwszej pozycji zostaje wycięty ze środka kolorowego kwadratu znajdującego się na drugiej pozycji. Powstały otwór jest biały.
+
+[[K0180]]
+Czarny kwadrat tworzy kwadratowy otwór w zielonym kwadracie. Wybierz zielony kwadrat z białym kwadratowym wycięciem.
+
+[[K0181]]
+Połącz kolory z górnej i dolnej części.
+
+[[K0182]]
+Wynikowy kształt przejmuje górną połowę z pierwszej figury (w kształcie kapsułki) oraz dolną połowę z drugiej.
+
+[[K0183]]
+Pierwsza figura jest biała, a druga niebieska – w rezultacie górna część jest biała, a dolna niebieska.
+
+[[K0184]]
+Obracaj kolorowe elementy (płatki).
+
+[[K0185]]
+W każdym kroku obracaj całą figurę złożoną z czterech elementów o 90 stopni zgodnie z ruchem wskazówek zegara. Wszystkie czerwone i niebieskie elementy obracają się wraz z figurą.
+
+[[K0186]]
+Obróć środkową figurę o kolejny kwadrant zgodnie z ruchem wskazówek zegara. Dwa czerwone elementy znajdą się po prawej stronie i na dole, natomiast elementy u góry oraz po lewej stronie będą niebieskie.
+
+[[K0187]]
+Stopniowo zaokrąglaj rogi.
+
+[[K0188]]
+Kolor oraz ogólny kształt pozostają bez zmian, podczas gdy rogi stają się coraz bardziej zaokrąglone w każdym kolejnym kroku. [[K0189]]
+Kontynuuj zaokrąglanie rogów brązowego prostokąta. Wynikiem jest brązowa figura o kształcie kapsułki z całkowicie zaokrąglonymi końcami.
+
+[[K0190]]
+Kontynuuj ruch koła.
+
+[[K0191]]
+W każdym rzędzie zielone koło przesuwa się o tę samą odległość w tym samym kierunku: w górę, w dół lub poziomo. Jego rozmiar pozostaje niezmienny.
+
+[[K0192]]
+W ostatnim rzędzie koło przesuwa się w lewo wzdłuż dolnej krawędzi kwadratu. Kolejny krok o tę samą odległość umieszcza je w lewym dolnym rogu.
+
+[[K0193]]
+Obróć cały układ punktów.
+
+[[K0194]]
+W każdym kroku obracaj kwadrat wraz ze wszystkimi znajdującymi się w nim punktami o 45 stopni w kierunku przeciwnym do ruchu wskazówek zegara. Kwadrat zmienia się w romb, a następnie znów w kwadrat.
+
+[[K0195]]
+Obróć środkowy, zielono-czarny romb o kolejne 45 stopni w kierunku przeciwnym do ruchu wskazówek zegara. Zachowaj pozycje zielonych i czarnych punktów wynikające z tego obrotu.
+
+[[K0196]]
+Skracaj każdy słupek od góry.
+
+[[K0197]]
+W każdym kroku każdy pionowy czarny słupek skraca się o jeden odcinek siatki, licząc od górnego końca. Jego dolny koniec pozostaje na dolnej linii. Słupek znika, gdy jego długość osiągnie zero.
+
+[[K0198]]
+Na środkowym obrazku widać środkowy słupek o długości jednego odcinka oraz prawy słupek o długości dwóch odcinków. Środkowy słupek znika, pozostawiając po prawej stronie słupek o długości jednego odcinka.
+
+[[K0199]]
+Odbij względem czarnej linii.
+
+[[K0200]]
+Środkowa linia stanowi oś symetrii (lustro). Zamiast po prostu obracać kolorowy kształt, wykonaj jego odbicie lustrzane względem tej linii.
+
+[[K0201]]
+Ostatnia oś symetrii jest pionowa, więc żółty kształt zostaje odwrócony w poziomie (z lewej na prawą). Jego kolor i rozmiar pozostają bez zmian.
+
+[[K0202]]
+Nałóż kształty na siebie i użyj koloru pierwszego z nich.
+
+[[K0203]]
+Umieść oba kształty jeden na drugim. Zachowaj powstałą sylwetkę oraz widoczne kontury, ale całość pokoloruj barwą pierwszego kształtu. [[K0204]]
+Nałóż na siebie niebieski trójkąt skierowany wierzchołkiem w dół oraz żółty sześciokąt, a następnie pokoloruj powstałą figurę na niebiesko. Wierzchołki trójkąta wystające poza obręb sześciokąta pozostają widoczne.
+
+[[K0205]]
+Zachowaj kolor zielony tylko wtedy, gdy występuje w dokładnie jednym z danych wejściowych.
+
+[[K0206]]
+Porównaj odpowiadające sobie obszary obu kwadratów. Dany obszar staje się zielony, jeśli jest zielony w dokładnie jednym z danych wejściowych. Jeśli obszar jest zielony w obu przypadkach, zmienia się na biały; jeśli w obu jest biały – pozostaje biały.
+
+[[K0207]]
+Pierwszy kwadrat jest w całości zielony, a w drugim zielona jest tylko dolna lewa ćwiartka. Ta wspólna ćwiartka zmienia się na białą, natomiast pozostałe trzy ćwiartki pozostają zielone.
+
+[[K0208]]
+Umieść kopię w każdym narożniku.
+
+[[K0209]]
+Umieść kopię małego czarnego symbolu w każdym wierzchołku dużej figury. Dodane kopie przyjmują kolor tej dużej figury.
+
+[[K0210]]
+Duży niebieski romb ma cztery narożniki. W każdym z nich umieść niebieski trójkąt skierowany wierzchołkiem w dół, stosując tę ​​samą zasadę rozmieszczenia, co w przykładach.
+
+[[K0211]]
+Zsumuj wysokości odpowiadających sobie słupków.
+
+[[K0212]]
+Dla każdej z trzech pozycji poziomych zsumuj wysokość czarnego słupka z pierwszego obrazka z wysokością słupka z drugiego obrazka. Wysokość mierz od wspólnej dolnej krawędzi w górę.
+
+[[K0213]]
+W żadnym z danych wejściowych nie ma słupka po lewej stronie. Dwa środkowe słupki po zsumowaniu tworzą słupek o pełnej wysokości, natomiast słupki po prawej stronie tworzą słupek o mniejszej wysokości. Wynik zawiera tylko te środkowe i prawe słupki.
+
+[[K0214]]
+Obróć i zmieniaj kolory naprzemiennie.

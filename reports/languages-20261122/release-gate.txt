@@ -1,0 +1,20 @@
+
+> check:release
+> node tools/Build-Language-Pages.cjs --check
+
+C:\projekter\munthe-systems\iqchampion\.worktrees\result-statistics\tools\Build-Language-Pages.cjs:3
+const packs=new Map();for(const l of catalog){const file=path.join(root,'assets/locales/'+l.code+'.js');if(!fs.existsSync(file)){if(readyOnly)continue;throw Error('Missing complete language pack: '+l.code);}const ctx={};vm.runInNewContext(fs.readFileSync(file,'utf8'),ctx);const pack=ctx.IQLocalePacks?.[l.code];if(!pack?.messages||!pack?.templates)throw Error('Invalid language pack: '+l.code);const englishContext={};vm.runInNewContext(fs.readFileSync(path.join(root,'assets/locales/en.js'),'utf8'),englishContext);for(const key of Object.keys(englishContext.IQLocalePacks.en.messages))if(typeof pack.messages[key]!=='string'||!pack.messages[key].trim())throw Error('Incomplete '+l.code+' translation: '+key);for(const t of templates.sources)if(!templates.valid(t,pack.templates[t]))throw Error('Invalid template '+l.code+': '+t);packs.set(l.code,pack);}
+                                                                                                                                                       ^
+
+Error: Missing complete language pack: es
+    at Object.<anonymous> (C:\projekter\munthe-systems\iqchampion\.worktrees\result-statistics\tools\Build-Language-Pages.cjs:3:158)
+    at Module._compile (node:internal/modules/cjs/loader:1554:14)
+    at Object..js (node:internal/modules/cjs/loader:1706:10)
+    at Module.load (node:internal/modules/cjs/loader:1289:32)
+    at Function._load (node:internal/modules/cjs/loader:1108:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:170:5)
+    at node:internal/main/run_main_module:36:49
+
+Node.js v22.14.0

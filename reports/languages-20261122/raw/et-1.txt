@@ -1,0 +1,301 @@
+[[K0071]]
+Jaga testi Facebookis
+
+[[K0072]]
+Hinnanguline IQ
+
+[[K0073]]
+Lihtsalt lõbu pärast. Tulemus on ligikaudne – see ei ole professionaalselt valideeritud IQ-mõõtmine.
+
+[[K0074]]
+Test on pooleli. Näed oma õigeid vastuseid, kuid IQ hindamiseks on vaja kõiki 36 vastust.
+
+[[K0075]]
+Pole saadaval
+
+[[K0076]]
+Tasuta visuaalse mõtlemise test | IQ Champion
+
+[[K0077]]
+36 visuaalset mõistatust. Võta vastu tasuta 40-minutiline väljakutse ja vaata oma tulemusi.
+
+[[K0078]]
+Vastatud
+
+[[K0079]]
+Vastamata
+
+[[K0080]]
+Õige
+
+[[K0081]]
+Vale
+
+[[K0082]]
+Sulge
+
+[[K0083]]
+Abi
+
+[[K0084]]
+40 min
+
+[[K0085]]
+Keel
+
+[[K0086]]
+Testist lähemalt
+
+[[K0087]]
+Visuaalse mõtlemise väljakutse
+
+[[K0088]]
+Leia seaduspära.
+
+[[K0089]]
+Leia puuduv osa.
+
+[[K0090]]
+36 visuaalset mõistatust ja hinnanguline IQ-tulemus. Lihtsalt lõbu pärast.
+
+[[K0091]]
+Mõistatused
+
+[[K0092]]
+Ajalimiit
+
+[[K0093]]
+Hind
+
+[[K0094]]
+Tasuta
+
+[[K0095]]
+Kontot pole vaja. Taimer käivitub, kui alustad.
+
+[[K0096]]
+Kuidas test toimib
+
+[[K0097]]
+Vali ikoon, mis täiendab vastavat seaduspära.
+
+[[K0098]]
+Jäta keerulised küsimused vahele ja tule nende juurde tagasi ülevaate kaudu.
+
+[[K0099]]
+Vaata vastused üle või muuda neid enne testi lõpetamist. [[K0100]]
+Sinu vastused ja algusaeg salvestatakse sellesse veebilehitsejasse. Lehe uuesti laadimisel jääb esialgne tähtaeg kehtima.
+
+[[K0101]]
+40-minutiline taimer jookseb edasi ka siis, kui leht on suletud. Vastamata küsimused loetakse valedeks.
+
+[[K0102]]
+Sinu tulemusest
+
+[[K0103]]
+Sinu hinnanguline IQ põhineb sinu positsioonil võrreldes
+
+[[K0104]]
+varasemate sooritustega.
+
+[[K0105]]
+Võrdlusesse on kaasatud sooritused, mis kestsid kauem kui üks minut, kuid mitte kauem kui 40 minutit. Tulemust ei ole valideeritud ametliku IQ-testi ega rahvastiku representatiivse valimi põhjal.
+
+[[K0106]]
+Test meelelahutuseks. Sinu hinnanguline IQ on ligikaudne näitaja, mitte professionaalselt valideeritud IQ-tulemus.
+
+[[K0107]]
+Alusta 40-minutilist testi
+
+[[K0108]]
+Loogikatest
+
+[[K0109]]
+Sinu väljakutse
+
+[[K0110]]
+Järelejäänud aeg
+
+[[K0111]]
+järele jäänud
+
+[[K0112]]
+Küsimuse muster
+
+[[K0113]]
+Leia muster
+
+[[K0114]]
+Neli rida visuaalseid mustreid; täienda viimast rida
+
+[[K0115]]
+Vali vastus
+
+[[K0116]]
+Küsimuste vahel liikumine
+
+[[K0117]]
+Eelmine küsimus
+
+[[K0118]]
+Jäta hetkel vahele
+
+[[K0119]]
+Järgmine küsimus
+
+[[K0120]]
+Küsimuste ülevaade
+
+[[K0121]]
+✓ Vastatud
+
+[[K0122]]
+○ Vastamata
+
+[[K0123]]
+Raamitud = praegune
+
+[[K0124]]
+Liigu küsimuse juurde
+
+[[K0125]]
+Vaata üle ja lõpeta
+
+[[K0126]]
+Juhised ja salvestatud edenemine
+
+[[K0127]]
+Vali vastus, et liikuda järgmise vastamata küsimuse juurde. Enne lõpetamist võid küsimusi vahele jätta, nende juurde naasta ja vastuseid muuta.
+
+[[K0128]]
+Vastused salvestuvad selles brauseris automaatselt. Lehe uuesti laadimisel jätkad samast küsimusest; taimer jookseb edasi.
+
+[[K0129]]
+Alustame, kui oled valmis
+
+[[K0130]]
+Kas lõpetada test?
+
+[[K0131]]
+Jätka lahendamist
+
+[[K0132]]
+Lõpeta ja vaata tulemust
+
+[[K0133]]
+Ülesanne täidetud
+
+[[K0134]]
+Sinu tulemus
+
+[[K0135]]
+Vaata vastuseid
+
+[[K0136]]
+Proovi uuesti
+
+[[K0137]]
+Teave testi kohta
+
+[[K0138]]
+Kuidas tulemust tõlgendada
+
+[[K0139]]
+Sinu protsentiilikoht varasemate sooritajate seas on teisendatud tuntud IQ-skaalale, kus keskmine väärtus on 100 ja standardhälve 15. See eeldab, et võrdlusrühm esindab kogu elanikkonda, kuid seda pole tõestatud.
+
+[[K0140]]
+Sinu vastused ja selgitused
+
+[[K0141]]
+Vaata oma vastuseid
+
+[[K0142]]
+Tagasi tulemuse juurde
+
+[[K0143]]
+Loogika
+
+[[K0144]]
+Võrdle vastuseid
+
+[[K0145]]
+Sinu vastus
+
+[[K0146]]
+Õige vastus
+
+[[K0147]]
+Eelmine küsimus
+
+[[K0148]]
+Järgmine küsimus
+
+[[K0149]]
+Tulemused küsimuste kaupa
+
+[[K0150]]
+Tutvu kõigi 36 ülesandega
+
+[[K0151]]
+✓ Õige
+
+[[K0152]]
+× Vale
+
+[[K0153]]
+Vaata küsimust
+
+[[K0154]]
+Sinu esitatud vastused ja lõpptulemus jäävad samaks. [[K0155]]
+Kontakt
+
+[[K0156]]
+Tagasiside ja kontakt
+
+[[K0157]]
+Saada tagasisidet või võta meiega ühendust
+
+[[K0158]]
+Õige. Sinu vastus kattub õige vastusega.
+
+[[K0159]]
+Vale. Sinu vastus erineb õigest vastusest.
+
+[[K0160]]
+Vastamata. Sellele küsimusele ei esitatud vastust.
+
+[[K0161]]
+Vastust ei esitatud
+
+[[K0162]]
+Sinu esitatud vastus
+
+[[K0163]]
+Puuduv ikoon
+
+[[K0164]]
+Kõikidele küsimustele on vastatud. Saad vastuseid veel üle vaadata ja muuta ning seejärel testi lõpetada.
+
+[[K0165]]
+Jäänud on viis minutit või vähem.
+
+[[K0166]]
+Aeg on läbi. Sinu vastused on hinnatud.
+
+[[K0167]]
+Test on lõpetatud.
+
+[[K0168]]
+Võrdlus pole kättesaadav.
+
+[[K0169]]
+See veebilehitseja ei suutnud sinu katset salvestada. Hoia see leht avatuna: lehe uuesti laadimine võib kaasa tuua töö edenemise kaotsimineku või varasemate vastuste taastumise.
+
+[[K0170]]
+Kohalik salvestamine pole selles veebilehitsejas võimalik. Hoia leht avatuna, et vältida katse kaotsiminekut.
+
+[[K0171]]
+Salvestatud katset ei õnnestunud taastada. Alusta uut testi, kui oled valmis.
+
+[[K0172]]
+Jäta joonis muutmata

@@ -1,0 +1,75 @@
+[[K0249]]
+Dopo la rimozione dei mattoncini rossi, quelli rimanenti formano la scala centrale. Rimuovendo il mattoncino giallo e quelli adiacenti, il mattoncino blu che si trova più in alto cade verso il basso.
+
+[[K0250]]
+Fai ruotare i livelli e applica la maschera di colore.
+
+[[K0251]]
+Segui le stesse tre forme. A ogni passaggio, la forma che si trova davanti si sposta sul retro. Per l'immagine finale, mantieni i riempimenti grigi o neri dell'immagine intermedia; le forme bianche (vuote) riacquistano i colori presenti nell'immagine iniziale.
+
+[[K0252]]
+L'esagono grigio si sposta in primo piano, la capsula nera orizzontale si posiziona dietro di esso, mentre la capsula verticale finisce sul retro. La capsula verticale bianca riacquista il suo colore giallo originale.
+
+[[K0253]]
+Usa il colore di ogni cerchio per determinarne il movimento.
+
+[[K0254]]
+Osserva il movimento di ogni cerchio rispetto a quello che lo circonda immediatamente. Il cerchio bianco si sposta di 90 gradi in senso orario, quello nero di 90 gradi in senso antiorario, mentre quello rosso mantiene la stessa posizione relativa. Il cerchio blu rimane fermo. Applica questi spostamenti a ogni livello annidato.
+
+[[K0255]]
+Il cerchio nero si sposta dalla posizione sopra il cerchio blu a quella alla sua sinistra. Il cerchio rosso rimane all'interno di quello nero, verso destra. Il cerchio bianco più grande si sposta da una posizione sopra il cerchio rosso a una alla sua destra; il cerchio bianco più piccolo si sposta da una posizione sotto il cerchio bianco più grande a una alla sua sinistra.
+
+[[K0256]]
+Sposta i colori lungo i percorsi collegati.
+
+[[K0257]]
+I collegamenti neri definiscono i percorsi lungo i quali si muovono i colori. Segui ogni ciclo in senso orario, spostando ciascun colore nella posizione successiva collegata. Un percorso che unisce due posizioni comporta lo scambio dei colori; i punti non collegati rimangono invece al loro posto.
+
+[[K0258]]
+Scambia i due colori in alto. Nel ciclo inferiore, il cerchio blu che si trova al centro a sinistra si sposta verso il centro, mentre quello rosso al centro a destra si sposta in basso a sinistra. Il cerchio rosso in basso a destra, non essendo collegato ad altri elementi, rimane invariato. [[K0259]]
+Sposta ogni colore lungo il proprio percorso
+
+[[K0260]]
+Il rosso si sposta verso il basso, il verde verso destra e il giallo verso sinistra. Il blu si sposta verso l'alto e, dove possibile, di una colonna verso sinistra. Il bianco indica una sovrapposizione di colori; separa nuovamente tali colori prima di eseguire la mossa successiva. I colori che escono dalla griglia scompaiono.
+
+[[K0261]]
+Separa la cella bianca centrale in rosso e verde. Il rosso si sposta in basso al centro, il verde a destra al centro, il blu raggiunge l'angolo in alto a sinistra e il giallo esce dal lato sinistro. Queste tre celle colorate costituiscono la soluzione.
+
+[[K0262]]
+Muovi le punte rosse e blu in direzioni opposte
+
+[[K0263]]
+A ogni passaggio, ogni punta rossa si sposta di una posizione in senso antiorario, mentre ogni punta blu si sposta di due posizioni in senso orario lungo la stella a cinque punte. Il colore bianco indica che una punta rossa e una blu si sovrappongono; separa i due colori prima di procedere con la mossa successiva.
+
+[[K0264]]
+Nell'immagine centrale, il rosso si trova in basso a destra, mentre il blu è presente sia in alto a destra che in alto a sinistra. La mossa successiva porta il rosso e una delle punte blu a sovrapporsi in alto a destra, creando una zona bianca. L'altra punta blu si sposta in basso a sinistra.
+
+[[K0265]]
+Sposta due copie seguendo le direzioni indicate dal settore
+
+[[K0266]]
+I due lati del settore bianco indicano due direzioni di movimento. Crea due copie della configurazione con i punti rossi e sposta ciascuna copia di una posizione sulla griglia in una delle due direzioni, facendo in modo che, arrivati ​​al bordo, il percorso prosegua dal lato opposto. Una posizione raggiunta da una sola copia diventa rossa; una posizione raggiunta da entrambe le copie diventa blu.
+
+[[K0267]]
+Il settore finale è orientato verso il basso a sinistra e verso il basso a destra. Sposta una copia in ciascuna di queste direzioni. La loro sovrapposizione rende blu l'intera riga superiore e il centro; le posizioni raggiunte da una sola copia rimangono rosse, come mostrato nella soluzione.
+
+[[K0268]]
+Elimina i segmenti di linea che si incrociano
+
+[[K0269]]
+Sovrapponi i due disegni. Considera ogni tratto rettilineo compreso tra due punti consecutivi della griglia come un segmento distinto. Se, tra due punti, un segmento del primo disegno incrocia un segmento del secondo, elimina entrambi i segmenti. I segmenti che si incontrano in un punto della griglia rimangono al loro posto. Conserva tutti i segmenti non tagliati provenienti da entrambi i disegni.
+
+[[K0270]]
+Rimuovi i segmenti diagonali tagliati tra i punti della griglia. I pezzi rimanenti formano una biforcazione superiore con un gambo verticale, due brevi segmenti diagonali isolati vicino agli angoli superiori e una biforcazione inferiore, anch'essa dotata di un proprio gambo verticale.
+
+[[K0271]]
+Fai scorrere e ordina i pezzi in base alla loro dimensione.
+
+[[K0272]]
+Sposta tutti i pezzi nella direzione indicata dalla freccia. I pezzi più piccoli superano quelli più grandi e raggiungono per primi gli spazi liberi più distanti. Mantieni l'altezza e la posizione verticale di ogni pezzo. I pezzi possono occupare la stessa colonna, a patto che non si sovrappongano verticalmente; i pezzi di uguale dimensione mantengono il loro ordine relativo.
+
+[[K0273]]
+La freccia è rivolta verso destra. Inserisci i pezzi più corti negli spazi disponibili sulla destra, seguiti dai pezzi composti da due celle e, infine, dai pezzi più alti verso sinistra. Nessun elemento si sposta verso l'alto o verso il basso e le dimensioni dei pezzi rimangono invariate.
+
+[[K0274]]
+Sposta i separatori negli spazi liberi.

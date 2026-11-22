@@ -1,0 +1,299 @@
+[[K0071]]
+Udostępnij test na Facebooku
+
+[[K0072]]
+Szacowany iloraz inteligencji (IQ)
+
+[[K0073]]
+Dla zabawy. Wynik jest przybliżony i nie stanowi profesjonalnie zweryfikowanego pomiaru IQ.
+
+[[K0074]]
+Test nie został ukończony. Widoczne są Twoje poprawne odpowiedzi, jednak do oszacowania IQ wymagane jest udzielenie odpowiedzi na wszystkie 36 pytań.
+
+[[K0075]]
+Niedostępne
+
+[[K0076]]
+Bezpłatny test rozumowania wizualnego | IQ Champion
+
+[[K0077]]
+36 zagadek z zakresu rozumowania wizualnego. Podejmij bezpłatne, 40-minutowe wyzwanie i sprawdź swój wynik.
+
+[[K0078]]
+Odpowiedziano
+
+[[K0079]]
+Brak odpowiedzi
+
+[[K0080]]
+Poprawna
+
+[[K0081]]
+Niepoprawna
+
+[[K0082]]
+Zamknij
+
+[[K0083]]
+Pomoc
+
+[[K0084]]
+40 min
+
+[[K0085]]
+Język
+
+[[K0086]]
+O teście
+
+[[K0087]]
+Wyzwanie z zakresu rozumowania wizualnego
+
+[[K0088]]
+Odkryj regułę.
+
+[[K0089]]
+Znajdź brakujący element.
+
+[[K0090]]
+36 zagadek wizualnych i szacowany wynik IQ. Tylko dla zabawy.
+
+[[K0091]]
+Zagadki
+
+[[K0092]]
+Limit czasu
+
+[[K0093]]
+Koszt
+
+[[K0094]]
+Bezpłatnie
+
+[[K0095]]
+Konto nie jest wymagane. Odliczanie czasu rozpoczyna się w momencie rozpoczęcia testu.
+
+[[K0096]]
+Jak działa test
+
+[[K0097]]
+Wybierz ikonę, która uzupełnia dany wzór.
+
+[[K0098]]
+Trudne pytania możesz pominąć i wrócić do nich później, korzystając z podglądu.
+
+[[K0099]]
+Przed zakończeniem testu możesz przejrzeć lub zmienić swoje odpowiedzi. [[K0100]]
+Twoje odpowiedzi oraz czas rozpoczęcia są zapisywane w tej przeglądarce. Odświeżenie strony nie zmienia pierwotnego terminu zakończenia.
+
+[[K0101]]
+40-minutowy licznik czasu odlicza dalej, nawet gdy strona jest zamknięta. Pytania, na które nie udzielono odpowiedzi, uznaje się za błędne.
+
+[[K0102]]
+Informacje o wyniku
+
+[[K0103]]
+Twój szacowany iloraz inteligencji (IQ) opiera się na Twojej pozycji na tle
+
+[[K0104]]
+historycznych wyników innych użytkowników.
+
+[[K0105]]
+Porównanie uwzględnia próby trwające od ponad minuty do 40 minut. Wynik nie został zweryfikowany w oparciu o oficjalny test IQ ani reprezentatywną próbę populacji.
+
+[[K0116]]
+Test dla rozrywki. Szacowany iloraz inteligencji jest jedynie przybliżeniem, a nie profesjonalnie zweryfikowanym wynikiem IQ.
+
+[[K0107]]
+Rozpocznij 40-minutowy test
+
+[[K0108]]
+Test rozumowania
+
+[[K0109]]
+Twoje wyzwanie
+
+[[K0110]]
+Pozostały czas
+
+[[K0111]]
+pozostało
+
+[[K0112]]
+Wzór w pytaniu
+
+[[K0113]]
+Odkryj wzór
+
+[[K0114]]
+Cztery rzędy wzorów wizualnych; uzupełnij ostatni rząd
+
+[[K0115]]
+Wybierz odpowiedź
+
+[[K0116]]
+Nawigacja po pytaniach
+
+[[K0117]]
+Poprzednie pytanie
+
+[[K0118]]
+Pomiń na razie
+
+[[K0119]]
+Następne pytanie
+
+[[K0120]]
+Przegląd pytań
+
+[[K0121]]
+✓ Udzielono odpowiedzi
+
+[[K0122]]
+○ Bez odpowiedzi
+
+[[K0123]]
+Plan testu = bieżące pytanie
+
+[[K0124]]
+Przejdź do pytania
+
+[[K0125]]
+Przejrzyj i zakończ
+
+[[K0126]]
+Instrukcje i zapisane postępy
+
+[[K0127]]
+Wybierz odpowiedź, aby przejść do kolejnego pytania, na które nie udzielono jeszcze odpowiedzi. Przed zakończeniem testu możesz pomijać pytania, wracać do nich i zmieniać swoje odpowiedzi.
+
+[[K0128]]
+Odpowiedzi są zapisywane automatycznie w przeglądarce. Po odświeżeniu strony wrócisz do tego samego pytania; licznik czasu nadal będzie odliczał czas.
+
+[[K0129]]
+Zacznij, kiedy będziesz gotowy
+
+[[K0130]]
+Zakończyć test?
+
+[[K0131]]
+Kontynuuj pracę
+
+[[K0132]]
+Zakończ i zobacz wynik
+
+[[K0133]]
+Wyzwanie ukończone
+
+[[K0134]]
+Twój wynik
+
+[[K0135]]
+Przejrzyj odpowiedzi
+
+[[K0136]]
+Spróbuj ponownie
+
+[[K0137]]
+O tym teście
+
+[[K0138]]
+Jak interpretować ten wynik
+
+[[K0139]]
+Twój percentyl na tle wcześniejszych wyników został przeliczony na powszechnie znaną skalę IQ: ze średnią 100 i odchyleniem standardowym 15. Zakłada to, że grupa porównawcza odzwierciedla populację ogólną, co nie zostało jednoznacznie potwierdzone. [[K0140]]
+Wyjaśnienie Twoich odpowiedzi
+
+[[K0141]]
+Przejrzyj swoje odpowiedzi
+
+[[K0142]]
+Powrót do wyniku
+
+[[K0143]]
+Wzór
+
+[[K0144]]
+Porównaj odpowiedzi
+
+[[K0145]]
+Twoja odpowiedź
+
+[[K0146]]
+Poprawna odpowiedź
+
+[[K0147]]
+Poprzednie pytanie (przegląd)
+
+[[K0148]]
+Następne pytanie (przegląd)
+
+[[K0149]]
+Wyniki według pytań
+
+[[K0150]]
+Zobacz wszystkie 36 zagadek
+
+[[K0151]]
+✓ Poprawnie
+
+[[K0152]]
+× Niepoprawnie
+
+[[K0153]]
+Przejrzyj pytanie
+
+[[K0154]]
+Twoje udzielone odpowiedzi oraz ostateczny wynik pozostają bez zmian.
+
+[[K0155]]
+Kontakt
+
+[[K0156]]
+Opinie i kontakt
+
+[[K0157]]
+Prześlij opinię lub skontaktuj się z nami
+
+[[K0158]]
+Poprawnie. Twoja odpowiedź zgadza się z poprawną odpowiedzią.
+
+[[K0159]]
+Niepoprawnie. Twoja odpowiedź różni się od poprawnej odpowiedzi.
+
+[[K0160]]
+Brak odpowiedzi. Na to pytanie nie udzielono odpowiedzi.
+
+[[K0161]]
+Nie udzielono odpowiedzi
+
+[[K0162]]
+Twoja udzielona odpowiedź
+
+[[K0163]]
+Brak ikony
+
+[[K0164]]
+Na wszystkie pytania udzielono odpowiedzi. Nadal możesz przejrzeć i zmienić swoje odpowiedzi, a następnie zakończyć test.
+
+[[K0165]]
+Pozostało pięć minut lub mniej.
+
+[[K0166]]
+Czas minął. Twoje odpowiedzi zostały ocenione.
+
+[[K0167]]
+Test zakończony.
+
+[[K0168]]
+Porównanie niedostępne.
+
+[[K0169]]
+Ta przeglądarka nie mogła zapisać Twoich postępów. Pozostaw tę stronę otwartą: odświeżenie może spowodować utratę postępów lub przywrócenie wcześniejszych odpowiedzi. [[K0170]]
+Zapisywanie lokalne nie jest dostępne w tej przeglądarce. Pozostaw tę stronę otwartą, aby uniknąć utraty swoich postępów.
+
+[[K0171]]
+Nie udało się przywrócić zapisanego podejścia. Gdy będziesz gotowy, rozpocznij test od nowa.
+
+[[K0172]]
+Pozostaw rysunek bez zmian.

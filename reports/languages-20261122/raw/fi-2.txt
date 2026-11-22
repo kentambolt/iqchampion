@@ -1,0 +1,121 @@
+[[K0173]]
+Jokaisessa esimerkkirivissä on samassa kohdassa sininen ympyrä. Sen muoto, väri ja koko pysyvät samoina.
+
+[[K0174]]
+Viimeisellä rivillä on jo kaksi samanlaista sinistä ympyrää. Kolmas samanlainen sininen ympyrä täydentää rivin.
+
+[[K0175]]
+Lisää sisäkkäinen ääriviiva
+
+[[K0176]]
+Oikealle siirryttäessä edellisen kuvion sisään lisätään pienempi, samanmuotoinen ääriviiva. Ulompi kuvio ja sen väri pysyvät muuttumattomina.
+
+[[K0177]]
+Vihreän kolmion keskellä on yksi sisempi kolmio. Lisää vielä yksi, pienempi sisempi kolmio saadaksesi oikean vastauksen.
+
+[[K0178]]
+Käytä ensimmäistä kuviota aukon tekemiseen
+
+[[K0179]]
+Ensimmäisessä kohdassa oleva musta kuvio poistetaan toisessa kohdassa olevan värillisen neliön keskeltä. Syntyvä aukko on valkoinen.
+
+[[K0180]]
+Musta neliö muodostaa neliönmuotoisen aukon vihreään neliöön. Valitse vihreä neliö, jossa on valkoinen neliönmuotoinen aukko.
+
+[[K0181]]
+Yhdistä ylempi ja alempi väri
+
+[[K0182]]
+Lopputuloksen yläpuolisko tulee ensimmäisestä kuviosta ja alapuolisko toisesta kuviosta.
+
+[[K0183]]
+Ensimmäinen kuvio on valkoinen ja toinen sininen, joten lopputulos on ylhäältä valkoinen ja alhaalta sininen.
+
+[[K0184]]
+Käännä värillisiä osia
+
+[[K0185]]
+Käännä koko neliosaista kuviota jokaisessa vaiheessa 90 astetta myötäpäivään. Kaikki punaiset ja siniset osat liikkuvat kuvion mukana.
+
+[[K0186]]
+Käännä keskimmäistä kuviota vielä neljänneskierros myötäpäivään. Kaksi punaista osaa päätyvät oikealle ja alas; ylhäällä ja vasemmalla olevat osat ovat sinisiä.
+
+[[K0187]]
+Pyöristä kulmia asteittain
+
+[[K0188]]
+Väri ja yleinen muoto pysyvät samoina, mutta kulmat pyöristyvät jokaisessa vaiheessa lisää. [[K0189]]
+Jatka ruskean suorakulmion kulmien pyöristämistä. Vastaus on ruskea kapselin muotoinen kuvio, jonka päät ovat täysin pyöristetyt.
+
+[[K0190]]
+Jatka ympyrän liikettä
+
+[[K0191]]
+Kullakin rivillä vihreä ympyrä liikkuu saman matkan samaan suuntaan: ylöspäin, alaspäin tai vaakasuunnassa. Sen koko pysyy muuttumattomana.
+
+[[K0192]]
+Viimeisellä rivillä ympyrä liikkuu vasemmalle neliön alareunaa pitkin. Yksi samanpituinen siirto lisää vie sen vasempaan alakulmaan.
+
+[[K0193]]
+Käännä koko pistekuviota
+
+[[K0194]]
+Käännä neliötä ja kaikkia sen pisteitä 45 astetta vastapäivään jokaisessa vaiheessa. Neliö muuttuu vinoneliöksi ja sitten jälleen neliöksi.
+
+[[K0195]]
+Käännä keskimmäistä vihreä-mustaa vinoneliötä vielä 45 astetta vastapäivään. Pidä vihreät ja mustat pisteet niiden käännetyissä asennoissa.
+
+[[K0196]]
+Lyhennä jokaista palkkia yläreunasta
+
+[[K0197]]
+Jokaisessa vaiheessa jokainen pystysuora musta palkki lyhenee yläpäästään yhden ruudukkovälin verran. Sen alapää pysyy alaviivalla. Palkki katoaa, kun sen pituus on nolla.
+
+[[K0198]]
+Keskimmäisessä kuvassa on yhden välin mittainen keskipalkki ja kahden välin mittainen oikeanpuoleinen palkki. Keskipalkki katoaa, jolloin jäljelle jää yhden välin mittainen palkki oikealle puolelle.
+
+[[K0199]]
+Peilaa mustan viivan suhteen
+
+[[K0200]]
+Keskellä oleva viiva toimii peilausakselina. Peilaa värillinen kuvio tämän viivan suhteen sen sijaan, että vain kääntäisit sitä.
+
+[[K0201]]
+Viimeinen peilausviiva on pystysuora, joten keltainen kuvio kääntyy vaakasuunnassa (vasen ja oikea vaihtavat paikkaa). Sen väri ja koko pysyvät ennallaan.
+
+[[K0202]]
+Aseta kuviot päällekkäin ja käytä ensimmäisen kuvion väriä
+
+[[K0203]]
+Aseta molemmat kuviot päällekkäin. Säilytä yhdistetty ääriviiva ja näkyvät sisäviivat, mutta väritä lopputulos ensimmäisen kuvion värillä. [[K0204]]
+Aseta sininen alaspäin osoittava kolmio ja keltainen kuusikulmio päällekkäin ja käytä sinistä väriä yhdistetyssä kuviossa. Kolmion kärjet jäävät näkyviin kuusikulmion ympärille.
+
+[[K0205]]
+Säilytä vihreä väri täsmälleen yhdessä lähtökuviossa.
+
+[[K0206]]
+Vertaa kahden neliön vastaavia alueita. Alue on vihreä, jos se on vihreä täsmälleen yhdessä lähtökuviossa. Jos alue on vihreä molemmissa, se muuttuu valkoiseksi; jos se on valkoinen molemmissa, se pysyy valkoisena.
+
+[[K0207]]
+Ensimmäinen neliö on kokonaan vihreä, ja toisessa neliössä vain vasen alakvadrantti on vihreä. Tämä yhteinen neljännes muuttuu valkoiseksi, kun taas muut kolme neljännestä pysyvät vihreinä.
+
+[[K0208]]
+Lisää kopio jokaiseen kulmaan.
+
+[[K0209]]
+Aseta pieni musta symboli suuren kuvion jokaiseen kärkeen. Lisätyt symbolit saavat saman värin kuin suuri kuvio.
+
+[[K0210]]
+Suuressa sinisessä vinoneliössä on neljä kulmaa. Lisää jokaiseen kulmaan sininen alaspäin osoittava kolmio noudattaen samaa sijoittelusääntöä kuin esimerkeissä.
+
+[[K0211]]
+Laske yhteen vastaavien palkkien korkeudet.
+
+[[K0212]]
+Laske kunkin kolmen vaakasuuntaisen kohdan osalta yhteen ensimmäisen ja toisen kuvan mustien palkkien korkeudet. Mittaa korkeus ylöspäin yhteisestä alareunasta.
+
+[[K0213]]
+Kummassakaan lähtökuviossa ei ole vasenta palkkia. Keskimmäiset palkit muodostavat yhdessä täyskorkean palkin, kun taas oikeanpuoleiset palkit muodostavat lyhyemmän palkin. Lopullisessa kuviossa on vain nämä keskimmäiset ja oikeanpuoleiset palkit.
+
+[[K0214]]
+Kierrä ja vaihda värejä vuorotellen.

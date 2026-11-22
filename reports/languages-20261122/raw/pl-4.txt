@@ -1,0 +1,75 @@
+[[K0249]]
+Po usunięciu czerwonego elementu pozostałe klocki tworzą środkowe schody. Usunięcie żółtego klocka wraz z przylegającymi do niego elementami sprawia, że ​​znajdujący się wyżej niebieski klocek opada na sam dół.
+
+[[K0250]]
+Przełączaj warstwy i zastosuj maskę kolorów.
+
+[[K0251]]
+Śledź te same trzy kształty. W każdym kroku kształt znajdujący się z przodu przechodzi na tył. W końcowym obrazie zachowaj szare lub czarne wypełnienia z obrazu środkowego; puste (białe) kształty odzyskują kolory z pierwszego obrazu.
+
+[[K0252]]
+Szary sześciokąt przesuwa się na przód, czarna pozioma kapsuła znajduje się za nim, a pionowa kapsuła przechodzi na sam tył. Biała pionowa kapsuła odzyskuje swój pierwotny, żółty kolor.
+
+[[K0253]]
+Wykorzystaj kolor każdego koła, aby określić jego ruch.
+
+[[K0254]]
+Śledź każde koło w odniesieniu do koła, które znajduje się bezpośrednio wokół niego. Białe koło przesuwa się o 90 stopni zgodnie z ruchem wskazówek zegara, czarne – o 90 stopni przeciwnie do ruchu wskazówek zegara, a czerwone pozostaje w tej samej relatywnej pozycji. Niebieskie koło pozostaje w miejscu. Zastosuj te zasady ruchu do wszystkich zagnieżdżonych elementów.
+
+[[K0255]]
+Czarne koło przesuwa się z pozycji nad niebieskim kołem na pozycję po jego lewej stronie. Czerwone koło pozostaje po prawej stronie, wewnątrz czarnego. Większe białe koło przesuwa się z pozycji nad czerwonym kołem na pozycję po jego prawej stronie; najmniejsze białe koło przesuwa się z pozycji pod większym białym kołem na pozycję po jego lewej stronie.
+
+[[K0256]]
+Przesuwaj kolory wzdłuż wyznaczonych ścieżek.
+
+[[K0257]]
+Czarne linie wskazują ścieżki, wzdłuż których przemieszczają się kolory. Podążaj za każdą pętlą zgodnie z ruchem wskazówek zegara, przesuwając każdy kolor na kolejną połączoną z nim pozycję. Ścieżka łącząca dwa punkty powoduje zamianę znajdujących się w nich kolorów; punkty niepołączone z żadną ścieżką pozostają na swoich miejscach.
+
+[[K0258]]
+Zamień miejscami dwa górne kolory. W dolnej pętli niebieski kolor (znajdujący się pośrodku z lewej strony) przesuwa się do centrum, a czerwony (pośrodku z prawej strony) przesuwa się w lewy dolny róg. Czerwony kolor w prawym dolnym rogu, który nie jest połączony z żadną ścieżką, pozostaje bez zmian. [[K0259]]
+Przesuń każdy kolor wzdłuż jego własnej ścieżki
+
+[[K0260]]
+Kolor czerwony przesuwa się w dół, zielony w prawo, a żółty w lewo. Niebieski przesuwa się w górę oraz – jeśli to możliwe – o jedną kolumnę w lewo. Kolor biały oznacza nałożenie się kolorów; przy wykonywaniu kolejnego ruchu należy je ponownie rozdzielić. Kolory, które wykraczają poza siatkę, znikają.
+
+[[K0261]]
+Rozdziel środkowe białe pole na kolor czerwony i zielony. Czerwony przesuwa się na dolne środkowe pole, zielony na środkowe pole po prawej stronie, niebieski trafia w lewy górny róg, a żółty znika poza obszarem po lewej stronie. Te trzy kolorowe pola stanowią rozwiązanie.
+
+[[K0262]]
+Przesuwaj czerwone i niebieskie końcówki w przeciwnych kierunkach
+
+[[K0263]]
+W każdym kroku każda czerwona końcówka przesuwa się o jedną pozycję przeciwnie do ruchu wskazówek zegara, a każda niebieska końcówka – o dwie pozycje zgodnie z ruchem wskazówek zegara wzdłuż pięcioramiennej gwiazdy. Kolor biały oznacza, że ​​czerwony i niebieski nakładają się na siebie; przed wykonaniem kolejnego ruchu należy je rozdzielić.
+
+[[K0264]]
+Na środkowym rysunku kolor czerwony znajduje się w prawym dolnym rogu, a niebieski – w prawym górnym oraz lewym górnym rogu. Kolejny ruch sprawia, że ​​czerwony i jeden z niebieskich elementów spotykają się w prawym górnym rogu, tworząc kolor biały. Drugi niebieski element przesuwa się w lewy dolny róg.
+
+[[K0265]]
+Przesuń dwie kopie zgodnie z kierunkami wyznaczonymi przez sektor
+
+[[K0266]]
+Dwie krawędzie białego sektora wskazują dwa kierunki ruchu. Utwórz dwie kopie układu czerwonych punktów i przesuń każdą z nich o jeden krok siatki w odpowiednim kierunku (z uwzględnieniem zawijania na krawędziach). Pozycje zajęte przez jedną kopię stają się czerwone, a pozycje zajęte przez obie kopie – niebieskie.
+
+[[K0267]]
+Ostatni sektor wskazuje kierunki: w dół-w lewo oraz w dół-w prawo. Przesuń kopię układu w każdym z tych kierunków. W miejscu ich nałożenia powstaje kolor niebieski (obejmujący cały górny rząd oraz środek), natomiast pozycje zajęte tylko przez jedną kopię pozostają czerwone – zgodnie z przedstawionym rozwiązaniem.
+
+[[K0268]]
+Usuń przecinające się odcinki linii
+
+[[K0269]]
+Nałóż oba rysunki na siebie. Każdy prosty odcinek łączący sąsiednie punkty siatki traktuj jako osobny fragment linii. Jeśli odcinek z jednego rysunku przecina odcinek z drugiego rysunku (pomiędzy punktami siatki), usuń oba te odcinki. Odcinki stykające się w punktach siatki pozostają na swoim miejscu. Zachowaj wszystkie nieprzecięte odcinki z obu rysunków.
+
+[[K0270]]
+Usuń odcinki ukośne przecięte pomiędzy punktami siatki. Pozostałe elementy tworzą górny rozwidlony układ z pionowym trzonem, dwa oddzielone krótkie odcinki ukośne w pobliżu górnych rogów oraz dolny rozwidlony układ z własnym pionowym trzonem.
+
+[[K0271]]
+Przesuń i posortuj elementy według ich wielkości.
+
+[[K0272]]
+Przesuń wszystkie elementy w kierunku wskazanym przez strzałkę. Mniejsze elementy przemieszczają się obok większych i zajmują najdalej dostępne wolne miejsca. Zachowaj wysokość oraz pionowe położenie każdego elementu. Elementy mogą znajdować się w tej samej kolumnie, o ile nie nakładają się na siebie w pionie; elementy o tej samej wielkości zachowują swoją wzajemną kolejność.
+
+[[K0273]]
+Strzałka wskazuje w prawo. Umieść najkrótsze elementy w dostępnych miejscach po prawej stronie, następnie elementy zajmujące dwie jednostki, a po nich – elementy wyższe, przesuwając je bardziej na lewo. Żaden element nie zmienia swojego położenia w pionie ani swojej wielkości.
+
+[[K0274]]
+Przesuń elementy rozdzielające w wolne miejsca.

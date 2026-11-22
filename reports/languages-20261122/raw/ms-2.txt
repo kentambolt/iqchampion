@@ -1,0 +1,125 @@
+[[K0173]]
+Setiap kedudukan dalam setiap baris contoh mengandungi bulatan biru yang sama. Bentuk, warna mahupun saiznya tidak berubah.
+
+[[K0174]]
+Baris terakhir sudah mengandungi dua bulatan biru yang sama. Satu lagi bulatan biru yang sama melengkapkannya.
+
+[[K0175]]
+Tambah satu garisan bersarang
+
+[[K0176]]
+Bergerak ke kanan akan menambah garisan yang lebih kecil dengan bentuk yang sama di dalam yang sebelumnya. Bentuk luar dan warnanya kekal tidak berubah.
+
+[[K0177]]
+Segi tiga hijau mempunyai satu segi tiga dalaman di kedudukan tengah. Tambah satu lagi segi tiga dalaman yang lebih kecil untuk mendapatkan jawapan.
+
+[[K0178]]
+Gunakan bentuk pertama sebagai potongan
+
+[[K0179]]
+Bentuk hitam di kedudukan pertama dialih keluar dari tengah segi empat sama berwarna di kedudukan kedua. Lubangnya berwarna putih.
+
+[[K0180]]
+Segi empat sama hitam membuat lubang segi empat sama di segi empat sama hijau. Pilih segi empat sama hijau dengan bukaan segi empat sama putih.
+
+[[K0181]]
+Gabungkan warna atas dan bawah
+
+[[K0182]]
+Hasilnya mengambil separuh bahagian atasnya dari kapsul pertama dan separuh bahagian bawahnya dari kapsul kedua.
+
+[[K0183]]
+Kapsul pertama berwarna putih dan yang kedua berwarna biru, jadi hasilnya berwarna putih di atas dan biru di bawah.
+
+[[K0184]]
+Putar cuping berwarna
+
+[[K0185]]
+Pada setiap langkah, putar keseluruhan rajah empat cuping 90 darjah mengikut arah jam. Setiap cuping merah dan biru bergerak bersama rajah tersebut.
+
+[[K0186]]
+Putar cuping tengah sekali lagi mengikut suku pusingan mengikut arah jam. Dua cuping merah berakhir di sebelah kanan dan di bahagian bawah; cuping atas dan kiri berwarna biru.
+
+[[K0187]]
+Bulatkan sudut-sudut secara progresif
+
+[[K0188]]
+Warna dan bentuk umum kekal sama manakala sudut-sudut menjadi lebih bulat pada setiap langkah.
+
+[[K0189]]
+Teruskan membulatkan sudut-sudut segi empat tepat coklat. Jawapannya ialah kapsul coklat dengan hujung bulat sepenuhnya.
+
+[[K0190]]
+Teruskan pergerakan bulatan
+
+[[K0191]]
+Dalam setiap baris, bulatan hijau bergerak pada jarak yang sama dalam arah yang sama: ke atas, ke bawah atau mendatar. Saiznya tetap.
+
+[[K0192]]
+Dalam baris terakhir, bulatan bergerak ke kiri di sepanjang bahagian bawah segi empat sama. Satu langkah yang sama lagi meletakkannya di bahagian bawah kiri.
+
+[[K0193]]
+Putarkan keseluruhan corak titik
+
+[[K0194]]
+Putar segi empat sama dan semua titiknya 45 darjah lawan arah jam pada setiap langkah. Segi empat sama menjadi berlian, kemudian segi empat sama sekali lagi.
+
+[[K0195]]
+Putarkan berlian hijau-dan-hitam tengah sebanyak 45 darjah lagi mengikut arah lawan jam. Pastikan titik hijau dan hitam berada dalam kedudukan putarannya.
+
+[[K0196]]
+Pendekkan setiap bar dari atas
+
+[[K0197]]
+Pada setiap langkah, setiap bar hitam menegak kehilangan satu selang grid dari hujung atasnya. Hujung bawahnya kekal di garis bawah. Bar hilang apabila panjangnya mencapai sifar.
+
+[[K0198]]
+Gambar tengah mempunyai bar tengah selang satu dan bar kanan dua selang. Bar tengah hilang, meninggalkan bar selang satu di sebelah kanan.
+
+[[K0199]]
+Pantulan merentasi garis hitam
+
+[[K0200]]
+Garis tengah ialah paksi cermin. Pantulkan bentuk berwarna dalam garis itu dan bukannya hanya memutarkannya.
+
+[[K0201]]
+Garis cermin terakhir adalah menegak, jadi bentuk kuning dibalikkan dari kiri ke kanan. Warna dan saiznya kekal tidak berubah.
+
+[[K0202]]
+Tindan bentuk dan gunakan warna pertama
+
+[[K0203]]
+Letakkan kedua-dua bentuk di atas satu sama lain. Kekalkan siluet gabungan dan garis luar yang kelihatan, tetapi warnakan hasilnya dengan warna bentuk pertama.
+
+[[K0204]]
+Tindan segi tiga biru ke bawah dan heksagon kuning, kemudian gunakan biru untuk rajah gabungan. Hujung segi tiga yang menonjol kekal kelihatan di sekeliling heksagon.
+
+[[K0205]]
+Kekalkan hijau dalam tepat satu input
+
+[[K0206]]
+Bandingkan kawasan yang sepadan bagi dua segi empat sama. Suatu kawasan berwarna hijau jika ia berwarna hijau dalam tepat satu input. Hijau dalam kedua-duanya akan bertukar menjadi putih; putih dalam kedua-duanya kekal putih.
+
+[[K0207]]
+Segi empat sama pertama berwarna hijau sepenuhnya dan yang kedua hanya mempunyai suku kiri bawah berwarna hijau. Suku yang dikongsi itu bertukar menjadi putih; tiga suku yang lain kekal hijau.
+
+[[K0208]]
+Lampirkan salinan di setiap sudut
+
+[[K0209]]
+Letakkan salinan simbol hitam kecil di setiap bucu bentuk besar. Salinan yang ditambah mengambil warna bentuk besar.
+
+[[K0210]]
+Berlian biru besar mempunyai empat sudut. Tambahkan segi tiga biru ke bawah di setiap sudut, mengikut peraturan penempatan yang sama seperti contoh.
+
+[[K0211]]
+Tambah ketinggian bar yang sepadan
+
+[[K0212]]
+Bagi setiap tiga kedudukan mendatar, tambahkan ketinggian bar hitam dalam gambar pertama kepada ketinggiannya dalam gambar kedua. Ukur ke atas dari garis bawah biasa.
+
+[[K0213]]
+Kedua-dua input tidak mempunyai bar kiri. Dua bar tengah menambah bar ketinggian penuh, manakala bar kanan menambah bar yang lebih pendek. Jawapannya hanya mempunyai bar tengah dan kanan tersebut.
+
+[[K0214]]
+Putar dan selang-seli warna

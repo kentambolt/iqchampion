@@ -1,0 +1,125 @@
+[[K0173]]
+Setiap posisi di setiap baris contoh berisi lingkaran biru yang sama. Baik bentuk, warna, maupun ukurannya tidak berubah.
+
+[[K0174]]
+Baris terakhir sudah berisi dua lingkaran biru identik. Satu lingkaran biru identik lainnya melengkapinya.
+
+[[K0175]]
+Tambahkan satu garis luar bersarang
+
+[[K0176]]
+Bergerak ke kanan menambahkan garis luar yang lebih kecil dengan bentuk yang sama di dalam garis luar sebelumnya. Bentuk luar dan warnanya tetap tidak berubah.
+
+[[K0177]]
+Segitiga hijau memiliki satu segitiga dalam di posisi tengah. Tambahkan satu segitiga dalam lagi yang lebih kecil untuk mendapatkan jawabannya.
+
+[[K0178]]
+Gunakan bentuk pertama sebagai potongan
+
+[[K0179]]
+Bentuk hitam di posisi pertama dihilangkan dari tengah persegi berwarna di posisi kedua. Lubangnya berwarna putih.
+
+[[K0180]]
+Persegi hitam membuat lubang persegi di persegi hijau. Pilih kotak hijau dengan lubang kotak putih.
+
+[[K0181]]
+Gabungkan warna atas dan bawah
+
+[[K0182]]
+Hasilnya mengambil bagian atas dari kapsul pertama dan bagian bawah dari kapsul kedua.
+
+[[K0183]]
+Kapsul pertama berwarna putih dan kapsul kedua berwarna biru, sehingga hasilnya putih di atas dan biru di bawah.
+
+[[K0184]]
+Putar lobus berwarna
+
+[[K0185]]
+Pada setiap langkah, putar seluruh figur empat lobus 90 derajat searah jarum jam. Setiap lobus merah dan biru bergerak bersama figur tersebut.
+
+[[K0186]]
+Putar figur tengah seperempat putaran lagi searah jarum jam. Dua lobus merah berakhir di kanan dan di bawah; lobus atas dan kiri berwarna biru.
+
+[[K0187]]
+Bulatkan sudut secara bertahap
+
+[[K0188]]
+Warna dan bentuk umum tetap sama sementara sudut menjadi lebih bulat di setiap langkah.
+
+[[K0189]]
+Lanjutkan membulatkan sudut persegi panjang cokelat. Jawabannya adalah kapsul cokelat dengan ujung yang sepenuhnya bulat.
+
+[[K0190]]
+Lanjutkan pergerakan lingkaran
+
+[[K0191]]
+Di setiap baris, lingkaran hijau bergerak dengan jarak yang sama ke arah yang sama: ke atas, ke bawah, atau horizontal. Ukurannya tetap.
+
+[[K0192]]
+Di baris terakhir, lingkaran bergerak ke kiri di sepanjang bagian bawah persegi. Satu langkah lagi yang sama akan menempatkannya di kiri bawah.
+
+[[K0193]]
+Putar seluruh pola titik
+
+[[K0194]]
+Putar persegi dan semua titiknya 45 derajat berlawanan arah jarum jam di setiap langkah. Persegi berubah menjadi belah ketupat, lalu kembali menjadi persegi.
+
+[[K0195]]
+Putar belah ketupat hijau dan hitam di tengah 45 derajat berlawanan arah jarum jam. Pertahankan titik hijau dan hitam pada posisi yang telah diputar.
+
+[[K0196]]
+Persingkat setiap batang dari atas
+
+[[K0197]]
+Pada setiap langkah, setiap batang hitam vertikal kehilangan satu interval grid dari ujung atasnya. Ujung bawahnya tetap berada di garis paling bawah. Sebuah batang menghilang ketika panjangnya mencapai nol.
+
+[[K0198]]
+Gambar tengah memiliki batang tengah satu interval dan batang kanan dua interval. Batang tengah menghilang, menyisakan batang satu interval di sebelah kanan.
+
+[[K0199]]
+Pantulan melintasi garis hitam
+
+[[K0200]]
+Garis tengah adalah sumbu cermin. Pantulkan bentuk berwarna pada garis tersebut, bukan hanya memutarnya.
+
+[[K0201]]
+Garis cermin terakhir vertikal, sehingga bentuk kuning dibalik dari kiri ke kanan. Warna dan ukurannya tetap tidak berubah.
+
+[[K0202]]
+Tumpangkan bentuk-bentuk tersebut dan gunakan warna pertama.
+
+[[K0203]]
+Letakkan kedua bentuk di atas satu sama lain. Pertahankan siluet gabungan dan garis luar yang terlihat, tetapi warnai hasilnya dengan warna bentuk pertama.
+
+[[K0204]]
+Tumpangkan segitiga biru yang menghadap ke bawah dan segi enam kuning, lalu gunakan warna biru untuk bentuk gabungan. Ujung-ujung segitiga yang menonjol tetap terlihat di sekitar segi enam.
+
+[[K0205]]
+Pertahankan warna hijau tepat di satu input.
+
+[[K0206]]
+Bandingkan area yang sesuai dari kedua persegi. Suatu area berwarna hijau jika berwarna hijau tepat di satu input. Warna hijau di kedua input akan saling meniadakan menjadi putih; warna putih di kedua input tetap putih.
+
+[[K0207]]
+Kotak pertama seluruhnya berwarna hijau dan kotak kedua hanya memiliki seperempat bagian kiri bawah yang berwarna hijau. Seperempat bagian yang sama berubah menjadi putih; tiga perempat lainnya tetap hijau.
+
+[[K0208]]
+Lampirkan salinan di setiap sudut
+
+[[K0209]]
+Letakkan salinan simbol hitam kecil di setiap titik sudut bentuk besar. Salinan yang ditambahkan akan mengambil warna bentuk besar tersebut.
+
+[[K0210]]
+Berlian biru besar memiliki empat sudut. Tambahkan segitiga biru ke bawah di setiap sudut, ikuti aturan penempatan yang sama seperti contoh.
+
+[[K0211]]
+Tambahkan tinggi batang yang sesuai
+
+[[K0212]]
+Untuk setiap tiga posisi horizontal, tambahkan tinggi batang hitam pada gambar pertama ke tingginya pada gambar kedua. Ukur ke atas dari garis bawah yang sama.
+
+[[K0213]]
+Tidak ada input yang memiliki batang kiri. Dua batang tengah ditambahkan menjadi batang setinggi penuh, sedangkan batang kanan ditambahkan menjadi batang yang lebih pendek. Jawabannya hanya memiliki batang tengah dan kanan tersebut.
+
+[[K0214]]
+Putar dan ganti warna

@@ -1,0 +1,75 @@
+[[K0249]]
+Nach dem Entfernen der roten Steine ​​bilden die verbleibenden Steine ​​die mittlere Treppe. Entfernt man den gelben Stein und seine direkt angrenzenden Nachbarn, bleibt der obere blaue Stein übrig, der nach unten fällt.
+
+[[K0250]]
+Lasse die Ebenen rotieren und wende die Farbmaske an.
+
+[[K0251]]
+Verfolge die drei Formen. Bei jedem Schritt rückt die vordere Form an die hinterste Position. Für das Endergebnis behältst du die grauen oder schwarzen Flächen aus dem mittleren Bild bei; die weißen (ungefüllten) Formen erhalten ihre ursprünglichen Farben aus dem ersten Bild zurück.
+
+[[K0252]]
+Das graue Sechseck rückt nach vorne, die schwarze horizontale Kapsel liegt dahinter, und die vertikale Kapsel wandert an die hinterste Position. Die weiße vertikale Kapsel erhält ihre ursprüngliche gelbe Farbe zurück.
+
+[[K0253]]
+Bestimme die Bewegung jedes Kreises anhand seiner Farbe.
+
+[[K0254]]
+Verfolge jeden Kreis im Verhältnis zu dem Kreis, der ihn unmittelbar umgibt. Ein weißer Kreis bewegt sich um 90 Grad im Uhrzeigersinn, ein schwarzer um 90 Grad gegen den Uhrzeigersinn, und ein roter bleibt in seiner relativen Position. Ein blauer Kreis bewegt sich nicht. Wende diese Bewegungen auf alle verschachtelten Ebenen an.
+
+[[K0255]]
+Der schwarze Kreis bewegt sich von einer Position oberhalb des blauen Kreises an dessen linke Seite. Der rote Kreis bleibt innerhalb des schwarzen Kreises auf der rechten Seite. Der größere weiße Kreis bewegt sich von einer Position oberhalb des roten Kreises an dessen rechte Seite; der kleinste weiße Kreis bewegt sich von einer Position unterhalb des größeren weißen Kreises an dessen linke Seite.
+
+[[K0256]]
+Verschiebe die Farben entlang der verbundenen Pfade.
+
+[[K0257]]
+Die schwarzen Verbindungslinien geben die Pfade vor, entlang derer sich die Farben bewegen. Folge jeder Schleife im Uhrzeigersinn und verschiebe jede Farbe auf die nächste verbundene Position. Bei einem Pfad, der nur zwei Positionen verbindet, werden die Farben getauscht; nicht verbundene Punkte bleiben an ihrem Platz.
+
+[[K0258]]
+Tausche die beiden oberen Farben. In der unteren Schleife wandert der blaue Kreis (mittig links) in die Mitte, und der rote Kreis (mittig rechts) bewegt sich nach unten links. Der rote Kreis unten rechts, der nicht mit anderen verbunden ist, bleibt unverändert. [[K0259]]
+Bewege jede Farbe entlang ihres eigenen Pfades.
+
+[[K0260]]
+Rot bewegt sich nach unten, Grün nach rechts und Gelb nach links. Blau bewegt sich nach oben und – sofern möglich – eine Spalte nach links. Weiß kennzeichnet überlappende Farben; trenne diese Farben wieder, bevor der nächste Schritt ausgeführt wird. Farben, die sich über den Rand des Rasters hinausbewegen, verschwinden.
+
+[[K0261]]
+Teile das mittlere weiße Feld in Rot und Grün auf. Rot bewegt sich in die untere Mitte, Grün an den rechten Rand der Mitte, Blau gelangt nach oben links und Gelb verlässt das Raster auf der linken Seite. Diese drei farbigen Felder bilden die Lösung.
+
+[[K0262]]
+Bewege die roten und blauen Spitzen in entgegengesetzte Richtungen.
+
+[[K0263]]
+In jedem Schritt bewegt sich jede rote Spitze um eine Position gegen den Uhrzeigersinn und jede blaue Spitze um zwei Positionen im Uhrzeigersinn entlang des fünfzackigen Sterns. Weiß bedeutet, dass sich Rot und Blau überlappen; trenne beide Farben, bevor der nächste Schritt erfolgt.
+
+[[K0264]]
+Im mittleren Bild befindet sich Rot unten rechts, während Blau oben rechts und oben links zu finden ist. Der nächste Schritt führt Rot und einen der blauen Punkte oben rechts zusammen, wodurch das Feld weiß wird. Der andere blaue Punkt bewegt sich nach unten links.
+
+[[K0265]]
+Verschiebe zwei Kopien in die durch den Sektor vorgegebenen Richtungen.
+
+[[K0266]]
+Die beiden Kanten des weißen Sektors geben zwei Bewegungsrichtungen vor. Erstelle zwei Kopien des Musters aus roten Punkten und verschiebe jeweils eine Kopie um einen Rasterabstand in die entsprechende Richtung, wobei die Ränder als durchgehend betrachtet werden (d. h. bei Erreichen eines Randes erfolgt ein Übergang zur gegenüberliegenden Seite). Eine Position, die von einer Kopie erreicht wird, ist rot; eine Position, die von beiden Kopien erreicht wird, ist blau.
+
+[[K0267]]
+Der Sektor zeigt nach unten links und unten rechts. Verschiebe jeweils eine Kopie in diese Richtungen. Durch die Überlappung werden die gesamte oberste Reihe sowie die Mitte blau; die Positionen, die nur von einer Kopie erreicht wurden, bleiben rot – wie in der Lösung dargestellt.
+
+[[K0268]]
+Entferne sich kreuzende Liniensegmente.
+
+[[K0269]]
+Lege beide Zeichnungen übereinander. Betrachte jedes gerade Teilstück zwischen zwei aufeinanderfolgenden Rasterpunkten als ein separates Liniensegment. Wenn sich ein Segment aus der einen Zeichnung mit einem Segment aus der anderen Zeichnung zwischen den Rasterpunkten kreuzt, entferne beide Segmente. Segmente, die an einem Rasterpunkt zusammentreffen, bleiben erhalten. Behalten Sie alle ungeschnittenen Segmente aus beiden Zeichnungen bei.
+
+[[K0270]]
+Entfernen Sie die diagonalen Segmente, die zwischen den Rasterpunkten durchtrennt wurden. Die verbleibenden Teile bilden eine obere Gabel mit einem vertikalen Stiel, zwei isolierte kurze Diagonalen nahe den oberen Ecken sowie eine untere Gabel mit einem eigenen vertikalen Stiel.
+
+[[K0271]]
+Verschieben und sortieren Sie die Teile nach ihrer Größe.
+
+[[K0272]]
+Schieben Sie alle Teile in Pfeilrichtung. Kleinere Teile gleiten an größeren Teilen vorbei und erreichen zuerst die am weitesten entfernten freien Plätze. Die Höhe und die vertikale Position jedes Teils bleiben dabei unverändert. Teile dürfen sich eine Spalte teilen, sofern sie sich vertikal nicht überschneiden; bei gleich großen Teilen bleibt die relative Reihenfolge erhalten.
+
+[[K0273]]
+Der Pfeil zeigt nach rechts. Ordnen Sie die kürzesten Teile in die freien Plätze auf der rechten Seite ein, gefolgt von den Teilen, die zwei Rastereinheiten umfassen, und schließlich den höheren Teilen weiter links. Es findet keine vertikale Verschiebung statt, und die Größe der Teile bleibt unverändert.
+
+[[K0274]]
+Verschieben Sie die Trennelemente in die freien Bereiche.

@@ -1,0 +1,75 @@
+[[K0249]]
+A piros elem eltávolítása után a megmaradó téglák alkotják a középső lépcsősort. A sárga tégla és az azzal érintkező elemek eltávolításával a felső kék tégla szabaddá válik, és az aljára esik.
+
+[[K0250]]
+Forgasd el a rétegeket, és alkalmazd a színmaszkot!
+
+[[K0251]]
+Kövesd nyomon ugyanazt a három alakzatot! Minden lépésben az elülső alakzat hátra kerül. A végső ábrán tartsd meg a középső ábra szürke vagy fekete kitöltéseit; a kitöltetlen, fehér alakzatok pedig visszakapják az első ábrán látható színeiket.
+
+[[K0252]]
+A szürke hatszög előre kerül, a fekete, vízszintes kapszula mögéje kerül, a függőleges kapszula pedig hátra vándorol. A fehér, függőleges kapszula visszakapja eredeti, sárga színét.
+
+[[K0253]]
+Határozd meg az egyes körök mozgását a színük alapján!
+
+[[K0254]]
+Kövesd nyomon az egyes körök mozgását a közvetlenül körülöttük lévő körhöz viszonyítva! A fehér 90 fokkal az óramutató járásával megegyező irányba, a fekete 90 fokkal azzal ellentétes irányba mozdul el, a piros pedig relatív helyzetét tekintve változatlan marad. A kék nem mozdul. Alkalmazd ezeket a mozgásokat minden egymásba ágyazott szintre!
+
+[[K0255]]
+A fekete kör a kék kör fölül annak bal oldalára kerül. A piros a fekete körön belül, a jobb oldalon marad. A nagyobb fehér kör a piros kör fölül annak jobb oldalára kerül; a legkisebb fehér kör pedig a nagyobb fehér kör alól annak bal oldalára mozdul.
+
+[[K0256]]
+Mozgasd a színeket az összekötő útvonalak mentén!
+
+[[K0257]]
+A fekete vonalak jelölik ki azokat az útvonalakat, amelyek mentén a színek mozognak. Kövesd végig az egyes hurkokat az óramutató járásával megegyező irányban, és minden színt léptess tovább a következő kapcsolódó pozícióba! A két pontból álló útvonalakon a színek helyet cserélnek; a máshová nem kapcsolódó pontok pedig változatlanok maradnak.
+
+[[K0258]]
+Cseréld fel a két felső színt! Az alsó hurokban a középső-bal oldali kék a középpontba kerül, a középső-jobb oldali piros pedig a bal alsó sarokba. A jobb alsó sarokban lévő, máshová nem kapcsolódó piros szín változatlan marad. [[K0259]]
+Mozgasd az egyes színeket a saját útvonaluk mentén
+
+[[K0260]]
+A piros lefelé, a zöld jobbra, a sárga pedig balra mozog. A kék felfelé, és ahol lehetséges, egy oszloppal balra mozdul el. A fehér szín az egymást fedő színeket jelöli; a következő lépés végrehajtása előtt válaszd szét ezeket a színeket. A rácson kívülre kerülő színek eltűnnek.
+
+[[K0261]]
+Bontsd szét a középső fehér cellát egy pirosra és egy zöldre. A piros az alsó középső, a zöld a középső jobb, a kék a bal felső pozícióba kerül, a sárga pedig balra kikerül a rácsról. Ez a három színes cella adja a megoldást.
+
+[[K0262]]
+Mozgasd a piros és kék csúcsokat ellentétes irányokba
+
+[[K0263]]
+Minden lépésnél az összes piros csúcs egy pozíciót mozdul el az óramutató járásával ellentétes irányba, az összes kék csúcs pedig két pozíciót az óramutató járásával megegyező irányba az ötszögű csillag mentén. A fehér szín azt jelzi, hogy a piros és a kék fedi egymást; a következő lépés előtt válaszd szét a két színt.
+
+[[K0264]]
+A középső ábrán a piros a jobb alsó, a kék pedig a jobb felső és a bal felső sarokban található. A következő lépésben a piros és az egyik kék a jobb felső sarokba kerül, fehérré változtatva azt. A másik kék a bal alsó sarokba mozdul.
+
+[[K0265]]
+Eltolás két példányban, a szektor irányainak megfelelően
+
+[[K0266]]
+A fehér szektor két széle két mozgási irányt jelöl. Készíts két másolatot a piros pöttyökből álló mintáról, és mindkét másolatot told el egy rácslépésnyivel a megadott irányokba (a széleken túlhaladva a minta a túloldalon folytatódik). Az a pozíció, ahová csak az egyik másolat kerül, piros lesz; az a pozíció pedig, ahová mindkét másolat eljut, kék lesz.
+
+[[K0267]]
+Az utolsó szektor balra lefelé és jobbra lefelé mutat. Told el a mintát mindkét irányba. A két másolat átfedése miatt a teljes felső sor és a középső rész kék lesz; azok a pozíciók, ahová csak az egyik másolat került, pirosak maradnak – ahogy a megoldásban is látható.
+
+[[K0268]]
+Távolítsd el az egymást keresztező vonalszakaszokat
+
+[[K0269]]
+Helyezd egymásra a két rajzot. Tekints minden, egymást követő rácspontok közötti egyenes szakaszt különálló vonalszakasznak. Ha az egyik rajz egy szakasza keresztez egy szakaszt a másik rajzból (két rácspont között), akkor távolítsd el mindkét szakaszt. Azok a szakaszok, amelyek egy rácsponton találkoznak, megmaradnak. Tartsd meg mindkét ábrából az összes olyan szakaszt, amelyet nem vágtak el.
+
+[[K0270]]
+Távolítsd el a rácspontok között elvágott átlós szakaszokat. A megmaradó darabok egy felső villát alkotnak (függőleges szárral), továbbá két különálló rövid átlót a felső sarkok közelében, valamint egy alsó villát, amelynek szintén van függőleges szára.
+
+[[K0271]]
+Csúsztasd el és rendezd a darabokat méretük szerint.
+
+[[K0272]]
+Tolj minden darabot a nyíl irányába! A kisebb darabok elhaladnak a nagyobbak mellett, és hamarabb érik el a legtávolabbi szabad helyeket. Ügyelj arra, hogy minden darab magassága és függőleges pozíciója változatlan maradjon! A darabok kerülhetnek ugyanabba az oszlopba, feltéve, hogy függőlegesen nem fedik egymást; az azonos méretű darabok megőrzik egymáshoz viszonyított sorrendjüket.
+
+[[K0273]]
+A nyíl jobbra mutat. Helyezd a legrövidebb darabokat a jobb oldali szabad helyekre, majd következnek a két egységnyi méretű darabok, végül pedig a magasabb darabok – ezek a többitől balra kerülnek. Semmi sem mozdul el függőlegesen (fel vagy le), és egyetlen darab mérete sem változik.
+
+[[K0274]]
+Mozgasd az elválasztókat a szabad helyekre!

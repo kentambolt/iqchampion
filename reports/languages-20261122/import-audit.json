@@ -1,0 +1,199 @@
+{
+  "complete": [
+    "es",
+    "fr",
+    "de",
+    "pt",
+    "it",
+    "nl",
+    "sv",
+    "nb",
+    "fi",
+    "pl",
+    "cs",
+    "sk",
+    "hu",
+    "ro",
+    "bg",
+    "el",
+    "uk",
+    "ru",
+    "tr",
+    "ar",
+    "he",
+    "fa",
+    "ur",
+    "hi",
+    "bn",
+    "pa",
+    "gu",
+    "mr",
+    "ta",
+    "te",
+    "kn",
+    "ml",
+    "id",
+    "ms",
+    "vi",
+    "th",
+    "fil",
+    "zh",
+    "ja",
+    "ko",
+    "sw",
+    "af",
+    "am",
+    "ha",
+    "yo",
+    "lt",
+    "lv",
+    "et"
+  ],
+  "pending": [],
+  "markerCorrections": [
+    {
+      "language": "es",
+      "chunk": 1,
+      "id": "K0106",
+      "marker": "[[K0126]]"
+    },
+    {
+      "language": "de",
+      "chunk": 0,
+      "id": "K0058",
+      "marker": "[[K0070]]"
+    },
+    {
+      "language": "pt",
+      "chunk": 0,
+      "id": "K0049",
+      "marker": "[[K0069]]"
+    },
+    {
+      "language": "it",
+      "chunk": 1,
+      "id": "K0107",
+      "marker": "[[K0117]]"
+    },
+    {
+      "language": "it",
+      "chunk": 5,
+      "id": "K0291",
+      "marker": "[[K0301]]"
+    },
+    {
+      "language": "nl",
+      "chunk": 1,
+      "id": "K0136",
+      "marker": "[[K0146]]"
+    },
+    {
+      "language": "nb",
+      "chunk": 0,
+      "id": "K0049",
+      "marker": "[[K0059]]"
+    },
+    {
+      "language": "fi",
+      "chunk": 0,
+      "id": "K0049",
+      "marker": "[[K0069]]"
+    },
+    {
+      "language": "pl",
+      "chunk": 0,
+      "id": "K0006",
+      "marker": "[[K0016]]"
+    },
+    {
+      "language": "pl",
+      "chunk": 1,
+      "id": "K0106",
+      "marker": "[[K0116]]"
+    },
+    {
+      "language": "sk",
+      "chunk": 0,
+      "id": "K0006",
+      "marker": "[[K0016]]"
+    },
+    {
+      "language": "tr",
+      "chunk": 5,
+      "id": "K0279",
+      "marker": "[[K0289]]"
+    },
+    {
+      "language": "bn",
+      "chunk": 0,
+      "id": "K0058",
+      "marker": "[[K0060]]"
+    },
+    {
+      "language": "bn",
+      "chunk": 0,
+      "id": "K0059",
+      "marker": "[[K0058]]"
+    },
+    {
+      "language": "pa",
+      "chunk": 2,
+      "id": "K0200",
+      "marker": "[[K0202]]"
+    },
+    {
+      "language": "ha",
+      "chunk": 0,
+      "id": "K0007",
+      "marker": "[[[K0007]]"
+    },
+    {
+      "language": "ha",
+      "chunk": 0,
+      "id": "K0009",
+      "marker": "[[[K0009]]"
+    },
+    {
+      "language": "ha",
+      "chunk": 2,
+      "id": "K0209",
+      "marker": "[[[K0209]]"
+    },
+    {
+      "language": "ha",
+      "chunk": 3,
+      "id": "K0221",
+      "marker": "[[[K0221]]"
+    },
+    {
+      "language": "ha",
+      "chunk": 4,
+      "id": "K0269",
+      "marker": "[[[K0269]]"
+    },
+    {
+      "language": "yo",
+      "chunk": 2,
+      "id": "K0178",
+      "marker": "[[K0180]]"
+    },
+    {
+      "language": "yo",
+      "chunk": 2,
+      "id": "K0211",
+      "marker": "[[K0213]]"
+    },
+    {
+      "language": "lv",
+      "chunk": 0,
+      "id": "K0049",
+      "marker": "[[K0059]]"
+    },
+    {
+      "language": "et",
+      "chunk": 0,
+      "id": "K0049",
+      "marker": "[[K0069]]"
+    }
+  ]
+}

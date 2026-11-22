@@ -1,0 +1,301 @@
+[[K0071]]
+Deel de test op Facebook
+
+[[K0072]]
+Geschat IQ
+
+[[K0073]]
+Gewoon voor de lol. Een indicatieve score, geen professioneel gevalideerde IQ-meting.
+
+[[K0074]]
+Je test is onvolledig. Je juiste antwoorden worden getoond, maar voor een IQ-schatting zijn alle 36 antwoorden nodig.
+
+[[K0075]]
+Niet beschikbaar
+
+[[K0076]]
+Gratis test voor visueel redeneren | IQ Champion
+
+[[K0077]]
+36 puzzels voor visueel redeneren. Ga de uitdaging aan – het duurt 40 minuten en is volledig gratis – en bekijk je resultaten.
+
+[[K0078]]
+Beantwoord
+
+[[K0079]]
+Niet beantwoord
+
+[[K0080]]
+Correct
+
+[[K0081]]
+Incorrect
+
+[[K0082]]
+Sluiten
+
+[[K0083]]
+Hulp
+
+[[K0084]]
+40 min
+
+[[K0085]]
+Taal
+
+[[K0086]]
+Over de test
+
+[[K0087]]
+Een uitdaging op het gebied van visueel redeneren
+
+[[K0088]]
+Ontdek het patroon.
+
+[[K0089]]
+Vind het ontbrekende onderdeel.
+
+[[K0090]]
+36 visuele puzzels en een geschatte IQ-score. Gewoon voor de lol.
+
+[[K0091]]
+Puzzels
+
+[[K0092]]
+Tijdslimiet
+
+[[K0093]]
+Kosten
+
+[[K0094]]
+Gratis
+
+[[K0095]]
+Geen account vereist. De timer start zodra je begint.
+
+[[K0096]]
+Hoe de test werkt
+
+[[K0097]]
+Kies het icoon dat elk patroon compleet maakt.
+
+[[K0098]]
+Sla lastige vragen over en keer er later via het overzicht naar terug.
+
+[[K0099]]
+Controleer of wijzig je antwoorden voordat je de test afrondt. [[K0100]]
+Je antwoorden en starttijd worden in deze browser opgeslagen. Als je de pagina opnieuw laadt, blijft je oorspronkelijke deadline behouden.
+
+[[K0101]]
+De timer van 40 minuten loopt door, ook als de pagina gesloten is. Onbeantwoorde vragen worden als fout gerekend.
+
+[[K0102]]
+Over je resultaat
+
+[[K0103]]
+Je geschatte IQ is gebaseerd op je positie ten opzichte van
+
+[[K0104]]
+eerdere pogingen.
+
+[[K0105]]
+De vergelijking is gebaseerd op pogingen die tussen de één en 40 minuten duurden. Deze is niet gevalideerd aan de hand van een officiële IQ-test of een representatieve steekproef uit de bevolking.
+
+[[K0106]]
+Een test voor de lol. Je geschatte IQ is een benadering, geen professioneel gevalideerde IQ-score.
+
+[[K0107]]
+Start de test van 40 minuten
+
+[[K0108]]
+Redeneertest
+
+[[K0109]]
+Jouw uitdaging
+
+[[K0110]]
+Resterende tijd
+
+[[K0111]]
+resterend
+
+[[K0112]]
+Vragenpatroon
+
+[[K0113]]
+Ontdek het patroon
+
+[[K0114]]
+Vier rijen met visuele patronen; maak de laatste rij compleet
+
+[[K0115]]
+Kies je antwoord
+
+[[K0116]]
+Navigatie door de vragen
+
+[[K0117]]
+Vorige vraag
+
+[[K0118]]
+Nu overslaan
+
+[[K0119]]
+Volgende vraag
+
+[[K0120]]
+Overzicht van vragen
+
+[[K0121]]
+✓ Beantwoord
+
+[[K0122]]
+○ Onbeantwoord
+
+[[K0123]]
+Omlijning = huidige vraag
+
+[[K0124]]
+Ga naar een vraag
+
+[[K0125]]
+Controleren en afronden
+
+[[K0126]]
+Instructies & opgeslagen voortgang
+
+[[K0127]]
+Kies een antwoord om naar de volgende onbeantwoorde vraag te gaan. Je kunt vragen overslaan, teruggaan en antwoorden wijzigen voordat je de test afrondt.
+
+[[K0128]]
+Antwoorden worden automatisch opgeslagen in deze browser. Als je de pagina opnieuw laadt, ga je verder bij dezelfde vraag; de timer blijft doorlopen.
+
+[[K0129]]
+Klaar wanneer jij er klaar voor bent
+
+[[K0130]]
+Deze test afronden?
+
+[[K0131]]
+Verder werken
+
+[[K0132]]
+Afronden en resultaat bekijken
+
+[[K0133]]
+Uitdaging voltooid
+
+[[K0134]]
+Jouw resultaat
+
+[[K0135]]
+Antwoorden bekijken
+
+[[K0146]]
+Opnieuw proberen
+
+[[K0137]]
+Over deze test
+
+[[K0138]]
+Hoe je dit resultaat moet interpreteren
+
+[[K0139]]
+Je percentielscore ten opzichte van eerdere pogingen is omgerekend naar de bekende IQ-schaal: een gemiddelde van 100 en een standaarddeviatie van 15. Hierbij wordt ervan uitgegaan dat de vergelijkingsgroep een afspiegeling is van de algemene bevolking; dit is echter niet vastgesteld.
+
+[[K0140]]
+Toelichting bij je antwoorden
+
+[[K0141]]
+Bekijk je antwoorden
+
+[[K0142]]
+Terug naar het resultaat
+
+[[K0143]]
+Het patroon
+
+[[K0144]]
+Vergelijk de antwoorden
+
+[[K0145]]
+Jouw antwoord
+
+[[K0146]]
+Correct antwoord
+
+[[K0147]]
+Vorige vraag bekijken
+
+[[K0148]]
+Volgende vraag bekijken
+
+[[K0149]]
+Resultaten per vraag
+
+[[K0150]]
+Bekijk alle 36 puzzels
+
+[[K0151]]
+✓ Correct
+
+[[K0152]]
+× Incorrect
+
+[[K0153]]
+Vraag bekijken
+
+[[K0154]]
+Je ingediende antwoorden en eindscore blijven ongewijzigd. [[K0155]]
+Contact
+
+[[K0156]]
+Feedback & contact
+
+[[K0157]]
+Stuur feedback of neem contact met ons op
+
+[[K0158]]
+Correct. Je antwoord komt overeen met het juiste antwoord.
+
+[[K0159]]
+Incorrect. Je antwoord verschilt van het juiste antwoord.
+
+[[K0160]]
+Niet beantwoord. Er is geen antwoord ingediend voor deze vraag.
+
+[[K0161]]
+Geen antwoord ingediend
+
+[[K0162]]
+Jouw ingediende antwoord
+
+[[K0163]]
+Ontbrekend icoon
+
+[[K0164]]
+Alle vragen zijn beantwoord. Je kunt je antwoorden nog bekijken en wijzigen, en vervolgens de toets afronden.
+
+[[K0165]]
+Nog vijf minuten of minder resterend.
+
+[[K0166]]
+De tijd is om. Je antwoorden zijn beoordeeld.
+
+[[K0167]]
+Toets voltooid.
+
+[[K0168]]
+Vergelijking niet beschikbaar.
+
+[[K0169]]
+Deze browser kon je poging niet opslaan. Houd deze pagina geopend: bij het opnieuw laden kan voortgang verloren gaan of kunnen oudere antwoorden worden teruggezet.
+
+[[K0170]]
+Lokaal opslaan is niet mogelijk in deze browser. Houd deze pagina geopend om te voorkomen dat je poging verloren gaat.
+
+[[K0171]]
+De opgeslagen poging kon niet worden hersteld. Start een nieuwe toets wanneer je er klaar voor bent.
+
+[[K0172]]
+Laat de figuur ongewijzigd

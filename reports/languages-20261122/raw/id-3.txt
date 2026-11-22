@@ -1,0 +1,101 @@
+[[K0215]]
+Putar bentuk 45 derajat berlawanan arah jarum jam pada setiap langkah. Warnanya berganti-ganti, sehingga gambar ketiga kembali ke warna gambar pertama.
+
+[[K0216]]
+Putar bentuk tengah berwarna putih lagi 45 derajat berlawanan arah jarum jam dan kembalikan warna gelap dari gambar pertama. Pilih bentuk lengkung gelap dalam orientasi tersebut.
+
+[[K0217]]
+Gabungkan lingkaran hitam
+
+[[K0218]]
+Lingkaran berwarna hitam pada hasil setiap kali lingkaran yang cocok berwarna hitam pada salah satu input. Lingkaran berwarna putih hanya jika kedua input memiliki lingkaran putih di sana.
+
+[[K0219]]
+Input pertama menyumbangkan lingkaran hitam kanan bawah; input kedua menyumbangkan dua lingkaran hitam atas. Lingkaran tengah dan kiri bawah tetap putih.
+
+[[K0220]]
+Perluas ke sel-sel tetangga
+
+[[K0221]]
+Pada setiap langkah, setiap sel biru tetap biru dan juga mewarnai tetangga terdekatnya di atas, di bawah, kiri, dan kanan. Perluasan berhenti di batas grid.
+
+[[K0222]]
+Terapkan perluasan satu sel yang sama ke wilayah biru tengah. Tetangga samping yang baru dicapai menjadi biru; sel yang lebih jauh tetap berada di papan catur abu-abu dan hitam.
+
+[[K0223]]
+Batalkan posisi cokelat yang cocok
+
+[[K0224]]
+Bandingkan kedua strip lima sel posisi demi posisi. Sebuah sel berwarna cokelat dalam hasilnya jika tepat satu input berwarna cokelat di sana. Sel cokelat yang cocok dibatalkan menjadi biru.
+
+[[K0225]]
+Warna cokelat muncul di posisi 2, 3, 4, dan 5 pada strip pertama dan di posisi 2, 3, dan 5 pada strip kedua. Hanya posisi 4 yang tetap berwarna cokelat.
+
+[[K0226]]
+Hapus titik merah terdekat
+
+[[K0227]]
+Temukan jarak terkecil antara dua titik merah. Hapus setiap titik merah yang termasuk dalam pasangan pada jarak tersebut. Hitung ulang jarak terdekat untuk langkah selanjutnya.
+
+[[K0228]]
+Pada gambar tengah, tiga titik merah bawah berpartisipasi dalam pasangan diagonal terdekat. Menghapusnya hanya menyisakan titik merah di baris atas, kolom keempat.
+
+[[K0229]]
+Pindahkan enam warna dalam satu siklus
+
+[[K0230]]
+Baca ke bawah tumpukan kiri, lalu ke bawah tumpukan kanan. Geser setiap warna satu posisi ke depan dalam siklus enam posisi tersebut; warna kanan bawah berputar ke kiri atas.
+
+[[K0231]]
+Dari gambar tengah, lingkaran cokelat kanan bawah berputar ke kiri atas. Tumpukan akhirnya adalah cokelat/merah/merah di sebelah kiri dan hitam/cokelat/biru di sebelah kanan.
+
+[[K0232]]
+Gerakkan lingkaran putih dan hitam ke arah yang berlawanan
+
+[[K0233]]
+Lingkaran putih bergerak satu sudut searah jarum jam dan lingkaran hitam bergerak satu sudut berlawanan arah jarum jam pada setiap langkah. Warna abu-abu berarti lingkaran putih dan hitam menempati sudut yang sama; pisahkan keduanya sebelum bergerak lagi.
+
+[[K0234]]
+Gambar tengah berisi lingkaran putih di dua sudut kiri dan lingkaran hitam di dua sudut kiri dan kanan bawah. Menggerakkannya menghasilkan lingkaran putih di kiri atas, abu-abu di kanan atas, dan hitam di kedua sudut bawah.
+
+[[K0235]]
+Perpanjang setiap goresan horizontal
+
+[[K0236]]
+Pada setiap langkah, perpanjang setiap goresan horizontal hitam ke kapsul yang berdekatan di kedua sisi. Goresan yang sudah ada tetap ada, dan goresan berhenti di tepi luar.
+
+[[K0237]]
+Perpanjang goresan pada gambar tengah satu kapsul lagi ke kiri dan kanan. Jaga agar tinggi goresan tetap berbeda; jawabannya menunjukkan garis horizontal yang lebih panjang di keempat kapsul tersebut.
+
+[[K0238]]
+Perluas kisi segitiga
+
+[[K0239]]
+Anggap gambar sebagai sekelompok segitiga kecil. Pada setiap langkah, tambahkan segitiga kecil tepat di luar setiap tepi yang terbuka, pertahankan segitiga yang ada dan garis penghubungnya.
+
+[[K0240]]
+Perluas kelompok hijau tengah dengan satu lapisan segitiga tetangga lagi. Jawabannya mempertahankan kisi segitiga yang sama dan menambahkan segitiga di sepanjang tepi luarnya.
+
+[[K0241]]
+Hapus simpul yang ditandai
+
+[[K0242]]
+Titik-titik cokelat mengidentifikasi simpul-simpul poligon hitam yang akan dihapus. Hubungkan simpul-simpul yang tersisa sesuai urutan aslinya. Dua simpul yang tersisa menghasilkan segmen garis.
+
+[[K0243]]
+Hapus simpul atas dan kiri yang ditandai dengan titik-titik cokelat. Hanya dua simpul bawah yang tersisa, jadi jawabannya adalah garis horizontal pendek di dekat kanan bawah.
+
+[[K0244]]
+Ubah titik-titik di sudut garis luar
+
+[[K0245]]
+Cocokkan titik-titik garis luar hitam dengan posisi titik 3x3. Di setiap titik, hapus titik biru yang ada atau tambahkan satu jika posisinya kosong. Posisi lainnya tetap tidak berubah.
+
+[[K0246]]
+Ubah keempat posisi sudut garis luar miring. Hasilnya memiliki titik-titik biru di kiri atas dan tengah atas, tengah tengah dan kanan tengah, serta ketiga posisi bawah.
+
+[[K0247]]
+Hapus batu bata yang ditandai dan batu bata di sekitarnya
+
+[[K0248]]
+Pertama, hapus batu bata merah dan setiap batu bata yang berbagi sisi dengannya, lalu biarkan batu bata yang tidak ditopang jatuh lurus ke bawah. Ulangi proses yang sama dengan batu bata kuning.

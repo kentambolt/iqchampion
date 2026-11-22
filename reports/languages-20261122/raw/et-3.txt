@@ -1,0 +1,99 @@
+[[K0215]]
+Pööra kujundit igal sammul 45 kraadi vastupäeva. Selle värvus vaheldub, mistõttu kolmandal pildil on sama värvus mis esimesel.
+
+[[K0216]]
+Pööra valget keskmist kujundit veel 45 kraadi vastupäeva ja taasta esimene pildil olnud tume värvus. Vali selles asendis tume kõver kujund.
+
+[[K0217]]
+Ühenda mustad ringid.
+
+[[K0218]]
+Tulemuses on ring must, kui vastav ring on must vähemalt ühes sisendis. See on valge vaid siis, kui mõlemas sisendis on vastavas kohas valge ring.
+
+[[K0219]]
+Esimene sisend annab parempoolse alumise musta ringi; teine ​​sisend annab kaks ülemist musta ringi. Keskmine ja vasakpoolne alumine ring jäävad valgeks.
+
+[[K0220]]
+Laienda naaberkastidesse.
+
+[[K0221]]
+Igal sammul jääb iga sinine kast siniseks ning värvib siniseks ka oma vahetud naabrid – üleval, all, vasakul ja paremal. Laienemine peatub ruudustiku piiril.
+
+[[K0222]]
+Rakenda sama ühe kasti võrra laienemist keskmisele sinisele alale. Uued külgmised naabrid muutuvad siniseks; kaugemad kastid jäävad halli-musta maleruudustiku mustrisse.
+
+[[K0223]]
+Eemalda kattuvad pruunid kohad.
+
+[[K0224]]
+Võrdle kahte viiest kastist koosnevat riba positsioonhaaval. Tulemuses on kast pruun, kui see on pruun täpselt ühes sisendis. Kattuvad pruunid kastid muutuvad siniseks.
+
+[[K0225]]
+Esimesel ribal on pruunid kohad 2, 3, 4 ja 5, teisel ribal aga kohad 2, 3 ja 5. Ainult koht 4 jääb pruuniks.
+
+[[K0226]]
+Eemalda lähimad punased täpid.
+
+[[K0227]]
+Leia vähim vahemaa kahe punase täpi vahel. Eemalda kõik punased täpid, mis moodustavad selle vahemaaga paari. Arvuta järgmise sammu jaoks vähim vahemaa uuesti. [[K0228]]
+Keskmisel pildil osalevad kolm alumist punast täppi lähimates diagonaalsetes paarides. Nende eemaldamisel jääb alles vaid punane täpp ülemises reas, neljandas veerus.
+
+[[K0229]]
+Liiguta kuut värvi tsükliliselt
+
+[[K0230]]
+Loe vasakut virna ülalt alla ja seejärel paremat virna ülalt alla. Nihuta iga värvi selles kuuest positsioonist koosnevas tsüklis ühe koha võrra edasi; paremas alumises nurgas olev värv liigub vasakusse ülanurka.
+
+[[K0231]]
+Keskmisel pildil liigub paremas alumises nurgas olev pruun ring vasakusse ülanurka. Lõpptulemusena on vasakus virnas pruun/punane/punane ja paremas virnas must/pruun/sinine.
+
+[[K0232]]
+Liiguta valget ja musta vastassuundades
+
+[[K0233]]
+Igal sammul liiguvad valged ringid ühe nurga võrra päripäeva ja mustad ringid ühe nurga võrra vastupäeva. Hall värv tähistab olukorda, kus valge ja must ring asuvad samas nurgas; enne järgmist liigutust tuleb need eraldada.
+
+[[K0234]]
+Keskmisel pildil on valged ringid kahes vasakpoolses nurgas ning mustad ringid kahes vasakpoolses nurgas ja paremas alumises nurgas. Pärast liigutamist on vasakus ülanurgas valge, paremas ülanurgas hall ning mõlemas alumises nurgas must ring.
+
+[[K0235]]
+Pikenda kõiki horisontaalseid jooni
+
+[[K0236]]
+Igal sammul pikenda iga musta horisontaalset joont nii, et see ulatuks mõlemal pool asuvatesse naaberkapslitesse. Olemasolevad jooned jäävad alles ja jooned peatuvad välimiste servade juures.
+
+[[K0237]]
+Pikenda keskmisel pildil olevaid jooni veel ühe kapsli võrra vasakule ja paremale. Säilita erinevad joonte kõrgused; vastus näitab tulemusena tekkivaid pikemaid horisontaalseid jooni, mis ulatuvad üle nelja kapsli.
+
+[[K0238]]
+Laienda kolmnurkset võrgustikku
+
+[[K0239]]
+Vaatle joonist kui väikeste kolmnurkade kogumit. Igal sammul lisa iga vaba serva vahetusse lähedusse (väljapoole) väike kolmnurk, säilitades samal ajal olemasolevad kolmnurgad ja neid ühendavad jooned.
+
+[[K0240]]
+Laienda keskmist rohelist kogumit veel ühe kihi võrra, lisades naaberkolmnurgad. Vastus säilitab sama kolmnurkse võrgustiku ja lisab kolmnurgad selle välisservadele.
+
+[[K0241]]
+Eemalda märgitud tipud.
+
+[[K0242]]
+Pruunid punktid tähistavad musta hulknurga tippe, mis tuleb eemaldada. Ühenda allesjäänud tipud nende algses järjekorras. Kaks allesjäänud tippu moodustavad lõigu.
+
+[[K0243]]
+Eemalda pruunide punktidega tähistatud ülemine ja vasak tipp. Alles jäävad vaid kaks alumist tippu, seega on vastuseks lühike horisontaalne joon paremas alanurgas.
+
+[[K0244]]
+Muuda punktide olekut kontuuri nurkades.
+
+[[K0245]]
+Vastanda musta kontuuri tipud 3x3 punktiasetustega. Iga tipu puhul eemalda olemasolev sinine punkt või lisa see, kui koht on tühi. Ülejäänud kohad jäävad muutmata.
+
+[[K0246]]
+Muuda punktide olekut kaldus kontuuri neljas nurgas. Tulemusena on sinised punktid üleval vasakul ja keskel, keskel keskel ja paremal, ning kõigis kolmes alumises asukohas.
+
+[[K0247]]
+Eemalda märgitud klots ja selle naabrid.
+
+[[K0248]]
+Eemalda esmalt punane klots ja kõik sellega külgepidi külgnevad klotsid, seejärel lase toetuseta jäänud klotsidel otse alla kukkuda. Korda sama protsessi kollase klotsiga.

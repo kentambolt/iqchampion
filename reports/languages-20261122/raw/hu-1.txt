@@ -1,0 +1,301 @@
+[[K0071]]
+Teszt megosztása a Facebookon
+
+[[K0072]]
+Becsült IQ
+
+[[K0073]]
+Csak szórakozásból. Hozzávetőleges eredmény; nem tekinthető szakmailag hitelesített IQ-mérésnek.
+
+[[K0074]]
+A teszted hiányos. A helyes válaszaid láthatók, de az IQ-becsléshez mind a 36 válaszra szükség van.
+
+[[K0075]]
+Nem elérhető
+
+[[K0076]]
+Ingyenes vizuális következtetési teszt | IQ Champion
+
+[[K0077]]
+36 vizuális logikai feladvány. Vágj bele egy ingyenes, 40 perces kihívásba, és ismerd meg az eredményeidet!
+
+[[K0078]]
+Megválaszolva
+
+[[K0079]]
+Megválaszolatlan
+
+[[K0080]]
+Helyes
+
+[[K0081]]
+Helytelen
+
+[[K0082]]
+Bezárás
+
+[[K0083]]
+Segítség
+
+[[K0084]]
+40 perc
+
+[[K0085]]
+Nyelv
+
+[[K0086]]
+A tesztről
+
+[[K0087]]
+Vizuális logikai kihívás
+
+[[K0088]]
+Fedezd fel a mintázatot!
+
+[[K0089]]
+Találd meg a hiányzó elemet!
+
+[[K0090]]
+36 vizuális feladvány és egy becsült IQ-érték. Csak szórakozásból.
+
+[[K0091]]
+Feladványok
+
+[[K0092]]
+Időkorlát
+
+[[K0093]]
+Költség
+
+[[K0094]]
+Ingyenes
+
+[[K0095]]
+Nem szükséges fiók. Az időzítő a kezdéskor indul el.
+
+[[K0096]]
+Hogyan működik a teszt?
+
+[[K0097]]
+Válaszd ki azt az ikont, amelyik kiegészíti az adott mintát.
+
+[[K0098]]
+A nehéz kérdéseket átugorhatod, és később visszatérhetsz hozzájuk az áttekintő nézetből.
+
+[[K0099]]
+A teszt befejezése előtt ellenőrizd vagy módosítsd a válaszaidat.
+
+[[K0100]]
+A válaszaid és a kezdési időpontod ebben a böngészőben tárolódnak. Az oldal újratöltése esetén az eredeti határidő érvényben marad.
+
+[[K0101]]
+A 40 perces időzítő akkor is tovább ketyeg, ha bezárod az oldalt. A megválaszolatlan kérdések helytelennek számítanak.
+
+[[K0102]]
+Az eredményedről
+
+[[K0103]]
+A becsült IQ-értéked azon alapul, hogy hol helyezkedsz el a
+
+[[K0104]]
+korábbi próbálkozásokhoz képest.
+
+[[K0105]]
+Az összehasonlítás az egy percnél hosszabb, de legfeljebb 40 percig tartó próbálkozásokat veszi alapul. Az eredmény nem hitelesített hivatalos IQ-teszttel, sem reprezentatív népességi mintával.
+
+[[K0106]]
+Ez egy szórakoztató teszt. A becsült IQ-érték csupán közelítő adat, nem pedig szakmailag hitelesített IQ-pontszám.
+
+[[K0107]]
+40 perces teszt indítása
+
+[[K0108]]
+Logikai teszt
+
+[[K0109]]
+A feladat
+
+[[K0110]]
+Hátralévő idő
+
+[[K0111]]
+hátralévő
+
+[[K0112]]
+Kérdésmintázat
+
+[[K0113]]
+Találd meg a mintát
+
+[[K0114]]
+Négy sornyi vizuális minta; egészítsd ki az utolsó sort
+
+[[K0115]]
+Válaszd ki a választ
+
+[[K0116]]
+Navigálás a kérdések között
+
+[[K0117]]
+Előző kérdés
+
+[[K0118]]
+Átugrás (később visszatérhetsz rá)
+
+[[K0119]]
+Következő kérdés
+
+[[K0120]]
+Kérdések áttekintése
+
+[[K0121]]
+✓ Megválaszolva
+
+[[K0122]]
+○ Megválaszolatlan
+
+[[K0123]]
+Áttekintés – aktuális
+
+[[K0124]]
+Ugrás egy kérdésre
+
+[[K0125]]
+Áttekintés és befejezés
+
+[[K0126]]
+Útmutató és mentett előrehaladás
+
+[[K0127]]
+Válasszon egy választ a következő megválaszolatlan kérdésre lépéshez. A teszt befejezése előtt kihagyhat kérdéseket, visszatérhet korábbiakhoz, és módosíthatja válaszait.
+
+[[K0128]]
+A válaszok automatikusan mentésre kerülnek ebben a böngészőben. Az oldal újratöltésekor ugyanannál a kérdésnél folytathatja; az időmérő pedig tovább fut.
+
+[[K0129]]
+Kezdhetjük, amikor csak készen áll
+
+[[K0130]]
+Befejezi a tesztet?
+
+[[K0131]]
+Folytatás
+
+[[K0132]]
+Befejezés és eredmény megtekintése
+
+[[K0133]]
+A feladat teljesítve
+
+[[K0134]]
+Az Ön eredménye
+
+[[K0135]]
+Válaszok áttekintése
+
+[[K0136]]
+Újrapróbálkozás
+
+[[K0137]]
+A tesztről
+
+[[K0138]]
+Hogyan értelmezze az eredményt?
+
+[[K0139]]
+A korábbi próbálkozásokhoz viszonyított százalékos helyezését (percentilisét) a jól ismert IQ-skálára számítottuk át: 100-as középponttal és 15-ös szórással. Ez feltételezi, hogy az összehasonlítási csoport reprezentatív a teljes népességre nézve – ám ez jelenleg nem igazolt. [[K0140]]
+Válaszaid magyarázattal
+
+[[K0141]]
+Válaszaid áttekintése
+
+[[K0142]]
+Vissza az eredményhez
+
+[[K0143]]
+A minta
+
+[[K0144]]
+Válaszok összehasonlítása
+
+[[K0145]]
+A te válaszod
+
+[[K0146]]
+Helyes válasz
+
+[[K0147]]
+Előző kérdés áttekintése
+
+[[K0148]]
+Következő kérdés áttekintése
+
+[[K0149]]
+Eredmények kérdésenként
+
+[[K0150]]
+Fedezd fel mind a 36 feladványt
+
+[[K0151]]
+✓ Helyes
+
+[[K0152]]
+× Helytelen
+
+[[K0153]]
+Kérdés áttekintése
+
+[[K0154]]
+A beküldött válaszaid és a végső pontszámod változatlanok maradnak.
+
+[[K0155]]
+Kapcsolat
+
+[[K0156]]
+Visszajelzés és kapcsolatfelvétel
+
+[[K0157]]
+Küldj visszajelzést, vagy lépj velünk kapcsolatba
+
+[[K0158]]
+Helyes. A válaszod megegyezik a helyes válasszal.
+
+[[K0159]]
+Helytelen. A válaszod eltér a helyes választól.
+
+[[K0160]]
+Megválaszolatlan. Erre a kérdésre nem érkezett válasz.
+
+[[K0161]]
+Nincs beküldött válasz
+
+[[K0162]]
+A beküldött válaszod
+
+[[K0163]]
+Hiányzó ikon
+
+[[K0164]]
+Minden kérdésre válaszoltál. Még mindig áttekintheted és módosíthatod a válaszokat, majd befejezheted a tesztet.
+
+[[K0165]]
+Öt perc vagy kevesebb van hátra.
+
+[[K0166]]
+Lejárt az idő. A válaszaidat értékeltük.
+
+[[K0167]]
+Teszt befejezve.
+
+[[K0168]]
+Az összehasonlítás nem érhető el.
+
+[[K0169]]
+A böngésző nem tudta elmenteni a próbálkozásodat. Hagyd nyitva ezt az oldalt: az oldal újratöltése az elért eredmények elvesztéséhez vagy korábbi válaszok visszaállításához vezethet. [[K0170]]
+Ebben a böngészőben a helyi mentés nem érhető el. Tartsa nyitva ezt az oldalt, nehogy elveszítse az eddigi munkáját.
+
+[[K0171]]
+A mentett próbálkozást nem sikerült visszaállítani. Kezdjen új tesztet, amikor készen áll.
+
+[[K0172]]
+Hagyja az ábrát változatlanul.

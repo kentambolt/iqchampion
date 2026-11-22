@@ -1,0 +1,146 @@
+[
+  {
+    "height": 844,
+    "language": "ar",
+    "page": "home",
+    "scrollHeight": 844,
+    "scrollWidth": 390,
+    "width": 390
+  },
+  {
+    "height": 720,
+    "language": "ar",
+    "page": "test",
+    "scrollHeight": 720,
+    "scrollWidth": 1280,
+    "width": 1280
+  },
+  {
+    "height": 844,
+    "language": "he",
+    "page": "home",
+    "scrollHeight": 844,
+    "scrollWidth": 390,
+    "width": 390
+  },
+  {
+    "height": 720,
+    "language": "he",
+    "page": "test",
+    "scrollHeight": 720,
+    "scrollWidth": 1280,
+    "width": 1280
+  },
+  {
+    "height": 844,
+    "language": "ur",
+    "page": "home",
+    "scrollHeight": 844,
+    "scrollWidth": 390,
+    "width": 390
+  },
+  {
+    "height": 720,
+    "language": "ur",
+    "page": "test",
+    "scrollHeight": 720,
+    "scrollWidth": 1280,
+    "width": 1280
+  },
+  {
+    "height": 844,
+    "language": "hi",
+    "page": "home",
+    "scrollHeight": 844,
+    "scrollWidth": 390,
+    "width": 390
+  },
+  {
+    "height": 720,
+    "language": "hi",
+    "page": "test",
+    "scrollHeight": 720,
+    "scrollWidth": 1280,
+    "width": 1280
+  },
+  {
+    "height": 844,
+    "language": "ta",
+    "page": "home",
+    "scrollHeight": 1025,
+    "scrollWidth": 375,
+    "width": 390
+  },
+  {
+    "height": 720,
+    "language": "ta",
+    "page": "test",
+    "scrollHeight": 720,
+    "scrollWidth": 1280,
+    "width": 1280
+  },
+  {
+    "height": 844,
+    "language": "zh",
+    "page": "home",
+    "scrollHeight": 844,
+    "scrollWidth": 390,
+    "width": 390
+  },
+  {
+    "height": 720,
+    "language": "zh",
+    "page": "test",
+    "scrollHeight": 720,
+    "scrollWidth": 1280,
+    "width": 1280
+  },
+  {
+    "height": 844,
+    "language": "ja",
+    "page": "home",
+    "scrollHeight": 892,
+    "scrollWidth": 375,
+    "width": 390
+  },
+  {
+    "height": 720,
+    "language": "ja",
+    "page": "test",
+    "scrollHeight": 720,
+    "scrollWidth": 1280,
+    "width": 1280
+  },
+  {
+    "height": 844,
+    "language": "fr",
+    "page": "home",
+    "scrollHeight": 858,
+    "scrollWidth": 375,
+    "width": 390
+  },
+  {
+    "height": 720,
+    "language": "fr",
+    "page": "test",
+    "scrollHeight": 720,
+    "scrollWidth": 1280,
+    "width": 1280
+  },
+  {
+    "height": 844,
+    "language": "de",
+    "page": "home",
+    "scrollHeight": 844,
+    "scrollWidth": 390,
+    "width": 390
+  },
+  {
+    "height": 720,
+    "language": "de",
+    "page": "test",
+    "scrollHeight": 720,
+    "scrollWidth": 1280,
+    "width": 1280
+  }
+]

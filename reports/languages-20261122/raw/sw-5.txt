@@ -1,0 +1,165 @@
+[[K0275]]
+Vigawanyaji vyote vyeusi husogea kwa pamoja nafasi moja kuelekea kulia ikiwa nafasi inayofuata ina shanga ya njano. Kigawanyaji kinachozuiwa na kigawanyaji kingine husubiri. Ukingo wa kulia unaunganishwa na ukingo wa kushoto.
+
+[[K0276]]
+Fanya hatua moja ya pamoja kwenye mfuatano wa katikati. Mpangilio wa mwisho ni: kigawanyaji, shanga, kigawanyaji, shanga, kigawanyaji, kigawanyaji, shanga.
+
+[[K0277]]
+Panua rangi hizo na ubaki na kundi kubwa zaidi.
+
+[[K0278]]
+Badilisha kila mpira wenye rangi kwa mipira minne mipya ya rangi hiyo hiyo, ikiwa imewekwa hatua moja juu, chini, kushoto, na kulia. Mipira inayotoka nje ya gridi hupotea. Katika kila nafasi, weka rangi yenye idadi kubwa zaidi ya mipira inayofika hapo. Ikiwa kuna rangi zinazolingana kwa idadi kubwa zaidi, acha nafasi hiyo ikiwa tupu. Mipira kadhaa ya rangi moja inayofika kwenye nafasi moja huonekana kama alama moja ya rangi hiyo.
+
+[[K0279]]
+Kupanua picha ya katikati inayoonyeshwa kunaacha rangi ya kijani upande wa juu kulia na katika safu ya 2, safu wima ya 3; rangi nyekundu katika safu ya 2, safu wima ya 1; na rangi ya kahawia katika safu ya 2, safu wima ya 2; safu ya 3, safu wima ya 3; na safu ya 4, safu wima za 2, 3, na 4. Hizo ndizo hasa rangi na nafasi zilizopo kwenye jibu lililohifadhiwa.
+
+[[K0280]]
+Chagua lugha
+
+[[K0281]]
+Tafuta lugha
+
+[[K0282]]
+Funga kiteua lugha
+
+[[K0283]]
+Hakuna lugha zilizopatikana
+
+[[K0284]]
+Jaribio la IQ la bure kwa ajili ya burudani | IQ Champion
+
+[[K0285]]
+Jaribio la bure la mtindo wa IQ kwa ajili ya burudani: mafumbo 36 ya kuona, dakika 40, maendeleo yaliyohifadhiwa, na makadirio ya matokeo ya IQ. Huhitaji akaunti.
+
+[[K0286]]
+Chagua lugha unayopendelea. Majibu yako na muda wa mwisho wa awali vitabaki vimehifadhiwa.
+
+[[K0287]]
+Inapakia lugha…
+
+[[K0288]]
+Lugha haikuweza kupakiwa. Jaribio lako na majibu yako hayajabadilika. [[K0289]]
+Maoni yanapatikana kwa Kidenmark na Kiingereza.
+
+[[K0290]]
+Mafanikio yaliyoshirikiwa
+
+[[K0291]]
+Matokeo yaliyoshirikiwa
+
+[[K0292]]
+Matokeo yaliyoshirikiwa yanaripotiwa na wahusika wenyewe.
+
+[[K0293]]
+Mafanikio yaliyoshirikiwa yanaripotiwa na wahusika wenyewe. Hakuna taarifa kuhusu umri, nchi, majibu, au wasifu binafsi zinazoshirikiwa.
+
+[[K0294]]
+Jaribu mafumbo hayo 36 mwenyewe
+
+[[K0295]]
+Jaribu mtihani huo mwenyewe
+
+[[K0296]]
+Changamoto ya kuona katika IQ Champion. Je, unaweza kugundua mtindo huo pia?
+
+[[K0297]]
+Jaribio la mafumbo ya kuona la bure, kwa ajili ya burudani tu. Si kipimo cha IQ kilichothibitishwa kitaalamu.
+
+[[K0298]]
+Ukurasa haukupatikana
+
+[[K0299]]
+Unaweza kuendelea katika lugha nyingine.
+
+[[K0300]]
+imejibiwa
+
+[[K0301]]
+haijajibiwa
+
+[[K0302]]
+sahihi
+
+[[K0303]]
+si sahihi
+
+[[K0304]]
+Makadirio ya kiwango cha kati: {0} (majibu sahihi {1} yaliyotolewa ndani ya muda uliowekwa).
+
+[[K0305]]
+Swali {0} · {1}
+
+[[K0306]]
+Mitindo sahihi {0}
+
+[[K0307]]
+Muda uliotumika: {0}
+
+[[K0308]]
+Ulinganisho: Majaribio {0} ya hiari katika kipindi cha siku {1}.
+
+[[K0309]]
+Swali {0} / {1}
+
+[[K0310]]
+Kagua swali {0} / {1}
+
+[[K0311]]
+Mstari {0}, ikoni {1}
+
+[[K0312]]
+Jibu {0}
+
+[[K0313]]
+Swali {0}, {1}
+
+[[K0314]]
+Kagua swali {0}, {1}
+
+[[K0315]]
+{0} sahihi; {1} si sahihi; {2} hazikujibiwa.
+
+[[K0316]]
+{0} zimejibiwa; {1} hazikujibiwa.
+
+[[K0317]]
+{0} zimejibiwa; {1} hazikujibiwa. Maswali yasiyojibiwa huhesabiwa kama makosa. Ukishamaliza, huwezi kubadilisha majibu.
+
+[[K0318]]
+{0} / {1} sahihi
+
+[[K0319]]
+Nafasi ya asilimia (percentile) miongoni mwa washiriki wa awali: {0}
+
+[[K0320]]
+Washiriki waliopata alama za chini: {0}%. Washiriki waliopata alama sawa: {1}%.
+
+[[K0321]]
+Kundi la kulinganisha: {0} majaribio ya awali. Majaribio yaliyochukua muda wa zaidi ya dakika moja hadi dakika 40 yamejumuishwa. Alama zinazolingana huwekwa kwenye sehemu ya katikati ya kundi lao la asilimia. Makadirio yamezungushwa kuwa namba kamili na kuonyeshwa ndani ya kiwango cha 55–145 pekee, huku kukiwa na kiashirio ikiwa matokeo yako nje ya kiwango hicho. Hii ni ubadilishaji wa kipimo, na si kipimo cha IQ cha idadi ya watu kilichothibitishwa kivyake. Mazoezi na kujaribu mara kwa mara kunaweza kuathiri matokeo yako. Baadhi ya picha za mfano zimesahihishwa tangu data za majaribio ya awali zilipokusanywa, jambo linalopunguza uwezekano wa kulinganisha matokeo.
+
+[[K0322]]
+Makadirio ya IQ yangu katika IQ Champion: {0}. Kwa ajili ya burudani tu. Jaribu mwenyewe: {1}
+
+[[K0323]]
+Nimetatua swali namba {0} kwa usahihi ndani ya {1}. Je, unaweza kufanya hivyo pia? {2}
+
+[[K0324]]
+Nimetatua swali namba {0} kwa usahihi ndani ya {1} (makadirio ya wastani wa kati miongoni mwa majibu sahihi: {2}). Je, unaweza kufanya hivyo pia? {3}
+
+[[K0325]]
+Nimegundua mifumo {0} sahihi katika IQ Champion. Jaribu mwenyewe: {1}
+
+[[K0326]]
+Je, unaweza kugundua mifumo inayokosekana katika IQ Champion? {0}
+
+[[K0327]]
+Swali namba {0} limetatuliwa
+
+[[K0328]]
+Mifumo {0} imetatuliwa
+
+[[K0329]]
+{0} / 36 sahihi. {1}
+
+[[K0330]]
+IQ Iliyokadiriwa {0} | Bingwa wa IQ

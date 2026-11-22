@@ -1,0 +1,99 @@
+[[K0215]]
+Katrā solī pagrieziet figūru par 45 grādiem pretēji pulksteņrādītāja virzienam. Tās krāsa mainās, tāpēc trešajā attēlā atgriežas pirmā attēla krāsa.
+
+[[K0216]]
+Pagrieziet balto vidējo figūru vēl par 45 grādiem pretēji pulksteņrādītāja virzienam un atjaunojiet tumšo krāsu no pirmā attēla. Izvēlieties tumšo, izliekto figūru šādā novietojumā.
+
+[[K0217]]
+Apvienojiet melnos apļus.
+
+[[K0218]]
+Rezultātā aplis ir melns, ja atbilstošais aplis ir melns kādā no ievades attēliem. Tas ir balts tikai tad, ja abos ievades attēlos attiecīgajā vietā ir balts aplis.
+
+[[K0219]]
+Pirmais ievades attēls sniedz melno apli apakšējā labajā stūrī, bet otrais — divus melnos apļus augšpusē. Centrālais un apakšējais kreisais aplis paliek balti.
+
+[[K0220]]
+Izpletieties uz blakus esošajām šūnām.
+
+[[K0221]]
+Katrā solī ikviena zilā šūna paliek zila un iekrāso arī savas tiešās kaimiņšūnas — augšpusē, apakšpusē, pa kreisi un pa labi. Izplešanās apstājas pie režģa robežas.
+
+[[K0222]]
+Veiciet tādu pašu vienas šūnas izplešanos vidējā zilajā apgabalā. Jaunās kaimiņšūnas kļūst zilas, savukārt tālāk esošās šūnas saglabā pelēki melno šaha galdiņa rakstu.
+
+[[K0223]]
+Likvidējiet sakrītošās brūnās pozīcijas.
+
+[[K0224]]
+Salīdziniet divas piecu šūnu joslas, pārbaudot katru pozīciju. Rezultātā šūna ir brūna, ja tieši vienā no ievades attēliem tā ir brūna. Ja abos attēlos šūna ir brūna, tās "izdzēš" viena otru un kļūst zilas.
+
+[[K0225]]
+Pirmajā joslā brūnas ir 2., 3., 4. un 5. pozīcija, bet otrajā — 2., 3. un 5. pozīcija. Tikai 4. pozīcija paliek brūna.
+
+[[K0226]]
+Noņemiet sarkanos punktus, kas atrodas vistuvāk viens otram.
+
+[[K0227]]
+Atrodiet mazāko attālumu starp jebkuriem diviem sarkaniem punktiem. Noņemiet visus sarkanos punktus, kas veido pāri ar šādu attālumu. Nākamajam solim pārrēķiniet mazāko attālumu. [[K0228]]
+Vidējā attēlā trīs apakšējie sarkanie punkti veido tuvākos diagonālos pārus. Tos noņemot, paliek tikai sarkanais punkts augšējā rindā, ceturtajā kolonnā.
+
+[[K0229]]
+Pārvietojiet sešas krāsas pa apli.
+
+[[K0230]]
+Aplūkojiet krāsas, virzoties uz leju pa kreiso kaudzīti, pēc tam — pa labo kaudzīti. Pārbīdiet katru krāsu par vienu pozīciju uz priekšu šajā sešu pozīciju ciklā; krāsa, kas atrodas apakšējā labajā stūrī, nonāk augšējā kreisajā stūrī.
+
+[[K0231]]
+Vidējā attēlā brūnais aplis, kas atrodas apakšējā labajā stūrī, pārvietojas uz augšējo kreiso stūri. Rezultātā kreisajā pusē izveidojas kaudzīte: brūns/sarkans/sarkans, bet labajā pusē — melns/brūns/zils.
+
+[[K0232]]
+Pārvietojiet baltos un melnos elementus pretējos virzienos.
+
+[[K0233]]
+Katrā solī baltie apļi pārvietojas par vienu stūri pulksteņrādītāja virzienā, bet melnie apļi — par vienu stūri pretēji pulksteņrādītāja virzienam. Pelēkā krāsa norāda, ka baltais un melnais aplis atrodas vienā un tajā pašā stūrī; pirms nākamās pārvietošanas tie ir jāatdala.
+
+[[K0234]]
+Vidējā attēlā baltie apļi atrodas abos kreisajos stūros, savukārt melnie apļi — abos kreisajos stūros un apakšējā labajā stūrī. Pēc pārvietošanas baltais aplis atrodas augšējā kreisajā stūrī, pelēkais — augšējā labajā stūrī, bet melnie apļi — abos apakšējos stūros.
+
+[[K0235]]
+Pagariniet katru horizontālo svītru.
+
+[[K0236]]
+Katrā solī pagariniet katru melno horizontālo svītru, sniedzot to līdz blakus esošajām kapsulām abās pusēs. Esošās svītras tiek saglabātas, un svītru pagarināšana apstājas pie ārējām malām.
+
+[[K0237]]
+Vidējā attēlā esošās svītras pagariniet vēl par vienu kapsulu uz kreiso un labo pusi. Saglabājiet atšķirīgus svītru augstumus; atbildē redzamas iegūtās garākas horizontālās līnijas, kas stiepjas pāri četrām kapsulām.
+
+[[K0238]]
+Paplašiniet trīsstūrveida režģi.
+
+[[K0239]]
+Uztveriet zīmējumu kā mazu trīsstūru kopumu. Katrā solī pievienojiet mazu trīsstūri tieši aiz katras brīvās malas, saglabājot esošos trīsstūrus un to savienojošās līnijas.
+
+[[K0240]]
+Paplašiniet vidējo zaļo kopu, pievienojot vēl vienu slāni ar blakus esošiem trīsstūriem. Atbildē saglabāts tas pats trīsstūrveida režģis, un gar tā ārējām malām ir pievienoti trīsstūri.
+
+[[K0241]]
+Noņemiet iezīmētās virsotnes.
+
+[[K0242]]
+Brūnie punkti norāda melnā daudzstūra virsotnes, kas jānoņem. Savienojiet atlikušās virsotnes to sākotnējā secībā. Ja paliek divas virsotnes, tās veido nogriezni.
+
+[[K0243]]
+Noņemiet augšējo un kreiso virsotni, kas iezīmētas ar brūniem punktiem. Paliek tikai divas apakšējās virsotnes, tādēļ atbilde ir īss horizontāls nogrieznis apakšējā labajā daļā.
+
+[[K0244]]
+Mainiet punktu stāvokli kontūras stūros.
+
+[[K0245]]
+Saskaņojiet melnās kontūras virsotnes ar punktu režģi (3x3). Katrā virsotnē noņemiet esošo zilo punktu vai pievienojiet jaunu, ja vieta ir tukša. Pārējās pozīcijas paliek nemainīgas.
+
+[[K0246]]
+Mainiet punktu stāvokli slīpās kontūras četros stūros. Rezultātā zilie punkti atrodas augšējā kreisajā un augšējā vidējā pozīcijā, vidējā centrālajā un vidējā labajā pozīcijā, kā arī visās trīs apakšējās pozīcijās.
+
+[[K0247]]
+Noņemiet iezīmēto ķieģeli un tā kaimiņus.
+
+[[K0248]]
+Vispirms noņemiet sarkano ķieģeli un visus ķieģeļus, kam ar to ir kopīga mala; pēc tam ļaujiet ķieģeļiem, kas vairs neturas, krist taisni uz leju. Atkārtojiet to pašu ar dzelteno ķieģeli.

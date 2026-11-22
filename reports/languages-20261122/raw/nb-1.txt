@@ -1,0 +1,301 @@
+[[K0071]]
+Del testen på Facebook
+
+[[K0072]]
+Estimert IQ
+
+[[K0073]]
+Kun for moro skyld. Et omtrentlig resultat, ikke en profesjonelt validert IQ-måling.
+
+[[K0074]]
+Testen din er ufullstendig. Dine riktige svar vises, men et IQ-estimat krever alle 36 svarene.
+
+[[K0075]]
+Ikke tilgjengelig
+
+[[K0076]]
+Gratis test i visuell resonnering | IQ Champion
+
+[[K0077]]
+36 oppgaver innen visuell resonnering. Ta en gratis 40-minutters utfordring og se resultatene dine.
+
+[[K0078]]
+Besvart
+
+[[K0079]]
+Ubesvart
+
+[[K0080]]
+Riktig
+
+[[K0081]]
+Feil
+
+[[K0082]]
+Lukk
+
+[[K0083]]
+Hjelp
+
+[[K0084]]
+40 min
+
+[[K0085]]
+Språk
+
+[[K0086]]
+Om testen
+
+[[K0087]]
+En utfordring innen visuell resonnering
+
+[[K0088]]
+Finn mønsteret.
+
+[[K0089]]
+Finn den manglende brikken.
+
+[[K0090]]
+36 visuelle oppgaver og en estimert IQ-skåre. Kun for moro skyld.
+
+[[K0091]]
+Oppgaver
+
+[[K0092]]
+Tidsbegrensning
+
+[[K0093]]
+Pris
+
+[[K0094]]
+Gratis
+
+[[K0095]]
+Ingen konto nødvendig. Tidtakeren starter når du begynner.
+
+[[K0096]]
+Slik fungerer testen
+
+[[K0097]]
+Velg ikonet som fullfører hvert mønster.
+
+[[K0098]]
+Hopp over vanskelige spørsmål, og gå tilbake til dem via oversikten.
+
+[[K0099]]
+Gå gjennom eller endre svarene dine før du fullfører. [[K0100]]
+Svarene dine og starttidspunktet lagres i denne nettleseren. Hvis du laster inn siden på nytt, beholdes den opprinnelige tidsfristen.
+
+[[K0101]]
+Nedtellingen på 40 minutter fortsetter selv om siden lukkes. Spørsmål som ikke besvares, regnes som feil.
+
+[[K0102]]
+Om resultatet ditt
+
+[[K0103]]
+Din estimerte IQ er basert på hvor du plasserer deg blant
+
+[[K0104]]
+tidligere gjennomføringer.
+
+[[K0105]]
+Sammenligningen baseres på gjennomføringer som varte i alt fra ett minutt opptil 40 minutter. Den er ikke validert mot en offisiell IQ-test eller et representativt utvalg av befolkningen.
+
+[[K0106]]
+En test for moro skyld. Din estimerte IQ er en tilnærming, ikke et profesjonelt validert IQ-resultat.
+
+[[K0107]]
+Start 40-minutters test
+
+[[K0108]]
+Logikktest
+
+[[K0109]]
+Din utfordring
+
+[[K0110]]
+Gjenstående tid
+
+[[K0111]]
+gjenstår
+
+[[K0112]]
+Mønster i oppgaven
+
+[[K0113]]
+Finn mønsteret
+
+[[K0114]]
+Fire rader med visuelle mønstre; fullfør den siste raden
+
+[[K0115]]
+Velg svar
+
+[[K0116]]
+Navigasjon
+
+[[K0117]]
+Forrige spørsmål
+
+[[K0118]]
+Hopp over så lenge
+
+[[K0119]]
+Neste spørsmål
+
+[[K0120]]
+Oversikt over spørsmål
+
+[[K0121]]
+✓ Besvart
+
+[[K0122]]
+○ Ubesvart
+
+[[K0123]]
+Ramme = gjeldende
+
+[[K0124]]
+Gå til et spørsmål
+
+[[K0125]]
+Gå gjennom og fullfør
+
+[[K0126]]
+Instruksjoner og lagret fremdrift
+
+[[K0127]]
+Velg et svar for å gå videre til neste ubesvarte spørsmål. Du kan hoppe over, gå tilbake og endre svar før du fullfører.
+
+[[K0128]]
+Svarene lagres automatisk i denne nettleseren. Hvis du laster inn siden på nytt, kommer du tilbake til samme spørsmål; tidtakeren fortsetter å gå.
+
+[[K0129]]
+Klar når du er klar
+
+[[K0130]]
+Fullfør denne testen?
+
+[[K0131]]
+Fortsett
+
+[[K0132]]
+Fullfør og se resultat
+
+[[K0133]]
+Utfordring fullført
+
+[[K0134]]
+Ditt resultat
+
+[[K0135]]
+Gå gjennom svar
+
+[[K0136]]
+Prøv igjen
+
+[[K0137]]
+Om denne testen
+
+[[K0138]]
+Hvordan tolke dette resultatet
+
+[[K0139]]
+Din persentil blant tidligere forsøk er omregnet til den kjente IQ-skalaen: med et midtpunkt på 100 og et standardavvik på 15. Dette forutsetter at sammenligningsgruppen er representativ for befolkningen, noe som ikke er bekreftet.
+
+[[K0140]]
+Dine svar – forklart
+
+[[K0141]]
+Gå gjennom svarene dine
+
+[[K0142]]
+Tilbake til resultat
+
+[[K0143]]
+Mønsteret
+
+[[K0144]]
+Sammenlign svar
+
+[[K0145]]
+Ditt svar
+
+[[K0146]]
+Riktig svar
+
+[[K0147]]
+Forrige spørsmål
+
+[[K0148]]
+Neste spørsmål
+
+[[K0149]]
+Resultater per spørsmål
+
+[[K0150]]
+Utforsk alle 36 oppgavene
+
+[[K0151]]
+✓ Riktig
+
+[[K0152]]
+× Feil
+
+[[K0153]]
+Gå gjennom et spørsmål
+
+[[K0154]]
+Svarene du har sendt inn, og sluttresultatet ditt, forblir uendret. [[K0155]]
+Kontakt
+
+[[K0156]]
+Tilbakemelding og kontakt
+
+[[K0157]]
+Send tilbakemelding eller kontakt oss
+
+[[K0158]]
+Riktig. Svaret ditt stemmer overens med det riktige svaret.
+
+[[K0159]]
+Feil. Svaret ditt avviker fra det riktige svaret.
+
+[[K0160]]
+Ikke besvart. Det ble ikke gitt noe svar på dette spørsmålet.
+
+[[K0161]]
+Ingen svar avgitt
+
+[[K0162]]
+Svaret du ga
+
+[[K0163]]
+Manglende ikon
+
+[[K0164]]
+Alle spørsmål er besvart. Du kan fortsatt gå gjennom og endre svar, og deretter fullføre testen.
+
+[[K0165]]
+Fem minutter eller mindre gjenstår.
+
+[[K0166]]
+Tiden er ute. Svarene dine er vurdert.
+
+[[K0167]]
+Test fullført.
+
+[[K0168]]
+Sammenligning er ikke tilgjengelig.
+
+[[K0169]]
+Denne nettleseren kunne ikke lagre forsøket ditt. Hold siden åpen: Hvis du laster inn siden på nytt, kan fremdriften gå tapt, eller eldre svar kan bli gjenopprettet.
+
+[[K0170]]
+Lokal lagring er ikke tilgjengelig i denne nettleseren. Hold siden åpen for å unngå å miste forsøket ditt.
+
+[[K0171]]
+Det lagrede forsøket kunne ikke gjenopprettes. Start en ny test når du er klar.
+
+[[K0172]]
+La figuren være uendret

@@ -1,0 +1,99 @@
+[[K0215]]
+Minden lépésben fordítsd el az alakzatot 45 fokkal az óramutató járásával ellentétes irányba. A színe váltakozik, így a harmadik ábrán újra az első ábrán látható szín jelenik meg.
+
+[[K0216]]
+Fordítsd el a középső fehér alakzatot további 45 fokkal az óramutató járásával ellentétes irányba, és állítsd vissza az első ábrán látható sötét színt. Válaszd ki a sötét, íves alakzatot ebben a helyzetben.
+
+[[K0217]]
+Vond össze a fekete köröket.
+
+[[K0218]]
+Az eredményben egy kör akkor lesz fekete, ha a megfelelő kör az egyik vagy a másik bemeneti ábrán fekete. Csak akkor marad fehér, ha mindkét bemeneti ábrán fehér kör található az adott helyen.
+
+[[K0219]]
+Az első bemeneti ábráról származik a jobb alsó fekete kör, a másodikról pedig a két felső fekete kör. A középső és a bal alsó kör fehér marad.
+
+[[K0220]]
+Terjeszd ki a szomszédos cellákra.
+
+[[K0221]]
+Minden lépésben a kék cellák kékek maradnak, és kékre színezik közvetlen szomszédaikat is (fölöttük, alattuk, tőlük balra és jobbra). A terjedés a rács szélénél megáll.
+
+[[K0222]]
+Alkalmazd ugyanezt az egy cellányi kiterjesztést a középső kék területre. Az újonnan elért oldalsó szomszédok kékekké válnak, a távolabbi cellák pedig megmaradnak a szürke-fekete sakktábla-mintázatban.
+
+[[K0223]]
+Töröld ki az egybeeső barna pozíciókat.
+
+[[K0224]]
+Hasonlítsd össze a két, öt cellából álló sávot pozíciónként. Egy cella akkor lesz barna az eredményben, ha a két bemeneti ábra közül pontosan az egyiken barna. Az egybeeső barna cellák kékké változnak (kiesnek).
+
+[[K0225]]
+Az első sávban a 2., 3., 4. és 5. pozíció barna, a másodikban pedig a 2., 3. és 5. pozíció. Így csak a 4. pozíció marad barna.
+
+[[K0226]]
+Távolítsd el a legközelebbi piros pontokat.
+
+[[K0227]]
+Határozd meg a legkisebb távolságot bármely két piros pont között. Távolíts el minden olyan piros pontot, amely része egy ilyen távolságra lévő párnak. A következő lépéshez számítsd ki újra a legkisebb távolságot. [[K0228]]
+A középső ábrán az alsó három piros pont a legközelebbi átlós párok része. Ha ezeket eltávolítjuk, csak a legfelső sor negyedik oszlopában lévő piros pont marad meg.
+
+[[K0229]]
+Mozgasd a hat színt egy körfolyamat mentén!
+
+[[K0230]]
+Olvasd végig a bal oldali oszlopot fentről lefelé, majd a jobb oldali oszlopot is. Tolj el minden színt egy pozícióval előrébb ebben a hatlépéses körfolyamatban; a jobb alsó sarokban lévő szín kerüljön át a bal felső sarokba!
+
+[[K0231]]
+A középső ábrán a jobb alsó barna kör átkerül a bal felső sarokba. A végeredmény: bal oldalon barna/piros/piros, jobb oldalon pedig fekete/barna/kék sorrend alakul ki.
+
+[[K0232]]
+Mozgasd a fehéret és a feketét ellentétes irányba!
+
+[[K0233]]
+Minden lépésben a fehér körök egy sarokkal az óramutató járásával megegyező irányba, a fekete körök pedig egy sarokkal az óramutató járásával ellentétes irányba mozdulnak el. A szürke szín azt jelzi, hogy egy fehér és egy fekete kör ugyanazon a sarkon található; a következő lépés előtt válaszd szét őket!
+
+[[K0234]]
+A középső ábrán a két bal oldali sarokban fehér körök, a két bal oldali sarokban és a jobb alsó sarokban pedig fekete körök találhatók. Az elmozdítások után a bal felső sarokban fehér, a jobb felső sarokban szürke, a két alsó sarokban pedig fekete körök lesznek.
+
+[[K0235]]
+Hosszabbítsd meg az összes vízszintes vonalat!
+
+[[K0236]]
+Minden lépésben hosszabbítsd meg az összes fekete vízszintes vonalat mindkét irányban a közvetlenül szomszédos kapszulákig! A meglévő vonalak megmaradnak, a vonalak pedig a külső széleknél érnek véget.
+
+[[K0237]]
+A középső ábrán látható vonalakat hosszabbítsd meg még egy-egy kapszulával balra és jobbra! Ügyelj arra, hogy a különböző magasságban lévő vonalak különállóak maradjanak; a megoldás a négy kapszulán átívelő, immár hosszabb vízszintes vonalakat mutatja.
+
+[[K0238]]
+Bővítsd a háromszögrácsot!
+
+[[K0239]]
+Tekintsd az ábrát kis háromszögek halmazának! Minden lépésben illessz egy-egy kis háromszöget minden szabadon álló él mellé, miközben a meglévő háromszögeket és az azokat összekötő vonalakat megtartod!
+
+[[K0240]]
+Bővítsd a középső zöld alakzatot a szomszédos háromszögekből álló újabb réteggel! A megoldás megtartja ugyanazt a háromszögrácsot, és kiegészíti azt a külső élei mentén található háromszögekkel.
+
+[[K0241]]
+Távolítsd el a megjelölt csúcsokat!
+
+[[K0242]]
+A barna pontok a fekete sokszög eltávolítandó csúcsait jelölik. Kösd össze a megmaradó csúcsokat az eredeti sorrendjükben! Két megmaradó csúcs egy szakaszt alkot.
+
+[[K0243]]
+Távolítsd el a barna pontokkal jelölt felső és bal oldali csúcsokat! Csak az alsó két csúcs marad meg, így a megoldás a jobb alsó rész közelében lévő rövid, vízszintes szakasz.
+
+[[K0244]]
+Változtasd meg a körvonal sarkainál lévő pontok állapotát!
+
+[[K0245]]
+Igazítsd a fekete körvonal csúcsait a 3x3-as pontrácshoz! Minden csúcsnál távolíts el egy meglévő kék pontot, vagy – ha a hely üres – adj hozzá egyet! A többi pozíció változatlan marad.
+
+[[K0246]]
+Változtasd meg a ferde körvonal négy sarkánál lévő pontok állapotát! Az eredményül kapott ábrán kék pontok lesznek a bal felső és felső középső, a középső és középső jobb, valamint mindhárom alsó pozícióban.
+
+[[K0247]]
+Távolítsd el a megjelölt téglát és a szomszédait!
+
+[[K0248]]
+Először távolítsd el a piros téglát és az összes olyan téglát, amelynek közös éle van vele, majd hagyd, hogy az alátámasztás nélkül maradt téglák egyenesen leessenek! Ismételd meg ugyanezt a folyamatot a sárga téglával is!

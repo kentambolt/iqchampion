@@ -1,0 +1,121 @@
+[[K0173]]
+Katrā piemēra rindā katrā pozīcijā ir viens un tas pats zils aplis. Nemainās ne forma, ne krāsa, ne izmērs.
+
+[[K0174]]
+Pēdējā rindā jau ir divi identiski zili apļi. Vēl viens tāds pats zils aplis to papildina.
+
+[[K0175]]
+Pievienojiet vienu iekšējo kontūru
+
+[[K0176]]
+Virzoties pa labi, iepriekšējās formas iekšpusē parādās mazāka tās pašas formas kontūra. Ārējā forma un tās krāsa paliek nemainīgas.
+
+[[K0177]]
+Zaļajam trīsstūrim vidējā pozīcijā ir viens iekšējais trīsstūris. Pievienojiet vēl vienu, mazāku iekšējo trīsstūri, lai iegūtu atbildi.
+
+[[K0178]]
+Izmantojiet pirmo formu kā izgriezumu
+
+[[K0179]]
+Melnā forma, kas atrodas pirmajā pozīcijā, tiek izgriezta no krāsainā kvadrāta centra otrajā pozīcijā. Izgriezums ir balts.
+
+[[K0180]]
+Melnais kvadrāts zaļajā kvadrātā veido kvadrātveida caurumu. Izvēlieties zaļo kvadrātu ar baltu kvadrātveida atveri.
+
+[[K0181]]
+Apvienojiet augšējo un apakšējo krāsu
+
+[[K0182]]
+Rezultāta augšējā puse ir ņemta no pirmās kapsulas, bet apakšējā puse — no otrās kapsulas.
+
+[[K0183]]
+Pirmā kapsula ir balta, bet otrā — zila, tāpēc rezultātā augšējā daļa ir balta, bet apakšējā — zila.
+
+[[K0184]]
+Pagrieziet krāsainās daļas
+
+[[K0185]]
+Katrā solī pagrieziet visu četru daļu figūru par 90 grādiem pulksteņrādītāja virzienā. Visas sarkanās un zilās daļas pārvietojas kopā ar figūru.
+
+[[K0186]]
+Pagrieziet vidējo figūru vēl par ceturtdaļapgriezienu pulksteņrādītāja virzienā. Abas sarkanās daļas nonāk labajā pusē un apakšā; augšējā un kreisā daļa ir zilas.
+
+[[K0187]]
+Pakāpeniski noapaļojiet stūrus
+
+[[K0188]]
+Krāsa un vispārējā forma paliek nemainīgas, savukārt stūri ar katru soli kļūst arvien noapaļotāki. [[K0189]]
+Turpiniet noapaļot brūnā taisnstūra stūrus. Atbilde ir brūna kapsula ar pilnībā noapaļotiem galiem.
+
+[[K0190]]
+Turpiniet apļa kustību.
+
+[[K0191]]
+Katrā rindā zaļais aplis pārvietojas vienādā attālumā un vienādā virzienā: augšup, lejup vai horizontāli. Tā izmērs paliek nemainīgs.
+
+[[K0192]]
+Pēdējā rindā aplis pārvietojas pa kreisi gar kvadrāta apakšmalu. Vēl viens tikpat liels solis novieto to apakšējā kreisajā stūrī.
+
+[[K0193]]
+Pagrieziet visu punktu izkārtojumu.
+
+[[K0194]]
+Katrā solī pagrieziet kvadrātu un visus tajā esošos punktus par 45 grādiem pretēji pulksteņrādītāja virzienam. Kvadrāts pārtop par rombu, tad atkal par kvadrātu.
+
+[[K0195]]
+Pagrieziet vidējo zaļi-melno rombu vēl par 45 grādiem pretēji pulksteņrādītāja virzienam. Saglabājiet zaļos un melnos punktus to pagrieztajās pozīcijās.
+
+[[K0196]]
+Saīsiniet katru joslu no augšpuses.
+
+[[K0197]]
+Katrā solī katra vertikālā melnā josla kļūst par vienu režģa vienību īsāka no augšējā gala. Tās apakšējais gals paliek uz apakšējās līnijas. Josla pazūd, kad tās garums sasniedz nulli.
+
+[[K0198]]
+Vidējā attēlā redzama viena režģa vienību gara josla vidū un divu vienību gara josla labajā pusē. Vidējā josla pazūd, atstājot vienas vienības garu joslu labajā pusē.
+
+[[K0199]]
+Atspoguļojiet attiecībā pret melno līniju.
+
+[[K0200]]
+Vidējā līnija ir spoguļass. Atspoguļojiet krāsaino figūru attiecībā pret šo līniju, nevis vienkārši pagrieziet to.
+
+[[K0201]]
+Pēdējā spoguļlīnija ir vertikāla, tāpēc dzeltenā figūra tiek apgriezta no kreisās puses uz labo. Tās krāsa un izmērs paliek nemainīgi.
+
+[[K0202]]
+Uzlieciet figūras vienu otrai virsū un izmantojiet pirmo krāsu.
+
+[[K0203]]
+Novietojiet abas figūras vienu virs otras. Saglabājiet apvienoto siluetu un redzamās kontūras, bet nokrāsojiet rezultātu tādā krāsā, kāda bija pirmajai figūrai. [[K0204]]
+Uzlieciet zilo, uz leju vērsto trīsstūri uz dzeltenā sešstūra; apvienotajai figūrai izmantojiet zilo krāsu. Trīsstūra izvirzītie stūri ap sešstūri paliek redzami.
+
+[[K0205]]
+Saglabājiet zaļo krāsu tikai vienā no ievades attēliem.
+
+[[K0206]]
+Salīdziniet abu kvadrātu atbilstošos laukumus. Laukums ir zaļš, ja tas ir zaļš tieši vienā no ievades attēliem. Ja laukums ir zaļš abos attēlos, tas kļūst balts; ja tas ir balts abos, tas paliek balts.
+
+[[K0207]]
+Pirmais kvadrāts ir pilnībā zaļš, bet otrajam zaļa ir tikai apakšējā kreisā ceturtdaļa. Šī kopīgā ceturtdaļa kļūst balta, savukārt pārējās trīs ceturtdaļas paliek zaļas.
+
+[[K0208]]
+Pievienojiet kopiju katrā stūrī.
+
+[[K0209]]
+Novietojiet maza, melna simbola kopiju katrā lielās figūras virsotnē. Pievienotās kopijas iegūst lielās figūras krāsu.
+
+[[K0210]]
+Lielajam zilajam rombam ir četri stūri. Katrā stūrī pievienojiet zilu, uz leju vērstu trīsstūri, ievērojot to pašu izvietojuma principu, kas redzams piemēros.
+
+[[K0211]]
+Saskaitiet atbilstošo stabiņu augstumus.
+
+[[K0212]]
+Katrā no trim horizontālajām pozīcijām saskaitiet melnā stabiņa augstumu pirmajā attēlā ar tā augstumu otrajā attēlā. Mēriet augstumu virzienā uz augšu no kopīgās apakšējās līnijas.
+
+[[K0213]]
+Nevienā no ievades attēliem nav stabiņa kreisajā pusē. Divi vidējie stabiņi kopā veido pilna augstuma stabiņu, savukārt stabiņi labajā pusē veido īsāku stabiņu. Atbildē ir redzami tikai šie vidējie un labās puses stabiņi.
+
+[[K0214]]
+Pagrieziet un mainiet krāsas.

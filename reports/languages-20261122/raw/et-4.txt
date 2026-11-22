@@ -1,0 +1,75 @@
+[[K0249]]
+Pärast punase klotsi eemaldamist moodustavad allesjäänud klotsid keskmise trepi. Kollase klotsi ja sellega külgnevate klotside eemaldamisel jääb järele ülemine sinine klots, mis kukub alla.
+
+[[K0250]]
+Tsüklita kihte ja rakenda värvimaski.
+
+[[K0251]]
+Jälgi samu kolme kujundit. Igas etapis liigub eesmine kujund taha. Lõpplahenduses säilita keskmise pildi hallid või mustad täited; täitmata valged kujundid saavad tagasi oma värvid esimeselt pildilt.
+
+[[K0252]]
+Hall kuusnurk liigub ette, must horisontaalne kapsel jääb selle taha ja vertikaalne kapsel liigub kõige taha. See valge vertikaalne kapsel saab tagasi oma algse kollase värvi.
+
+[[K0253]]
+Kasuta iga ringi värvi, et määrata selle liikumine.
+
+[[K0254]]
+Jälgi iga ringi liikumist selle vahetus ümbruses oleva ringi suhtes. Valge liigub 90 kraadi päripäeva, must 90 kraadi vastupäeva ja punane jääb samale suhtelisele positsioonile. Sinine ei liigu. Rakenda neid liikumisi igal tasandil.
+
+[[K0255]]
+Must ring liigub sinise ringi kohalt sellest vasakule. Punane jääb musta ringi sees paremale poole. Suurem valge ring liigub punase kohalt sellest paremale; väikseim valge ring liigub suurema valge ringi alt sellest vasakule.
+
+[[K0256]]
+Liiguta värve mööda ühendatud teid.
+
+[[K0257]]
+Mustad ühendusjooned määravad teed, mida mööda värvid liiguvad. Liigu igal ringil päripäeva, nihutades iga värvi järgmisele ühendatud positsioonile. Kahe positsiooniga teel vahetavad värvid omavahel kohad; ühendamata punktid jäävad paigale.
+
+[[K0258]]
+Vaheta kaks ülemist värvi. Alumisel ringil liigub keskel vasakul asuv sinine keskele ja keskel paremal asuv punane alla vasakule. Ühendamata punane all paremal jääb muutumatuks. [[K0259]]
+Liiguta iga värvi mööda sellele vastavat rada
+
+[[K0260]]
+Punane liigub alla, roheline paremale ja kollane vasakule. Sinine liigub üles ning võimalusel ühe veeru võrra vasakule. Valge tähistab kattuvaid värve; järgmist sammu tehes eralda need värvid taas. Ruudustikust väljapoole liikuvad värvid kaovad.
+
+[[K0261]]
+Eralda keskmine valge lahter punaseks ja roheliseks. Punane liigub alla keskele, roheline paremale keskele, sinine jõuab vasakule üles ja kollane väljub vasakult. Need kolm värvilist lahterd moodustavad vastuse.
+
+[[K0262]]
+Liiguta punaseid ja siniseid tippe vastassuundades
+
+[[K0263]]
+Igal sammul liigub iga punane tipp viisnurga ümber ühe positsiooni võrra vastupäeva ja iga sinine tipp kaks positsiooni päripäeva. Valge värv tähendab, et punane ja sinine kattuvad; eralda mõlemad värvid enne järgmist liigutust.
+
+[[K0264]]
+Keskmisel pildil asub punane all paremal, sinised aga üleval paremal ja üleval vasakul. Järgmine liigutus toob punase ja ühe sinise kokku üleval paremal, muutes selle ala valgeks. Teine sinine liigub alla vasakule.
+
+[[K0265]]
+Nihuta kahte koopiat sektori suundades
+
+[[K0266]]
+Valge sektori kaks serva näitavad kahte liikumissuunda. Tee punaste täppide mustrist kaks koopiat ja nihuta kumbagi koopiat ühe ruudustikusammu võrra vastavas suunas, arvestades servade ümbermähkumist. Positsioon, kuhu jõuab üks koopia, on punane; positsioon, kuhu jõuavad mõlemad koopiad, on sinine.
+
+[[K0267]]
+Viimane sektor on suunatud alla-vasakule ja alla-paremale. Nihuta koopiat mõlemas suunas. Nende kattumise tulemusena muutuvad kogu ülemine rida ja keskosa siniseks; positsioonid, kuhu jõudis vaid üks koopia, jäävad punaseks, nagu on näidatud vastuses.
+
+[[K0268]]
+Eemalda ristuvad niidilõigud
+
+[[K0269]]
+Aseta mõlemad joonised üksteise peale. Käsitse iga sirget lõiku järjestikuste ruudustikupunktide vahel eraldi niidilõiguna. Kui ühe joonise lõik ristub punktide vahel teise joonise lõiguga, eemalda mõlemad lõigud. Ruudustiku punktis kohtuvad segmendid jäävad alles. Hoidke mõlemad joonised lõikamata segmentidena.
+
+[[K0270]]
+Eemaldage ruudustiku punktide vahelt lõigatud diagonaalsed segmendid. Ülejäänud tükid moodustavad vertikaalse varrega ülemise haru, kaks eraldi lühikest diagonaali ülemiste nurkade lähedal ja alumise haru oma vertikaalse varrega.
+
+[[K0271]]
+Libistage ja sorteerige tükid suuruse järgi.
+
+[[K0272]]
+Lükake kõik tükid noole suunas. Väiksemad tükid mööduvad suurematest tükkidest ja jõuavad kõigepealt kõige kaugematesse saadaolevatesse kohtadesse. Hoidke iga tüki kõrgus ja vertikaalne asend samaks. Tükid võivad jagada veergu, kui need ei kattu vertikaalselt; võrdse suurusega tükid säilitavad oma suhtelise järjekorra.
+
+[[K0273]]
+Nool osutab paremale. Sobitage lühimad tükid paremal asuvatesse saadaolevatesse kohtadesse, seejärel kahe lahtriga tükid ja seejärel vasakul asuvad kõrgemad tükid. Miski ei liigu üles ega alla ja ükski tükk ei muuda suurust.
+
+[[K0274]]
+Liigutage jagajad vabadesse kohtadesse.

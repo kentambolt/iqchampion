@@ -1,0 +1,121 @@
+[[K0173]]
+Her örnek satırındaki tüm konumlarda aynı mavi daire bulunur. Şekil, renk veya boyut değişmez.
+
+[[K0174]]
+Son satırda hâlihazırda iki özdeş mavi daire bulunmaktadır. Bir başka özdeş mavi daire ise satırı tamamlar.
+
+[[K0175]]
+İç içe bir dış hat (çerçeve) ekleyin
+
+[[K0176]]
+Sağa doğru ilerledikçe, bir önceki şeklin içine aynı biçimde daha küçük bir dış hat eklenir. Dıştaki şekil ve rengi değişmeden kalır.
+
+[[K0177]]
+Yeşil üçgenin orta konumunda bir iç üçgen bulunur. Cevabı elde etmek için bir tane daha, daha küçük bir iç üçgen ekleyin.
+
+[[K0178]]
+İlk şekli bir kalıp (kesik) olarak kullanın
+
+[[K0179]]
+İlk konumdaki siyah şekil, ikinci konumdaki renkli karenin merkezinden çıkarılır. Oluşan boşluk beyazdır.
+
+[[K0180]]
+Siyah kare, yeşil karenin içinde kare bir boşluk oluşturur. İçinde beyaz kare boşluk bulunan yeşil kareyi seçin.
+
+[[K0181]]
+Üst ve alt renkleri birleştirin
+
+[[K0182]]
+Sonuç şeklin üst yarısı ilk kapsülden, alt yarısı ise ikinci kapsülden alınır.
+
+[[K0183]]
+İlk kapsül beyaz, ikincisi ise mavidir; dolayısıyla sonuç üstte beyaz, altta mavi olacak şekilde oluşur.
+
+[[K0184]]
+Renkli bölmeleri (yaprakları) döndürün
+
+[[K0185]]
+Her adımda, dört bölmeli şeklin tamamını saat yönünde 90 derece döndürün. Tüm kırmızı ve mavi bölmeler, şekille birlikte hareket eder.
+
+[[K0186]]
+Ortadaki şekli saat yönünde bir çeyrek tur daha döndürün. İki kırmızı bölme sağda ve altta kalır; üst ve soldaki bölmeler ise mavi olur.
+
+[[K0187]]
+Köşeleri kademeli olarak yuvarlatın
+
+[[K0188]]
+Renk ve genel şekil aynı kalırken, köşeler her adımda giderek daha fazla yuvarlatılır. [[K0189]]
+Kahverengi dikdörtgenin köşelerini yuvarlamaya devam edin. Sonuç, uçları tamamen yuvarlatılmış kahverengi bir kapsül şeklidir.
+
+[[K0190]]
+Dairenin hareketini devam ettirin.
+
+[[K0191]]
+Her satırda yeşil daire aynı yönde (yukarı, aşağı veya yatay olarak) aynı mesafede hareket eder. Boyutu değişmez.
+
+[[K0192]]
+Son satırda daire, karenin alt kenarı boyunca sola doğru hareket eder. Bir adım daha atıldığında sol alt köşeye yerleşir.
+
+[[K0193]]
+Tüm nokta desenini döndürün.
+
+[[K0194]]
+Kareyi ve içindeki tüm noktaları her adımda saat yönünün tersine 45 derece döndürün. Kare önce bir eşkenar dörtgene, ardından tekrar bir kareye dönüşür.
+
+[[K0195]]
+Ortadaki yeşil-siyah eşkenar dörtgeni saat yönünün tersine 45 derece daha döndürün. Yeşil ve siyah noktaları, döndürülmüş konumlarında tutun.
+
+[[K0196]]
+Her bir çubuğu üstten kısaltın.
+
+[[K0197]]
+Her adımda, dikey siyah çubukların her biri üst kısmından bir ızgara birimi kadar kısalır. Alt uçları ise alt çizgide sabit kalır. Bir çubuğun uzunluğu sıfıra ulaştığında, o çubuk tamamen kaybolur.
+
+[[K0198]]
+Ortadaki resimde, bir birim uzunluğunda orta bir çubuk ve iki birim uzunluğunda sağ bir çubuk bulunur. Orta çubuk kaybolur ve geriye sağ tarafta bir birim uzunluğunda bir çubuk kalır.
+
+[[K0199]]
+Siyah çizgiye göre yansıtın.
+
+[[K0200]]
+Ortadaki çizgi bir ayna eksenidir. Renkli şekli sadece döndürmek yerine, bu çizgiye göre yansıtın.
+
+[[K0201]]
+Son ayna çizgisi dikey olduğundan, sarı şekil soldan sağa doğru ters çevrilir. Rengi ve boyutu değişmez.
+
+[[K0202]]
+Şekilleri üst üste getirin ve ilk şeklin rengini kullanın.
+
+[[K0203]]
+Her iki şekli birbiri üzerine yerleştirin. Oluşan birleşik silüeti ve görünür dış hatları koruyun; ancak elde edilen şekli, ilk şeklin rengiyle boyayın. [[K0204]]
+Mavi, aşağı dönük üçgeni sarı altıgenin üzerine yerleştirin ve birleşen şekil için mavi rengi kullanın. Üçgenin dışa taşan uçları, altıgenin çevresinde görünür kalır.
+
+[[K0205]]
+Yeşil rengi, girişlerden tam olarak birinde tutun.
+
+[[K0206]]
+İki karenin karşılık gelen alanlarını karşılaştırın. Bir alan, girişlerden tam olarak birinde yeşilse, sonuçta yeşil olur. Her iki girişte de yeşil olan alanlar beyaza dönüşür; her ikisinde de beyaz olan alanlar ise beyaz kalır.
+
+[[K0207]]
+İlk kare tamamen yeşildir; ikinci karenin ise yalnızca sol alt çeyreği yeşildir. Ortak olan bu çeyrek beyaza dönüşür; diğer üç çeyrek ise yeşil kalır.
+
+[[K0208]]
+Her köşeye bir kopyasını ekleyin.
+
+[[K0209]]
+Büyük şeklin her bir köşesine, küçük siyah sembolün bir kopyasını yerleştirin. Eklenen kopyalar, büyük şeklin rengini alır.
+
+[[K0210]]
+Büyük mavi eşkenar dörtgenin dört köşesi vardır. Örneklerdeki yerleştirme kuralını izleyerek, her köşeye mavi, aşağı dönük bir üçgen ekleyin.
+
+[[K0211]]
+Karşılık gelen çubuk yüksekliklerini toplayın.
+
+[[K0212]]
+Üç yatay konumun her biri için, ilk resimdeki siyah çubuğun yüksekliğini, ikinci resimdeki yüksekliğiyle toplayın. Ölçümü, ortak alt çizgiden yukarıya doğru yapın.
+
+[[K0213]]
+Girişlerin hiçbirinde sol tarafta çubuk bulunmuyor. Ortadaki iki çubuk birleşerek tam yüksekliğe sahip bir çubuk oluştururken, sağ taraftaki çubuklar birleşerek daha kısa bir çubuk oluşturur. Sonuçta yalnızca bu orta ve sağ çubuklar yer alır.
+
+[[K0214]]
+Döndürün ve renkleri değiştirin.

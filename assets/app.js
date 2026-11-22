@@ -9,8 +9,8 @@ const total_questions = 36;
 const time_limit_ms = 40 * 60 * 1000;
 // Older open clients drop unknown metadata. Migrate without notifying; keep
 // this capture preparation isolated from their attempt storage/events.
-const storage_key = 'iqchampion.attempt.v4';
-const legacy_storage_keys = ['iqchampion.attempt.v3', 'iqchampion.attempt.v1'];
+const storage_key = 'iqchampion.attempt.v5';
+const legacy_storage_keys = ['iqchampion.attempt.v4', 'iqchampion.attempt.v3', 'iqchampion.attempt.v1'];
 // These are recorded durations, not independently verified testing conditions.
 const reference_scores = time_and_scores.filter(row => row[0] > 60 && row[0] <= 2400);
 // Version 1 preserves the original puzzle for attempts saved before the correction.
@@ -25,6 +25,11 @@ let finished = true;
 let timed_out = false;
 let last_saved = null;
 let start_notification = null;
+let attempt_measurement = null;
+let statistics_id = null;
+let statistics_contribution = null;
+let last_timing_checkpoint = 0;
+let finished_at = null;
 
 function storage_notice(message) {
   const notice = document.getElementById('storage-notice');
@@ -33,7 +38,7 @@ function storage_notice(message) {
 }
 
 function save_attempt() {
-  const data = JSON.stringify({ version: 2, puzzleVersion: puzzle_version, startedAt: started_at, answers, currentQuestion: current_question, completed: finished, timedOut: timed_out, startNotification: start_notification });
+  const data = JSON.stringify({ version: 2, puzzleVersion: puzzle_version, startedAt: started_at, answers, currentQuestion: current_question, completed: finished, timedOut: timed_out, startNotification: start_notification, measurement: attempt_measurement?.snapshot() ?? null, statisticsId: statistics_id, contribution: statistics_contribution, finishedAt: finished_at });
   try {
     localStorage.setItem(storage_key, data);
     last_saved = data;
@@ -102,6 +107,11 @@ function restore_attempt() {
   answers = Array.from({ length: total_questions }, (_, index) => saved.answers[index] ?? null);
   current_question = saved.version === 2 ? saved.currentQuestion : Math.min(saved.answers.length + 1, total_questions);
   timed_out = saved.timedOut;
+  finished_at = Number.isSafeInteger(saved.finishedAt) && saved.finishedAt>=saved.startedAt && saved.finishedAt<=deadline ? saved.finishedAt : null;
+  const measured = IQAttemptStatistics.restore(saved.measurement);
+  attempt_measurement = measured ? new_attempt_measurement(measured) : null;
+  statistics_id = typeof saved.statisticsId === 'string' && /^[0-9a-f-]{36}$/.test(saved.statisticsId) ? saved.statisticsId : null;
+  statistics_contribution = saved.contribution && typeof saved.contribution === 'object' ? saved.contribution : null;
   remember_start_notification();
   finished = false;
   document.getElementById('front').hidden = true;
@@ -169,9 +179,13 @@ function question_markup(test_id) {
 }
 
 function show_question(test_id) {
+  document.getElementById('test').setAttribute('data-detailed',String(test_id>=19));
+  attempt_measurement?.open(test_id);
   current_question = test_id;
   const heading = document.getElementById('question-number');
   i18n.text(heading, `Question ${test_id} / ${total_questions}`);
+  document.getElementById('question-progress').setAttribute('aria-valuenow',String(answered_count()));
+  document.getElementById('question-progress-fill').style && (document.getElementById('question-progress-fill').style.width=String(100*answered_count()/36)+'%');
   i18n.html(document.getElementById('test-left'), question_markup(test_id));
   const container = document.getElementById('test-right');
   container.replaceChildren();
@@ -362,6 +376,7 @@ function update_timer() {
   const status = document.getElementById('time-warning');
   i18n.text(status, warning);
   if (seconds === 0) show_result(true);
+  else if (attempt_measurement && Date.now() - last_timing_checkpoint >= 5000) { last_timing_checkpoint = Date.now(); save_attempt(); }
 }
 
 function submit_answer(test_id, answer) {
@@ -376,6 +391,7 @@ function submit_answer(test_id, answer) {
   if (test_id !== current_question) return;
   const valid_answers = Array.from({ length: 9 }, (_, i) => get_hash(test_id, i + 1, true));
   if (!valid_answers.includes(answer)) return;
+  attempt_measurement?.answer(test_id);
   answers[test_id - 1] = answer;
   // Continue to the next unanswered question, wrapping around skipped questions.
   const next = Array.from({ length: total_questions }, (_, offset) => (test_id + offset) % total_questions)
@@ -422,6 +438,8 @@ function report_usage(event) {
 
 function show_result(expired, report_completion = true) {
   if (finished) return;
+  attempt_measurement?.finish();
+  finished_at ??= Math.min(Date.now(),deadline);
   finished = true;
   // Store completion too, so reloading a result never creates a fresh timer.
   timed_out = expired;
@@ -432,6 +450,7 @@ function show_result(expired, report_completion = true) {
   document.getElementById('test').hidden = true;
   document.getElementById('answer-review').hidden = true;
   document.getElementById('result').hidden = false;
+  document.getElementById('result').classList.toggle('partial-result',answered_count()!==36);
   document.getElementById('result-reason').hidden = !expired;
   document.getElementById('share-result-link').hidden = answered_count() !== total_questions;
   update_share_links();
@@ -446,6 +465,8 @@ function show_result(expired, report_completion = true) {
   i18n.text(document.getElementById('comparison'), result.percentile === null ? ''
     : `Participants scoring lower: ${format_percent(result.below_percent)}%. Participants with the same score: ${format_percent(result.equal_percent)}%.`);
   i18n.text(document.getElementById('result-context'), `Reference group: ${reference_scores.length.toLocaleString('en-US')} historical attempts. Attempts with recorded durations over one minute and up to 40 minutes are included. Tied scores share the midpoint of their percentile group. Estimates are rounded to whole numbers and displayed only within 55–145, with a limit indicator outside that range. This is a scale conversion, not an independently validated population IQ measurement. Practice and repeated attempts can affect your result. Some example images have been corrected since the historical attempts were collected, which limits comparability.`);
+  render_result_statistics();
+  void refresh_iq_comparisons();
   document.getElementById('result-title').focus();
   if (report_completion) report_usage('test_completed');
 }
@@ -461,6 +482,11 @@ function start_test() {
   deadline = started_at + time_limit_ms;
   finished = false;
   timed_out = false;
+  attempt_measurement = new_attempt_measurement();
+  try { statistics_id = crypto.randomUUID(); } catch { statistics_id = null; }
+  statistics_contribution = null;
+  finished_at = null;
+  iq_share_choice = null;
   // This hook runs only for a newly accepted start, never restore/navigation.
   try { start_notification = start_notification_producer.createStart(); }
   catch { start_notification = null; }
@@ -499,3 +525,11 @@ restore_attempt();
 update_share_links();
 
 try { start_notification_producer.start(); } catch { /* Optional notification adapter. */ }
+
+function measurement_visible() { return !document.hidden && (typeof document.hasFocus !== 'function' || document.hasFocus()) && !document.getElementById('info-sheet')?.open; }
+function new_attempt_measurement(saved) { return IQAttemptStatistics.create({saved, now:()=>Math.min(Date.now(), deadline ?? Date.now()), visible:measurement_visible()}); }
+function statistics_visibility() { if (!finished && attempt_measurement) { attempt_measurement.visibility(measurement_visible()); save_attempt(); } }
+document.addEventListener('visibilitychange',statistics_visibility);
+window.addEventListener('blur',()=>{if(!finished){attempt_measurement?.visibility(false);save_attempt();}});
+window.addEventListener('focus',statistics_visibility);
+window.addEventListener('pagehide',()=>{if(!finished){attempt_measurement?.visibility(false);save_attempt();}});

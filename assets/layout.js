@@ -47,6 +47,7 @@ function openSheet(origin, nodes, title, trigger) {
   i18n.text(document.getElementById('sheet-title'), title);
   sheetContent.replaceChildren(...nodes);
   infoSheet.showModal();
+  if (typeof statistics_visibility === 'function') statistics_visibility();
 }
 for (const details of document.querySelectorAll('details.disclosure')) {
   const summary = details.querySelector('summary');
@@ -65,6 +66,7 @@ infoSheet.addEventListener('close', () => {
   if (sheetOrigin) sheetOrigin.append(...sheetNodes);
   if (sheetOrigin === document.getElementById('test')) document.getElementById('finish-review').hidden = true;
   sheetOrigin = null; sheetNodes = [];
+  if (typeof statistics_visibility === 'function') statistics_visibility();
   if (sheetTrigger?.isConnected && sheetTrigger.closest('.screen')?.hidden !== true) sheetTrigger.focus({preventScroll:true});
   else if (!document.getElementById('result').hidden) document.getElementById('result-title').focus({preventScroll:true});
   sheetTrigger = null;
@@ -80,8 +82,53 @@ new MutationObserver(() => { if (document.getElementById('test').hidden && infoS
 sheetContent.addEventListener('click', event => { if (event.target.closest('.question-link')) infoSheet.close(); });
 
 // Only the public introduction is indexable. Test state/results stay browser-local.
+for (const link of document.querySelectorAll('[data-intro-sheet]')) link.addEventListener('click',()=>document.getElementById(link.dataset.introSheet).querySelector('summary').click());
 function updateIndexingState() {
+  document.querySelector('main').classList.toggle('is-intro', !document.getElementById('front').hidden);
   document.querySelector('meta[name="robots"]')?.setAttribute('content',document.getElementById('front').hidden?'noindex,follow':'index,follow');
 }
 new MutationObserver(updateIndexingState).observe(document.getElementById('front'),{attributes:true,attributeFilter:['hidden']});
 updateIndexingState();
+
+// Translated controls and font metrics vary. Reserve their actual height before sizing
+// the four puzzle rows on laptops/tablets; mobile keeps the larger readable figures.
+const fittedTest=document.getElementById('test');
+let fitFrame=null;
+function fitTestViewport(){
+  fitFrame=null;
+  fitIntroViewport();
+  fittedTest.style.removeProperty('--tile');
+  if(fittedTest.hidden||window.innerWidth<600)return;
+  for(let pass=0;pass<3;pass++){
+    const overflow=document.documentElement.scrollHeight-document.documentElement.clientHeight;
+    if(overflow<=1)break;
+    const tile=fittedTest.querySelector('.test-left .icon');
+    if(!tile)break;
+    const size=tile.getBoundingClientRect().width;
+    const next=Math.max(40,Math.floor(size-(overflow+4)/4));
+    if(next>=size)break;
+    fittedTest.style.setProperty('--tile',next+'px');
+  }
+}
+function scheduleTestFit(){if(fitFrame===null)fitFrame=requestAnimationFrame(fitTestViewport);}
+window.addEventListener('resize',scheduleTestFit);
+new MutationObserver(scheduleTestFit).observe(document.documentElement,{attributes:true,attributeFilter:['lang']});
+new MutationObserver(scheduleTestFit).observe(fittedTest,{attributes:true,attributeFilter:['hidden']});
+new MutationObserver(scheduleTestFit).observe(document.getElementById('front'),{attributes:true,attributeFilter:['hidden']});
+new MutationObserver(scheduleTestFit).observe(document.getElementById('question-number'),{childList:true});
+scheduleTestFit();
+
+function fitIntroViewport(){
+  const main=document.querySelector('main'),front=document.getElementById('front'),heading=front.querySelector('h1');
+  main.classList.remove('intro-compact');heading.style.removeProperty('font-size');
+  if(front.hidden||window.innerWidth<600)return;
+  if(document.documentElement.scrollHeight-document.documentElement.clientHeight>1)main.classList.add('intro-compact');
+  for(let pass=0;pass<5;pass++){
+    const overflow=document.documentElement.scrollHeight-document.documentElement.clientHeight;
+    if(overflow<=1)break;
+    const style=getComputedStyle(heading),size=Number.parseFloat(style.fontSize),lines=Math.max(1,heading.getBoundingClientRect().height/Number.parseFloat(style.lineHeight));
+    const next=Math.max(26,Math.floor(size-Math.max(1,(overflow+4)/lines)));
+    if(next>=size)break;
+    heading.style.fontSize=next+'px';
+  }
+}

@@ -1,0 +1,207 @@
+[[K0001]]
+Estimert medianintervall
+
+[[K0002]]
+Offentlige sammenligninger inkluderer alle bidragsytere som bruker denne versjonen av oppgaven. Valgfri aldersgruppe og land brukes kun i anonymisert, samlet statistikk.
+
+[[K0003]]
+Jeg samtykker i å bidra med mine anonyme resultater, tidsbruk og eventuell aldersgruppe eller land til samlet statistikk.
+
+[[K0004]]
+Medianintervaller estimeres ut fra tidsfordelingsdiagrammer. Det viste intervallet indikerer tidsmålingens oppløsning; det hevdes ikke å være en nøyaktig median eller hastighetsprosentil.
+
+[[K0005]]
+Del utfordringen
+
+[[K0006]]
+Tidsbruk per oppgave
+
+[[K0007]]
+På grunn av personverninnstillingene i nettleseren din lagres denne statistikken kun på din egen enhet.
+
+[[K0008]]
+Alle frivillige forsøk
+
+[[K0009]]
+Takk. Ditt anonyme bidrag ble lagret.
+
+[[K0010]]
+Det er foreløpig ikke nok sammenlignbare forsøk i denne gruppen. Din egen statistikk er alltid tilgjengelig.
+
+[[K0011]]
+Sammenligninger er midlertidig utilgjengelige. Din egen statistikk og delingsfunksjonen fungerer fortsatt.
+
+[[K0012]]
+Dette eldre forsøket mangler fullstendige tidsdata. Du kan likevel se på og dele resultatet ditt.
+
+[[K0013]]
+Velg om du vil bidra, før data sendes.
+
+[[K0014]]
+Dette forsøket mangler fullstendige tidsdata. Dine personlige resultater forblir uendret.
+
+[[K0015]]
+Bidraget ditt kunne ikke lagres i denne nettleseren. Ingen data ble sendt.
+
+[[K0016]]
+Dette bidraget må gjennomgås og ble derfor ikke talt med på nytt.
+
+[[K0017]]
+Bidraget ditt er ikke bekreftet. Prøv igjen med det samme lagrede bidraget. [[K0018]]
+Ingen konto nødvendig
+
+[[K0019]]
+Testen starter når du er klar
+
+[[K0020]]
+Test
+
+[[K0021]]
+Besvarte spørsmål
+
+[[K0022]]
+Noe å dele
+
+[[K0023]]
+Ditt sterkeste øyeblikk
+
+[[K0024]]
+Din estimerte IQ
+
+[[K0025]]
+En vrien oppgave, løst raskt
+
+[[K0026]]
+Raskere enn det typiske riktige svaret
+
+[[K0027]]
+Ditt raskeste riktige svar
+
+[[K0028]]
+Mønstre du løste
+
+[[K0029]]
+En utfordring verdt å dele
+
+[[K0030]]
+36 oppgaver. Én utfordring.
+
+[[K0031]]
+Del en utfordring med noen du kjenner.
+
+[[K0032]]
+Din egen aktive tid. Det finnes ikke nok sammenligningsdata til å rangere hastigheten.
+
+[[K0033]]
+Velg hva du vil dele
+
+[[K0034]]
+Beste øyeblikk
+
+[[K0035]]
+IQ-estimat
+
+[[K0036]]
+Riktige mønstre
+
+[[K0037]]
+Del på Facebook
+
+[[K0038]]
+Kopier en personlig tekst
+
+[[K0039]]
+Teksten du skal dele
+
+[[K0040]]
+Kopier tekst
+
+[[K0041]]
+På Facebook kan du skrive din egen tekst. Vi legger aldri ut noe automatisk.
+
+[[K0042]]
+Kopiert. Lim den inn i innlegget ditt.
+
+[[K0043]]
+Marker og kopier teksten nedenfor.
+
+[[K0044]]
+Statistikk for spørsmålene dine
+
+[[K0045]]
+Sammenligninger for spørsmålene er ikke tilgjengelige ennå. Din personlige statistikk vises nedenfor.
+
+[[K0046]]
+Tidsmålingen inkluderer tiden du har brukt aktivt på et spørsmål, frem til ditt siste svar. For ubesvarte spørsmål vises tiden som er brukt. Skjulte faner og lukkede sider telles ikke med. Tidligere forsøk mangler kanskje tidsregistrering.
+
+[[K0047]]
+Alle 36 spørsmål, inkludert spørsmål du hoppet over
+
+[[K0048]]
+Spørsmål
+
+[[K0059]]
+Din tid
+
+[[K0050]]
+Median for korrekte svar
+
+[[K0051]]
+Andres korrekte svar
+
+[[K0052]]
+Sammenlign med frivillige forsøk som bruker samme versjon av oppgaven. Det kreves minst 30 besvarte spørsmål for å beregne en svarprosent, og 30 tidsregistrerte korrekte svar for å beregne en median. Dette gjelder deltakere, ikke et representativt utvalg av befolkningen.
+
+[[K0053]]
+Sammenlign og bidra
+
+[[K0054]]
+Hjelp fremtidige deltakere med å sammenligne resultatene sine. Du kan dele anonym statistikk etter at du er ferdig, selv om du hoppet over spørsmål.
+
+[[K0055]]
+Anonyme sammenligninger klargjøres. Du kan se din egen statistikk og dele den uten å bidra til den samlede statistikken.
+
+[[K0056]]
+Aldersgruppe (valgfritt)
+
+[[K0057]]
+Land (valgfritt)
+
+[[K0058]]
+Ønsker ikke å oppgi
+
+[[K0059]]
+Under 18
+
+[[K0060]]
+Jeg samtykker i å bidra med mine anonyme resultater og tidsbruk – sammen med aldersgruppe og land, dersom jeg velger å oppgi dette – til sammenligningsstatistikken.
+
+[[K0061]]
+Ingen navn, e-post eller nøyaktig alder. Det er valgfritt å dele statistikken din, og det påvirker ikke resultatet ditt. Små sammenligningsgrupper vises ikke.
+
+[[K0062]]
+Bidra anonymt
+
+[[K0063]]
+Hvorfor dette svaret?
+
+[[K0064]]
+Forklaring
+
+[[K0065]]
+Regelen
+
+[[K0066]]
+Bruk av regelen
+
+[[K0067]]
+Du ser på en eldre versjon av oppgaven. Eksemplene i denne inneholder en tidligere identifisert uklarhet; svaret og poengsummen du har lagret, forblir uendret.
+
+[[K0068]]
+Du ser på den opprinnelige versjonen, som inneholdt feilaktige markører i eksemplene. Svaret og poengsummen du har lagret, forblir uendret. Nye forsøk bruker den korrigerte versjonen.
+
+[[K0069]]
+I denne opprinnelige versjonen utvider det viste midtre bildet seg til grønt øverst til høyre samt i rad 2, kolonne 3; rødt i rad 2, kolonne 1; og brunt i rad 2, kolonne 2, rad 3, kolonne 3 og rad 4, kolonne 3.
+
+[[K0070]]
+Del resultatet på Facebook

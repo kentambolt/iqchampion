@@ -1,0 +1,121 @@
+[[K0173]]
+Kiekvienoje pavyzdinės eilutės pozicijoje yra tas pats mėlynas apskritimas. Nei forma, nei spalva, nei dydis nesikeičia.
+
+[[K0174]]
+Paskutinėje eilutėje jau yra du vienodi mėlyni apskritimai. Dar vienas toks pat mėlynas apskritimas ją užbaigia.
+
+[[K0175]]
+Pridėkite vieną įdėtinį kontūrą
+
+[[K0176]]
+Judant į dešinę, ankstesniojo kontūro viduje atsiranda mažesnis tos pačios formos kontūras. Išorinė forma ir jos spalva išlieka nepakitusios.
+
+[[K0177]]
+Žaliame trikampyje, vidurinėje pozicijoje, yra vienas vidinis trikampis. Pridėkite dar vieną, mažesnį vidinį trikampį, kad gautumėte atsakymą.
+
+[[K0178]]
+Naudokite pirmąją figūrą kaip išpjovą
+
+[[K0179]]
+Juoda figūra, esanti pirmojoje pozicijoje, pašalinama iš spalvoto kvadrato, esančio antrojoje pozicijoje, centro. Skylė yra balta.
+
+[[K0180]]
+Juodas kvadratas žaliame kvadrate suformuoja kvadratinę skylę. Pasirinkite žalią kvadratą su balta kvadratine anga.
+
+[[K0181]]
+Sujunkite viršutinę ir apatinę spalvas
+
+[[K0182]]
+Rezultato viršutinė pusė paimta iš pirmosios kapsulės, o apatinė pusė – iš antrosios kapsulės.
+
+[[K0183]]
+Pirmoji kapsulė yra balta, o antroji – mėlyna, todėl rezultatas yra baltas viršuje ir mėlynas apačioje.
+
+[[K0184]]
+Pasukite spalvotus elementus
+
+[[K0185]]
+Kiekviename žingsnyje pasukite visą keturių dalių figūrą 90 laipsnių kampu pagal laikrodžio rodyklę. Kiekviena raudona ir mėlyna dalis juda kartu su figūra.
+
+[[K0186]]
+Pasukite vidurinę figūrą dar ketvirtį rato pagal laikrodžio rodyklę. Dvi raudonos dalys atsiduria dešinėje ir apačioje; viršutinė ir kairioji dalys yra mėlynos.
+
+[[K0187]]
+Laipsniškai užapvalinkite kampus
+
+[[K0188]]
+Spalva ir bendra forma išlieka tokios pačios, o kampai kiekviename žingsnyje tampa vis labiau užapvalinti. [[K0189]]
+Tęskite rudo stačiakampio kampų apvalinimą. Atsakymas – ruda kapsulė visiškai užapvalintais galais.
+
+[[K0190]]
+Tęskite apskritimo judėjimą.
+
+[[K0191]]
+Kiekvienoje eilutėje žalias apskritimas juda vienodu atstumu ta pačia kryptimi: aukštyn, žemyn arba horizontaliai. Jo dydis išlieka nepakitęs.
+
+[[K0192]]
+Paskutinėje eilutėje apskritimas juda į kairę kvadratu apačioje. Atlikus dar vieną tokį patį žingsnį, jis atsiduria apatiniame kairiajame kampe.
+
+[[K0193]]
+Pasukite visą taškų raštą.
+
+[[K0194]]
+Kiekviename žingsnyje pasukite kvadratą ir visus jame esančius taškus 45 laipsnių kampu prieš laikrodžio rodyklę. Kvadratas virsta rombu, o vėliau – vėl kvadratu.
+
+[[K0195]]
+Pasukite vidurinį žaliai-juodą rombą dar 45 laipsnių kampu prieš laikrodžio rodyklę. Žali ir juodi taškai turi likti savo pasuktose padėtyse.
+
+[[K0196]]
+Trumpinkite kiekvieną juostą iš viršaus.
+
+[[K0197]]
+Kiekviename žingsnyje kiekviena vertikali juoda juosta viršuje sutrumpėja vienu tinklelio intervalu. Apatinis jos galas lieka ant apatinės linijos. Juosta dingsta, kai jos ilgis tampa lygus nuliui.
+
+[[K0198]]
+Viduriniame paveikslėlyje vidurinė juosta yra vieno intervalo ilgio, o dešinioji – dviejų intervalų ilgio. Vidurinė juosta dingsta, o dešinėje lieka vieno intervalo ilgio juosta.
+
+[[K0199]]
+Atspindėkite juodos linijos atžvilgiu.
+
+[[K0200]]
+Vidurinė linija yra veidrodinė ašis. Atspindėkite spalvotą figūrą šios linijos atžvilgiu – tiesiog jos nepasukite.
+
+[[K0201]]
+Paskutinė veidrodinė linija yra vertikali, todėl geltona figūra apverčiama iš kairės į dešinę. Jos spalva ir dydis išlieka nepakitę.
+
+[[K0202]]
+Uždėkite figūras vieną ant kitos ir naudokite pirmosios figūros spalvą.
+
+[[K0203]]
+Uždėkite abi figūras vieną ant kitos. Išsaugokite bendrą siluetą ir matomus kontūrus, tačiau visą rezultatą nuspalvinkite pirmosios figūros spalva. [[K0204]]
+Uždėkite mėlyną žemyn nukreiptą trikampį ant geltono šešiakampio; sujungtai figūrai suteikite mėlyną spalvą. Trikampio kampai, išsikišantys už šešiakampio ribų, lieka matomi.
+
+[[K0205]]
+Palikite žalią spalvą tik viename iš pradinių elementų.
+
+[[K0206]]
+Palyginkite atitinkamas dviejų kvadratų sritis. Sritis nusidažo žaliai, jei ji yra žalia tik viename iš pradinių elementų. Jei sritis žalia abiejuose, ji tampa balta; jei balta abiejuose – lieka balta.
+
+[[K0207]]
+Pirmasis kvadratas yra visiškai žalias, o antrajame žalias yra tik apatinis kairysis ketvirtis. Šis bendras ketvirtis tampa baltas, o kiti trys ketvirčiai išlieka žali.
+
+[[K0208]]
+Pritvirtinkite kopiją kiekviename kampe.
+
+[[K0209]]
+Kiekviename didelės figūros kampe (viršūnėje) patalpinkite mažo juodo simbolio kopiją. Pridėtos kopijos įgauna didelės figūros spalvą.
+
+[[K0210]]
+Didelis mėlynas rombas turi keturis kampus. Kiekviename kampe pridėkite mėlyną žemyn nukreiptą trikampį, laikydamiesi tokios pat išdėstymo taisyklės, kaip ir pavyzdžiuose.
+
+[[K0211]]
+Sudėkite atitinkamus stulpelių aukščius.
+
+[[K0212]]
+Kiekvienoje iš trijų horizontalių pozicijų sudėkite pirmajame paveikslėlyje esančio juodo stulpelio aukštį su antrajame paveikslėlyje esančio stulpelio aukščiu. Aukštį matuokite į viršų nuo bendros apatinės linijos.
+
+[[K0213]]
+Nė viename iš pradinių elementų nėra kairiojo stulpelio. Du viduriniai stulpeliai susijungia į vieną pilno aukščio stulpelį, o dešinieji stulpeliai – į trumpesnį stulpelį. Atsakyme pavaizduoti tik šie viduriniai ir dešinieji stulpeliai.
+
+[[K0214]]
+Pasukite ir kaitaliokite spalvas.

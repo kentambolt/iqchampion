@@ -1,0 +1,171 @@
+[[K0275]]
+Tất cả các vạch đen đồng thời di chuyển sang phải một vị trí nếu vị trí tiếp theo chứa một hạt màu vàng. Vạch bị chặn bởi một vạch khác sẽ chờ. Cạnh phải nối với cạnh trái.
+
+[[K0276]]
+Áp dụng một bước đồng thời cho chuỗi ở giữa. Thứ tự cuối cùng là vạch, hạt, vạch, hạt, vạch, vạch, vạch, hạt.
+
+[[K0277]]
+Mở rộng các màu và giữ lại nhóm lớn nhất
+
+[[K0278]]
+Thay thế mỗi quả bóng màu bằng bốn quả bóng mới cùng màu, ở vị trí trên, dưới, trái và phải một bước. Các quả bóng rời khỏi lưới sẽ biến mất. Tại mỗi vị trí, giữ lại màu có số lượng bóng đến nhiều nhất. Nếu các màu có số lượng bóng đến nhiều nhất bằng nhau, hãy để trống vị trí đó. Nhiều quả bóng cùng màu xuất hiện dưới dạng một điểm đánh dấu màu.
+
+[[K0279]]
+Mở rộng hình ảnh ở giữa được hiển thị sẽ để lại màu xanh lá cây ở góc trên bên phải và ở hàng 2, cột 3; Màu đỏ ở hàng 2, cột 1; và màu nâu ở hàng 2, cột 2, hàng 3, cột 3, và hàng 4, cột 2, 3 và 4. Đó chính xác là màu sắc và vị trí trong câu trả lời đã lưu.
+
+[[K0280]]
+Chọn ngôn ngữ
+
+[[K0281]]
+Tìm kiếm ngôn ngữ
+
+[[K0282]]
+Đóng bộ chọn ngôn ngữ
+
+[[K0283]]
+Không tìm thấy ngôn ngữ nào
+
+[[K0284]]
+Kiểm tra IQ miễn phí để giải trí | IQ Champion
+
+[[K0285]]
+Một bài kiểm tra kiểu IQ miễn phí để giải trí: 36 câu đố hình ảnh, 40 phút, tiến trình được lưu và kết quả IQ ước tính. Không cần tài khoản.
+
+[[K0286]]
+Chọn ngôn ngữ bạn muốn. Câu trả lời và thời hạn ban đầu của bạn vẫn được lưu.
+
+[[K0287]]
+Đang tải ngôn ngữ…
+
+[[K0288]]
+Không thể tải ngôn ngữ. Bài kiểm tra và câu trả lời của bạn vẫn không thay đổi.
+
+[[K0289]]
+Phản hồi có sẵn bằng tiếng Đan Mạch và tiếng Anh.
+
+[[K0290]]
+Thành tích được chia sẻ
+
+[[K0291]]
+Kết quả được chia sẻ
+
+[[K0292]]
+Kết quả được chia sẻ là do người tham gia tự báo cáo.
+
+[[K0293]]
+Thành tích được chia sẻ là do người tham gia tự báo cáo. Không có thông tin về tuổi tác, quốc gia, câu trả lời hoặc hồ sơ cá nhân được chia sẻ.
+
+[[K0294]]
+Hãy tự mình thử 36 câu đố
+
+[[K0295]]
+Hãy tự mình thử bài kiểm tra
+
+[[K0296]]
+Một thử thách thị giác trong IQ Champion. Bạn có thể tìm ra quy luật không?
+
+[[K0297]]
+Một bài kiểm tra câu đố thị giác miễn phí, chỉ để giải trí. Không phải là một phép đo IQ được chứng nhận chuyên nghiệp.
+
+[[K0298]]
+Không tìm thấy trang
+
+[[K0299]]
+Bạn có thể tiếp tục bằng ngôn ngữ khác.
+
+[[K0300]]
+đã trả lời
+
+[[K0301]]
+chưa trả lời
+
+[[K0302]]
+đúng
+
+[[K0303]]
+sai
+
+[[K0304]]
+Khoảng giá trị trung vị ước tính: {0} ({1} câu trả lời đúng trong thời gian quy định).
+
+[[K0305]]
+Câu hỏi {0} · {1}
+
+[[K0306]]
+{0} mẫu đúng
+
+[[K0307]]
+Thời gian hoạt động: {0}
+
+[[K0308]]
+So sánh: {0} lần thử tự nguyện trong {1} ngày.
+
+[[K0309]]
+Câu hỏi {0} / {1}
+
+[[K0310]]
+Xem lại câu hỏi {0} / {1}
+
+[[K0311]]
+Hàng {0}, biểu tượng {1}
+
+[[K0312]]
+Câu trả lời {0}
+
+[[K0313]]
+Câu hỏi {0}, {1}
+
+[[K0314]]
+Xem lại câu hỏi {0}, {1}
+
+[[K0315]]
+{0} đúng; {1} sai; {2} chưa trả lời.
+
+[[K0316]]
+{0} đã trả lời; {1} chưa trả lời.
+
+[[K0317]]
+{0} đã trả lời; {1} chưa trả lời. Câu hỏi chưa trả lời được tính là sai. Sau khi hoàn thành, bạn không thể thay đổi câu trả lời.
+
+[[K0318]]
+
+{0} / {1} đúng
+
+[[K0319]]
+Phần trăm trong số những người tham gia trước đây: {0}
+
+[[K0320]]
+Những người tham gia đạt điểm thấp hơn: {0}%. Những người tham gia có cùng điểm số: {1}%.
+
+[[K0321]]
+Nhóm tham chiếu: {0} lần thử trước đây. Các lần thử có thời lượng được ghi lại trên một phút và tối đa 40 phút được bao gồm. Các điểm số bằng nhau chia sẻ điểm giữa của nhóm phần trăm của chúng. Các ước tính được làm tròn đến số nguyên và chỉ được hiển thị trong khoảng 55–145, với một chỉ báo giới hạn bên ngoài phạm vi đó. Đây là chuyển đổi thang điểm, không phải là phép đo IQ dân số được xác thực độc lập. Việc luyện tập và các lần thử lặp lại có thể ảnh hưởng đến kết quả của bạn. Một số hình ảnh ví dụ đã được sửa kể từ khi các lần thử trước đây được thu thập, điều này hạn chế khả năng so sánh.
+
+[[K0322]]
+IQ ước tính của tôi trong IQ Champion: {0}. Chỉ để cho vui. Hãy thử: {1}
+
+[[K0323]]
+Tôi đã giải đúng câu hỏi {0} trong {1}. Bạn có thể làm được không? {2}
+
+[[K0324]]
+Tôi đã giải đúng câu hỏi {0} trong {1} (giá trị trung vị ước tính trong số các câu trả lời đúng: {2}). Bạn có thể làm được không? {3}
+
+[[K0325]]
+Tôi đã tìm thấy {0} mẫu đúng trong IQ Champion. Hãy thử: {1}
+
+[[K0326]]
+Bạn có thể tìm thấy các mẫu còn thiếu trong IQ Champion không? {0}
+
+[[K0327]]
+
+Câu hỏi {0} đã được giải
+
+[[K0328]]
+
+{0} mẫu đã được giải
+
+[[K0329]]
+
+{0} / 36 đúng. {1}
+
+[[K0330]]
+IQ ước tính {0} | IQ Champion

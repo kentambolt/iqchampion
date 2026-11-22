@@ -1,0 +1,301 @@
+[[K0071]]
+Compartir prueba en Facebook
+
+[[K0072]]
+CI estimado
+
+[[K0073]]
+Solo por diversión. Una puntuación aproximada; no es una medición de CI validada profesionalmente.
+
+[[K0074]]
+Tu prueba está incompleta. Se muestran tus respuestas correctas, pero para obtener una estimación del CI es necesario completar las 36 preguntas.
+
+[[K0075]]
+No disponible
+
+[[K0076]]
+Prueba gratuita de razonamiento visual | IQ Champion
+
+[[K0077]]
+36 acertijos de razonamiento visual. Participa en un desafío gratuito de 40 minutos y explora tus resultados.
+
+[[K0078]]
+Respondida
+
+[[K0079]]
+Sin responder
+
+[[K0080]]
+Correcta
+
+[[K0081]]
+Incorrecta
+
+[[K0082]]
+Cerrar
+
+[[K0083]]
+Ayuda
+
+[[K0084]]
+40 min
+
+[[K0085]]
+Idioma
+
+[[K0086]]
+Sobre la prueba
+
+[[K0087]]
+Un desafío de razonamiento visual
+
+[[K0088]]
+Identifica el patrón.
+
+[[K0089]]
+Encuentra la pieza que falta.
+
+[[K0090]]
+36 acertijos visuales y una estimación de tu CI. Solo por diversión.
+
+[[K0091]]
+Acertijos
+
+[[K0092]]
+Límite de tiempo
+
+[[K0093]]
+Costo
+
+[[K0094]]
+Gratis
+
+[[K0095]]
+No es necesario crear una cuenta. El cronómetro comienza al iniciar.
+
+[[K0096]]
+Cómo funciona la prueba
+
+[[K0097]]
+Elige el icono que completa cada patrón.
+
+[[K0098]]
+Puedes saltarte las preguntas difíciles y volver a ellas usando la vista general.
+
+[[K0099]]
+Revisa o modifica tus respuestas antes de finalizar. [[K0100]]
+Tus respuestas y la hora de inicio se guardan en este navegador. Si recargas la página, se mantiene el plazo original.
+
+[[K0101]]
+El temporizador de 40 minutos sigue corriendo aunque la página esté cerrada. Las preguntas sin responder cuentan como incorrectas.
+
+[[K0102]]
+Sobre tu resultado
+
+[[K0103]]
+Tu coeficiente intelectual (CI) estimado se basa en tu posición entre
+
+[[K0104]]
+los intentos realizados anteriormente.
+
+[[K0105]]
+La comparación tiene en cuenta los intentos con una duración de entre un minuto y 40 minutos. No ha sido validada mediante una prueba de CI oficial ni con una muestra representativa de la población.
+
+[[K0126]]
+Una prueba por diversión. Tu CI estimado es una aproximación, no una puntuación de CI validada profesionalmente.
+
+[[K0107]]
+Iniciar prueba de 40 minutos
+
+[[K0108]]
+Prueba de razonamiento
+
+[[K0109]]
+Tu desafío
+
+[[K0110]]
+Tiempo restante
+
+[[K0111]]
+restante
+
+[[K0112]]
+Patrón de la pregunta
+
+[[K0113]]
+Encuentra el patrón
+
+[[K0114]]
+Cuatro filas de patrones visuales; completa la última fila
+
+[[K0115]]
+Elige tu respuesta
+
+[[K0116]]
+Navegación entre preguntas
+
+[[K0117]]
+Pregunta anterior
+
+[[K0118]]
+Saltar por ahora
+
+[[K0119]]
+Siguiente pregunta
+
+[[K0120]]
+Resumen de preguntas
+
+[[K0121]]
+✓ Respondida
+
+[[K0122]]
+○ Sin responder
+
+[[K0123]]
+Borde resaltado = pregunta actual
+
+[[K0124]]
+Ir a una pregunta
+
+[[K0125]]
+Revisar y finalizar
+
+[[K0126]]
+Instrucciones y progreso guardado
+
+[[K0127]]
+Selecciona una respuesta para pasar a la siguiente pregunta sin responder. Puedes omitir preguntas, volver atrás y modificar tus respuestas antes de finalizar.
+
+[[K0128]]
+Las respuestas se guardan automáticamente en este navegador. Si recargas la página, retomarás la prueba en la misma pregunta; el temporizador seguirá en marcha.
+
+[[K0129]]
+Cuando estés listo
+
+[[K0130]]
+¿Finalizar esta prueba?
+
+[[K0131]]
+Seguir trabajando
+
+[[K0132]]
+Finalizar y ver el resultado
+
+[[K0133]]
+Desafío completado
+
+[[K0134]]
+Tu resultado
+
+[[K0135]]
+Revisar respuestas
+
+[[K0136]]
+Intentar de nuevo
+
+[[K0137]]
+Sobre esta prueba
+
+[[K0138]]
+Cómo interpretar este resultado
+
+[[K0139]]
+Tu percentil, calculado a partir de los intentos realizados anteriormente, se convierte a la escala de cociente intelectual (CI) habitual: con un punto medio de 100 y una desviación estándar de 15. Esto asume que el grupo de comparación es representativo de la población general, algo que no ha sido confirmado.
+
+[[K0140]]
+Explicación de tus respuestas
+
+[[K0141]]
+Revisa tus respuestas
+
+[[K0142]]
+Volver al resultado
+
+[[K0143]]
+El patrón
+
+[[K0144]]
+Comparar las respuestas
+
+[[K0145]]
+Tu respuesta
+
+[[K0146]]
+Respuesta correcta
+
+[[K0147]]
+Pregunta anterior
+
+[[K0148]]
+Siguiente pregunta
+
+[[K0149]]
+Resultados por pregunta
+
+[[K0150]]
+Explora los 36 acertijos
+
+[[K0151]]
+✓ Correcta
+
+[[K0152]]
+× Incorrecta
+
+[[K0153]]
+Revisar una pregunta
+
+[[K0154]]
+Tus respuestas enviadas y tu puntuación final permanecen sin cambios. [[K0155]]
+Contacto
+
+[[K0156]]
+Comentarios y contacto
+
+[[K0157]]
+Envía tus comentarios o contáctanos
+
+[[K0158]]
+Correcto. Tu respuesta coincide con la respuesta correcta.
+
+[[K0159]]
+Incorrecto. Tu respuesta difiere de la respuesta correcta.
+
+[[K0160]]
+Sin responder. No se envió ninguna respuesta para esta pregunta.
+
+[[K0161]]
+No se ha enviado ninguna respuesta
+
+[[K0162]]
+Tu respuesta enviada
+
+[[K0163]]
+Icono faltante
+
+[[K0164]]
+Todas las preguntas han sido respondidas. Aún puedes revisar y modificar tus respuestas, y luego finalizar la prueba.
+
+[[K0165]]
+Quedan cinco minutos o menos.
+
+[[K0166]]
+Se ha agotado el tiempo. Tus respuestas han sido evaluadas.
+
+[[K0167]]
+Prueba completada.
+
+[[K0168]]
+Comparación no disponible.
+
+[[K0169]]
+Este navegador no pudo guardar tu intento. Mantén esta página abierta: recargarla podría provocar la pérdida de tu progreso o restaurar respuestas anteriores.
+
+[[K0170]]
+El guardado local no está disponible en este navegador. Mantén esta página abierta para evitar perder tu intento.
+
+[[K0171]]
+No se pudo restaurar el intento guardado. Inicia una nueva prueba cuando estés listo.
+
+[[K0172]]
+Mantén la figura sin cambios

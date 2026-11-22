@@ -1,0 +1,124 @@
+[[K0173]]
+Mọi vị trí trong mỗi hàng ví dụ đều chứa cùng một hình tròn màu xanh lam. Hình dạng, màu sắc và kích thước đều không thay đổi.
+
+[[K0174]]
+Hàng cuối cùng đã có hai hình tròn màu xanh lam giống hệt nhau. Thêm một hình tròn màu xanh lam giống hệt nữa để hoàn thiện nó.
+
+[[K0175]]
+Thêm một đường viền lồng nhau
+
+[[K0176]]
+Di chuyển sang phải sẽ thêm một đường viền nhỏ hơn có cùng hình dạng bên trong đường viền trước đó. Hình dạng bên ngoài và màu sắc của nó vẫn không thay đổi.
+
+[[K0177]]
+Hình tam giác màu xanh lá cây có một hình tam giác bên trong ở vị trí giữa. Thêm một hình tam giác bên trong nhỏ hơn nữa để có được câu trả lời.
+
+[[K0178]]
+Sử dụng hình dạng đầu tiên làm hình cắt
+
+[[K0179]]
+Hình màu đen ở vị trí đầu tiên được loại bỏ khỏi tâm của hình vuông màu ở vị trí thứ hai. Lỗ có màu trắng.
+
+[[K0180]]
+Hình vuông màu đen tạo ra một lỗ vuông trong hình vuông màu xanh lá cây. Chọn ô vuông màu xanh lá cây có lỗ hình vuông màu trắng.
+
+[[K0181]]
+Kết hợp màu trên và màu dưới
+
+[[K0182]]
+Kết quả lấy nửa trên từ viên nang thứ nhất và nửa dưới từ viên nang thứ hai.
+
+[[K0183]]
+Viên nang thứ nhất màu trắng và viên nang thứ hai màu xanh lam, vì vậy kết quả là màu trắng ở trên và màu xanh lam ở dưới.
+
+[[K0184]]
+Xoay các thùy màu
+
+[[K0185]]
+Ở mỗi bước, xoay toàn bộ hình bốn thùy 90 độ theo chiều kim đồng hồ. Mỗi thùy màu đỏ và xanh lam đều di chuyển cùng với hình.
+
+[[K0186]]
+Xoay hình ở giữa thêm một phần tư vòng theo chiều kim đồng hồ. Hai thùy màu đỏ kết thúc ở bên phải và phía dưới; thùy trên cùng và bên trái có màu xanh lam.
+
+[[K0187]]
+Làm tròn các góc dần dần
+
+[[K0188]]
+Màu sắc và hình dạng tổng thể vẫn giữ nguyên trong khi các góc được làm tròn hơn ở mỗi bước.
+
+[[K0189]]
+Tiếp tục bo tròn các góc của hình chữ nhật màu nâu. Đáp án là hình viên nang màu nâu với các đầu được bo tròn hoàn toàn.
+
+[[K0190]]
+Tiếp tục di chuyển hình tròn
+
+[[K0191]]
+Trong mỗi hàng, hình tròn màu xanh lá cây di chuyển cùng một khoảng cách theo cùng một hướng: lên trên, xuống dưới hoặc ngang. Kích thước của nó không đổi.
+
+[[K0192]]
+Ở hàng cuối cùng, hình tròn di chuyển sang trái dọc theo đáy của hình vuông. Thêm một bước bằng nhau nữa sẽ đưa nó đến góc dưới bên trái.
+
+[[K0193]]
+Xoay toàn bộ mẫu chấm
+
+[[K0194]]
+Xoay hình vuông và tất cả các chấm của nó 45 độ ngược chiều kim đồng hồ ở mỗi bước. Hình vuông trở thành hình thoi, sau đó lại trở thành hình vuông.
+
+[[K0195]]
+Xoay hình thoi màu xanh lá cây và đen ở giữa thêm 45 độ ngược chiều kim đồng hồ. Giữ nguyên vị trí đã xoay của các chấm xanh lá cây và đen.
+
+[[K0196]]
+Rút ngắn mỗi thanh từ trên xuống
+
+[[K0197]]
+Ở mỗi bước, mỗi thanh đen dọc mất đi một khoảng lưới từ đầu trên của nó. Đầu dưới của nó vẫn nằm trên đường kẻ dưới cùng. Một thanh biến mất khi chiều dài của nó đạt đến không.
+
+[[K0198]]
+Hình ở giữa có một thanh ở giữa dài một khoảng và một thanh bên phải dài hai khoảng. Thanh ở giữa biến mất, để lại một thanh dài một khoảng ở bên phải.
+
+[[K0199]]
+Phản chiếu qua đường kẻ đen
+
+[[K0200]]
+Đường kẻ ở giữa là trục đối xứng. Phản chiếu hình dạng có màu theo đường thẳng đó thay vì chỉ xoay nó.
+
+[[K0201]]
+Đường phản chiếu cuối cùng là đường thẳng đứng, vì vậy hình dạng màu vàng được lật từ trái sang phải. Màu sắc và kích thước của nó vẫn không thay đổi.
+
+[[K0202]]
+Chồng các hình dạng lên nhau và sử dụng màu đầu tiên
+
+[[K0203]]
+Đặt cả hai hình dạng lên trên nhau. Giữ nguyên hình bóng kết hợp và các đường viền có thể nhìn thấy, nhưng tô màu kết quả bằng màu của hình dạng đầu tiên.
+
+[[K0204]]
+Chồng hình tam giác màu xanh hướng xuống và hình lục giác màu vàng lên nhau, sau đó sử dụng màu xanh cho hình kết hợp. Các đỉnh nhô ra của tam giác vẫn hiển thị xung quanh hình lục giác.
+
+[[K0205]]
+Giữ màu xanh lá cây ở chính xác một đầu vào
+
+[[K0206]]
+So sánh diện tích tương ứng của hai hình vuông. Một diện tích là màu xanh lá cây nếu nó là màu xanh lá cây ở chính xác một đầu vào. Màu xanh lá cây ở cả hai đầu vào sẽ triệt tiêu thành màu trắng; màu trắng ở cả hai đầu vào vẫn là màu trắng.
+
+[[K0207]]
+Hình vuông đầu tiên hoàn toàn màu xanh lá cây và hình vuông thứ hai chỉ có một phần tư phía dưới bên trái màu xanh lá cây. Phần tư chung đó chuyển sang màu trắng; ba phần tư còn lại vẫn giữ màu xanh lá cây.
+
+[[K0208]]
+Gắn một bản sao ở mỗi góc
+
+[[K0209]]
+Đặt một bản sao của biểu tượng màu đen nhỏ ở mỗi đỉnh của hình lớn. Các bản sao được thêm vào sẽ có màu của hình lớn.
+
+[[K0210]]
+Hình thoi màu xanh lam lớn có bốn góc. Thêm một hình tam giác màu xanh lam hướng xuống ở mỗi góc, tuân theo quy tắc đặt vị trí tương tự như các ví dụ.
+
+[[K0211]]
+Cộng chiều cao của các thanh tương ứng
+
+[[K0212]]
+Đối với mỗi trong ba vị trí ngang, cộng chiều cao của thanh màu đen trong hình đầu tiên với chiều cao của nó trong hình thứ hai. Đo từ đường đáy chung lên trên.
+
+[[K0213]]
+Cả hai đầu vào đều không có thanh bên trái. Hai thanh ở giữa cộng lại thành một thanh có chiều cao đầy đủ, trong khi các thanh bên phải cộng lại thành một thanh ngắn hơn. Đáp án chỉ có các thanh ở giữa và bên phải.
+
+[[K0214]] Xoay và xen kẽ màu sắc

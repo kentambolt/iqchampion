@@ -1,0 +1,207 @@
+[[K0001]]
+Geschat mediaanbereik
+
+[[K0002]]
+Openbare vergelijkingen omvatten alle deelnemers die deze versie van de puzzel hebben gemaakt. Optionele gegevens zoals leeftijdscategorie en land worden uitsluitend gebruikt voor geaggregeerde statistieken.
+
+[[K0003]]
+Ik ga ermee akkoord dat mijn anonieme resultaten, de tijd die ik aan de puzzel heb besteed, en eventuele optionele gegevens (zoals leeftijdscategorie of land) worden opgenomen in geaggregeerde statistieken.
+
+[[K0004]]
+Mediaanbereiken worden geschat op basis van tijdhistogrammen. Het weergegeven interval geeft de nauwkeurigheid van de tijdmeting aan; er wordt geen exacte mediaan of snelheidspercentiel geclaimd.
+
+[[K0005]]
+Deel de uitdaging
+
+[[K0006]]
+Tijd per vraag
+
+[[K0007]]
+Vanwege de privacyinstellingen van je browser worden deze statistieken lokaal op je apparaat bewaard.
+
+[[K0008]]
+Alle vrijwillige pogingen
+
+[[K0009]]
+Bedankt. Je anonieme bijdrage is opgeslagen.
+
+[[K0010]]
+Er zijn nog niet genoeg vergelijkbare pogingen in deze groep. Je eigen statistieken blijven altijd inzichtelijk.
+
+[[K0011]]
+Vergelijkingen zijn tijdelijk niet beschikbaar. Je eigen statistieken blijven wel inzichtelijk en je kunt je resultaten nog steeds delen.
+
+[[K0012]]
+Van deze oudere poging is geen volledige tijdregistratie beschikbaar. Je kunt je resultaat nog wel bekijken en delen.
+
+[[K0013]]
+Geef aan of je wilt bijdragen voordat er gegevens worden verstuurd.
+
+[[K0014]]
+Van deze poging is geen volledige tijdregistratie beschikbaar. Je persoonlijke resultaten blijven ongewijzigd.
+
+[[K0015]]
+Je bijdrage kon niet worden opgeslagen in deze browser. Er zijn geen gegevens verstuurd.
+
+[[K0016]]
+Deze bijdrage moet worden gecontroleerd en is niet opnieuw meegeteld.
+
+[[K0017]]
+Je bijdrage is nog niet bevestigd. Probeer het opnieuw met dezelfde opgeslagen bijdrage. [[K0018]]
+Geen account nodig
+
+[[K0019]]
+De test begint wanneer jij er klaar voor bent
+
+[[K0020]]
+Test
+
+[[K0021]]
+Beantwoorde vragen
+
+[[K0022]]
+Iets om te delen
+
+[[K0023]]
+Jouw sterkste moment
+
+[[K0024]]
+Je geschatte IQ
+
+[[K0025]]
+Een lastige puzzel, snel opgelost
+
+[[K0026]]
+Sneller dan het gemiddelde juiste antwoord
+
+[[K0027]]
+Je snelste juiste antwoord
+
+[[K0028]]
+Opgeloste patronen
+
+[[K0029]]
+Een uitdaging die het waard is om te delen
+
+[[K0030]]
+36 puzzels. Eén uitdaging.
+
+[[K0031]]
+Deel een uitdaging met iemand die je kent.
+
+[[K0032]]
+Jouw actieve tijd. Er zijn onvoldoende vergelijkingsgegevens om de snelheid ervan te rangschikken.
+
+[[K0033]]
+Kies wat je wilt delen
+
+[[K0034]]
+Beste moment
+
+[[K0035]]
+IQ-schatting
+
+[[K0036]]
+Correcte patronen
+
+[[K0037]]
+Delen op Facebook
+
+[[K0038]]
+Persoonlijk bijschrift kopiëren
+
+[[K0039]]
+Jouw tekst om te delen
+
+[[K0040]]
+Tekst kopiëren
+
+[[K0041]]
+Op Facebook kun je je eigen bijschrift schrijven. Wij plaatsen nooit automatisch berichten.
+
+[[K0042]]
+Gekopieerd. Plak het in je bericht.
+
+[[K0043]]
+Selecteer en kopieer de onderstaande tekst.
+
+[[K0044]]
+Statistieken van je vragen
+
+[[K0045]]
+Vergelijkingen van vragen zijn nog niet beschikbaar. Je persoonlijke statistieken worden hieronder weergegeven.
+
+[[K0046]]
+De tijdmeting omvat de tijd dat je actief met een vraag bezig was, tot aan je laatste antwoord. Bij onbeantwoorde vragen wordt de bestede tijd getoond. Verborgen tabbladen en gesloten pagina's tellen niet mee. Bij eerdere pogingen zijn mogelijk geen tijden geregistreerd.
+
+[[K0047]]
+Alle 36 vragen, inclusief overgeslagen vragen
+
+[[K0048]]
+Vraag
+
+[[K0049]]
+Jouw tijd
+
+[[K0050]]
+Mediaan van de tijd bij correcte antwoorden
+
+[[K0051]]
+Correcte antwoorden van anderen
+
+[[K0052]]
+Vergelijk jouw resultaten met die van anderen die vrijwillig dezelfde versie van de puzzel hebben gemaakt. Er zijn minimaal 30 beantwoorde vragen nodig om een ​​correctpercentage te berekenen, en 30 correcte antwoorden waarvoor een tijd is bijgehouden om een ​​mediaan te bepalen. Dit betreft deelnemers, geen representatieve steekproef van de bevolking.
+
+[[K0053]]
+Vergelijken en bijdragen
+
+[[K0054]]
+Help toekomstige deelnemers hun resultaten te vergelijken. Na afloop kun je anonieme teststatistieken delen, ook als je vragen hebt overgeslagen.
+
+[[K0055]]
+Anonieme vergelijkingen worden voorbereid. Je kunt je persoonlijke statistieken inzien zonder zelf bij te dragen aan de algemene gegevens.
+
+[[K0056]]
+Leeftijdsgroep (optioneel)
+
+[[K0057]]
+Land (optioneel)
+
+[[K0058]]
+Zeg ik liever niet
+
+[[K0059]]
+Jonger dan 18
+
+[[K0060]]
+Ik ga ermee akkoord dat mijn anonieme antwoorden en de tijd die ik aan de vragen heb besteed – samen met de door mij gekozen leeftijdsgroep en het land – worden opgenomen in de vergelijkingsstatistieken.
+
+[[K0061]]
+Geen naam, e-mailadres of exacte leeftijd. Het delen van je statistieken is vrijwillig en heeft geen invloed op je resultaat. Kleine vergelijkingsgroepen worden niet getoond.
+
+[[K0062]]
+Anoniem bijdragen
+
+[[K0063]]
+Waarom dit antwoord?
+
+[[K0064]]
+Uitleg
+
+[[K0065]]
+De regel
+
+[[K0066]]
+Toepassing van de regel
+
+[[K0067]]
+Je bekijkt een oudere versie van de puzzel. De voorbeelden hierin bevatten de eerder vastgestelde ambiguïteit; je opgeslagen antwoord en score blijven ongewijzigd.
+
+[[K0068]]
+Je bekijkt de oorspronkelijke versie, die onjuiste markeringen in de voorbeelden bevatte. Je opgeslagen antwoord en score blijven ongewijzigd. Bij nieuwe pogingen wordt de gecorrigeerde versie gebruikt.
+
+[[K0069]]
+In deze oorspronkelijke versie breidt de getoonde middelste afbeelding zich uit naar groen (rechtsboven en op rij 2, kolom 3), rood (op rij 2, kolom 1) en bruin (op rij 2, kolom 2; rij 3, kolom 3; en rij 4, kolom 3).
+
+[[K0070]]
+Deel het resultaat op Facebook
