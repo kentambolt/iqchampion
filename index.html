@@ -17,15 +17,15 @@
 <meta property="og:locale" content="en_GB">
 <script id="site-schema" type="application/ld+json">{"@context":"https://schema.org","@type":"WebPage","name":"Free visual reasoning test | IQ Champion","description":"36 visual reasoning puzzles. Take a free 40-minute challenge and explore your results.","url":"https://iqchampion.com/en/","inLanguage":"en","isAccessibleForFree":true,"isPartOf":{"@type":"WebSite","name":"IQ Champion","url":"https://iqchampion.com/"}}</script>
 <meta name="description" content="36 visual reasoning puzzles. Take a free 40-minute challenge and explore your results.">
-<link href="assets/styles.css?v=20261115-2" rel="stylesheet">
+<link href="assets/styles.css?v=20261122-1" rel="stylesheet">
 <script src="assets/time_and_scores.js?v=20261113-1" defer></script>
 <script src="assets/percentiles.js?v=20261114-1" defer></script>
 <script src="assets/md5.js?v=20261113-1" defer></script>
 <script src="assets/explanations.js?v=20261114-1" defer></script>
-<script src="assets/i18n.js?v=20261114-7" defer></script>
+<script src="assets/i18n.js?v=20261122-1" defer></script>
 <script src="assets/iq-score.js?v=20261114-1" defer></script>
 <script src="assets/test-start-notifications.js?v=20261119-live1" defer></script>
-<script src="assets/app.js?v=20261119-live1" defer></script>
+<script src="assets/app.js?v=20261122-1" defer></script>
 <script src="https://munthesystems.dk/systems/tracker.894a456da1305558.js" integrity="sha384-oGiw7CoaEVI+Ck8QDz70VAKJIosxw7zK9HTPC2p1LL6VwZ0wXtDArQS3qZxiHey8" crossorigin="anonymous" data-project="iqchampion" data-page="test" data-feedback="false" async></script>
 <script src="assets/layout.js?v=20261114-5" defer></script>
 </head>
@@ -44,8 +44,8 @@
         <div><dt>Time limit</dt><dd>40 min</dd></div>
         <div><dt>Cost</dt><dd>Free</dd></div>
       </dl>
-      <button id="start-link" class="primary" type="button">Try the practice puzzle <svg class="ui-icon" viewBox="0 0 16 16" aria-hidden="true" focusable="false" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M2 8h11m-4-4 4 4-4 4"/></svg></button>
-      <p class="action-note">No account needed. Practice before the timer starts.</p>
+      <button id="start-link" class="primary" type="button">Start 40-minute test <svg class="ui-icon" viewBox="0 0 16 16" aria-hidden="true" focusable="false" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M2 8h11m-4-4 4 4-4 4"/></svg></button>
+      <p class="action-note">No account needed. The timer starts when you begin.</p>
     </div>
     <div class="intro-details">
       <details class="disclosure" data-sheet-title="How the test works"><summary>How the test works</summary>
@@ -64,34 +64,6 @@
       </details>
     </div>
     <noscript><p>Aktivér JavaScript for at tage testen. / Enable JavaScript to take the test.</p></noscript>
-  </section>
-
-  <section id="practice" class="screen practice-screen" hidden aria-labelledby="practice-title">
-    <div class="section-intro">
-      <p class="eyebrow">Before you begin</p>
-      <h1 id="practice-title" tabindex="-1">A quick warm-up</h1>
-      <p class="lead">Which shape comes next?</p>
-    </div>
-    <div class="panel practice-panel">
-      <div class="practice-pattern" role="img" aria-label="Circle, square, circle, square, circle, missing shape">
-        <img class="icon practice-figure" src="tests/test1/38b3eff8baf56627478ec76a704e9b52.png" width="110" height="110" alt="" aria-hidden="true">
-        <img class="icon practice-figure" src="tests/test2/757b505cfd34c64c85ca5b5690ee5293.png" width="110" height="110" alt="" aria-hidden="true">
-        <img class="icon practice-figure" src="tests/test1/38b3eff8baf56627478ec76a704e9b52.png" width="110" height="110" alt="" aria-hidden="true">
-        <img class="icon practice-figure" src="tests/test2/757b505cfd34c64c85ca5b5690ee5293.png" width="110" height="110" alt="" aria-hidden="true">
-        <img class="icon practice-figure" src="tests/test1/38b3eff8baf56627478ec76a704e9b52.png" width="110" height="110" alt="" aria-hidden="true">
-        <img class="practice-figure practice-missing" src="images/questionmark.png" width="110" height="110" alt="" aria-hidden="true">
-      </div>
-      <div class="practice-answers" role="group" aria-label="Practice answers">
-        <button id="practice-circle" type="button"><img class="icon practice-figure" src="tests/test1/38b3eff8baf56627478ec76a704e9b52.png" width="110" height="110" alt="" aria-hidden="true"><span>Circle</span></button>
-        <button id="practice-square" type="button"><img class="icon practice-figure" src="tests/test2/757b505cfd34c64c85ca5b5690ee5293.png" width="110" height="110" alt="" aria-hidden="true"><span>Square</span></button>
-        <button id="practice-triangle" type="button"><img class="icon practice-figure" src="tests/test2/6f3ef77ac0e3619e98159e9b6febf557.png" width="110" height="110" alt="" aria-hidden="true"><span>Triangle</span></button>
-      </div>
-      <p id="practice-feedback" class="feedback-note" role="status">This puzzle is unscored. You can try as many times as you like.</p>
-    </div>
-    <div class="screen-action">
-      <button id="practice-start-link" class="primary" type="button">Start 40-minute test <svg class="ui-icon" viewBox="0 0 16 16" aria-hidden="true" focusable="false" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M2 8h11m-4-4 4 4-4 4"/></svg></button>
-      <p class="action-note">Untimed practice. Your score starts with the real test.</p>
-    </div>
   </section>
 
   <section id="test" class="screen test-screen" hidden aria-label="Reasoning test">

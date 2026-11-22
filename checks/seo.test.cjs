@@ -21,7 +21,7 @@ test('both real HTML routes expose localized content before JavaScript and recip
   assert.ok(h.includes('hreflang="x-default" href="https://iqchampion.com/"'));
   const plain=h.replace(/<script[^>]*>[\s\S]*?<\/script>/g,'').replace(/<[^>]+>/g,' ');
   assert.ok(plain.includes(lang==='da'?'Find den manglende brik.':'Find the missing piece.'));
-  assert.ok(plain.includes(lang==='da'?'Prøv øveopgaven':'Try the practice puzzle'));
+  assert.ok(plain.includes(lang==='da'?'Start testen på 40 minutter':'Start 40-minute test'));
   assert.ok(plain.includes(lang==='da'?'10.216':'10,216'));
   assert.ok(h.includes('?lang='+lang));
   for(const m of h.matchAll(/<(?:script|img|link)\b[^>]*(?:src|href)="([^"#]+)"/g)) {

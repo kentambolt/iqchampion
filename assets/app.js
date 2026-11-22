@@ -105,7 +105,6 @@ function restore_attempt() {
   remember_start_notification();
   finished = false;
   document.getElementById('front').hidden = true;
-  document.getElementById('practice').hidden = true;
   document.getElementById('result').hidden = true;
   document.getElementById('answer-review').hidden = true;
   document.getElementById('test').hidden = false;
@@ -120,22 +119,6 @@ function restore_attempt() {
     if (!finished) timer_id = setInterval(update_timer, 250);
   }
   return true;
-}
-
-function show_practice() {
-  if (!finished) return;
-  document.getElementById('front').hidden = true;
-  document.getElementById('result').hidden = true;
-  document.getElementById('answer-review').hidden = true;
-  document.getElementById('practice').hidden = false;
-  i18n.text(document.getElementById('practice-feedback'), 'This puzzle is unscored. You can try as many times as you like.');
-  document.getElementById('practice-title').focus();
-}
-
-function answer_practice(shape) {
-  i18n.text(document.getElementById('practice-feedback'), shape === 'square'
-    ? 'Correct! Circle and square alternate, so the missing shape is a square. In the test, answers are saved immediately. You can skip questions, return and change answers before finishing.'
-    : 'Try again. The shapes alternate between circle and square. What comes after a circle?');
 }
 
 function get_random_indexes(start, end) {
@@ -229,7 +212,6 @@ function show_answer_review(id = 1) {
   if (!finished || started_at === null || !Number.isInteger(id) || id < 1 || id > total_questions) return;
   review_question = id;
   document.getElementById('result').hidden = true;
-  document.getElementById('practice').hidden = true;
   document.getElementById('answer-review').hidden = false;
   const heading = document.getElementById('answer-review-title');
   i18n.text(heading, `Review question ${id} / ${total_questions}`);
@@ -479,13 +461,12 @@ function start_test() {
   deadline = started_at + time_limit_ms;
   finished = false;
   timed_out = false;
-  // This hook runs only for a newly accepted start, never restore/practice/navigation.
+  // This hook runs only for a newly accepted start, never restore/navigation.
   try { start_notification = start_notification_producer.createStart(); }
   catch { start_notification = null; }
   document.getElementById('front').hidden = true;
   document.getElementById('result').hidden = true;
   document.getElementById('answer-review').hidden = true;
-  document.getElementById('practice').hidden = true;
   document.getElementById('test').hidden = false;
   document.getElementById('finish-review').hidden = true;
   save_attempt();
@@ -496,21 +477,17 @@ function start_test() {
 }
 
 i18n.text(document.getElementById('reference-count'), reference_scores.length.toLocaleString('en-US'));
-document.getElementById('start-link').addEventListener('click', show_practice);
-document.getElementById('restart-link').addEventListener('click', show_practice);
+document.getElementById('start-link').addEventListener('click', start_test);
+document.getElementById('restart-link').addEventListener('click', start_test);
 document.getElementById('answer-review-link').addEventListener('click', () => show_answer_review(1));
 document.getElementById('review-back').addEventListener('click', return_to_result);
 document.getElementById('review-previous').addEventListener('click', () => show_answer_review(review_question - 1));
 document.getElementById('review-next').addEventListener('click', () => show_answer_review(review_question + 1));
-document.getElementById('practice-start-link').addEventListener('click', start_test);
 document.getElementById('previous-link').addEventListener('click', () => go_to_question(current_question - 1));
 document.getElementById('skip-link').addEventListener('click', () => go_to_question(current_question % total_questions + 1));
 document.getElementById('finish-link').addEventListener('click', request_finish);
 document.getElementById('finish-confirm').addEventListener('click', finish_test);
 document.getElementById('finish-cancel').addEventListener('click', () => go_to_question(current_question));
-for (const shape of ['circle', 'square', 'triangle']) {
-  document.getElementById('practice-' + shape).addEventListener('click', () => answer_practice(shape));
-}
 document.addEventListener('visibilitychange', update_timer);
 window.addEventListener('focus', update_timer);
 window.addEventListener('storage', event => {
