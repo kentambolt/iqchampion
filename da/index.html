@@ -140,7 +140,8 @@
     <details class="disclosure result-statistics" data-sheet-title="Your question statistics"><summary>Din opgavestatistik</summary>
       <p id="stats-cohort-label" class="small"></p><p id="stats-total-time"></p><p id="stats-comparison-note" class="small"></p>
       <p class="small">Tiderne måler aktiv tid i en synlig opgave med fokus frem til dit sidste svar. Ved ubesvarede opgaver vises den brugte tid. Skjulte faner og lukkede sider tæller ikke med. Ældre forsøg kan mangle tider.</p>
-      <div class="statistics-table-wrap"><table class="statistics-table"><caption>Alle 36 opgaver, også dem du sprang over</caption><thead><tr><th scope="col">Opgave</th><th scope="col">Dit svar</th><th scope="col">Din tid</th><th scope="col">Median for korrekte svar</th><th scope="col">Andre med korrekt svar</th></tr></thead><tbody id="statistics-rows"></tbody></table></div>
+      <p class="small">Medianintervaller estimeres fra tidshistogrammer. Det viste interval angiver tidsopløsningen. Der angives ikke en eksakt median eller hastighedspercentil.</p>
+      <div class="statistics-table-wrap"><table class="statistics-table"><caption>Alle 36 opgaver, også dem du sprang over</caption><thead><tr><th scope="col">Opgave</th><th scope="col">Dit svar</th><th scope="col">Din tid</th><th scope="col">Estimeret medianinterval</th><th scope="col">Andre med korrekt svar</th></tr></thead><tbody id="statistics-rows"></tbody></table></div>
       <p class="small">Sammenlign med frivillige forsøg på samme opgaveversion. En korrektandel kræver mindst 30 besvarelser, og en median kræver 30 korrekte svar med tidsmåling. Deltagerne er ikke et repræsentativt udsnit af befolkningen.</p>
     </details>
     <details class="disclosure contribution-panel" data-sheet-title="Compare and contribute"><summary>Sammenlign og bidrag</summary>
@@ -149,8 +150,8 @@
       <form id="contribution-form" hidden>
         <label for="stats-age">Aldersgruppe (valgfrit)</label><select id="stats-age"><option value="">Ønsker ikke at oplyse</option><option value="under18">Under 18</option><option value="18-24">18–24</option><option value="25-34">25–34</option><option value="35-44">35–44</option><option value="45-54">45–54</option><option value="55-64">55–64</option><option value="65plus">65+</option></select>
         <label for="stats-country">Land (valgfrit)</label><select id="stats-country"><option value="">Ønsker ikke at oplyse</option></select>
-        <div class="cohort-actions"><button id="compare-cohort" type="button" class="secondary">Sammenlign med denne gruppe</button><button id="compare-all" type="button" class="text-button">Alle frivillige forsøg</button></div>
-        <label class="statistics-consent"><input id="stats-consent" type="checkbox" required><span>Jeg accepterer, at mine anonyme opgaveresultater og aktive tider samt eventuelt valgt aldersgruppe og land indgår i sammenligningsstatistik.</span></label>
+        <p class="small">Offentlige sammenligninger omfatter alle bidrag på denne opgaveversion. Frivillig aldersgruppe og land bruges kun i privat, samlet statistik.</p>
+        <label class="statistics-consent"><input id="stats-consent" type="checkbox" required><span>Jeg accepterer, at mine anonyme opgaveresultater, aktive tider og eventuelt valgt aldersgruppe eller land indgår i samlet statistik.</span></label>
         <p class="small">Intet navn, e-mail eller præcis alder. Det er frivilligt at dele statistik og ændrer ikke dit resultat. Små sammenligningsgrupper skjules.</p>
         <button id="contribute-statistics" class="primary" type="submit">Bidrag anonymt</button><p id="contribution-status" class="feedback-note" role="status"></p>
       </form>

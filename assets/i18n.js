@@ -3,13 +3,13 @@
 // Product-owned copy only. No user data is sent to a translation service.
 const i18n = (() => {
   const da = {
+    "Estimated median range": "Estimeret medianinterval",
+    "Public comparisons include all contributors using this puzzle version. Optional age group and country are only used in private aggregate statistics.": "Offentlige sammenligninger omfatter alle bidrag på denne opgaveversion. Frivillig aldersgruppe og land bruges kun i privat, samlet statistik.",
+    "I agree to contribute my anonymous question results, active times and any optional age group or country to aggregate statistics.": "Jeg accepterer, at mine anonyme opgaveresultater, aktive tider og eventuelt valgt aldersgruppe eller land indgår i samlet statistik.",
+    "Median ranges are estimated from time histograms. The displayed interval shows the timing resolution; no exact median or speed percentile is claimed.": "Medianintervaller estimeres fra tidshistogrammer. Det viste interval angiver tidsopløsningen. Der angives ikke en eksakt median eller hastighedspercentil.",
     "Share the challenge": "Del udfordringen",
     "Question time": "Opgavetid",
-    "Same age group and country": "Samme aldersgruppe og land",
-    "Same age group": "Samme aldersgruppe",
-    "Same country": "Samme land",
     "Your browser privacy preferences keep these statistics on your device.": "Din browsers privatlivsvalg holder disse statistikker på din enhed.",
-    "Compare with this group": "Sammenlign med denne gruppe",
     "All voluntary attempts": "Alle frivillige forsøg",
     "Thank you. Your anonymous contribution was saved.": "Tak. Dit anonyme bidrag er gemt.",
     "There are not enough comparable attempts in this group yet. Your own statistics are always available.": "Der er endnu ikke nok sammenlignelige forsøg i denne gruppe. Din egen statistik er altid tilgængelig.",
@@ -138,6 +138,7 @@ const i18n = (() => {
   const count = (n, singular, plural) => `${n} ${Number(n) === 1 ? singular : plural}`;
   const number = value => String(value).replace('.', ',');
   const patterns = [
+    [/^Estimated median range: (.+) \((\d+) timed correct answers\)\.$/, (_,range,n) => 'Estimeret medianinterval: '+range+' ('+n+' korrekte svar med tidsmåling).'],
     [/^Question (\d+) · (.+)$/, (_,q,time) => 'Opgave '+q+' · '+time],
     [/^(\d+) correct patterns$/, (_,n) => n+' rigtige mønstre'],
     [/^Correct-answer median: (.+) \((\d+) timed correct answers\)\.$/, (_,time,n) => 'Median for korrekte svar: '+time+' ('+n+' korrekte svar med tidsmåling).'],

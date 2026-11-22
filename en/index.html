@@ -140,7 +140,8 @@
     <details class="disclosure result-statistics" data-sheet-title="Your question statistics"><summary>Your question statistics</summary>
       <p id="stats-cohort-label" class="small"></p><p id="stats-total-time"></p><p id="stats-comparison-note" class="small"></p>
       <p class="small">Times count visible, focused question time up to your last answer. For unanswered questions, time spent is shown. Hidden tabs and closed pages do not count. Earlier attempts may have no timings.</p>
-      <div class="statistics-table-wrap"><table class="statistics-table"><caption>All 36 questions, including skipped questions</caption><thead><tr><th scope="col">Question</th><th scope="col">Your answer</th><th scope="col">Your time</th><th scope="col">Correct-answer median</th><th scope="col">Others correct</th></tr></thead><tbody id="statistics-rows"></tbody></table></div>
+      <p class="small">Median ranges are estimated from time histograms. The displayed interval shows the timing resolution; no exact median or speed percentile is claimed.</p>
+      <div class="statistics-table-wrap"><table class="statistics-table"><caption>All 36 questions, including skipped questions</caption><thead><tr><th scope="col">Question</th><th scope="col">Your answer</th><th scope="col">Your time</th><th scope="col">Estimated median range</th><th scope="col">Others correct</th></tr></thead><tbody id="statistics-rows"></tbody></table></div>
       <p class="small">Compare with voluntary attempts using the same puzzle version. At least 30 answered questions are needed for a correct rate, and 30 timed correct answers for a median. These are participants, not a representative population.</p>
     </details>
     <details class="disclosure contribution-panel" data-sheet-title="Compare and contribute"><summary>Compare and contribute</summary>
@@ -149,8 +150,8 @@
       <form id="contribution-form" hidden>
         <label for="stats-age">Age group (optional)</label><select id="stats-age"><option value="">Prefer not to say</option><option value="under18">Under 18</option><option value="18-24">18–24</option><option value="25-34">25–34</option><option value="35-44">35–44</option><option value="45-54">45–54</option><option value="55-64">55–64</option><option value="65plus">65+</option></select>
         <label for="stats-country">Country (optional)</label><select id="stats-country"><option value="">Prefer not to say</option></select>
-        <div class="cohort-actions"><button id="compare-cohort" type="button" class="secondary">Compare with this group</button><button id="compare-all" type="button" class="text-button">All voluntary attempts</button></div>
-        <label class="statistics-consent"><input id="stats-consent" type="checkbox" required><span>I agree to contribute my anonymous question results and active times, together with any age group and country I choose, to comparison statistics.</span></label>
+        <p class="small">Public comparisons include all contributors using this puzzle version. Optional age group and country are only used in private aggregate statistics.</p>
+        <label class="statistics-consent"><input id="stats-consent" type="checkbox" required><span>I agree to contribute my anonymous question results, active times and any optional age group or country to aggregate statistics.</span></label>
         <p class="small">No name, email or exact age. Sharing your statistics is optional and does not affect your result. Small comparison groups are hidden.</p>
         <button id="contribute-statistics" class="primary" type="submit">Contribute anonymously</button><p id="contribution-status" class="feedback-note" role="status"></p>
       </form>

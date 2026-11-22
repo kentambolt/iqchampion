@@ -22,3 +22,7 @@ Screenshots og faktisk målte viewports: reports/design-20261122/. Forsiden er m
 2. Test fuld klient→staging→aggregate/ownerportal før collector-flag aktiveres; ingen falske produktionsbidrag eller ny rigtig teststart-push fra lokale tests.
 3. Normal PR/release med da/en, bevaret normdata/scoring/timer, frontend-mobilkontrol og faktisk Pages-bevis.
 4. Ved udgivelse: opdatér selskabsoversigt og den offentlige portfolio med faktisk nyt design; lokale screenshots er ikke offentligt portfolioindhold endnu.
+
+## Central afstemning, revision 2
+
+Efter selskabsforløbets gennemgang er offentlig v1 afgrænset til global sammenligning pr. puzzle_version. Alders-/landefiltre og krydsgrupper er fjernet fra UI og GET-stub. Frivillig demografi kræver aktivt samtykke og bruges kun i separate private enkelt-dimensionelle aggregater med små-gruppegrænser. Forslaget kræver 90 dages daglige aggregater/histogrammer og 7 dages ID/hash-kvitteringer, uden rå deltagerliste. Histogrambenchmarks vises som estimerede intervaller med forklaret tidsopløsning; highlights bruger den konservative nedre grænse. Ingen central GO eller aktivering er modtaget.

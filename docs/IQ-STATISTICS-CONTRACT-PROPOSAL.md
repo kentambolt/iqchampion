@@ -1,37 +1,54 @@
-# Forslag: IQ-sammenligninger v1 · 22. november 2026
+# Forslag: IQ-sammenligninger v1, revision 2 · 22. november 2026
 
-**Forslag, ikke livekontrakt. Collector skal forblive deaktiveret, indtil selskabsforløbet har godkendt schema, origin og privacy-/kohortegrænser, udgivet modtageren og verificeret syntetisk staging.** Ingen rå svar/demografi/attempt-ID sendes gennem den generiske tracker eller ntfy.
+**Forslag, ikke livekontrakt eller central GO. Collector forbliver deaktiveret.** Selskabsforløbet skal godkende endpoints/schema og udgive/verificere separat modtager, staging og ejerportal før nogen indsamling. Ingen rå svar, demografi eller forsøgs-ID i generisk tracker/ntfy. Produktion er fortsat PR #12; PR #13 er draft.
 
-## Formål og samtykke
+## Resultat, frivillighed og samtykke
 
-Lokale personlige opgavetider og basisdeling kræver intet bidrag. En separat, umarkeret samtykkeboks forklarer, at anonym teststatistik og eventuelt valgte aldersgruppe/land indgår i sammenligninger. Indsendelse sker kun på brugerens eksplicitte klik efter finish eller timeout, også ved delvise tests. Aldersgruppe og land er frivillige; ingen navn, præcis alder, fødselsdato, email, IP/UA, rå svar eller vedvarende besøgs-ID gemmes. DNT/GPC/bot/preview skal blokere transport. Intet historisk forsøg får opfundne opgavetider.
+Egne tider/statusrækker og basisdeling fungerer uden bidrag, også ved delvise tests. En umarkeret samtykkeboks kræver et aktivt valg og klik efter afslutning/timeout, før anonym opgavestatistik og eventuelt valgt aldersgruppe/land sendes. Alder er en grov gruppe, ikke præcis alder eller fødselsdato; land er frivilligt. Ingen navn, email, rå svar, IP/UA eller vedvarende besøgs-ID gemmes. DNT/GPC/bot/preview spærrer transport. Historiske forsøg får ikke opfundne opgavetider.
 
-## Foreslået separat API
+**V1 offentlige sammenligninger er udelukkende globale pr. puzzle_version.** Ingen offentlige alders-/landefiltre eller krydsgrupper, heller ikke når en bruger bidrager med frivillig demografi. Brugerfladen forklarer, at disse oplysninger alene bruges i private aggregater. Mere specifikke offentlige sammenligninger er ikke en del af denne version.
 
-`POST /systems/v1/iq-attempts` på munthesystems.dk, credentialless CORS for præcis https://iqchampion.com; ingen frontendnøgle. Højst 8192 bytes. Eksakte felter:
+## Foreslået separat POST
+
+`POST /systems/v1/iq-attempts` på munthesystems.dk. Credentialless CORS for præcis https://iqchampion.com, ingen frontendnøgle. Højst 8192 bytes, eksakte felter:
 
 ```json
 {"version":1,"id":"canonical UUID pr. afsluttet forsøg","puzzle_version":3,"completion":"finished","elapsed_ms":120000,"questions":[{"question":1,"status":"correct","active_ms":5000,"answer_ms":5000,"changes":1}],"demographics":{"age_group":null,"country":null}}
 ```
 
-questions indeholder præcis alle 36 entydige id'er 1–36, sorteret. status=correct/incorrect/unanswered. active_ms er aktiv, synlig/fokuseret opgavetid, ikke vægtid; answer_ms er kumuleret tid indtil sidst gemte svar og er null ved ubesvaret. changes er antal gemte svar, ikke klik på et vist facit. Alle tider er heltal 0–2400000, answer_ms<=active_ms og samlet active_ms<=elapsed_ms<=2400000. completion=finished/timeout. Kun kendte puzzle_version: historiske data med ændrede regler må ikke blandes. Tider under1000ms og mistænkelige/ufuldstændige målinger udelades fra hastighedssammenligning; svarstatus kan stadig indgå i optælling. Klientrapporteret test uden anti-cheatgaranti.
+questions har præcis alle 36 entydige id'er 1–36, sorteret. status=correct/incorrect/unanswered. active_ms er synlig/fokuseret opgavetid; answer_ms er kumuleret aktiv tid indtil sidst gemte svar, null ved ubesvaret. Senere inspektion ændrer ikke tiden frem til svaret. changes er antal gemte svar. Heltal: 0–2400000 ms; answer_ms<=active_ms; sum(active_ms)<=elapsed_ms<=2400000. completion=finished/timeout. Kun kendte puzzle_version, uden sammenblanding af ændrede opgaveregler.
 
-age_group=null/under18/18-24/25-34/35-44/45-54/55-64/65plus. country=null eller allowlistet ISO3166-1 alpha2. Grove dimensioner; ikke landenes gennemsnitlige IQ eller befolkningspåstande.
+age_group=null/under18/18-24/25-34/35-44/45-54/55-64/65plus. country=null eller allowlistet ISO3166-1 alpha2. Aktivt samtykke omfatter de faktisk valgte frivillige oplysninger. Ingen automatisk indsendelse ved feltændring og ingen demografisk forespørgsel fra klienten.
 
-Første atomiske optælling202 `{accepted:true,id,duplicate:false}`; identisk genforsøg200 duplicate:true; ændret payload med samme id409. Samme payload bevares ved netværksgenforsøg; ingen automatisk ændring af demografi efter accept. Dedupe lagrer id/hash/retention, ikke en brugerprofil. Ingen modtagerkvittering uden varigt commit. Perioderetention og quotas fastlægges centralt (forslag90dage aggregater/7dage dedupe).
+Første varige atomiske optælling: 202 `{accepted:true,id,duplicate:false}`. Identisk genforsøg: 200 duplicate=true. Ændret payload med samme ID: 409. Samme payload/ID bevares ved manuelt netværksgenforsøg; demografi ændres ikke efter indsendelse. Klienten gemmer først den samtykkede, frosne payload med forsøget. Der er ingen automatisk baggrundsindsendelse.
 
-`GET /systems/v1/iq-comparisons?version=3[&age_group=...][&country=...]` giver **kun aggregater**. Forslag:
+## Central lagring og afgrænsning
+
+Modtageren validerer i hukommelsen og opdaterer **daglige aggregater og tidshistogrammer**, ikke en rå 36-rækkers deltagerliste. Intet råt body i database, request-/fejllogs eller ejerportal. Ingen individuel profil eller kobling af demografi og forsøgs-ID.
+
+- Aggregater/histogrammer: 90 dage, separat pr. puzzle_version og miljø.
+- Dedupe: kun tilfældigt hændelses-ID, normaliseret payloadhash og kvitterings-/modtagelsestid i 7 dage. Ikke en besøgsidentitet.
+- Statusoptælling er separat fra gyldig hastighed. Ubesvarede opgaver er ikke i sig selv svære.
+- Korrektrate bruger besvarede opgaver som nævner. Kun gyldige korrekte tider tæller i histogrammerne; fx under 1000 ms eller ufuldstændige/mistænkelige målinger udelades fra hastighed, mens status stadig kan tælles.
+- Demografi holdes i separate enkelt-dimensionelle ejeraggregater: aldersgruppe **eller** land. Ingen age×country-krydsgrupper, rå deltagerprofiler eller offentlig filterflade. Små grupper skjules centralt; minimum 30 relevante bidrag før en dimension vises.
+- Rate-/lagringsgrænser og histogramgrænser afstemmes centralt før aktivering. Alle værdier er klientrapporterede, uden anti-cheat- eller normeringsgaranti.
+
+## Foreslået global GET
+
+`GET /systems/v1/iq-comparisons?version=3` giver kun globale aggregater. Andre queryfelter, især country/age_group, skal afvises; klientstubben afviser filtre før ethvert kald. Forslag:
 
 ```json
-{"version":1,"puzzle_version":3,"sample_size":120,"minimum_sample":30,"period_days":90,"questions":[{"question":1,"answered":100,"correct":70,"timed_correct":60,"median_correct_ms":14000}]}
+{"version":1,"timing_method":"histogram","puzzle_version":3,"sample_size":120,"minimum_sample":30,"period_days":90,"questions":[{"question":1,"answered":100,"correct":70,"timed_correct":60,"median_lower_ms":13000,"median_upper_ms":15000}]}
 ```
 
-Ingen små kohorter/rå rækker; ved n<30 returneres utilstrækkeligt-grundlag. Opgavens korrektandel kræver mindst30 besvarelser, korrekt-tidsmedian mindst30 gyldige korrekte tider. Ubesvarede slutopgaver vises separat og bruges ikke alene som sværhedsbevis. Land/alder afspejler frivillige bidrag, ikke repræsentativ norm. Endpoint/schema/detailgrænser afstemmes før aktivering. Ingen påstand om hurtigere end X procent ud fra en median alene; klienten viser egen tid/median/sampletal.
+Minimum 30 version-matchende bidrag før sammenligninger. Opgavens korrektrate kræver 30 besvarelser, tidsbenchmark kræver 30 gyldige korrekte tider. Spørgsmål med utilstrækkeligt grundlag udelades eller har null-tidsfelter; central API må ikke udlevere små gruppers skjulte grundtal. Klienten forsvarer samme minimum, men er ikke serverens privacygrænse.
 
-## Ejerportal
+`median_lower_ms`/`median_upper_ms` er grænserne for det histograminterval, der indeholder den estimerede median. **Det er tidsopløsning, ikke et konfidensinterval eller en eksakt median.** Begge er null uden tidsgrundlag. UI og deling viser fx “Estimeret medianinterval: 13–15 s”, med forklaring og sampletal; ingen hastighedspercentil beregnes fra intervallet. En hurtig præstation fremhæves kun, hvis egen tid er mindst 1 sekund og 10 procent under den konservative nedre intervalgrænse.
 
-Selskabsforløbet ejer eksisterende loginbeskyttede IQ-statistik: gennemførte/delvise forsøg pr. dag, korrekt/forkert/ubesvaret pr. opgave, korrektrate blandt besvarede, gyldige korrekte tider/median og demografisk dækning med små-gruppegrænser. Ingen rå deltagerrækker eller individuel profil. Bevar staging-/produktionsadskillelse og eksisterende Google/Origin/CSRF-grænser.
+Frivillige forsøg er ikke et repræsentativt befolkningsudsnit. Ingen nationale IQ-ranglister eller numerisk korrektion af IQ efter alder/land.
 
-## Deling
+## Ejerportal og release
 
-Statiske da/en-opgaveshares på iqchampion.com samt kopiértekst med egen tid. Ingen offentlig token-/demografiprofil eller automatisk Facebook-publicering. Eksisterende IQ-share bruges kun ved et komplet forsøg. Bedste highlight vælges ud fra gyldigt eget resultat og reelle versionsmatchende aggregater; uden sammenligningsdata vises kun egen præstation med tydelig mangel på sammenligning.
+Selskabsforløbet ejer den eksisterende loginbeskyttede visning: gennemførte/delvise forsøg pr. dag, korrekt/forkert/ubesvaret pr. opgave, gyldige korrekte tider og histogramestimater samt afgrænset demografisk dækning. Kun aggregater, enkeltvise demografiske dimensioner og små-gruppegrænser; ingen rå deltagerliste. Eksisterende Google/Origin/CSRF- og staging-/produktionsgrænser bevares.
+
+Statiske da/en-shares og kopiértekst er uafhængige af bidrag. Ingen offentlig token-/demografiprofil eller automatisk Facebook-publicering. Eksisterende IQ-share bruges kun ved komplet forsøg. Collector enabled=false bevares, indtil konkret modtager, syntetisk staging, aggregeret GET og ejerportal er verificeret og afstemt.
