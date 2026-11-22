@@ -5,8 +5,7 @@ Open `index.html` in a browser; no build, server, account, or database is requir
 
 ## Test behavior
 
-- An untimed, unscored practice puzzle explains the interaction before the real test.
-  It uses a separate shape sequence and never contributes to the 36-question score.
+- Start goes directly to the first test question and begins the 40-minute timer.
 - The deadline starts when Start 40-minute test is pressed. A visible countdown and a five-minute
   warning accompany automatic scoring at timeout. Switching tabs does not pause it.
 - Questions can be skipped, revisited through Previous or the numbered overview,
@@ -28,8 +27,7 @@ Open `index.html` in a browser; no build, server, account, or database is requir
   Reloading resumes the same question with the original deadline; time spent with the
   page closed still counts. Version 1 saves migrate while preserving answers and time.
 - Reopening an expired attempt immediately scores its stored answers. Completed
-  results also survive reload. Try again opens untimed practice; only starting the
-  next timed test replaces the previous saved attempt. Answer positions may shuffle
+  results also survive reload. Try again starts a new timed test and replaces the previous saved attempt. Answer positions may shuffle
   again on reload. Use one tab; other tabs reconcile stored progress before accepting
   an answer or scoring a timeout, but localStorage is not a transactional multi-user store.
 - Saving is local to this browser and origin, not an account or server backup.
@@ -63,7 +61,7 @@ The historical duration field does not establish that identical timing rules wer
 enforced. The sample has not been established as representative. Results therefore
 show raw score and participant percentile, without claiming a validated IQ estimate.
 The old percentile conversion files are retained as historical data and are not loaded.
-Practice, seeing the correct answers and the ability to return to questions may change performance relative to
+Repeated attempts, seeing the correct answers and the ability to return to questions may change performance relative to
 historical attempts; that limitation is disclosed in the result text.
 
 ## Verification
@@ -75,7 +73,7 @@ node --test checks/app.test.cjs
 ```
 
 Checks cover the reference filter, low/partial/perfect scores, ties, late answers,
-timeout, restart, practice isolation, reload before/after expiry, completed results,
+timeout, restart, direct start, reload before/after expiry, completed results,
 invalid saves, storage failures, skipped questions, answer replacement, overview status,
 manual completion, version 1 migration, read-only post-test review, exact answer-image
 mapping, review after timeout/reload and stale submissions across tabs. They use a simulated clock and
@@ -113,7 +111,7 @@ the new layout after publication. Update that version when changing shipped asse
 
 ## Mobile readability iteration (14 November 2026)
 
-The home screen now prioritises the challenge, three short facts and the practice
+The home screen now prioritises the challenge, three short facts and the start
 button. Instructions and reference details use separate expandable sections.
 The test uses compact pattern/answer panels, a mobile timer header and an
 expandable question overview. Results show the score and next actions first,
@@ -122,7 +120,7 @@ body copy keep paragraphs readable. The existing scoring and timer are unchanged
 
 ## Danish and English
 
-The language switch is available on every screen. Both languages cover practice,
+The language switch is available on every screen. Both languages cover the introduction,
 active and restored attempts, navigation, finish confirmation, results, methodology,
 answer review, accessibility labels and recoverable storage errors. An explicit /da/ or /en/ route takes precedence over the saved choice and browser
 language. The root page retains the saved/browser fallback without automatically
@@ -151,13 +149,13 @@ Test artwork is capped at its original resolution and scales with viewport heigh
 and width. Navigation shares one compact toolbar. Instructions, methodology, the
 36-question overview and finish confirmation use a native dialog with keyboard
 focus handling, Escape/close and preserved live DOM controls. Results, introduction,
-practice and answer review are also compact on desktop/tablet. No body overflow is
+answer review are also compact on desktop/tablet. No body overflow is
 hidden to manufacture a fit; scrolling remains available for small mobile screens,
 zoom and longer dialog content. No question images, answers or scoring are changed.
 
 38 existing app checks pass. Real browser measurements found no page or horizontal
 overflow at 1366x768, 1280x720, 1024x600, 768x1024, 1024x768, 600x800 and 800x600 for the active test.
-At 1024x600, introduction, practice, results and review also fit. At 375x812 the
+At 1024x600, introduction, results and review also fit. At 375x812 the
 active test retains vertical scrolling but has no horizontal overflow. Question
 overview selection, continued work, finish, review and bilingual dialogs were
 checked with actual controls. Preview analytics were disabled. Two SVG before/after
@@ -186,7 +184,7 @@ Metadata and feedback language follow the selected route.
 
 The sitemap contains only /da/ and /en/. The duplicate English root canonicalizes
 to /en/. No artificial lastmod is generated. The custom 404 is noindex and does
-not load test state. Active practice/tests/results are noindex in the browser;
+not load test state. Active tests/results are noindex in the browser;
 returning to the public introduction restores index,follow. The WebPage JSON-LD
 describes the actual free page and has no invented ratings, offers or IQ claims.
 No Search Console indexing or ranking result is claimed.

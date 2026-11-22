@@ -118,22 +118,16 @@ test('stale and invalid answers do not advance the question', () => {
   assert.equal(app.element('test-right').children.length, 9);
 });
 
-test('practice gives feedback without starting the timer or contributing answers', () => {
-  const app = load();
-  app.element('start-link').events.click();
-  assert.equal(app.element('practice').hidden, false);
-  assert.equal(app.intervals.size, 0);
-  app.element('practice-circle').events.click();
-  assert.match(app.element('practice-feedback').textContent, /Try again/);
-  app.element('practice-square').events.click();
-  assert.match(app.element('practice-feedback').textContent, /Correct!/);
-  assert.equal(app.run('answered_count()'), 0);
-  assert.equal(app.store.size, 0);
-  app.advance(15 * 60 * 1000);
-  app.element('practice-start-link').events.click();
-  assert.equal(app.element('time-left').textContent, '40:00');
-  assert.equal(app.element('practice').hidden, true);
-  assert.equal(app.run('answered_count()'), 0);
+test('front start goes straight to question one with a fresh 40-minute deadline', () => {
+ const app=load({notificationStub:true});
+ assert.equal(app.intervals.size,0);assert.equal(app.rememberedNotifications.length,0);
+ app.element('start-link').events.click();
+ assert.equal(app.element('front').hidden,true);assert.equal(app.element('test').hidden,false);
+ assert.equal(app.element('question-number').textContent,'Question 1 / 36');
+ assert.equal(app.element('time-left').textContent,'40:00');assert.equal(app.run('answered_count()'),0);
+ const id=app.rememberedNotifications[0].id;
+ app.element('start-link').events.click();
+ assert.ok(app.rememberedNotifications.every(p=>p.id===id));
 });
 
 test('reload restores answers, original start time and remaining deadline', () => {
@@ -164,16 +158,14 @@ test('reopening after the deadline scores stored answers instead of resetting', 
   assert.equal(reloaded.run('deadline'), 1000 + 40 * 60 * 1000);
 });
 
-test('a completed result survives reload and Try again waits in untimed practice', () => {
+test('a completed result survives reload and Try again starts a fresh timed attempt', () => {
   const first = load();
   first.run('start_test(); for (let q = 1; q <= 36; q++) submit_answer(q, get_hash(q, 1, true)); request_finish(); finish_test();');
   const reloaded = load({ store: first.store, now: 1000 + 41 * 60 * 1000 });
   assert.equal(reloaded.element('score').textContent, '36 / 36 correct');
   assert.equal(reloaded.element('result-reason').textContent, 'Test completed.');
   reloaded.element('restart-link').events.click();
-  assert.equal(reloaded.intervals.size, 0);
-  assert.equal(reloaded.element('practice').hidden, false);
-  reloaded.element('practice-start-link').events.click();
+  assert.equal(reloaded.intervals.size, 1);
   assert.equal(reloaded.element('time-left').textContent, '40:00');
   assert.equal(reloaded.run('answered_count()'), 0);
   assert.equal(reloaded.run('started_at'), 1000 + 41 * 60 * 1000);
@@ -439,7 +431,7 @@ test('usage events follow new starts and finishes, without reporting a restored 
   const events = [];
   const tracker = { event: (...args) => events.push(args) };
   const first = load({ tracker });
-  first.run('show_practice(); answer_practice("square");');
+  first.run('');
   assert.deepEqual(events, []);
   first.run('start_test(); start_test(); request_finish(); finish_test(); finish_test();');
   assert.deepEqual(events, [['used'], ['test_completed']]);
@@ -478,12 +470,8 @@ test('a blocked or failing tracker cannot prevent starting and completing a test
 });
 
 
-test('Danish practice, active test and accessible answers are translated', () => {
+test('Danish direct start, active test and accessible answers are translated', () => {
   const app = load({language:'da-DK'});
-  app.run('show_practice(); answer_practice("circle");');
-  assert.match(app.element('practice-feedback').textContent, /^Prøv igen/);
-  app.run('answer_practice("square")');
-  assert.match(app.element('practice-feedback').textContent, /^Rigtigt!/);
   assert.equal(app.intervals.size, 0);
   app.run('start_test(); request_finish()');
   assert.equal(app.element('question-number').textContent, 'Opgave 1 / 36');
@@ -657,7 +645,7 @@ test('question 36 corrections are versioned without changing saved answers or de
  assert.match(old.run('get_picture_path(36,1,true)'),/test36\/[^/]+\.png$/);
  old.run('submit_answer(2,get_hash(2,1,true))');
  assert.equal(JSON.parse(old.store.get('iqchampion.attempt.v4')).puzzleVersion,1);
- old.run('request_finish();finish_test();show_practice();start_test();');
+ old.run('request_finish();finish_test();start_test();');
  assert.equal(old.run('puzzle_version'),3);
 });
 
@@ -667,7 +655,7 @@ test('only complete results expose a share link; share URLs contain no answers o
  app.run('start_test();submit_answer(1,get_hash(1,1,true));request_finish();finish_test();');
  assert.equal(app.element('iq-estimate').textContent,'—');
  assert.equal(app.element('share-result-link').hidden,true);
- app.run('show_practice();start_test();for(let i=1;i<=36;i++)submit_answer(i,get_hash(i,i<=25?1:2,true));request_finish();finish_test();');
+ app.run('start_test();for(let i=1;i<=36;i++)submit_answer(i,get_hash(i,i<=25?1:2,true));request_finish();finish_test();');
  assert.equal(app.element('share-result-link').hidden,false);
  let url=new URL(app.element('share-result-link').attributes.href);
  assert.equal(url.hostname,'www.facebook.com');
@@ -695,7 +683,7 @@ test('legacy open clients cannot overwrite or continuously restore versioned att
  store.set('iqchampion.attempt.v1',JSON.stringify({...legacy,completed:true}));
  app.windowEvents.storage({key:'iqchampion.attempt.v1'});
  assert.equal(app.element('answer-review').hidden,false);
- app.run('return_to_result();show_practice();start_test();');
+ app.run('return_to_result();start_test();');
  assert.equal(app.run('puzzle_version'),3);
  const current=store.get('iqchampion.attempt.v4');
  store.set('iqchampion.attempt.v1',JSON.stringify({...legacy,completed:true}));
@@ -744,7 +732,7 @@ test('all 36 post-test explanations remain bilingual and follow the saved puzzle
 
 
 test('notification checkpoint is created only for a new start and restored unchanged',()=>{
- const app=load({notificationStub:true});app.run('show_practice();answer_practice("square")');
+ const app=load({notificationStub:true});app.run('');
  assert.equal(app.rememberedNotifications.length,0);
  app.run('start_test()');const payload=JSON.parse(app.store.get('iqchampion.attempt.v4')).startNotification;
  assert.equal(payload.type,'test_started');assert.deepEqual(payload.data,{});
