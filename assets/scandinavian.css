@@ -173,3 +173,94 @@ html[dir="rtl"] .hero .primary .ui-icon { right:auto; left:18px; transform:rotat
 html[dir="rtl"] .test-facts > div+div::before { left:auto; right:0; }html[dir="rtl"] .test-toolbar .toolbar-control { text-align:right; }html[dir="rtl"] .test-toolbar .disclosure-caret { margin-left:0; margin-right:auto; }
 html[dir="rtl"] .statistics-table { text-align:right; }html[dir="rtl"] #language-dialog { text-align:right; }
 @media (max-width:599px) { .language-trigger { min-height:32px; padding:5px 8px; font-size:11px; gap:5px; }.language-trigger img { width:21px; height:16px; }#language-current-name { max-width:100px; }#language-dialog { padding:18px; }.language-list { grid-template-columns:repeat(2,minmax(0,1fr)); }.language-list .language-choice { font-size:13px; padding:9px 7px; }.language-english { font-size:10px; }.language-dialog-header h2 { font-size:21px; } }
+
+/* The viewport is the page, not a simulated device card. */
+body {
+  background: #fff;
+}
+
+main {
+  --page-gutter: max(28px, calc((100vw - 1120px) / 2 + 28px));
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  min-height: 100vh;
+  min-height: 100svh;
+  margin: 0;
+  border: 0;
+  border-radius: 0;
+  box-shadow: none;
+  overflow: clip;
+}
+
+.site-header {
+  flex-shrink: 0;
+  padding-inline: var(--page-gutter);
+}
+
+.intro {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  align-items: stretch;
+}
+
+.hero {
+  flex: 1;
+  padding-inline: calc(var(--page-gutter) + 28px);
+}
+
+.screen:not(.intro) {
+  flex: 1;
+  padding-inline: var(--page-gutter);
+}
+
+.test-screen {
+  display: flex;
+  flex-direction: column;
+}
+
+.test-screen .left-right {
+  flex: 1;
+  align-content: center;
+}
+
+.site-footer {
+  flex-shrink: 0;
+  margin: auto var(--page-gutter) 0;
+  padding-bottom: max(14px, env(safe-area-inset-bottom));
+}
+
+@media (max-width: 599px) {
+  main {
+    --page-gutter: 20px;
+  }
+
+  .hero {
+    justify-content: space-between;
+    padding-inline: var(--page-gutter);
+  }
+
+  .hero-copy {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+
+  .hero-visual {
+    flex-shrink: 0;
+  }
+
+  .test-screen {
+    justify-content: space-evenly;
+  }
+
+  .test-screen .left-right {
+    flex: 0 0 auto;
+  }
+
+  .site-footer {
+    padding-bottom: max(10px, env(safe-area-inset-bottom));
+  }
+}
