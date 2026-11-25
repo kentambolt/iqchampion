@@ -1,0 +1,98 @@
+{
+  "packageName": "com.iqchampion.app",
+  "state": "saved-in-play-console-awaiting-review-submission",
+  "privacyPolicy": "https://iqchampion.com/privacy/",
+  "collected": true,
+  "shared": false,
+  "encryptionInTransit": true,
+  "accountCreation": false,
+  "deletionRequest": "Contact contact@iqchampion.com or the privacy-page feedback link. Local attempts are deleted through browser site-data settings.",
+  "data": [
+    {
+      "type": "Approximate location",
+      "source": "Country inferred from the request IP by self-hosted analytics; no GPS",
+      "purpose": [
+        "Analytics"
+      ],
+      "collection": "Required in the normal online flow; browser DNT/GPC is respected"
+    },
+    {
+      "type": "App interactions",
+      "source": "Fixed page/usage/test-start/test-completed events; no answers or IQ score",
+      "purpose": [
+        "Analytics"
+      ],
+      "collection": "Required in the normal online flow; browser DNT/GPC is respected"
+    },
+    {
+      "type": "Diagnostics",
+      "source": "Fixed browser error classifications; no raw messages or stack traces",
+      "purpose": [
+        "Analytics"
+      ],
+      "collection": "Required in the normal online flow; browser DNT/GPC is respected"
+    },
+    {
+      "type": "Device or other IDs",
+      "source": "Short-lived pseudonymous analytics session and random event IDs; no advertising ID",
+      "purpose": [
+        "Analytics",
+        "Fraud prevention, security, and compliance"
+      ],
+      "collection": "Required in the normal online flow; browser DNT/GPC is respected"
+    },
+    {
+      "type": "Name",
+      "source": "Voluntary feedback sender name, if provided",
+      "purpose": [
+        "App functionality"
+      ],
+      "collection": "Optional"
+    },
+    {
+      "type": "Email address",
+      "source": "Voluntary feedback sender email, if provided",
+      "purpose": [
+        "App functionality"
+      ],
+      "collection": "Optional"
+    },
+    {
+      "type": "Other user-generated content",
+      "source": "Voluntary private support/feedback text",
+      "purpose": [
+        "App functionality"
+      ],
+      "collection": "Optional"
+    }
+  ],
+  "notCollected": [
+    "Individual puzzle answers",
+    "IQ score",
+    "Question timing records",
+    "Age",
+    "Country choice",
+    "Precise location",
+    "Contacts",
+    "Microphone",
+    "Camera",
+    "Payment data"
+  ],
+  "sharingExceptions": [
+    "Service providers process on behalf of the developer",
+    "Facebook transfer happens only at a user-initiated share action"
+  ],
+  "certifications": {
+    "independentSecurityReview": false,
+    "upi": false
+  },
+  "notes": [
+    "The public comparison collector remains disabled.",
+    "Do not publish a no-data-collected declaration.",
+    "Confirm exact Console category wording against the current UI before submission.",
+    "Native automatic Play protection remains enabled; do not bypass licensing for QA."
+  ],
+  "deletionUrl": "https://iqchampion.com/privacy/#delete-data",
+  "ownerApproved": true,
+  "ownerApprovalDate": "2026-11-25"
+}
