@@ -36,6 +36,17 @@ test('production payload is exactly the neutral v1 contract and uses credentiall
  assert.ok(Buffer.byteLength(init.body)<2048);assert.deepEqual(JSON.parse(init.body),e);const state=await inspect(f);assert.equal(state.events.length,0);assert.equal(state.receipts.length,1);await f.producer.close();
 });
 
+test('native QA query flags prevent event creation, journaling and later delivery',async()=>{
+ const valid=fixture();const sample=valid.producer.createStart();await valid.producer.close();
+ for(const search of ['?qa=1','?preview=1','?test=1','?lang=da&qa=1&other=1']){
+  const f=fixture({location:{origin:ORIGIN,pathname:'/',search}});
+  assert.equal(f.producer.createStart(),null);
+  await f.producer.remember(sample);await f.producer.flush();
+  assert.equal(f.calls.length,0);assert.equal((await f.indexedDB.databases()).length,0);
+  await f.producer.close();
+ }
+});
+
 test('unknown fields, private data, invalid UUID, environment and dates are rejected without IO',async()=>{
  const f=fixture();const e=f.producer.createStart();for(const bad of [{...e,email:'synthetic'},{...e,data:{email:'synthetic'}},{...e,id:e.id.toUpperCase()},{...e,id:'bad'},{...e,environment:'staging'},{...e,project:'other'},{...e,occurred_at:new Date(f.now()+300001).toISOString()},{...e,occurred_at:new Date(f.now()-TTL-1).toISOString()},{...e,occurred_at:'2026-11-19T14:00:00Z'}])assert.equal(await f.producer.remember(bad),'invalid');assert.equal(f.calls.length,0);assert.equal((await f.indexedDB.databases()).length,0);await f.producer.close();
 });

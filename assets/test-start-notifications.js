@@ -29,7 +29,8 @@
     let opened = null, db = null, draining = null, timer = null, activeController = null, closed = false;
     const profileAllowed = () => !closed && options.enabled === true && (options.environment ?? 'production') === 'production' && Array.isArray(options.allowedOrigins)
       && options.allowedOrigins.includes(scope.origin) && String(scope.origin).startsWith('https://')
-      && paths.has(scope.pathname);
+      && paths.has(scope.pathname)
+      && !/[?&](qa|preview|test)=1(?:&|$)/.test(scope.search || '');
     function privacyAllowed() {
       try {
         return nav.globalPrivacyControl !== true && !nav.webdriver

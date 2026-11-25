@@ -3,6 +3,7 @@
 // Product-owned copy only. No user data is sent to a translation service.
 const i18n = (() => {
   const da = {
+    "Privacy": "Privatliv",
     "Estimated median range": "Estimeret medianinterval",
     "Public comparisons include all contributors using this puzzle version. Optional age group and country are only used in private aggregate statistics.": "Offentlige sammenligninger omfatter alle bidrag på denne opgaveversion. Frivillig aldersgruppe og land bruges kun i privat, samlet statistik.",
     "I agree to contribute my anonymous question results, active times and any optional age group or country to aggregate statistics.": "Jeg accepterer, at mine anonyme opgaveresultater, aktive tider og eventuelt valgt aldersgruppe eller land indgår i samlet statistik.",
@@ -216,6 +217,7 @@ const i18n = (() => {
     for (const {code} of catalog) document.getElementById('language-'+code)?.setAttribute('aria-current', language === code ? 'page' : 'false');
     const link = document.getElementById('feedback-link');
     if (link) link.setAttribute('href', 'https://munthesystems.dk/systems/feedback/iqchampion?lang='+(language==='da'?'da':'en'));
+    document.getElementById('privacy-link')?.setAttribute('href',language==='da'?'/privacy/da/':'/privacy/');
     const locale=catalog.find(l=>l.code===language);
     const label=document.getElementById('language-current-name');if(label)label.textContent=locale.nativeName;
     document.getElementById('language-current-flag')?.setAttribute('src','images/flags/'+locale.flag+'.svg');
@@ -239,7 +241,7 @@ const i18n = (() => {
     }
   }
   let languageRequest=0;const loading=new Map();
-  function load(code){if(packs[code])return Promise.resolve();if(loading.has(code))return loading.get(code);const promise=new Promise((resolve,reject)=>{if(!document.createElement||!document.head?.append){reject(Error('Language unavailable'));return;}const script=document.createElement('script');script.src='assets/locales/'+code+'.js?v=20261122-l10n1';script.async=true;const timeout=setTimeout(()=>reject(Error('Language timeout')),15000);script.onload=()=>{clearTimeout(timeout);packs[code]?.code===code&&typeof packs[code].messages?.['Free IQ test for fun | IQ Champion']==='string'&&Object.keys(packs.en.messages).every(key=>typeof packs[code].messages[key]==='string'&&packs[code].messages[key].trim())&&IQLocaleTemplates.sources.every(source=>IQLocaleTemplates.valid(source,packs[code].templates?.[source]))?resolve():(delete packs[code],reject(Error('Language unavailable')));};script.onerror=()=>{clearTimeout(timeout);reject(Error('Language unavailable'));};document.head.append(script);}).finally(()=>loading.delete(code));loading.set(code,promise);return promise;}
+  function load(code){if(packs[code])return Promise.resolve();if(loading.has(code))return loading.get(code);const promise=new Promise((resolve,reject)=>{if(!document.createElement||!document.head?.append){reject(Error('Language unavailable'));return;}const script=document.createElement('script');script.src='assets/locales/'+code+'.js?v=20261125-app1';script.async=true;const timeout=setTimeout(()=>reject(Error('Language timeout')),15000);script.onload=()=>{clearTimeout(timeout);packs[code]?.code===code&&typeof packs[code].messages?.['Free IQ test for fun | IQ Champion']==='string'&&Object.keys(packs.en.messages).every(key=>typeof packs[code].messages[key]==='string'&&packs[code].messages[key].trim())&&IQLocaleTemplates.sources.every(source=>IQLocaleTemplates.valid(source,packs[code].templates?.[source]))?resolve():(delete packs[code],reject(Error('Language unavailable')));};script.onerror=()=>{clearTimeout(timeout);reject(Error('Language unavailable'));};document.head.append(script);}).finally(()=>loading.delete(code));loading.set(code,promise);return promise;}
   function setLanguage(next,persist=true){if(!supported(next))return false;const request=++languageRequest;if(packs[next]){applyLanguage(next,persist);return true;}const status=document.getElementById('language-load-status');if(status)status.textContent=translate('Loading language…');return load(next).then(()=>{if(request!==languageRequest)return false;applyLanguage(next,persist);if(status)status.textContent='';return true;}).catch(()=>{if(request===languageRequest&&status)status.textContent=translate('The language could not be loaded. Your test and answers are unchanged.');return false;});}
   // Capture only the initial product-owned HTML. Dynamic content uses the same bindings below.
   if (document.createTreeWalker) {

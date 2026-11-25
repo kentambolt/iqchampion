@@ -70,24 +70,26 @@
 <meta name="description" content="無料で楽しめるIQスタイルのテスト：36個のビジュアルパズル、40分、進行状況の保存、推定IQ結果。 アカウント登録不要。">
 <link href="assets/styles.css?v=20261122-stats1" rel="stylesheet">
 <link href="assets/scandinavian.css?v=20261123-shell1" rel="stylesheet">
-<script src="assets/languages.js?v=20261122-l10n1" defer></script>
-<script src="assets/locale-templates.js?v=20261122-l10n1" defer></script>
-<script id="locale-pack" src="assets/locales/ja.js?v=20261122-l10n1" defer></script>
+<script src="assets/languages.js?v=20261125-app1" defer></script>
+<script src="assets/locale-templates.js?v=20261125-app1" defer></script>
+<script id="locale-pack" src="assets/locales/ja.js?v=20261125-app1" defer></script>
 <script src="assets/time_and_scores.js?v=20261113-1" defer></script>
 <script src="assets/percentiles.js?v=20261114-1" defer></script>
 <script src="assets/md5.js?v=20261113-1" defer></script>
 <script src="assets/explanations.js?v=20261114-1" defer></script>
-<script src="assets/i18n.js?v=20261122-stats1" defer></script>
+<script src="assets/i18n.js?v=20261125-app1" defer></script>
 <script src="assets/iq-score.js?v=20261114-1" defer></script>
-<script src="assets/test-start-notifications.js?v=20261119-live1" defer></script>
+<script src="assets/test-start-notifications.js?v=20261125-qa1" defer></script>
 <script src="assets/attempt-statistics.js?v=20261122-stats1" defer></script>
 <script src="assets/comparisons.js?v=20261122-stats1" defer></script>
 <script src="assets/statistics-transport.js?v=20261122-stats1" defer></script>
 <script src="assets/result-statistics.js?v=20261122-stats1" defer></script>
 <script src="assets/app.js?v=20261122-stats1" defer></script>
-<script src="https://munthesystems.dk/systems/tracker.894a456da1305558.js" integrity="sha384-oGiw7CoaEVI+Ck8QDz70VAKJIosxw7zK9HTPC2p1LL6VwZ0wXtDArQS3qZxiHey8" crossorigin="anonymous" data-project="iqchampion" data-page="test" data-feedback="false" async></script>
+<script src="assets/telemetry-profile.js?v=20261125-app1" data-project="iqchampion" data-page="test" data-feedback="false" defer></script>
 <script src="assets/layout.js?v=20261122-stats1" defer></script>
-<script src="assets/language-picker.js?v=20261122-l10n1" defer></script>
+<script src="assets/language-picker.js?v=20261125-app1" defer></script>
+<link rel="manifest" href="/manifest.webmanifest">
+<script src="assets/pwa.js?v=20261125-app1" defer></script>
 </head>
 <body>
 <main>
@@ -239,7 +241,7 @@
     <p class="action-note review-final-note">提出した解答と最終スコアは変更されません。</p>
   </section>
   <p id="feedback-language-note" class="feedback-language-note">フィードバックはデンマーク語と英語でご利用いただけます。</p>
-  <footer class="site-footer"><span>IQ Champion</span><a id="share-test-link" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fiqchampion.com%2Fja%2F" target="_blank" rel="noopener noreferrer">Facebookでテスト結果を共有</a><a id="feedback-link" href="https://munthesystems.dk/systems/feedback/iqchampion?lang=en" target="_blank" rel="noopener noreferrer" aria-label="フィードバックを送信するか、お問い合わせください">フィードバックとお問い合わせ</a><a href="https://www.linkedin.com/in/kent-caspersen-49531394/">お問い合わせ</a></footer>
+  <footer class="site-footer"><span>IQ Champion</span><a id="share-test-link" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fiqchampion.com%2Fja%2F" target="_blank" rel="noopener noreferrer">Facebookでテスト結果を共有</a><a id="feedback-link" href="https://munthesystems.dk/systems/feedback/iqchampion?lang=en" target="_blank" rel="noopener noreferrer" aria-label="フィードバックを送信するか、お問い合わせください">フィードバックとお問い合わせ</a><a id="privacy-link" href="/privacy/">プライバシー</a><a href="https://www.linkedin.com/in/kent-caspersen-49531394/">お問い合わせ</a></footer>
 <dialog id="info-sheet" aria-labelledby="sheet-title"><header class="sheet-header"><h2 id="sheet-title"></h2><button id="sheet-close" class="secondary" type="button" aria-label="閉じる"><svg class="ui-icon" viewBox="0 0 16 16" aria-hidden="true" focusable="false" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="m4 4 8 8M12 4l-8 8"/></svg></button></header><div id="sheet-content"></div></dialog>
 <dialog id="language-dialog" aria-labelledby="language-dialog-title"><div class="language-dialog-header"><h2 id="language-dialog-title">言語を選択</h2><button id="language-picker-close" type="button" class="secondary" aria-label="言語セレクターを閉じる"><svg class="ui-icon" viewBox="0 0 16 16" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.7"><path d="m4 4 8 8M12 4l-8 8"/></svg></button></div><p class="small">お好みの言語を選択してください。 解答と元の締め切り時間は保存されます。</p><label for="language-search">言語を検索</label><input id="language-search" type="search" autocomplete="off" spellcheck="false" dir="auto"><p id="language-load-status" class="small" role="status"></p><p id="language-no-results" class="small" hidden>言語が見つかりませんでした</p><nav class="language-list" data-i18n-skip aria-label="言語"><a id="language-da" class="language-choice" href="/da/" lang="da" hreflang="da" data-language-code="da" data-language-search="da Dansk Danish" aria-current="false"><img src="images/flags/dk.svg" width="24" height="18" alt="" aria-hidden="true" loading="lazy"><span class="language-choice-name" dir="auto">Dansk</span><span class="language-english">Danish</span></a>
 <a id="language-en" class="language-choice" href="/en/" lang="en" hreflang="en" data-language-code="en" data-language-search="en English English" aria-current="false"><img src="images/flags/gb.svg" width="24" height="18" alt="" aria-hidden="true" loading="lazy"><span class="language-choice-name" dir="auto">English</span><span class="language-english">English</span></a>
