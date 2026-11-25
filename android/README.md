@@ -20,4 +20,4 @@ Do not remove `ManageDataLauncherActivity`: the helper's startup requires its ma
 
 ## Offline assets
 
-Run `npm run build:languages` then `node tools/Build-Offline.cjs` after changing public assets. The service worker downloads a fixed release snapshot, including all language packs and puzzles, after the first online load. It never caches external services, telemetry, submissions, feedback or Digital Asset Links. Updates wait for old tabs to close and never clear saved answers. A first-ever offline launch still requires a connection.
+Run `npm run build:languages` then `node tools/Build-Offline.cjs` after changing public assets. The service worker downloads one compressed, checksum-verified release snapshot, including all language packs and puzzles, after the first online load. An incomplete snapshot is discarded. Public navigation falls back to that snapshot after a failed request or five seconds without a response. It never caches external services, telemetry, submissions, feedback or Digital Asset Links. Updates wait for old tabs to close and never clear saved answers. A first-ever offline launch still requires a connection.
