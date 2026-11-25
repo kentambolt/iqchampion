@@ -1,0 +1,10 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.iqchampion.app",
+      "sha256_cert_fingerprints": ["61:3D:03:D4:E1:12:6D:33:4E:CA:21:10:67:F9:B3:21:F2:6C:55:D0:86:A8:DD:C0:25:98:C4:34:8B:2B:8B:30"]
+    }
+  }
+]

@@ -3,8 +3,8 @@
   "private": true,
   "scripts": {
     "test": "node --test checks/*.test.cjs",
-    "check:release": "node tools/Build-Language-Pages.cjs --check",
-    "build:languages": "node tools/Build-Language-Pages.cjs"
+    "check:release": "node tools/Build-Language-Pages.cjs --check && node tools/Build-Offline.cjs --check",
+    "build:languages": "node tools/Build-Language-Pages.cjs && node tools/Build-Offline.cjs"
   },
   "devDependencies": {
     "fake-indexeddb": "6.2.8",

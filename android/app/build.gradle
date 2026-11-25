@@ -1,0 +1,50 @@
+plugins { id 'com.android.application' }
+
+def uploadKey = System.getenv('IQ_ANDROID_KEYSTORE')
+
+android {
+    namespace 'com.iqchampion.android'
+    compileSdk 36
+    buildToolsVersion '36.0.0'
+
+    defaultConfig {
+        applicationId 'com.iqchampion.app'
+        minSdk 26
+        targetSdk 36
+        versionCode = (project.findProperty('iqVersionCode') ?: '1').toInteger()
+        versionName = project.findProperty('iqVersionName') ?: '1.0.0'
+        manifestPlaceholders = [launchUrl: 'https://iqchampion.com/']
+    }
+    signingConfigs {
+        debug {
+            storeFile rootProject.file('.local/keys/test.keystore')
+            storePassword 'android'
+            keyAlias 'androiddebugkey'
+            keyPassword 'android'
+        }
+        if (uploadKey) {
+            release {
+                storeFile file(uploadKey)
+                storePassword System.getenv('IQ_ANDROID_STORE_PASSWORD')
+                keyAlias System.getenv('IQ_ANDROID_KEY_ALIAS')
+                keyPassword System.getenv('IQ_ANDROID_KEY_PASSWORD')
+            }
+        }
+    }
+    buildTypes {
+        debug {
+            applicationIdSuffix '.test'
+            versionNameSuffix '-test'
+            resValue 'string', 'app_name', 'IQ Champion Test'
+            manifestPlaceholders.launchUrl = 'https://iqchampion.com/?qa=1'
+        }
+        release {
+            minifyEnabled false
+            if (uploadKey) signingConfig signingConfigs.release
+        }
+    }
+}
+
+dependencies {
+    implementation 'com.google.androidbrowserhelper:androidbrowserhelper:2.8.0'
+}
