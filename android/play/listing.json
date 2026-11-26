@@ -4,7 +4,9 @@
   "website": "https://iqchampion.com/",
   "privacy": "https://iqchampion.com/privacy/",
   "category": "ENTERTAINMENT",
-  "consoleState": "ready-for-google-review",
+  "consoleState": "under-google-review",
+  "reviewSubmittedOn": "2026-11-26",
+  "automaticPublicationAfterApproval": true,
   "releaseCountries": "all-available",
   "phoneResumeTestConfirmedOn": "2026-11-26",
   "aiDeclarationPlan": {
