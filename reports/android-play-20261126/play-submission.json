@@ -1,0 +1,23 @@
+{
+  "project": "iqchampion",
+  "packageName": "com.iqchampion.app",
+  "versionName": "1.0.0",
+  "versionCode": 1,
+  "verifiedAt": "2026-11-26T13:20:51Z",
+  "source": "Actual Google Play Console UI, CUA in-app browser 2, IQ tab 3",
+  "observedHeading": "Ændringerne er under gennemgang",
+  "observedMessage": "Dine ændringer gennemgås nu. Vi finder muligvis yderligere problemer, når vi gennemgår din app.",
+  "productionRollout": "Full rollout after approval",
+  "countries": {"namedCountriesOrRegions": 177, "restOfWorld": true},
+  "storeLocales": ["en-US", "da-DK"],
+  "changesSubmitted": 12,
+  "managedPublishingEnabled": false,
+  "publicAvailabilityConfirmed": false,
+  "ownerPhoneResumeTestConfirmed": true,
+  "phoneInstalledVersionSeparatelyRead": false,
+  "aiLabels": {"icon-512.png": true, "feature-en.png": true, "feature-da.png": true, "store-question-en.png": false, "store-explanation-en.png": false, "store-question-da.png": false, "store-explanation-da.png": false},
+  "validation": {"blockingErrorsShown": 0, "warnings": ["Missing deobfuscation mapping; this build has minifyEnabled=false"]},
+  "qaEmulatorStopped": true,
+  "newProductionTestEventsCreated": false,
+  "resultCollectorEnabled": false
+}

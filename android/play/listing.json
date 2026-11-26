@@ -1,0 +1,28 @@
+{
+  "appName": "IQ Champion",
+  "supportEmail": "contact@iqchampion.com",
+  "website": "https://iqchampion.com/",
+  "privacy": "https://iqchampion.com/privacy/",
+  "category": "ENTERTAINMENT",
+  "consoleState": "under-google-review",
+  "reviewSubmittedOn": "2026-11-26",
+  "automaticPublicationAfterApproval": true,
+  "releaseCountries": "all-available",
+  "phoneResumeTestConfirmedOn": "2026-11-26",
+  "aiDeclarationPlan": {
+    "mark": ["icon-512.png", "feature-en.png", "feature-da.png"],
+    "leaveUnmarked": ["store-question-en.png", "store-question-da.png", "store-explanation-en.png", "store-explanation-da.png"],
+    "submitted": true,
+    "ownerApprovedOn": "2026-11-26"
+  },
+  "listings": {
+    "en-US": {
+      "shortDescription": "36 visual puzzles, 40 minutes and an estimated IQ result. Just for fun.",
+      "fullDescription": "Spot the pattern. Find the missing piece.\n\nIQ Champion is a free visual reasoning challenge with 36 colourful puzzles and a 40-minute time limit. Skip a tricky question and return later. Your answers and original deadline stay saved when you close or reload the app.\n\nAfter finishing, review your correct, incorrect and unanswered puzzles, read the explanations and explore your own question timings and strongest moments. Choose from 50 interface languages, including English and Danish. No account, purchases or in-app advertising.\n\nThe app uses the same test as iqchampion.com. After the first complete online download, puzzles and interface work offline. Initial setup, feedback and sharing need internet.\n\nFor entertainment: the estimated IQ result is an informal approximation based on 10,216 historical attempts. It is not a professionally administered, representative or clinically verified IQ assessment and should not be used for educational, employment or medical decisions."
+    },
+    "da-DK": {
+      "shortDescription": "36 visuelle opgaver, 40 minutter og et estimeret IQ-resultat. For sjov.",
+      "fullDescription": "Spot mønstret. Find den manglende brik.\n\nIQ Champion er en gratis udfordring i visuel ræsonnering med 36 farverige opgaver og en tidsgrænse på 40 minutter. Spring en svær opgave over og vend tilbage senere. Dine svar og den oprindelige tidsfrist gemmes, når du lukker eller genindlæser appen.\n\nEfter testen kan du gennemgå rigtige, forkerte og ubesvarede opgaver, læse forklaringer og se dine egne opgavetider og stærkeste øjeblikke. Vælg mellem 50 sprog, inklusive dansk og engelsk. Ingen konto, køb eller reklamer i appen.\n\nAppen bruger den samme test som iqchampion.com. Efter første fulde download kan opgaver og brugerflade bruges offline. Første opsætning, feedback og deling kræver internet.\n\nFor sjov: Det estimerede IQ-resultat er en uformel tilnærmelse baseret på 10.216 historiske forsøg. Det er ikke en professionelt administreret, repræsentativ eller klinisk verificeret IQ-vurdering og bør ikke bruges til beslutninger om uddannelse, ansættelse eller sundhed."
+    }
+  }
+}
