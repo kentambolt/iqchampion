@@ -4,11 +4,14 @@
   "website": "https://iqchampion.com/",
   "privacy": "https://iqchampion.com/privacy/",
   "category": "ENTERTAINMENT",
-  "consoleState": "draft-saved-awaiting-specific-ai-declaration-approval",
+  "consoleState": "ready-for-google-review",
+  "releaseCountries": "all-available",
+  "phoneResumeTestConfirmedOn": "2026-11-26",
   "aiDeclarationPlan": {
     "mark": ["icon-512.png", "feature-en.png", "feature-da.png"],
     "leaveUnmarked": ["store-question-en.png", "store-question-da.png", "store-explanation-en.png", "store-explanation-da.png"],
-    "submitted": false
+    "submitted": true,
+    "ownerApprovedOn": "2026-11-26"
   },
   "listings": {
     "en-US": {
